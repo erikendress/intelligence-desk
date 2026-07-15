@@ -33,6 +33,11 @@ EXCLUDE general trend/analysis pieces with no single datable incident at a named
 disruptions (weather, staffing, utilities) unless a safety protective action was taken; opinion, policy,
 and historical retrospectives.
 
+GEOGRAPHY: Only include incidents physically located in the United States or the United Kingdom. If the
+school or campus is anywhere else (e.g. Australia, India, Ireland, Canada), return {"include": false,
+"reason": "outside US/UK scope"}. Set "country" to exactly "US" or "UK" from where the incident physically
+occurred — never guess; if you cannot confirm it is US or UK, exclude it.
+
 RULES: Extract only what the text supports; use null for unknowns. Never assert a hoax-or-real
 determination the article does not state — use "Under investigation". If one event affected multiple named
 facilities, emit one record per facility and give them the SAME cluster_hint. Quote a short verbatim
@@ -232,6 +237,8 @@ def run(mock=False):
             for rec in (res.get("records") or []):
                 if not rec.get("facility_name") or not rec.get("date"):
                     continue  # skip incomplete records
+                if rec.get("country") not in ("US", "UK"):
+                    continue  # US/UK scope only (backstop for the prompt)
                 rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
                 outcome = upsert(con, rec)
                 stats["recognized"] += 1
