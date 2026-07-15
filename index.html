@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incident Awareness Board — US &amp; UK | OnScene Technologies Intelligence Desk</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  @import url('https://api.fontshare.com/v2/css?f[]=switzer@400,500,600,700,800&display=swap');
+  :root{
+    --ink:#0f0f0f; --navy:#0f0f0f; --muted:#6b6660; --line:#e6e2db; --bg:#f8f6f1; --card:#fff;
+    --accent:#ff6207; --accent2:#ce3000;
+    --swat:#ef4444; --bomb:#e26b08; --other:#9333ea;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:'Switzer',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.45;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent2)}
+  header{background:linear-gradient(120deg,#0f0f0f,#1c1c1c);color:#fff;padding:18px 24px}
+  .hwrap{max-width:1400px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{width:42px;height:42px;border-radius:9px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+  h1{font-size:19px;margin:0;font-weight:700;letter-spacing:.2px}
+  .sub{font-size:12.5px;color:#b4aca0;margin-top:2px}
+  .powered{font-size:12px;color:#b4aca0}
+  .powered b{color:#fff}
+  .strip{background:#fff7ed;border-bottom:1px solid #fed7aa;color:#9a3412;font-size:12.5px;padding:8px 24px}
+  .strip .sw{max-width:1400px;margin:0 auto}
+  .main{max-width:1400px;margin:0 auto;padding:20px 24px 40px}
+  .sense{background:linear-gradient(160deg,#0d0d0d,#1c1410);color:#f3efe8;border-radius:16px;padding:22px 24px;margin-bottom:20px;box-shadow:0 6px 24px rgba(15,15,15,.2)}
+  .sense .eyebrow{font-size:11.5px;text-transform:uppercase;letter-spacing:1.2px;color:#ffb16b;font-weight:700}
+  .sense h2{font-size:22px;margin:5px 0 10px;font-weight:800;color:#fff}
+  .sense .narr{font-size:15px;line-height:1.6;color:#ded8ce;max-width:1050px}
+  .sense .narr b{color:#fff}
+  .tstamp{font-size:12px;color:#b4aca0;margin-top:10px}
+  .takeaways{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:18px 0 2px}
+  .tk{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:11px;padding:12px 14px}
+  .tk .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;color:#c8c0b6;font-weight:700}
+  .tk .v{font-size:24px;font-weight:800;color:#fff;margin-top:4px;line-height:1.1}
+  .tk .d{font-size:11px;color:#a89c8e;margin-top:3px}
+  .filters{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .fgroup{display:flex;align-items:center;gap:8px}
+  .fgroup label{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+  .chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;user-select:none}
+  .chip .sw{width:10px;height:10px;border-radius:50%}
+  .chip.off{opacity:.35}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  .seg button{font:inherit;font-size:12.5px;padding:7px 12px;border:0;background:#fff;cursor:pointer;color:var(--muted)}
+  .seg button.on{background:var(--accent);color:#fff;font-weight:600}
+  input[type=search]{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;min-width:180px}
+  .reset{margin-left:auto;font-size:12.5px;color:var(--accent2);background:none;border:0;cursor:pointer;font-weight:600}
+  .grid{display:grid;grid-template-columns:1.5fr 1fr;gap:16px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+  .panel h3{font-size:13px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:0;padding:12px 14px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}
+  #map{height:600px;width:100%;background:#dfe7ef}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;padding:10px 14px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .legend .sw{width:11px;height:11px;border-radius:50%}
+  .list{max-height:600px;overflow-y:auto}
+  .row{padding:12px 14px;border-bottom:1px solid var(--line);cursor:pointer}
+  .row:hover{background:#f8fafc}
+  .row .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+  .row .name{font-weight:700;font-size:14px;color:var(--navy)}
+  .row .date{font-size:12px;color:var(--muted);white-space:nowrap}
+  .row .loc{font-size:12.5px;color:var(--ink);margin-top:1px}
+  .row .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px;align-items:center}
+  .badge{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;padding:3px 8px;border-radius:999px;color:#fff}
+  .cty{font-size:10px;font-weight:800;letter-spacing:.5px;padding:2px 6px;border-radius:5px;background:var(--ink);color:#fff}
+  .tag{font-size:11px;padding:3px 8px;border-radius:999px;background:#f1f5f9;color:#475569;border:1px solid var(--line)}
+  .tag.inv{background:#fffbeb;color:#92400e;border-color:#fde68a}
+  .tag.hoax{background:#f0fdf4;color:#166534;border-color:#bbf7d0}
+  .row .notes{font-size:12.5px;color:#475569;margin-top:7px}
+  .row a.src{font-size:12px;font-weight:600}
+  .count{font-size:12px;color:var(--muted);font-weight:600;text-transform:none;letter-spacing:0}
+  .state{padding:40px 20px;text-align:center;color:var(--muted);font-size:14px}
+  .lp{font-family:inherit;min-width:210px}
+  .lp .n{font-weight:700;color:var(--navy);font-size:14px}
+  .lp .l{color:#475569;font-size:12.5px;margin:2px 0 6px}
+  .lp .b{margin:6px 0}
+  footer{max-width:1400px;margin:0 auto;padding:22px 24px 60px;color:var(--muted);font-size:12.5px}
+  @media(max-width:960px){.takeaways{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}#map{height:400px}.list{max-height:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hwrap">
+    <div class="brand">
+      <div class="logo">◎</div>
+      <div>
+        <h1>Incident Awareness Board — US &amp; UK</h1>
+        <div class="sub">School &amp; campus threat activity — updated hourly from public reporting</div>
+      </div>
+    </div>
+    <span class="powered">Powered by <b>OnScene Technologies</b></span>
+  </div>
+</header>
 
+<div class="strip"><div class="sw">
+  A resource for <b>understanding</b> incident patterns — not a real-time alert or an operational tool. Compiled automatically from public reporting and refreshed hourly; definitive where events are catchable, an honest sample where they aren't. <b>Not comprehensive or official — an empty map is not an all-clear.</b> Every record links to its source.
+</div></div>
+
+<div class="main">
+  <section class="sense">
+    <div class="eyebrow">From the OnScene Technologies Intelligence Desk</div>
+    <h2 id="headline">What we're seeing</h2>
+    <p class="narr" id="narr">Loading the latest incidents…</p>
+    <div class="takeaways" id="takeaways"></div>
+    <div class="tstamp" id="tstamp"></div>
+  </section>
+
+  <div class="filters" id="filters" style="display:none">
+    <div class="fgroup">
+      <label>Country</label>
+      <div class="seg" id="country">
+        <button data-c="all" class="on">Both</button>
+        <button data-c="US">US</button>
+        <button data-c="UK">UK</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <label>Type</label>
+      <span class="chip" data-type="swat"><span class="sw" style="background:var(--swat)"></span>Swatting / Hoax</span>
+      <span class="chip" data-type="bomb"><span class="sw" style="background:var(--bomb)"></span>Bomb Threat</span>
+      <span class="chip" data-type="other"><span class="sw" style="background:var(--other)"></span>Other</span>
+    </div>
+    <div class="fgroup"><input type="search" id="search" placeholder="Search school, town, keyword…"></div>
+    <button class="reset" id="reset">Reset</button>
+  </div>
+
+  <div class="grid">
+    <div class="panel">
+      <h3>Map <span class="count" id="mapCount"></span></h3>
+      <div id="map"></div>
+      <div class="legend">
+        <span><span class="sw" style="background:var(--swat)"></span>Swatting / Active-Shooter Hoax</span>
+        <span><span class="sw" style="background:var(--bomb)"></span>Bomb Threat</span>
+        <span><span class="sw" style="background:var(--other)"></span>Other Threat / Lockdown</span>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>Incidents <span class="count" id="listCount"></span></h3>
+      <div class="list" id="list"><div class="state">Loading…</div></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p><b>About:</b> This board is produced automatically by the OnScene Technologies Intelligence Desk — a recognition engine that reads public news across the US and UK, identifies genuine school and campus safety incidents, and refreshes this feed hourly. It is a resource for understanding patterns, not an alerting or operational tool. Coverage is what public reporting makes catchable; absence of an incident is not confirmation nothing happened. Every record links to its original source.</p>
+</footer>
+
+<script>
+const FEED_URL = "https://raw.githubusercontent.com/erikendress/intelligence-desk/main/incidents.json";
+const COLORS = { swat:"#ef4444", bomb:"#e26b08", other:"#9333ea" };
+const BUCKET_LABEL = { swat:"Swatting / Hoax", bomb:"Bomb Threat", other:"Other" };
+let INCIDENTS = [];
+const stateF = { types:new Set(["swat","bomb","other"]), country:"all", q:"" };
+
+function typeBucket(t){
+  t = (t||"").toLowerCase();
+  if(/swat|hoax|active.?shooter/.test(t)) return "swat";
+  if(/bomb/.test(t)) return "bomb";
+  return "other";
+}
+function fmtDate(d){
+  if(!d) return "";
+  const p = d.split("-"); if(p.length<3) return d;
+  return new Date(p[0],p[1]-1,p[2]).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+}
+
+let map=null, markers=[];
+try{
+  map=L.map('map',{scrollWheelZoom:false}).setView([48,-40],3);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:12, attribution:'&copy; OpenStreetMap'}).addTo(map);
+}catch(e){
+  document.getElementById('map').innerHTML='<div class="state">Interactive map unavailable in this view — the incident list and filters remain functional.</div>';
+}
+
+function matches(i){
+  if(!stateF.types.has(typeBucket(i.type))) return false;
+  if(stateF.country!=="all" && i.country!==stateF.country) return false;
+  if(stateF.q){
+    const hay=(Object.values(i).join(" ")).toLowerCase();
+    if(!hay.includes(stateF.q.toLowerCase())) return false;
+  }
+  return true;
+}
+
+function render(refit){
+  const rows = INCIDENTS.filter(matches).sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  if(map){
+    markers.forEach(m=>map.removeLayer(m)); markers=[];
+    rows.forEach(i=>{
+      if(i.lat==null||i.lng==null) return;
+      const b=typeBucket(i.type);
+      const mk=L.circleMarker([i.lat,i.lng],{radius:8,color:"#fff",weight:2,fillColor:COLORS[b],fillOpacity:.9}).addTo(map);
+      mk.bindPopup(`<div class="lp"><div class="n">${i.school||"(unnamed)"}</div>
+        <div class="l">${[i.city,i.state].filter(Boolean).join(", ")} · ${i.country||""} · ${fmtDate(i.date)}</div>
+        <div class="b"><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span></div>
+        <div class="b">${i.response||""}</div>
+        <div class="b" style="color:#475569">${i.notes||""}</div>
+        ${i.url?`<a href="${i.url}" target="_blank" rel="noopener">Source: ${i.src||"link"} ↗</a>`:""}</div>`);
+      mk._iid=i.id; markers.push(mk);
+    });
+    if(refit && markers.length){
+      if(markers.length===1) map.setView(markers[0].getLatLng(),8);
+      else map.fitBounds(L.featureGroup(markers).getBounds().pad(0.25));
+    }
+  }
+  const list=document.getElementById('list');
+  list.innerHTML = rows.length ? rows.map(i=>{
+    const b=typeBucket(i.type);
+    const oc = /hoax/i.test(i.outcome||"") ? '<span class="tag hoax">✓ Confirmed hoax</span>'
+             : /investigat/i.test(i.outcome||"") ? '<span class="tag inv">◔ Under investigation</span>'
+             : (i.outcome?`<span class="tag">${i.outcome}</span>`:"");
+    return `<div class="row" data-id="${i.id}">
+      <div class="top"><span class="name">${i.school||"(unnamed school)"}</span><span class="date">${fmtDate(i.date)}</span></div>
+      <div class="loc">${[i.city,i.state].filter(Boolean).join(", ")}${i.sector?" · "+i.sector:""}</div>
+      <div class="meta"><span class="cty">${i.country||"?"}</span><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span>${oc}${i.response?`<span class="tag">${i.response}</span>`:""}</div>
+      ${i.notes?`<div class="notes">${i.notes}</div>`:""}
+      ${i.url?`<div style="margin-top:6px"><a class="src" href="${i.url}" target="_blank" rel="noopener">Source: ${i.src||"link"} ↗</a></div>`:""}
+    </div>`;
+  }).join('') : '<div class="state">No incidents match these filters.</div>';
+  list.querySelectorAll('.row').forEach(r=>r.addEventListener('click',e=>{
+    if(e.target.tagName==='A') return;
+    const mk=markers.find(m=>m._iid==r.dataset.id);
+    if(mk&&map){ map.setView(mk.getLatLng(),9,{animate:true}); mk.openPopup(); }
+  }));
+  document.getElementById('mapCount').textContent = rows.length+" shown";
+  document.getElementById('listCount').textContent = rows.length+" shown";
+  renderSummary(rows);
+}
+
+function renderSummary(rows){
+  const total = rows.length;
+  const countries = new Set(rows.map(i=>i.country).filter(Boolean));
+  const regions = new Set(rows.map(i=>i.state).filter(Boolean));
+  const byBucket = {swat:0,bomb:0,other:0};
+  rows.forEach(i=>byBucket[typeBucket(i.type)]++);
+  const top = Object.entries(byBucket).sort((a,b)=>b[1]-a[1])[0];
+  const hoax = rows.filter(i=>/hoax/i.test(i.outcome||"")).length;
+  const dates = rows.map(i=>i.date).filter(Boolean).sort();
+  const tiles = [
+    ["Incidents", total, "in current view"],
+    ["Countries", countries.size, [...countries].join(" · ")||"—"],
+    ["Regions", regions.size, "US states / UK counties"],
+    ["Most common", total? BUCKET_LABEL[top[0]] : "—", total? top[1]+" incidents":""],
+    ["Confirmed hoax", total? Math.round(hoax/total*100)+"%" : "—", hoax+" of "+total]
+  ];
+  document.getElementById('takeaways').innerHTML = tiles.map(t=>`
+    <div class="tk"><div class="k">${t[0]}</div><div class="v">${t[1]}</div><div class="d">${t[2]}</div></div>`).join('');
+  const narr = document.getElementById('narr');
+  if(total===0){ narr.textContent = "No qualifying incidents in the feed yet — the engine adds them as they surface in public reporting."; return; }
+  const b = BUCKET_LABEL[top[0]].toLowerCase();
+  narr.innerHTML = `Tracking <b>${total}</b> recent school &amp; campus safety incident${total>1?"s":""} across the US and UK. The most common type right now is <b>${b}</b>. These are compiled automatically from public reporting — the value is seeing them together, so a single event can be read against the wider pattern.`;
+}
+
+function init(){
+  document.getElementById('filters').style.display='flex';
+  document.querySelectorAll('.chip[data-type]').forEach(c=>c.addEventListener('click',()=>{
+    const t=c.dataset.type;
+    if(stateF.types.has(t)){stateF.types.delete(t);c.classList.add('off');}
+    else {stateF.types.add(t);c.classList.remove('off');}
+    render(false);
+  }));
+  document.querySelectorAll('#country button').forEach(btn=>btn.addEventListener('click',()=>{
+    document.querySelectorAll('#country button').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on'); stateF.country=btn.dataset.c; render(true);
+  }));
+  document.getElementById('search').addEventListener('input',e=>{stateF.q=e.target.value;render(false);});
+  document.getElementById('reset').addEventListener('click',()=>{
+    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.q="";
+    document.querySelectorAll('.chip[data-type]').forEach(c=>c.classList.remove('off'));
+    document.querySelectorAll('#country button').forEach(b=>b.classList.remove('on'));
+    document.querySelector('#country button[data-c="all"]').classList.add('on');
+    document.getElementById('search').value=""; render(true);
+  });
+  render(true);
+}
+
+fetch(FEED_URL, {cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error("feed "+r.status); return r.json(); })
+  .then(data=>{
+    INCIDENTS = (data.incidents||[]).map((i,n)=>({id:i.id!=null?i.id:n, ...i}));
+    if(data.generated){
+      const g=new Date(data.generated);
+      document.getElementById('tstamp').textContent = "Feed generated "+g.toLocaleString('en-US')+" · updates hourly";
+    }
+    init();
+  })
+  .catch(err=>{
+    document.getElementById('narr').textContent = "Could not load the live feed right now. It refreshes hourly — please try again shortly.";
+    document.getElementById('list').innerHTML = '<div class="state">Feed unavailable ('+err.message+').</div>';
+    renderSummary([]);
+  });
+</script>
+</body>
+</html>
