@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-15T22:18:57.660166Z",
-  "count": 84,
+  "generated": "2026-07-15T23:15:44.502940Z",
+  "count": 85,
   "incidents": [
+    {
+      "id": 86,
+      "country": "UK",
+      "date": "2026-07-15",
+      "school": "Birmingham Islamic school",
+      "city": "Birmingham",
+      "state": "West Midlands",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Birmingham_Islamic_school_bomb_threat_20260715",
+      "notes": "Bomb threat forces evacuation of Birmingham Islamic school on final day of term",
+      "lat": 52.4949,
+      "lng": -1.8518,
+      "src": "5Pillars",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMnRDb2xFUGhFZnhQSXY5VHlhQ0padjBteGdwQ3FQUmpQenVEdW4yTnlJRGlNbERtaEdfazJ3dlNpaFVicEVsbnoxSUJIRlFQWlZ2T1UtTnZnZUx1WEpaLTdwMXpBWUxMWWx4ejBnMkdpMFlIVlBhRnF0SHUtUzVGUVV2ZHlQaDZKenBWQkJ1V05TWV95UjRjczZJUHRxc19LRXo1X0RlSzRzYzJEaGZYaGhSbzM?oc=5"
+    },
     {
       "id": 4,
       "country": "US",
