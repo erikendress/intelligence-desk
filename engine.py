@@ -225,10 +225,28 @@ def export(con):
     return len(incidents)
 
 # ----------------------------------------------------------------------------- run
+def _meta_get(con, key):
+    con.execute("CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT)")
+    row = con.execute("SELECT value FROM meta WHERE key=?", (key,)).fetchone()
+    return row[0] if row else None
+
 def run(mock=False):
     con = init_db()
-    articles = ingest_mock() if mock else ingest_live()
     now = datetime.datetime.utcnow().isoformat()
+    # One-time deep backfill: the first live run on the updated engine wipes any old
+    # rows and rebuilds the feed from a wide window, then flags itself done so every
+    # later run is a normal tight incremental. The flag lives in the committed DB, so
+    # it persists automatically — no workflow edits, nothing to trigger by hand.
+    backfill = (not mock) and _meta_get(con, "backfilled") is None
+    if backfill:
+        con.execute("DELETE FROM incidents")
+        con.execute("DELETE FROM seen_articles")
+        con.commit()
+        days, maxrecords = 180, 150
+        print("BACKFILL: one-time clean rebuild over a %dd window" % days)
+    else:
+        days = maxrecords = None  # normal run: env vars if set, else 3d / 60-per-feed
+    articles = ingest_mock() if mock else ingest_live(days, maxrecords)
     stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0, "errors": 0}
     for a in articles:
         url = a.get("url")
@@ -257,9 +275,11 @@ def run(mock=False):
             print("skip article (%s): %s" % (a.get("url"), e))
             continue
     assign_clusters(con)
+    if backfill:
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfilled', ?)", (now,))
     con.commit()
     total = export(con)
-    print(json.dumps({**stats, "total_in_db": total, "output": OUT}, indent=2))
+    print(json.dumps({**stats, "backfill": backfill, "total_in_db": total, "output": OUT}, indent=2))
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
