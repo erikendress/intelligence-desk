@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Bomb threats prompt lockdown, evacuations at several Northeast Ohio school districts",
+    "url": "https://www.cleveland19.com/2026/05/07/4-northeast-ohio-school-districts-threatened-thursday/",
+    "domain": "cleveland19.com",
+    "published": "20260507T140000Z",
+    "text": "Five Northeast Ohio districts received bomb threats on the morning of May 7. Alliance City Schools evacuated both Alliance High School and Rockhill Elementary after a robocall; police found nothing. Cleveland Metropolitan School District said threats to East Tech High School were swatting incidents and buildings were deemed safe.",
+    "label": {
+      "include": true,
+      "records": [
+        {"facility_name":"Alliance High School","facility_type":"K-12","town":"Alliance","region":"Ohio","country":"US","lat":40.915,"lng":-81.106,"date":"2026-05-07","trigger_type":"Bomb Threat","protective_action":"Evacuation","outcome_status":"Confirmed hoax","injuries":0,"schools_affected":5,"cluster_hint":"NE Ohio bomb-threat calls, 2026-05-07","confidence":0.93,"evidence_quote":"police found nothing"},
+        {"facility_name":"Cleveland Metropolitan SD (East Tech HS)","facility_type":"K-12","town":"Cleveland","region":"Ohio","country":"US","lat":41.499,"lng":-81.694,"date":"2026-05-07","trigger_type":"Bomb Threat","protective_action":"None","outcome_status":"Confirmed hoax","injuries":0,"schools_affected":5,"cluster_hint":"NE Ohio bomb-threat calls, 2026-05-07","confidence":0.90,"evidence_quote":"threats ... were swatting incidents and buildings were deemed safe"}
+      ]
+    }
+  },
+  {
+    "title": "Liverpool school calls off classes after bomb threat; police treat it as a hoax",
+    "url": "https://www.ibtimes.co.uk/liverpool-school-call-off-classes-after-bomb-threat-authorities-clear-incident-hoax-1784530",
+    "domain": "ibtimes.co.uk",
+    "published": "20260309T090000Z",
+    "text": "A hoax bomb-threat email was sent to several Merseyside schools. LIPA Primary and High School called off classes; Chesterfield High School in Crosby was placed in temporary lockdown before resuming. Merseyside Police confirmed no school was required to close and treated the matter as a hoax.",
+    "label": {
+      "include": true,
+      "records": [
+        {"facility_name":"LIPA Primary & High School","facility_type":"K-12","town":"Liverpool","region":"Merseyside","country":"UK","lat":41.400,"lng":-2.978,"date":"2026-03-09","trigger_type":"Bomb Threat","protective_action":"Closure","outcome_status":"Confirmed hoax","injuries":0,"schools_affected":6,"cluster_hint":"Merseyside hoax bomb-threat email, 2026-03-09","confidence":0.91,"evidence_quote":"treated the matter as a hoax"},
+        {"facility_name":"Chesterfield High School","facility_type":"K-12","town":"Crosby","region":"Merseyside","country":"UK","lat":53.494,"lng":-3.035,"date":"2026-03-09","trigger_type":"Bomb Threat","protective_action":"Lockdown","outcome_status":"Confirmed hoax","injuries":0,"schools_affected":6,"cluster_hint":"Merseyside hoax bomb-threat email, 2026-03-09","confidence":0.90,"evidence_quote":"placed in temporary lockdown before resuming"}
+      ]
+    }
+  },
+  {
+    "title": "Swatting incidents becoming more common for school districts, officials say",
+    "url": "https://vtdigger.org/2026/06/05/swatting-incidents-becoming-more-common-for-school-districts-law-enforcement-officials/",
+    "domain": "vtdigger.org",
+    "published": "20260605T120000Z",
+    "text": "Swatting incidents are becoming more common for school districts, law-enforcement officials say, as hoax calls rise nationally. The article discusses the broader trend and its toll but does not report a single specific incident at a named school.",
+    "label": { "include": false, "reason": "General trend/analysis coverage — no single datable incident at a named facility." }
+  },
+  {
+    "title": "Some New Jersey school districts dismiss early because of heat wave",
+    "url": "https://newjersey.news12.com/2026/05/19/some-new-jersey-school-districts-have-early-dismissal-because-of-heat-wave/",
+    "domain": "news12.com",
+    "published": "20260519T160000Z",
+    "text": "Several New Jersey districts dismissed students early on Tuesday due to high temperatures during a heat wave. No safety threat was involved.",
+    "label": { "include": false, "reason": "Non-safety disruption (weather); no hostile threat and no safety protective action." }
+  }
+]
