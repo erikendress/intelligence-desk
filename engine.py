@@ -216,24 +216,31 @@ def run(mock=False):
     con = init_db()
     articles = ingest_mock() if mock else ingest_live()
     now = datetime.datetime.utcnow().isoformat()
-    stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0}
+    stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0, "errors": 0}
     for a in articles:
         url = a.get("url")
         if url and con.execute("SELECT 1 FROM seen_articles WHERE url=?", (url,)).fetchone():
             stats["skipped_seen"] += 1
             continue
-        res = classify_mock(a) if mock else classify_live(a)
-        if url:
-            con.execute("INSERT OR IGNORE INTO seen_articles(url, seen_at) VALUES (?,?)", (url, now))
-        if not res or not res.get("include"):
-            stats["rejected"] += 1
+        try:
+            res = classify_mock(a) if mock else classify_live(a)
+            if url:
+                con.execute("INSERT OR IGNORE INTO seen_articles(url, seen_at) VALUES (?,?)", (url, now))
+            if not res or not res.get("include"):
+                stats["rejected"] += 1
+                continue
+            for rec in (res.get("records") or []):
+                if not rec.get("facility_name") or not rec.get("date"):
+                    continue  # skip incomplete records
+                rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
+                outcome = upsert(con, rec)
+                stats["recognized"] += 1
+                if outcome in ("new", "updated"):
+                    stats[outcome] += 1
+        except Exception as e:
+            stats["errors"] += 1
+            print("skip article (%s): %s" % (a.get("url"), e))
             continue
-        for rec in res.get("records", []):
-            rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
-            outcome = upsert(con, rec)
-            stats["recognized"] += 1
-            if outcome in ("new", "updated"):
-                stats[outcome] += 1
     assign_clusters(con)
     con.commit()
     total = export(con)
