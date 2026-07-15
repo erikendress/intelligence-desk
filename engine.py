@@ -49,19 +49,52 @@ Each record's fields:
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
 # ----------------------------------------------------------------------------- ingest
-def ingest_live(timespan="3d", maxrecords=75):
-    url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode({
-        "query": QUERY, "mode": "artlist", "maxrecords": maxrecords,
-        "timespan": timespan, "sort": "datedesc", "format": "json"})
-    req = urllib.request.Request(url, headers={"User-Agent": "OnSceneIntelligenceDesk/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        data = json.load(r)
+NEWS_QUERY = ('school (swatting OR "bomb threat" OR lockdown OR evacuated '
+              'OR "shelter in place" OR "active shooter")')
+
+def _fetch_google_news(gl, ceid, days, maxrecords):
+    import time as _t, xml.etree.ElementTree as ET
+    q = NEWS_QUERY + " when:%dd" % days
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+        {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid})
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko)"}
+    raw = None
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as r:
+                raw = r.read()
+            break
+        except Exception as e:
+            if attempt == 3:
+                print("ingest: %s feed failed after retries: %s" % (ceid, e))
+                return []
+            _t.sleep(5 * (attempt + 1))
     out = []
-    for a in data.get("articles", []):
-        out.append({"title": a.get("title"), "url": a.get("url"),
-                    "domain": a.get("domain"), "published": a.get("seendate"),
-                    "text": a.get("title")})  # DOC api returns titles; add a fetch step for full text if desired
+    try:
+        root = ET.fromstring(raw)
+    except Exception as e:
+        print("ingest: could not parse %s feed: %s" % (ceid, e))
+        return []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        src = item.find("source")
+        domain = (src.text or "").strip() if src is not None else ""
+        if title:
+            out.append({"title": title, "url": link, "domain": domain, "published": pub, "text": title})
+        if len(out) >= maxrecords:
+            break
     return out
+
+def ingest_live(days=3, maxrecords=60):
+    seen, merged = set(), []
+    for gl, ceid in [("US", "US:en"), ("GB", "GB:en")]:
+        for a in _fetch_google_news(gl, ceid, days, maxrecords):
+            if a["url"] and a["url"] not in seen:
+                seen.add(a["url"]); merged.append(a)
+    print("ingest: pulled %d articles from Google News (US+UK)" % len(merged))
+    return merged
 
 def ingest_mock():
     return json.load(open(os.path.join(os.path.dirname(__file__), "fixtures.json")))
