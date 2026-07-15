@@ -92,13 +92,21 @@ def _fetch_google_news(gl, ceid, days, maxrecords):
             break
     return out
 
-def ingest_live(days=3, maxrecords=60):
+def ingest_live(days=None, maxrecords=None):
+    # Hourly runs use a tight 3-day / 60-per-feed window. For a one-off backfill,
+    # widen these via env vars LOOKBACK_DAYS and MAX_RECORDS (wired to the
+    # "Run workflow" inputs in .github/workflows/run.yml) — no code change needed.
+    if days is None:
+        days = int(os.environ.get("LOOKBACK_DAYS", "3"))
+    if maxrecords is None:
+        maxrecords = int(os.environ.get("MAX_RECORDS", "60"))
     seen, merged = set(), []
     for gl, ceid in [("US", "US:en"), ("GB", "GB:en")]:
         for a in _fetch_google_news(gl, ceid, days, maxrecords):
             if a["url"] and a["url"] not in seen:
                 seen.add(a["url"]); merged.append(a)
-    print("ingest: pulled %d articles from Google News (US+UK)" % len(merged))
+    print("ingest: pulled %d articles from Google News (US+UK) — %dd window, %d/feed cap"
+          % (len(merged), days, maxrecords))
     return merged
 
 def ingest_mock():
