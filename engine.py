@@ -49,7 +49,7 @@ Each record's fields:
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
 # ----------------------------------------------------------------------------- ingest
-def ingest_live(timespan="1d", maxrecords=75):
+def ingest_live(timespan="3d", maxrecords=75):
     url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode({
         "query": QUERY, "mode": "artlist", "maxrecords": maxrecords,
         "timespan": timespan, "sort": "datedesc", "format": "json"})
@@ -73,7 +73,7 @@ def classify_live(article):
     user = (f"Title: {article.get('title')}\nSource: {article.get('domain')}\n"
             f"Date: {article.get('published')}\nURL: {article.get('url')}\n\n{article.get('text','')}")
     msg = client.messages.create(
-        model="claude-3-5-haiku-latest", max_tokens=1200,
+        model="claude-haiku-4-5", max_tokens=1200,
         system=SYSTEM_PROMPT, messages=[{"role": "user", "content": user}])
     return _parse_json(msg.content[0].text)
 
@@ -92,19 +92,38 @@ def _parse_json(txt):
 # ----------------------------------------------------------------------------- geocode (optional)
 GEO_CACHE = {}
 def geocode(rec):
+    """Fill lat/lng from town/region via OpenStreetMap Nominatim (free, no key)."""
     if rec.get("lat") and rec.get("lng"):
         return rec["lat"], rec["lng"]
-    key = f"{rec.get('town')},{rec.get('region')},{rec.get('country')}"
-    if key in GEO_CACHE:
-        return GEO_CACHE[key]
-    # In production, call a geocoding API here (Nominatim/Mapbox). Left offline-safe by default.
-    GEO_CACHE[key] = (None, None)
+    country = "United Kingdom" if rec.get("country") == "UK" else "United States"
+    q = ", ".join(x for x in [rec.get("town"), rec.get("region"), country] if x)
+    if not q:
+        return None, None
+    if q in GEO_CACHE:
+        return GEO_CACHE[q]
+    import time
+    try:
+        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
+            {"q": q, "format": "json", "limit": 1})
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "OnSceneTechnologiesIntelligenceDesk/1.0 (contact: info@onscenetechnologies.com)"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            data = json.load(r)
+        time.sleep(1)
+        if data:
+            latlng = (round(float(data[0]["lat"]), 4), round(float(data[0]["lon"]), 4))
+            GEO_CACHE[q] = latlng
+            return latlng
+    except Exception:
+        pass
+    GEO_CACHE[q] = (None, None)
     return None, None
 
 # ----------------------------------------------------------------------------- store
 def init_db():
     con = sqlite3.connect(DB)
     con.executescript(open(SCHEMA).read())
+    con.execute("CREATE TABLE IF NOT EXISTS seen_articles (url TEXT PRIMARY KEY, seen_at TEXT)")
     return con
 
 def slug(s):
@@ -163,9 +182,16 @@ def export(con):
 def run(mock=False):
     con = init_db()
     articles = ingest_mock() if mock else ingest_live()
-    stats = {"ingested": len(articles), "recognized": 0, "new": 0, "updated": 0, "rejected": 0}
+    now = datetime.datetime.utcnow().isoformat()
+    stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0}
     for a in articles:
+        url = a.get("url")
+        if url and con.execute("SELECT 1 FROM seen_articles WHERE url=?", (url,)).fetchone():
+            stats["skipped_seen"] += 1
+            continue
         res = classify_mock(a) if mock else classify_live(a)
+        if url:
+            con.execute("INSERT OR IGNORE INTO seen_articles(url, seen_at) VALUES (?,?)", (url, now))
         if not res or not res.get("include"):
             stats["rejected"] += 1
             continue
