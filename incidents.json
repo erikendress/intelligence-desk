@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-16T18:20:12.009342Z",
-  "count": 85,
+  "generated": "2026-07-16T20:12:54.898246Z",
+  "count": 86,
   "incidents": [
+    {
+      "id": 87,
+      "country": "UK",
+      "date": "2026-07-16",
+      "school": "West London school (unnamed)",
+      "city": "London",
+      "state": "London",
+      "sector": "K-12",
+      "type": "Fire",
+      "response": "Evacuation",
+      "outcome": "One person hospitalized",
+      "cluster": "west_london_school_fire_20260716",
+      "notes": "Fire breaks out at west London school as children evacuated and person rushed to hospital",
+      "lat": 51.5156,
+      "lng": -0.092,
+      "src": "London Evening Standard",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzVHRVhRVkk5YW1OUGduck9ERjNvVl9leU1zV0dzRWliam5hTkI5aVo2NjRIX2xnRHlTNDRIWV9CWElOOVBSSTg3UENDWF9IZ3Q2dXc0VnlVZ0YwRFVQNEphZ1Q4RGdkMHYzTXpRM1Z5eTVoekgwYzVGeVplVXBIWElGRE9MeGloNVZGMEZqamMwZkUxRDVWeGVxYUgzZw?oc=5"
+    },
     {
       "id": 86,
       "country": "UK",
