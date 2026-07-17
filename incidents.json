@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-16T23:11:39.307424Z",
-  "count": 86,
+  "generated": "2026-07-17T00:13:19.191173Z",
+  "count": 88,
   "incidents": [
+    {
+      "id": 89,
+      "country": "UK",
+      "date": "2026-07-16",
+      "school": "Brecon School",
+      "city": "Brecon",
+      "state": "Powys",
+      "sector": "K-12",
+      "type": "Credible threat of violence",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "brecon_school_online_threat_20260716",
+      "notes": "Brecon School implements lockdown following report of online threat",
+      "lat": 51.9472,
+      "lng": -3.3917,
+      "src": "Herald.Wales",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXQ4bEVfcVdsSlBpdTV2RGN1OTRlSFluMkdkSWlpT1huLUx6VnhKcXhZSzM4dDJrdjN1bEEwcjl3QnRzbXNLMnZxNk1rQ1pVdXlCNVJBOFpUaDBGdGxzT3JBX0REYVFJWW5DcG5STkhSMFB5M0pyX3JTVENNaHUtVzZ1aFRlazRnTjNJM1Iya0pzQkp0VlBsZ2xvY2xpckw4YWhNVlZB?oc=5"
+    },
     {
       "id": 87,
       "country": "UK",
@@ -19,6 +37,24 @@
       "lng": -0.092,
       "src": "London Evening Standard",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzVHRVhRVkk5YW1OUGduck9ERjNvVl9leU1zV0dzRWliam5hTkI5aVo2NjRIX2xnRHlTNDRIWV9CWElOOVBSSTg3UENDWF9IZ3Q2dXc0VnlVZ0YwRFVQNEphZ1Q4RGdkMHYzTXpRM1Z5eTVoekgwYzVGeVplVXBIWElGRE9MeGloNVZGMEZqamMwZkUxRDVWeGVxYUgzZw?oc=5"
+    },
+    {
+      "id": 88,
+      "country": "US",
+      "date": "2026-07-15",
+      "school": "Parkland College",
+      "city": null,
+      "state": "Illinois",
+      "sector": "Higher Ed",
+      "type": "Shooting near campus",
+      "response": "Lockdown/Secure",
+      "outcome": "Resolved - ALL CLEAR given",
+      "cluster": "Parkland College shooting incident 2026-07-15",
+      "notes": "Parkland College given 'ALL CLEAR' following shooting near campus",
+      "lat": 40.0797,
+      "lng": -89.4337,
+      "src": "WIXY.com |",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTzc5MXRvTnR5OEFHNDNSd2xTb2JTbjZ4OVdmUTdwWUJJSEZXMDFzOE1JLWRlMmdtc3E2X3RfcXlIQi1RWTlIWXB6emhwSlRWUC1nR0xCNVg1bmJ2cDJhWDlLRktKeXpXSzluQmxnNUtKYjZ3bTJsSjNuZzF3T1hNNTBJaGt6QlhmZWFVQjQ3MEJ0b0stOUR3eHRtZFJReHllajVBbjF6LUdsMVVodThvUC13?oc=5"
     },
     {
       "id": 86,
