@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-17T15:41:03.735713Z",
-  "count": 88,
+  "generated": "2026-07-17T17:31:58.857944Z",
+  "count": 89,
   "incidents": [
+    {
+      "id": 90,
+      "country": "UK",
+      "date": "2026-07-17",
+      "school": "Muslim School in Birmingham",
+      "city": "Birmingham",
+      "state": "West Midlands",
+      "sector": "K-12",
+      "type": "bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Birmingham_bomb_threat_20260717",
+      "notes": "Muslim School in Birmingham Targeted With Bomb Threat Email",
+      "lat": 52.4949,
+      "lng": -1.8518,
+      "src": "Novara Media",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMk9FeXRINlEtVllrVnU0aUJJeWUxNVE4ZHpDb3FUc2FrYUItT1FUc1AzSTlfQ3Y2MXFleXNCdExFN21qME5LY3hOV0xCdFNMN0o0bHlieTM5c2xFNFdVY0ZldENpbFVld01oeXRhRjQwaGZQQk5ORHdaMlR4ZDM2YVV4a0hCMzgyM3NiQ2ZhWXo4ekMyVUZXMTBzVQ?oc=5"
+    },
     {
       "id": 89,
       "country": "UK",
