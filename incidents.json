@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-20T16:02:18.054128Z",
-  "count": 89,
+  "generated": "2026-07-20T18:20:34.065285Z",
+  "count": 90,
   "incidents": [
+    {
+      "id": 91,
+      "country": "US",
+      "date": "2026-07-20",
+      "school": "Perryville schools",
+      "city": "Perryville",
+      "state": "Missouri",
+      "sector": "K-12",
+      "type": "External threat (police pursuit)",
+      "response": "Lockdown",
+      "outcome": "Resolved",
+      "cluster": "Perryville_MO_lockdown_2026-07-20",
+      "notes": "Perryville schools briefly placed on lockdown during police pursuit",
+      "lat": 37.7275,
+      "lng": -89.8645,
+      "src": "kbsi23.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWkNkdVQzSjRSdml6dzZIRkRKamgyRS13Mm1JUTVVT2NGZVJIVlJIMURoakpEYW9xODVyTUhYZ3oxOGhVVlZYdTc2Y0FWcTlLTHdka2JhRVB6MWZBTlhWbFBFNmpaemtTWjk5bXR3ckxuSEYyTGh6U2lSa0RMQ0FkRVBUVEFYUUV2RnFZMjV1alRaR1l1cTJHZmFTTm8?oc=5"
+    },
     {
       "id": 90,
       "country": "UK",
