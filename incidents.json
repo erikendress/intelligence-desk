@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-22T09:39:48.466870Z",
-  "count": 91,
+  "generated": "2026-07-22T12:04:01.052274Z",
+  "count": 92,
   "incidents": [
+    {
+      "id": 93,
+      "country": "UK",
+      "date": "2026-07-22",
+      "school": "School in Hersham area",
+      "city": "Hersham",
+      "state": "Surrey",
+      "sector": "K-12",
+      "type": "Armed person/weapon report",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hersham armed person 2026-07-22",
+      "notes": "Reports of person with armed weapon in Hersham and nearby school placed in lockdown",
+      "lat": 51.3656,
+      "lng": -0.3997,
+      "src": "Rayo",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZXdRYktld2FPOWdvSU1JUjJPemFKVDhpRDVXV2M0Vk5XZF9hdjNQX1dEVzZvbHptc2NnQ2pNejRtSTgzWV9ZZmFsYmFQYlAtRzJib0hsQXNJQTl4SmtFMFM1cGlnd0FaenBZSV8zb3p2SEtMR21SZ3ZkQ2J2Y0p3Umd0ZmpwLTFrUDUxNWRzNDhILUlkN0xINlYwOWMwOEZMaHhaWTN1OHBHVzF4V1E?oc=5"
+    },
     {
       "id": 92,
       "country": "UK",
