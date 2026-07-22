@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-22T14:22:49.822902Z",
-  "count": 93,
+  "generated": "2026-07-22T16:47:07.017680Z",
+  "count": 94,
   "incidents": [
+    {
+      "id": 95,
+      "country": "UK",
+      "date": "2026-07-22",
+      "school": "School in Port Talbot",
+      "city": "Port Talbot",
+      "state": "Wales",
+      "sector": "K-12",
+      "type": "Fire",
+      "response": "Evacuation",
+      "outcome": "Evacuated",
+      "cluster": "Port Talbot school fire 2026-07-22",
+      "notes": "Fire breaks out at school in Port Talbot with children and staff evacuated",
+      "lat": 51.5952,
+      "lng": -3.7824,
+      "src": "ITVX",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNFVfMUZDc3V0UVF4TVR6RlhHaDVySjdLVXBWNFd6bW1ueFlrRWpRRzQtTk9DZno5WHRpTFpROWlJSm5rcXNwSlN3X2J4S0NUMEpsNGw3M3RfLXJ3TWZ2T1RDOEh4TThmVVJPN01EbVp0RFV6N2hnTFcyOXZYTS0xT3pTOTMza0RoU2Q3Rnd5V3E4RVZERjFFeTB3YnNfMThsMVdYemFUbFZuckNHTUlxenp3TkxLZUU?oc=5"
+    },
     {
       "id": 94,
       "country": "UK",
