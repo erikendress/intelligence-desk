@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-22T12:04:01.052274Z",
-  "count": 92,
+  "generated": "2026-07-22T14:22:49.822902Z",
+  "count": 93,
   "incidents": [
+    {
+      "id": 94,
+      "country": "UK",
+      "date": "2026-07-22",
+      "school": "Hersham schools",
+      "city": "Hersham",
+      "state": "Surrey",
+      "sector": "K-12",
+      "type": "weapon/intruder threat",
+      "response": "lockdown",
+      "outcome": "resolved - arrests made",
+      "cluster": "Hersham weapon incident 2026-07-22",
+      "notes": "Hersham schools in lockdown as men with weapon arrested",
+      "lat": 51.3656,
+      "lng": -0.3997,
+      "src": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TZWxzM04xd3dCbVpBMHExZ2xWdEVmSWVFbGhlSkpPQWw1TmxjNGt1Z1NMM2o5engyVVJIZDF2STEyVktEVFVrNUxoTDZabXhUQTlGbEdwLTR3MTBx?oc=5"
+    },
     {
       "id": 93,
       "country": "UK",
