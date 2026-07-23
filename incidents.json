@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-23T12:03:07.492734Z",
-  "count": 98,
+  "generated": "2026-07-23T14:33:17.040229Z",
+  "count": 99,
   "incidents": [
+    {
+      "id": 100,
+      "country": "US",
+      "date": "2026-07-23",
+      "school": "Granite Bay High School",
+      "city": "Granite Bay",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Credible threat of violence",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Granite Bay HS shooting threat 2026-07-23",
+      "notes": "Granite Bay High School placed on lockdown after school shooting threat",
+      "lat": 38.7622,
+      "lng": -121.185,
+      "src": "FOX40",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUEZHS3BDVDc2aUVpWjNVZjJwQ3pFVWx3dnF4SmtpVWtQYk50dzRXRGVGU1N3VDBOTlpxN295VnZ5T01ndHg5R3kxQ0d6LTFyYjZTUy1kOEotTzdlWWpZeEN1VnBNdFAtU1JFeWZhOTJaMGllVGduNnp1SHVVck5NYWJZUm1iRjhfNTU3ckl6R1JzTE5hcFlPajRTcE9aUnE0c3kwUmZNdGE?oc=5"
+    },
     {
       "id": 99,
       "country": "UK",
