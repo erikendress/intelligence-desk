@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-23T03:45:45.865362Z",
-  "count": 97,
+  "generated": "2026-07-23T06:40:20.614535Z",
+  "count": 98,
   "incidents": [
+    {
+      "id": 99,
+      "country": "UK",
+      "date": "2026-07-23",
+      "school": "Awel y M\u00f4r Primary School",
+      "city": "Port Talbot",
+      "state": "Swansea",
+      "sector": "K-12",
+      "type": "Fire",
+      "response": "Evacuation",
+      "outcome": "Children evacuated safely",
+      "cluster": "Port Talbot fire evacuation 2026-07-23",
+      "notes": "Children evacuated as fire breaks out at Awel y M\u00f4r Primary School",
+      "lat": 51.6485,
+      "lng": -3.9789,
+      "src": "Swansea Bay News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3gtdDZkNzB4MWUtc3ZOZkxGajg1blhzazJScDlybXhVUVJsekxfQjZPdVNMbmpnNk5Ca1gyeWJFbTBWUHk3c0s5OXNDWVdLQkR2cXE1NW9hT19SOU9OeHJvOU53Z1lZd2oyUWVCMG5wcS14ZTZpNThLeDNoS0FPcjNHbEJuTTdLNncwX0VXdTg5NUlTYlJxcjFncVlUVzUySVI1SmxHZC1QQQ?oc=5"
+    },
     {
       "id": 98,
       "country": "UK",
