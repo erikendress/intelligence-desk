@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T14:33:17.040229Z",
-  "count": 99,
+  "generated": "2026-07-23T16:47:19.353596Z",
+  "count": 100,
   "incidents": [
     {
       "id": 100,
@@ -37,6 +37,24 @@
       "lng": -3.9789,
       "src": "Swansea Bay News",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3gtdDZkNzB4MWUtc3ZOZkxGajg1blhzazJScDlybXhVUVJsekxfQjZPdVNMbmpnNk5Ca1gyeWJFbTBWUHk3c0s5OXNDWVdLQkR2cXE1NW9hT19SOU9OeHJvOU53Z1lZd2oyUWVCMG5wcS14ZTZpNThLeDNoS0FPcjNHbEJuTTdLNncwX0VXdTg5NUlTYlJxcjFncVlUVzUySVI1SmxHZC1QQQ?oc=5"
+    },
+    {
+      "id": 101,
+      "country": "UK",
+      "date": "2026-07-22",
+      "school": "Surrey Schools (unnamed)",
+      "city": "Surrey",
+      "state": "Surrey",
+      "sector": "K-12",
+      "type": "Weapon report",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Surrey weapon report 2026-07-22",
+      "notes": "Armed Police Respond to Reports of Weapon Near Surrey Schools",
+      "lat": 51.2715,
+      "lng": -0.3415,
+      "src": "uknip.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTG9mUWxuS0FOQm9XaWdPTmgwaTFrYUR0LW03OUFFNDNkNm1obVFub2pOalBLS2gyTFBIODd2a0xVVnFMTm1iLXdSNEllMFpkOUJ5RjZhdnRpdk03NUUxZGtVTFJ4MEdlbWprSk1lU2FVY3dRdUNMNDRjY1otTkVTZFg2MGozZXcwYVJBcTU1anJ5QkdTSHhqVXY0VWhMN2FOUVlPYTFnNV8xc1ZZbUtnTjJHY2c?oc=5"
     },
     {
       "id": 98,
