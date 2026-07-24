@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-24T11:56:28.041510Z",
-  "count": 102,
+  "generated": "2026-07-24T14:13:30.001782Z",
+  "count": 103,
   "incidents": [
+    {
+      "id": 104,
+      "country": "UK",
+      "date": "2026-07-24",
+      "school": "Hersham schools and nursery (multiple facilities)",
+      "city": "Hersham",
+      "state": "Surrey",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "lockdown",
+      "outcome": "resolved - two teenagers charged",
+      "cluster": "Hersham_20260724_lockdown",
+      "notes": "Hersham schools and nursery placed on lockdown",
+      "lat": 51.3656,
+      "lng": -0.3997,
+      "src": "Rayo",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcGZ0UGtEdDREdjZYbG5DNWVQalc4ZTc1dkZ4WmU0dGgyVk11eDhTRVdDSVN4bVE1dlhmQXFwMWVVMzRPYkNFSXV4eEkwREVhdjgwVS1XZ3hERFhFdk9XeF9QdWphXzFjQmVsdlJJQ0VlcDlNMEljeHlQWWdnRW92dDViUldYbFd4dkNHby1EemNUTVVucHAtWEo5N0UtT0dEendZTDk1Y1lYWkNKMGRtenF6SWM4dVhLR2c?oc=5"
+    },
     {
       "id": 103,
       "country": "UK",
