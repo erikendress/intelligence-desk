@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T14:02:39.951166Z",
-  "count": 103,
+  "generated": "2026-07-25T15:20:04.082877Z",
+  "count": 104,
   "incidents": [
     {
       "id": 104,
@@ -91,6 +91,24 @@
       "lng": -3.9789,
       "src": "Swansea Bay News",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX3gtdDZkNzB4MWUtc3ZOZkxGajg1blhzazJScDlybXhVUVJsekxfQjZPdVNMbmpnNk5Ca1gyeWJFbTBWUHk3c0s5OXNDWVdLQkR2cXE1NW9hT19SOU9OeHJvOU53Z1lZd2oyUWVCMG5wcS14ZTZpNThLeDNoS0FPcjNHbEJuTTdLNncwX0VXdTg5NUlTYlJxcjFncVlUVzUySVI1SmxHZC1QQQ?oc=5"
+    },
+    {
+      "id": 105,
+      "country": "UK",
+      "date": "2026-07-22",
+      "school": "Primary School (unnamed)",
+      "city": "Liverpool",
+      "state": "Merseyside",
+      "sector": "K-12",
+      "type": "Fire",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Liverpool primary school fire July 2026",
+      "notes": "fire rips through primary school while toddlers attend summer club",
+      "lat": 53.3874,
+      "lng": -3.185,
+      "src": "Liverpool Echo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzhDY3FGT0MtR1BZaTQ5eHZoclJnZXlSRV9wY2EtWS13LVdISXhnQTZORGdSRWNvVnJ0NDBxZHhqYWdCOGVwbEdwRnhzR29DUWNqR0tKVi1uMDVMQlFJOTczYjlPWVR2eDNOMXF6WV9WN3FUTkhBYXYwc3VlWTc0bzFIa1pmcFljRGgtNEE5TUZHLXo3Wmpz0gGcAUFVX3lxTE5mUVZNaTN1TEFJOVRFemkzVUJuaTEwczdzTnZ0M2NRazRBaWRZbkRuSEdtM1VQb2d2cGhJN1M3S2VIdnFaYzdtSXhNMGN1d3BQMnZNZ3lPdDV2YzFZanRaMTVHWEtSZTVjZk96Q0pjRXozd0YtOHZNbURBa0NTaUpvdk1zWjlCc1dwdHREcWVEU0FWVWhMOXlnOGo0aw?oc=5"
     },
     {
       "id": 101,
