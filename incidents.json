@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T00:15:06.193798Z",
-  "count": 104,
+  "generated": "2026-07-26T03:59:10.066767Z",
+  "count": 105,
   "incidents": [
     {
       "id": 104,
@@ -55,6 +55,24 @@
       "lng": -92.3329,
       "src": "Mshale",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54RHJQRk92QTh1NVZLZWhscklldy1TMzZ4UjZHMUdfOEZqYzdYRFlocUFHc0ZSYl94X1loRzU5aTZLdDFxNHFHT3RMb0JhWVlBc01oZlpHX2I0Z28?oc=5"
+    },
+    {
+      "id": 106,
+      "country": "US",
+      "date": "2026-07-23",
+      "school": "Buffalo State",
+      "city": "Buffalo",
+      "state": "NY",
+      "sector": "Higher Ed",
+      "type": "Gun incident",
+      "response": "Shelter-in-place",
+      "outcome": "Arrest made",
+      "cluster": "Buffalo_State_gun_2026-07-23",
+      "notes": "gun incident that led to shelter-in-place at Buffalo State",
+      "lat": 42.8864,
+      "lng": -78.8781,
+      "src": "spectrumlocalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWk9jNWw0eV9Vc2FibUFjd3JIRTlwVlhlNVJFeHBNeV9KT09JcGt0eWNnOUJzcEdQdllzRDlMNzlWQTA1Xzg3Yy1YWTJKbHNBQjRTSmZRRm5XdmRLWFZfU2RrOUN5NEpyOXBRdVphRllBRkw2cFpSdktRVE1idGZXeFdiRzJUVEZZT2huM25TRTlrV2ZvVUlEbmpIT3dQTFZ5cktDZkNPeXNPNXpMZ3RISXhtRWZDOVEycXRxRE53R2lmUUhxTXZKMXUwejVDNDJyb1BpNmpxLXRUOFE?oc=5"
     },
     {
       "id": 100,
