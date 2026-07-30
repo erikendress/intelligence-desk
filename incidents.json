@@ -1,7 +1,25 @@
 {
-  "generated": "2026-07-30T16:50:24.748546Z",
-  "count": 105,
+  "generated": "2026-07-30T18:46:48.071124Z",
+  "count": 106,
   "incidents": [
+    {
+      "id": 107,
+      "country": "US",
+      "date": "2026-07-30",
+      "school": "Wheeler County K-12 School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation/Closure",
+      "outcome": "Resolved \u2013 facility reopened",
+      "cluster": "Wheeler County K-12 anonymous bomb threat 2026-07-30",
+      "notes": "Wheeler County K-12 School reopens after anonymous bomb threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "41NBC News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPemJTUEo2TDNEUjZlZHRKeTVWZ3REVFFuQUZyOXdBYXJrOVF0c2phM0V2SldPdklOZkpUQkZ6V1BVZE1adnJidV8wQ2x4enBUUVR6Z2VFX0NINC1kelJfX1dCZ0E1WUJyeVBJaG5MdHMxcUhWRHlWc0NweTBwYng5LWp4bW92TTI0OVdQUjJ3?oc=5"
+    },
     {
       "id": 104,
       "country": "UK",
