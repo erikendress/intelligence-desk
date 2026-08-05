@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-05T16:53:51.827144Z",
-  "count": 110,
+  "generated": "2026-08-05T18:53:31.671785Z",
+  "count": 111,
   "incidents": [
+    {
+      "id": 112,
+      "country": "US",
+      "date": "2026-08-05",
+      "school": "Salinas High School",
+      "city": "Salinas",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Salinas High School bomb threat 2026-08-05",
+      "notes": "Salinas High School locked down after bomb threat on first day of school, police say",
+      "lat": 36.6744,
+      "lng": -121.655,
+      "src": "KSBW",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYXVXYVRlNl9hR0NZMkR2Nm11WmxtUHAyaTNUMWgzSWVZWVJnOFpYSWo2TXVzMXhia20wc3RHY3o1WVFMMVFoZGppTWlfVkNUNlJOUF9CV2VUMlhyZGtZRDA4SWJ3dEk3LS1qWkhQWVhuelNXeU9tLUVjYXdZTmFodngxTGRSZlcw?oc=5"
+    },
     {
       "id": 111,
       "country": "US",
