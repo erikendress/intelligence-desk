@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-05T18:53:31.671785Z",
-  "count": 111,
+  "generated": "2026-08-05T20:39:50.256704Z",
+  "count": 112,
   "incidents": [
+    {
+      "id": 113,
+      "country": "US",
+      "date": "2026-08-05",
+      "school": "Elementary school in Slidell",
+      "city": "Slidell",
+      "state": "Louisiana",
+      "sector": "K-12",
+      "type": "Hazardous materials discovery near facility",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Slidell_volatile_materials_20260805",
+      "notes": "Slidell duplex near elementary school evacuated after 'volatile materials' discovered",
+      "lat": 30.2752,
+      "lng": -89.7812,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ0VRb0JzaV9JNFZrYVZmQm40alMzMFpqQmJwNGExTUpmaGllSFJESnYyTUFMZjA5WC1VTDJmWFJNTTBUemdsUWFYLUJtWkFYSnVBV1BZLVN3V3o0OUlMVHlfb2lHUXhmQ1NJdDVfTzN1bWZDZFFLMy1OYUFKTkxmQXUtN19mSEtUcldCcDM4ZnNnM29VVlE?oc=5"
+    },
     {
       "id": 112,
       "country": "US",
