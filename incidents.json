@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-05T12:17:12.330468Z",
-  "count": 106,
+  "generated": "2026-08-05T14:38:43.391115Z",
+  "count": 107,
   "incidents": [
+    {
+      "id": 108,
+      "country": "US",
+      "date": "2026-08-05",
+      "school": "Greenwood schools",
+      "city": "Greenwood",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Weapon/firearm report",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "greenwood_sc_firearm_08052026",
+      "notes": "Lockdown lifted after reported possible firearm near Greenwood schools",
+      "lat": 34.149,
+      "lng": -82.1129,
+      "src": "Index-Journal",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdUEzcnZYWHZZNEp2RlEteDRmalJSQS12a3VJUG95UnlIUkVPWTFoamdnZFdta0hEa0U5aG1KTVBhWHdwU3pWZHUwUDdOUWtDeUtXTUNsV2xUSktPSm9yQWJZUDJid1FkNlF1TzFYWUR5emg3cl9TZjdyRF9vSlVBamtSSjVkRENRSEt2NThFX3VURHdobjBHcHhtaGJ2NHQxTk1iczQ5YnE1RTdBdG5yM18yMU81dHBndTkwclF0LXhVVHlQLWp2YmtCbXNCNkNYQUpDdUxxNW50R3BsRWd2LTRxWTZrOTZEUlE?oc=5"
+    },
     {
       "id": 107,
       "country": "US",
