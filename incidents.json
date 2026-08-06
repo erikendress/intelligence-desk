@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-06T09:59:12.739821Z",
-  "count": 125,
+  "generated": "2026-08-06T12:19:27.197974Z",
+  "count": 126,
   "incidents": [
+    {
+      "id": 127,
+      "country": "US",
+      "date": "2026-08-06",
+      "school": "Bossier Parish school",
+      "city": null,
+      "state": "Louisiana",
+      "sector": "K-12",
+      "type": "Swatting",
+      "response": null,
+      "outcome": "Juvenile arrested",
+      "cluster": "Bossier Parish swatting incident 2026-08-06",
+      "notes": "Juvenile arrested following 'SWATTING' incident at Bossier Parish school",
+      "lat": 30.8704,
+      "lng": -92.0071,
+      "src": "Shreveport-Bossier Journal",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNnhXZExGRHE3UWNmY3FLb3JyWlZuSDltQUVlTFNwek1KZXBPcGI3dDlKR0pzSEJDMUxvckJUb1M5RVBtb2tMcHlEZkFvSFNXNkhvUnphZ3JvSm9BdUYyaER5ZW5YbWx4UTZybFNCLWpTQzZld0dmSW5iQTlSVnJSWHg5cnVFbHNmb3ZRWG5XVEVPbElScHdPUjdwQmhVbWltaWh2Q0dNLXVRTVp6RVY5U1lsTU5qbmRjY3Iw?oc=5"
+    },
     {
       "id": 126,
       "country": "US",
