@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T00:11:14.833648Z",
-  "count": 123,
+  "generated": "2026-08-06T03:39:12.912929Z",
+  "count": 124,
   "incidents": [
     {
       "id": 119,
@@ -19,6 +19,24 @@
       "lng": -93.596,
       "src": "Bossier Press-Tribune",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSWRtdjYxdXNpSkJSOERkZHJqcVdseGxLSHZPN2hKRm1EMHotQTVJM0lMRDQzSUdFMVRfbkgxd3FCOE9KQi1tUlNVdGpVblNSY3Ataml2dUhUdXBVR2N5SEJ1Sm1mejk4T01PVXNiN1hEOEdjUll1bTI4QkplRXFrV2V0ZUJWdmpZbWJ1M0xGcHlRNGc?oc=5"
+    },
+    {
+      "id": 125,
+      "country": "US",
+      "date": "2026-08-05",
+      "school": "Upstate schools (unspecified)",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Weapon/person with gun report",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Upstate_schools_gun_report_Aug2026",
+      "notes": "student reported seeing person with gun nearby",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "FOX Carolina News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ1M5b2ZEQWJLTnM1TnJvb1JVLV85X2gzVnE5dmdIeEYyS3d3UEx5eWxiaUhwakJaVzI5UWxYWmUzQVI5NmRpMWlGQkZJRGRZVUNtc2FuZC1BVEtoSmNhX3czMkZOSnFFblMtU1ByQkpfNGtCTXF3a1dfRG00MmFOZnFXRS0zdmdjOTZQUXgwZUhGaGtzX0xYVWhJYmNCUVcwbXdkYWVVVWcxRWRJTDNvOE8wWHZxYkpGa1JBTWJ3SVhtQk90cGF1WHhncmFuV3Q3ZExpU3JB?oc=5"
     },
     {
       "id": 124,
