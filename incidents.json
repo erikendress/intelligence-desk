@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-06T03:39:12.912929Z",
-  "count": 124,
+  "generated": "2026-08-06T06:46:37.921418Z",
+  "count": 125,
   "incidents": [
+    {
+      "id": 126,
+      "country": "US",
+      "date": "2026-08-06",
+      "school": "Salinas High",
+      "city": "Salinas",
+      "state": "CA",
+      "sector": "K-12",
+      "type": "Unknown threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Salinas_HS_20260806",
+      "notes": "daughter texted, \"Mommy, I love you just in case\" during Salinas High lockdown",
+      "lat": 36.6744,
+      "lng": -121.655,
+      "src": "ksbw.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS09LdTBDdWQ3cjBxOEl0YWJkX2JEUHhqYnhyVEFuMFI0Z2Jkb1c3UVZ2QkZxTFVSQTJFR0xLTUthbUFjaTBzNXFPRjNBM2lPX0FtaC1IVGdDRm01T0VHb05ZX3ptcVhKdmxtRmFwMVc3dWgza3doUFVMM1llTzhWYzBjUk14QVcyNUtXSTZEOThwUQ?oc=5"
+    },
     {
       "id": 119,
       "country": "US",
