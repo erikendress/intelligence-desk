@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-07T17:08:16.466182Z",
-  "count": 134,
+  "generated": "2026-08-07T18:02:21.435904Z",
+  "count": 135,
   "incidents": [
+    {
+      "id": 136,
+      "country": "US",
+      "date": "2026-08-06",
+      "school": "Gwinnett County Schools (multiple facilities)",
+      "city": "Gwinnett County",
+      "state": "Georgia",
+      "sector": "K-12",
+      "type": "Hoax threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Gwinnett County hoax threats August 2026",
+      "notes": "Hoax threats at several Gwinnett schools prompt lockdowns",
+      "lat": 33.9567,
+      "lng": -84.0227,
+      "src": "FOX 5 Atlanta",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPazdMcEViWW95bmJSYktQWklVbEhaZ2NBX2x5S21wUnlFUlZGczUtVUhFRnp4VW9jZjZFeVl2eU9YS09vblJOSkNjaXZneXF2eUd6VnQ4eUk0YWZLdF9VUjE4T3ZvR0NuVEQtXzBKbGc0M0pMQ1BQQnREamp2aWdiOGlvQUlVUDdVbndoX2RQNVM?oc=5"
+    },
     {
       "id": 135,
       "country": "US",
