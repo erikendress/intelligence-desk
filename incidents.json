@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T04:28:33.816081Z",
-  "count": 136,
+  "generated": "2026-08-08T05:56:49.221306Z",
+  "count": 137,
   "incidents": [
     {
       "id": 137,
@@ -19,6 +19,24 @@
       "lng": -96.0378,
       "src": "KXII",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaDk2YmRBYjNYd1Nna2Y3X0pvalBxeWVfb2lGNjFMVzMyTU1uUG50ajBmU3liRFc0bXI5Z0Zwb3pxRkVjUUU1cjU2SkxHYVlWbVFQdmxkc2EtS3dmaGctVUdxNmlHdmxQeDI5eTZLcElQelZlRXdqeHN3QUp0cjVZbjRobDNsQlpIMWtwMTdHRVN1cjVDa0tvYjRJRld6dVdTZWJHcnpoWEpzcS1obUE4MFZ3Qlg1ekVjRVczeHZGX18yc1lSNy1V?oc=5"
+    },
+    {
+      "id": 138,
+      "country": "US",
+      "date": "2026-08-06",
+      "school": "Thomaston-Upson Schools",
+      "city": "Thomaston",
+      "state": "Upson County",
+      "sector": "K-12",
+      "type": "False report / Swatting (gun claim)",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Thomaston-Upson-2026-08-06-gun-claim",
+      "notes": "Thomaston-Upson Schools placed on lockdown after person falsely claimed to have gun inside school, sheriff says",
+      "lat": 32.8882,
+      "lng": -84.3266,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdno5UXVyem1xVGJtMkp2ZnRBU1FMMEVhNTQ0dHo0MEYyZzEydUptQ001UlFHTXZwYS1oSDJrNXJ5Q3N0VElldEFmUXdOREEwZzNnaTdWS2VBM01sVWcydUdocXB5aDVjbE9DX1NPU2Y1cmJRVWNFa1JTZUhvSzFaWjhfVXZJVW1DRVJDOG9UZko0U1pRY3MxVmZiRzhEQ0xzcVE?oc=5"
     },
     {
       "id": 136,
