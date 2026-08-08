@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-08T16:52:51.884892Z",
-  "count": 138,
+  "generated": "2026-08-08T17:46:28.278373Z",
+  "count": 139,
   "incidents": [
+    {
+      "id": 140,
+      "country": "US",
+      "date": "2026-08-07",
+      "school": "Thomaston-Upson Schools",
+      "city": "Thomaston",
+      "state": "Upson County",
+      "sector": "K-12",
+      "type": "Hoax - false claim of armed person",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Thomaston-Upson-20260807-false-gun-claim",
+      "notes": "Thomaston-Upson Schools placed on lockdown after person falsely claimed to have gun inside school, sheriff says",
+      "lat": 32.8882,
+      "lng": -84.3266,
+      "src": "NewsBreak: Local News & Alerts",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYXd2YlZyV3NxQnJTUkFDMnY1MEljd3BiV2JoV3d6aDZvMlNYanZhZm5uUEc0X3NrejFKMjFOY0ZBYUVOQzlEeFM1eUlLSzhGdmVoU3N0bjM4eTRfLVdaNEpxMU92M0tmdkFjcWlBZjBTcFZVTzZQMzFFdzJ5ZHAxcUhFU2ktY1ZpQjZSZ3VpNEJSd3NScUs0VEcza1FBYURJdjdSTFF2Qk83enVRX25UWnJvNkpMUUl4NEhUSi1xOHNfYU1ZX0FCRjQ4N3Fqbld6dXZzb2hBS2pnVEgxSUdaNVNHREx3b1IxaG5z?oc=5"
+    },
     {
       "id": 137,
       "country": "US",
