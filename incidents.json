@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-07T23:48:43.521834Z",
-  "count": 135,
+  "generated": "2026-08-08T02:22:03.494735Z",
+  "count": 136,
   "incidents": [
+    {
+      "id": 137,
+      "country": "US",
+      "date": "2026-08-07",
+      "school": "Bennington Public Schools",
+      "city": "Bennington",
+      "state": "Oklahoma",
+      "sector": "K-12",
+      "type": "Unknown threat",
+      "response": "Lockdown",
+      "outcome": "Temporary lockdown implemented",
+      "cluster": "bennington-ok-aug-2026",
+      "notes": "Bennington Public Schools put in temporary lockdown amid large law enforcement response in area",
+      "lat": 34.0045,
+      "lng": -96.0378,
+      "src": "KXII",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaDk2YmRBYjNYd1Nna2Y3X0pvalBxeWVfb2lGNjFMVzMyTU1uUG50ajBmU3liRFc0bXI5Z0Zwb3pxRkVjUUU1cjU2SkxHYVlWbVFQdmxkc2EtS3dmaGctVUdxNmlHdmxQeDI5eTZLcElQelZlRXdqeHN3QUp0cjVZbjRobDNsQlpIMWtwMTdHRVN1cjVDa0tvYjRJRld6dVdTZWJHcnpoWEpzcS1obUE4MFZ3Qlg1ekVjRVczeHZGX18yc1lSNy1V?oc=5"
+    },
     {
       "id": 136,
       "country": "US",
