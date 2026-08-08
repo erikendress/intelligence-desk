@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T21:46:33.593199Z",
-  "count": 139,
+  "generated": "2026-08-08T22:47:20.800255Z",
+  "count": 140,
   "incidents": [
     {
       "id": 140,
@@ -37,6 +37,24 @@
       "lng": -96.0378,
       "src": "KXII",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaDk2YmRBYjNYd1Nna2Y3X0pvalBxeWVfb2lGNjFMVzMyTU1uUG50ajBmU3liRFc0bXI5Z0Zwb3pxRkVjUUU1cjU2SkxHYVlWbVFQdmxkc2EtS3dmaGctVUdxNmlHdmxQeDI5eTZLcElQelZlRXdqeHN3QUp0cjVZbjRobDNsQlpIMWtwMTdHRVN1cjVDa0tvYjRJRld6dVdTZWJHcnpoWEpzcS1obUE4MFZ3Qlg1ekVjRVczeHZGX18yc1lSNy1V?oc=5"
+    },
+    {
+      "id": 141,
+      "country": "US",
+      "date": "2026-08-06",
+      "school": "Millersburg School District",
+      "city": "Millersburg",
+      "state": "Ohio",
+      "sector": "K-12",
+      "type": "Drill",
+      "response": "Active-shooter drill",
+      "outcome": "Training exercise completed",
+      "cluster": "Millersburg_Drill_20260806",
+      "notes": "State troopers train for active-shooter situation during Millersburg School District drill",
+      "lat": 40.5545,
+      "lng": -81.9179,
+      "src": "local21news.com",
+      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOem5DNEhyMUxOVjE0Y3lDSjBTcGEzdkNCdzc4U0RoSkpPTnVvczkzYU5nN2NZMDdsd0gwRFMtdnl6UDJnYVl6amkyRklfdWZmamFQRkVmcFJmVjQtSTVMQVpDX1ExaHBUVzJwaU5HWVlha0IxM185Ymd6SjdGTW9oVU1tN3FOQTE0Ny12Q3p6S1pDLWpaM29WQjlGcU5tV3RLZGw5RXBaaXpEVzM2WnBIUGQ4bTMyVWF0MXBvdzFXc1ZJM2V2SjZZM25tcWJ6eXRUbW9HejNJUGpRejNVaC1jNXNJaUZTbGNpby1fbXVJa0hCVWtDblNLYWhtMlY4enB0M3hTZGpXY3dTMkxNQUN1UVpILWdWVm0yRjNUdnJ0VnpnaFdjXzg0amRSaHJRdkgtWW9ILURnLUg2UQ?oc=5"
     },
     {
       "id": 138,
