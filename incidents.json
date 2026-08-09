@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-08T23:44:58.901226Z",
-  "count": 140,
+  "generated": "2026-08-09T02:29:25.966533Z",
+  "count": 141,
   "incidents": [
+    {
+      "id": 142,
+      "country": "US",
+      "date": "2026-08-07",
+      "school": "Langley-Bath-Clearwater Middle School",
+      "city": "Aiken",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Fire",
+      "response": "Evacuation",
+      "outcome": "Resolved",
+      "cluster": "Aiken_20260807_trash_fire",
+      "notes": "Trash can fire in Langley-Bath-Clearwater Middle School bathroom prompts evacuation Friday morning in Aiken",
+      "lat": 33.5723,
+      "lng": -81.6182,
+      "src": "Post and Courier",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYVJ2YTV2LU1NZzYxWVBBdW1IZ3NybnM5TXhIZFZaM2xRc19iWjZ0X0xNQ193Qi1FQjhLa0FoMGJKdUZYQlIzQkNUSTZwX2tXV043WlFHcWxoMU1RcV9ZbkUwYTZxUnRqT1c1aGtIRVNoZ1JiWjNvYm9DZGhONWhSbUJrOV85WW9JV2hXZ3NCZDNUVXNLRV9WdmppSXBDN3M2cGpmY1FmaUVqRU83dWQyZTZsQ2V4akZicnc2WEJ6MFJUTDJ4eDVienY3cDF0aWJnd0dPWWNwVVk5eGZnYVZfTnpkTmNnejU0Yldv?oc=5"
+    },
     {
       "id": 140,
       "country": "US",
