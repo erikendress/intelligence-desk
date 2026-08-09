@@ -17,45 +17,68 @@ DB   = os.path.join(os.path.dirname(__file__), "incidents.db")
 OUT  = os.path.join(os.path.dirname(__file__), "incidents.json")
 SCHEMA = os.path.join(os.path.dirname(__file__), "schema.sql")
 
+# Bump this whenever you widen scope (countries / place types). The next run then does a
+# one-time clean rebuild so the feed reflects the new scope, and reverts to normal after.
+BACKFILL_VERSION = "2-global-allsectors"
+
 # Terms cast a wide net; the classifier is what actually decides what qualifies.
 QUERY = '(school OR schools OR campus) (swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR "active shooter") sourcelang:eng'
 
-SYSTEM_PROMPT = """You are an incident-recognition analyst for the OnScene Technologies Intelligence Desk,
-covering school and campus safety in the US and UK. You read ONE news article and decide whether it
-reports a qualifying safety event, then return JSON only.
+SYSTEM_PROMPT = """You are an incident-recognition analyst for the OnScene Technologies Intelligence Desk.
+You cover physical-safety incidents at public-facing places worldwide. You read ONE news article and decide
+whether it reports a qualifying safety event, then return JSON only.
 
-INCLUDE an event if EITHER (a) a facility (school, college/university, and later workplace or public venue)
-faced a hostile safety threat — swatting / active-shooter hoax, bomb threat, weapon or intruder, or a
-credible threat of violence; OR (b) a facility took a protective action for a safety reason — lockdown,
-lockout/secure, shelter-in-place, evacuation, invacuation, early dismissal, or closure.
+QUALIFYING PLACES (anywhere people gather): schools, colleges/universities, workplaces/offices, hospitals
+and other healthcare sites, houses of worship, shops/malls/retail, stadiums/arenas/event venues,
+airports/train and transit stations, government buildings/courthouses, hotels, libraries, and the like.
 
-EXCLUDE general trend/analysis pieces with no single datable incident at a named facility; non-safety
-disruptions (weather, staffing, utilities) unless a safety protective action was taken; opinion, policy,
-and historical retrospectives.
+INCLUDE an event if EITHER (a) such a place faced a hostile safety threat — swatting / active-shooter hoax,
+bomb threat, weapon or intruder, or a credible threat of violence; OR (b) such a place took a protective
+action for a safety reason — lockdown, lockout/secure, shelter-in-place, evacuation, invacuation, early
+dismissal, or closure.
 
-GEOGRAPHY: Only include incidents physically located in the United States or the United Kingdom. If the
-school or campus is anywhere else (e.g. Australia, India, Ireland, Canada), return {"include": false,
-"reason": "outside US/UK scope"}. Set "country" to exactly "US" or "UK" from where the incident physically
-occurred — never guess; if you cannot confirm it is US or UK, exclude it.
+EXCLUDE: general trend/analysis pieces with no single datable incident at a named place; non-safety
+disruptions (weather, staffing, utilities, power) unless a safety protective action was taken; opinion,
+policy, and historical retrospectives; ordinary crime not tied to a gathering place taking a protective
+action; and events that are part of an armed conflict, war zone, or military operation (this is a civilian
+facility-safety desk, not a war tracker).
 
-RULES: Extract only what the text supports; use null for unknowns. Never assert a hoax-or-real
-determination the article does not state — use "Under investigation". If one event affected multiple named
-facilities, emit one record per facility and give them the SAME cluster_hint. Quote a short verbatim
-evidence span. Assign confidence 0..1 from source clarity and corroboration.
+GEOGRAPHY: Worldwide. Set "country" to the country where the incident physically occurred, as a full English
+country name (e.g. "United States", "United Kingdom", "Canada", "India", "Australia"). Never guess — if you
+cannot determine the country from the text, exclude the event.
+
+RULES: Extract only what the text supports; use null for unknowns. Never assert a hoax-or-real determination
+the article does not state — use "Under investigation". If one event affected multiple named places, emit one
+record per place and give them the SAME cluster_hint. Quote a short verbatim evidence span. Assign confidence
+0..1 from source clarity and corroboration.
 
 OUTPUT exactly one JSON object:
   Not a qualifying event:  {"include": false, "reason": "<one line>"}
   A qualifying event:      {"include": true, "records": [ { ...fields... } ]}
 Each record's fields:
-  facility_name, facility_type ("K-12"|"Higher Ed"|"Workplace"|"Venue"),
-  town, region (US state or UK county/nation), country ("US"|"UK"),
+  facility_name, facility_type ("K-12"|"Higher Ed"|"Workplace"|"Healthcare"|"Worship"|"Retail"|"Transit"|"Venue"|"Government"|"Other"),
+  town, region (state / province / county / nation), country (full English country name),
   date ("YYYY-MM-DD"), trigger_type, protective_action, outcome_status,
   injuries (int|null), schools_affected (int|null),
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
 # ----------------------------------------------------------------------------- ingest
-NEWS_QUERY = ('school (swatting OR "bomb threat" OR lockdown OR evacuated '
-              'OR "shelter in place" OR "active shooter")')
+NEWS_QUERY = ('(school OR college OR university OR campus OR workplace OR office OR '
+              'hospital OR clinic OR church OR mosque OR synagogue OR temple OR mall OR '
+              'store OR supermarket OR stadium OR arena OR airport OR station OR courthouse OR '
+              'library OR hotel) '
+              '(swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR '
+              '"active shooter" OR "suspicious package" OR intruder OR "security threat")')
+
+# Google News editions to sweep. English editions across major regions give worldwide
+# coverage without per-language search terms. Add or remove (country, ceid) pairs to taste.
+EDITIONS = [
+    ("US", "US:en"), ("GB", "GB:en"), ("CA", "CA:en"), ("IE", "IE:en"),
+    ("AU", "AU:en"), ("NZ", "NZ:en"), ("IN", "IN:en"), ("PK", "PK:en"),
+    ("ZA", "ZA:en"), ("NG", "NG:en"), ("KE", "KE:en"), ("PH", "PH:en"),
+    ("SG", "SG:en"), ("MY", "MY:en"), ("FR", "FR:en"), ("DE", "DE:en"),
+    ("JP", "JP:en"), ("BR", "BR:en"),
+]
 
 def _fetch_google_news(gl, ceid, days, maxrecords):
     import time as _t, xml.etree.ElementTree as ET
@@ -93,20 +116,19 @@ def _fetch_google_news(gl, ceid, days, maxrecords):
     return out
 
 def ingest_live(days=None, maxrecords=None):
-    # Hourly runs use a tight 3-day / 60-per-feed window. For a one-off backfill,
-    # widen these via env vars LOOKBACK_DAYS and MAX_RECORDS (wired to the
-    # "Run workflow" inputs in .github/workflows/run.yml) — no code change needed.
+    # Hourly runs use a tight window and a small per-edition cap. A one-off backfill widens
+    # both (see run()). Env vars LOOKBACK_DAYS / MAX_RECORDS override the hourly defaults.
     if days is None:
         days = int(os.environ.get("LOOKBACK_DAYS", "3"))
     if maxrecords is None:
-        maxrecords = int(os.environ.get("MAX_RECORDS", "60"))
+        maxrecords = int(os.environ.get("MAX_RECORDS", "25"))
     seen, merged = set(), []
-    for gl, ceid in [("US", "US:en"), ("GB", "GB:en")]:
+    for gl, ceid in EDITIONS:
         for a in _fetch_google_news(gl, ceid, days, maxrecords):
             if a["url"] and a["url"] not in seen:
                 seen.add(a["url"]); merged.append(a)
-    print("ingest: pulled %d articles from Google News (US+UK) — %dd window, %d/feed cap"
-          % (len(merged), days, maxrecords))
+    print("ingest: pulled %d articles across %d Google News editions — %dd window, %d/edition cap"
+          % (len(merged), len(EDITIONS), days, maxrecords))
     return merged
 
 def ingest_mock():
@@ -141,8 +163,7 @@ def geocode(rec):
     """Fill lat/lng from town/region via OpenStreetMap Nominatim (free, no key)."""
     if rec.get("lat") and rec.get("lng"):
         return rec["lat"], rec["lng"]
-    country = "United Kingdom" if rec.get("country") == "UK" else "United States"
-    q = ", ".join(x for x in [rec.get("town"), rec.get("region"), country] if x)
+    q = ", ".join(x for x in [rec.get("town"), rec.get("region"), rec.get("country")] if x)
     if not q:
         return None, None
     if q in GEO_CACHE:
@@ -237,15 +258,15 @@ def run(mock=False):
     # rows and rebuilds the feed from a wide window, then flags itself done so every
     # later run is a normal tight incremental. The flag lives in the committed DB, so
     # it persists automatically — no workflow edits, nothing to trigger by hand.
-    backfill = (not mock) and _meta_get(con, "backfilled") is None
+    backfill = (not mock) and _meta_get(con, "backfill_version") != BACKFILL_VERSION
     if backfill:
         con.execute("DELETE FROM incidents")
         con.execute("DELETE FROM seen_articles")
         con.commit()
-        days, maxrecords = 180, 150
-        print("BACKFILL: one-time clean rebuild over a %dd window" % days)
+        days, maxrecords = 180, 80
+        print("BACKFILL: one-time clean rebuild over a %dd window (scope: %s)" % (days, BACKFILL_VERSION))
     else:
-        days = maxrecords = None  # normal run: env vars if set, else 3d / 60-per-feed
+        days = maxrecords = None  # normal run: env vars if set, else 3d / 25-per-edition
     articles = ingest_mock() if mock else ingest_live(days, maxrecords)
     stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0, "errors": 0}
     for a in articles:
@@ -263,8 +284,8 @@ def run(mock=False):
             for rec in (res.get("records") or []):
                 if not rec.get("facility_name") or not rec.get("date"):
                     continue  # skip incomplete records
-                if rec.get("country") not in ("US", "UK"):
-                    continue  # US/UK scope only (backstop for the prompt)
+                if not rec.get("country"):
+                    continue  # require a known country (backstop for the prompt)
                 rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
                 outcome = upsert(con, rec)
                 stats["recognized"] += 1
@@ -276,7 +297,7 @@ def run(mock=False):
             continue
     assign_clusters(con)
     if backfill:
-        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfilled', ?)", (now,))
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfill_version', ?)", (BACKFILL_VERSION,))
     con.commit()
     total = export(con)
     print(json.dumps({**stats, "backfill": backfill, "total_in_db": total, "output": OUT}, indent=2))
