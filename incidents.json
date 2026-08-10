@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-10T10:37:13.506998Z",
-  "count": 2,
+  "generated": "2026-08-10T11:59:37.516547Z",
+  "count": 3,
   "incidents": [
+    {
+      "id": 145,
+      "country": "Nigeria",
+      "date": "2026-08-10",
+      "school": "University of Calabar Church",
+      "city": "Calabar",
+      "state": "Cross River",
+      "sector": "Worship",
+      "type": "Credible threat of violence",
+      "response": "Service stopped/interrupted",
+      "outcome": "Threat prevented",
+      "cluster": "University of Calabar church service interruption 2026-08-10",
+      "notes": "Police stop church service in University of Calabar to prevent bloodshed",
+      "lat": 4.9796,
+      "lng": 8.3374,
+      "src": "21stcenturychronicle.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVFZudUxuTXNrREJKeENYTUxQNjU4TGlQQmxRN0d2OUZOX2V6b2xoNmxzTnMwUllqb2dzRFRIc1B2SlRCcVUzcXhGMUY1djRZN0NRMXh3Q0VjbTVBTDFiaFJyaFZxdFZBNEJ2aEV0NFc5TDVENmRfWjZWTW03Tl9aQk8xUDRwblB5MktsQTNQcmFNVGlXM0JXQ2UxUEZ4LWQ1UHFBMVhpVDVHQQ?oc=5"
+    },
     {
       "id": 143,
       "country": "United States",
