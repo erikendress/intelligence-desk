@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Incident Awareness Board — US &amp; UK | OnScene Technologies Intelligence Desk</title>
+<title>Incident Awareness Board — Worldwide | OnScene Technologies Intelligence Desk</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <style>
@@ -46,9 +46,7 @@
   .chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:6px 11px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;user-select:none}
   .chip .sw{width:10px;height:10px;border-radius:50%}
   .chip.off{opacity:.35}
-  .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
-  .seg button{font:inherit;font-size:12.5px;padding:7px 12px;border:0;background:#fff;cursor:pointer;color:var(--muted)}
-  .seg button.on{background:var(--accent);color:#fff;font-weight:600}
+  select{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;max-width:220px}
   input[type=search]{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;min-width:180px}
   .reset{margin-left:auto;font-size:12.5px;color:var(--accent2);background:none;border:0;cursor:pointer;font-weight:600}
   .grid{display:grid;grid-template-columns:1.5fr 1fr;gap:16px}
@@ -89,8 +87,8 @@
     <div class="brand">
       <div class="logo">◎</div>
       <div>
-        <h1>Incident Awareness Board — US &amp; UK</h1>
-        <div class="sub">School &amp; campus threat activity — updated hourly from public reporting</div>
+        <h1>Incident Awareness Board</h1>
+        <div class="sub">Threat activity at schools, workplaces &amp; public places — worldwide, updated hourly from public reporting</div>
       </div>
     </div>
     <span class="powered">Powered by <b>OnScene Technologies</b></span>
@@ -113,11 +111,11 @@
   <div class="filters" id="filters" style="display:none">
     <div class="fgroup">
       <label>Country</label>
-      <div class="seg" id="country">
-        <button data-c="all" class="on">Both</button>
-        <button data-c="US">US</button>
-        <button data-c="UK">UK</button>
-      </div>
+      <select id="country"><option value="all">All countries</option></select>
+    </div>
+    <div class="fgroup">
+      <label>Place</label>
+      <select id="sector"><option value="all">All place types</option></select>
     </div>
     <div class="fgroup">
       <label>Type</label>
@@ -125,7 +123,7 @@
       <span class="chip" data-type="bomb"><span class="sw" style="background:var(--bomb)"></span>Bomb Threat</span>
       <span class="chip" data-type="other"><span class="sw" style="background:var(--other)"></span>Other</span>
     </div>
-    <div class="fgroup"><input type="search" id="search" placeholder="Search school, town, keyword…"></div>
+    <div class="fgroup"><input type="search" id="search" placeholder="Search place, town, keyword…"></div>
     <button class="reset" id="reset">Reset</button>
   </div>
 
@@ -147,15 +145,17 @@
 </div>
 
 <footer>
-  <p><b>About:</b> This board is produced automatically by the OnScene Technologies Intelligence Desk — a recognition engine that reads public news across the US and UK, identifies genuine school and campus safety incidents, and refreshes this feed hourly. It is a resource for understanding patterns, not an alerting or operational tool. Coverage is what public reporting makes catchable; absence of an incident is not confirmation nothing happened. Every record links to its original source.</p>
+  <p><b>About:</b> This board is produced automatically by the OnScene Technologies Intelligence Desk — a recognition engine that reads public news worldwide, identifies genuine safety incidents at schools, workplaces, and other public places, and refreshes this feed hourly. It is a resource for understanding patterns, not an alerting or operational tool. Coverage is what public reporting makes catchable; absence of an incident is not confirmation nothing happened. Every record links to its original source.</p>
 </footer>
 
 <script>
-const FEED_URL = "https://raw.githubusercontent.com/erikendress/intelligence-desk/main/incidents.json";
+// Same-origin feed: the board and incidents.json are served together on GitHub Pages,
+// so a relative path is more reliable than raw.githubusercontent (no CORS, no cache lag).
+const FEED_URL = "incidents.json";
 const COLORS = { swat:"#ef4444", bomb:"#e26b08", other:"#9333ea" };
 const BUCKET_LABEL = { swat:"Swatting / Hoax", bomb:"Bomb Threat", other:"Other" };
 let INCIDENTS = [];
-const stateF = { types:new Set(["swat","bomb","other"]), country:"all", q:"" };
+const stateF = { types:new Set(["swat","bomb","other"]), country:"all", sector:"all", q:"" };
 
 function typeBucket(t){
   t = (t||"").toLowerCase();
@@ -171,7 +171,7 @@ function fmtDate(d){
 
 let map=null, markers=[];
 try{
-  map=L.map('map',{scrollWheelZoom:false}).setView([48,-40],3);
+  map=L.map('map',{scrollWheelZoom:false}).setView([20,0],2);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:12, attribution:'&copy; OpenStreetMap'}).addTo(map);
 }catch(e){
   document.getElementById('map').innerHTML='<div class="state">Interactive map unavailable in this view — the incident list and filters remain functional.</div>';
@@ -179,7 +179,8 @@ try{
 
 function matches(i){
   if(!stateF.types.has(typeBucket(i.type))) return false;
-  if(stateF.country!=="all" && i.country!==stateF.country) return false;
+  if(stateF.country!=="all" && (i.country||"")!==stateF.country) return false;
+  if(stateF.sector!=="all" && (i.sector||"")!==stateF.sector) return false;
   if(stateF.q){
     const hay=(Object.values(i).join(" ")).toLowerCase();
     if(!hay.includes(stateF.q.toLowerCase())) return false;
@@ -195,7 +196,7 @@ function render(refit){
       if(i.lat==null||i.lng==null) return;
       const b=typeBucket(i.type);
       const mk=L.circleMarker([i.lat,i.lng],{radius:8,color:"#fff",weight:2,fillColor:COLORS[b],fillOpacity:.9}).addTo(map);
-      mk.bindPopup(`<div class="lp"><div class="n">${i.school||"(unnamed)"}</div>
+      mk.bindPopup(`<div class="lp"><div class="n">${i.school||"(unnamed site)"}</div>
         <div class="l">${[i.city,i.state].filter(Boolean).join(", ")} · ${i.country||""} · ${fmtDate(i.date)}</div>
         <div class="b"><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span></div>
         <div class="b">${i.response||""}</div>
@@ -215,7 +216,7 @@ function render(refit){
              : /investigat/i.test(i.outcome||"") ? '<span class="tag inv">◔ Under investigation</span>'
              : (i.outcome?`<span class="tag">${i.outcome}</span>`:"");
     return `<div class="row" data-id="${i.id}">
-      <div class="top"><span class="name">${i.school||"(unnamed school)"}</span><span class="date">${fmtDate(i.date)}</span></div>
+      <div class="top"><span class="name">${i.school||"(unnamed site)"}</span><span class="date">${fmtDate(i.date)}</span></div>
       <div class="loc">${[i.city,i.state].filter(Boolean).join(", ")}${i.sector?" · "+i.sector:""}</div>
       <div class="meta"><span class="cty">${i.country||"?"}</span><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span>${oc}${i.response?`<span class="tag">${i.response}</span>`:""}</div>
       ${i.notes?`<div class="notes">${i.notes}</div>`:""}
@@ -235,45 +236,53 @@ function render(refit){
 function renderSummary(rows){
   const total = rows.length;
   const countries = new Set(rows.map(i=>i.country).filter(Boolean));
-  const regions = new Set(rows.map(i=>i.state).filter(Boolean));
+  const sectors = new Set(rows.map(i=>i.sector).filter(Boolean));
   const byBucket = {swat:0,bomb:0,other:0};
   rows.forEach(i=>byBucket[typeBucket(i.type)]++);
   const top = Object.entries(byBucket).sort((a,b)=>b[1]-a[1])[0];
   const hoax = rows.filter(i=>/hoax/i.test(i.outcome||"")).length;
-  const dates = rows.map(i=>i.date).filter(Boolean).sort();
   const tiles = [
     ["Incidents", total, "in current view"],
-    ["Countries", countries.size, [...countries].join(" · ")||"—"],
-    ["Regions", regions.size, "US states / UK counties"],
+    ["Countries", countries.size, [...countries].slice(0,4).join(" · ")||"—"],
+    ["Place types", sectors.size, [...sectors].slice(0,4).join(" · ")||"—"],
     ["Most common", total? BUCKET_LABEL[top[0]] : "—", total? top[1]+" incidents":""],
     ["Confirmed hoax", total? Math.round(hoax/total*100)+"%" : "—", hoax+" of "+total]
   ];
   document.getElementById('takeaways').innerHTML = tiles.map(t=>`
     <div class="tk"><div class="k">${t[0]}</div><div class="v">${t[1]}</div><div class="d">${t[2]}</div></div>`).join('');
   const narr = document.getElementById('narr');
-  if(total===0){ narr.textContent = "No qualifying incidents in the feed yet — the engine adds them as they surface in public reporting."; return; }
+  if(total===0){ narr.textContent = "No qualifying incidents match the current filters — the engine adds them as they surface in public reporting worldwide."; return; }
   const b = BUCKET_LABEL[top[0]].toLowerCase();
-  narr.innerHTML = `Tracking <b>${total}</b> recent school &amp; campus safety incident${total>1?"s":""} across the US and UK. The most common type right now is <b>${b}</b>. These are compiled automatically from public reporting — the value is seeing them together, so a single event can be read against the wider pattern.`;
+  narr.innerHTML = `Tracking <b>${total}</b> recent safety incident${total>1?"s":""} at schools, workplaces, and public places across <b>${countries.size}</b> countr${countries.size===1?"y":"ies"}. The most common type right now is <b>${b}</b>. These are compiled automatically from public reporting — the value is seeing them together, so a single event can be read against the wider pattern.`;
+}
+
+function fillSelect(id, values, allLabel){
+  const sel=document.getElementById(id);
+  const cur=sel.value;
+  const opts=['<option value="all">'+allLabel+'</option>']
+    .concat(values.sort((a,b)=>a.localeCompare(b)).map(v=>`<option value="${v.replace(/"/g,'&quot;')}">${v}</option>`));
+  sel.innerHTML=opts.join('');
+  sel.value=cur && (cur==="all"||values.includes(cur)) ? cur : "all";
 }
 
 function init(){
   document.getElementById('filters').style.display='flex';
+  fillSelect('country', [...new Set(INCIDENTS.map(i=>i.country).filter(Boolean))], 'All countries');
+  fillSelect('sector',  [...new Set(INCIDENTS.map(i=>i.sector).filter(Boolean))],  'All place types');
   document.querySelectorAll('.chip[data-type]').forEach(c=>c.addEventListener('click',()=>{
     const t=c.dataset.type;
     if(stateF.types.has(t)){stateF.types.delete(t);c.classList.add('off');}
     else {stateF.types.add(t);c.classList.remove('off');}
     render(false);
   }));
-  document.querySelectorAll('#country button').forEach(btn=>btn.addEventListener('click',()=>{
-    document.querySelectorAll('#country button').forEach(b=>b.classList.remove('on'));
-    btn.classList.add('on'); stateF.country=btn.dataset.c; render(true);
-  }));
+  document.getElementById('country').addEventListener('change',e=>{stateF.country=e.target.value;render(true);});
+  document.getElementById('sector').addEventListener('change',e=>{stateF.sector=e.target.value;render(true);});
   document.getElementById('search').addEventListener('input',e=>{stateF.q=e.target.value;render(false);});
   document.getElementById('reset').addEventListener('click',()=>{
-    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.q="";
+    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.sector="all"; stateF.q="";
     document.querySelectorAll('.chip[data-type]').forEach(c=>c.classList.remove('off'));
-    document.querySelectorAll('#country button').forEach(b=>b.classList.remove('on'));
-    document.querySelector('#country button[data-c="all"]').classList.add('on');
+    document.getElementById('country').value="all";
+    document.getElementById('sector').value="all";
     document.getElementById('search').value=""; render(true);
   });
   render(true);
