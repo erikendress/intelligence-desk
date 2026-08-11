@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-11T11:06:54.174165Z",
-  "count": 3,
+  "generated": "2026-08-11T11:57:59.567796Z",
+  "count": 4,
   "incidents": [
+    {
+      "id": 146,
+      "country": "Nigeria",
+      "date": "2026-08-11",
+      "school": "Rivers varsity",
+      "city": null,
+      "state": "Rivers",
+      "sector": "Higher Ed",
+      "type": "Weapon/hostile activity",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Rivers_varsity_gunshots_20260811",
+      "notes": "Gunshots as rival cultists clash at Rivers varsity",
+      "lat": 4.8416,
+      "lng": 6.8604,
+      "src": "Punch Newspapers",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52Z3M1QkFBdmhVQW9vRmpnbWxuQ1BqNWhDSkNFSF9TV3hNMWJiaFhEM0NFejVpaWRDUkNqZzE2TG9XNW55TE9Fd1IycEw3YTVONk16a2hacmZyMmc4X1A4T0pIUmw3Nlgwa29IVm1KNzZQUXpza2pJUTdrdw?oc=5"
+    },
     {
       "id": 145,
       "country": "Nigeria",
