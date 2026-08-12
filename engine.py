@@ -19,7 +19,7 @@ SCHEMA = os.path.join(os.path.dirname(__file__), "schema.sql")
 
 # Bump this whenever you widen scope (countries / place types). The next run then does a
 # one-time clean rebuild so the feed reflects the new scope, and reverts to normal after.
-BACKFILL_VERSION = "3-global-rebuild"
+BACKFILL_VERSION = "4-threatled"
 
 # Terms cast a wide net; the classifier is what actually decides what qualifies.
 QUERY = '(school OR schools OR campus) (swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR "active shooter") sourcelang:eng'
@@ -63,12 +63,12 @@ Each record's fields:
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
 # ----------------------------------------------------------------------------- ingest
-NEWS_QUERY = ('(school OR college OR university OR campus OR workplace OR office OR '
-              'hospital OR clinic OR church OR mosque OR synagogue OR temple OR mall OR '
-              'store OR supermarket OR stadium OR arena OR airport OR station OR courthouse OR '
-              'library OR hotel) '
-              '(swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR '
-              '"active shooter" OR "suspicious package" OR intruder OR "security threat")')
+# Lead with the THREAT terms and let the classifier identify the place. A place-led query
+# ("school OR hospital OR ...") makes Google match the place words and return generic non-incident
+# news; a threat-led query returns articles that are actually about safety events (~90% on-target).
+NEWS_QUERY = ('"bomb threat" OR swatting OR "active shooter" OR "shelter in place" '
+              'OR "school lockdown" OR "campus lockdown" OR "building evacuated" '
+              'OR "suspicious package" OR "lockdown lifted" OR "hoax threat"')
 
 # Google News editions to sweep. English editions across major regions give worldwide
 # coverage without per-language search terms. Add or remove (country, ceid) pairs to taste.
