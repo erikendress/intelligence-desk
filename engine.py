@@ -19,7 +19,7 @@ SCHEMA = os.path.join(os.path.dirname(__file__), "schema.sql")
 
 # Bump this whenever you widen scope (countries / place types). The next run then does a
 # one-time clean rebuild so the feed reflects the new scope, and reverts to normal after.
-BACKFILL_VERSION = "2-global-allsectors"
+BACKFILL_VERSION = "3-global-rebuild"
 
 # Terms cast a wide net; the classifier is what actually decides what qualifies.
 QUERY = '(school OR schools OR campus) (swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR "active shooter") sourcelang:eng'
