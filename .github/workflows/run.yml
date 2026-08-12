@@ -1,5 +1,44 @@
 name: Intelligence Desk engine
 
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python engine.py
+
+      - name: Commit the refreshed feed
+        run: |
+          git config user.name  "intelligence-desk-bot"
+          git config user.email "intelligence-desk-bot@users.noreply.github.com"
+          git add incidents.json incidents.db
+          git commit -m "Refresh incident feed [skip ci]" || { echo "No changes to commit"; exit 0; }
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "remote moved, retrying ($i)…"; sleep 4
+          done
+          echo "push failed after retries"; exit 1name: Intelligence Desk engine
+
 # Runs the recognition engine on a schedule and commits the refreshed feed.
 # No server — GitHub spins up a machine, runs the script, and shuts it down.
 
