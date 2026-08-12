@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-12T13:46:09.789909Z",
-  "count": 110,
+  "generated": "2026-08-12T15:14:22.372623Z",
+  "count": 111,
   "incidents": [
+    {
+      "id": 258,
+      "country": "United States",
+      "date": "2026-08-12",
+      "school": "Chemical plant (Metro East area)",
+      "city": null,
+      "state": "Missouri",
+      "sector": "Other",
+      "type": "Industrial incident (chemical plant fire)",
+      "response": "Shelter-in-place order",
+      "outcome": "Unknown",
+      "cluster": "Metro East chemical plant fire Aug 2026",
+      "notes": "Metro East shelter-in-place order after chemical plant fire",
+      "lat": 38.7605,
+      "lng": -92.5618,
+      "src": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFFKWnNVcTQ2NkFiU1JETGtkWlhyQTRwMmlEQm41azVSRm8zNjVFTkRDdUVTS1llUE9oVTRjZmF5c1FkTncwOEdCMnZaTHBzOHM0cno5aHFWNW02TmZYSGE1cmYxQTVYUGdUaU83UXFhZm5KRW56aTMyRWY0MWhXN0RFNEFlVnJndnpJV0JWeVVHYlNBMWVKMGtCQ3JGckhRSG9MTEZIMEk5Q002X3hUSnlnQm01RllY?oc=5"
+    },
     {
       "id": 257,
       "country": "United States",
