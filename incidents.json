@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T08:43:02.197841Z",
-  "count": 133,
+  "generated": "2026-08-13T10:21:51.641609Z",
+  "count": 137,
   "incidents": [
     {
       "id": 280,
@@ -163,6 +163,24 @@
       "lng": -69.7744,
       "src": "WABI",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ0llUnpfMzI5aTB0dWlQcEg0d0g0em1CeTR6dnlJMDMtN25YRnhmcGhCOVhzNG40azJCbkwwRElObU9IcHRWMHJMenR3WEpQcWhid3luVHhHYlBZbC1Rckx2Mkc2RGtISEh1NFM3TFM5WDFIWXB6dzVpQnNqUThxZUJ5REF5X054Nk1wX2ZVTERJVVJGMlJDaGVCLWM5WUlRWmVv0gG3AUFVX3lxTE15VUFVTHFvWGZjM3JQOWFTNUNrSjF4VnBtdXUxNE5qQ3p5RUpjS2pTVUFtdDhkeVVmQi1ISldtMFZhelFRdmxvS2dDT1lCYTdpUXNnMVhwcDhCWFV0bGJleXctaFpKRHUxNHZ5eWlJNzBGNnQ4ZGlQZEVHYmdYTjBYQzUwNFlHVVJXaVVQUTZVcWIxcWFoUUFWNEpwNVU4c2dzWGZlb3FHaG1XWjlQQy1rR0JMSGpZMA?oc=5"
+    },
+    {
+      "id": 281,
+      "country": "United States",
+      "date": "2026-08-12",
+      "school": "Walmart",
+      "city": "Fredericksburg",
+      "state": "Virginia",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Fredericksburg_Walmart_Aug2026",
+      "notes": "Bomb threat at Walmart triggers second evacuation in a month",
+      "lat": 38.3001,
+      "lng": -77.4571,
+      "src": "fredericksburgstandard.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbXZCSkRYeEluN1hZY2c1cGsyU0tFZGNkS1lwWmNsYmltQnd1NXpibmJWU256X0FRQTZTLXowdG1QdlJTazdMZER4akloTGw2VjIxVnpxMXJXOTBpTlZNanQ2U2NOMzVlNk9MZ0dJWkQ4WkR4NnBfZm56UWQtWmdhYlZTNE1uYmhDcnFub1BNcWlrclFyWXU1Rg?oc=5"
     },
     {
       "id": 271,
@@ -649,6 +667,42 @@
       "lng": -80.5817,
       "src": "WCNC",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPanVQTXN6SkRrc0NMMTI4cm5WOTZ0cWl6WVd6bERXcmxKNEdkWEd6UEZtSEdkWHRNR2ZyM2ZPWUc2bDZSaEJMRHpUSmJGMFg4eEt3emc0T3hVM3phY3VBdnlJdXd5SmRVNm1RU05QN0xLcUE5NVlabzJMZldvSzNRT25DUWhreDQzYVBDU0tBb241SHRydVVUaHZGYjFfREJhTXVtSGRpU3JZRWdBMjBQVTlNSWpnYVprZi1JNjNkbWNzaTdJTnJveWpn?oc=5"
+    },
+    {
+      "id": 283,
+      "country": "Canada",
+      "date": "2026-08-11",
+      "school": "US Consulate in Toronto",
+      "city": "Toronto",
+      "state": "Ontario",
+      "sector": "Government",
+      "type": "Active shooter incident",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Halifax_Toronto_consulate_incidents_Aug2026",
+      "notes": "after 2 Toronto consulate shootings",
+      "lat": 43.6535,
+      "lng": -79.3839,
+      "src": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYmVlSGZfclpPdU5sQjI0bjZsSlhvS1JQc09BVll0VmdvLTVNSFRxU0N6dE8yNl9mbzY1elhCQmlVbWVrZkxQV2MyODFzQ2h0WVVhWUtfamJ0ZGxoZkpiT2NtcG5UQ25YWUpUVzZFbEF2dDdIUlJKdnVTWHpQc1lXN0xiZWhrYzhyWWxzSHdYOWQzb1pZLUMtMnk1T1VEd2RhYVMwNzRZaEVyaTQ?oc=5"
+    },
+    {
+      "id": 282,
+      "country": "Canada",
+      "date": "2026-08-11",
+      "school": "US Consulate in Halifax",
+      "city": "Halifax",
+      "state": "Nova Scotia",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Halifax_Toronto_consulate_incidents_Aug2026",
+      "notes": "Man charged with bomb threat against US Consulate in Halifax",
+      "lat": 44.6486,
+      "lng": -63.5859,
+      "src": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYmVlSGZfclpPdU5sQjI0bjZsSlhvS1JQc09BVll0VmdvLTVNSFRxU0N6dE8yNl9mbzY1elhCQmlVbWVrZkxQV2MyODFzQ2h0WVVhWUtfamJ0ZGxoZkpiT2NtcG5UQ25YWUpUVzZFbEF2dDdIUlJKdnVTWHpQc1lXN0xiZWhrYzhyWWxzSHdYOWQzb1pZLUMtMnk1T1VEd2RhYVMwNzRZaEVyaTQ?oc=5"
     },
     {
       "id": 248,
@@ -1675,6 +1729,24 @@
       "lng": 102.2657,
       "src": "The Edge Malaysia",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00VEtSUk5lZ3lhX0gxSUJfcGQ5T1RXNVplX1h3bzRrMGFkZmRtWV9EMU1YSTUwWlZhX1pORWt2bFpBQWxoUzZMVnJlOUJEVzZK?oc=5"
+    },
+    {
+      "id": 284,
+      "country": "Malaysia",
+      "date": "2026-07-29",
+      "school": "Mid Valley",
+      "city": null,
+      "state": null,
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Hoax confirmed",
+      "cluster": "Mid Valley bomb threat 2026-07-29",
+      "notes": "Police confirm Mid Valley bomb threat was a hoax",
+      "lat": 4.5694,
+      "lng": 102.2657,
+      "src": "NST Online",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb2dfdTRZNnpzZjNBSS1VM2dtbWp2WXM0aVV3clpnN3dweXJxeENwNHl0WDFUblRkNjJfdDZIeUdOdmtEZ1JuQjlnVW02VFppN2VoZi1xQzA1am13LU9HaXBoTG9ScENUWENrTGEtTXZ5MFFwdE9SWlh2bEFXbm9SYlJMdlNGX2V1ODdXcDZBS0YzNVpnaXpfM2FjZDZod9IBowFBVV95cUxQUFBMeF9hd09zVU9LZk0zcEk1bEFKaTdYVVBYLTl1dl85Zm02R1I0WjVnNlduWVJNNWdZUDFGSFR4UUlOSkNJWHotODhsR2hwOTZYbXdsUERtTlo3Rm1wWGxwUzQzUWRyLWFmUnMxMk5FblRnaW5MdktVTWt5ZW84QVFkeXVtd2N3UEprNXR1QlVKekhDcGZra2g0V1c3d2hiUlZJ?oc=5"
     },
     {
       "id": 179,
