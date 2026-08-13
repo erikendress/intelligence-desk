@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-13T23:02:23.556822Z",
-  "count": 157,
+  "generated": "2026-08-13T23:57:57.802128Z",
+  "count": 158,
   "incidents": [
+    {
+      "id": 305,
+      "country": "United States",
+      "date": "2026-08-13",
+      "school": "Sausalito (unnamed facility/area)",
+      "city": "Sausalito",
+      "state": "Marin County",
+      "sector": "Other",
+      "type": "Search operation / potential threat",
+      "response": "Shelter-in-place order",
+      "outcome": "Arrest made",
+      "cluster": "Sausalito_2026-08-13_shelter-in-place",
+      "notes": "Ukiah man arrested in Sausalito after search that prompted shelter-in-place order",
+      "lat": 37.859,
+      "lng": -122.4855,
+      "src": "The Mendocino Voice",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbnJ5dlhtdF9idVBGcGJvV2c2bXdPTEVKQUl0ZGFDM2FTbzBkOGRGcVhrczFzdUVrYlBjRjY4akY3ZWplOERZRDlTa3BOQmFFemVIaGhTaVpXc3dyN1VhVk1obUNaZVFoakJpZG9ZSGktTkVjaTJZd1k1SUJqdHJ2bGRmQW1lVmd3SlZSdkQ1TUxmOVJkYjRGMFpYUXBKTExGX2dnaHFTYXRnOWFzTTllMHRYSQ?oc=5"
+    },
     {
       "id": 304,
       "country": "United States",
