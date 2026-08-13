@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-13T05:04:09.066050Z",
-  "count": 131,
+  "generated": "2026-08-13T06:45:10.400293Z",
+  "count": 132,
   "incidents": [
+    {
+      "id": 279,
+      "country": "Singapore",
+      "date": "2026-08-13",
+      "school": "Xinmin Secondary",
+      "city": "Singapore",
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Xinmin Secondary bomb threat 2026-08-13",
+      "notes": "Bomb threat sends Singapore's Xinmin Secondary students, staff out of school as police find no suspicious items",
+      "lat": 1.2899,
+      "lng": 103.8519,
+      "src": "Malay Mail",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdnc1ZS1XTFltUUpKeHBBVnpTUHhqV0x2UTlDZndmdDdFNUxqTEItcGVmTWtFYkhmWGlDS0pvWnlvek83cHpvTHBBRjF0QmxSUzI4TVJCMTdaRE1sREstZDJQMlJPMUg0Q0l3UjhnSE14ZXI1RGFvSUpFdGNiVVhiLTRwTzA1N1gxdVE1STNTVmwybFJpZEVidWNpMFprSHRSdUp3TnExUW5pRzVBQnJTX2psRElDVHhrNmxZTWZlY0tMTUpwNy1jMUpkandxVHBBRFVHbFVla2JkSUVUdVpuai1aSEtkRm1zcXBoMUJ4QW1VUkZKbkVjV3hTbVnSAYICQVVfeXFMTy1vMHpOaUJEbDBLSlZCYTJ2aldDU2xLYUVGOEo4cGxTeFlrQ0pjVExqNm5VUk1NWDQxLTRJTlN0ZnQ3SVFqek5rYTh5RF9OOUJaYzlLN09wNEVLUV8wRmtLTFdHc2RETERQODZKbHBLY1NualJicHdNU2h6UU5mTGNiaGU4RHIyeXBvSWduMlp6bXNaOUhrMGlPOXplbXlMdEdpOHN0Qmw4amcyWHVZb0t2NHlqU2FZczJzbG9mUjZvV3F0XzE4TVlEaXl3a2tVWWNjcW4ybjd2NGRZOXNDVXNjS0hDYTN3T0gyb1RuTjNOM2ZSbmpnR19ocjA0UmhVVTVB?oc=5"
+    },
     {
       "id": 278,
       "country": "United States",
