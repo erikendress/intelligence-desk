@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-13T16:10:28.448025Z",
-  "count": 141,
+  "generated": "2026-08-13T17:12:04.258162Z",
+  "count": 142,
   "incidents": [
+    {
+      "id": 289,
+      "country": "United States",
+      "date": "2026-08-13",
+      "school": "Mary Lee Clark Elementary",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Search following traffic stop",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Mary Lee Clark Elementary precautionary lockdown 2026-08-13",
+      "notes": "Lockdown lifted at Mary Lee Clark Elementary after precautionary lockdown during search following traffic stop",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "News4JAX",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVmRMczNCV2lnYkx0dDVoeEl1V2NKYXE5LWlIUGpSdElkeVh1NlhtZWV5VTlfeWxxazU2UGFUdUo0elRDbkdHc3dpWWFocjJTVzlBUzZsR2hyVFNETTlGX2Rwek9SNDFwNElZYXRJY296YlcwWWZxWkdUSnFjLWxwWVM0UWw1MFlfalpoMVcyeWU0RUNZSFZNWGhSblFsZFRkT242ZlJVMlNOWkdJNEgyZDVFTFVQTTVFQ19WandjdXJaVWdvaXQ2SUc0VG5sS3VQZkhobVB1TGdGeE1KQ29xX3lCbWVueVE0eDVhOE4xaEM?oc=5"
+    },
     {
       "id": 288,
       "country": "India",
