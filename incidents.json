@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-13T13:46:59.745632Z",
-  "count": 140,
+  "generated": "2026-08-13T15:14:39.412189Z",
+  "count": 141,
   "incidents": [
+    {
+      "id": 288,
+      "country": "India",
+      "date": "2026-08-13",
+      "school": "Train (Kasaragod)",
+      "city": "Kasaragod",
+      "state": "Kerala",
+      "sector": "Transit",
+      "type": "Bomb threat (hoax)",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Kasaragod_train_bomb_threat_20260813",
+      "notes": "hoax bomb threat to train in Kerala's Kasaragod",
+      "lat": 12.4222,
+      "lng": 75.1904,
+      "src": "The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeDBxNlhLNXdQb0VDenNfbUpOYjNCVzRITzFabC04VklwTHBMVWxTYjU4VjhRSG8xdk95dG5mM0FDdVpTTGpWUlBQbUZ1cEVMaEpTRHVWdzBkZ3hybEhiVzUwb2puS015Tk1oMEN1X0dfbjRQSi01QnNaRWVZN0xEMEk5TUY2MEU4RnVjN3JuV2toTFRub3VoX05sZDNWTkptUm1FdTdXRDFDc0dXSy0zc1R0NVNqR2xXc1RKdmxZeURuaUtv0gHLAUFVX3lxTE5CR0ZaaVVrcG8xMnc5MlY1R0ZsLVhHbzhzYl9XbFVkQ1ZDejFvSFdNVmRhdkZTR2p6eFk3SnRLTHN1WjhPOTVDSlZRaDdBYnpRcV9KaTE1ZDJINXdKR0czUlZ5dE5zYWYycTZoVXNreXdYMm9YNXprQVhjRDRoMjJ4amhtMG40bVV4QWU4UE5KUjZrYmN6bGpvWlVlVTYteTZmRFBGbWZ6UDVVZE1DclVYS0VBX2lHZzhxN09VN1ZaZlRtNDNJWUd6YnUw?oc=5"
+    },
     {
       "id": 287,
       "country": "United States",
