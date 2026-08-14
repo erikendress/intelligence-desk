@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-14T20:45:29.100445Z",
-  "count": 187,
+  "generated": "2026-08-14T21:39:47.229941Z",
+  "count": 188,
   "incidents": [
+    {
+      "id": 335,
+      "country": "United States",
+      "date": "2026-08-14",
+      "school": "Beach High School",
+      "city": "Savannah",
+      "state": "Georgia",
+      "sector": "K-12",
+      "type": "Shots fired",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Beach High School Savannah 2026-08-14",
+      "notes": "Shots fired near Savannah's Beach High School prompt lockdown",
+      "lat": 32.079,
+      "lng": -81.0921,
+      "src": "Savannah Morning News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0I5U3k5c3BseHFzYm0tS2Zyb2R5M0dYWHJPdmNRMEpiUm1ibkJiUXVTZ3V0X2NGTnVOeVpsNmNQTVB4QXZxdF9BaC13S2R3ODZXVGh3T2dZaXNqQ3p0cEJsVXlLTU1mRXBoMGQzT0wtRk9IVWxuejRlVlNONm1tNFB0cHVNMEdNdFYxdnJiMklNUW5XM2RoWHU2VXp2UzByWTBwZ2Z0aU1HZHZvUlZoeHM3cUpTM1FEeDZCZ25kYWx3cWZVakE?oc=5"
+    },
     {
       "id": 334,
       "country": "United States",
