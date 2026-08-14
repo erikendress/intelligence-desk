@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T17:11:01.782324Z",
+  "generated": "2026-08-14T18:06:13.068097Z",
   "count": 186,
   "incidents": [
     {
@@ -174,7 +174,7 @@
       "sector": "K-12",
       "type": "Bomb threat",
       "response": "Early dismissal / delay start",
-      "outcome": "Under investigation",
+      "outcome": "Unknown",
       "cluster": "Jackson County Schools bomb threat August 14 2026",
       "notes": "Jackson County Schools delay start for bomb threat investigation",
       "lat": 39.7837,
