@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-13T23:57:57.802128Z",
-  "count": 158,
+  "generated": "2026-08-14T02:45:38.010242Z",
+  "count": 159,
   "incidents": [
+    {
+      "id": 306,
+      "country": "United States",
+      "date": "2026-08-14",
+      "school": "Vail schools",
+      "city": "Vail",
+      "state": "Arizona",
+      "sector": "K-12",
+      "type": "Suspect detention / threat investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved \u2014 shelter-in-place lifted after suspect detained",
+      "cluster": "Vail-AZ-2026-08-14-shelter",
+      "notes": "Shelter-in-place lifted at Vail schools after authorities detain suspect",
+      "lat": 32.0101,
+      "lng": -110.6975,
+      "src": "KVOA",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVWtpaFFLYVdtcTI0Z2U0LTJaeGFvRUJia3Q3bU5hVlp5R25WdzVnQXpoLXhBRjUzYjZzbEtHVS1TVGJkcEFqY25EbEFqN2kzbFFHOGN0SThUUkRucGpWeUxELUlVNDhpNTNJSU1EYVg0X2tOT2RXNzRvM3YyTmdoQzZKamR6NDBSbHlaZXJHS2NFcmpIUHEwR25YOXg5a01hWGhqdkdXb0pOSF9XMW1XeTZUV01rS3FJekVDNnVqUHY4RnBDX2h2ZGlpY014LTVzUEVRMHpXdGp4QUhZMmRzaw?oc=5"
+    },
     {
       "id": 305,
       "country": "United States",
@@ -246,7 +264,7 @@
       "sector": "K-12",
       "type": "Bomb threat",
       "response": null,
-      "outcome": "Under investigation",
+      "outcome": "No threat found / Facility cleared",
       "cluster": "Elyria_OH_bomb_threat_20260813",
       "notes": "Elyria police investigating bomb threat at high school",
       "lat": 41.3673,
