@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-14T19:56:32.855829Z",
-  "count": 186,
+  "generated": "2026-08-14T20:45:29.100445Z",
+  "count": 187,
   "incidents": [
+    {
+      "id": 334,
+      "country": "United States",
+      "date": "2026-08-14",
+      "school": "Marion High School",
+      "city": "Marion",
+      "state": "Williamson County",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "False threat",
+      "cluster": "Marion_HS_bomb_threat_20260814",
+      "notes": "Marion High School evacuated, bomb threat found to be false",
+      "lat": 37.7306,
+      "lng": -88.9331,
+      "src": "Southern Illinoisan",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcUIzazVUQTZiQkxxSkc5Q045WGt1SGJONUxLUEgxSkpaQ1R3QmdRYnl2Nko1WjVzeW9VSjRFbEVNeEdNWkIzY0E2LXV0emY2TEJsQ21OVlBfUGRHMEtScTVrc3g2cTJEQXZnUGctQUlsUmZMTGVWWGdpUzZHM09Pb2tpOGtUYTcxYTB4Qno0ekkxQ2hjdTAyZjZoaml4UDdRYjFzXzJDcndsM1JBTXZxUWVzamVMZXRRMnRfQXRRUU90TVFpY1ZKMnQtRjNjcnZJVF9nRmtB?oc=5"
+    },
     {
       "id": 333,
       "country": "Canada",
