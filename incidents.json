@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-14T16:05:58.249624Z",
-  "count": 185,
+  "generated": "2026-08-14T17:11:01.782324Z",
+  "count": 186,
   "incidents": [
+    {
+      "id": 333,
+      "country": "Canada",
+      "date": "2026-08-14",
+      "school": "U.S. Consulate",
+      "city": "Winnipeg",
+      "state": "Manitoba",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "U.S. Consulate bomb threat Winnipeg Aug 2026",
+      "notes": "man suspected of making bomb threat against U.S. Consulate",
+      "lat": 49.8955,
+      "lng": -97.1385,
+      "src": "winnipegsun.com",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPYWxxZzJXS2wxWnI0bGlFV2RqaWtzYmZYNlpnd1hyYUtfZDFQak5YQ3Bqb3lmelRmbU9XYXN5RUVuSHRlcDc2aUZ5WldUN0hkZFZqSXF4WlFNeTl4U09LSm5mV2N2UWpDeXk5UjNaeC1DRmsweXo4aVprSGpLaG1ySEJVS2tmakEybHpObXdRVDhvWk5leF9GcUhueEZ1dVVvRlR3ZGw1S2FFM3oxWG9xYjZsSUlXdERjYXcyMm9tWXhhdWNhREN3b1JhTlRfNmNrQ3lIRHE5UDZSNDJienF5V0NJU3ExY3Q4eWFFeEJUSjdXcGhCamkzMTBwUkZ1S1phYUgycEVySQ?oc=5"
+    },
     {
       "id": 332,
       "country": "Ukraine",
