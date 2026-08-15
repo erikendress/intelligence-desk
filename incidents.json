@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T12:58:50.950153Z",
-  "count": 196,
+  "generated": "2026-08-15T13:43:45.310871Z",
+  "count": 197,
   "incidents": [
+    {
+      "id": 344,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Virginia State University",
+      "city": "Petersburg",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Active shooter / shooting",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "VSU-shooting-2026-08-15",
+      "notes": "Five injured in shooting at Virginia State University; lockdown lifted",
+      "lat": 37.2279,
+      "lng": -77.4019,
+      "src": "13newsnow.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVWNVNjlxR2ZwZ0ZQd21CcWVwQWlKRDBjY0RFME9KRVRDdU9jUVVjbmt1ajdrMXBTMXQ0eFR2Y0NoOTJKV0ItUmJNbXp3MVRJQnpHM2ZsaWhpWFBhNUJCbUVOQmZnNVlxaEJlQ2Y2N2RQVGpYaHpWcXFMM1dZZFVoeXZqRm1pdHc3NGN1dkxhU01KM3lBcmpFNDA2dXpPSXQ5YjVzeC1UV2RlTUJabHlQOFlPNFhxM29TQW4zOGd3TnZnSmppUFhjdWR6aGctTVFJdGRUclBYcGxDZnM?oc=5"
+    },
     {
       "id": 343,
       "country": "India",
