@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-15T21:34:30.915166Z",
-  "count": 206,
+  "generated": "2026-08-15T22:36:42.265447Z",
+  "count": 207,
   "incidents": [
     {
       "id": 353,
@@ -3169,6 +3169,24 @@
       "lng": -72.6624,
       "src": "RiverheadLOCAL",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ2RYV0gyZHlneTlMUW5EeERUbDV3cmIzZ0JKVE9RUlhxcUtIVi1aVmEzNmI5X2plUlkwSkZWZ0c5eG5ZaFFjRllhRWRNVzY5TUhJVm9xODRIV09jLUdvXzJvXzlCVUNJdm4zbU1HSXNXMmwzQktRVkhLY2swWW1EakxnLXIwa19GdFdMejNmNWRLZ1RoMTZLdHVkWU56aXNzbUJXcWlqU3E5Tzds?oc=5"
+    },
+    {
+      "id": 354,
+      "country": "Philippines",
+      "date": "2026-07-14",
+      "school": "Bulacan courts",
+      "city": null,
+      "state": "Bulacan",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Bulacan_bomb_threat_20260714",
+      "notes": "Bomb threat disrupts Bulacan courts",
+      "lat": 15.0,
+      "lng": 121.0833,
+      "src": "Inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1pMmdEQXJYTFl1N2JUVTNGZnJUM3FOYlVad1FJc1hHV3lWZ1NBSHg4N0ltWVRDU21LR2lwYzRibF9aZktRSUtZZ01aMlljSl9wUDFJZWtzemZZQ2JfWnVweHRZZlV0MVdNMmZYeENGelpfcGhlel9uWlJ1U2ZkUdIBgwFBVV95cUxOLWJ2VURhdWd0T1ZRUENtV1BGYVZwWFJucW1zRjhjeDQ5cmhpMGJyZzRCNjZlZE5VSFZqN29qRDZMMjdSc1o4Y2pwaGxRNFJwYWFRTlJDRGcwWmhENFhnZExQZWdQWXk3NVd0VHlaenJIQ0hDTkdXVzBqMTR6dFlPQ2hwdw?oc=5"
     },
     {
       "id": 186,
