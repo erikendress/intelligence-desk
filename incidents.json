@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T17:34:32.126856Z",
-  "count": 202,
+  "generated": "2026-08-15T18:47:09.485936Z",
+  "count": 203,
   "incidents": [
+    {
+      "id": 350,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Virginia State University",
+      "city": "Petersburg",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Active shooter / weapon incident",
+      "response": null,
+      "outcome": "Incident occurred",
+      "cluster": "VSU_shooting_20260815",
+      "notes": "5 people shot at Virginia State University as police investigate multiple suspects",
+      "lat": 37.2279,
+      "lng": -77.4019,
+      "src": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMUl1eTVsMHVkaVpUS0Y3SXVicEl6T09oUkNrNE91cWtqUi1qeXVKLVlRdEZyUE1uY0lQcmowckFWbjMzTVpreHYtMWVNbkRORXNuQ3FGdXViT3NZMjRCQWVYRFk3ekZyeWQzQnYyUW4yLVVBS0lMNkRsWXV0ZUxMNjdWMTVhNENtZVBvLW4wbEhVZ1c2WFBKM2FFay1xYjQ1Y2d6VnBKY0dtNWphUU5B?oc=5"
+    },
     {
       "id": 349,
       "country": "United States",
