@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T19:33:33.264795Z",
-  "count": 205,
+  "generated": "2026-08-15T20:38:08.709702Z",
+  "count": 206,
   "incidents": [
+    {
+      "id": 353,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Dave & Buster's",
+      "city": "Cary",
+      "state": "North Carolina",
+      "sector": "Retail",
+      "type": "Infrastructure hazard (gas line damage)",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Cary gas line incident 2026-08-15",
+      "notes": "car crashes into gas line outside Dave & Buster's in Cary; building evacuated",
+      "lat": 35.7883,
+      "lng": -78.7812,
+      "src": "ABC11 News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVE1a0Via3VpY0pMamVJQVA3cTZycGN6TV9KYnA2LVNjOXRadzlqRWpPYnZmOWwwLWdzdjNSTjJOcldQRE9udGIzaXhGaExLNVpBNTc5M2xFMkxKNnR3TVk4WFk3VXUzZl9nYUhEcVpwQkNTV25VdTAtVmdwQnFMU2cwUmdsWHNxMnlreldhaVRHVWFGN0FFTUs4ZEFxYTd3NU1ma1JNMl94UngzYk0zSnpB0gG3AUFVX3lxTE81OWNCeHk3RWx0LWRXc3gwVlJ0ZDZJaXQzODV2SlVBWWVyYVFobnpLV2hoUEN3M3BfYzVvMUlFOFNlTzBRdWNidDFYdThhUlhkTlRITDNfd2xGaFpBTTRXYUY3QkxRaUU1VmFJMUM3LXk5VmtiOGJ4cFhoWVhZVHpwRzhtTEZnZEdaR3lYOXFxR1VPWVRwLXRmV1c1dXFROTZOa3pWNjdqOTJOcThhRkYyTy1YZ2hfOA?oc=5"
+    },
     {
       "id": 352,
       "country": "United States",
