@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T04:46:26.725413Z",
-  "count": 192,
+  "generated": "2026-08-15T05:40:27.589273Z",
+  "count": 193,
   "incidents": [
+    {
+      "id": 340,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Marion High School",
+      "city": "Marion",
+      "state": "Kentucky",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Marion High School bomb threat 2026-08-15",
+      "notes": "Marion High School evacuated, bomb threat found to be false",
+      "lat": 37.5414,
+      "lng": -85.265,
+      "src": "The Paducah Sun",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWlVuMHY0SnIzVHBScWJnUWZlMUxSWUVQSkNvVHo4Qm12MDgwaEc2TGZDOHZoY2U3cXlmMDZrbERQNHdpNjRaaHhUYnZORlowaGwyclJoRWY1Z2Rtcjg4Vmc1MXlTa1RsLXBXUm5nZHBBNVNUUkpRQlRobWpXZTduVjV1YnRWX3F1QUVuMXZGRm9Scm5GTElQRjJIa0REZzRTMHF0NzJrdzkzc3NsV0Y5bi1reDREZVUyRFA0MlFtWTd5UEk1Rk5RdVlfUzV6bXZGR2NKaXJNdw?oc=5"
+    },
     {
       "id": 339,
       "country": "United States",
