@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T01:49:47.145770Z",
-  "count": 191,
+  "generated": "2026-08-15T03:04:26.635543Z",
+  "count": 192,
   "incidents": [
+    {
+      "id": 339,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Muscatine (city-wide)",
+      "city": "Muscatine",
+      "state": "Iowa",
+      "sector": "Other",
+      "type": "Suspect at large after officer shot",
+      "response": "Shelter in place",
+      "outcome": "Ongoing",
+      "cluster": "Muscatine_officer_shooting_20260815",
+      "notes": "Muscatine residents asked to shelter in place; suspect at large after officer shot",
+      "lat": 41.4776,
+      "lng": -91.121,
+      "src": "KWQC",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUo5WEhyaWUzT0tpZjlCeGhBeGRLczRMU08yOE5RSnJmVEtBZVJnMHNxNnNjZ043MnJCbjZuVUVQWmw1R3VSbXE2R1NmM3VqeEdDUFZXVW1vU0NFbUI1U1l5RVhWN19qRVhlc2pJbzU1MF9OMm9DSnhfMl9VVVRRT3pmNjA2MjhCQmVjN1VNWUhhUEpHa2FOMVVod19hcXFELUpTZHNLQmplOWpIa3NSVw?oc=5"
+    },
     {
       "id": 337,
       "country": "India",
