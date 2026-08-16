@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-16T16:41:27.947094Z",
-  "count": 216,
+  "generated": "2026-08-16T17:33:13.640703Z",
+  "count": 217,
   "incidents": [
     {
       "id": 363,
@@ -12,7 +12,7 @@
       "sector": "Transit",
       "type": "Bomb threat",
       "response": "Delay",
-      "outcome": "Under investigation",
+      "outcome": "Resolved",
       "cluster": "Houston_airport_bomb_threat_2026-08-16",
       "notes": "Houston airport bomb threat causes delay for Southwest passengers",
       "lat": 29.7589,
@@ -3457,6 +3457,24 @@
       "lng": 148.6027,
       "src": "Nine.com.au",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeG44ZkRkMkYwUXVsVG5fU0k2ZlFrTUJ0dnhiUXZRNEFOeGo5S0dNdmNQcE9SYXRaWnJhaFA1Yng0X0c0WVV0Q2JqLXE0djBWb1RjdEZXZHV1Um1rWjFsS0FRTlhMTTc1UTN1R0NsNDAteFR3QXoxZGtZbjI1SUpVRklRbHktVjhKeUhDUWZQc1NiNlRkRzZRTDljRzU3cno1OXBjUzNDTXpqYWlkWm40eGFfOXhEODRfbmk1OGdB?oc=5"
+    },
+    {
+      "id": 364,
+      "country": "Australia",
+      "date": "2026-06-22",
+      "school": "Sydney Airport",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Sydney Airport bomb threat June 2026",
+      "notes": "Man charged over alleged bomb threat on flight at Sydney Airport",
+      "lat": -33.8698,
+      "lng": 151.2083,
+      "src": "Nine.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZC1jWG13a0lWUWxtaWtIaEFJVFpNZ1hOdV9vcWkxMFR5ZEZpSk9YMnZMRGhERVdzYm9kX0Q5N3F5LWUwc2lDTUlXSnlzOU12c0xHQjNmSGV1bXQxNlJ5YUFzQUhGY3lNWTFMSlU3QTBHU2tjMkhnUzkxaXE0dk52OXEySzRKZ3h0dW5va1paSnJzaWxzcUpSYk4xZXJmNG1naGc?oc=5"
     },
     {
       "id": 220,
