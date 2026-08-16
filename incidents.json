@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-16T22:35:48.455176Z",
-  "count": 219,
+  "generated": "2026-08-16T23:33:30.121171Z",
+  "count": 220,
   "incidents": [
+    {
+      "id": 367,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "Southwest Airlines Flight (Houston)",
+      "city": "Houston",
+      "state": "Texas",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Tarmac hold / Evacuation precaution",
+      "outcome": "Under investigation",
+      "cluster": "Houston_bomb_threat_20260816",
+      "notes": "Bomb Threat Forces Southwest Airlines Passengers To Be Stuck On Houston Tarmac For Hours",
+      "lat": 29.7589,
+      "lng": -95.3677,
+      "src": "Simple Flying",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONUZVdVlMYjlxLU1NYmZ6RVp4aGZDM3FtWHViQ05peWFzVS1mSzMwWi1Kb3BLaGJ5Ml9nRTNUV0kyRUl6SEhLTm1vb29CMmwyZ0h5V3gwa2RMMlE3c3FmOHZMaktrenlMaVlzaDR3Q2szUDE0SWJKYncxNUFBLWlpbFpqcVMwRVNocUtQZDJ0cmIzWTBFeC1iQUhB?oc=5"
+    },
     {
       "id": 365,
       "country": "United States",
