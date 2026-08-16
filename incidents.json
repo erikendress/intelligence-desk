@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-16T05:42:30.480490Z",
-  "count": 213,
+  "generated": "2026-08-16T06:58:28.258957Z",
+  "count": 214,
   "incidents": [
+    {
+      "id": 361,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "Virginia State University",
+      "city": "Petersburg",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Active shooter / weapon incident",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "VSU_shooting_2026-08-16",
+      "notes": "Multiple Suspects Shoot Five People at Virginia State University, Campus Lockdown Imposed",
+      "lat": 37.2279,
+      "lng": -77.4019,
+      "src": "NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdmF4SnJBV3FZcGdrT3BnOU1JUElWOXFsSzQ2YmQ5dGJLa1NTTTBTdUJacTg4dm52TERwQ09WV0kyTk9LUXRKN3FwOFYwNnlzUmVNN0dZWTNxN1hiMjFhTFpBQVRMYzJ2OUEtcHJERTJISFJKbmtOVVluMVh3TE1Yd09EdGh4TmJvN2JYRVB1U1R5WXN5ejhfS1hPWlpkYVF1OWozVnZ3bjhCMHZqbVVPbFJFdU1xQUNPMk1pNnFiVjlvN2ViWC1FZHFabHlHV0JrbF9manJVU3hXSENVNnd4bEdIQjVnVC13TGc?oc=5"
+    },
     {
       "id": 360,
       "country": "United States",
