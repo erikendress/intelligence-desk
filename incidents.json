@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-16T04:49:47.404054Z",
-  "count": 212,
+  "generated": "2026-08-16T05:42:30.480490Z",
+  "count": 213,
   "incidents": [
+    {
+      "id": 360,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "Virginia State University",
+      "city": null,
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Active shooter",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Virginia State University shooting 2026-08-16",
+      "notes": "Virginia State University Shooting Leaves Five Injured, Campus Lockdown Lifted",
+      "lat": 37.1232,
+      "lng": -78.4928,
+      "src": "Daily Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUjY5Y09JVENFNEx3RnJmRVUtUGdnbm53Q3QxN0RtMm5ybDBmZVkxRUgzenQ1dnB6Q0FEQVZpb3NwdWpCZ1JSU2pGUWxNYlZybnhIbFpVTzRoMEpraURfN21GNVRxdnZuMmtYSzdzeDFzOFo5SE41cWRCeGQ4ZTlzYlVMQnZfVXJnLVl3bFp6ZlVObzR1LXhUeUFWY3hJZ0x6NXhNT1lVSTJFSTNnLWt2dlpNSWNTQQ?oc=5"
+    },
     {
       "id": 358,
       "country": "United States",
