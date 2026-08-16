@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-16T03:12:38.111590Z",
-  "count": 210,
+  "generated": "2026-08-16T03:59:12.502013Z",
+  "count": 212,
   "incidents": [
+    {
+      "id": 358,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "William P. Hobby Airport",
+      "city": "Houston",
+      "state": "Texas",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Response/Investigation",
+      "outcome": "Under investigation",
+      "cluster": "Hobby_Airport_bomb_threat_20260816",
+      "notes": "Bomb threat involving Southwest flight prompts response at Hobby Airport",
+      "lat": 29.7589,
+      "lng": -95.3677,
+      "src": "KHOU",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUGNLZVA2MXVySTNQMHoyZW5GTmR5NW0wekpCbkVvMzNxeUlHWXBfVV9ROTJZYnNvNlNvUDVOOHBkazNNTVo1THI4VkFUTndmT0k3dmpqeWtWZGVRMkg5d19Kb0dRQTFtbVFwaWYtQUNkQ3UwVkhqSGs1X29nTDNueEY4eHo1MEU2V2FjNHFfNG5RV19LOURpc2ZyY0NteVJmaXZldHFEaGlrejVveDI4OWRJSU4zSlZNemg5VUp6OWNXWXFMYklHdUE5TlhfTDFsdDktcXBVeDUxdE5ySU5jOER3UUVadw?oc=5"
+    },
     {
       "id": 357,
       "country": "United States",
@@ -55,6 +73,24 @@
       "lng": -77.4019,
       "src": "Cleveland.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN21uRXdJQjY4VjU4SlE3T05Jc1IwYWRDZ1ZyYTJqUmtacjdKYmV3LTBzbGdhWkJfZExkNmx1SWJubE00RFRfMEczNWdBRl8wazVaMGtWbjdsRDJGV1p1LXBCTFpZZ3RNc0Z2cDJqaUR3VElZYTVZWTBJbWNqaGF5TGVQS2d2NGdpck5jclRHYVRBb0RIQUpYQVRGSmV0MVVHSldhODJaTFRCUFFfLVhZ0gHDAUFVX3lxTE10OUI2YWVxZmFxeWVYZ1g3aEEzMlhWSm4wQzk0bFNnTUxhM0RZN21aMENNcGl1c011NGhtNlA4NE9lXzlxdkRSY0dzTEhla2JSX1BLdlc1MEpicEFTMDlqajhPbTdLT2lxUE1XbEZ0QXBsN195cmg1TWVta1R6TmUwNjlLUVM2eV9vMlQwQy1URXoySGVnNWVSTVVNdmtQaVdaTHJFaFdTWGoxUC11bGZ2VmNMOTlycmpDTE5sc3R0ZHgwRQ?oc=5"
+    },
+    {
+      "id": 359,
+      "country": "United States",
+      "date": "2026-08-15",
+      "school": "Dave & Buster's",
+      "city": "Cary",
+      "state": "North Carolina",
+      "sector": "Retail",
+      "type": "Utility hazard (gas leak)",
+      "response": "Evacuation",
+      "outcome": "Evacuated safely",
+      "cluster": "Cary_Dave_Buster_gas_leak_20260815",
+      "notes": "Car crashes into gas line outside Dave & Buster's in Cary, causing gas leak; building evacuated",
+      "lat": 35.7883,
+      "lng": -78.7812,
+      "src": "ABC11 News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSnhKLVJxX29GQnVFYzJsTGcxLVd1ODJnMkowRlRjRGZCZ0ZRZ2FsVTg5ZjAwZklHNE56R0dUYWNUY0FxS3BZaWtvNjVPR2Jjd0JERVpCcDY0OTZRWW1pRDN2NTEyeFQtTzFtdDd3ekZ0cVZpdmVSb3JLZldpMzBwMWJscG5CTmUwN1VpVDJTd1RLalJxaTlydTNyMVN1WDlTRUdndWdoSEU1aGPSAbABQVVfeXFMUHotRUhNS3JMMFZaWTJLVlJMcVgtMUhZaFZFT2c3WXlqX3pGbWlKQW1hU1h0dkhEalAtZ2VTRHpvWm1oVDVfeExQaHFjNmVZZ2lyYmprVXI1YlVPbXpwZWVmd3ZBNWgxRDlwZ0ZrRndjWEhTNW1BRHEzeEN0Y0U3MlJCVHJxQy0yRVkzcll6SUZSU3VMTWpsVUFfdlZkYXp1N3FEck04WlRjSU1sejVUSU0?oc=5"
     },
     {
       "id": 353,
