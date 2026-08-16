@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-15T23:33:49.390081Z",
-  "count": 207,
+  "generated": "2026-08-16T01:56:53.983398Z",
+  "count": 208,
   "incidents": [
+    {
+      "id": 355,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "Virginia State University",
+      "city": "Petersburg",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "shooting",
+      "response": null,
+      "outcome": "5 injured",
+      "cluster": "VSU_shooting_20260816",
+      "notes": "5 injured in shooting at Virginia State University, authorities say",
+      "lat": 37.2279,
+      "lng": -77.4019,
+      "src": "Cleveland.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN21uRXdJQjY4VjU4SlE3T05Jc1IwYWRDZ1ZyYTJqUmtacjdKYmV3LTBzbGdhWkJfZExkNmx1SWJubE00RFRfMEczNWdBRl8wazVaMGtWbjdsRDJGV1p1LXBCTFpZZ3RNc0Z2cDJqaUR3VElZYTVZWTBJbWNqaGF5TGVQS2d2NGdpck5jclRHYVRBb0RIQUpYQVRGSmV0MVVHSldhODJaTFRCUFFfLVhZ0gHDAUFVX3lxTE10OUI2YWVxZmFxeWVYZ1g3aEEzMlhWSm4wQzk0bFNnTUxhM0RZN21aMENNcGl1c011NGhtNlA4NE9lXzlxdkRSY0dzTEhla2JSX1BLdlc1MEpicEFTMDlqajhPbTdLT2lxUE1XbEZ0QXBsN195cmg1TWVta1R6TmUwNjlLUVM2eV9vMlQwQy1URXoySGVnNWVSTVVNdmtQaVdaTHJFaFdTWGoxUC11bGZ2VmNMOTlycmpDTE5sc3R0ZHgwRQ?oc=5"
+    },
     {
       "id": 353,
       "country": "United States",
