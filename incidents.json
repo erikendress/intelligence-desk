@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-16T18:46:54.832793Z",
-  "count": 217,
+  "generated": "2026-08-16T19:32:53.182811Z",
+  "count": 218,
   "incidents": [
+    {
+      "id": 365,
+      "country": "United States",
+      "date": "2026-08-16",
+      "school": "Morristown Medical Center",
+      "city": "Morristown",
+      "state": "New Jersey",
+      "sector": "Healthcare",
+      "type": "Swatting hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Morristown_Medical_Center_swatting_20260816",
+      "notes": "Swatting hoax prompts lockdown at Morristown Medical Center",
+      "lat": 40.797,
+      "lng": -74.481,
+      "src": "WRNJ Radio",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSVM5M3lzUE41cFA0VTlFRFZLVkJzQ1dyWnpnaDl0bGdxOXY2MXVXS0VNRUFCVUV2cU5YdEIxcWZ0WHJybTF2Vm9ocW9HOXBuR3J1RnllMHR1ZzZrSGF2UVBJWXU0NU5JV2d5VkFTTUxGQkl1bm15d04tZG9Yc2lDVnlDcmYteUdhUFE?oc=5"
+    },
     {
       "id": 363,
       "country": "United States",
