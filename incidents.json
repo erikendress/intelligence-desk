@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-16T20:37:01.607978Z",
-  "count": 218,
+  "generated": "2026-08-16T21:34:37.512987Z",
+  "count": 219,
   "incidents": [
     {
       "id": 365,
@@ -487,6 +487,24 @@
       "lng": 77.217,
       "src": "dailyasianage.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKV0ZRTUpJNV9OclBnU3l5TnRtNmYxWjQ2bHNFeVBEZ2RUV2JYbEZyNV9ybGtDbm9oWmkxWDNnQlFtdjdoMkp4YktROVMyeVNORHFFejVMclBjU3hHSW1rQkFIS0dfeGVKQ1h3SmpGNkZkekdYSHp4ZnFvb3BqQQ?oc=5"
+    },
+    {
+      "id": 366,
+      "country": "India",
+      "date": "2026-08-14",
+      "school": "Airport (Delhi)",
+      "city": "Delhi",
+      "state": "Delhi",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Delhi_bomb_threats_2026-08-14",
+      "notes": "Delhi High Court, airport, 4 other locations get bomb threats ahead of I-Day",
+      "lat": 28.6665,
+      "lng": 77.217,
+      "src": "India Today",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONG5veF9qdTh3RnR3QnRSVDVZSko2a1RPRUZ1R2lMNnlxQjVULW45RXJzMm9UY0kwSDhfSC03dTVQQjN6OHpXWm1EbTVhcGk2M1JTSy1oaU1aQ3M5WWpVTzBPRVg3UTAyRGtBd0RuWW05bzVkd0k3dmNoMGlZbmVodEx0RTVYb2ZxYVpxOWgwcmx2ajVXbWMtR1ZDN0dlLXRrQ0RNcjAweHZXU1pocmxLcUdCSWstT2Q1eGMzMmVBc0t5eVcxX1AxakFLaEJGUU5zZmfSAdcBQVVfeXFMT0JONWVvVlFoam9VRU9SbzB5SERGTXdhaVZJN0lXb3E4TzZWYk9ZRlZpQ051QlhBWXQxcGZBS2ZybnRCUWdscTNYaVd3aHJ0OFV6ZXNZX1M4aXpXOHllamhsQTdJNkdralVNWnRKVXN5TUlSVE9RcjkyVEVYUFJDQnY4NXY4N2FNUVRLdW5VYks0Nlc0UTloQnNLRml3VjNRMzZ2TllsUUVKU1Y2cVlmZ2o3aDlpN2dSNmphc0NPUGI1R0FfVjN1WDhjd2g1Y2xrQ1pEclg3ZkU?oc=5"
     },
     {
       "id": 338,
