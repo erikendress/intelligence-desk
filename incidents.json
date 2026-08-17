@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-17T19:41:49.977034Z",
-  "count": 229,
+  "generated": "2026-08-17T20:43:36.554768Z",
+  "count": 230,
   "incidents": [
+    {
+      "id": 377,
+      "country": "United States",
+      "date": "2026-08-17",
+      "school": "Acalanes High School",
+      "city": "Lafayette",
+      "state": "Contra Costa County",
+      "sector": "K-12",
+      "type": "Anonymous threat call",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted, no incident reported",
+      "cluster": "Lafayette_Acalanes_20260817",
+      "notes": "Lockdown lifted at Lafayette's Acalanes High School after anonymous call, police say",
+      "lat": 37.8858,
+      "lng": -122.118,
+      "src": "KTVU",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGVWlDWHRVMzB4bkRxMk14c1Boc1doMlJMaF92NUQtU2xiWEFXRkNhUVBpeUUySm5Xa3RJem50d002YUg4ZWQzMzNGUEJlYlprdVI2UWhiS044OG14QjRzMVhTVTFPVzlGV09OaEdrTE5id1E?oc=5"
+    },
     {
       "id": 375,
       "country": "United States",
