@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-17T11:39:23.281450Z",
-  "count": 220,
+  "generated": "2026-08-17T13:05:08.778032Z",
+  "count": 221,
   "incidents": [
+    {
+      "id": 368,
+      "country": "United States",
+      "date": "2026-08-17",
+      "school": "Houston airport",
+      "city": "Houston",
+      "state": "Texas",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Lockdown / Tarmac hold",
+      "outcome": "Under investigation",
+      "cluster": "Houston_airport_bomb_threat_20260817",
+      "notes": "Southwest passengers stuck on tarmac for hours after bomb threat at Houston airport",
+      "lat": 29.7589,
+      "lng": -95.3677,
+      "src": "kens5.com",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOW1tSXdfdno0WWlCSmNqWjV4S3pBT3FxeXExU1BOSk1TTFVkRlNwZEgya09JT3JnMk9rLUFrZktrQWhKZVNMTS1JSkI0dTVLRFJQMXZzSG1KckwxX3FEb0l1eml1c3pIeUVUeWVNcmIxeE9MY3JZS0ltMjFadmhZMGt1VUw0OFRzV2V4QVh3VXFsVzkxZjV1SmZ0X1hHU2E5UExmclhKLXNLMTAxZ0lTajN2QWM2bFFoTWF2OExCdlJUZ2c2UG5mX3ZkWVR1TzBDMkJ3MkZxUEY3Z0pEaGY3Qk9pT1hSM2hKdFpQZGFaeHZFV0xsaV9UZHdJcVRaZw?oc=5"
+    },
     {
       "id": 367,
       "country": "United States",
