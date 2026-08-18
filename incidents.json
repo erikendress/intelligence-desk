@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T01:50:19.519889Z",
-  "count": 234,
+  "generated": "2026-08-18T03:08:25.818196Z",
+  "count": 235,
   "incidents": [
+    {
+      "id": 382,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Lafayette schools",
+      "city": "Lafayette",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / hoax call",
+      "response": "Lockdown",
+      "outcome": "Lockdowns lifted",
+      "cluster": "Lafayette-CA-swatting-2026-08-18",
+      "notes": "Lockdowns at Lafayette schools lifted after swatting call",
+      "lat": 37.8858,
+      "lng": -122.118,
+      "src": "KRON4",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjB2bVJJODRsQXJRWVQtQmtUN2sxVUYzVjlZbXQxYkp4UFFHaFl2cmdQZTVGMGQ1NWhTS21QbmVONkdva2R3WTVxVEVOLW1jWDRGWFVsQ0JMUkdFRmRkdlR6NTZ3UkdqcW5Ud25tMjcwSFN4UFZuYUJFR1VjMlZyN3VnNmctRk9CNFVnWUJlS1RERGFmb21jblFvSQ?oc=5"
+    },
     {
       "id": 381,
       "country": "United States",
