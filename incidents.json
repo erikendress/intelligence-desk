@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T20:40:01.175436Z",
-  "count": 253,
+  "generated": "2026-08-18T21:37:46.398085Z",
+  "count": 254,
   "incidents": [
+    {
+      "id": 401,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Benton High School",
+      "city": "Benton",
+      "state": "Saline County",
+      "sector": "K-12",
+      "type": "Credible threat of violence",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted after investigation",
+      "cluster": "Benton_HS_shooting_threat_20260818",
+      "notes": "Lockdown lifted at Benton High School after police investigate reported shooting threat",
+      "lat": 34.5645,
+      "lng": -92.5868,
+      "src": "The Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb0hBSWFvWDFfcEpzd3NORnQwbXMzMzFGX1B3S01yb2JBeW1SaGEwMHlYSjZtVVJqaXZ6eE01dHBwSVVzVUVUV2FwZE9NOHZGRndrTFNRNy1BQW1aNGVxRVRwT3ZxVWNQQnZETkhqNlpKQl9yQkV3SmF1SEgweDhHc0JLS1NzMnVtRkwyN3NnNk45VmxEQ01zTThfUXFrdw?oc=5"
+    },
     {
       "id": 400,
       "country": "United States",
