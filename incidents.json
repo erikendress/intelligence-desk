@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T07:03:22.016643Z",
-  "count": 237,
+  "generated": "2026-08-18T07:53:33.517326Z",
+  "count": 238,
   "incidents": [
+    {
+      "id": 385,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Rhode Island hospital",
+      "city": null,
+      "state": "Rhode Island",
+      "sector": "Healthcare",
+      "type": "Active-shooter hoax / false report",
+      "response": "Lockdown",
+      "outcome": "No threat found",
+      "cluster": "RI_hospital_08182026",
+      "notes": "Active-shooter scare locks down Rhode Island hospital; police find no gunman",
+      "lat": 41.7962,
+      "lng": -71.5992,
+      "src": "wtwcfox",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUnZSV3hSZUFQeHpUMTJLbHRtamluT1hhdVFkX0lvQ3p3SWREbmRwM0h6YmpDNkFiUmcxOHh5ZDhyR0JIaXlNN3d6ak5JTDFJSkdPWTFvdFBScGY4M2RWRHNlVWVFZ1YzVUZOUnc1X1dzSUxQRFk1RXhOWWxuOTNvZ21wZjBodkZoZERmdzJ2amdhZ0VfNlJPTHR5RTdZVU1EaHNuaWcwemNobW5TdGxMcUNBdlJKb1U5Sm1fNGlIU08zV0JjZU9XeGZUbjQ?oc=5"
+    },
     {
       "id": 384,
       "country": "United States",
