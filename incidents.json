@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T21:37:46.398085Z",
-  "count": 254,
+  "generated": "2026-08-18T22:40:47.992180Z",
+  "count": 255,
   "incidents": [
+    {
+      "id": 402,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Ocean Springs High School",
+      "city": "Ocean Springs",
+      "state": "Mississippi",
+      "sector": "K-12",
+      "type": "Student threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Ocean Springs High School 2026-08-18 lockdown",
+      "notes": "Ocean Springs High School lockdown lifted after student threat deemed not credible",
+      "lat": 30.4113,
+      "lng": -88.8279,
+      "src": "WXXV News 25",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWG5YQ2RUZ0NwS1FDOWhaSENxcjhxcEhFR0ludmlGeTFnNlpmR2lESllMUU5nWkNUeVhiRU5sbzc5WjhVV05yVWEwM2czUThERWRuTFBPeGdqSDRFb1dSdFNGdTRicnhYV0VXc01jM0wzc1JZcFdmWGZGcUJfWlpjTTlzRVprLTVfVlZ0cU9Vd3RBUGpxXzRGOXlObWEzRTZjVENVYUNqU1hOUQ?oc=5"
+    },
     {
       "id": 401,
       "country": "United States",
