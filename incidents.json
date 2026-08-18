@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T18:55:50.084874Z",
-  "count": 251,
+  "generated": "2026-08-18T19:40:16.165999Z",
+  "count": 252,
   "incidents": [
+    {
+      "id": 399,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Columbia high school",
+      "city": "Columbia",
+      "state": "Missouri",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Columbia_MO_bomb_threat_2026-08-18",
+      "notes": "Bomb threat empties Columbia high school ahead of school year",
+      "lat": 38.9519,
+      "lng": -92.3337,
+      "src": "Columbia Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNDd1S2haZHI2NVY5NWRKZGlURE51NFNKSEVMMmZubFVGQks4UzRGQ3NPWjNJMmlQaXRHZjJxN3F5b3JLcDlCakc0Q0I4ZWk1T3FSSDZrTjFucXg5WnlZdDJ0Vnd5T2h3U2FlOFJlb0daT0ZPRnJBMTR1QTR1YTBGSkJLNUFsTnM4OGlaR05aNXpYQTJOZERPUi1xLWlad2oxdmhJSEV6ZmpkLUdqeEtVS19JaHlBQ2haVm9ISmIyeE5OQnlxM0x3?oc=5"
+    },
     {
       "id": 398,
       "country": "United States",
