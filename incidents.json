@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T19:40:16.165999Z",
-  "count": 252,
+  "generated": "2026-08-18T20:40:01.175436Z",
+  "count": 253,
   "incidents": [
+    {
+      "id": 400,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Georgia Southern University (GSU)",
+      "city": "Savannah",
+      "state": "Georgia",
+      "sector": "Higher Ed",
+      "type": "Off-campus shooting",
+      "response": "Shelter in place",
+      "outcome": "Under investigation",
+      "cluster": "GSU_Savannah_shooting_2026-08-18",
+      "notes": "GSU tells students to shelter in place, Savannah PD investigates off-campus shooting near Largo Drive",
+      "lat": 32.079,
+      "lng": -81.0921,
+      "src": "WTOC",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02VTFCNU83Wm9iQzVyY0dKdndoU28tWlVXWDEyM1REYjZlRmFtSzVXci1NckNNMmNQaTJ4Uk5qLWxxclowckE1dGk4bWNxdk1jX3BpOVR1bTc0VHZwZUpMMWlFZE5CUkNJdlNQWWRJVHpGLWRYTFRWbGZjNA?oc=5"
+    },
     {
       "id": 399,
       "country": "United States",
