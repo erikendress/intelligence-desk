@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T13:56:32.997109Z",
-  "count": 244,
+  "generated": "2026-08-18T14:52:26.745291Z",
+  "count": 245,
   "incidents": [
+    {
+      "id": 392,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Wheatland Union High School",
+      "city": "Wheatland",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Wheatland_bomb_threat_20260818",
+      "notes": "Bomb threat made to Wheatland Union High School deemed non-credible",
+      "lat": 39.0099,
+      "lng": -121.423,
+      "src": "FOX40",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNb19YVWx5TnpmQUtYcjRyXzdjSkhvUmNhM1hFR2lfVzRKcURJWWk3RThlU2NTOTlnVDE2MnBIVkhTd0ZLRjVpa2xzOUlTVXNHZjdicUVPSjZlNjJhTjQxd05pa1Rjb3AwWmtOQTJqanhwc3dGNWZ6cEtJeXYxaEtXemFzVHg0RHYtZWl0dUtmMGlvUXpxVlHSAZsBQVVfeXFMTkhfY1ktdXRvZkw5Q1NnVVJXVHY0TFJLeG9tLXBaWlJhSDRlanhRSDYxd0Rkc0Y5TWtOVUZQX21sbmdCSmViYnlTMjJWVngxRzlJTjJweDJDdHEyNVk3TmsxakVUY0N3UzJjNi11WnZhSnpGTlVqa0s2M1ZzWC1ZcU5JZmdnRDktN3pZYWZlSlFCYmoxMm13Zm9Qcm8?oc=5"
+    },
     {
       "id": 391,
       "country": "India",
