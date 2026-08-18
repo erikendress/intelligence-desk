@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-18T17:42:38.809949Z",
-  "count": 250,
+  "generated": "2026-08-18T18:55:50.084874Z",
+  "count": 251,
   "incidents": [
+    {
+      "id": 398,
+      "country": "United States",
+      "date": "2026-08-18",
+      "school": "Baker High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Baker High School bomb threat 2026-08-18",
+      "notes": "Baker High School receives bomb threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "WKRG",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOGVlNE1xZjB0UzlhX3pIZWRXYkN1Q1pReW9Va2prN2tzUHBlY3JVdHV6Rnh2ZC1HR3hhNExtbV8zWDdHQ3YyR0hqR0tLVExWaFJYWVJwUUR2bW5BVVFDS3lKdU42OGF1QjZXUG5NQTIyUGdId2wzSTJPb2docjNfZTRVNkQweGZLNmIzaTduaUjSAZYBQVVfeXFMUGlRbGxlMUZOR3ZsSzUwNTJNTUwwTlczX0ZXR3J3QTdBTTNJTVlpeGlOeV9hVHpLa0ZzRjd1QWdIa3Q0VURxLTRja3E3alY4QWxvMldGQ2o1RGZHZGk4RXhmMjQ5MElWdDVJWUZiaUdPVWhpYXV0VzVRQXB6X3FKaFd6WlMwR2ZzNEFYYkZZTUtLWHNsMWRn?oc=5"
+    },
     {
       "id": 397,
       "country": "United States",
@@ -120,7 +138,7 @@
       "sector": "Government",
       "type": "Bomb threat",
       "response": "Search operation",
-      "outcome": "Under investigation",
+      "outcome": "Suspect arrested",
       "cluster": "Jaipur_CM_office_bomb_threat_20260818",
       "notes": "CM office gets bomb threat: Jaipur police launch 4.5-hour search operation after control room call",
       "lat": 26.9155,
