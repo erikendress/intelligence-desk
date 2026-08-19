@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T20:44:58.459254Z",
-  "count": 275,
+  "generated": "2026-08-19T21:40:10.766888Z",
+  "count": 276,
   "incidents": [
     {
       "id": 422,
@@ -4375,6 +4375,24 @@
       "lng": -72.6624,
       "src": "RiverheadLOCAL",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ2RYV0gyZHlneTlMUW5EeERUbDV3cmIzZ0JKVE9RUlhxcUtIVi1aVmEzNmI5X2plUlkwSkZWZ0c5eG5ZaFFjRllhRWRNVzY5TUhJVm9xODRIV09jLUdvXzJvXzlCVUNJdm4zbU1HSXNXMmwzQktRVkhLY2swWW1EakxnLXIwa19GdFdMejNmNWRLZ1RoMTZLdHVkWU56aXNzbUJXcWlqU3E5Tzds?oc=5"
+    },
+    {
+      "id": 423,
+      "country": "Indonesia",
+      "date": "2026-07-14",
+      "school": "South Jakarta elementary school",
+      "city": "South Jakarta",
+      "state": "Jakarta",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Suspect arrested",
+      "cluster": "South Jakarta elementary bomb threat 2026-07-14",
+      "notes": "Police arrest suspect over bomb threat at South Jakarta elementary school",
+      "lat": -6.2839,
+      "lng": 106.8048,
+      "src": "thestar.com.my",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeE1ROGJoTjh6aHVzamEzMEhjN09JNHhmUFNTTmdHLTU2MVBkeUtpa21mdWhCM3hNZWpRcjB0dEJQb3J5d25nUlg4NXF1WWRQRy0tYTZRRDhCY0xGS1lsMU9adUl2eFEzclpSaHNDcVROQ3Jzci1pMDdGVTl1Rk1iWlBVa1BGM05WblU0Z201NVZ0TFZXcFk1Z3VpUkdOaXo1OEp1aW5CSFVCNXJrcFRHSlc5a2d5RWRjeC1MUmFnMFJqQWgxLXh6b3lwRVEzRnhGREE?oc=5"
     },
     {
       "id": 354,
