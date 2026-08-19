@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-19T01:52:36.893488Z",
-  "count": 257,
+  "generated": "2026-08-19T03:10:59.393359Z",
+  "count": 258,
   "incidents": [
+    {
+      "id": 405,
+      "country": "United States",
+      "date": "2026-08-19",
+      "school": "CCU (Coastal Carolina University)",
+      "city": "Conway",
+      "state": "South Carolina",
+      "sector": "Higher Ed",
+      "type": "Alleged threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "CCU_threat_20260819",
+      "notes": "Building evacuated after alleged threat at CCU campus, university says",
+      "lat": 33.836,
+      "lng": -79.0478,
+      "src": "WMBF",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbmlkSlAyVkMwUk9VbFNSUXBGYVl0T2oyQzFzY1owX2ZFX1VnZklqd1RhUEduX0ZBSnhBTVFvbF9XUGk5MVl3NkkxTmVxVVJzY3R0enJjRHNsZXVDSUQtMVhTaU9hdGJuam54ZjJMbzZreTAxNkpseHFBV2RjUFhOY1dTcjRxX0tLVFNWZGxqNDNBUkRCNEczQVlQeWs5RklscGZydG53?oc=5"
+    },
     {
       "id": 404,
       "country": "United States",
