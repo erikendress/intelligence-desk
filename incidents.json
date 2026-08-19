@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T10:45:18.333527Z",
-  "count": 259,
+  "generated": "2026-08-19T11:39:18.027180Z",
+  "count": 260,
   "incidents": [
     {
       "id": 406,
@@ -73,6 +73,24 @@
       "lng": -122.118,
       "src": "KRON4",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZGVFa2k2dlFYeFRCV2czQ0VYbVoxNEd2YUwyV2g1bjkyV0lad3pDSTgyR3pzcVpHVVh4MXh2RF91TGRHZW5JeVc4S0Y2cmhsX2lMbWlwTWNxODFTR2xqcnd3Mk8tVzg0ZlM1UERWY1R3UzUxWTNNV2h6bnRnZE9FdTBGTFI1VUpqUmROaXJwS2E?oc=5"
+    },
+    {
+      "id": 407,
+      "country": "Singapore",
+      "date": "2026-08-18",
+      "school": "Xinmin Secondary School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat / hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Xinmin_Secondary_20260818",
+      "notes": "15-year-old girl arrested over bomb hoax at Xinmin Secondary School",
+      "lat": 1.3571,
+      "lng": 103.8195,
+      "src": "Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Rbnp2bER0eFZhelB4c0g2MENiTjlmX2hxVFpkRnh6RS1ZaDhieF9GZWFKWGh1dVpSSUgwZUpnY3I3aFZMRzZUbzdFSHFtdEdIUGJUc29MX3FDUzNuS2tReV84Tkh2MzQyZlhTaVlpYmpjdUl0?oc=5"
     },
     {
       "id": 402,
