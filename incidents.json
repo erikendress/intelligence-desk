@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-19T19:38:35.427628Z",
-  "count": 274,
+  "generated": "2026-08-19T20:44:58.459254Z",
+  "count": 275,
   "incidents": [
+    {
+      "id": 422,
+      "country": "United States",
+      "date": "2026-08-19",
+      "school": "West Virginia University building",
+      "city": "Morgantown",
+      "state": "Monongalia County",
+      "sector": "Higher Ed",
+      "type": "Hazardous condition (gas smell)",
+      "response": "Evacuation",
+      "outcome": "Unknown",
+      "cluster": "WVU_gas_evacuation_20260819",
+      "notes": "WVU building evacuated due to gas smell",
+      "lat": 39.6297,
+      "lng": -79.9559,
+      "src": "WDTV 5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qM1hSZWIwRnZJMVVOVXM0TU1CSVVuUi1zU045blk3bmFiT0F4bFc1MDlsdjRYUmlBZjVZX3BOOW9ISUlVMkRQZmFKUzJzX0xPQUJaejFKY0VqWXBnbTBEODktOHB4T1JyVk9OVWk3OWhweFFPY05XNtIBjAFBVV95cUxNamtUZExfU3JHWmVsQ3NxOXlBckZDYlkxbllUc2JkZTVFdFdNQ3ZMZm1xWlowbVZTWkd5YmpwYm9XZy1IcTkwbUctNVlwUFNZOVlHT3dxdWVqa0hTMF9NRnk0UzRGTDZuRXpNVHZ6aFd6bFpyVF9rSWJUeTkxU1QtclR1LV9pS0pQR0ozMQ?oc=5"
+    },
     {
       "id": 420,
       "country": "United States",
