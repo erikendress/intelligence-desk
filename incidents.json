@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-19T17:39:42.300247Z",
-  "count": 272,
+  "generated": "2026-08-19T18:52:53.733778Z",
+  "count": 274,
   "incidents": [
+    {
+      "id": 420,
+      "country": "United States",
+      "date": "2026-08-19",
+      "school": "Port Charlotte High School",
+      "city": "Port Charlotte",
+      "state": "Charlotte County",
+      "sector": "K-12",
+      "type": "Threat under investigation",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Port Charlotte High School 2026-08-19",
+      "notes": "Port Charlotte High School lockdown lifted after threat investigation",
+      "lat": 26.9762,
+      "lng": -82.0906,
+      "src": "WINK News",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQa1JwMGFoQkw3T01VTi04NlR2b3g4NzRUZTNZT2dXazU5cnNHbGRzMVZUNXdLd1gwemZhZGx6NldyQVIyZVpsNHNoODNxRXYySzB4V2NoRmxiRDR4NDBhN2RoVEhSVUJPOE9FOTh3Y0tTM1dPdWlLay1lb1VORWlqMm5ReVJBekd6c1ZTLUpBejhUM3p0X2c3dGNTdldBbVdaUFkxU1pGNWtIUV95SFlRYnFkN1FrZmU3d0g4SWxCU0Y2dFRfV2g4cXdiWF9PR0tSY2lUbFIxYy05QWp6V1pUX1NQT1R2RFctWF9vQnc0a0g?oc=5"
+    },
     {
       "id": 419,
       "country": "Canada",
@@ -4051,6 +4069,24 @@
       "lng": -82.4452,
       "src": "Spectrum News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRXdQUDRaRTU4OEhELVFEV3duMXFuREhSZGlDS0JJcU9yU3V1aldGUENFbUpPcTFvMWJLMjFlcU02REVIQTZDVFZ3Uzg2Uy0wMmt4bTFFcXdQTFU2T1RsRC1yRmh1OHV5N0wzOW1SSWd4LXJYNXlhX0hWUWRWcHZ6OWJ4YmZwU0Y4V3pLQjNoTjhVc2k0OHRPNW1pelE4X01RaVE?oc=5"
+    },
+    {
+      "id": 421,
+      "country": "Indonesia",
+      "date": "2026-08-06",
+      "school": "Bali airport",
+      "city": "Bali",
+      "state": "Bali",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Bali_airport_bomb_threat_20260806",
+      "notes": "Indonesian police investigate hoax bomb threat at Bali airport",
+      "lat": -8.4557,
+      "lng": 115.2704,
+      "src": "The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa0FLRDlkTWhROG9VRzJsekdHWG52Ymc3ZXkzQkk0RWJWSHR5T3lSdUNvclVMV1FTcjVfaXhYWmRyaWZxZ3haQnYxdmlvRDEybkMzelZNb2U5b2JUYzU0MWJsRnBPdjl0N0EtamE5NC1sclZLbU14WFJSbmlBVk93elpwQW5QS1ZHazZ6Ymp1NmhLQno0QU05Z2M2emlXUzYzMDBXeU9PWQ?oc=5"
     },
     {
       "id": 203,
