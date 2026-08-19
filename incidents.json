@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-19T08:54:14.269766Z",
-  "count": 258,
+  "generated": "2026-08-19T09:48:51.853809Z",
+  "count": 259,
   "incidents": [
+    {
+      "id": 406,
+      "country": "Thailand",
+      "date": "2026-08-19",
+      "school": "Thai schools (multiple)",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Protective action following deadly attack",
+      "response": "Active shooter drills",
+      "outcome": "Ongoing/Preparatory",
+      "cluster": "thai-schools-shooter-drills-aug2026",
+      "notes": "'Run, hide, fight': Thai schools launch active shooter drills after deadly attack",
+      "lat": 14.8972,
+      "lng": 100.8327,
+      "src": "malaymail.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnN6T0M2NEJaeG43VmFKM3JvMkExTHZMTTBudm9wZXVGSTJxMnJUWjliaUs1VHNxNG9DR1FRNG1kQVBjdzVzdEFfZ1VQNEttekwxRzYzUHBVN2tvV21wWDY5dzFYdzVveEk4cjloN0dTUGFqQzFUZXVRdEtocmU3dXJ6STdESUtUMnVrb21NR1ZqYkNWQ3A3VHlQWDVRR1hjNXg4aGdlanUxY1pFbk5qdmU2VnBkcFJFUXVkcVNGUnVLRldwWlJVOS1la9IB0AFBVV95cUxPd0dzZXFyc2YtMDJZdExlbmRpUHlzSnNmTkM5MVI3bE5CTlRPNFZVX0YxQ3B5RHJPaDc2Q2tPRTRBR29XNEhiVmNUSzBaa0hwTFI3OTg1Qk9rak1qN1lTWXh6eFhYb2FHV2hwRGFDT3hFWkhMRlNITXJLNjNqbld1QmVKNnUwd0tqMW1rOUM2Sjd5WFpzMTJOY21RMnNHeVdCUGVLNFhQZUk3cTRCNHJGWlR1dm1uY1JEMExVNXpaYW0wSFN1WDlydjd4VjR2bGdG?oc=5"
+    },
     {
       "id": 405,
       "country": "United States",
