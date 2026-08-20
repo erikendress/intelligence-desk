@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-20T07:56:28.681362Z",
-  "count": 286,
+  "generated": "2026-08-20T08:56:23.049150Z",
+  "count": 287,
   "incidents": [
+    {
+      "id": 434,
+      "country": "India",
+      "date": "2026-08-20",
+      "school": "Nagpur schools (18 facilities)",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Investigation initiated",
+      "outcome": "Under investigation",
+      "cluster": "Nagpur_bomb_threat_emails_20Aug2026",
+      "notes": "Bomb threat emails to 18 Nagpur schools draw NIA, ATS attention",
+      "lat": 21.1498,
+      "lng": 79.0821,
+      "src": "Nagpur Today",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdVZKNnVCQnNoeE9pQUhiRHBYV3l2RjVCVGhpRXlLeGF4LV9fUmotQ2Y2UGFzMWtyWEl6Y3V5T2ZGVS13eVJoTXFaZnJjbkZRWXBJLTVNT1BfQldIRTFrSjA2QlVvaTBhTFdzaklKQVRSNzFJZFlsTmFpdnduN2tUTmdKanVOUzRoWU1TR1BBZGctYWxEMnliOWthcW5NbGxQSVkxVDlsbXR6UGZUclZoakhFb1Q?oc=5"
+    },
     {
       "id": 432,
       "country": "United States",
