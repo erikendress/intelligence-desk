@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-20T03:58:26.642403Z",
-  "count": 284,
+  "generated": "2026-08-20T04:52:12.019837Z",
+  "count": 285,
   "incidents": [
+    {
+      "id": 432,
+      "country": "United States",
+      "date": "2026-08-20",
+      "school": "Port Charlotte High School",
+      "city": "Port Charlotte",
+      "state": "Charlotte County",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Resolved",
+      "cluster": "Port Charlotte High School lockdown August 2026",
+      "notes": "Port Charlotte High School lockdown leaves students and parents seeking answers",
+      "lat": 26.9762,
+      "lng": -82.0906,
+      "src": "Gulf Coast News and Weather",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTnVpdnlyWS0wUmozU2N2aDlqMzFhVFBIS3lOelZZcC15LVZVLXY3c2RPSEtmNnhLLUxLSWNZMUdpU3Y1OW9lUWRRei03ak9UUXRPelFBRzF4UVhTMHlNbFBYbVpRYlVlZmxiSHF6ZFZTZVdJVFUxd2dITkREVmVJMUwxOWNfSnhvVV90RkJDNVlxUzFyV0s3MFZn?oc=5"
+    },
     {
       "id": 430,
       "country": "United States",
