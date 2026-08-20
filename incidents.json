@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-20T13:11:00.432103Z",
-  "count": 288,
+  "generated": "2026-08-20T13:58:30.498638Z",
+  "count": 290,
   "incidents": [
+    {
+      "id": 437,
+      "country": "Singapore",
+      "date": "2026-08-20",
+      "school": "Xinmin Secondary School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Xinmin_bomb_threat_20Aug2026",
+      "notes": "Bomb threat at Xinmin Secondary School leads to arrest of 15-year-old girl",
+      "lat": 1.3571,
+      "lng": 103.8195,
+      "src": "The Independent Singapore News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFJ5UnVFYWpNdldiZWpxT3lVZzVQLVRPSERyOHhhMlVqWkU3NW5ndVlLUldWdlVLWFY1MWFic3NValVTTXNtclIzYlRJa0piVGRET2Q2bHBHVVhKblBrak1MZ3lvLWVlVUxkWkxMQmNuY25PbmZXRFVaTm9tQnpFVE0zdFB4TmpsNy1aQ1VPM284dVRQcnBudXdoRHFVbHFQRk13?oc=5"
+    },
     {
       "id": 434,
       "country": "India",
@@ -4807,6 +4825,24 @@
       "lng": 122.5739,
       "src": "Inquirer.net",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdHFZcnZKbE4xaUpRMnJRWERCanVJYWk1VXZoTG1EMkxKaUJLUHFPdldoVUpTZjJxdXhpR1p6aVJMWVdiVm9MVUhPVmtPZUZrZHdWLW1XLVFfalpfakpfZG1hWFZZSzJOWnRxS2pubmZ5b3dheTRMT0dyZjAyaS1mS3g0b3Y1amNXY01hYWsxRHlYd9IBlwFBVV95cUxPMWtCam01UGRqVzRMeEs2Y0FSZnlCeUVFV3pHa1lLSXVmM1J3SjBXSTNPbGVla05OdmNXSDFmLXJsT3R4bm9PLTZKby1kRWVGQmlPa0o0azh0LVYzUVg4amZsTHdfeEY3aHdjdzRtVzRmaFM3b0RPU3RhY1c5NmY3YllGbG5tZVd6cnlDRjFRQzBGZER0V19F?oc=5"
+    },
+    {
+      "id": 436,
+      "country": "United States",
+      "date": "2026-06-10",
+      "school": "Hayward Field",
+      "city": "Eugene",
+      "state": "Oregon",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "All-clear given",
+      "cluster": "hayward-field-bomb-threat-2026-06-10",
+      "notes": "Oregon's Hayward Field evacuated after bomb threat, all-clear given",
+      "lat": 44.0505,
+      "lng": -123.0951,
+      "src": "ESPN",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXd0MC1HYjRGRC1FZFV6SXNBOWZPTjgwQlRSSHQzMTcxRUFMa2RRTEpIOFNFWkowVk5ad3lyd0NHd1Y2d29PREJTb2J1akNRV0hFOGloeU1LSkxFdUh6bXhwUHVKam1XT2sza3VGLWMyV1ZCZEFMcjlFN09iam5JN1Vzb1haU0NZUGZZbHFTQWlLRjQ2X3NfaXpVdmdEdFplR2c5OS1NeHVIajBpaXNKWTRoaHB2ZkF5TEQwZmJZY0haSHdWNWc4M0RR?oc=5"
     },
     {
       "id": 166,
