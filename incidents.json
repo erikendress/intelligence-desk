@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-20T14:54:46.830163Z",
-  "count": 294,
+  "generated": "2026-08-20T15:48:40.435774Z",
+  "count": 295,
   "incidents": [
+    {
+      "id": 442,
+      "country": "United States",
+      "date": "2026-08-20",
+      "school": "Warner Robins Middle",
+      "city": "Warner Robins",
+      "state": "Houston County",
+      "sector": "K-12",
+      "type": "Nearby domestic incident",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Warner Robins Middle lockdown 2026-08-20",
+      "notes": "'Code Yellow' lockdown lifted at Warner Robins Middle after nearby domestic incident",
+      "lat": 32.6201,
+      "lng": -83.6066,
+      "src": "WGXA",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQdVN4Z3RxSW0ydm84a1d4ZUh0OXVkeExIRGpoN1NJdkloNTQwMVVSSWVpTXBnLUszcnBQaDRMa3pxTUlGRVNnVUhOLVd5WVdWM18xMjQwS0tLSTlEXzlfNDdIZ09zbjFtcDE0RERCX25ZZ3F2ZkhFQ3BQNmk1Q1RBQ0tPd2ZxbXNxRVVVLTJRc2hQMnVnU3V3T05NNHV4WkhJYldjMHV3ZzdQdnlNdDBzQzlVejdWR2o3dFhKYUpjY0JpWlRySERIRHZ4MTJwYW1FTmt2UU9DcTZXVzRmVGxabzBpVkM0SVkzdEhsTXZURWQyZTE1aDk5Q1FpUU9udVYtLUJ0b19jcnRPRE1nemlWTl9CX2MxZzdxamxnZU5XU3ZWUTNaUm1hck5NNlhyaVdrMnZtUEFFYjMwM3ZWTHhuUw?oc=5"
+    },
     {
       "id": 441,
       "country": "United States",
