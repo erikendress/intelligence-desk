@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T09:49:42.185433Z",
-  "count": 287,
+  "generated": "2026-08-20T10:46:36.317606Z",
+  "count": 288,
   "incidents": [
     {
       "id": 434,
@@ -4483,6 +4483,24 @@
       "lng": 173.947,
       "src": "NZ Herald",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU1VycndzaTNEdms1Mklqekg1SUlqdGZ0WDl6M0U0VjlFQ1J5cUpDbjBNaEFaVzJ6QXpIVEdwOGZrYWRnbjAxVF9mRGlKek5JYmo4VHg2ZHd4MENXMXp6ajN4RlJGc2owVEUwb09yYVhCclJadTVYTmk4RkpiQm8zU1BHVlNITW9XU3pEYTYyeUxYcXVKM2NSWUNGLWNVelBTZkpLQ1dZNGNGNWFGY19WYlAzbXNhS3RwbXVic01GQnE1RWJKNEdFZGNYVzJpdw?oc=5"
+    },
+    {
+      "id": 435,
+      "country": "Philippines",
+      "date": "2026-07-22",
+      "school": "Schools in Bulacan",
+      "city": null,
+      "state": "Bulacan",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Suspect arrested",
+      "cluster": "Bulacan_online_bomb_threats_2026-07-22",
+      "notes": "Suspect arrested over online bomb threats in Bulacan schools",
+      "lat": 15.0,
+      "lng": 121.0833,
+      "src": "Philippine News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUNHM2V3lwenlILU9ZQzRialdqWG9rNTFzRWFvd1BEQlFyMDV1VTFXZTQ3eEdpelNYaG9JbmZpdVBCU2tLbUFTR0EtM3dic0R2?oc=5"
     },
     {
       "id": 175,
