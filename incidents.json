@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T16:50:46.620133Z",
-  "count": 330,
+  "generated": "2026-08-21T17:44:25.398423Z",
+  "count": 331,
   "incidents": [
+    {
+      "id": 478,
+      "country": "United States",
+      "date": "2026-08-21",
+      "school": "Charlotte High School",
+      "city": "Punta Gorda",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Charlotte High School Punta Gorda 2026-08-21",
+      "notes": "Lockdown lifted at Charlotte High School after reported concern, Punta Gorda police say",
+      "lat": 26.9352,
+      "lng": -82.0512,
+      "src": "Gulf Coast News and Weather",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaHdrTDh4TlNUXzdhbzM3OThPcTBodXRWeFctWUxkS0RUX1I5Y2VFT0Zhd05Ka0VlUGZsR1JFMjZKQlM4YW96ZUZNVUtJaXlxeGxGMlF3N0ktTGRqQjh0czBTdFVmVkR1MXNWZy1EVTFCWW1aYldXazNmdHI4eWZVaXJlc1V1MUJVb1pNc3NXMTZadTFPVkF3?oc=5"
+    },
     {
       "id": 477,
       "country": "United States",
