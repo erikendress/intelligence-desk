@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T20:40:18.417984Z",
-  "count": 338,
+  "generated": "2026-08-21T21:37:29.390603Z",
+  "count": 339,
   "incidents": [
+    {
+      "id": 486,
+      "country": "United Kingdom",
+      "date": "2026-08-21",
+      "school": "Ferry (unspecified)",
+      "city": null,
+      "state": null,
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Evacuation / emergency response",
+      "outcome": "Resolved",
+      "cluster": "Ferry_bomb_threat_20260821",
+      "notes": "Passenger rescued after falling overboard from ferry before bomb threat made",
+      "lat": 54.7024,
+      "lng": -3.2766,
+      "src": "STV News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWUdWMWtRRlVjWlYxX05sRjM4aUlJcldIUkpVVEpyY2NTWGRsYVZkS1RXN1ZhNS13SWhzWHZhUW5fWFNRV0dfTS1OemhPU1hlaEVMdFA1OV92SGM2eHZtUFVlT3lMVlIzQmxMekpWYU43ZGlIVnN0clMwdkdka2pTTFp5TnZQYVduLW1iMnRSWWdvZ3p6MjJKaVRIMDhUZWxvM1BqS2lPQ1Nma3hTVVVXOURPWXRhQW8?oc=5"
+    },
     {
       "id": 485,
       "country": "United States",
