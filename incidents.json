@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T04:03:33.693329Z",
-  "count": 317,
+  "generated": "2026-08-21T04:54:05.214009Z",
+  "count": 318,
   "incidents": [
+    {
+      "id": 465,
+      "country": "United States",
+      "date": "2026-08-21",
+      "school": "Georgia Southern University Armstrong Campus",
+      "city": "Savannah",
+      "state": "Georgia",
+      "sector": "Higher Ed",
+      "type": "Armed robbery (external threat)",
+      "response": "Shelter-in-place",
+      "outcome": "Alert lifted",
+      "cluster": "georgia-southern-armstrong-armed-robbery-20260821",
+      "notes": "Georgia Southern lifts shelter-in-place alert for Armstrong Campus after armed robbery",
+      "lat": 32.079,
+      "lng": -81.0921,
+      "src": "WJCL",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3dsRThyeVZpMHhrZE1MdVNlU1N3U1RPQXo5WXBlY0hhUW5hckNGclFBSTNxVE5ISFVoemUyM1dreHhET1R6TGJMWEFpVEl0ZERCR0I4a2pPYk4yREVOM1lSRXg3OExpVmh5eTlFT1FSdXFqZlNpQjlpRzcxMzM4WTRRLU9rQ3I3clEwTkYtLWJNUQ?oc=5"
+    },
     {
       "id": 464,
       "country": "United States",
