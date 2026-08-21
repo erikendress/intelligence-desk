@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T15:48:04.544086Z",
-  "count": 329,
+  "generated": "2026-08-21T16:50:46.620133Z",
+  "count": 330,
   "incidents": [
+    {
+      "id": 477,
+      "country": "United States",
+      "date": "2026-08-21",
+      "school": "University of Arkansas at Fort Smith",
+      "city": "Fort Smith",
+      "state": "Arkansas",
+      "sector": "Higher Ed",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "UAFS_bomb_threat_20260821",
+      "notes": "University of Arkansas at Fort Smith evacuates buildings following bomb threat",
+      "lat": 35.388,
+      "lng": -94.4265,
+      "src": "Northwest Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQUtCZDNSX3k0dFZlbW12bGlUVkpiMVpxOURhMThJMU9idlk4NUxwMllmWUJLMTZtRTJ6NDdLVVd3NHRfcG9xaGV3S2RlWE9mV3JjSzFXSlJEOGd0dkVCSW1wOUN3VlpXYXVsXzdQYVphc0dfallZcjVKQXNCZlRwZUE4M0p2MEVpVFg1MnB3LVZaQkpE?oc=5"
+    },
     {
       "id": 476,
       "country": "United States",
@@ -138,7 +156,7 @@
       "sector": "K-12",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Resolved",
       "cluster": "Northeast High School bomb threat 2026-08-21",
       "notes": "Northeast High School evacuated due to bomb threat",
       "lat": 39.7837,
