@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T05:48:06.671535Z",
-  "count": 319,
+  "generated": "2026-08-21T07:07:19.461977Z",
+  "count": 320,
   "incidents": [
+    {
+      "id": 467,
+      "country": "India",
+      "date": "2026-08-21",
+      "school": "BJP Chandigarh office",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Chandigarh bomb threat 2026-08-21",
+      "notes": "Bomb threat email sent to BJP Chandigarh office",
+      "lat": 30.7334,
+      "lng": 76.7797,
+      "src": "Punjab Newsline",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLVZySlNvMFNTcXdkbVZvRTlTSUxVXzNtVEViX1lraV9jWXl5UkRHVTFCN09CV25kSnFPUXZMUUpJaXR5UlFBek41SERrLVgyQ2R1WFVmYUhyWmJaODB2NnVvcVlOUU1RdU44Nk1rbHltMThQWVVCejZqWFJxampBMkwtS2ozWkc0ai1rV0NQaTJzZ1k0Y01LSHVxVFdlSFp1eDlV?oc=5"
+    },
     {
       "id": 466,
       "country": "United States",
