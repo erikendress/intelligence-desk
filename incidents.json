@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T07:56:12.796511Z",
-  "count": 320,
+  "generated": "2026-08-21T08:57:59.174740Z",
+  "count": 321,
   "incidents": [
+    {
+      "id": 468,
+      "country": "Philippines",
+      "date": "2026-08-21",
+      "school": "Negros high school",
+      "city": null,
+      "state": "Negros",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Negros_HS_bomb_threat_Aug2026",
+      "notes": "online bomb threat at Negros high school",
+      "lat": 10.0207,
+      "lng": 122.9772,
+      "src": "Manila Bulletin",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDR5ZTFsd09YNzZKX29nUXB5cmNFMzJoamRvWTd3ZlM2ZTJ3ZDg3N2dTZGNZRHJqUl8wMzV0OFhqWVNTNVFWWUROQmdDdFRoZlZLMnBiVkVSc2gycmM3OHV4akptdHlHODRHOGN6a1BwaE9rcFo3OFVtWW5QN3BHRUg5TllyaWFkdG9zXzZwZk5zLXho?oc=5"
+    },
     {
       "id": 467,
       "country": "India",
