@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-21T04:54:05.214009Z",
-  "count": 318,
+  "generated": "2026-08-21T05:48:06.671535Z",
+  "count": 319,
   "incidents": [
+    {
+      "id": 466,
+      "country": "United States",
+      "date": "2026-08-21",
+      "school": "Georgia Southern University",
+      "city": "Statesboro",
+      "state": "Georgia",
+      "sector": "Higher Ed",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Georgia Southern second shelter-in-place Aug 2026",
+      "notes": "Georgia Southern under second shelter-in-place this week",
+      "lat": 32.449,
+      "lng": -81.7833,
+      "src": "WTOC",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcEFXbld2QjhLbTNGZzlUbV80SHlpMDJfNmgzeHJKRkxMZnRZUUdnZkEyOXZLQmZuWEwySHpaQTNzNFQ4Si1SVG14d3B5c2pqU3VlRUtQSEhxbExoS2I5eE9TcHYwMjFhOHZpRmRjalFTUFpSb0todnlQQUZXRDBxSC1Sc0MwRnhqU2hKVnd3TS12X0NBRVBmMVJESWtpRDlPY1p2VGZQX1FBWjFMdkxDanF4OVhuUmtkSzNuWdIB0AFBVV95cUxPRF82dmhiRW5PNGY3MjZKX2p2bXRIcG9FMDdRcFNSMExCbUJOUVk5WFFaVVNYT2xvSGRwWkEyRkpFRHhlU0RvbnBVU3ZyQ3RyRDZRQTBJNkVvYS13cGRBMmRMOV9ad0dkcy1hVU9HUXhldXlxalNQUjFGMlUzdXhwV2x5ZWtCdlBBRDMtS1UyRjRYZF9IMDFWS0VCSzliRmFzWU82QnFvWlpZTWVXY3E4Z1h5cDg3bVE4RXoyME83MlY4WlJyN1d5TUFpUVhoRDhr?oc=5"
+    },
     {
       "id": 465,
       "country": "United States",
