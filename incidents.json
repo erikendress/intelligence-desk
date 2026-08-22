@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-22T08:47:21.283339Z",
-  "count": 348,
+  "generated": "2026-08-22T09:41:21.172113Z",
+  "count": 349,
   "incidents": [
+    {
+      "id": 496,
+      "country": "United Kingdom",
+      "date": "2026-08-22",
+      "school": "Ferry",
+      "city": null,
+      "state": null,
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Ferry bomb threat 2026-08-22",
+      "notes": "Ferry passenger who went overboard arrested after making 'bomb threat' to staff",
+      "lat": 54.7024,
+      "lng": -3.2766,
+      "src": "STV News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRTlBLS02RzhYQ21nRGxnOUI3RUpBc1pCWWJkVU9kbVBsZ2ZGSERXOGZsamMtVkxXaFJLMUx1Rzg1OU5MMWl6c0RiTTJtNG1PZnRFRWMyQ1ViVGp2M21jZzlvdWJucWZkcnFxbHBsZzVaZnZkV3lHcGtxdUhSMU1xeDhCdl93Mkg2eFBrRW1vNktNNWlwUTBxa1JQbXVkRl9jRTZ3a2hURWx6c09MYWRn?oc=5"
+    },
     {
       "id": 495,
       "country": "United Kingdom",
