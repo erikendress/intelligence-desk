@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-22T10:39:32.335982Z",
-  "count": 349,
+  "generated": "2026-08-22T11:34:36.481567Z",
+  "count": 350,
   "incidents": [
+    {
+      "id": 497,
+      "country": "Canada",
+      "date": "2026-08-22",
+      "school": "Fort Smith",
+      "city": "Fort Smith",
+      "state": "Alberta",
+      "sector": "Other",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Ongoing",
+      "cluster": "Fort Smith Alberta shelter-in-place 2026-08-22",
+      "notes": "RCMP issues shelter-in-place for Fort Smith, Alta.",
+      "lat": 59.9975,
+      "lng": -112.6177,
+      "src": "Winnipeg Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORmhYWnVxQ29iTTh5VVI1REwzZUczaU1mZWdudWdyWXR4WFN1cjktbzA0VVdqUzlDTWJEdzFISEozY0pEdWZwTHhFeXdiRnNsRUtaal8wbi1BWndDcjZYbDJwUGRxa0pxTHZYREQ4UDZnazgtWW41OEtMQlhaSjMyUVc3SmxjMm9PczNvTWk4a05tZkpnUUV6RTF3UWlwa0szdkNJNDBMOTdvU3M?oc=5"
+    },
     {
       "id": 496,
       "country": "United Kingdom",
