@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-22T14:37:43.424416Z",
-  "count": 352,
+  "generated": "2026-08-22T15:34:50.264030Z",
+  "count": 353,
   "incidents": [
     {
       "id": 499,
@@ -127,6 +127,24 @@
       "lng": null,
       "src": "Lake and McHenry County Scanner",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONFFjNERXUjFyNXF2eGJITXlWbm5fanBDeWlyUG1JWVBCeUREZjg3dHdSZ2RhNHhsSTM4YmZ0azl1QWExLVMtVVBaTWV6TTF6NDBvYWhTVjBGd1RPbzcxSTQ5aTk3Q1VseWJYTV9lV01nY0dZSnF0UUMyY2tlVG16S1dSRG9KOGJ5WHFLSktlLU8tZEdZUm5SRTl1YWhqSmhEaV9RZWo4UXhUNWtPWmI0WXBsNnVOeVY1bUJQdUxaZEdyR0FxakI5OHBzX29NTE9DUDNDdnpxNXZfdVd1YXpEOXZJSlhWWDlaY1E?oc=5"
+    },
+    {
+      "id": 500,
+      "country": "United States",
+      "date": "2026-08-21",
+      "school": "George Rogers Clark High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Swatting / hoax",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "George Rogers Clark High School swatting 2026-08-21",
+      "notes": "George Rogers Clark High School evacuated after swatting call",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "WKYT",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYzJlSnRqSDdXcnpjMW11SkxXd3Y5ZU80dzdwU2lQZnF2N0ZpTVJMaDZ5VkFROURRRk0yZHA3SmIzZV9Xcm9OU19NZjBqOGptc1pPcGJ1ekpGb1kyR3BIWS1YVFJWRldNdXdaZ0kzQVBSQ0VmTWdIZWUxTDhDRVBoSDJ0Y2NLelV5eGYwbjBvOHhLRGh5U2d4Z0Rn0gGuAUFVX3lxTE1ZWjV5eWtFdi1mbkxfZ2FlbDY3VTlHVHoxd3JxOERuMnpSSHRwUUxJeE1GNlIxOGNMN3JxMjVGMzY5YWhueFZYZ3FfVUdCNk4tQkNyczBTYkhZcGpsZ295S3pNRlRmV2ZhSjUxQk9QRzVKdkVHSDNQSlpLQ0g2VmZvMEl6dC1MRUx0NFFCUE9KdU95SWd1d0V1aUZ0NlUxVVNYeGtlRW0tLTdaQzdGUQ?oc=5"
     },
     {
       "id": 492,
