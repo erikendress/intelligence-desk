@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-22T16:39:56.649622Z",
-  "count": 353,
+  "generated": "2026-08-22T17:35:12.559775Z",
+  "count": 354,
   "incidents": [
+    {
+      "id": 501,
+      "country": "United States",
+      "date": "2026-08-22",
+      "school": "Walmart",
+      "city": "Columbus",
+      "state": "Ohio",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Columbus_OH_20260822_retail",
+      "notes": "Walmart in southwest Columbus evacuated as precaution after bomb threat",
+      "lat": 39.9623,
+      "lng": -83.0007,
+      "src": "NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2NqOVh3eFpQR2tncU1RVEFuZlNDSko3UHQ1cXZYazE0SXlhcGdkNnozbWxjOE5qN0RjODRJX3lhd0NQRWRSTW1TckRHUE1IVDEtTmRvMWEtZ0NSM2dRTXFyZFVDcElURlE1eEhUNi11WlJnQWpjMUhlRkoteExSSWFRNXNCQmxqbzl0WEQxRnVYZTZ3Wk5MLTBBOFh1NXBFTURwR05BOGUtbVViYUViSjVjczZwXy1PbU1N0gHAAUFVX3lxTFA5NjVIeGpDNjZmMmN0akV4ZWtDd2gxQ21mN3doWW9XNVJRV0Fmei03NjRLbG8tVFVsYThkYmYyLWZudG5raWYxZTc0NmVJaUlmdmVPLS1kMmEtZ3ZJLUxCVVhLcVhJTXVPaXhOVktTN2dKRDlNUVlKLU42YnlnZVBEbGVXYXhmSmJBM2hyVnNkeXVYNnkyT085WXY0TG0wWVBfMFdFM3kxTldKNUtNLUsxeGhZSUxNQm5VV2V1eVp0Tg?oc=5"
+    },
     {
       "id": 499,
       "country": "United States",
