@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-22T22:55:32.076299Z",
-  "count": 356,
+  "generated": "2026-08-22T23:34:42.770685Z",
+  "count": 357,
   "incidents": [
+    {
+      "id": 504,
+      "country": "Canada",
+      "date": "2026-08-22",
+      "school": "Fort Smith (multiple facilities affected)",
+      "city": "Fort Smith",
+      "state": "Northwest Territories",
+      "sector": "Other",
+      "type": "Suspect at large / safety threat",
+      "response": "Shelter in place",
+      "outcome": "Shelter in place order lifted; suspect still at large",
+      "cluster": "Fort Smith shelter in place August 2026",
+      "notes": "Police lift shelter in place order, Fort Smith suspect still at large",
+      "lat": 60.0059,
+      "lng": -111.8903,
+      "src": "Cabin Radio",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ2dGc0U4cE4zdDdZS2lnWmswVk5YQThfUWZDRmN3azZ0TFI2SUN4OUJ0dGF3YzhnZkxIVkUyRTdXUS0wNmlrckhWeVloeEYzUE03V184bk9BRnBpZm1rdlhvRTE0dDRVemdtVjRqZ2Q4aWdTZ2U0dU43VjRsT3dkY3I4OGhtcG9uUVVqQlhPU2xScHVzYmpaNlJsX0ZMVzJRR2d3ZktWQzE3MUlMbUtYanRSekt0a0Fhakl5ejhFWUxHWlND?oc=5"
+    },
     {
       "id": 503,
       "country": "United Kingdom",
