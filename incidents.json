@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-22T06:58:42.846532Z",
-  "count": 347,
+  "generated": "2026-08-22T07:45:34.578424Z",
+  "count": 348,
   "incidents": [
+    {
+      "id": 495,
+      "country": "United Kingdom",
+      "date": "2026-08-22",
+      "school": "CalMac (ferry service)",
+      "city": null,
+      "state": null,
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "CalMac_bomb_threat_2026-08-22",
+      "notes": "Man arrested following CalMac 'bomb threat' as passenger rescued from sea",
+      "lat": 54.7024,
+      "lng": -3.2766,
+      "src": "The National Scot",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaG5oLXFidUhIb1Q4VXhaODVUeS1qZ1dDWXhmdzJKMnFhMzI0bWlUY21yUTN5OU1NeDRyYUNLLVVnZXJtXzlBb0dhVDk4RXg3VHpJZ3ZXakJCZV9YVndFc0kwVjN3S0lNUWdJQVN3YkNVRVVUanVwMVJhQ1B5SGV6QUpmU2tYY0VCYmM3ZENVMlBRRW5QbjRjY2JUZkdueE8xWklRZ1hn?oc=5"
+    },
     {
       "id": 494,
       "country": "United States",
