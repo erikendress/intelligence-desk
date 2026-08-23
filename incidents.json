@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T08:48:17.481584Z",
-  "count": 361,
+  "generated": "2026-08-23T09:42:43.885651Z",
+  "count": 362,
   "incidents": [
     {
       "id": 508,
@@ -5725,6 +5725,24 @@
       "lng": 120.9804,
       "src": "Philstar.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbW9JQTRraHpRZWdBei1jLURGcTRSaloxTnlRa1l6Q3NtclpkZUVyUVVaUVhjMEJ0UGhFdnd4MVFHR2Ywc2RnckxWMGVQQkp2NnNsSTIyWVozNWUxejFSTzY5bklxUWlHaldQRjlzdzBucThuOEpSYVE4MW1wWXc0dTdVTHdWOGZZQXFVWU1HYUM2OERSdFhZcjY1WdIBogFBVV95cUxQakFyeUxQWVZHT3JkaWs0Uno1VTNqNENuY080M0tLb3VQSlJUaEJmUi15d3lsQ19OQm91OTlsY0NQZHJWLUJEaVE3SGQwWHdzUlZtRUs5dnlCRVpQMGtLUFNhcTNqVy1Oa0hidTkyZjFSUnI4aXNOYl9VVlA2V28yLWVNeUZ2T2tBeFpjenZXVVExV1JSQkNBRXZIbTRlV1BYS0E?oc=5"
+    },
+    {
+      "id": 509,
+      "country": "United Kingdom",
+      "date": "2026-07-25",
+      "school": "Manchester Airport",
+      "city": "Manchester",
+      "state": "Greater Manchester",
+      "sector": "Transit",
+      "type": "Hoax threat / swatting",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Manchester Airport hoax threat 2026-07-25",
+      "notes": "Police question boy, 14, over Manchester Airport aircraft hoax threat",
+      "lat": 53.4425,
+      "lng": -2.2325,
+      "src": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85VDMwQ2Nud1dkLVJGaXJlcWxpQWo2NGt5d2tiY2dfNWk1QmN5Ym9iOTNaNF81b0FlRjZvSENMczRuenlTOGpvNXRrSEwwUWIwUF9MTm91QjJkUQ?oc=5"
     },
     {
       "id": 245,
