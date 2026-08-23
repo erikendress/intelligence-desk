@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-23T10:39:12.119761Z",
-  "count": 362,
+  "generated": "2026-08-23T11:33:52.256956Z",
+  "count": 363,
   "incidents": [
+    {
+      "id": 510,
+      "country": "United States",
+      "date": "2026-08-23",
+      "school": "University of Louisville",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "sector": "Higher Ed",
+      "type": "Unknown",
+      "response": "Shelter-in-place",
+      "outcome": "Shelter-in-place lifted",
+      "cluster": "UofL_shelter_in_place_20260823",
+      "notes": "Shelter-in-place lifted at UofL",
+      "lat": 38.2542,
+      "lng": -85.7594,
+      "src": "WLKY",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CU1ozY09JZFR2aHpBQUhoOHNVUzFoR3RLYXptc0RnT040SEg5N3Nlc21lQ0RzZ2F1d2ZQNHY0N0NYdk42MlNQYzFtamdKX196aThGeWR3Ylp0ODFDMGxPNFBhNHdNTzZVMkNneFJrV3BiYWxJMm4wMg?oc=5"
+    },
     {
       "id": 508,
       "country": "United States",
