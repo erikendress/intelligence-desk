@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-23T04:02:30.201054Z",
-  "count": 360,
+  "generated": "2026-08-23T04:51:58.584144Z",
+  "count": 361,
   "incidents": [
+    {
+      "id": 508,
+      "country": "United States",
+      "date": "2026-08-23",
+      "school": "Taylorsville (residential area)",
+      "city": "Taylorsville",
+      "state": "Utah",
+      "sector": "Other",
+      "type": "Wanted suspect / potential threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Taylorsville-shelter-in-place-20260823",
+      "notes": "Shelter-in-place ordered in Taylorsville as police work to remove wanted suspect from home",
+      "lat": 40.6676,
+      "lng": -111.9388,
+      "src": "KUTV",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZGpHdUFqYlNlR25xMWQ1a21hSmk4TXBXNDBKTmF1T1VBei1kUjQ1eTY4SEtFcElqbjRxQnQ3d3V5Y3U3UzZLdDQydGgyR1VGaUhFcmx1Wk5Db3FuX0FSb1RwemFibHZtZFY5Y01IY1hwcGttNC1BT2tEYzBmRi01SHVlWktSNGlqVWF2Tkl3TmdnZE9iN2g5UEMzaWVjT2E1?oc=5"
+    },
     {
       "id": 507,
       "country": "United States",
