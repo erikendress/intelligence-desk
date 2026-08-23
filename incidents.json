@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-23T01:59:12.108077Z",
-  "count": 359,
+  "generated": "2026-08-23T03:15:08.530723Z",
+  "count": 360,
   "incidents": [
+    {
+      "id": 507,
+      "country": "United States",
+      "date": "2026-08-23",
+      "school": "Walmart",
+      "city": null,
+      "state": "Ohio",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Ohio_Walmart_bomb_threat_2026-08-23",
+      "notes": "Ohio Walmart evacuated due to reported bomb threat, police say",
+      "lat": 40.2254,
+      "lng": -82.6881,
+      "src": "WHIO TV",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0U4QXllWW80OFYzY2ZlVEJNNXdGTVJtRW9rSUpsZWRkVDl6N2xhTWhOSGVJc1I0RXJFTDN6dloyQl8xeFFNMHlnOEpxSXFYdEFxLXdyRy1sWHdpZ041Z2JSaVlyNVFReVJ3SFVOcUpGWlRQVDNrTkpaSnVwVTlfNFljVGNOX2h0SFRYQjZPR1NoQ3R5OGt1ekpaQ1psRE9ELXppdy1fcHRpTkZNZmx2LXdpVlYyM2xfalHSAc4BQVVfeXFMTndPeDRzdkJLMVV3MGRtZExSUWJWSlpZaHRDV1ExbU50SFp1anNDeEQ2RHpYclRQbFJILUliN2JVYWtHRW9CR0xpRVVnMGZtZm1IM1Q1Wk5HSVMzZ0JCUDVBOW9WZkZrMm1lNmhTcHk0aFhOTWhwNl9namVYb2REQ2F3YWRtWlkwSVhOSUpfUHdnaVBpQldwNThDWHRVdXItcVBHTlZuQ3ZMaWZhNWx6TEk2Q3pibzF0dEtXOFFDdktSYUVWYXIzOThKRW04Q0E?oc=5"
+    },
     {
       "id": 506,
       "country": "Canada",
