@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T11:43:35.784934Z",
-  "count": 368,
+  "generated": "2026-08-24T13:12:27.455830Z",
+  "count": 369,
   "incidents": [
+    {
+      "id": 516,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "William Allen High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "William Allen High School bomb threat 2026-08-24",
+      "notes": "Authorities investigate bomb threat at William Allen High School",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQV1E1cjBWbkhNVWJDYnlhdmRZTENUUnJEbGJHVlRaNkVmZHpTMklzdHRCMEVyMXFNQVFRSDdUcTZueXNES0ZZdVFJV1VfVjlSZS1jekZ2RXF6Q1M2Q0c1RDNaSWJoWFlKLTdOQjdEeE91Z0pVWk9BTEpHdnZhcnpNOEo2bFFQS194VFpwUC1YaUZhRnlvbzBpNFZwTlZsTVM1RlRMUEJGQk5fbmZMUk1HQUREQVZVOXpwV2NmTUpOTzVlS1lpT0IzQTRuaGxwVjhicXo0X1lB?oc=5"
+    },
     {
       "id": 515,
       "country": "United States",
