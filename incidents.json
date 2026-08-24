@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T03:16:06.598104Z",
-  "count": 364,
+  "generated": "2026-08-24T04:08:09.637938Z",
+  "count": 366,
   "incidents": [
+    {
+      "id": 513,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "University of Arkansas Fort Smith (UAFS)",
+      "city": "Fort Smith",
+      "state": "Arkansas",
+      "sector": "Higher Ed",
+      "type": "Bomb threat",
+      "response": "Evacuation / Closure",
+      "outcome": "Under investigation",
+      "cluster": "UAFS_bomb_threat_20260824",
+      "notes": "UAFS classes set to resume after bomb threat",
+      "lat": 35.388,
+      "lng": -94.4265,
+      "src": "5newsonline.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObXQ0UVZoWUpPZzZoMnJlbmlzSnlhMWNib0Z6QzhiR1p1WS04aWkxNE0tcVMtbGRFTl82RENLNnk4NDhjbll2UFlYMnRnRU84aUFsOWl5Z0RobnNtYktmNHNxTU4wUmR6bDF0dmdtQTVYZGNWZzJNRjJzRFM2TkxhOU5iVU93NTk5MXd3TERrdF82TkswOUZGdy1zWXRDUEJDc0lKdlNvTl9MeWtnZGtXTQ?oc=5"
+    },
     {
       "id": 511,
       "country": "United States",
@@ -91,6 +109,24 @@
       "lng": -111.8903,
       "src": "thecanadianpressnews.ca",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOYUhqSDhWYmtCSWVtRVdWVHdOcVhZVWlNM3JUTmJwdUJtTlZ0UDNsQ0sxcnZ5X3o1UjlNdjVhSTBycHp1VzJ5LXRyMm1PV2ZUSE5uU29GbGxmeWo4V3U5TlEwWmJINFN2RWJyRTYtdEJQUGd0Z3pVcDR6NXpRMENuUUpXQ1hIYTkxdzBNUlFxTlg3eEo4QzU2ZlJIYzJ1VVk4WmpTXzBDdVlSc3dDWFNoTTE5bGNXbEI4RkVqUEhGSlNPVEFVek41dGRoSTlyWmZkOF8wZ0lTRzlUaXMwQ0d2WHFRN09jNzBmWUltWHA2WVRyTzNnOGRVYmtDWkloeFRaRHBGSzdtUzNWZnQ2?oc=5"
+    },
+    {
+      "id": 512,
+      "country": "United States",
+      "date": "2026-08-22",
+      "school": "University of Arkansas Fort Smith",
+      "city": "Fort Smith",
+      "state": "Arkansas",
+      "sector": "Higher Ed",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "UAFS_bomb_threat_20260822",
+      "notes": "UAFS classes set to resume after Friday bomb threat",
+      "lat": 35.388,
+      "lng": -94.4265,
+      "src": "5newsonline.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWjF6NUdlNWRYcDMyR1VUUmJGSjRXc1VBdk56dERzT3dJQl84MWczeUhCQ3k0bmRsMW5zeGJhM05pNEpFUTBpa2xHMFRyajF4Q3N5ZWlhWmRSWm41RGhhSkVLXy1Dd1B4eDNnbkVOUzFJcTZjdU5EZWNYZEVFYS1KSlJpeHRMaXAtMmRfMVZhd2pxWllkcXJCNEZsRlhtLTBNWkc2ZVhwaEVsU2Z1cS1WX3p3?oc=5"
     },
     {
       "id": 505,
