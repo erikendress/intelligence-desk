@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T07:19:53.837892Z",
-  "count": 367,
+  "generated": "2026-08-24T09:03:53.270428Z",
+  "count": 368,
   "incidents": [
+    {
+      "id": 515,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Strong Memorial Hospital",
+      "city": "Rochester",
+      "state": "New York",
+      "sector": "Healthcare",
+      "type": "Active-shooter hoax",
+      "response": "Large police response / Lockdown (implied)",
+      "outcome": "False report / Under investigation",
+      "cluster": "Strong-Memorial-Hospital-2026-08-24",
+      "notes": "False active shooter report prompts large police response at Strong Memorial Hospital",
+      "lat": 43.1573,
+      "lng": -77.6152,
+      "src": "Democrat and Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYmxaeDVManFvTnh6aDRXZXRvcmpfZEtFLUdxODFrSzJhcmIyT2MxMDJMWTdfNGxKT2VreF9zZV9tZEg0eDRBQVhOLTZiTG00VGlXUUpNYkUxQS1ZTnBBempNd1VocGl4TG5TSkp5UWhzZVV5NFFabjJGNks4Zlg0T3dKTjhkWDFxODFCZWhoUEtrYTNnNng0Z2gwNnkxQXlSb09NVHRCNlozUXJ5dVhzbnltNXBaTFpWNi1HQXNULWw0VzFCaDEycUR5QnFkbFk?oc=5"
+    },
     {
       "id": 514,
       "country": "United States",
