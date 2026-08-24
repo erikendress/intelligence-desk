@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T14:59:41.434818Z",
-  "count": 373,
+  "generated": "2026-08-24T15:55:46.559036Z",
+  "count": 374,
   "incidents": [
+    {
+      "id": 521,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Lexington Middle School",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "sector": "K-12",
+      "type": "bomb threat",
+      "response": "evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Lexington_Middle_School_bomb_threat_20260824",
+      "notes": "Crews responding to possible bomb threat at Lexington Middle School",
+      "lat": 38.0464,
+      "lng": -84.497,
+      "src": "WKYT",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1hOS2loY0RFamRKT2k2YUdFWDB5V3E5T0RtVTFMMmkxRHprZDJtekllY1RWcHV2Q2VLZURpb01WZTVWN0Y4ZXp4VmJDeGNNSHVxMDg2Q1ZPQlhiaGVjZVNDd1lib05qSHlOazdkTDF1b3pncTdOdXZ4R096amJ3d3Y3VXhaYjFjeG8yMURVSFRWQ1hpUlZuRk93?oc=5"
+    },
     {
       "id": 520,
       "country": "United States",
