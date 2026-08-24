@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T13:12:27.455830Z",
-  "count": 369,
+  "generated": "2026-08-24T14:02:14.346829Z",
+  "count": 370,
   "incidents": [
+    {
+      "id": 517,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "William Allen H.S.",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "William Allen HS bomb threat 2026-08-24",
+      "notes": "William Allen H.S. students sent home early on first day of school due to bomb threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "Lehighvalleylive.com",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVjVBTUNTRkNIZjBESTBzb3UxNk1Sc01YWmpGTHRJSndBN29Qam5PS0FaR1kxb25UckpWZjBKMTluX0Z1Vjl5VktUaEVQd0tTcm5xTUVkTVlxZWppeWZoWWZrZ28wa2trNExpdFFkRGt3NGZIRThqMDJJYXZtbWJLb042MTVaZnljbzFFSlFUdzhkWWdTb3RyeW1UaVhwOVVrZjkwcm5sZnJtVExkT2NBNVBrY0wyalp2Tl9wUHBDYlNVN0IyYVNITEVZZWJvdWZrV0h4N2J1WkRDTUVO?oc=5"
+    },
     {
       "id": 516,
       "country": "United States",
