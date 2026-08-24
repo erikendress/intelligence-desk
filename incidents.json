@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T10:52:58.493579Z",
+  "generated": "2026-08-24T11:43:35.784934Z",
   "count": 368,
   "incidents": [
     {
@@ -30,7 +30,7 @@
       "sector": "Retail",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Resolved",
       "cluster": "Rock_Hill_Shopping_Plaza_bomb_threat_20260824",
       "notes": "Bomb Threat Shuts Down Rock Hill Shopping Plaza For Several Hours",
       "lat": 38.609,
