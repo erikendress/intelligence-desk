@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T05:00:53.153784Z",
-  "count": 366,
+  "generated": "2026-08-24T05:52:54.846252Z",
+  "count": 367,
   "incidents": [
+    {
+      "id": 514,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Rock Hill Shopping Plaza",
+      "city": "Rock Hill",
+      "state": "Missouri",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Rock_Hill_Shopping_Plaza_bomb_threat_20260824",
+      "notes": "Bomb Threat Shuts Down Rock Hill Shopping Plaza For Several Hours",
+      "lat": 38.609,
+      "lng": -90.3653,
+      "src": "Webster-Kirkwood Times",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxONnFWbDAxVlRGY2JGSXltbVh3bjJGbW1rMFIzX09SNkJZd085dVMzQ3EyUlhoQzNuUTd2eTR1akFDYnAyWlNwdzFwb2FHbUcwNzRsUUN0bjRpdEtCdDZzVGtPY3ZKLXcwWlhDWTlSVC1IVW5pYWQ4bWdINkthZzlPOEM2MExLck0zR0k4bm93aGNLcG9vaGlRemZRclB2VV9VVElCbWdVMkxPVVd2SVoxcUFWbUpBaXpnS2prdzd4dDE3MTNuaTJxZHJQNDFtUllXZFRZeFdtaEFTLWNkdWh4SmxyT05SWUxpLWJwMms4LXljQklud3FJLVZvX3hXQjVMXzhBX3B1NEJHbzNGOE5DbFJjaUJEQVhyc3dr?oc=5"
+    },
     {
       "id": 513,
       "country": "United States",
