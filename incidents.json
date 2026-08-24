@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T01:57:20.908194Z",
-  "count": 363,
+  "generated": "2026-08-24T03:16:06.598104Z",
+  "count": 364,
   "incidents": [
+    {
+      "id": 511,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Moraine Walmart",
+      "city": "Moraine",
+      "state": "Ohio",
+      "sector": "Retail",
+      "type": "Bomb threat / Active shooter threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Moraine_OH_20260824_Walmart",
+      "notes": "Officers evacuate Moraine Walmart after reported bomb, active shooter threat, police say",
+      "lat": 39.7062,
+      "lng": -84.2194,
+      "src": "WHIO TV",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUGIwTWhmUk83YjlqaER3NVZIc0l1bEV0X1poSXpuNG53N252RmJjZVFkd2RSZ1YzTjM1V1E2UHBGRHgtZ1BKeG5ERHpKclFQd3dtVnIzdEJwM2FzWjlWUjJGUmZiOG94dFBwaDMteUNPeTdpRFRlLUdYR1BTb1BwTi1BNTF4RXg4b3JKWFlNcEFiSjdmdEZ4OEtXTXplaEFzbndQQkVUOWFXcnI3YV9Ud1I0eFhRbk1vQnloX2FDSWFqektRbU5aTnR4ci02UVFjZ3ZpalVuWlR4QmdpWHFYeXZZUVc?oc=5"
+    },
     {
       "id": 510,
       "country": "United States",
