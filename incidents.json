@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T07:07:44.208799Z",
-  "count": 405,
+  "generated": "2026-08-25T07:57:41.791093Z",
+  "count": 406,
   "incidents": [
     {
       "id": 552,
@@ -73,6 +73,24 @@
       "lng": -110.0088,
       "src": "The Border Pulse",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9oRmpUVWxGcGYxRWhtckZKaWxQVFJrQkdHQ3MteDNyWWV1dXRZaXkwUVA1YTRiZWNuYUNoSFdQc0pWX1lXQ1g2QVpKWGY3OVJmU2RWSVQzNW5pQWFUSjV2R2xNcm1QelVlS1d5NFNjTmlzVGRLWm5FREZ5SFVZWTR2UXhoNFZmelUwYg?oc=5"
+    },
+    {
+      "id": 553,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Chaparral HS",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation / Lockdown",
+      "outcome": "All clear",
+      "cluster": "Chaparral_HS_bombthreat_20260824",
+      "notes": "'All clear' given after Chaparral HS bomb threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "KWKT - FOX 44",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeVVMLUZQamtoV0xoVE16aTBaalg0ckV1THB0TkJWcWtYSnhuMGpTdmFhbG05RE55M2UzMi1jZnRfbFZYc0NTUVpFZFhydi1uQ1U3RkpkTDFnMjk5MFNFendyU1Q1UGFyMXl0VEtiUFZOTEkwaHhXSmZ2dmNmZ0tVdHN1V2VQc2pacjc2V1BPRGVjcjdlR0FLd0dyX012RmFSeUow0gGoAUFVX3lxTFBSTkhMQjVzYUlzSWQ4WU9sWERIVkR5SmszRTV3ZnczQTJMOG94QzFBbHhwcHV3T0N3VUNUX3haY2JyTzRmQmE2QWZTRGlUVlhvRmdpWl9xRlN0cWtYRHNna2RQcm44ejM0QWhBa2tENTN5bVZySFB2UzkxLXJPV3o4bWxodnVIN1FBNVpRRWZZY2NjbGNmZDhxT1BGYmJQSHI1UExBM3BuWg?oc=5"
     },
     {
       "id": 551,
