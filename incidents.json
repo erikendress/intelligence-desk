@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T18:56:47.969737Z",
-  "count": 421,
+  "generated": "2026-08-25T19:45:29.043341Z",
+  "count": 422,
   "incidents": [
+    {
+      "id": 569,
+      "country": "Canada",
+      "date": "2026-08-25",
+      "school": "Cowichan Tribes",
+      "city": "Cowichan Valley",
+      "state": "British Columbia",
+      "sector": "Other",
+      "type": "Weapon / person with weapon",
+      "response": "Shelter in place",
+      "outcome": "Under investigation",
+      "cluster": "Cowichan_Tribes_weapon_report_20260825",
+      "notes": "Cowichan Tribes issues shelter in place notice over report of person with weapon",
+      "lat": 48.836,
+      "lng": -124.1503,
+      "src": "Cowichan Valley Citizen",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMkRoTUk3NkI5ajRFUjQ3Z0FCX2lXZmhFdzlxQnlTaFI0SndZXzZ0d2twUXdoUk0ycTlJRWJTbjJVNlZhbDFwVTRVdVV6ZnhZMThDMEY3b2FLc1lwazJkekd4d3F5UjZhU04yOTdlY0RkMmowUGhRdHZxM0JWMFQwcG1pVTdEd19Zc0xZVHNkU01wbl82NXg1cHZiLXhaQXM2UFFHcnl1WFNIeXh5V1NaVWQxQzU1X0p2Qk9KM040cy1RX0xY?oc=5"
+    },
     {
       "id": 568,
       "country": "United States",
@@ -138,7 +156,7 @@
       "sector": "K-12",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Staff and students safe",
       "cluster": "Buckeye_AZ_bomb_threat_20260825",
       "notes": "Buckeye school evacuated for possible bomb threat, police say",
       "lat": 33.3703,
