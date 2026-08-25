@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T19:45:29.043341Z",
+  "generated": "2026-08-25T20:45:35.274520Z",
   "count": 422,
   "incidents": [
     {
@@ -48,7 +48,7 @@
       "sector": "Venue",
       "type": "Bomb threat",
       "response": "Increased police security",
-      "outcome": "Under investigation",
+      "outcome": "Managed",
       "cluster": "Edmonton_Pride_Parade_bomb_threat_20260825",
       "notes": "Bomb threat necessitated visible police security at Edmonton Pride Parade: organizers",
       "lat": 53.5462,
