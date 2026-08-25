@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-24T23:34:43.007283Z",
-  "count": 398,
+  "generated": "2026-08-25T01:52:16.569250Z",
+  "count": 399,
   "incidents": [
+    {
+      "id": 546,
+      "country": "Canada",
+      "date": "2026-08-25",
+      "school": "Lloydminster apartment building",
+      "city": "Lloydminster",
+      "state": "Alberta",
+      "sector": "Other",
+      "type": "Unknown",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Lloydminster_apartment_evacuation_20260825",
+      "notes": "apartment building evacuated by officials",
+      "lat": 53.28,
+      "lng": -110.0088,
+      "src": "The Border Pulse",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9oRmpUVWxGcGYxRWhtckZKaWxQVFJrQkdHQ3MteDNyWWV1dXRZaXkwUVA1YTRiZWNuYUNoSFdQc0pWX1lXQ1g2QVpKWGY3OVJmU2RWSVQzNW5pQWFUSjV2R2xNcm1QelVlS1d5NFNjTmlzVGRLWm5FREZ5SFVZWTR2UXhoNFZmelUwYg?oc=5"
+    },
     {
       "id": 545,
       "country": "United States",
