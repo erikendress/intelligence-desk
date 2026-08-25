@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T07:57:41.791093Z",
-  "count": 406,
+  "generated": "2026-08-25T08:59:29.096589Z",
+  "count": 407,
   "incidents": [
+    {
+      "id": 554,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "North Jackson Walmart",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Jackson_MS_bomb_threat_20260825",
+      "notes": "Police clear bomb threat at North Jackson Walmart; no device found",
+      "lat": 32.2999,
+      "lng": -90.183,
+      "src": "wbbjtv.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPemM5RUJKVUtzOWRpLVJOWkhjVW54aUxQNDFnel9CYmEzaW9Ia2J3empxWDdFZTdtaXp4MlZjSE1MMEdGX0lwVDVGTGZKZ29XYjlTU19GT29oZlFRNVlGUWYxSFRRYWpiSDUzQlFmX0JpZmZYYl9fNm11dVJxS3Noc1EwYW1HUzR1U3NnRG9uMU5IREdwUno2aUxRdUdKQdIBsgFBVV95cUxQV19FM3BVR0dKbXR4QV83RFl5UF8wWGxqbHpNd05vWnpLVDhQcXdZa3luMk1Ua044SnNGLWhQS0dNbmRqeTFmcW43dGg5c3doV0ZScFdyeVFyaVBsZURYQmVWV0E0N1lVZ2ZaUnJQUnFqSXUzektKa1ZibTZjVW9IVW9FSzlpQWZxYWZ2Q1BKbHh0cUJzMHNRbFZTb3lpLUdJZGM5REZsTVctb1pQcThiVEdB?oc=5"
+    },
     {
       "id": 552,
       "country": "United States",
