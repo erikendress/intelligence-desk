@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T11:42:58.334399Z",
-  "count": 407,
+  "generated": "2026-08-25T13:10:55.374037Z",
+  "count": 408,
   "incidents": [
+    {
+      "id": 555,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Marion fire station",
+      "city": "Marion",
+      "state": "South Carolina",
+      "sector": "Government",
+      "type": "Bomb threat / suspicious package",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Marion_suspicious_package_2026-08-25",
+      "notes": "Man facing charges after suspicious package sent to Marion fire station",
+      "lat": 34.0572,
+      "lng": -79.3988,
+      "src": "WPDE",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZ3lLWTFJajNKUkp6T0kwSzNlcHN0MTlxVWVpSk1SelhPeHNIZnlSVDdRTnBDT3NnSk9adUdsOFphdnUycHJhRDROcVpRX1VwNXNDWlJ4Z2dIUzJQX08wR3ZDcnByVlpMWEt2SEVhaF9FZ2VLVWdPVkZvelFUUmtMREJ2S3ZNcXBGU081T0I4ck5raUhCYVItSi11eEg2aTBneUw4TzdOUmJzclhLaWNBOG9ocXIzQlBZeDYtcnIzTXR5Umxjb2VJY24wMU52RDFaaFV5MExiMjBORUttbkFYemFpQzlEQ1NJTFU2SzRXQXRnek9SSVBnTg?oc=5"
+    },
     {
       "id": 554,
       "country": "United States",
