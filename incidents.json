@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T01:52:16.569250Z",
-  "count": 399,
+  "generated": "2026-08-25T03:12:20.396267Z",
+  "count": 401,
   "incidents": [
+    {
+      "id": 547,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Russell High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Russell High School bomb threat 2026-08-25",
+      "notes": "Police investigating bomb threat at Russell High School",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "KAKE",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWtPTHc2N1NFeWZlblI3RndBSFdleXRFeFVMaFZtWkhMZXVRaDhyRDVrTkFCemNVbTRjYklCUGJrT2QyUGFESGNtcl80VkxnU3NLZS1HcXJCMlN6T1cxR2ExRHBTSjRYTnlaN05SWmpkYlViMnA5WE03aFd1MUpaR0kwdnpISEd6MVg0ODE3aThrMmJtR0F4QlJlamdQcEdieFEwemdHLWFZRmJvWXowLXlYMjRiSG90LXlzWjQ3ZHh6bTJJeVZZVVVycw?oc=5"
+    },
     {
       "id": 546,
       "country": "Canada",
@@ -19,6 +37,24 @@
       "lng": -110.0088,
       "src": "The Border Pulse",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9oRmpUVWxGcGYxRWhtckZKaWxQVFJrQkdHQ3MteDNyWWV1dXRZaXkwUVA1YTRiZWNuYUNoSFdQc0pWX1lXQ1g2QVpKWGY3OVJmU2RWSVQzNW5pQWFUSjV2R2xNcm1QelVlS1d5NFNjTmlzVGRLWm5FREZ5SFVZWTR2UXhoNFZmelUwYg?oc=5"
+    },
+    {
+      "id": 548,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Beavertown Elementary",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved",
+      "cluster": "Beavertown_Elementary_20260824",
+      "notes": "Shelter-in-place lifted at Beavertown Elementary after threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "WDTN.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX3hYU2VYekpsWFhkQnZROW52eF9seVJjSk43ZkdlMmQycHBCNUR6UUlDUW03VnJkdXJJUnJmZUFsbDVwRHVhUVhqQllBQmRhaGd3RHRNdi1GM0gyTVcxaG9NLUJNMlJ2UVRfYXg4WlQ1OWN1N2ZaMTFHZ2FKa25SRUV2VDNOaVJHQlBERkwzOWxjUmU0dF9MWk9zSmFpVmdT0gGmAUFVX3lxTE5mQVoyUnp0SmxOM1VQTjFvZFdiUWpuamF4dnhrMzNfSjJPel83WFd6cmdxQkdsTHJob3FibXpqeGZEbUtIb0dHXzdxQ2ozS2xDaTNjR1AyaDE0QTl0RWhuYzJmOUdLYU8tVy1OTjhHNFM0ZllMRm5sX0xtaHVZVW8xZ1E2OFJPWkFxNzB5emE5NHR5RGlsSG1zdVA1d2hSVWJOM0tBUmc?oc=5"
     },
     {
       "id": 545,
@@ -156,7 +192,7 @@
       "sector": "Venue",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "False threat",
       "cluster": "Kickapoo Lucky Eagle Casino bomb threat 2026-08-24",
       "notes": "Kickapoo Lucky Eagle Casino reopens after false bomb threat, police investigating",
       "lat": 39.7837,
