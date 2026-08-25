@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T14:03:36.290355Z",
-  "count": 409,
+  "generated": "2026-08-25T15:04:52.029178Z",
+  "count": 410,
   "incidents": [
+    {
+      "id": 557,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Russell Junior-Senior High School",
+      "city": "Hays",
+      "state": "Kansas",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Russell_JS_HS_bomb_threat_20260825",
+      "notes": "Law enforcement responds to bomb threat at Russell Junior-Senior High School",
+      "lat": 38.871,
+      "lng": -99.3312,
+      "src": "Hays Post",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GTDAxTzBOSTI4UExnUzc3d2RkTUZ0NjhHaDR0T2hYZkYxbThmeDBtUElpWWt3UHBTaXVSSkpVZTd2RGN3ekN6U0Z0NjQzbWVnLTk2QTN3cFpQd1VJMDRCb3NRMU1QY0diTV9aa1VXdS0?oc=5"
+    },
     {
       "id": 556,
       "country": "United States",
