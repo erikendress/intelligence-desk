@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T05:46:52.047167Z",
-  "count": 403,
+  "generated": "2026-08-25T07:07:44.208799Z",
+  "count": 405,
   "incidents": [
+    {
+      "id": 552,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Pleasant Grove High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Pleasant Grove High School bomb threat 2026-08-25",
+      "notes": "Pleasant Grove High School cleared after anonymous bomb threat",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "KSLA",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkhULXY0LWZsTjB4TlR4ZHFIZ2FIQ1VfX19oS0QxYmczRlpma1lSTWduak91Ry1BMlVPZWJDYkFHMUNIUHhOSE1KbVFPWXNDVGxKVVZiZEJjZDZfYU9GT3A5VmVyS2VLN3R6NDFZYUk0NmZDMUZCTHBaVmMtMy1FVzRCQjUteGpHeHh3V0ZZV1owNkVOVnA4Vi1GQdIBrwFBVV95cUxOLUpveDdSQXpheXcwNmJCZTlxUnc1c1ZiSWVjUnp6MS1TazJkdmpjV2tpcWRLWjVscHBrNWdaNVotX3hwUDBZY2Y3d09BMU1KemhnWjRiaDFVU2h2a24wZC0yMDhGYkV3NC15RnhzSTJNeUdXQWVhSWM3U2h4MW5HUEZtN2w5dTdieDVvNDBHU2VvdzJMd3BmblRQaFNYOWUyZk9IdW40YlRHNFRhZlRR?oc=5"
+    },
     {
       "id": 549,
       "country": "United States",
@@ -55,6 +73,24 @@
       "lng": -110.0088,
       "src": "The Border Pulse",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9oRmpUVWxGcGYxRWhtckZKaWxQVFJrQkdHQ3MteDNyWWV1dXRZaXkwUVA1YTRiZWNuYUNoSFdQc0pWX1lXQ1g2QVpKWGY3OVJmU2RWSVQzNW5pQWFUSjV2R2xNcm1QelVlS1d5NFNjTmlzVGRLWm5FREZ5SFVZWTR2UXhoNFZmelUwYg?oc=5"
+    },
+    {
+      "id": 551,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "Holiday Inn on Cracker Barrel Drive",
+      "city": "Clarksville",
+      "state": "Montgomery County",
+      "sector": "Other",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Clarksville_Holiday_Inn_bomb_threat_20260824",
+      "notes": "Clarksville Police Respond to Bomb Threat at Holiday Inn on Cracker Barrel Drive",
+      "lat": 36.5278,
+      "lng": -87.3589,
+      "src": "Clarksville Online",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdFp5bmtLb09lSm83ODVBSENhTWhTTGJkTTAzNzltZDdrWWR1bTNUVnQ1UFFmckNjMmZsRWxYalNremFJOHhFRktXUENfUWpKT2x0Q3JZSGMtcnRPZV8wTk44RXNQTnoxbjZhTG5Xa1hPSVdYVU15N2hMUl9NNkFtT1dIcENNLVhfRWhZTDIxc1RkTWVfaTl0aTZ3dmxYMU1lcUZMYXJLNFNydFJIMnY0M0NQcFhFY012R2RMNXhVcVlBQ05D?oc=5"
     },
     {
       "id": 550,
