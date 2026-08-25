@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T13:10:55.374037Z",
-  "count": 408,
+  "generated": "2026-08-25T14:03:36.290355Z",
+  "count": 409,
   "incidents": [
+    {
+      "id": 556,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "School (Custer County)",
+      "city": null,
+      "state": "Custer County",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Custer County bomb threat Aug 2026",
+      "notes": "Custer County Sheriff's Office Respond to a Possible Bomb Threat for Two Schools",
+      "lat": 38.1073,
+      "lng": -105.3543,
+      "src": "KPVI",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQ1o5Xzc2REI5WWJwMzFoajdWVW1XTWdIa3dEUGJTN19LLUwyQXp1QTM1T0NxbzcwdzR4dVB1Z2FpaVZ6aXg4U3RpckYyMUMwaVpKREd6ZEVQd3J1Q0hwSXFIc0lXQmx5ZHdLSTl3UkhEZFNCM3FKMmVaVGxvbE1ZMmMzUFNva0tybzNPa1JMaDAzc2xDMWRZdmZJTEFBRGp0Z1Vwd2NiMmN0QUhtRXU5N3QtcXR6WmxJRU5xcUZOUkJjQzJ3ZFZ2SnVCX1lYdkhLbWhzbDJ5T3FmMm1KS0ViVjFB?oc=5"
+    },
     {
       "id": 555,
       "country": "United States",
