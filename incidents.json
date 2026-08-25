@@ -1,7 +1,61 @@
 {
-  "generated": "2026-08-25T22:44:36.335035Z",
-  "count": 428,
+  "generated": "2026-08-25T23:37:11.543618Z",
+  "count": 432,
   "incidents": [
+    {
+      "id": 579,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Leesville High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "No explosives found; investigation ongoing",
+      "cluster": "Leesville_HS_bomb_threat_20260825",
+      "notes": "Bomb Threat Leads To Evacuation At Leesville High School, No Explosives Found, Investigation Ongoing",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "westcentralsbest.com",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQSXNCRG1EUnZxaFN4UzUxcXNxT1ZRZ0xMODlQLWtsbks5OElIX0s5X2VDcnJKU0lVMjRYbTdOdzNYaDZNdDJnRU9jZjA5VFNMQTcyNWx3bk9mYUY2MU5YUzNSZ1lDY3hDVFlsTkhHd2hTMVlTbnU0bzZWM0tEc1JhU2JObTBwdTJ2SF9ObVB2U1Z3X0lDdE5XSXRDYWJucU03X3JvMmZfaG9JbGVOWWlPcF8zS090bUhncUNRYUhXaWp5bUlkVURBWm1Jb243OGF3REV6amg1REFtY0Y1VE9kbTNmNHQ4a1VaR0hPUF9pUzNnelhGQkxIeFRDN3FBbGFFRzR4U0tfdTVTV19xMjRHR2I5LXRqTHJHZm16bU9yU3h3aF9qOXlwN3QzZElkSTA?oc=5"
+    },
+    {
+      "id": 578,
+      "country": "United Kingdom",
+      "date": "2026-08-25",
+      "school": "Council building",
+      "city": null,
+      "state": null,
+      "sector": "Government",
+      "type": "Security incident (fatal stabbing)",
+      "response": "Evacuation",
+      "outcome": "Completed",
+      "cluster": "UK_council_stabbing_evacuation_20260825",
+      "notes": "fatal stabbing sees council building evacuated",
+      "lat": 54.7024,
+      "lng": -3.2766,
+      "src": "Yahoo News UK",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ1NzN09wYUZRakdsbC1ianM3NE5Pa3RGNldIaXRDZnZKN05sTm9NUjdQTXVMT09iVUtKeXBET0hodEo4QU5LejNKQ190aDg2M01kV1hwLXZzel9QMzlUWnkwcmxvM0k3TE5FRF8tN3hPMU91Y01DZW5hYWx4OHhKN2I0aw?oc=5"
+    },
+    {
+      "id": 576,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Bernalillo County Metro Court",
+      "city": "Albuquerque",
+      "state": "Bernalillo County",
+      "sector": "Government",
+      "type": "Under investigation",
+      "response": "Shelter in place",
+      "outcome": "False alarm",
+      "cluster": "Bernalillo_County_Metro_Court_20260825",
+      "notes": "False alarm at Bernalillo County Metro court prompts shelter in place",
+      "lat": 35.0841,
+      "lng": -106.651,
+      "src": "KOAT",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSVhCVlNrNk1kd3BXN2xiMUVTd2hjcjdzV2ZuazhwaVhFRVZpbEVwbERfTmVzN21kM05DejZNQmg2eDRxT29XV2FpTFo4MWhUalg3QnhJVERzMzVOdUtSa1Z4VGlHSDZNOHNQUVZBRmJhUjhjU1dYbThQcmxZZ1E3VElXTVFUeWRYaW5ETDRSSTdjY2JEZWltc0JnRFB0UG8wWlBOWFg3TFFlM2M?oc=5"
+    },
     {
       "id": 575,
       "country": "New Zealand",
@@ -7705,6 +7759,24 @@
       "lng": -71.1663,
       "src": "fbi.gov",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOelIzaGNteHcxNEpuR0g2am8zTHZMV1ZhQUIzUVJqNFByQWRWZmRoRXpaUGd1MGFueWZJNHFGeDFlb1JIeE5kbmNxRmhpNXBDSFJQdWpkTlNqdWRJajIzU1dLY0plSHlYUTZyWmVIakk0SDJUS2JpNE1OSHJPdDZXSHVtbWNiVnVDcVduVjFNNGhWcWtqejVOeHdaN2N1ZE93VFdGUjY5bDZLZUQwZWcwRm5iWGFZY2dlODBfa0NDZzhPTXJrRm15YWFrVmItV2RGck1qQllXc1FGdE9lb0VmczJRWk94djFWYnJRMlNRMlFqdU00eFRXbA?oc=5"
+    },
+    {
+      "id": 577,
+      "country": "United States",
+      "date": "2023-12-14",
+      "school": "Bay Pines VA",
+      "city": "Bay Pines",
+      "state": "Florida",
+      "sector": "Healthcare",
+      "type": "Suspicious package / IED threat",
+      "response": "Security response / evacuation protocols",
+      "outcome": "Under investigation",
+      "cluster": "Bay_Pines_VA_suspicious_package_2023-12-14",
+      "notes": "Suspicious Package/IED Threat",
+      "lat": 27.804,
+      "lng": -82.773,
+      "src": "VA.gov Home | Veterans Affairs",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcXhaVm1mU2dMdG8zU2JtRjBfQ3ExM2s1QjRlbjRaT1VEX0JYbGMzaHcxVlJ6eE5UZ2RUbGozcWtxYlJqa05vY3ZCSGl4Uzg3NFZZSTJHNGdINUVzTDhRY0cycEFQbE5STzlQZ3FNeWhOTmh5dlBqTHpvUUlsbEZidUxTNjFMcXktVXFLbFRiZW8wQTZxRjIxQ3l5Qno1YVV0WGRaM1BKa2ZNLVNEZmQxZnRTd2V6anQtZFZyWkI3YU1EMkg1Q0tYOVBQME9wbHBtdi1NZlVKYXNjTXJYM3pQOWlBY2tUVmM?oc=5"
     }
   ]
 }
