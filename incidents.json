@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-25T04:53:20.004041Z",
-  "count": 401,
+  "generated": "2026-08-25T05:46:52.047167Z",
+  "count": 403,
   "incidents": [
+    {
+      "id": 549,
+      "country": "United States",
+      "date": "2026-08-25",
+      "school": "Kickapoo Lucky Eagle Casino",
+      "city": null,
+      "state": "Texas",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Kickapoo_Casino_bomb_threat_20260825",
+      "notes": "false bomb threat, police investigating",
+      "lat": 31.2639,
+      "lng": -98.5456,
+      "src": "WOAI",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbW93bmF6YVRVYjMzX2dESU4yUnd0T3RBMWk2c0tWNFcwTG9NLXh3M056S2xKbm96WE5XUUhpaGJwYkREVVJqX05wdjhGYVVMdXducDk5S3dHQTNabWd0dzVrMlJrbmh5UE1SdzFZOGN6eEZGOW9kcE00R3ozN0RKd1d4cEV4aGVMbk9adW5tb0FZUEVoSS1DNklJcnBaU3V6Q1pZejlLV3RscVZETElrZGwwMGt5VnVENTZsRUVldUtrNG8?oc=5"
+    },
     {
       "id": 547,
       "country": "United States",
@@ -37,6 +55,24 @@
       "lng": -110.0088,
       "src": "The Border Pulse",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSk9oRmpUVWxGcGYxRWhtckZKaWxQVFJrQkdHQ3MteDNyWWV1dXRZaXkwUVA1YTRiZWNuYUNoSFdQc0pWX1lXQ1g2QVpKWGY3OVJmU2RWSVQzNW5pQWFUSjV2R2xNcm1QelVlS1d5NFNjTmlzVGRLWm5FREZ5SFVZWTR2UXhoNFZmelUwYg?oc=5"
+    },
+    {
+      "id": 550,
+      "country": "United States",
+      "date": "2026-08-24",
+      "school": "TCAT",
+      "city": null,
+      "state": null,
+      "sector": "Other",
+      "type": "Active-shooter hoax",
+      "response": null,
+      "outcome": "False report",
+      "cluster": "TCAT false active-shooter report 2026-08-24",
+      "notes": "false active-shooter report at TCAT",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "Herald-Citizen.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRFE3b2padXR5NTBLSHkzcU1EVF9zeERpZ0pnNlhHZEwwQi1LUmVMcVlvWXlBd1p4ckRmNzZvTDJhamlTbnFHa1FyUWZqVG9DQk85NjRHb3MydXFfbHNxMXlCM0Q0LUdUZnAzNXZ0QW1nbXRPRjFFbXVKZlJmVDBodlN6YTV2QjktQzdTMTJlbGtxa0Y0S283Y25pYlZva19QbnJFWHN2SkxVZTVFUC0yS2FSendYSDBhWUxVLU03SmNzOVdHaFg3elNvQ1V0NjJJdFJCU2k2Y0dnaU56M3BWQjZiSQ?oc=5"
     },
     {
       "id": 548,
