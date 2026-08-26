@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-26T09:57:09.894082Z",
-  "count": 449,
+  "generated": "2026-08-26T10:51:23.646715Z",
+  "count": 450,
   "incidents": [
+    {
+      "id": 597,
+      "country": "India",
+      "date": "2026-08-26",
+      "school": "Bengaluru Airport",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Security sweep / aircraft checked",
+      "outcome": "Under investigation",
+      "cluster": "Bengaluru_airport_bomb_threat_2026-08-26",
+      "notes": "'Bomb threat' scribbled on tissue paper sparks security scare at Bengaluru airport, IndiGo flight checked",
+      "lat": 12.9768,
+      "lng": 77.5901,
+      "src": "The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxObDhVbnhPY3d1SmkxSzJkTTBDS0x4Y212VF9SaWJKbUVtbkpwWjNFVXU2V1poTnQ0ZS1vV2NRenc1N3d3Tm0zNUFuYkJDWnluZXBmbnI2Zzc3MHo1SDhWX0RJV3RFMDc0cGxvdTBxVDJ3Zzk1SVROU3JobmF5MkMzazJLbUVtenk5MF85X1R4OHg3WG5jWElJVUVWSkV2NFpRLXIxSFZ1enJ3Sy1mN1h5RmhuZmN4OEJaZ0YtbWE4VzZuUFpGOXY3N2dTYWxWR1B2MGRDZURiT1FzaVB0RGdMMWVFQWVvR29iS0tvbHIzQmI3eXFFa0VJNjB3Tm5oUlZwSURIYzlDUGVkX1nSAZACQVVfeXFMTnozNlNNRXo5bVZiTUluSmh0UV9oMnZ1akpaRkwxckE5dW1yNWJMN3JwR2FwME9KWG96TDVBMU44N1hYbDVmaV96NFB2TnZjejhlemVpcnZMRjMzSDduYS1TQmk1Nk94Ung4Y0tGNjZGMlVVeG1wWGt3SFFWMENBMFdISlNPM0ltV0hTOVZsTEtkUlJkek1ZZlp3cnN1U21nazdWYkN5aVhTUG9Tb1JMSFBEX002WGlUX2wxOVh0OVNlbnQtU0VSRU5SV0Q0cDRob0prMkxHTURrdmViVDRVRG00ZjltRWpBZDVOR0N2Z0pHR1RGWjd1bk12UUc3UGxLVFRUdl9xSmp5RUxZVzQzeU4?oc=5"
+    },
     {
       "id": 596,
       "country": "India",
