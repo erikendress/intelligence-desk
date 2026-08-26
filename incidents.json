@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-26T05:49:50.114511Z",
-  "count": 440,
+  "generated": "2026-08-26T07:08:09.200860Z",
+  "count": 441,
   "incidents": [
+    {
+      "id": 588,
+      "country": "South Korea",
+      "date": "2026-08-26",
+      "school": "Changwon Court",
+      "city": "Changwon",
+      "state": "South Gyeongsang Province",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": "Search/Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Changwon_Court_Bomb_Threat_20260826",
+      "notes": "Bomb Threat Email Hits Changwon Court, 35 Police Officers Search Site",
+      "lat": 35.228,
+      "lng": 128.6819,
+      "src": "Seoul Economic Daily",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbFpOMnJVczd1RHRNOXBtRzFmOXVUcFNibFRlc2pkMkROeS1PU1JXQWQteE5heF9oWTQ4amxXMzN1cDFEUWdpT29UM2ZQbTFfWnMybDRzWFJfZ3hMNEhvMWNHUDZtbWxVMmhscmN2d1RsakRRSk4tNmc5NE9XcWlpWkZWQjhPUjFueXdPQkhlaWhMMkpFUjBXV2k0Q0E1d2M?oc=5"
+    },
     {
       "id": 587,
       "country": "South Korea",
