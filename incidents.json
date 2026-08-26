@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-26T04:55:15.300927Z",
-  "count": 439,
+  "generated": "2026-08-26T05:49:50.114511Z",
+  "count": 440,
   "incidents": [
+    {
+      "id": 587,
+      "country": "South Korea",
+      "date": "2026-08-26",
+      "school": "Incheon Court",
+      "city": "Incheon",
+      "state": "Incheon",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": "Police search",
+      "outcome": "Under investigation",
+      "cluster": "Incheon_Court_bomb_threat_20260826",
+      "notes": "Incheon Court Bomb Threat Triggers Police Search",
+      "lat": 37.4767,
+      "lng": 126.6169,
+      "src": "\uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc3dWWTU1d2FYdHZPazRVMy1MZlo2SVdEcl8wNy1Wb2RQOHZkX1JmRWZ6NHFFN0JJWG9IZEJqRnlWb19IMXV4RG1ydkZxRFRDRi1MSVZyaXpCY2R4ZkZmR0pWUTJIODR1bWFrNE1xWk80QjhLVXVEZ0poWDlXUENtV0hsVW54U2dZ?oc=5"
+    },
     {
       "id": 586,
       "country": "South Korea",
