@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-29T02:11:38.498697Z",
-  "count": 519,
+  "generated": "2026-08-29T09:02:04.791093Z",
+  "count": 520,
   "incidents": [
+    {
+      "id": 667,
+      "country": "United States",
+      "date": "2026-08-29",
+      "school": "Wartburg Central High",
+      "city": "Wartburg",
+      "state": "Morgan County",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Wartburg_Central_High_bomb_threat_20260829",
+      "notes": "Inmate in Morgan County accused of hoax bomb threat at Wartburg Central High",
+      "lat": 36.1048,
+      "lng": -84.5973,
+      "src": "WBIR",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORkxQWU5nbmNWXzU2amJLUDRyQUhNdVcteDF6TTh3Si1oakxzVThJLVlNaVo3dzZueEZhZ2o2M0kzTXM4UG91cjZRQTc4R1ZiT1Y1Z2RpTG05YjBaSVpwR0dtSGUweVBEM191a3BycFRVdjdwUXY4LW1MbEFJSnhLRzRpUFo4bWFWaEtVUEUxMEZYZlZJTzVadnd3cE9XbnN3MTNuNmJLOEhqampsYWxhREhKNkpuc05tUXlpWG1VRDVEdXgwOHVKTWMxakZqSWozNDVTTkd2ZWF4U21obXpKTTRPOGxaUHZPOVE?oc=5"
+    },
     {
       "id": 665,
       "country": "Canada",
