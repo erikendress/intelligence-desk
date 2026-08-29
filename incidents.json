@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-29T18:28:15.049555Z",
-  "count": 523,
+  "generated": "2026-08-29T21:43:33.235706Z",
+  "count": 524,
   "incidents": [
+    {
+      "id": 671,
+      "country": "United States",
+      "date": "2026-08-29",
+      "school": "College of Central Florida",
+      "city": null,
+      "state": "Florida",
+      "sector": "Higher Ed",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "CCF_bomb_threat_20260829",
+      "notes": "bomb threat prompts Campus evacuation",
+      "lat": 27.7568,
+      "lng": -81.464,
+      "src": "WCJB",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcXd2RHpzYVdxOFBwdXRJSU5PMS1DLWlQc0FycXdWZW1rd0xWa3BsWnVPNm9DLWdob28tOW1Idmh6cmlYWW9Xd2djWUhkUS1fanZYNFloc3RLcFV5c1M1ajN4UU16WmNYRG56NWN5RnMwVWpsWEkwOGN0WkRVRkNPaF9jbGVpSmE2UzFuZWdVTTVuVnpMN19XVnFTWS16bk1xYWhsNE0yOFRsYmxSbVpQWDI1dDRVcFdhbURJ0gHPAUFVX3lxTE5TZklHQkN6eUVIbTV3T29jUWRSVDhfTDZXN1UwRmw5SVctOElqTmNqdm1JSnZqN2wtNzF1SDRRREtaS3VyLUcxcmFtQ19uLWRWcDMyWFdxcEFTT2JySTQ3YmRNYWg5T2F4Z1pZZDl1T2pWeDU1SF9WWUx1OE5lR0JtanFEaVlOWDkwQTFNY3pjT1JKRGlLLU9sRkNSVV8yNkVoX3VTZmdCcUNwVlFxbnVmNDhJeWlhM0h4ZFpGS0JKNWphbnhtZThBX0w2UUNTcw?oc=5"
+    },
     {
       "id": 670,
       "country": "Serbia",
