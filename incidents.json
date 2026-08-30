@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-29T21:43:33.235706Z",
-  "count": 524,
+  "generated": "2026-08-30T00:19:33.717948Z",
+  "count": 525,
   "incidents": [
+    {
+      "id": 672,
+      "country": "United States",
+      "date": "2026-08-29",
+      "school": "Mesabi Metallics",
+      "city": null,
+      "state": "Itasca County",
+      "sector": "Workplace",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Mesabi Metallics bomb threat 2026-08-29",
+      "notes": "Itasca County Sheriff's Office investigates bomb threat at Mesabi Metallics",
+      "lat": 47.4968,
+      "lng": -93.6226,
+      "src": "Northern News Now",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFl5QXZsZzR6eXpTNkpNLWNDTUpYOWxidHZXQXRZLTM5eVRYV2VsTWFwcXJuNFozYlFmMktSbkVJV3M5V3l5cEotU013QWFwM09SZmdFcUE0b2VQbmJqWnN6QkpiUXZtQ3VjOVZDS3RrSkFZdVpzWW10bkhDNmw3dXl3aEJvcWdyX2xtZzNPUEFhUWVXbl93U2JNNzNlN1dkc0lKNW9tMVQtbnFidHZELXEzNXJlQdIBygFBVV95cUxNVDVPSURVcEo3UUtPY3hhVk84UC1QWDlOQlBnNEczZjNFZG9SUnhjcW1RNmxoeVAwQVJiSC1idGxBc1ZYai0xTFlCQURObElUNFBETnVSLWJRUmhINGw2RGY0aGZ0M1JRWHJCVTVSVDhyOU1YS1pWU2VTRnQ3Y21sR0wzYnhQblhsVmhfZl9YM2p2QjFWS0NtMng4b0J4QWVtNXlVWlo1Y3RaUzZyZ1FxUF82UGJmRjhFNE1UeDlpM2RGR21IX3BEdUpB?oc=5"
+    },
     {
       "id": 671,
       "country": "United States",
