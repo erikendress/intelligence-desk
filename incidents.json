@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-30T00:19:33.717948Z",
-  "count": 525,
+  "generated": "2026-08-30T06:38:47.836507Z",
+  "count": 526,
   "incidents": [
+    {
+      "id": 673,
+      "country": "United States",
+      "date": "2026-08-30",
+      "school": "Mesabi Metallics",
+      "city": "Nashwauk",
+      "state": "Itasca County, Minnesota",
+      "sector": "Workplace",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Mesabi Metallics bomb threat 2026-08-30",
+      "notes": "Itasca County Sheriff's Office, Nashwauk Police Department investigate bomb threat at Mesabi Metallics",
+      "lat": 47.3775,
+      "lng": -93.1664,
+      "src": "WDIO.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZElCcWt2bHZLWGNXS3JRbDBWNHdETTlvMEdzM0RmTE9mdFF5ZDZUUVIxTV81dHBJQVhHXzE4LUUxR2Q1b3ZPRmtJWXdIU3pneTQwUEdfWjhDYjZIMWx1MzZkbi1pV0p0LVF5WHdMbWhFUjNnaEswNkRUSlFPNmgxNlRUY3dQbUFfSTR5ejZJb3FzZFlIVGdxNjJqZmZQYUYyYnJwc0IzRktSVlgySE5iT3d2cER1QnBLUUpuX2lRYnpORk93Tm5xYkpaWGxHdDg?oc=5"
+    },
     {
       "id": 672,
       "country": "United States",
