@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T17:28:39.355369Z",
-  "count": 526,
+  "generated": "2026-08-30T21:04:46.267233Z",
+  "count": 527,
   "incidents": [
     {
       "id": 673,
@@ -127,6 +127,24 @@
       "lng": -84.5973,
       "src": "WBIR",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORkxQWU5nbmNWXzU2amJLUDRyQUhNdVcteDF6TTh3Si1oakxzVThJLVlNaVo3dzZueEZhZ2o2M0kzTXM4UG91cjZRQTc4R1ZiT1Y1Z2RpTG05YjBaSVpwR0dtSGUweVBEM191a3BycFRVdjdwUXY4LW1MbEFJSnhLRzRpUFo4bWFWaEtVUEUxMEZYZlZJTzVadnd3cE9XbnN3MTNuNmJLOEhqampsYWxhREhKNkpuc05tUXlpWG1VRDVEdXgwOHVKTWMxakZqSWozNDVTTkd2ZWF4U21obXpKTTRPOGxaUHZPOVE?oc=5"
+    },
+    {
+      "id": 674,
+      "country": "United States",
+      "date": "2026-08-28",
+      "school": "Wartburg Central High",
+      "city": null,
+      "state": "Morgan County",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Wartburg_Central_High_bomb_threat_20260828",
+      "notes": "Morgan County inmate charged after making false bomb threat call about Wartburg Central High",
+      "lat": 39.7062,
+      "lng": -90.1903,
+      "src": "WBIR",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQZExYMWFsOXpIZDkxeHdPOGdfTVAweExjNTVCRnpOVmN2RzZwRVhUQ3l0cnU3SUVPMWlRd3ZZVW9BZEpnNlAzUEFiVDNUMTNabG1qV1dXUTJvTW83R0Y5V29kZlZxQTl6SEJBUU9aWGtSNmtkQ3M0TlB4RW1JVzg1ZXZOSTB5TEZWakZXdWt2YjJKcFgwUkx1UG9pa3R6azJjNjhSSkxBX09rZWgzalkwcHNQRWdYUEJxR1hJUUlVMGNjeVUxcUpSX1pDMVQ1M1RycVEtclMxOXdhRnVEanB2NVFNRFFCTU5sRkE4eWg0Wjk2cUJ6VE9oM24zQTByQnU0Z0NfMWlOTEVVSHhsa1hBLVhvaUs5MVpvUm1kODRkZw?oc=5"
     },
     {
       "id": 665,
