@@ -1,7 +1,25 @@
 {
-  "generated": "2026-08-30T21:04:46.267233Z",
-  "count": 527,
+  "generated": "2026-08-30T23:29:21.850581Z",
+  "count": 528,
   "incidents": [
+    {
+      "id": 675,
+      "country": "United States",
+      "date": "2026-08-30",
+      "school": "Manzanita Park area, Oakland",
+      "city": "Oakland",
+      "state": "California",
+      "sector": "Other",
+      "type": "Armed suspect / shootout",
+      "response": "Shelter in place",
+      "outcome": "Under investigation",
+      "cluster": "Oakland_shootout_20260830",
+      "notes": "Oakland police advise residents to shelter in place after shootout with suspect near Manzanita Park",
+      "lat": 37.8045,
+      "lng": -122.2714,
+      "src": "KTVU",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQzl6UjUxRUttTklGOFVxYVhWWkxHNFZVeTVKenhrN242R3B1d2RZbzBpSlhreTBibm43N2F4ZnlvQlJLaUNDUDRLSkVnMC1wYzcxTUdWY3JOSFlXbFZpcEgzU1o4a00zZnNxc0t1N3gxLXU5VHRPOHNGQVZnU2gzUmdEX3RxNHE1eExQMTlleHp4X3lyVkFVQnVUcE1jUk4wM21pSHhWUy03RzVZdW5zQWU4U2ozclEtZlZsWg?oc=5"
+    },
     {
       "id": 673,
       "country": "United States",
