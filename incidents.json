@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-02T09:36:52.301443Z",
-  "count": 580,
+  "generated": "2026-09-02T14:29:03.235502Z",
+  "count": 582,
   "incidents": [
+    {
+      "id": 728,
+      "country": "United States",
+      "date": "2026-09-02",
+      "school": "Augusta County schools",
+      "city": "Waynesboro",
+      "state": "Augusta County",
+      "sector": "K-12",
+      "type": "Active shooter report",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Waynesboro active shooter report 2026-09-02",
+      "notes": "Augusta County schools under lockdown amid reports of active shooter in Waynesboro",
+      "lat": 38.0399,
+      "lng": -78.9457,
+      "src": "WHSV",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNVNWUUkxUHZ4S19aWWpBZUF2c19RNmUwWUVDUDU0MzBxSGpielBvOTFzSXJQV2pZRU1XZEpSb2dmZzF6VmRxMUJkd2dsTXFsWU8wUVRXenR3aE5Pd2sxSGRBdUNROTJoTGVvUHBzR0p3MzZjbk1vWDhOakFsNXJZTXpKcWtLRnhtd1ZYUVI3ZGNzRnVpcjBRc2tYZEV3Tlc0UW9vVllBVW9yLUZYVFE?oc=5"
+    },
     {
       "id": 724,
       "country": "United States",
@@ -10117,6 +10135,24 @@
       "lng": 134.755,
       "src": "The Australian",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeTBWTzdWb3pYZl9vNUFzVTh0WnhQMXBhT1VxMUJBWDI3ZG5SZjR5QWZfaHYyYXRGS0NHQnY1eWdtTWhwNVhsMVNqbW1XdmR4VmJjc3poWXYwZVdqcUtMemFFWFRVM0pkWkpyczZnYUt0SHdzMjVYQVQtZVlEMlpVOVZpVnE3cHJ2VWV3THBQcTAzNnhpdlRTRWlYMHBZRG40U2VDZ25ZUTItMEtRV1h6dGVBV1FpLVZTZm10THdTdFU4LVNLRDFBcVR3NTlZcGRrZE5MWm9tNld5UTludkxKTld6c053Y2h2dWgzanJMcnRUMzlVR2c3cHU0dTluMGxNUTgxMTM5c9IBjAJBVV95cUxQakdaRU5HTFBXY2d2b2NKdVYyY05ZZGtUVTJoS2ZUaE1zcnNlWW1FWG5jSUc1WVFmZ1FDcmtlY0pBZkw1d0U4LUJ2YnBLeHNSUWoxaTF4WXgtTGo0S2IzNEF6NjBYbG5saTVMdm1lcXd6QmhGbjdEaUN4aHBfek9HaXdGXzcwOUpSZUFmUzlYUmZBbkZESndiS3dtVllTZjRGVjhieG53LTV1UWRtcVNTV29qb0RiWnZBb1Z4TkZDbDFEdkRHVm0tRG94dnA4RU1Qc2pERG9WbWtCUFhTeWd2azVMSkNMS0ttUWJxbk5UcnN1VWZxUXhnSTlndWFuVEpRTGdkN2JxN0VoQmdw?oc=5"
+    },
+    {
+      "id": 729,
+      "country": "United States",
+      "date": "2026-05-17",
+      "school": "Abilene Zoo",
+      "city": "Abilene",
+      "state": "Texas",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Abilene Zoo bomb threat 2026-05-17",
+      "notes": "Police Investigate False Bomb Threat at the Abilene Zoo",
+      "lat": 32.4464,
+      "lng": -99.7476,
+      "src": "City of Abilene, TX (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wR0pRNVZKekFaOC05TnI3MWJNd1BlY2FyQlZRZU1qaTFuZ3o1T1hNNDdfX01MSll5OUhJaHNIeUlKcy1rM2xkNFhyOU82SFV4QVhhWFBoR2hGbkdlcmY3UWhhcUw?oc=5"
     },
     {
       "id": 184,
