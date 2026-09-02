@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T04:33:06.445659Z",
-  "count": 578,
+  "generated": "2026-09-02T09:36:52.301443Z",
+  "count": 580,
   "incidents": [
     {
       "id": 724,
@@ -19,6 +19,42 @@
       "lng": -84.7546,
       "src": "11Alive.com",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVlRORUNqdkxlZ0lGRExET214aHl3clU1WFNMV1F5ZURwZzRJYzV2QkMzRG4xcmJxaVhYTFZVRmE1UmpVeEVkMnhBRG1KSmVaUG90V2hNRjFDVmtXT2JUOHExQ2oxVjlkOHJlWmlLblRMQmpVYVlud1hjV3dySVd2VnJ6dWEyRWE3WDFsckwtZUZOSEVRZDZ1TnplOFljV1NUMklxWnFPMFRRWHhmX3pUUUlJWmFpd1JCWk5wMi1KTVEwa2FDRlFKWDZsaWpUcHpvQmFOUUlwWTh0ejNmSm9vTkhvekhIanhkUkdoUGk4eUJzV0xoYUN6VWU4Yw?oc=5"
+    },
+    {
+      "id": 727,
+      "country": "United States",
+      "date": "2026-09-01",
+      "school": "School 2, Hollywood",
+      "city": "Hollywood",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hollywood_bomb_threat_2schools_20260901",
+      "notes": "Bomb threat prompts lockdown of 2 schools in Hollywood, authorities say",
+      "lat": 26.0112,
+      "lng": -80.1495,
+      "src": "WPLG Local 10",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdXBxRy1nd1hOQ1R4V09qNlBRYi1FcjllR2tQaW8zNHFLQ3dOU2loRHpEaXNfbGNmVXdtVDg1bzh0ak56V1JyN25fTW43NVFlTEZfb0Fmbk5aeE5ISGUtUmlUcFVCRWxkNU8xRkk3UkRWdmdtLVVJNmRJTk5MNk94S3d4YkIwa2pmMzlNSWI0enYtdkVybkVCR3lYOTRVdGVFOHYzZnR0SHhacnBLd0FqOGZjYThRZEgwejhmRnhISkY?oc=5"
+    },
+    {
+      "id": 726,
+      "country": "United States",
+      "date": "2026-09-01",
+      "school": "School 1, Hollywood",
+      "city": "Hollywood",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hollywood_bomb_threat_2schools_20260901",
+      "notes": "Bomb threat prompts lockdown of 2 schools in Hollywood, authorities say",
+      "lat": 26.0112,
+      "lng": -80.1495,
+      "src": "WPLG Local 10",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdXBxRy1nd1hOQ1R4V09qNlBRYi1FcjllR2tQaW8zNHFLQ3dOU2loRHpEaXNfbGNmVXdtVDg1bzh0ak56V1JyN25fTW43NVFlTEZfb0Fmbk5aeE5ISGUtUmlUcFVCRWxkNU8xRkk3UkRWdmdtLVVJNmRJTk5MNk94S3d4YkIwa2pmMzlNSWI0enYtdkVybkVCR3lYOTRVdGVFOHYzZnR0SHhacnBLd0FqOGZjYThRZEgwejhmRnhISkY?oc=5"
     },
     {
       "id": 725,
