@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-03T09:49:00.009043Z",
-  "count": 607,
+  "generated": "2026-09-03T14:34:00.405308Z",
+  "count": 609,
   "incidents": [
+    {
+      "id": 756,
+      "country": "United States",
+      "date": "2026-09-03",
+      "school": "University of Wisconsin-Whitewater",
+      "city": "Whitewater",
+      "state": "Wisconsin",
+      "sector": "Higher Ed",
+      "type": "Active shooter false alarm",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "UW-Whitewater active shooter false alarm 2026-09-03",
+      "notes": "UW-Whitewater students express shock and emotional trauma after active shooter false alarm",
+      "lat": 42.834,
+      "lng": -88.7307,
+      "src": "TMJ4 News",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRUlkeGEyUzFpMHJHR2NqTkN4aUhwcGxka215OWFodWdYVnBjUkdSZHQ1aHBWRnB2MFNfck14aUZoMTZuNmZRMXhZSi1MeEQ0eU1sNDdMdXNYYklOSFlqUEpJY1JzYm02eWNUODVfTVUxcFE5dTdTTUFGMk1vdU9RbDVRMjZVbV9EX0JsaGVZLWxmOWdVQXdDazlFWWo2dktWOUZzN1lOZmVOdWZyOURVUnE4YW5lUzE0WXdlQWZNM2ZjVXBZdW0wNFhENjVIRU5DZXVUdDhyelpSNlpVVmlOUjl2ZzRLWHowcldpcmxJRjlHbjZtTndVN0NwMXM?oc=5"
+    },
     {
       "id": 753,
       "country": "Philippines",
@@ -181,6 +199,24 @@
       "lng": 120.9947,
       "src": "Inquirer.net",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOakFzTmt1Qm42dG9kQ3NqZDd2amlZeVBLVHpkWFptZktVZkFMTnRTbU1oN2R1UjBaSnVPQ1RFb3F3Y1Znb205ODg3bFlTVDdMeVBMaWZMVExaTHhoeFJlWWMxeG1xZG9NUDVQQUFaRjZ1VFhtdFdpNFBpdTVQbkM1YjZsQjFVTFF4UWdIV2tXWGpvZWlW0gGaAUFVX3lxTE5aYTN0Nk1PTEw4QnFudlJDV00tSTdSMDJyM1VXUEtzTDVOODMwanFFOE94SkxjQktzZUxjaWkxWUI4VnROY2djUHowRjlFRzBMWm5WMlhFaVhuaGphdWFERUJ1MzFjN1dnZ09Beko1cW4yZUNzbmtRUGFMTmhCa3RtTldVWEM0OEdLUUt2YVptNk1zWVRPLVhBQVE?oc=5"
+    },
+    {
+      "id": 755,
+      "country": "United States",
+      "date": "2026-09-02",
+      "school": "University of Wisconsin-Whitewater",
+      "city": "Whitewater",
+      "state": "Wisconsin",
+      "sector": "Higher Ed",
+      "type": "Active shooter false alarm",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "UW-Whitewater-active-shooter-false-alarm-2026-09-02",
+      "notes": "active shooter false alarm",
+      "lat": 42.834,
+      "lng": -88.7307,
+      "src": "TMJ4 News",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPLVVSU0FlaDdocU1yRnd4THhTOXJyMW0zZFJiMXpuM0VqSzJ5Qm92bFRVS0diS3ViU2swc2ZXLVVGLTItazRaSjBZYlE1Y2cwUFFjak1ackI1QlYyRUJSOWVLalVURFQ3b3lwcktPelJYMndjUGtWRF9pOWN4LXVYOTVXWUh0al85R19KMmUxUUhBNTBLQTVkUllQdFREZnRHRTJZejY1RGNQdnhnOHQtR2lGbkJrbHZveDdqVlg1OHQ3cXcyQ1k0bS1xWXI5WTBHamRDOXVXMjg1VHdsY3g3bm9zd1VQQUxpX1hSLWlSUlM1MWc?oc=5"
     },
     {
       "id": 752,
