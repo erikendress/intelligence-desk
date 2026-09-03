@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-02T21:49:13.192908Z",
-  "count": 588,
+  "generated": "2026-09-03T00:15:16.872578Z",
+  "count": 591,
   "incidents": [
+    {
+      "id": 737,
+      "country": "United States",
+      "date": "2026-09-02",
+      "school": "Loring Towers",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "sector": "Other",
+      "type": "Active shooter report",
+      "response": "Police response",
+      "outcome": "Under investigation",
+      "cluster": "Minneapolis-Loring-Towers-20260902",
+      "notes": "Police respond at Loring Towers amid active shooter claims",
+      "lat": 44.9773,
+      "lng": -93.2655,
+      "src": "Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQT080YUNDbmFzVjF4VjVYTFVrcHBsNDhmclFFNk9VODF2eUY1M1BDQUxfSjhkdFp2d1Jzd2Q5bG9NaG5DQWk5UGc2bVdTSlN3ejVkSC1nTjBYOWc0dnBCZXFla2thTlFtUDFDelJnR1NCcExDNFJaM2RRaTNDUG9HR2w4c1YzLU5zNlBaQWlsaVJaRTUwdGVSWVB6Qjl1YnpfT0NValRkU2FNNmFIRTlfYzBCQ1hZRlVBWGw3enFETUxRWVlvQlp0SW1rUEhJb0ZpcnVuYlQ0bDdzUktPWmVmbllPNmJqTld5RVRsTkdSckYteWp3UEFuQV9n0gH_AUFVX3lxTFBwb1JpTHd3WTExTnZ1cTdNanR5dzlXaS1aU0R6ZDdaRDJHRFVGQzhFQ28zdXJpQzR3b3l3ZkdaMnV4RmlfY0NjTEFJNGktLS01N1Vrb21NNE5DbTBFazlVejQtRFFhTExjQmJtQngtY2lFZlpUb0hMclVwbHhNYXVLYU5VRmlQbHlOLTcyQ0NuUzdJMGVGUF9EZlJab1ZQRURhanpHVkZkUkdCUHI0d2JnOWJ4VHVPSFJqQmw4VnhRUWFLSWl4cnVIamJKSzF0S002VTNjZ0ZhQXBnTXZ4Z29qcXFkUG11dHFqS0pPNjZrSDJ1ZGc5QXVySkoyS2ZKVQ?oc=5"
+    },
     {
       "id": 735,
       "country": "United States",
@@ -8067,6 +8085,24 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZ0llUnpfMzI5aTB0dWlQcEg0d0g0em1CeTR6dnlJMDMtN25YRnhmcGhCOVhzNG40azJCbkwwRElObU9IcHRWMHJMenR3WEpQcWhid3luVHhHYlBZbC1Rckx2Mkc2RGtISEh1NFM3TFM5WDFIWXB6dzVpQnNqUThxZUJ5REF5X054Nk1wX2ZVTERJVVJGMlJDaGVCLWM5WUlRWmVv0gG3AUFVX3lxTE15VUFVTHFvWGZjM3JQOWFTNUNrSjF4VnBtdXUxNE5qQ3p5RUpjS2pTVUFtdDhkeVVmQi1ISldtMFZhelFRdmxvS2dDT1lCYTdpUXNnMVhwcDhCWFV0bGJleXctaFpKRHUxNHZ5eWlJNzBGNnQ4ZGlQZEVHYmdYTjBYQzUwNFlHVVJXaVVQUTZVcWIxcWFoUUFWNEpwNVU4c2dzWGZlb3FHaG1XWjlQQy1rR0JMSGpZMA?oc=5"
     },
     {
+      "id": 738,
+      "country": "Singapore",
+      "date": "2026-08-12",
+      "school": "Xinmin Secondary School",
+      "city": "Singapore",
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Xinmin_Secondary_School_bomb_threat_SG_20260812",
+      "notes": "Scenes at Xinmin Secondary School following a bomb threat in Singapore",
+      "lat": 1.2899,
+      "lng": 103.8519,
+      "src": "reutersconnect.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQXFOc250ZHFtdnVSZ3FJandFcVhYYWV0cGpCUl9tTDJ5LVV5a0hSYlplZlFJRXkyX2tZTUhSTGdLYWVFVWpDYU90NkVHU2MtQW5Zd0Z5d0wtVmY4NXQzYlh1Rm95b2YwRDk4bERQUF9pUW5PUmxxUVBzRE9ELUl3UlZTQkxOVTNIZ3N2ZDIycjNpUUdqRUs1bEZaSE9FdThHSlhnQTZpYzMycm1sblhNdERMR016SmItWmc0LW1EWHp3T0VaeFd6RmNoS21ndHZHLWdQZFlZZU5rNkU4Szh2LUtzbmp3VTRpVjM0MDNqQ2kyTjg?oc=5"
+    },
+    {
       "id": 281,
       "country": "United States",
       "date": "2026-08-12",
@@ -10459,6 +10495,24 @@
       "lng": -0.2704,
       "src": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ET3VRUFMtNWFsaEJfdTlCZnFpdHUtTklyd2ZjaDdnbHEyZzFJMXV6QVEwRHdwUWsxR3l3S2gzRlFFTlhITlZSMXpFd3dDSm12SzFuenA1QjVhQQ?oc=5"
+    },
+    {
+      "id": 736,
+      "country": "United Kingdom",
+      "date": "2026-01-21",
+      "school": "West Derby School",
+      "city": "West Derby",
+      "state": "Merseyside",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "West Derby School threat 2026-01-21",
+      "notes": "West Derby School closes over 'hoax' threat on email, police say",
+      "lat": null,
+      "lng": null,
+      "src": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXclFDenRDamhLQXdkYUpadWwtZXJ5QUUyYUxXRGtibEN2R1JZcGRHZm1KQU9PR21mTWlsOWZ3NlFQQXNkSUpUUlBfeGNHd1BpcXRVcU1pelYzQQ?oc=5"
     },
     {
       "id": 171,
