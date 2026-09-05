@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-05T18:17:31.689081Z",
-  "count": 659,
+  "generated": "2026-09-05T20:27:01.277234Z",
+  "count": 661,
   "incidents": [
+    {
+      "id": 808,
+      "country": "United States",
+      "date": "2026-09-05",
+      "school": "Fort Pierce Central High",
+      "city": "Fort Pierce",
+      "state": "St. Lucie County",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation / Search",
+      "outcome": "Under investigation",
+      "cluster": "Fort Pierce Central High bomb threat 2026-09-05",
+      "notes": "Fort Pierce Central High being searched for explosive device after bomb threat",
+      "lat": 27.4467,
+      "lng": -80.3256,
+      "src": "Hometown News Treasure Coast",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOV3REdFJ0NVdCbEJQRnBpREtLS2RJRndjYk9ESXN2OWpsWno3OUNiZ0NBaWlJVnNEbFZ4UURHa0JJcDc0d3ZISGJ1dnRMMlFhMm9FbTVaY0VMR21fbmhoTUN0d2drVVFWdVYzd2dHNUdPeEJ0ZzBVa1pYU2Y4eU9tYkN2SWlUTHAtekJTdHBRWThFMTZBOFRmWm4xeENaeEsxei0xRDhiM0M1VU1aZkEzM3d6YUR3d1hGR0hHMDFBd2RPaGhNak9oRTg5Q3ZTTWcwUzY4OXpaWUsyUndnS2NMUUwycDAwMkJOZUFHTnBkbGlzalRXbDR6cENtUEctNzA5Z3VN?oc=5"
+    },
     {
       "id": 806,
       "country": "United States",
@@ -181,6 +199,24 @@
       "lng": -80.3256,
       "src": "WPTV",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRG5xSTJYcllTSDNDbjNYa2F4bzh6OW5lRV9RY05tWFBxYUp4ZnQ3UzhaOWpFNTBKV1FPX0tKSVM4d2FBTTNqTUFYR2RLUmRmLXVjRWpQbUlsM2dLRFhVWU1ISjB3am8yeURoSUFpR21RbGQ0b3RQSWR6S1RRMnhMbnEyZUJ6RHk4TGJvdXR1M1lHNDlpWVBldXUzYmRrQmFYdFh1ZDI5WnQzRTFNX2lRSlhBMC1GRXdtSXlhTUJXNF9ISWtkN3JPUHZR?oc=5"
+    },
+    {
+      "id": 807,
+      "country": "United States",
+      "date": "2026-09-04",
+      "school": "Tulare Elementary School",
+      "city": "Tulare",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Reported gunshots",
+      "response": "Lockdown",
+      "outcome": "Lockdown lifted",
+      "cluster": "Tulare_Elementary_gunshots_20260904",
+      "notes": "Tulare Elementary School Lockdown Lifted Friday After Reported Gunshots",
+      "lat": 36.2516,
+      "lng": -118.8526,
+      "src": "GV Wire",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdGVXSHIzc1RSSUozbUlpTmQ1dUJzVGVNYUJIY2piaDI5T2U1ektVZ2F6YURiZ0gyLUtadHpUVFBXZE9zMGhLbmJudm5USHBwV1o2UE9IN1ExNEJDTFpHWF9DMmV3WUl1ZUlCTWppWENDcGNtdXNFUWJPNkpXanhRcVVqSzZFeU1DQVRSY3AyY3ROVko3bEN3Q3JvcW9xcV9NTVZBTA?oc=5"
     },
     {
       "id": 800,
