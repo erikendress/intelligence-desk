@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T16:04:32.637659Z",
+  "generated": "2026-09-05T18:17:31.689081Z",
   "count": 659,
   "incidents": [
     {
@@ -30,7 +30,7 @@
       "sector": "Retail",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Evacuated",
       "cluster": "St. Louis Walmart bomb threat 2026-09-05",
       "notes": "Bomb threat leads to evacuation of St. Louis Walmart",
       "lat": 38.6254,
