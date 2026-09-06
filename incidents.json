@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-06T10:55:16.123041Z",
-  "count": 669,
+  "generated": "2026-09-06T14:10:01.405650Z",
+  "count": 671,
   "incidents": [
     {
       "id": 816,
@@ -127,6 +127,24 @@
       "lng": -121.4939,
       "src": "FOX40",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRjAyX3lIX2RBOWlxZXMzWksxZXhOWkdMN2pqbkV6MEJ4MTRCbFRaeFk2aUZlR1I4c0tPbDU1cS1NS2hMdEFRRzJMUEdqYzFPZDRPd29mYTQtOXJFaGF3a1I0amFqN0xoQnFIazY0bzB1T0tFVFMwT29KUVFrRmJfbEtiNTlmUEVKVVpIVXJZWEdGQTlFcTZyZTVFT1h5Z3ExcUk3VjNfR1Fxa1ptdTF2YnJrZ9IBuAFBVV95cUxNbVNTcGw4MWJmT0tVQlNnbWRQU0Vpb0MzT1dnSVFlYUpfYUpVWU5Cc2dnVml3SDNXTzJtYVcxOXZiaVpHVWk5dW01X3pLNUUyV0k1MkRtWmJ1dkFwUGotdGN0QnZNdXBwbHg2Um9QRFhSdU1ySGF6aW43QUxVdjI4dElsYm8tVmEwOXdsVGpCcGJEMl9YX3diMFotVzkwVklqOXV0ODhmTDVUZFpiclBtVkVfOVAtakd3?oc=5"
+    },
+    {
+      "id": 817,
+      "country": "United States",
+      "date": "2026-09-05",
+      "school": "Sacramento State University",
+      "city": "Sacramento",
+      "state": "California",
+      "sector": "Higher Ed",
+      "type": "Active-shooter hoax / reports of gunfire",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Sac State gunfire report 2026-09-05",
+      "notes": "Sac State goes under shelter-in-place after reports of gunfire Saturday night; suspect detained, released",
+      "lat": 38.5811,
+      "lng": -121.4939,
+      "src": "Folsom Times",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVVNNQUJNY3FiY200d1AxczdmbnhZVy1rVnFyR1J5bWNXajRXUFNJMzA0ZlhyVHJqN0tTZ1NTR3lmWUs5ZGxtZC0yRVYxT3RVQy1CRUJJREF0TmZwc1p6a0tsbFBLZDcxZFVGODZqQjNTOHE2ZDEzTUQxcWFOdnlXR3Fha25DR1NSSFIycXVvYldBVVctRnBDOTJ5cjhmTmpWdEhsbw?oc=5"
     },
     {
       "id": 809,
@@ -11863,6 +11881,24 @@
       "lng": 18.4673,
       "src": "EWN",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTFRR08zMFh1b0RIRHFDUlpldVluVldrZzdnQUZPbGQ5THh1MEh0RTBhaXB4Z05hdTJxQTBrVTFyd2FFT1RMaXEzNTNaa2VmZzNITGhwdmpZN2FaYkU5Qk5jN3RQR1pSMU9DcHo4RkxWS3lnTmpPaGNWcC1QdXltRzlSbFZvV3d1OU8xT0NBMS0?oc=5"
+    },
+    {
+      "id": 818,
+      "country": "Australia",
+      "date": "2026-02-24",
+      "school": "Gold Coast theatre",
+      "city": "Gold Coast",
+      "state": "Queensland",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Gold_Coast_theatre_bomb_threat_2026-02-24",
+      "notes": "Alleged bomb threat against Gold Coast theatre over Chinese dance group",
+      "lat": -28.0024,
+      "lng": 153.4146,
+      "src": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTTMwcmxVUnhCMHNQX1RwektHQXBmckw3WDR1Z2NjV2JkaXBEMEpwVGFJcGNzODhzclh5RE5pV3BXbHNkWENlY3FpbGtiZDlKaTdkUVBXcHZvbnV3QWpVNE9jaEFsbFRqMHljU1V5cUVySFBFRUdIUlVCRnB2bERuNzhfcWk1Z2V3OC1laktNTWFnNHo1Z1g4RFphSDVabkk?oc=5"
     },
     {
       "id": 215,
