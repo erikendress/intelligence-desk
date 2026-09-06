@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-05T22:54:21.659209Z",
-  "count": 661,
+  "generated": "2026-09-06T00:56:30.670856Z",
+  "count": 662,
   "incidents": [
+    {
+      "id": 809,
+      "country": "United States",
+      "date": "2026-09-05",
+      "school": "Wrightsville Beach (community/public area)",
+      "city": "Wrightsville Beach",
+      "state": "New Hanover County",
+      "sector": "Other",
+      "type": "Under investigation",
+      "response": "Shelter in Place",
+      "outcome": "Shelter in Place lifted",
+      "cluster": "Wrightsville Beach standoff 2026-09-05",
+      "notes": "Shelter in Place lifted after standoff in Wrightsville Beach",
+      "lat": 34.208,
+      "lng": -77.7956,
+      "src": "wect.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVXZQckZ6enJTLXlLYjNHYW1hd1BfeWY5NzhxTENySHBrY1FRMzhLc1VrS0puYlNoczNDMHFIWjJBSDZYMlVlNmI1X2gwODFHcUt4RUhOWVdWY0NleFlKOW9aWHNjNWtWV1hMMTRZY0ZPenVyOUpJb0RpamdjMTV1MTYzTFhPeXpFSWRaOXM1T0VUNHQwWXFrTHFMSU5iMDJjcHJ1TXg3WdIBuwFBVV95cUxNeG9PcVlSM05RYXpXZWRPMmxoU21MWVl2M1ZKeW9Sb2JVTHBPX0dRLUtXQmFndWJjN3FzMXo2ZGQxa3lsTDNVUjFtLWFvMG5TTy05WE5MZGdZMl9BeE9vNkZhbUN0Z00zWTNvU0JaNkFuS25jMzBDcmNGaVBGQ3lTbEp4bmh6bXpJZ2hpZG1DU2daY1daelg4UHJCTzhCRkFwX1FEMDVMZEdQaXhFYkpjQTEzRE05aFNtVEYw?oc=5"
+    },
     {
       "id": 808,
       "country": "United States",
