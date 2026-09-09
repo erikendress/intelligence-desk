@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-08T21:51:47.099324Z",
-  "count": 702,
+  "generated": "2026-09-09T00:14:24.465423Z",
+  "count": 703,
   "incidents": [
+    {
+      "id": 850,
+      "country": "United States",
+      "date": "2026-09-08",
+      "school": "Nampa High",
+      "city": "Nampa",
+      "state": "Idaho",
+      "sector": "K-12",
+      "type": "swatting / active-shooter hoax",
+      "response": "lockdown",
+      "outcome": "Under investigation",
+      "cluster": "regional_large_scale_swatting_incident_Idaho_20260908",
+      "notes": "Nampa High placed on Hall Check after regional large-scale swatting incident",
+      "lat": 43.578,
+      "lng": -116.5617,
+      "src": "KBOI",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcWJ0Z051anV4TFNyRS1RcFNVRGdYMzZvYnlwcGNlYURzandacnZSQzZrVlh1Vk0xSWlpdzNTYW02RnVrUHhnZTc4S0k2a3l2blZIczE5Z2JTcWw3c3V1M2Y4eUlvTGw5SHJFT1pxVG1USUJuQXhJZ0kzcDg4NlNJOF9obXM2ei01YzY4SkxDcl9fNUgyM1QyZWc4UU1lNWN6N2pEOElJVHc4UGZuN3c?oc=5"
+    },
     {
       "id": 849,
       "country": "India",
