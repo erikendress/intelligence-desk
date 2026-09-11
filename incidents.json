@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T21:38:22.094312Z",
-  "count": 776,
+  "generated": "2026-09-11T00:10:04.958366Z",
+  "count": 777,
   "incidents": [
     {
       "id": 908,
@@ -19,6 +19,24 @@
       "lng": -63.7892,
       "src": "PNI Atlantic News",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNGhzNDhFNVRxWEhsQThSTmhIanhBdWRoUjh6VHZOcHBLOGNxZlpTWVd6RXVhVFVRZTdlV2t5VGJ1M2QyUFNsOXhYT1ZRRDBkSG9HU2ZKT0lNalBKdXRxUnphMXV1MHA3eEdnTHlKMlZNbEx6ODRqU3U2Q1NkZ2U1VXFNNzZadDJENEJWV1B0c1hhcV9SbS1sZ0FzOFBrZWJSWkFNbzI1dk8xVGFlNEk4bnY4d3l0a1ZUc183NVNOYk1yNC1HVlljUzJHNVFHYnFya3hjUDQ2SUg3LUNYTUFLNEl5NnJPbk42Xy0wM01sNFo5UTU2RHh0eFlZTQ?oc=5"
+    },
+    {
+      "id": 924,
+      "country": "United States",
+      "date": "2026-09-10",
+      "school": "Logan cargo terminal",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "sector": "Transit",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Logan_cargo_bomb_threat_20260910",
+      "notes": "Logan cargo terminal evacuated after report of bomb threat",
+      "lat": 42.3588,
+      "lng": -71.0578,
+      "src": "WCVB",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN2p3LTdGdzlYUlRHWnpodUZDcW1MZGUxVGJQamwtOW9qYVNkdXJLdWluTDVfbnFQRnFyWGNPNXVBa1RYb0pSWXVkaDEtMkU5YUN3eF9rNGIzM3MxU3RZNEdBdUZTYjlIZFVhM0s4cHlGemhYLWtTcTJNTkZ3Y3ItZkpVUWRrVjFXRU9RNG94bEpIWUE?oc=5"
     },
     {
       "id": 923,
@@ -102,7 +120,7 @@
       "sector": "K-12",
       "type": "Bomb threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Cleared",
       "cluster": "Martin County High School bomb threat 2026-09-10",
       "notes": "Bomb threat prompts evacuation at Martin County High School",
       "lat": 32.2675,
