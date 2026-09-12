@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-12T14:07:03.598051Z",
-  "count": 826,
+  "generated": "2026-09-12T17:09:12.932122Z",
+  "count": 828,
   "incidents": [
+    {
+      "id": 975,
+      "country": "India",
+      "date": "2026-09-12",
+      "school": "Ludhiana District Court",
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": "Security response / evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Ludhiana_District_Court_20260912_bomb_threat",
+      "notes": "Bomb threat triggers security scare at Ludhiana District Court",
+      "lat": 30.909,
+      "lng": 75.8516,
+      "src": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXRZQ2Q0M0FNbzk1YWMyRDNhR1I0YmJDSU0taWtfQjk5emU3a3R2c0VsQUNiR3IyWGRlN2lVYjFidWVNZ0xyeTdSREQ5Mi1tWVNHb2Fpd1dVZE5NTEx4d29hanhwX1dfenRhTDZoUzFLMzY2emNBaU1mbi1BNjlpOUxGTFFkVGpnV19Na0dCU3R5d0RFeFZ1Zi0yRW1DektLcHJybnRad3pnd9IBrgFBVV95cUxQUURSbV96dU13RG9BUHNzMDZtZC1jNWtPT3VZU0MzM1B5VDFvaG01TUVCbnZxTC1LdThIRlBkeDVRY3BHaE5EZTVlampyNHk0MU5TVENsdWRBWUZYcjhCUjUzYTdTVWVqcC1sU1ZuWXI4elBVNVlQT0sySWxxVlI5YnI0TC1oZmpaYmNGcnBqc29tVnkwZlktOE5YcHZodVBmU0RESjJpVVlVamdqeXc?oc=5"
+    },
     {
       "id": 973,
       "country": "India",
@@ -145,6 +163,24 @@
       "lng": -98.9472,
       "src": "KHGI",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGRFRHNBWmR3TzExZWtJNEh6VGRjWTZlUzBSREEwSFFMdE1wZXBuN19NQWYwekluTHBJdlJtUF9Yd2dXZkZTYkVXWHByaVMyNzBiUWxtWFNlNWNQcW0wb0RWUTNfd0p0MTBjV0ZPb09MSzlyYnJHV2t3MjFwQVVrT2x4dUdhbnRtN2RYaGw2T1A3M1RmdmFJZQ?oc=5"
+    },
+    {
+      "id": 974,
+      "country": "United States",
+      "date": "2026-09-11",
+      "school": "Indian River State College Fort Pierce campus",
+      "city": "Fort Pierce",
+      "state": "Florida",
+      "sector": "Higher Ed",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Indian River State College Fort Pierce bomb threat Sept 11 2026",
+      "notes": "Bomb threat at Indian River State College Fort Pierce campus",
+      "lat": 27.4467,
+      "lng": -80.3256,
+      "src": "WPBF",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUDkyUEx6VzY5VnJ6ZzFlNWVvRFltM3Jnc0FJQUZpTFBtVlgtMFF2emtMUHRPOTdkT2dqXzFlSzc5MHA4RFFjbTNmS3dmSmVjMHdHX1NoR28zNjBuWGw0YjJ5Z2txX2lfakZrdFlYSWRmc0d0TlduUVhfRW56SDJqNzNMc0Z6NDRZd1htMDV4ZF8yY2w3QTZHdjJjSEJjMC1va2JPcXdsX0pZOUZIQkZEN3F2cWpHTk0?oc=5"
     },
     {
       "id": 968,
