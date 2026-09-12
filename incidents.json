@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-12T10:44:37.579508Z",
-  "count": 825,
+  "generated": "2026-09-12T14:07:03.598051Z",
+  "count": 826,
   "incidents": [
+    {
+      "id": 973,
+      "country": "India",
+      "date": "2026-09-12",
+      "school": "Gujarat Secretariat",
+      "city": "Gandhinagar",
+      "state": "Gujarat",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "BRICS Summit 2026 bomb threat",
+      "notes": "Bomb Threat To BRICS Summit 2026, Gujarat Secretariat: Youth Detained In Jharkhand's Deoghar",
+      "lat": 23.2233,
+      "lng": 72.6492,
+      "src": "ETV Bharat",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdmgzOTU5UmgxVk5NWnh2RUJpX2c0SEExdmJHYXE5cXV5UFN1dlFZcVBXUXF6R0o1MmFXSUg3RDlDUDMxTGNLWEpBR2w4LW5pNUxmYXZ4TkdzMjJEVWhieTduT05NZVlyRmptc1hBUmptby1iaHZEQUVNWElVdHVlU0FlamZCcEw5bnQtdjJDNXl5R2JDaG1RRngzaTBuankwb1RHYjZKZ3JfMUZZOVJobzRlb2dOVkdDcktuOGdjeGM4M3hwempFZURhRzY2ekZ5S2NpREd30gHbAUFVX3lxTE04R3haZHFaTTRUVWY0TEpjSHBmdGRDNGlKa1pnM1V6MGlxRl9BeEJMQmhpejJVWmxXQk1sWTZzTTJsQm1Nc2pUeGdIeW9ZRnpxdjFxMEg3QjJQdmx4R2FObWgxSG5YbG1rT2JtRTk3SW1tdHhUUkc2dkdqVEFjSzB6QzF0NV9fTGpaNzAyTTlPQ1BGekZveTJRZXBzS1dQLTUyZmMzbXo2dS1WcG02OWlSRk5Gc0NqZExHTTlTQXE3NE9YbTU4YktFbkd5VGRFNnBTMlV4dFdXYmViMA?oc=5"
+    },
     {
       "id": 972,
       "country": "India",
