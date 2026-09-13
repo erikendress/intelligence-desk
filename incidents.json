@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13T10:16:55.968159Z",
+  "generated": "2026-09-13T14:26:51.971582Z",
   "count": 838,
   "incidents": [
     {
@@ -48,7 +48,7 @@
       "sector": "Healthcare",
       "type": "Bomb threat",
       "response": "Partial evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Threat investigated",
       "cluster": "HCA Florida Lawnwood Hospital bomb threats Sept 2026",
       "notes": "HCA Florida Lawnwood Hospital partially evacuated after emailed bomb threat, the 4th in less than 2 weeks",
       "lat": 27.4467,
