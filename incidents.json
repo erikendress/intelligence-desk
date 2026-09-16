@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-16T11:31:14.486673Z",
-  "count": 902,
+  "generated": "2026-09-16T16:53:59.068582Z",
+  "count": 906,
   "incidents": [
+    {
+      "id": 1050,
+      "country": "United States",
+      "date": "2026-09-16",
+      "school": "Elk River High School",
+      "city": "Elk River",
+      "state": "Minnesota",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Elk River High School bomb threat 2026-09-16",
+      "notes": "Students return to Elk River High School after bomb threat",
+      "lat": 45.3039,
+      "lng": -93.5672,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDRkNllmZjUwZEhvRlg2ZWdrMTViSXFCRGN0ZU9PbFphS28wV08yRWFLQW5veWVkMGcxQ3RYdGF0OWV4NWh6ZU15Zkc5SkdzejR5OGhxNVBLUU81WUlZLW9kLVFZN0hUOExsQk5CRHQ5YTRFZzBveWNrcWVmQnBGS1hKckF0TUVPdURTVlEwMTBPZlR2Y1JhUlRHb0N0X2h1?oc=5"
+    },
     {
       "id": 1047,
       "country": "United States",
@@ -15825,6 +15843,24 @@
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeTBWTzdWb3pYZl9vNUFzVTh0WnhQMXBhT1VxMUJBWDI3ZG5SZjR5QWZfaHYyYXRGS0NHQnY1eWdtTWhwNVhsMVNqbW1XdmR4VmJjc3poWXYwZVdqcUtMemFFWFRVM0pkWkpyczZnYUt0SHdzMjVYQVQtZVlEMlpVOVZpVnE3cHJ2VWV3THBQcTAzNnhpdlRTRWlYMHBZRG40U2VDZ25ZUTItMEtRV1h6dGVBV1FpLVZTZm10THdTdFU4LVNLRDFBcVR3NTlZcGRrZE5MWm9tNld5UTludkxKTld6c053Y2h2dWgzanJMcnRUMzlVR2c3cHU0dTluMGxNUTgxMTM5c9IBjAJBVV95cUxQakdaRU5HTFBXY2d2b2NKdVYyY05ZZGtUVTJoS2ZUaE1zcnNlWW1FWG5jSUc1WVFmZ1FDcmtlY0pBZkw1d0U4LUJ2YnBLeHNSUWoxaTF4WXgtTGo0S2IzNEF6NjBYbG5saTVMdm1lcXd6QmhGbjdEaUN4aHBfek9HaXdGXzcwOUpSZUFmUzlYUmZBbkZESndiS3dtVllTZjRGVjhieG53LTV1UWRtcVNTV29qb0RiWnZBb1Z4TkZDbDFEdkRHVm0tRG94dnA4RU1Qc2pERG9WbWtCUFhTeWd2azVMSkNMS0ttUWJxbk5UcnN1VWZxUXhnSTlndWFuVEpRTGdkN2JxN0VoQmdw?oc=5"
     },
     {
+      "id": 1051,
+      "country": "United States",
+      "date": "2026-05-17",
+      "school": "Caldwell Zoo",
+      "city": "Caldwell",
+      "state": "Texas",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Evacuation, closure",
+      "outcome": "Under investigation",
+      "cluster": "Caldwell Zoo bomb threat May 2026",
+      "notes": "Anonymous bomb threat prompts evacuation, closure at Caldwell Zoo",
+      "lat": 29.8299,
+      "lng": -97.596,
+      "src": "KLTV.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnJzdzN3NlZ5LTk1ZEc5V1I4dGt0eFcwSFJQZDM3YUh5SXhjeEdacUVram1oQ1lDNDhNUWd5VC1aUG9iMlFWV3Y4YjBZd0RkWkhOQi02VHc3Z3JhRnhmb0ZlbEF6ZWduMHZjYXBMVFV0ZksxVG04bVZWa2g0Q3oteTJxbHBIVHpIZW1LTjBXYWVoTnFXb2dEQXlB0gGuAUFVX3lxTE1HX3BIUVU4cWJKQTlwYUdQTGhUSEpqWEV6Sms1WE9VTkgwRU5rZUxiVjBIc0x4NVVucXZwb054Y2pkaXVvUUNqamwxSnRESVVCdVJxaFNfRTUza19vSWpocTB2VEZHc2p3V0lfYjVmNHBteGlpNlUwMlI4WDdiTEUyY3I2MlAwbDEtWkJOUEU0Y3VJMW9wSmNaUFExV2cwY0hMb3V0QTEwZF9GbUxHUQ?oc=5"
+    },
+    {
       "id": 1048,
       "country": "United States",
       "date": "2026-05-17",
@@ -15897,6 +15933,24 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcnNSZzRfUEl0RkczTEFKRXpJeUNmU2ZCNFNLZzZSa0d4MXV4UUcxVXpFV0ZsLUZrSENXeWlzUmhqTnF3TjBkdzNBLWlraEdyMTB2MkN6SGg2aV9LaUNVckdWYmRfUWhkQmZ4ZHFXeTlUY3ltN01iVmR2V1Z4RGtlWG0tX19jdTlxT2tZRXcwRU5pYktmRkJyWFM4NWNGRVREVHpLVWtYc2loM3F2NWtUM1Rn0gG6AUFVX3lxTFBQR1drejVEbXpVSmV5cEtrS29qdURRaUJKUWJ4RUtnSnIwek9jVTFmZnhHYW9CTktxUm9NZjVCVWItcmh6aUdpUHRZNURIRWlBRjlVcXl4NkVNZUh1TENoZHllaVdWOGY5bUE3QWl5MUlYdEhtaVNRUWdkQWF0STg4aDN3V3dQbzVVLU9kTDRiQkpOV0drWWRuSzZWZXdGajVremlHQk96RlhMNXVwd2VwWGt0SF9Xb29zdw?oc=5"
     },
     {
+      "id": 1052,
+      "country": "United States",
+      "date": "2026-04-22",
+      "school": "Westwood HS",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Westwood HS swatting series April 2026",
+      "notes": "Bomb threat at Westwood HS part of 'swatting' series, school says",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "KVUE",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdEhZVXhoRF9iWXU5T0FPQW5JY0xPSm15bDc3aEJaTUU3NW1yZFRRUjljOUtCYWdHQ09zWHBZRE1sLUZPVXlkYUNuNHlCRm04ME9EY3lhdXdxTS1mbGtJWW1YbnUtRmlJRjdPMDlodE9lbTg5NmVkLXhpSzk5cW9pZW5DN3dfakdoUjRDMjZHOVhFZldJS1lfSXk0ZnY4Q1FLaFBONVRsUGIzWnZnWDFIUURMbTVPaFhXcE9qd21ZeHA1X3VsM294TF9R?oc=5"
+    },
+    {
       "id": 177,
       "country": "United States",
       "date": "2026-04-05",
@@ -15949,6 +16003,24 @@
       "lng": 2.32,
       "src": "Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WSlRZdlVqcmxROTV4WkcxRExFaTR1UnlXeFg2TlU3R0V1MVhKZ1lmZjBZYWYzajNjc0tEMzZuTGF2dkwxMk9QVk4tWTBfNllaZEE?oc=5"
+    },
+    {
+      "id": 1053,
+      "country": "United States",
+      "date": "2026-03-12",
+      "school": "River City High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "River City High School bomb threat 2026-03-12",
+      "notes": "Bomb threat prompts lockdown at River City High School",
+      "lat": 39.7837,
+      "lng": -100.4459,
+      "src": "fox40.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYzEyRHFySkNfWlVNNFk3OXBJR2h2bnJ1STBFUnpQTWw4dkNLcW1Sem1KMXc4TkZNd0ZBOF91d19CRzhWWFpPVm15YURWTm0xblc3V2RXTS0zWndLVlBpWENOOWRmTjR5dmdXSkxmbjV0Z3lJSWtHOFZKeGZjdl9fdWt1MkxXQk1BckNDNDNVV0NVRTBFWXRHT0ZBLVdDWE5wcnpYMDFlTnLSAa4BQVVfeXFMT2JqNktDVnVEbVJDTXJWWllhSzRUWHVGMXlDX1pRQ3lCSlpOSEhIeDVSTTliRmZzZ1liXzY2UEw1V0d5d3RDYlJvTTlSLVE5eDZsT1NxM181bDhZUjFiSHV6cjFzX0E2Ulk0SDdSemVvZmExQTBWUTltQXVPVUZNUFhJWFdoeXliN2M0UGFBRC1oYkFENTR3MElwdWdKUUgtRW12QzFDR2pGblJIWXZR?oc=5"
     },
     {
       "id": 176,
