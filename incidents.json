@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-15T21:19:59.245413Z",
-  "count": 893,
+  "generated": "2026-09-16T00:19:05.176551Z",
+  "count": 894,
   "incidents": [
+    {
+      "id": 1041,
+      "country": "United States",
+      "date": "2026-09-15",
+      "school": "Elk River High School",
+      "city": "Elk River",
+      "state": "Minnesota",
+      "sector": "K-12",
+      "type": "Bomb threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Elk River High School bomb threat 2026-09-15",
+      "notes": "Elk River High School dismisses students early after bomb threat; police say nothing found",
+      "lat": 45.3039,
+      "lng": -93.5672,
+      "src": "5 EYEWITNESS NEWS",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSHNjN1F1UlJYeXVGWFFuSTFFZERpZHNaR2Fxd0RwbDE5dzViU3NveVZYcHFhenhucWZBekg4MzdWSUEwRk9TVE4tVlNsV2E0SnJzR0dMT1FRTzBMb2ZobGNYRE1GclJ5RDVEaC15VnVXWkx5b19oNnl1UDBoY0hiS0lrMjg5ZGt5SU5PQV92c1YwV255ajA0dE55dXo?oc=5"
+    },
     {
       "id": 1040,
       "country": "United States",
