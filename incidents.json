@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-19T10:57:21.657237Z",
-  "count": 984,
+  "generated": "2026-09-19T14:24:34.181320Z",
+  "count": 986,
   "incidents": [
+    {
+      "id": 1132,
+      "country": "United States",
+      "date": "2026-09-19",
+      "school": "Building on Elmwood Avenue",
+      "city": "Cranston",
+      "state": "Rhode Island",
+      "sector": "Other",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Unfounded",
+      "cluster": "Cranston-Elmwood-bomb-2026-09-19",
+      "notes": "bomb threat made to building on Elmwood Avenue was unfounded",
+      "lat": 41.7796,
+      "lng": -71.4367,
+      "src": "coastalabc.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTVdwaTlPNzBhNGtDWXN0b1NrdTc5Z004SHY3alAwdW5fcmF6OUxIUmc2RzRFT09GblFELThnQ1c0NU43RFlRNXRfeVc5ZWhRMFotTDNmdnhCLVI0aERTRVhLOWRpWmtRVFM0VTZvdmpWa3FhU29PeUpzRm96aUd6TFpVM2pMeUw4dEU0MkVjVjFra1RQT2gxMXlQRUFndUJWTTVoTEY0V3JEQXkwc0U0MXBWblRYQnkyWUF6RUgtTGg?oc=5"
+    },
     {
       "id": 1131,
       "country": "United States",
@@ -17335,6 +17353,24 @@
       "lng": -118.2694,
       "src": "ABC7 Los Angeles",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMFVzZC1pdEozTTh6bTJLWjNDMWNLN1NtZTJaVmpuN0FRY1ZyWXluc0lTSzhMaXVEX3hUemFUemJGd1FPYTE3S3VUU2ZaeUVCY00talBvTk1TQ2haeG9tNk1EdDRKem1kSENiTmlBRC1idXI5Tnc2X1U1SUU3dFk4NUhqZHNpZ1ROcmI1alNfbnhwdmNfN3dfMV9qeEFoZU04SHowYldwS094YkxNbnZfdEJR0gG3AUFVX3lxTFBpU3VuNzJkLVNBelFGNEtNSWtTOG5NRW8yNDNuNVNpRktWeFdwaW43dzhhS0ZacUpTNGhKWWJZOHFmZGpybzZncWlvU3FaTWxWakR0VS1JX3Y1VVVFVGk4Y3lhOHVvVUpUTGVlQzZNQ3Q5Zlc2Q05remstbU1jRlpOdlR3VUZLZXM5Y202ajJJWkV2MW14ZVJHbTd1Um9jZVdhYWNqNGR1RU5xaGFic29XVGxJaThjbw?oc=5"
+    },
+    {
+      "id": 1133,
+      "country": "United States",
+      "date": "2026-04-04",
+      "school": "Memphis Zoo",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Memphis Zoo bomb threat 2026-04-04",
+      "notes": "Memphis Zoo evacuated after bomb threat",
+      "lat": 35.146,
+      "lng": -90.0518,
+      "src": "localmemphis.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3BXWnN4QTlYVWpNUDlTWFZadGhKM3AwSFhHdFV1OWIzcGF6ZTdBTDFRcjlPMzhlblAybXlHRE13ZnU5Y002RkpyNnZSVlpiSzkwMUREZHd3RDNGc2tOSzUwQnVmRjJnenV3OTcybW94emIxZ25kU2tzeS1vbXZPWkdCTnNJQks0enhwLU9uTDIweGc2dkNGYWFxSlN4eFBDekl3SlZDZGtLSksybUNlSFpn?oc=5"
     },
     {
       "id": 1049,
