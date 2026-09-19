@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-19T18:00:21.693911Z",
-  "count": 986,
+  "generated": "2026-09-19T20:38:59.949333Z",
+  "count": 987,
   "incidents": [
     {
       "id": 1132,
@@ -127,6 +127,24 @@
       "lng": -121.7863,
       "src": "SFGATE",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9ORGZaZHZmSmN6UDdXa1Bna2I1bjJMNy1aOFQ3TUtWYUU0RGV2SnpmN2FCYWhoUTA1d3A4c1NMT2tIQTF3VXJIeTA2MTdfRE1hRlN6cXpqVktjMThuaGlPQ3VTYWUtRTFTZzlJSXRzYVlHcHRQR0lxd2lHMUVxdXRHQW5fTGlfNFlqVEN6TEJQZExsOTdTZEE5TFBJd1U?oc=5"
+    },
+    {
+      "id": 1134,
+      "country": "United States",
+      "date": "2026-09-18",
+      "school": "Healdsburg High School",
+      "city": "Healdsburg",
+      "state": "Sonoma County",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved",
+      "cluster": "Healdsburg High School shelter-in-place 2026-09-18",
+      "notes": "shelter-in-place lifted near Healdsburg High School",
+      "lat": 38.6107,
+      "lng": -122.8701,
+      "src": "KRON4",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdFkyOFVyeTNiSkJXUTZXWHNEcjFYUmhvU2x0UkR2LWxuamxyb0VtZmJycG8yREo0RjFtWWV4TE1fVllnaTlscjVpaU5CQzc3UVhLM2I3MDE1S2l1b2UzaHFScFl2RlRsaU5CZWhNbE0wUFdjSGQ2OFY5NmFpMVhUVkpFYXVhQWZHSTlSc3hIckptTnIxdXdvcGJQcHhOS2M3eVMwNkF3QWpCQ2lUYkxjY0tYaGgyMFlsYlE?oc=5"
     },
     {
       "id": 1128,
