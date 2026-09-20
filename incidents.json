@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T06:15:07.154748Z",
-  "count": 994,
+  "generated": "2026-09-20T11:27:02.507293Z",
+  "count": 997,
   "incidents": [
     {
       "id": 1140,
@@ -1333,6 +1333,24 @@
       "lng": -90.19,
       "src": "KMOV",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWEzdS05Z3JsTkx1a2sxVTFsUmpDWWJSUGhFNnM5YWFEa05hLVZicG5tMzdzWkl3NUhQN1lEbTlZZmxMQ1NsZXRaUlZKSGJtbTNhRWxDR29iYnM1QlF2YTlLR2ZSNVZvcHBsMXdSUG91S0RvY1NPMTdzbkQ1SDM4UE1JZUczRGxlNWVWamhReXlsVVpBRDd3Q2lQSE8yX19HVVdDNnBVVVY2WHFsN2RtUmZRNnVEWHRqd0ZFRGNXWFhpOE0?oc=5"
+    },
+    {
+      "id": 1142,
+      "country": "Canada",
+      "date": "2026-09-16",
+      "school": "Nasonworth",
+      "city": "Nasonworth",
+      "state": "New Brunswick",
+      "sector": "Other",
+      "type": "Firearm threat",
+      "response": "Shelter-in-place order",
+      "outcome": "One person charged with firearm offence",
+      "cluster": "Nasonworth_2026-09-16_firearm",
+      "notes": "N.B. man charged with firearm offence after shelter-in-place order in Nasonworth",
+      "lat": 45.8468,
+      "lng": -66.6683,
+      "src": "CTV News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOd0dlMnZYYUVlSWhQTWVNVEZ2Z2hvRDRfYkdIZFlqb1N0dmtuQm4yNmJYazNEU1BqTGJoN2dwRkVRWENyakladjRnbk1vRzBROEl1cWZjM3ZmVW80eE8yMFlnelA2MHBHdHY1ejhNNHF1dWJIMUVOWHRpVWhGQS1MVnl6cE1yZ3dqQ1pSNVZoQmtTYnZRcmFWeHJiZUF5Nm1vUXk5VGRnTjZkZXZWdTJ2SnUxU2dnT0stVFJFUzJMaVVMcExKcng4ZEJoaVNxNW5STFQ3Q3BZbFQ?oc=5"
     },
     {
       "id": 1062,
@@ -17283,6 +17301,24 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTXd0MC1HYjRGRC1FZFV6SXNBOWZPTjgwQlRSSHQzMTcxRUFMa2RRTEpIOFNFWkowVk5ad3lyd0NHd1Y2d29PREJTb2J1akNRV0hFOGloeU1LSkxFdUh6bXhwUHVKam1XT2sza3VGLWMyV1ZCZEFMcjlFN09iam5JN1Vzb1haU0NZUGZZbHFTQWlLRjQ2X3NfaXpVdmdEdFplR2c5OS1NeHVIajBpaXNKWTRoaHB2ZkF5TEQwZmJZY0haSHdWNWc4M0RR?oc=5"
     },
     {
+      "id": 1143,
+      "country": "United States",
+      "date": "2026-06-09",
+      "school": "Hayward Field",
+      "city": "Eugene",
+      "state": "Oregon",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Investigation/Search",
+      "outcome": "All-clear / nothing found",
+      "cluster": "University of Oregon bomb threat June 2026",
+      "notes": "University of Oregon authorities find nothing after bomb threat investigation at Hayward Field",
+      "lat": 44.0505,
+      "lng": -123.0951,
+      "src": "KPTV",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0pKeGNZSlh6N0pCTlpZNTFldkJuQ2V5QlY1NUprd3BXT3paMDQ1cFJhZFE5X0EwaF9kOG1DZXd1aWFmZ3BMc1VpbER1MHJDX0QxdmxmWXlaNUt1cWZfN0ZvTXI5T01YYUY0Zi12azd6dVlRS0JiMUZ2NmZJNjVEVy1ENmtfUERjX2NGMTRDRERmUHdfR1c0QjFaWmh1c3Rub2J0YQ?oc=5"
+    },
+    {
       "id": 166,
       "country": "United States",
       "date": "2026-06-09",
@@ -17713,6 +17749,24 @@
       "lng": -0.2704,
       "src": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ET3VRUFMtNWFsaEJfdTlCZnFpdHUtTklyd2ZjaDdnbHEyZzFJMXV6QVEwRHdwUWsxR3l3S2gzRlFFTlhITlZSMXpFd3dDSm12SzFuenA1QjVhQQ?oc=5"
+    },
+    {
+      "id": 1144,
+      "country": "United States",
+      "date": "2026-02-02",
+      "school": "UW-Eau Claire residence hall",
+      "city": "Eau Claire",
+      "state": "Wisconsin",
+      "sector": "Higher Ed",
+      "type": "Swatting / Active-shooter hoax",
+      "response": "Police response",
+      "outcome": "Under investigation",
+      "cluster": "UW-Eau Claire swatting 2026-02-02",
+      "notes": "police respond to swatting incident at UW-Eau Claire residence hall",
+      "lat": 44.8113,
+      "lng": -91.4985,
+      "src": "weau.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa1FJZm1uXzQzZ0NsS3k2Q01RUDVSU1RvUDhmR3dEZ0lBZ3dQQjVHNDdKOER3RlpDdnBuOUx4M3lEeEJ0TmhCM3diUG1ETDJTN3ZrSC1kMXdHZmlxMElkMXpuX0FqSzk2WWFnblJFMW5Gc0FUaUIzNGJBNktfMWdsQld2TG5RWjVhbXUwelRfZWlPT3l1SGRIcEhkbEl4bVdPMXhDbVZDbXhJTVBwdE1yQnU1VExsbWfSAcsBQVVfeXFMT2pNT2ZFbHVUQjhHRnFhcGhOYWdXdTZHbnFwTEpYeEREdWtxbWZhMjAxdTBDMTc3QTYtdU04ejM4ZFRuaHVzR2VYdldiR3VHd3ltMVp2ek9PWTBJTnJ3clpFVUpDUmplakwxU0YxZ09UU3BjTm04Z2lsZnNnelhpd1VhdlIybDY3U2VKTkV2YWVlcFVVbW5mam9BUWRsS0J2bzdpcnhrVm82dHJSSE8xaHlXVWlPMHd1OUN2cGNIQTRQNWt3SVN4S0lLWGs?oc=5"
     },
     {
       "id": 736,
