@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-20T11:27:02.507293Z",
-  "count": 997,
+  "generated": "2026-09-20T16:04:42.327973Z",
+  "count": 999,
   "incidents": [
+    {
+      "id": 1145,
+      "country": "Philippines",
+      "date": "2026-09-20",
+      "school": "NAIA 3",
+      "city": "Manila",
+      "state": "Metro Manila",
+      "sector": "Transit",
+      "type": "Bomb threat (hoax)",
+      "response": "Alert / evacuation procedures",
+      "outcome": "Under investigation",
+      "cluster": "NAIA3_chatbot_bomb_threat_20Sep2026",
+      "notes": "Chatbot message sparks fake bomb threat alert at NAIA 3",
+      "lat": 14.5904,
+      "lng": 120.9804,
+      "src": "The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNR3lOX0lNeXNQWG5kMWZCN25XOVFWempYY0VtdGI2WFFqN1VBaDdPa2lla242ZzFBNUtUdEZ1S2c1azlEYmJocDZwLTJ4X01YR2xFQWZvcHpnQWtObWp4MjRtQzVCVHRxVlZXTXJrWmtKX3ExZGhMV3JGT0IyVUdTTEpmc3AyYjhMOS03d2ZJRE5TMlZJWV9iVUJ3RFhmSGo2ZGk2WDdJcTZzU0o0aGhSV25OREVMdEHSAbwBQVVfeXFMTVVMUm9wYTAyTWhlejJiVktGTlpkaWlEcS1VWVd4VndkMFF3WkJtd2RjQUN0ZENfZmczazdjdlRzZkxUQ3cySTNoUUpDZnJzZUpUWmVGWmJmYVF1bldyMmVPeWt5WWtRUlFwTkdpUERwV1ZNX2wtZ1JCMmpYWEtWSFBEVzNXVlhKZGFrLTdNaFlLdFgzbmRKeURJa0pEYk1PMGZzQ3pBRU5ORjlNX1FIc3hIczEyNng2aDA5NjE?oc=5"
+    },
     {
       "id": 1140,
       "country": "United States",
@@ -17587,6 +17605,24 @@
       "lng": 2.32,
       "src": "Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WSlRZdlVqcmxROTV4WkcxRExFaTR1UnlXeFg2TlU3R0V1MVhKZ1lmZjBZYWYzajNjc0tEMzZuTGF2dkwxMk9QVk4tWTBfNllaZEE?oc=5"
+    },
+    {
+      "id": 1146,
+      "country": "Canada",
+      "date": "2026-03-30",
+      "school": "Four Seasons Centre",
+      "city": "Toronto",
+      "state": "Ontario",
+      "sector": "Venue",
+      "type": "Bomb threat",
+      "response": "Evacuation / Cancellation",
+      "outcome": "Under investigation",
+      "cluster": "Four Seasons Centre bomb threat 2026-03-30",
+      "notes": "Bomb threat cancels Shen Yun show at Four Seasons Centre",
+      "lat": 43.6535,
+      "lng": -79.3839,
+      "src": "toronto.citynews.ca",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObUk5cUdWZ012U19hRmdCNk9HM1FHeDlmTUxkRjdyY3dXb2hQY1VfTWpMMzZzd3A1Y3NlTjhjbmZ0bXl1ZDdMSGI1alFBZ2dIRG5SdVJvY2U3dTVNaHlFZE1PcC05enpvZlp5YXFPWlp5eWJOMlNkbjJSY3RqZmU4SVFVN0dvSU1wX0p0TlFhaUUzZw?oc=5"
     },
     {
       "id": 1053,
