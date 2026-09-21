@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T00:15:56.880389Z",
-  "count": 1003,
+  "generated": "2026-09-21T05:00:39.042601Z",
+  "count": 1004,
   "incidents": [
     {
       "id": 1149,
@@ -17425,6 +17425,24 @@
       "lng": 170.5036,
       "src": "RNZ",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTWp3TURnQkhzRUE4bVVhbnlyaG1DTlB0V1ZzNkxDVzZDUVhQck5kUDdOY3NPNkxwd0Nhbi1jYUZhX0F5c3V2VHZNSW15R3NPXy1sREVrMXNwMDJwbV9xMUs3UzQwY3J5dkVQZi1NUDlQUHRLdGtqYXFGODBUU3ZsbHBRVG9nR2E4T3I5LUd3dFBGMU4zRUp5UFg3Rzk5UWVtU0hnRS1KZw?oc=5"
+    },
+    {
+      "id": 1151,
+      "country": "United States",
+      "date": "2026-05-29",
+      "school": "Walmart",
+      "city": "Jackson",
+      "state": "Alabama",
+      "sector": "Retail",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Jackson_Alabama_bomb_threat_20260529",
+      "notes": "Walmart in Jackson, Alabama, given the 'all clear' after bomb threat",
+      "lat": 34.7692,
+      "lng": -85.9868,
+      "src": "WKRG",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1BrS3ZhZDFxeml3dnpSRXVDUEFVODdmSEtjNHF5Vk5fc1pkNVNDalZJWmVCX2hWMXNyTXdwcXozaVR4aGp4Yl9rZEg4ekhhZTBOZUVnRTRmSTNYd1F5cmtsRENMSXRGWkduenpEM002dHFrVmdYd2JvaG15SEhIX1JZY1hpZ29ZdkZBY9IBkgFBVV95cUxPM2lyRGgzaW5vbTE3VndodHZhWWs5M0wxWkZIOEdaVGt6Q0JtMi1fYlRWX0JRREQ0WXFPOURoLUVjUk0tUnZCbXJDVkZ3dkpwblk0WjRRMG5XYVc2aG9aeUltVjd1MmJCaE1zTDl0V0VPZHN3b25nTXhQcFhkeV85b0E5anpFeEFKYVZlT1dNSHdUdw?oc=5"
     },
     {
       "id": 208,
