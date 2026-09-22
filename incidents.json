@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-22T09:56:37.549216Z",
-  "count": 1048,
+  "generated": "2026-09-22T14:52:45.610305Z",
+  "count": 1050,
   "incidents": [
+    {
+      "id": 1197,
+      "country": "United States",
+      "date": "2026-09-22",
+      "school": "Virginia Mosque",
+      "city": null,
+      "state": "Virginia",
+      "sector": "Worship",
+      "type": "Bomb threat",
+      "response": null,
+      "outcome": "Charges filed",
+      "cluster": "Virginia_mosque_bomb_threat_Sep2026",
+      "notes": "Virginia Mosque Bomb Threat Charges Welcomed",
+      "lat": 37.1232,
+      "lng": -78.4928,
+      "src": "\u062e\u0628\u0631\u06af\u0632\u0627\u0631\u06cc \u0628\u06cc\u0646 \u0627\u0644\u0645\u0644\u0644\u06cc \u0642\u0631\u0622\u0646",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWUtnOVBQVGNrMFI1ZlhEQWw1ZVZxN0NjNFJ6dVZGaDdERzJJYkdCQmtXeEZyWFFIOHVGazR4c3lsSVQ5T0tPMjRacFNsTzIxbENXNjVvcXdqelMycXRKSjBKV1B5M3JlX0x4bTNidFFJalh2LVlLTG9aNGtMbXo1Sy1B?oc=5"
+    },
     {
       "id": 1195,
       "country": "India",
@@ -1099,6 +1117,24 @@
       "lng": -121.7863,
       "src": "SFGATE",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOG9ORGZaZHZmSmN6UDdXa1Bna2I1bjJMNy1aOFQ3TUtWYUU0RGV2SnpmN2FCYWhoUTA1d3A4c1NMT2tIQTF3VXJIeTA2MTdfRE1hRlN6cXpqVktjMThuaGlPQ3VTYWUtRTFTZzlJSXRzYVlHcHRQR0lxd2lHMUVxdXRHQW5fTGlfNFlqVEN6TEJQZExsOTdTZEE5TFBJd1U?oc=5"
+    },
+    {
+      "id": 1196,
+      "country": "United States",
+      "date": "2026-09-18",
+      "school": "University of Utah",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "sector": "Higher Ed",
+      "type": "Swatting / threatening emails",
+      "response": "Lockdown / Secure",
+      "outcome": "Under investigation",
+      "cluster": "U of U swatting incident 2026-09-18",
+      "notes": "U of U reports multiple threatening emails impacting offices in 'swatting' incident",
+      "lat": 40.7596,
+      "lng": -111.8868,
+      "src": "kjzz.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRUFkUHlvclRZa1AwZkI1V3U5WUpEOXdRZ3RLU0tBd2UtOUZreElfbnU5UEZubmt3WnpYWlE0aGVVZk1aQ1NuTFNJUTVfWVh0RHZQOFVXRS1mUFB3M3dReTZ6R1J2RGNyeEQ4cTVRdFJCaU9JajFYeXgwMVdHLVM0cHhueXg1bFJ3VFhGOVBEdDNkMnlVWlBpYXo1TnZUM3lIMzFlSWNwbzhpdDFZS1E?oc=5"
     },
     {
       "id": 1134,
