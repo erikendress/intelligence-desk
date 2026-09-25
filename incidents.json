@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-25T07:46:58.528658Z",
-  "count": 1154,
+  "generated": "2026-09-25T13:46:15.660015Z",
+  "count": 1155,
   "incidents": [
+    {
+      "id": 1302,
+      "country": "United States",
+      "date": "2026-09-25",
+      "school": "Messer Cutting Systems",
+      "city": "Menomonee Falls",
+      "state": "Wisconsin",
+      "sector": "Workplace",
+      "type": "Bomb threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Menomonee Falls bomb threat 2026-09-25",
+      "notes": "Bomb threat causes evacuation at Messer Cutting Systems in Menomonee Falls",
+      "lat": 43.1791,
+      "lng": -88.1171,
+      "src": "WISN",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVBuOExkejlTYzVYdURXYWVWV1FhUzIzRmtXOV84OVlqWlNhTnVMZTMwZ1lwYUJGQWlLZXBnS1VVSUZubUtLT3puemlsNHhQSzFrdDFQRmF3U1BFUk5HY0FQa2ZKcTBkSzlNUm45ZVRRampYTkZLeldsOTd1VGVQX3NMX3ZFODh0dC1LUjh2T05TMGQzeW5pcUJGd2JZM1RZ?oc=5"
+    },
     {
       "id": 1301,
       "country": "India",
