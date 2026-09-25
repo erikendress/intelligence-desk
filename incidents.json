@@ -1,7 +1,25 @@
 {
-  "generated": "2026-09-25T01:29:29.315199Z",
-  "count": 1153,
+  "generated": "2026-09-25T07:46:58.528658Z",
+  "count": 1154,
   "incidents": [
+    {
+      "id": 1301,
+      "country": "India",
+      "date": "2026-09-25",
+      "school": "Punjab and Haryana High Court",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sector": "Government",
+      "type": "Bomb threat",
+      "response": "Security tightened",
+      "outcome": "Under investigation",
+      "cluster": "Punjab_Haryana_HC_bomb_threat_20260925",
+      "notes": "Punjab and Haryana High Court receives bomb threat, police tighten security around complex",
+      "lat": 30.7334,
+      "lng": 76.7797,
+      "src": "Punjab Newsline",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXB1NkZ5VFFscmNmZzVEQ3BXSzg0dGlxMzh3YWVSYUFXT3VtTUNfei1VeWhyQzVGQmRYakx3U2lyY3IyZDlpdk9oMU1JZ2cwOXB5dzQ2Z211Y0UxN2RFR0Fhd2paR1ZJOUFHM3N6RFJCZFZnNEI1VXVHazlRYnlSQlRFLXFfd2ppa2NVSTNLdm5CUkVuVFAwQ3ExOGZoT1Qzb29oRnZCb2V5cU04VVUtQVJtQk85dkd0ZG9Ybi1oMzVjb3M?oc=5"
+    },
     {
       "id": 1300,
       "country": "United States",
