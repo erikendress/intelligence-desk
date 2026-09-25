@@ -12,6 +12,7 @@ The board reads the exported incidents.json. GitHub Actions runs this on a sched
 and commits the updated feed — no server, nobody feeding it by hand.
 """
 import os, re, json, sqlite3, argparse, datetime, hashlib, urllib.parse, urllib.request
+import dedupe
 
 DB   = os.path.join(os.path.dirname(__file__), "incidents.db")
 OUT  = os.path.join(os.path.dirname(__file__), "incidents.json")
@@ -25,10 +26,10 @@ BACKFILL_VERSION = "4-threatled"
 QUERY = '(school OR schools OR campus) (swatting OR "bomb threat" OR lockdown OR evacuated OR "shelter in place" OR "active shooter") sourcelang:eng'
 
 SYSTEM_PROMPT = """You are an incident-recognition analyst for the OnScene Technologies Intelligence Desk.
-You cover physical-safety incidents at public-facing places worldwide. You read ONE news article and decide
+You cover physical-safety incidents at public-facing places in the United States, Canada and the United Kingdom. You read ONE news article and decide
 whether it reports a qualifying safety event, then return JSON only.
 
-QUALIFYING PLACES (anywhere people gather): schools, colleges/universities, workplaces/offices, hospitals
+QUALIFYING PLACES (anywhere people gather in the US, Canada or UK): schools, colleges/universities, workplaces/offices, hospitals
 and other healthcare sites, houses of worship, shops/malls/retail, stadiums/arenas/event venues,
 airports/train and transit stations, government buildings/courthouses, hotels, libraries, and the like.
 
@@ -43,14 +44,28 @@ policy, and historical retrospectives; ordinary crime not tied to a gathering pl
 action; and events that are part of an armed conflict, war zone, or military operation (this is a civilian
 facility-safety desk, not a war tracker).
 
-GEOGRAPHY: Worldwide. Set "country" to the country where the incident physically occurred, as a full English
-country name (e.g. "United States", "United Kingdom", "Canada", "India", "Australia"). Never guess — if you
-cannot determine the country from the text, exclude the event.
+GEOGRAPHY: United States, Canada and the United Kingdom ONLY. Set "country" to exactly one of "United States",
+"Canada" or "United Kingdom" (England, Scotland, Wales and Northern Ireland are "United Kingdom"). If the incident
+happened anywhere else, or you cannot tell the country from the text, return {"include": false}.
 
 RULES: Extract only what the text supports; use null for unknowns. Never assert a hoax-or-real determination
-the article does not state — use "Under investigation". If one event affected multiple named places, emit one
-record per place and give them the SAME cluster_hint. Quote a short verbatim evidence span. Assign confidence
+the article does not state — use "Under investigation". Quote a short verbatim evidence span. Assign confidence
 0..1 from source clarity and corroboration.
+
+CONSISTENCY (the same event is reported by many outlets — your records must come out identical each time):
+- facility_name: the facility's full official name as the article gives it ("Caldwell High School", not
+  "Caldwell High"; "Northeast Georgia Medical Center", not "NGMC"). No town or parenthetical notes in the name.
+- If one event affected several NAMED places, emit one record per named place with the SAME cluster_hint.
+  If the places are NOT named ("three Ludhiana schools"), emit ONE record named "Schools in <town>" and put the
+  number in schools_affected. Never invent placeholders like "School 1" / "School 2".
+- date: the day the incident happened, not the publication date. "Monday's threat" in a Tuesday article = Monday.
+- town: the municipality. region: the US state / Canadian province / UK nation / Indian state — never a county.
+- trigger_type: exactly one of "Swatting / Active-Shooter Hoax", "Bomb Threat", "Weapon / Intruder",
+  "Credible Threat", "Actual Violence", "Non-threat safety cause". Suspicious packages are "Bomb Threat".
+- protective_action: exactly one of "Lockdown", "Lockout/Secure", "Shelter-in-place", "Evacuation",
+  "Invacuation", "Early dismissal", "Closure", "None", or null.
+- outcome_status: exactly one of "Under investigation", "Confirmed hoax", "Confirmed real",
+  "Resolved – no cause found", "Arrest made".
 
 OUTPUT exactly one JSON object:
   Not a qualifying event:  {"include": false, "reason": "<one line>"}
@@ -62,23 +77,45 @@ Each record's fields:
   injuries (int|null), schools_affected (int|null),
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
+# ----------------------------------------------------------------------------- scope
+ALLOWED_COUNTRIES = ("United States", "Canada", "United Kingdom")
+SCOPE_VERSION = "us-ca-uk"
+_COUNTRY_ALIASES = {
+    "united states": "United States", "united states of america": "United States", "usa": "United States",
+    "us": "United States", "u.s.": "United States", "america": "United States",
+    "canada": "Canada",
+    "united kingdom": "United Kingdom", "uk": "United Kingdom", "u.k.": "United Kingdom",
+    "great britain": "United Kingdom", "britain": "United Kingdom", "england": "United Kingdom",
+    "scotland": "United Kingdom", "wales": "United Kingdom", "northern ireland": "United Kingdom",
+}
+
+def norm_country(c):
+    return _COUNTRY_ALIASES.get((c or "").strip().lower())
+
+def apply_scope(con):
+    """One-time: normalize country names and drop incidents outside the US, Canada and the UK."""
+    for rid, c in con.execute("SELECT id, country FROM incidents").fetchall():
+        nc = norm_country(c)
+        if nc:
+            con.execute("UPDATE incidents SET country=? WHERE id=?", (nc, rid))
+    q = "SELECT id FROM incidents WHERE country NOT IN (%s) OR country IS NULL" % ",".join("?" * len(ALLOWED_COUNTRIES))
+    gone = [r[0] for r in con.execute(q, ALLOWED_COUNTRIES).fetchall()]
+    for rid in gone:
+        con.execute("DELETE FROM incident_sources WHERE incident_id=?", (rid,))
+        con.execute("DELETE FROM incidents WHERE id=?", (rid,))
+    print("scope: removed %d incidents outside %s" % (len(gone), ", ".join(ALLOWED_COUNTRIES)))
+
 # ----------------------------------------------------------------------------- ingest
 # Lead with the THREAT terms and let the classifier identify the place. A place-led query
 # ("school OR hospital OR ...") makes Google match the place words and return generic non-incident
 # news; a threat-led query returns articles that are actually about safety events (~90% on-target).
 NEWS_QUERY = ('"bomb threat" OR swatting OR "active shooter" OR "shelter in place" '
               'OR "school lockdown" OR "campus lockdown" OR "building evacuated" '
-              'OR "suspicious package" OR "lockdown lifted" OR "hoax threat"')
+              'OR "suspicious package" OR "lockdown lifted" OR "hoax threat" '
+              'OR "suspicious item" OR "hoax call" OR "police cordon" OR "evacuated as a precaution"')
 
-# Google News editions to sweep. English editions across major regions give worldwide
-# coverage without per-language search terms. Add or remove (country, ceid) pairs to taste.
-EDITIONS = [
-    ("US", "US:en"), ("GB", "GB:en"), ("CA", "CA:en"), ("IE", "IE:en"),
-    ("AU", "AU:en"), ("NZ", "NZ:en"), ("IN", "IN:en"), ("PK", "PK:en"),
-    ("ZA", "ZA:en"), ("NG", "NG:en"), ("KE", "KE:en"), ("PH", "PH:en"),
-    ("SG", "SG:en"), ("MY", "MY:en"), ("FR", "FR:en"), ("DE", "DE:en"),
-    ("JP", "JP:en"), ("BR", "BR:en"),
-]
+# Google News editions to sweep: coverage is limited to the US, Canada and the UK.
+EDITIONS = [("US", "US:en"), ("GB", "GB:en"), ("CA", "CA:en")]
 
 def _fetch_google_news(gl, ceid, days, maxrecords):
     import time as _t, xml.etree.ElementTree as ET
@@ -191,6 +228,7 @@ def init_db():
     con = sqlite3.connect(DB)
     con.executescript(open(SCHEMA).read())
     con.execute("CREATE TABLE IF NOT EXISTS seen_articles (url TEXT PRIMARY KEY, seen_at TEXT)")
+    dedupe.ensure_tables(con)
     return con
 
 def slug(s):
@@ -200,6 +238,12 @@ def upsert(con, rec):
     now = datetime.datetime.utcnow().isoformat()
     key = hashlib.sha1(f"{rec.get('facility_name')}|{rec.get('date')}|{rec.get('trigger_type')}".lower().encode()).hexdigest()
     lat, lng = geocode(rec)
+    rec["lat"], rec["lng"] = lat, lng
+    rec["trigger_type"] = dedupe.canon_trigger(rec.get("trigger_type")) or "Under investigation"
+    # same event under a different name / wording / date? fold it into the existing record
+    match = dedupe.find_match(con, rec)
+    if match is not None:
+        return dedupe.merge_into(con, match, rec, now)
     cur = con.execute("SELECT outcome_status FROM incidents WHERE dedup_key=?", (key,))
     existing = cur.fetchone()
     if existing is None:
@@ -215,6 +259,9 @@ def upsert(con, rec):
            rec.get("schools_affected"), rec.get("cluster_hint"), slug(rec.get("cluster_hint")),
            rec.get("confidence"), rec.get("evidence_quote"), rec.get("_domain"), rec.get("_url"),
            now, now))
+        new_id = con.execute("SELECT id FROM incidents WHERE dedup_key=?", (key,)).fetchone()[0]
+        con.execute("INSERT OR IGNORE INTO incident_sources(incident_id,url,domain,added) VALUES (?,?,?,?)",
+                    (new_id, rec.get("_url"), rec.get("_domain"), now))
         return "new"
     # records mature: promote an "Under investigation" record when a later story confirms it
     if existing[0] == "Under investigation" and rec.get("outcome_status") not in (None, "Under investigation"):
@@ -234,11 +281,13 @@ def assign_clusters(con):
 def export(con):
     rows = con.execute("""SELECT id, country, date, facility_name, town, region, facility_type,
         trigger_type, protective_action, outcome_status, cluster_hint, evidence_quote, lat, lng,
-        source_domain, source_url FROM incidents ORDER BY date DESC""").fetchall()
+        source_domain, source_url,
+        (SELECT COUNT(*) FROM incident_sources s WHERE s.incident_id = incidents.id)
+        FROM incidents ORDER BY date DESC""").fetchall()
     incidents = [{
         "id": r[0], "country": r[1], "date": r[2], "school": r[3], "city": r[4], "state": r[5],
         "sector": r[6], "type": r[7], "response": r[8], "outcome": r[9], "cluster": r[10] or "",
-        "notes": r[11] or "", "lat": r[12], "lng": r[13], "src": r[14], "url": r[15]
+        "notes": r[11] or "", "lat": r[12], "lng": r[13], "src": r[14], "url": r[15], "sources": r[16] or 1
     } for r in rows]
     json.dump({"generated": datetime.datetime.utcnow().isoformat() + "Z",
                "count": len(incidents), "incidents": incidents},
@@ -267,6 +316,15 @@ def run(mock=False):
         print("BACKFILL: one-time clean rebuild over a %dd window (scope: %s)" % (days, BACKFILL_VERSION))
     else:
         days = maxrecords = None  # normal run: env vars if set, else 3d / 25-per-edition
+    if _meta_get(con, "scope_version") != SCOPE_VERSION:
+        apply_scope(con)
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('scope_version', ?)", (SCOPE_VERSION,))
+        con.commit()
+    if _meta_get(con, "dedupe_version") != dedupe.VERSION:
+        while dedupe.cleanup(con):
+            pass
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('dedupe_version', ?)", (dedupe.VERSION,))
+        con.commit()
     articles = ingest_mock() if mock else ingest_live(days, maxrecords)
     stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0, "errors": 0}
     for a in articles:
@@ -284,8 +342,10 @@ def run(mock=False):
             for rec in (res.get("records") or []):
                 if not rec.get("facility_name") or not rec.get("date"):
                     continue  # skip incomplete records
-                if not rec.get("country"):
-                    continue  # require a known country (backstop for the prompt)
+                rec["country"] = norm_country(rec.get("country"))
+                if rec["country"] not in ALLOWED_COUNTRIES:
+                    stats["rejected"] += 1
+                    continue  # US, Canada and UK only (backstop for the prompt)
                 rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
                 outcome = upsert(con, rec)
                 stats["recognized"] += 1

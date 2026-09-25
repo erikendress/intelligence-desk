@@ -88,7 +88,7 @@
       <div class="logo">◎</div>
       <div>
         <h1>Incident Awareness Board</h1>
-        <div class="sub">Threat activity at schools, workplaces &amp; public places — worldwide, updated hourly from public reporting</div>
+        <div class="sub">Threat activity at schools, workplaces &amp; public places — United States, Canada &amp; United Kingdom, updated hourly from public reporting</div>
       </div>
     </div>
     <span class="powered">Powered by <b>OnScene Technologies</b></span>
@@ -145,7 +145,7 @@
 </div>
 
 <footer>
-  <p><b>About:</b> This board is produced automatically by the OnScene Technologies Intelligence Desk — a recognition engine that reads public news worldwide, identifies genuine safety incidents at schools, workplaces, and other public places, and refreshes this feed hourly. It is a resource for understanding patterns, not an alerting or operational tool. Coverage is what public reporting makes catchable; absence of an incident is not confirmation nothing happened. Every record links to its original source.</p>
+  <p><b>About:</b> This board is produced automatically by the OnScene Technologies Intelligence Desk — a recognition engine that reads public news from the United States, Canada and the United Kingdom, identifies genuine safety incidents at schools, workplaces, and other public places, and refreshes this feed hourly. It is a resource for understanding patterns, not an alerting or operational tool. Coverage is what public reporting makes catchable; absence of an incident is not confirmation nothing happened. Every record links to its original source.</p>
 </footer>
 
 <script>
@@ -251,7 +251,7 @@ function renderSummary(rows){
   document.getElementById('takeaways').innerHTML = tiles.map(t=>`
     <div class="tk"><div class="k">${t[0]}</div><div class="v">${t[1]}</div><div class="d">${t[2]}</div></div>`).join('');
   const narr = document.getElementById('narr');
-  if(total===0){ narr.textContent = "No qualifying incidents match the current filters — the engine adds them as they surface in public reporting worldwide."; return; }
+  if(total===0){ narr.textContent = "No qualifying incidents match the current filters — the engine adds them as they surface in public reporting."; return; }
   const b = BUCKET_LABEL[top[0]].toLowerCase();
   narr.innerHTML = `Tracking <b>${total}</b> recent safety incident${total>1?"s":""} at schools, workplaces, and public places across <b>${countries.size}</b> countr${countries.size===1?"y":"ies"}. The most common type right now is <b>${b}</b>. These are compiled automatically from public reporting — the value is seeing them together, so a single event can be read against the wider pattern.`;
 }
