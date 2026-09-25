@@ -12,7 +12,7 @@ The board reads the exported incidents.json. GitHub Actions runs this on a sched
 and commits the updated feed — no server, nobody feeding it by hand.
 """
 import os, re, json, sqlite3, argparse, datetime, hashlib, urllib.parse, urllib.request
-import dedupe
+import dedupe, regions
 
 DB   = os.path.join(os.path.dirname(__file__), "incidents.db")
 OUT  = os.path.join(os.path.dirname(__file__), "incidents.json")
@@ -200,9 +200,9 @@ def geocode(rec):
     """Fill lat/lng from town/region via OpenStreetMap Nominatim (free, no key)."""
     if rec.get("lat") and rec.get("lng"):
         return rec["lat"], rec["lng"]
+    if not rec.get("town") and not rec.get("region"):
+        return None, None   # a bare country name geocodes to its centre point (e.g. Kansas) — a false pin
     q = ", ".join(x for x in [rec.get("town"), rec.get("region"), rec.get("country")] if x)
-    if not q:
-        return None, None
     if q in GEO_CACHE:
         return GEO_CACHE[q]
     import time
@@ -239,6 +239,7 @@ def upsert(con, rec):
     key = hashlib.sha1(f"{rec.get('facility_name')}|{rec.get('date')}|{rec.get('trigger_type')}".lower().encode()).hexdigest()
     lat, lng = geocode(rec)
     rec["lat"], rec["lng"] = lat, lng
+    rec["region"] = regions.resolve(rec)   # always a US state / province / UK nation (or None)
     rec["trigger_type"] = dedupe.canon_trigger(rec.get("trigger_type")) or "Under investigation"
     # same event under a different name / wording / date? fold it into the existing record
     match = dedupe.find_match(con, rec)
@@ -319,6 +320,10 @@ def run(mock=False):
     if _meta_get(con, "scope_version") != SCOPE_VERSION:
         apply_scope(con)
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('scope_version', ?)", (SCOPE_VERSION,))
+        con.commit()
+    if _meta_get(con, "region_version") != regions.VERSION:
+        regions.fix_all(con)
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('region_version', ?)", (regions.VERSION,))
         con.commit()
     if _meta_get(con, "dedupe_version") != dedupe.VERSION:
         while dedupe.cleanup(con):
