@@ -114,6 +114,10 @@
       <select id="country"><option value="all">All countries</option></select>
     </div>
     <div class="fgroup">
+      <label>State / Province</label>
+      <select id="region"><option value="all">All states &amp; provinces</option></select>
+    </div>
+    <div class="fgroup">
       <label>Place</label>
       <select id="sector"><option value="all">All place types</option></select>
     </div>
@@ -155,7 +159,7 @@ const FEED_URL = "incidents.json";
 const COLORS = { swat:"#ef4444", bomb:"#e26b08", other:"#9333ea" };
 const BUCKET_LABEL = { swat:"Swatting / Hoax", bomb:"Bomb Threat", other:"Other" };
 let INCIDENTS = [];
-const stateF = { types:new Set(["swat","bomb","other"]), country:"all", sector:"all", q:"" };
+const stateF = { types:new Set(["swat","bomb","other"]), country:"all", region:"all", sector:"all", q:"" };
 
 function typeBucket(t){
   t = (t||"").toLowerCase();
@@ -180,6 +184,7 @@ try{
 function matches(i){
   if(!stateF.types.has(typeBucket(i.type))) return false;
   if(stateF.country!=="all" && (i.country||"")!==stateF.country) return false;
+  if(stateF.region!=="all" && (i.state||"")!==stateF.region) return false;
   if(stateF.sector!=="all" && (i.sector||"")!==stateF.sector) return false;
   if(stateF.q){
     const hay=(Object.values(i).join(" ")).toLowerCase();
@@ -265,23 +270,37 @@ function fillSelect(id, values, allLabel){
   sel.value=cur && (cur==="all"||values.includes(cur)) ? cur : "all";
 }
 
+// State / province list follows the country picked; with "All countries" it lists every region
+// that has incidents. Only regions with at least one incident appear.
+function fillRegions(){
+  const pool = INCIDENTS.filter(i=>stateF.country==="all" || i.country===stateF.country);
+  fillSelect('region', [...new Set(pool.map(i=>i.state).filter(Boolean))],
+    stateF.country==="United Kingdom" ? 'All UK nations'
+    : stateF.country==="Canada" ? 'All provinces'
+    : stateF.country==="United States" ? 'All states' : 'All states & provinces');
+}
+
 function init(){
   document.getElementById('filters').style.display='flex';
   fillSelect('country', [...new Set(INCIDENTS.map(i=>i.country).filter(Boolean))], 'All countries');
   fillSelect('sector',  [...new Set(INCIDENTS.map(i=>i.sector).filter(Boolean))],  'All place types');
+  fillRegions();
   document.querySelectorAll('.chip[data-type]').forEach(c=>c.addEventListener('click',()=>{
     const t=c.dataset.type;
     if(stateF.types.has(t)){stateF.types.delete(t);c.classList.add('off');}
     else {stateF.types.add(t);c.classList.remove('off');}
     render(false);
   }));
-  document.getElementById('country').addEventListener('change',e=>{stateF.country=e.target.value;render(true);});
+  document.getElementById('country').addEventListener('change',e=>{
+    stateF.country=e.target.value; fillRegions(); stateF.region=document.getElementById('region').value; render(true);
+  });
+  document.getElementById('region').addEventListener('change',e=>{stateF.region=e.target.value;render(true);});
   document.getElementById('sector').addEventListener('change',e=>{stateF.sector=e.target.value;render(true);});
   document.getElementById('search').addEventListener('input',e=>{stateF.q=e.target.value;render(false);});
   document.getElementById('reset').addEventListener('click',()=>{
-    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.sector="all"; stateF.q="";
+    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.region="all"; stateF.sector="all"; stateF.q="";
     document.querySelectorAll('.chip[data-type]').forEach(c=>c.classList.remove('off'));
-    document.getElementById('country').value="all";
+    document.getElementById('country').value="all"; fillRegions(); document.getElementById('region').value="all";
     document.getElementById('sector').value="all";
     document.getElementById('search').value=""; render(true);
   });
