@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T01:26:10.938702Z",
-  "count": 509,
+  "generated": "2026-09-27T08:08:13.530854Z",
+  "count": 510,
   "incidents": [
     {
       "id": 1308,
@@ -9671,6 +9671,25 @@
       "lng": -82.8591,
       "src": "WSYX",
       "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNREJaeUR0R3F0WU1FM2NQWThSNFNZT2pXUDNsS2JVVTB1ZFRBaGotdFNmVzNqTV9KMF83cDExQUhJSjRQTlA2S2lFc2prYW94VHhERHpUbGxZcy1ScFRsT3c5Y3JyVGVqYkxZWDJPVTVJclBsUG9PUk1zenlOUzdHcy1va0FMS1NrTGd5RjFleXVWa2xwSVZMTzI0V19oU1N1RldzTXBlQ1JNR1dDcGQyc2VMcVFvOVdPYzhhcTJUQjJTdWVUZTBySkNsUjZjcHRTdTQ4bEdNZnpCRVZxUnlfbDZpYnBQWFhpYVBtcVdLbWc5Y3lULThtYks5ZGlpNTRTc3RzSTdTNW9PT2w3ZE9ISU9KdzRaQWZacEJZdzNWMzY2ZGk1aUhwSWI0VTI0cjFYYlFSd19UTTBTVUFBUkZBRWJnMW5MUll5R1hCQWRTa1JqUTYyRlVpU0tNWXM?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1309,
+      "country": "United States",
+      "date": "2015-01-05",
+      "school": "Beverly Hills High School",
+      "city": "Beverly Hills",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Beverly Hills High School bomb threat 2015-01-05",
+      "notes": "Beverly Hills High School evacuated after bomb threat",
+      "lat": 34.0697,
+      "lng": -118.3963,
+      "src": "ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR3BEQ0wzNUl3bzVMVVNtTDdtTW8wa0daeGlUeEpFYmFtZXJUcjlsWmp4Q2M0TklwdThJc05zRWxycVF4Ylk3T3BZWURRam82NGQ2cGM1SUJZN0Y2UTNLWGFMMWI2UGVsckZYNFd0U25iQ2pXdzN0NEM0dHVxQ3IzQW1iQXhndVgxSlpJ0gGQAUFVX3lxTE5ZbmRjaVBtUnVIX3NXZm9faGVmSXNlWlo1QVpESGtELU83YW5PMkRrcVJONHBRRUN6WWpsTlJmV2g0RnMzN2NsN1A1NW1nZXRyQjF2c1J0ZDNmbGlvNkdGSXFmQkR6cTdEcjZ0bkxtenlsaDl5bW9uU1E1Ul81SWRzWE9ET2dTbl94MzluOG5JTQ?oc=5",
       "sources": 1
     }
   ]
