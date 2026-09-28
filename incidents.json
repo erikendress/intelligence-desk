@@ -1,7 +1,26 @@
 {
-  "generated": "2026-09-28T06:52:08.875580Z",
-  "count": 510,
+  "generated": "2026-09-28T15:26:12.316781Z",
+  "count": 511,
   "incidents": [
+    {
+      "id": 1310,
+      "country": "United States",
+      "date": "2026-09-28",
+      "school": "Harvard University",
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Harvard University bomb threat 2026-09-28",
+      "notes": "Bomb threat reported at Harvard University, students asked to shelter in place",
+      "lat": 42.3656,
+      "lng": -71.104,
+      "src": "Boston 25 News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOelM1bldzMWhiejBtOHkyZTRuNjNWNEx1X1dKdjEyWThkVlg3RG9WbXJrS1NubTdkSjBoaVRDV1BCTWFKWUtqTkN0ckg0MjhiYkNGOXdoMWx3NF93WXZqMjlHd0pwalZDbnlvUk14QXpOeE1LcE9TN1RZS2d3RmhpREltRzRJYU12c1Ruazl1S1BJWkhNUkwwdDFFeTBDUVVXS21iMEE1ZUhhMEpiN0xQQjJ6SGFMM3hMR1h0WUVXZldfR1JTcmJpRFh4a0NRR1lHUkHSAeYBQVVfeXFMTXhvWDU1bWJubWc1bDBvMjZLUWhlYWh3YmJ4ZHBKWlZvUUJwNGU5SmVNWG40UEtPVGxZckRqWG5vaHdqSERaeVlwcW5xUWg5N1JQejdzUGl2TWtWUWZ6QkQzNENsWFR4RjNNVGlTcGROeG1yWmx4cXZ2Uno2REVSUXB5c0JySXFFZGRaVDRmWmxNTFZNUWZxQmRJQXR4TElaZ19HX2pOcURUZjU2clNwTGxMVEtyc3MzUm1LNnU5VUdHR3VUQll6Wk1xZFgwYy01RFBBLWdQaThSemZhTzE4ZlUtS3NDWmc?oc=5",
+      "sources": 2
+    },
     {
       "id": 1308,
       "country": "United States",
