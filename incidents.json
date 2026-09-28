@@ -1,7 +1,26 @@
 {
-  "generated": "2026-09-28T15:26:12.316781Z",
-  "count": 511,
+  "generated": "2026-09-28T21:59:50.311016Z",
+  "count": 512,
   "incidents": [
+    {
+      "id": 1311,
+      "country": "United States",
+      "date": "2026-09-28",
+      "school": "Walmart",
+      "city": "Lebanon",
+      "state": "Tennessee",
+      "sector": "Retail",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Lebanon Walmart bomb and active shooter hoax 2026-09-28",
+      "notes": "Lebanon Walmart Evacuated After Bomb, Active Shooter Hoax Calls",
+      "lat": 36.208,
+      "lng": -86.2911,
+      "src": "Wilson County Source",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzNudzF4amljaUVzTjd4VTRZenlwOTh3Nms0RHJzaDA3X0xpd2Q4RHBmamI0UWRIUlFzZUhxRnowTGNWUE50dnNjSHo0VmNhY2oxaEdtY25rNTh4UnViRXMwNkY1MjVDZDd4dVV2cko3ODRMX0szcEZWNjZia0IyV1E3bWNYUTNjOTdWM0dTUEg1WlFZaGV0ZHRR?oc=5",
+      "sources": 1
+    },
     {
       "id": 1310,
       "country": "United States",
