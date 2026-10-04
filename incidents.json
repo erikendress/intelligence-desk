@@ -1,7 +1,26 @@
 {
-  "generated": "2026-10-03T23:02:39.773921Z",
-  "count": 512,
+  "generated": "2026-10-04T02:37:23.879759Z",
+  "count": 513,
   "incidents": [
+    {
+      "id": 1312,
+      "country": "United States",
+      "date": "2026-10-03",
+      "school": "Banner Wyoming Medical Center",
+      "city": "Cody",
+      "state": "Wyoming",
+      "sector": "Healthcare",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Banner Wyoming Medical Center swatting 2026-10-03",
+      "notes": "Local law enforcement respond to 'swatting incident' at Banner Wyoming Medical Center",
+      "lat": 44.5263,
+      "lng": -109.0564,
+      "src": "oilcity.news",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbmdQYS1IWHRzZElvX1dNU2dfeDhRU3czUDlJRjFuWjBSSEc4WWJqZkxEZVp6SFNOSnhMeU5ZQUFDbFgwVUdXaTEwQlVkM2JKYnZ3bXhYUGMwTnFnSWlLSUhQTDlaODNqMk1oWHdUYWFZM0lfTFFTTW1UM2hRNXMzZFdUdUpYNGtTbEpuLWRTUWpsc0hzSTd2eDltb2hPbEEzWExKRVNnUmJ3bXdvNmQ3VUtuQmZCUXRQaHM5YkpSdw?oc=5",
+      "sources": 1
+    },
     {
       "id": 1311,
       "country": "United States",
