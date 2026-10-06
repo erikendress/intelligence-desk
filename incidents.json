@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T00:48:23.488680Z",
-  "count": 513,
+  "generated": "2026-10-06T07:33:22.315154Z",
+  "count": 514,
   "incidents": [
     {
       "id": 1312,
@@ -9633,6 +9633,25 @@
       "lng": -72.6311,
       "src": "Daily Hampshire Gazette",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3ZJS0VFZUttUGZ3Yy1QM1ZidElISlA5MElBWUZWRnJ1dFBUQldCYVEtTjJjV0U3dGZ0Z2d2TEhXVjh2NkRLUG12UEJ0c3BUMTVBclhPUkZTQW5zRmlUbmo2NDh6YXI0Ul9IS3JERzZrQ3d1VEtLWURJZ0NVRkZQTlQzWGQ4eWdTYVRz?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1313,
+      "country": "United States",
+      "date": "2025-08-25",
+      "school": "University of Arkansas",
+      "city": "Fayetteville",
+      "state": "Arkansas",
+      "sector": "Higher Ed",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "University of Arkansas active-shooter hoax 2025-08-25",
+      "notes": "Police find no evidence of campus shooter at University of Arkansas",
+      "lat": 36.0626,
+      "lng": -94.1574,
+      "src": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGJQODhoYmJxRzFrZVllSm9hQXd0enRZaXBEaWRaT1RqZjIxdmRqMXdHM1pXOXAyLTZfWUs4U0g0THZiSTVuT3ZqUF8xcXM2eWktX0VCczlObEdKamxFbWdDclIxZ2NlaHcxZmFYaHB3UHVBaTExMmRDU0I2cGNGdDRmMktQbHpwQXpqQmVydER4UWgtbUpRS3lhamNmblU?oc=5",
       "sources": 1
     },
     {
