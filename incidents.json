@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T07:13:15.844965Z",
-  "count": 514,
+  "generated": "2026-10-07T14:29:56.951424Z",
+  "count": 515,
   "incidents": [
     {
       "id": 1312,
@@ -9633,6 +9633,25 @@
       "lng": -72.6311,
       "src": "Daily Hampshire Gazette",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV3ZJS0VFZUttUGZ3Yy1QM1ZidElISlA5MElBWUZWRnJ1dFBUQldCYVEtTjJjV0U3dGZ0Z2d2TEhXVjh2NkRLUG12UEJ0c3BUMTVBclhPUkZTQW5zRmlUbmo2NDh6YXI0Ul9IS3JERzZrQ3d1VEtLWURJZ0NVRkZQTlQzWGQ4eWdTYVRz?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1314,
+      "country": "United States",
+      "date": "2025-09-28",
+      "school": "Grove City College",
+      "city": "Grove City",
+      "state": "Pennsylvania",
+      "sector": "Higher Ed",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Grove City College swatting 2025-09-28",
+      "notes": "Grove City College targeted in false \"swatting\" call, state police say",
+      "lat": 41.1579,
+      "lng": -80.0887,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcVU2b2pxN2J3ZkJDOC1ER2xhZFNqa3VxX0JQYTFoT1l1TVBoVXpXQjdFQ3ZLdkJ4c0JtblVUdklFOXAxbUpjSFlPVUY3SlF3ZHBPY29YRV9YZlJlZFpST2JrdDZZX3NSYXdiMzRmQm0wT2NPekR1bENPaklBX3FRVVd6Z2w3Z01SLUhiQ2h6MUo?oc=5",
       "sources": 1
     },
     {
