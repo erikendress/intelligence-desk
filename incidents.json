@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T00:41:03.671616Z",
+  "generated": "2026-10-07T07:13:15.844965Z",
   "count": 514,
   "incidents": [
     {
@@ -9652,7 +9652,7 @@
       "lng": -94.1574,
       "src": "Axios",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaGJQODhoYmJxRzFrZVllSm9hQXd0enRZaXBEaWRaT1RqZjIxdmRqMXdHM1pXOXAyLTZfWUs4U0g0THZiSTVuT3ZqUF8xcXM2eWktX0VCczlObEdKamxFbWdDclIxZ2NlaHcxZmFYaHB3UHVBaTExMmRDU0I2cGNGdDRmMktQbHpwQXpqQmVydER4UWgtbUpRS3lhamNmblU?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 183,
