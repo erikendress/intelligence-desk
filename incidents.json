@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T22:09:12.051895Z",
+  "generated": "2026-10-11T23:41:50.701530Z",
   "count": 535,
   "incidents": [
     {
@@ -323,7 +323,7 @@
       "lng": -87.6773,
       "src": "wjfw.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNM0w0NHk4SWhhRExjNlN6N2hob0JucEdXOERPTnkzZURrX3FBYXhVRVdsc1hvRlNrTnNYYVNYQlpEN1JYcTRGakhtN3B3LVJWNmUwcUN1VDlCc3NkWFJ3OVZVQVp3SWk2NVppQW1qWlpmdXg1bXFQaWxybENMcjJsYzNTVUZfOTVpM19GdC1MSFVWbVZCLWpWSHFxb3FYdkNZeWE4TGZ2SDFoZ3NHdVhBZlFQZW55SUo5UWxqU0s4ckNnZG42RzJyVS1ZQmJvdV90M1cxVnhHaElDWkltQkE?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1321,
@@ -10169,14 +10169,14 @@
     }
   ],
   "last_run": {
-    "ingested": 133,
-    "skipped_seen": 0,
-    "recognized": 31,
-    "new": 20,
-    "updated": 1,
-    "rejected": 85,
+    "ingested": 132,
+    "skipped_seen": 124,
+    "recognized": 1,
+    "new": 0,
+    "updated": 0,
+    "rejected": 7,
     "errors": 0,
-    "attempted": 133,
+    "attempted": 8,
     "backfill": false,
     "routes": [
       {
@@ -10191,7 +10191,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 46
       },
       {
         "edition": "GB:en",
@@ -10205,7 +10205,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 46
+        "items": 47
       },
       {
         "edition": "CA:en",
@@ -10223,6 +10223,6 @@
       }
     ],
     "engine": "v8-splitquery",
-    "ran_at": "2026-10-11T22:09:12.041154Z"
+    "ran_at": "2026-10-11T23:41:50.694778Z"
   }
 }
