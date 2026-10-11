@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T21:20:11.861688Z",
+  "generated": "2026-10-11T21:52:28.748473Z",
   "count": 515,
   "incidents": [
     {
@@ -9787,5 +9787,38 @@
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR3BEQ0wzNUl3bzVMVVNtTDdtTW8wa0daeGlUeEpFYmFtZXJUcjlsWmp4Q2M0TklwdThJc05zRWxycVF4Ylk3T3BZWURRam82NGQ2cGM1SUJZN0Y2UTNLWGFMMWI2UGVsckZYNFd0U25iQ2pXdzN0NEM0dHVxQ3IzQW1iQXhndVgxSlpJ0gGQAUFVX3lxTE5ZbmRjaVBtUnVIX3NXZm9faGVmSXNlWlo1QVpESGtELU83YW5PMkRrcVJONHBRRUN6WWpsTlJmV2g0RnMzN2NsN1A1NW1nZXRyQjF2c1J0ZDNmbGlvNkdGSXFmQkR6cTdEcjZ0bkxtenlsaDl5bW9uU1E1Ul81SWRzWE9ET2dTbl94MzluOG5JTQ?oc=5",
       "sources": 1
     }
-  ]
+  ],
+  "last_run": {
+    "ingested": 46,
+    "skipped_seen": 46,
+    "recognized": 0,
+    "new": 0,
+    "updated": 0,
+    "rejected": 0,
+    "errors": 0,
+    "attempted": 0,
+    "backfill": false,
+    "routes": [
+      {
+        "edition": "US:en",
+        "route": "proxy",
+        "attempt": 1,
+        "items": 25
+      },
+      {
+        "edition": "GB:en",
+        "route": "proxy",
+        "attempt": 8,
+        "items": 25
+      },
+      {
+        "edition": "CA:en",
+        "route": "proxy",
+        "attempt": 6,
+        "items": 25
+      }
+    ],
+    "engine": "v7-selfreport",
+    "ran_at": "2026-10-11T21:52:28.745667Z"
+  }
 }
