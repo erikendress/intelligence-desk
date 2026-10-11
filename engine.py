@@ -109,10 +109,19 @@ def apply_scope(con):
 # Lead with the THREAT terms and let the classifier identify the place. A place-led query
 # ("school OR hospital OR ...") makes Google match the place words and return generic non-incident
 # news; a threat-led query returns articles that are actually about safety events (~90% on-target).
-NEWS_QUERY = ('"bomb threat" OR swatting OR "active shooter" OR "shelter in place" '
-              'OR "school lockdown" OR "campus lockdown" OR "building evacuated" '
-              'OR "suspicious package" OR "lockdown lifted" OR "hoax threat" '
-              'OR "suspicious item" OR "hoax call" OR "police cordon" OR "evacuated as a precaution"')
+# IMPORTANT: Google News silently DROPS the date operator (when:/after:) once a query carries
+# roughly 11+ OR terms (~210 chars). The feed then returns a fixed, relevance-ranked "evergreen"
+# set (median age ~2 years) that never changes - which is exactly how the feed froze in Oct 2026.
+# Keep every group at 7 terms or fewer; measured threshold Oct 2026: 8 ok, 10 degraded, 11 broken.
+NEWS_QUERIES = [
+    '"bomb threat" OR swatting OR "active shooter" OR "shelter in place" OR "school lockdown" '
+    'OR "campus lockdown" OR "building evacuated"',
+    '"suspicious package" OR "lockdown lifted" OR "hoax threat" OR "suspicious item" OR "hoax call" '
+    'OR "police cordon" OR "evacuated as a precaution"',
+]
+MAX_QUERY_TERMS = 8
+for _q in NEWS_QUERIES:
+    assert _q.count(" OR ") + 1 <= MAX_QUERY_TERMS, "query group too long - Google will drop the date filter"
 
 # Google News editions to sweep: coverage is limited to the US, Canada and the UK.
 EDITIONS = [("US", "US:en"), ("GB", "GB:en"), ("CA", "CA:en")]
@@ -125,22 +134,20 @@ UA_POOL = [
 ]
 
 # A tiny Cloudflare Worker that fetches news.google.com on our behalf (see osti-news-proxy).
-# Google feeds GitHub's runner IPs a stale, cached trickle; Cloudflare's edge IPs get fresh
-# results about 1 time in 4. Each proxy attempt lands on a different edge IP, so a handful of
-# retries almost always finds a fresh one. Set NEWS_PROXY_URL="" to disable.
+# The direct route is tried first; the proxy is the fallback for when Google refuses the runner.
+# Each proxy attempt lands on a different edge IP (they 503 about 3 times in 4). Set NEWS_PROXY_URL="" to disable.
 NEWS_PROXY_URL = os.environ.get("NEWS_PROXY_URL", "https://osti-news-proxy.erikendress.workers.dev")
-PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "30"))
-ROUTE_LOG = []   # per-edition outcome, surfaced in incidents.json["last_run"] so runs are self-reporting
+PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "12"))
+ROUTE_LOG = []   # per-fetch outcome, surfaced in incidents.json["last_run"] so runs are self-reporting
 
-def _fetch_google_news(gl, ceid, days, maxrecords):
+def _fetch_google_news(gl, ceid, days, maxrecords, query, qi=0):
     import xml.etree.ElementTree as ET
-    q = NEWS_QUERY + " when:%dd" % days
+    q = query + " when:%dd" % days
     def google_url():
         return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
             {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid, "_": "%d%03d" % (int(time.time()), random.randint(0, 999))})
-    # Route plan: several tries through the Cloudflare proxy (fresh results), then one direct
-    # fetch as a last resort so a run can never do worse than before the proxy existed.
-    routes = (["proxy"] * PROXY_ATTEMPTS if NEWS_PROXY_URL else []) + ["direct"]
+    # Route plan: direct first (two tries), then the Cloudflare proxy as a fallback.
+    routes = ["direct", "direct"] + (["proxy"] * PROXY_ATTEMPTS if NEWS_PROXY_URL else [])
     for attempt, route in enumerate(routes, 1):
         gurl = google_url()
         url = (NEWS_PROXY_URL.rstrip("/") + "/?" + urllib.parse.urlencode({"url": gurl})) if route == "proxy" else gurl
@@ -163,35 +170,38 @@ def _fetch_google_news(gl, ceid, days, maxrecords):
                 if len(out) >= maxrecords:
                     break
             if out:
-                print("ingest: %s ok via %s (attempt %d, %d items)" % (ceid, route, attempt, len(out)))
-                ROUTE_LOG.append({"edition": ceid, "route": route, "attempt": attempt, "items": len(out)})
+                print("ingest: %s q%d ok via %s (attempt %d, %d items)" % (ceid, qi, route, attempt, len(out)))
+                ROUTE_LOG.append({"edition": ceid, "q": qi, "route": route, "attempt": attempt, "items": len(out)})
                 return out
             print("ingest: %s returned no items via %s (attempt %d)" % (ceid, route, attempt))
         except Exception as e:
             print("ingest: %s via %s attempt %d failed: %s" % (ceid, route, attempt, str(e)[:90]))
         time.sleep(0.8 + random.uniform(0, 0.8))
-    print("ingest: %s gave nothing on every route" % ceid)
-    ROUTE_LOG.append({"edition": ceid, "route": "none", "attempt": len(routes), "items": 0})
+    print("ingest: %s q%d gave nothing on every route" % (ceid, qi))
+    ROUTE_LOG.append({"edition": ceid, "q": qi, "route": "none", "attempt": len(routes), "items": 0})
     return []
 
 def ingest_live(days=None, maxrecords=None):
-    # Hourly runs use a tight window and a small per-edition cap. A one-off backfill widens
-    # both (see run()). Env vars LOOKBACK_DAYS / MAX_RECORDS override the hourly defaults.
+    # Hourly runs use a tight window and a per-fetch cap. A one-off backfill widens both (see run()).
+    # Env vars LOOKBACK_DAYS / MAX_RECORDS override the hourly defaults. Each edition is swept once
+    # per query group (see NEWS_QUERIES), and the results are unioned by URL.
     if days is None:
         days = int(os.environ.get("LOOKBACK_DAYS", "3"))
     if maxrecords is None:
-        maxrecords = int(os.environ.get("MAX_RECORDS", "25"))
-    seen, merged, empty = set(), [], 0
+        maxrecords = int(os.environ.get("MAX_RECORDS", "60"))
+    seen, merged, empty, fetches = set(), [], 0, 0
     for gl, ceid in EDITIONS:
-        got = _fetch_google_news(gl, ceid, days, maxrecords)
-        if not got:
-            empty += 1
-        for a in got:
-            if a["url"] and a["url"] not in seen:
-                seen.add(a["url"]); merged.append(a)
-        time.sleep(random.uniform(1.5, 3.0))  # never burst-hit Google from a single IP
-    print("ingest: pulled %d articles across %d editions (%d editions returned nothing) - %dd window, %d/edition cap"
-          % (len(merged), len(EDITIONS), empty, days, maxrecords))
+        for qi, query in enumerate(NEWS_QUERIES):
+            fetches += 1
+            got = _fetch_google_news(gl, ceid, days, maxrecords, query, qi)
+            if not got:
+                empty += 1
+            for a in got:
+                if a["url"] and a["url"] not in seen:
+                    seen.add(a["url"]); merged.append(a)
+            time.sleep(random.uniform(1.5, 3.0))  # never burst-hit Google from a single IP
+    print("ingest: pulled %d unique articles from %d fetches (%d returned nothing) - %dd window, %d/fetch cap"
+          % (len(merged), fetches, empty, days, maxrecords))
     return merged
 
 def ingest_mock():
@@ -360,7 +370,7 @@ def run(mock=False):
         days, maxrecords = 180, 80
         print("BACKFILL: one-time clean rebuild over a %dd window (scope: %s)" % (days, BACKFILL_VERSION))
     else:
-        days = maxrecords = None  # normal run: env vars if set, else 3d / 25-per-edition
+        days = maxrecords = None  # normal run: env vars if set, else 3d / 60-per-fetch
     if _meta_get(con, "scope_version") != SCOPE_VERSION:
         apply_scope(con)
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('scope_version', ?)", (SCOPE_VERSION,))
@@ -422,7 +432,7 @@ def run(mock=False):
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfill_version', ?)", (BACKFILL_VERSION,))
     con.commit()
     last_run = {**stats, "attempted": attempted, "backfill": backfill, "routes": ROUTE_LOG,
-                "engine": "v7-selfreport", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
+                "engine": "v8-splitquery", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
     total = export(con, last_run)
     print(json.dumps({**last_run, "total_in_db": total, "output": OUT}, indent=2))
     if not mock and attempted >= 5 and stats["recognized"] == 0 and stats["errors"] >= attempted * 0.5:
