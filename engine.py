@@ -129,7 +129,8 @@ UA_POOL = [
 # results about 1 time in 4. Each proxy attempt lands on a different edge IP, so a handful of
 # retries almost always finds a fresh one. Set NEWS_PROXY_URL="" to disable.
 NEWS_PROXY_URL = os.environ.get("NEWS_PROXY_URL", "https://osti-news-proxy.erikendress.workers.dev")
-PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "5"))
+PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "30"))
+ROUTE_LOG = []   # per-edition outcome, surfaced in incidents.json["last_run"] so runs are self-reporting
 
 def _fetch_google_news(gl, ceid, days, maxrecords):
     import xml.etree.ElementTree as ET
@@ -163,12 +164,14 @@ def _fetch_google_news(gl, ceid, days, maxrecords):
                     break
             if out:
                 print("ingest: %s ok via %s (attempt %d, %d items)" % (ceid, route, attempt, len(out)))
+                ROUTE_LOG.append({"edition": ceid, "route": route, "attempt": attempt, "items": len(out)})
                 return out
             print("ingest: %s returned no items via %s (attempt %d)" % (ceid, route, attempt))
         except Exception as e:
             print("ingest: %s via %s attempt %d failed: %s" % (ceid, route, attempt, str(e)[:90]))
-        time.sleep(1.5 + random.uniform(0, 1.5))
+        time.sleep(0.8 + random.uniform(0, 0.8))
     print("ingest: %s gave nothing on every route" % ceid)
+    ROUTE_LOG.append({"edition": ceid, "route": "none", "attempt": len(routes), "items": 0})
     return []
 
 def ingest_live(days=None, maxrecords=None):
@@ -318,7 +321,7 @@ def assign_clusters(con):
             con.execute("UPDATE incidents SET cluster_id=? WHERE cluster_hint=?", (slug(hint), hint))
 
 # ----------------------------------------------------------------------------- export
-def export(con):
+def export(con, last_run=None):
     rows = con.execute("""SELECT id, country, date, facility_name, town, region, facility_type,
         trigger_type, protective_action, outcome_status, cluster_hint, evidence_quote, lat, lng,
         source_domain, source_url,
@@ -329,9 +332,11 @@ def export(con):
         "sector": r[6], "type": r[7], "response": r[8], "outcome": r[9], "cluster": r[10] or "",
         "notes": r[11] or "", "lat": r[12], "lng": r[13], "src": r[14], "url": r[15], "sources": r[16] or 1
     } for r in rows]
-    json.dump({"generated": datetime.datetime.utcnow().isoformat() + "Z",
-               "count": len(incidents), "incidents": incidents},
-              open(OUT, "w"), indent=2)
+    doc = {"generated": datetime.datetime.utcnow().isoformat() + "Z",
+           "count": len(incidents), "incidents": incidents}
+    if last_run is not None:
+        doc["last_run"] = last_run   # self-reported run stats; the board ignores this key
+    json.dump(doc, open(OUT, "w"), indent=2)
     return len(incidents)
 
 # ----------------------------------------------------------------------------- run
@@ -416,8 +421,10 @@ def run(mock=False):
     if backfill:
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfill_version', ?)", (BACKFILL_VERSION,))
     con.commit()
-    total = export(con)
-    print(json.dumps({**stats, "backfill": backfill, "total_in_db": total, "output": OUT}, indent=2))
+    last_run = {**stats, "attempted": attempted, "backfill": backfill, "routes": ROUTE_LOG,
+                "engine": "v7-selfreport", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
+    total = export(con, last_run)
+    print(json.dumps({**last_run, "total_in_db": total, "output": OUT}, indent=2))
     if not mock and attempted >= 5 and stats["recognized"] == 0 and stats["errors"] >= attempted * 0.5:
         print("\n!!! CLASSIFY DEGRADED: %d of %d classification attempts errored and nothing was recognized.\n"
               "    This is almost always an API key / credits problem. Exiting non-zero so it shows RED. (exit 4)"
