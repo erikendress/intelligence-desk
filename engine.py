@@ -124,15 +124,25 @@ UA_POOL = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
 ]
 
+# A tiny Cloudflare Worker that fetches news.google.com on our behalf (see osti-news-proxy).
+# Google feeds GitHub's runner IPs a stale, cached trickle; Cloudflare's edge IPs get fresh
+# results about 1 time in 4. Each proxy attempt lands on a different edge IP, so a handful of
+# retries almost always finds a fresh one. Set NEWS_PROXY_URL="" to disable.
+NEWS_PROXY_URL = os.environ.get("NEWS_PROXY_URL", "https://osti-news-proxy.erikendress.workers.dev")
+PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "5"))
+
 def _fetch_google_news(gl, ceid, days, maxrecords):
     import xml.etree.ElementTree as ET
     q = NEWS_QUERY + " when:%dd" % days
-    # Google News can hand a datacenter IP (e.g. a GitHub runner) a stale cached result set, an empty
-    # 200, or an HTML consent page instead of fresh RSS. So: a unique cache-buster on every request,
-    # a rotating User-Agent, and "no items" treated as a soft failure that is retried with backoff.
-    for attempt in range(4):
-        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+    def google_url():
+        return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
             {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid, "_": "%d%03d" % (int(time.time()), random.randint(0, 999))})
+    # Route plan: several tries through the Cloudflare proxy (fresh results), then one direct
+    # fetch as a last resort so a run can never do worse than before the proxy existed.
+    routes = (["proxy"] * PROXY_ATTEMPTS if NEWS_PROXY_URL else []) + ["direct"]
+    for attempt, route in enumerate(routes, 1):
+        gurl = google_url()
+        url = (NEWS_PROXY_URL.rstrip("/") + "/?" + urllib.parse.urlencode({"url": gurl})) if route == "proxy" else gurl
         headers = {"User-Agent": random.choice(UA_POOL),
                    "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
                    "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache", "Pragma": "no-cache"}
@@ -152,12 +162,13 @@ def _fetch_google_news(gl, ceid, days, maxrecords):
                 if len(out) >= maxrecords:
                     break
             if out:
+                print("ingest: %s ok via %s (attempt %d, %d items)" % (ceid, route, attempt, len(out)))
                 return out
-            print("ingest: %s returned no items (attempt %d) - possible throttling" % (ceid, attempt + 1))
+            print("ingest: %s returned no items via %s (attempt %d)" % (ceid, route, attempt))
         except Exception as e:
-            print("ingest: %s attempt %d failed: %s" % (ceid, attempt + 1, e))
-        time.sleep(3 * (attempt + 1) + random.uniform(0, 2))
-    print("ingest: %s gave nothing after retries" % ceid)
+            print("ingest: %s via %s attempt %d failed: %s" % (ceid, route, attempt, str(e)[:90]))
+        time.sleep(1.5 + random.uniform(0, 1.5))
+    print("ingest: %s gave nothing on every route" % ceid)
     return []
 
 def ingest_live(days=None, maxrecords=None):
