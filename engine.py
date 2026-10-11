@@ -140,9 +140,9 @@ NEWS_PROXY_URL = os.environ.get("NEWS_PROXY_URL", "https://osti-news-proxy.erike
 PROXY_ATTEMPTS = int(os.environ.get("PROXY_ATTEMPTS", "12"))
 ROUTE_LOG = []   # per-fetch outcome, surfaced in incidents.json["last_run"] so runs are self-reporting
 
-def _fetch_google_news(gl, ceid, days, maxrecords, query, qi=0):
+def _fetch_google_news(gl, ceid, days, maxrecords, query, qi=0, dated=True):
     import xml.etree.ElementTree as ET
-    q = query + " when:%dd" % days
+    q = (query + " when:%dd" % days) if dated else query
     def google_url():
         return "https://news.google.com/rss/search?" + urllib.parse.urlencode(
             {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid, "_": "%d%03d" % (int(time.time()), random.randint(0, 999))})
@@ -202,6 +202,29 @@ def ingest_live(days=None, maxrecords=None):
             time.sleep(random.uniform(1.5, 3.0))  # never burst-hit Google from a single IP
     print("ingest: pulled %d unique articles from %d fetches (%d returned nothing) - %dd window, %d/fetch cap"
           % (len(merged), fetches, empty, days, maxrecords))
+    return merged
+
+# One-time gap fill. The feed froze from Oct 3 to Oct 11 2026 (see NEWS_QUERIES). Each day in the
+# window is swept with an explicit after:/before: pair so Google returns that day's articles rather
+# than its relevance-ranked top 100 for the whole span. Runs once (flag in meta), then never again.
+GAPFILL_VERSION = "oct2026-outage"
+GAPFILL_WINDOW = ("2026-10-03", "2026-10-09")   # start inclusive, end exclusive (ISO dates)
+
+def ingest_gap(start, end, maxrecords=100):
+    d0 = datetime.date.fromisoformat(start); d1 = datetime.date.fromisoformat(end)
+    seen, merged, day = set(), [], d0
+    while day < d1:
+        nxt = day + datetime.timedelta(days=1)
+        for gl, ceid in EDITIONS:
+            for qi, query in enumerate(NEWS_QUERIES):
+                q = "%s after:%s before:%s" % (query, day.isoformat(), nxt.isoformat())
+                got = _fetch_google_news(gl, ceid, 0, maxrecords, q, qi, dated=False)
+                for a in got:
+                    if a["url"] and a["url"] not in seen:
+                        seen.add(a["url"]); merged.append(a)
+                time.sleep(random.uniform(1.0, 2.0))
+        day = nxt
+    print("gapfill: pulled %d unique articles for %s..%s" % (len(merged), start, end))
     return merged
 
 def ingest_mock():
@@ -385,6 +408,11 @@ def run(mock=False):
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('dedupe_version', ?)", (dedupe.VERSION,))
         con.commit()
     articles = ingest_mock() if mock else ingest_live(days, maxrecords)
+    gapfill = (not mock) and (not backfill) and _meta_get(con, "gapfill_version") != GAPFILL_VERSION
+    if gapfill and articles:
+        print("GAPFILL: one-time sweep of %s..%s (%s)" % (GAPFILL_WINDOW + (GAPFILL_VERSION,)))
+        have = {a["url"] for a in articles}
+        articles += [a for a in ingest_gap(*GAPFILL_WINDOW) if a["url"] not in have]
     if not mock and not articles:
         print("\n!!! INGEST FAILURE: 0 articles came back from every Google News edition.\n"
               "    Google is most likely throttling/blocking this runner's IP. Nothing was classified and the\n"
@@ -430,9 +458,11 @@ def run(mock=False):
     assign_clusters(con)
     if backfill:
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('backfill_version', ?)", (BACKFILL_VERSION,))
+    if gapfill:
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('gapfill_version', ?)", (GAPFILL_VERSION,))
     con.commit()
-    last_run = {**stats, "attempted": attempted, "backfill": backfill, "routes": ROUTE_LOG,
-                "engine": "v8-splitquery", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
+    last_run = {**stats, "attempted": attempted, "backfill": backfill, "gapfill": gapfill, "routes": ROUTE_LOG,
+                "engine": "v8.1-gapfill", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
     total = export(con, last_run)
     print(json.dumps({**last_run, "total_in_db": total, "output": OUT}, indent=2))
     if not mock and attempted >= 5 and stats["recognized"] == 0 and stats["errors"] >= attempted * 0.5:
