@@ -11,7 +11,7 @@ Run it:
 The board reads the exported incidents.json. GitHub Actions runs this on a schedule
 and commits the updated feed — no server, nobody feeding it by hand.
 """
-import os, re, json, sqlite3, argparse, datetime, hashlib, urllib.parse, urllib.request
+import os, re, sys, json, time, random, sqlite3, argparse, datetime, hashlib, urllib.parse, urllib.request
 import dedupe, regions
 
 DB   = os.path.join(os.path.dirname(__file__), "incidents.db")
@@ -117,40 +117,48 @@ NEWS_QUERY = ('"bomb threat" OR swatting OR "active shooter" OR "shelter in plac
 # Google News editions to sweep: coverage is limited to the US, Canada and the UK.
 EDITIONS = [("US", "US:en"), ("GB", "GB:en"), ("CA", "CA:en")]
 
+UA_POOL = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+]
+
 def _fetch_google_news(gl, ceid, days, maxrecords):
-    import time as _t, xml.etree.ElementTree as ET
+    import xml.etree.ElementTree as ET
     q = NEWS_QUERY + " when:%dd" % days
-    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid})
-    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko)"}
-    raw = None
+    # Google News can hand a datacenter IP (e.g. a GitHub runner) a stale cached result set, an empty
+    # 200, or an HTML consent page instead of fresh RSS. So: a unique cache-buster on every request,
+    # a rotating User-Agent, and "no items" treated as a soft failure that is retried with backoff.
     for attempt in range(4):
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+            {"q": q, "hl": "en-US", "gl": gl, "ceid": ceid, "_": "%d%03d" % (int(time.time()), random.randint(0, 999))})
+        headers = {"User-Agent": random.choice(UA_POOL),
+                   "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+                   "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache", "Pragma": "no-cache"}
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as r:
                 raw = r.read()
-            break
+            root = ET.fromstring(raw)
+            out = []
+            for item in root.iter("item"):
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or "").strip()
+                pub = (item.findtext("pubDate") or "").strip()
+                srcel = item.find("source")
+                domain = (srcel.text or "").strip() if srcel is not None else ""
+                if title:
+                    out.append({"title": title, "url": link, "domain": domain, "published": pub, "text": title})
+                if len(out) >= maxrecords:
+                    break
+            if out:
+                return out
+            print("ingest: %s returned no items (attempt %d) - possible throttling" % (ceid, attempt + 1))
         except Exception as e:
-            if attempt == 3:
-                print("ingest: %s feed failed after retries: %s" % (ceid, e))
-                return []
-            _t.sleep(5 * (attempt + 1))
-    out = []
-    try:
-        root = ET.fromstring(raw)
-    except Exception as e:
-        print("ingest: could not parse %s feed: %s" % (ceid, e))
-        return []
-    for item in root.iter("item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        pub = (item.findtext("pubDate") or "").strip()
-        src = item.find("source")
-        domain = (src.text or "").strip() if src is not None else ""
-        if title:
-            out.append({"title": title, "url": link, "domain": domain, "published": pub, "text": title})
-        if len(out) >= maxrecords:
-            break
-    return out
+            print("ingest: %s attempt %d failed: %s" % (ceid, attempt + 1, e))
+        time.sleep(3 * (attempt + 1) + random.uniform(0, 2))
+    print("ingest: %s gave nothing after retries" % ceid)
+    return []
 
 def ingest_live(days=None, maxrecords=None):
     # Hourly runs use a tight window and a small per-edition cap. A one-off backfill widens
@@ -159,28 +167,48 @@ def ingest_live(days=None, maxrecords=None):
         days = int(os.environ.get("LOOKBACK_DAYS", "3"))
     if maxrecords is None:
         maxrecords = int(os.environ.get("MAX_RECORDS", "25"))
-    seen, merged = set(), []
+    seen, merged, empty = set(), [], 0
     for gl, ceid in EDITIONS:
-        for a in _fetch_google_news(gl, ceid, days, maxrecords):
+        got = _fetch_google_news(gl, ceid, days, maxrecords)
+        if not got:
+            empty += 1
+        for a in got:
             if a["url"] and a["url"] not in seen:
                 seen.add(a["url"]); merged.append(a)
-    print("ingest: pulled %d articles across %d Google News editions — %dd window, %d/edition cap"
-          % (len(merged), len(EDITIONS), days, maxrecords))
+        time.sleep(random.uniform(1.5, 3.0))  # never burst-hit Google from a single IP
+    print("ingest: pulled %d articles across %d editions (%d editions returned nothing) - %dd window, %d/edition cap"
+          % (len(merged), len(EDITIONS), empty, days, maxrecords))
     return merged
 
 def ingest_mock():
     return json.load(open(os.path.join(os.path.dirname(__file__), "fixtures.json")))
 
 # ----------------------------------------------------------------------------- classify
+class FatalClassifyError(Exception):
+    """The classifier cannot work at all (bad key, no credits) - retrying is pointless."""
+
 def classify_live(article):
     import anthropic
     client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
     user = (f"Title: {article.get('title')}\nSource: {article.get('domain')}\n"
             f"Date: {article.get('published')}\nURL: {article.get('url')}\n\n{article.get('text','')}")
-    msg = client.messages.create(
-        model="claude-haiku-4-5", max_tokens=1200,
-        system=SYSTEM_PROMPT, messages=[{"role": "user", "content": user}])
-    return _parse_json(msg.content[0].text)
+    for attempt in range(3):
+        try:
+            msg = client.messages.create(
+                model="claude-haiku-4-5", max_tokens=1200,
+                system=SYSTEM_PROMPT, messages=[{"role": "user", "content": user}])
+            return _parse_json(msg.content[0].text)
+        except anthropic.AuthenticationError as e:
+            raise FatalClassifyError("ANTHROPIC_API_KEY was rejected (expired or revoked?): %s" % e)
+        except anthropic.PermissionDeniedError as e:
+            raise FatalClassifyError("Anthropic permission denied (billing / credits?): %s" % e)
+        except anthropic.RateLimitError:
+            time.sleep(10 * (attempt + 1))
+        except anthropic.APIStatusError as e:
+            if getattr(e, "status_code", 0) in (402, 403):
+                raise FatalClassifyError("Anthropic refused the request (status %s - credits/billing?): %s" % (e.status_code, e))
+            time.sleep(5 * (attempt + 1))
+    raise RuntimeError("classification failed after retries")
 
 def classify_mock(article):
     return article.get("label")  # fixtures carry the expected classifier output
@@ -331,13 +359,20 @@ def run(mock=False):
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('dedupe_version', ?)", (dedupe.VERSION,))
         con.commit()
     articles = ingest_mock() if mock else ingest_live(days, maxrecords)
+    if not mock and not articles:
+        print("\n!!! INGEST FAILURE: 0 articles came back from every Google News edition.\n"
+              "    Google is most likely throttling/blocking this runner's IP. Nothing was classified and the\n"
+              "    feed was NOT updated. This run exits non-zero on purpose so it shows up RED. (exit 2)")
+        sys.exit(2)
     stats = {"ingested": len(articles), "skipped_seen": 0, "recognized": 0, "new": 0, "updated": 0, "rejected": 0, "errors": 0}
+    attempted = 0
     for a in articles:
         url = a.get("url")
         if url and con.execute("SELECT 1 FROM seen_articles WHERE url=?", (url,)).fetchone():
             stats["skipped_seen"] += 1
             continue
         try:
+            attempted += 1
             res = classify_mock(a) if mock else classify_live(a)
             if url:
                 con.execute("INSERT OR IGNORE INTO seen_articles(url, seen_at) VALUES (?,?)", (url, now))
@@ -356,6 +391,12 @@ def run(mock=False):
                 stats["recognized"] += 1
                 if outcome in ("new", "updated"):
                     stats[outcome] += 1
+        except FatalClassifyError as e:
+            con.commit()
+            print("\n!!! CLASSIFY FAILURE (fatal): %s\n"
+                  "    Check the ANTHROPIC_API_KEY repository secret and the Anthropic account's credits.\n"
+                  "    Exiting non-zero on purpose so this shows up RED. (exit 3)" % e)
+            sys.exit(3)
         except Exception as e:
             stats["errors"] += 1
             print("skip article (%s): %s" % (a.get("url"), e))
@@ -366,6 +407,11 @@ def run(mock=False):
     con.commit()
     total = export(con)
     print(json.dumps({**stats, "backfill": backfill, "total_in_db": total, "output": OUT}, indent=2))
+    if not mock and attempted >= 5 and stats["recognized"] == 0 and stats["errors"] >= attempted * 0.5:
+        print("\n!!! CLASSIFY DEGRADED: %d of %d classification attempts errored and nothing was recognized.\n"
+              "    This is almost always an API key / credits problem. Exiting non-zero so it shows RED. (exit 4)"
+              % (stats["errors"], attempted))
+        sys.exit(4)
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
