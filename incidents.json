@@ -1,7 +1,121 @@
 {
-  "generated": "2026-10-12T15:22:22.500288Z",
-  "count": 610,
+  "generated": "2026-10-12T22:59:13.764353Z",
+  "count": 616,
   "incidents": [
+    {
+      "id": 1415,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Merced High School",
+      "city": "Los Banos",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Merced High School bomb threat Oct 2026",
+      "notes": "Merced High School evacuated after bomb threat; police investigation continues",
+      "lat": 37.0592,
+      "lng": -120.8505,
+      "src": "Los Banos Enterprise",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ1k4TVJRQlJKeHpKNGZpWHN4Q3A3Z0JMZUlnTTJVcXByaTB6c3dXazc5dFQ3Q19mcnB0YjA2eWJqRGhfdzBBZklXWTdsUEtxaUJZRmh0R1ZXMEM5VnJiNldoSnNzcEpoVTFEMmkzRnhSZVQ5WWdEMEEydUFsdm5TTGU3Q21SVkkyWENMWjVkc2RDQUQzemhONDZoZGg3emFhNV93NmRLdFk4Z2FPdkQwTGpyT1Z4cWdfeU9fYkhoTUowZ21YZVZaQmdR?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1414,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Peoria medical building",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Healthcare",
+      "type": "Credible Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed real",
+      "cluster": "Peoria medical building roofing adhesive fumes 2026-10-12",
+      "notes": "2 employees hospitalized after roofing adhesive fumes cause Peoria medical building evacuation",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "WEEK | 25 News Now",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVGZMLTNuTXBaaXUtbGxoUTRxVTlETE1QakZoc3Nrd3BNSElZYzlIVW0zNzV2Z21ueDAxMWR3eE5LblpLWk9wT09FbDRLcDZ4V0Z0OHZmQ0VxWUFwdU5nWEpZVE9JMjh5OUpucDdhdGJxR083Nk1LRHh0NE5BZ0xCOEkwZEVIOFM2MkN1enQxWjlmWjRHNUVCU195Zk81LVhKUURHRzkya3lqd1kyeW9XZzFfZUtwU0dHMlHSAc4BQVVfeXFMT0JYMGlsOE5aWHdMUkV6MHVDUUtEVF9oYkFrb2RXX1hCcVJQVUs0SzFnNlVFTFk2SHA2S0J1MUFEcDJwZS00a29fd3laaFBCTmVpOGJfak94bWF2RnJETDR2X3BKUS1hbERZSnFsaGNBZTNOakt5YkJpYmVPVmctNzFoQm9PTVZYSXJtZDBZWk01b2Y2dy1LN2x3MGpaeDN5SHZlNjRwMllfSzhMQ3hfZ0k4TTVjMi1qTnNBR0U5bmhjOWhZN1lmUGZEOHBjdVE?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1413,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Gilman School",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Confirmed hoax",
+      "cluster": "Baltimore area schools safety incident 2026-10-12",
+      "notes": "Gilman orders shelter in place",
+      "lat": 39.2909,
+      "lng": -76.6108,
+      "src": "Capital Gazette",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1dWMmExZTlrUWFMd3ptQmlCX0g4djA2MFk4UGRhVjNSZ0dnanJBVk5PNmpqZUNUWjg2T05TTHBkQzJEMEt2MmVkWWttbjE4MnlQNUFSSUNzRW04ZGhteUdpR2JNTDRQay11X1Nvd0RKamltbjJfMnlIT3BJY3RTRjhqLVhsV3JoWDBpcW5mZEVOWVVSdUFR?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1412,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Bryn Mawr School",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Baltimore area schools safety incident 2026-10-12",
+      "notes": "Bryn Mawr on lockdown",
+      "lat": 39.2909,
+      "lng": -76.6108,
+      "src": "Capital Gazette",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1dWMmExZTlrUWFMd3ptQmlCX0g4djA2MFk4UGRhVjNSZ0dnanJBVk5PNmpqZUNUWjg2T05TTHBkQzJEMEt2MmVkWWttbjE4MnlQNUFSSUNzRW04ZGhteUdpR2JNTDRQay11X1Nvd0RKamltbjJfMnlIT3BJY3RTRjhqLVhsV3JoWDBpcW5mZEVOWVVSdUFR?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1411,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Boca Raton Jewish preschool",
+      "city": "Boca Raton",
+      "state": "Florida",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Boca Raton Jewish preschool bomb threat 2026-10-12",
+      "notes": "Bomb threat reported at Boca Raton Jewish preschool, PBSO on scene",
+      "lat": 26.3587,
+      "lng": -80.0831,
+      "src": "WPEC",
+      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPM1F2M1ZWUEN1T1p6MFNtNTl6blRPVFl6X19RNml6RHBzNm1iQVhWNU0yNnRvb0hodS1iRWxyYjIzRFduRmxzcFdDY2JkLUxhYVdlR0VIUzZ2bmFHemxVaXEwVVdvUzZQeDRneWgyWFZxam9sVHN5N2tHQ0RzTUtoakRGU0g1emt2WUV1N3NyZVpicTlXZlhmWUxDZDl4a290MkNpUGc5WWJLOFVCMkdjWlhYWnI5TUhXMi12ZXQ3VmJOdTVhY3VwTlAyeHZ4ZnZDMG5FQWxuWV9kVTJOMi1TSjNheTVZNTRZbkc0SHRzRUxWUlY1LW1tQWJ5WGVOeXZsR0VESng1WjVWV194dVlxUkF5cVVNejBnSVdDY0FzOFl5ZjVOUXk3V2Z2Z0FGRDl1VHRxWXV0R1gxeUpFMGJwR05fX1BURTBnWUE2a0ZKQXZjN1hXQk9DUExRaTBLVS1WT1QtMjF4a2ZRZHBzaTYyRDdrSE5Ienh4cDNNS0g4VEFtUzQ?oc=5",
+      "sources": 3
+    },
+    {
+      "id": 1410,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Brentwood private school",
+      "city": "Brentwood",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Brentwood_CA_20261012_ActiveShooterHoax",
+      "notes": "'Active shooter' call that triggered lockdown at private Brentwood school was a hoax, LAPD says",
+      "lat": 37.9318,
+      "lng": -121.696,
+      "src": "ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc0dUQWZOeDhvWjRQU2thN2RLZG1ySTh4Z29NSkE4Zk1YMXQ0VWxuVFYwS0t4ZXNhT3VuTC1fR3o5OHFCcEZNTXNVZER2SkxSaTNOVnNzeUwtNTdpekxGQlJDV2o0T0JfSGEwMU1zX3g0VXlrV2ZndGhFcUNsWHk3QW9jZ0Mzb0l1Mk9PWDdCYUNHVm54ejd2b19iOUlSZFlqWjV2M19ZQXkxeldyM0cwZ0pTdDU5WGIxTW5aUVF5TUYyQQ?oc=5",
+      "sources": 1
+    },
     {
       "id": 1409,
       "country": "United Kingdom",
@@ -38,7 +152,7 @@
       "lng": -75.1217,
       "src": "Glenside Local",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYV9aY3RYVExxNTIycVNNcWxYVlpzQ1FnWThJcGNocDlibm0ybkx2c0F5NV9QUWo4Q3hJWlA4SmU4YmpFUnBBZU1ZYTE0a09laURXWlZXeVJRRnNDNXBNX0FDMEJydEJkRUMyUW1OWldKdjVOSVZld096RHdvaUhla0N2MTN3VDdxc084d19FWEN2NmkwVGNLekR6SXVmcEcxVk1QWTBIVFNJRFJCSHlv?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1407,
@@ -437,7 +551,7 @@
       "lng": -88.6134,
       "src": "WLUK",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlVfZGdMdnV2YmczZFVZQ19xTmxvc25QRHJzMHVUbUt5UE5ja2hVT2lXRUdzUVhRWURRdWxxeGhTZGl3QU1FcHlyYzktd1RXUHVNQ29Ncm1NVC1PTDNWNklZWU5TNmhhVmNWdVFHME1hODQ5elFSMUxSaUt2cS1YSzIyNTdpTmZUdmlSbjJBMEtaSjJnOVl0bjdZb0F0V0hZN3ZtRExHNkNOajlMbGowSkFYUnRhVmlVbTBaWmctQQ?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1316,
@@ -11594,14 +11708,14 @@
     }
   ],
   "last_run": {
-    "ingested": 130,
-    "skipped_seen": 96,
-    "recognized": 4,
-    "new": 4,
-    "updated": 0,
-    "rejected": 30,
+    "ingested": 115,
+    "skipped_seen": 83,
+    "recognized": 12,
+    "new": 6,
+    "updated": 2,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 34,
+    "attempted": 32,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -11617,7 +11731,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 38
       },
       {
         "edition": "GB:en",
@@ -11631,7 +11745,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 38
       },
       {
         "edition": "CA:en",
@@ -11645,10 +11759,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 38
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-12T15:22:22.496209Z"
+    "ran_at": "2026-10-12T22:59:13.758426Z"
   }
 }
