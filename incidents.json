@@ -1,7 +1,26 @@
 {
-  "generated": "2026-10-11T23:41:50.701530Z",
-  "count": 535,
+  "generated": "2026-10-12T05:55:41.275129Z",
+  "count": 536,
   "incidents": [
+    {
+      "id": 1335,
+      "country": "United States",
+      "date": "2026-10-11",
+      "school": "Florence County School District",
+      "city": "Florence",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Florence County School District swatting 2026-10-11",
+      "notes": "'Swatting' prompts Florence County School District officials to postpone Homecoming parade",
+      "lat": 34.1984,
+      "lng": -79.7672,
+      "src": "WNMU-FM",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTkRlQVdnZ3ZRTFUwUi1kU0hZUmtkNWtlWVVDR001NkZhVk5xRFJrSlFQQUhRS0N3anczSDZ0cUlZSlh2NmJQbGducTFXSmY4MXk1dkFjVk1FbW04S25XbXdadV81YUhDWGNhcDVRc05TWDROaDkxX0txMDVwUWpraEIxX0NwbUpNd000b0lMbS04dWhaclRGNG1DWHR5MnV3R1loQm9WV2ZVelJuWkxPcU9BQzh2cUh3Wms2cmlpVGVCSHF6RWtKMU1fYUVoQTJ1VG1vcA?oc=5",
+      "sources": 1
+    },
     {
       "id": 1320,
       "country": "United States",
@@ -361,7 +380,7 @@
       "lng": -88.6134,
       "src": "WLUK",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMlVfZGdMdnV2YmczZFVZQ19xTmxvc25QRHJzMHVUbUt5UE5ja2hVT2lXRUdzUVhRWURRdWxxeGhTZGl3QU1FcHlyYzktd1RXUHVNQ29Ncm1NVC1PTDNWNklZWU5TNmhhVmNWdVFHME1hODQ5elFSMUxSaUt2cS1YSzIyNTdpTmZUdmlSbjJBMEtaSjJnOVl0bjdZb0F0V0hZN3ZtRExHNkNOajlMbGowSkFYUnRhVmlVbTBaWmctQQ?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1316,
@@ -10169,14 +10188,14 @@
     }
   ],
   "last_run": {
-    "ingested": 132,
-    "skipped_seen": 124,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 124,
+    "skipped_seen": 111,
+    "recognized": 2,
+    "new": 1,
     "updated": 0,
-    "rejected": 7,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 8,
+    "attempted": 13,
     "backfill": false,
     "routes": [
       {
@@ -10191,7 +10210,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 46
+        "items": 43
       },
       {
         "edition": "GB:en",
@@ -10205,7 +10224,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 44
       },
       {
         "edition": "CA:en",
@@ -10219,10 +10238,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 44
       }
     ],
     "engine": "v8-splitquery",
-    "ran_at": "2026-10-11T23:41:50.694778Z"
+    "ran_at": "2026-10-12T05:55:41.272042Z"
   }
 }
