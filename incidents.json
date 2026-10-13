@@ -1,7 +1,64 @@
 {
-  "generated": "2026-10-12T22:59:13.764353Z",
-  "count": 616,
+  "generated": "2026-10-13T03:33:51.095873Z",
+  "count": 619,
   "incidents": [
+    {
+      "id": 1418,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "Colorado State University",
+      "city": "Fort Collins",
+      "state": "Colorado",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "CSU Fort Collins shooting incident 2026-10-13",
+      "notes": "Colorado State University shooting, active shooter reports: What's happening on the Fort Collins campus?",
+      "lat": 40.5872,
+      "lng": -105.077,
+      "src": "Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPOWljalFXV2FjeWRqemd2ak1RckdMLXNZcEdUemQyT0tlamtlWVhHUkJpMlo0NzNjY3JBWDlmOGdWRFJEdDNXbTE1OGl6bG9RWlN5SmpncEVwVnNoRVB6NHhybHVDcTlBWHhQdkZYVnlMc05WYXdCWVE2eVluOVJpWFhZQWxvYUMxYmYyTnRrckZlMkhQR1d0N3pQU3dtWlFkRXkwUlQ4aW1Yd3FXeWxVSzUwYWlZNDVvd1U4cWF4bkdPREJLeVlOR1pNTV8wXzN4SF9KNWYzQ3lkTWNYd3VZMnhEQ1BBT3NiQW9hMjhHYVdmVExOR0x3aWQwRy00V1ZVaFk3YXFMOHdxZDFoU1c1NEFR0gGXAkFVX3lxTE9JTlRhckIzczRBYnNxc0RsR05KcEhtQVFlMDU4a25DbnVKMVVaRkEwNlJsWURSOFB5emdJQWVaNFZZV0pqdmN6M0ItSkFtdGxJSDN3dWlsRlo4M3hrcGl6RVlpSEoyMzZ3bzAxZXF5WUlTQTJlV1k5cVhZUXFHT1loN1FiajhlMFZ1ZERRSndQbkhCbFRDWmFYNHlydHBqSkxEVTIzcl9IeVdwMjNfSHdJSXgwckZHR0NsWVRiMWluOFMtQjhTUmxVNGtwRW9oTzBzMWlHdHdqd0ZPNnRfLTZyV2pVeFNVRi1mVHcwZjV1Y2cwalFkVnJ6dGg5WFY0ZkVKZldYR2hVTVE2b3lId2J0UEN6VEZCWQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1416,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "Thornton, Colorado (residential area)",
+      "city": "Thornton",
+      "state": "Colorado",
+      "sector": "Other",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Thornton shootout incident Oct 2026",
+      "notes": "Thornton residents shelter in place as shootout with suspect leaves Colorado police officer wounded",
+      "lat": 39.8696,
+      "lng": -104.9852,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTEFDMUo2S0JxMnJCd1ZQQVVLdWt3R1ZqeE5YeWV1N0lSNTNISk5nRVRtcXl0ZDlVRktFV3hlMEhNTVZYSDhjOFQ4c3BoNnRJMldBV2pFaDI0aF9SaW1Qc0J2NVZUY0JvdG9pRXhnNHp3eTU5ZjlPVDg4R3VNTHJMbC1wUkdxaUtIR3dlOEtsbFBSVFFFNGNYcHFVdGNlSzZmY0VGR0RjMC0wY2g0ejBlV0xuSQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1417,
+      "country": "United States",
+      "date": "2026-10-12",
+      "school": "Milken School",
+      "city": "Brentwood",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Milken School bomb threat 2026-10-12",
+      "notes": "Bomb threat reported at Milken School in Brentwood",
+      "lat": 37.9318,
+      "lng": -121.696,
+      "src": "FOX 11 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9RQTFGQ1FNLXdTanpiaGZqTUdZcFNHVU9GcnpsNVQtY3ZZZXFKU0hSSVBIbVZXcENiUnh6ZXU1M21jTm9lbVpoN2hFUElySHlkLTZqYjd6TEs2a1ZX0gFiQVVfeXFMT25aZmtrM1pFVmY5SHdYcUlfUlVyeXVHM0U2WV81Q1FpQUsxVGtTNzFxT3hadWc1QUU2RDEzb2o3NHh6VzhCNzRTYXlVU1lTalQ4WFlvZTV4djVHcUkxQjRONnc?oc=5",
+      "sources": 1
+    },
     {
       "id": 1415,
       "country": "United States",
@@ -76,7 +133,7 @@
       "lng": -76.6108,
       "src": "Capital Gazette",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1dWMmExZTlrUWFMd3ptQmlCX0g4djA2MFk4UGRhVjNSZ0dnanJBVk5PNmpqZUNUWjg2T05TTHBkQzJEMEt2MmVkWWttbjE4MnlQNUFSSUNzRW04ZGhteUdpR2JNTDRQay11X1Nvd0RKamltbjJfMnlIT3BJY3RTRjhqLVhsV3JoWDBpcW5mZEVOWVVSdUFR?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1411,
@@ -95,7 +152,7 @@
       "lng": -80.0831,
       "src": "WPEC",
       "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPM1F2M1ZWUEN1T1p6MFNtNTl6blRPVFl6X19RNml6RHBzNm1iQVhWNU0yNnRvb0hodS1iRWxyYjIzRFduRmxzcFdDY2JkLUxhYVdlR0VIUzZ2bmFHemxVaXEwVVdvUzZQeDRneWgyWFZxam9sVHN5N2tHQ0RzTUtoakRGU0g1emt2WUV1N3NyZVpicTlXZlhmWUxDZDl4a290MkNpUGc5WWJLOFVCMkdjWlhYWnI5TUhXMi12ZXQ3VmJOdTVhY3VwTlAyeHZ4ZnZDMG5FQWxuWV9kVTJOMi1TSjNheTVZNTRZbkc0SHRzRUxWUlY1LW1tQWJ5WGVOeXZsR0VESng1WjVWV194dVlxUkF5cVVNejBnSVdDY0FzOFl5ZjVOUXk3V2Z2Z0FGRDl1VHRxWXV0R1gxeUpFMGJwR05fX1BURTBnWUE2a0ZKQXZjN1hXQk9DUExRaTBLVS1WT1QtMjF4a2ZRZHBzaTYyRDdrSE5Ienh4cDNNS0g4VEFtUzQ?oc=5",
-      "sources": 3
+      "sources": 6
     },
     {
       "id": 1410,
@@ -11708,14 +11765,14 @@
     }
   ],
   "last_run": {
-    "ingested": 115,
-    "skipped_seen": 83,
-    "recognized": 12,
-    "new": 6,
-    "updated": 2,
-    "rejected": 18,
+    "ingested": 117,
+    "skipped_seen": 96,
+    "recognized": 7,
+    "new": 3,
+    "updated": 0,
+    "rejected": 14,
     "errors": 0,
-    "attempted": 32,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -11731,7 +11788,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 39
       },
       {
         "edition": "GB:en",
@@ -11745,7 +11802,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 40
       },
       {
         "edition": "CA:en",
@@ -11759,10 +11816,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 39
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-12T22:59:13.758426Z"
+    "ran_at": "2026-10-13T03:33:51.091242Z"
   }
 }
