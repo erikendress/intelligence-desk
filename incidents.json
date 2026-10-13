@@ -1,7 +1,26 @@
 {
-  "generated": "2026-10-13T03:33:51.095873Z",
-  "count": 619,
+  "generated": "2026-10-13T11:46:58.670943Z",
+  "count": 620,
   "incidents": [
+    {
+      "id": 1419,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "Delta Flight (NYC to Israel)",
+      "city": "New York",
+      "state": "New York",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Delta bomb threat NYC 2026-10-13",
+      "notes": "Anonymous bomb threat called on Israel-bound Delta flight from NYC",
+      "lat": 40.7127,
+      "lng": -74.006,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUJMQlZmS0RxeFA2aVFrVjV3V1VBTWVacmQ4cmt3aGdSR2hja2IyQWxRT1BQTEJoZ0NwSkltMmtoTXBvSUM4ckpNcDVQbHpPRmEzY3VHa1FFT01QY21PZFJUdWR6RGE4d3lhbi15ZEJhOWVESEU0cGVGWlc4YllmN2o4X2ZGY2tkYVZRNDBaZGwtbktVa1pv?oc=5",
+      "sources": 1
+    },
     {
       "id": 1418,
       "country": "United States",
@@ -152,7 +171,7 @@
       "lng": -80.0831,
       "src": "WPEC",
       "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPM1F2M1ZWUEN1T1p6MFNtNTl6blRPVFl6X19RNml6RHBzNm1iQVhWNU0yNnRvb0hodS1iRWxyYjIzRFduRmxzcFdDY2JkLUxhYVdlR0VIUzZ2bmFHemxVaXEwVVdvUzZQeDRneWgyWFZxam9sVHN5N2tHQ0RzTUtoakRGU0g1emt2WUV1N3NyZVpicTlXZlhmWUxDZDl4a290MkNpUGc5WWJLOFVCMkdjWlhYWnI5TUhXMi12ZXQ3VmJOdTVhY3VwTlAyeHZ4ZnZDMG5FQWxuWV9kVTJOMi1TSjNheTVZNTRZbkc0SHRzRUxWUlY1LW1tQWJ5WGVOeXZsR0VESng1WjVWV194dVlxUkF5cVVNejBnSVdDY0FzOFl5ZjVOUXk3V2Z2Z0FGRDl1VHRxWXV0R1gxeUpFMGJwR05fX1BURTBnWUE2a0ZKQXZjN1hXQk9DUExRaTBLVS1WT1QtMjF4a2ZRZHBzaTYyRDdrSE5Ienh4cDNNS0g4VEFtUzQ?oc=5",
-      "sources": 6
+      "sources": 7
     },
     {
       "id": 1410,
@@ -11765,14 +11784,14 @@
     }
   ],
   "last_run": {
-    "ingested": 117,
-    "skipped_seen": 96,
-    "recognized": 7,
-    "new": 3,
+    "ingested": 118,
+    "skipped_seen": 76,
+    "recognized": 2,
+    "new": 1,
     "updated": 0,
-    "rejected": 14,
+    "rejected": 40,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 42,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -11802,7 +11821,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 40
+        "items": 39
       },
       {
         "edition": "CA:en",
@@ -11820,6 +11839,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-13T03:33:51.091242Z"
+    "ran_at": "2026-10-13T11:46:58.664931Z"
   }
 }
