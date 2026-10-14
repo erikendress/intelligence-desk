@@ -1,7 +1,26 @@
 {
-  "generated": "2026-10-14T04:52:19.592858Z",
-  "count": 638,
+  "generated": "2026-10-14T10:11:48.821850Z",
+  "count": 639,
   "incidents": [
+    {
+      "id": 1438,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "In-N-Out",
+      "city": null,
+      "state": "Idaho",
+      "sector": "Retail",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "In-N-Out shooting Idaho 2026-10-14",
+      "notes": "3 killed, 7 injured in shooting at In-N-Out in Idaho, police say",
+      "lat": 43.6448,
+      "lng": -114.0154,
+      "src": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcTdQbW80QXFxTjJhSW01VnhJM3dtZGJROVQ0LXRsb1lJeXZVemptU3lMMjgxUHBtYUVoeGNxenpQN0NTdkVkWUIxZlY1R00zLXJFSm83WGpSTXhmdU1DV2xFeFcySFhwUjRnM1FuLWMycWhhMjVoN3Q3VDIxTlRwOFM1UzNCZjFkY2VEbtIBkgFBVV95cUxPSERlOXN1YngyRE9sU3lKQ0NsMlIyOTFjblJJZVU0aVpURXA4TWVSTVpXQnh3RmhPNWFDZVNXSklycnhzOTZYY1Y1MkF4NEQxTEk1N2VOcEJSNzFKVm5fNjRLeU9pbkw3QmhaSHB0a0lFaFJUY29hRWJqWXpfdXpfbXM3QWlXQl9kZnAxM2FyanZiZw?oc=5",
+      "sources": 1
+    },
     {
       "id": 1435,
       "country": "United States",
@@ -38,7 +57,7 @@
       "lng": -111.323,
       "src": "ABC15 Arizona",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUnNFZHlSNmNBblE5SmtxU21HQS04WVRxcm56VGh1M0ozT0tXNWRvSlNERHpzZ1pYSWhCRkxLWS1Ra3gtQnNVREJRZ1NkWGZESlZQa2xHY2FKdUQyR3BJVnFnVV9DQU5DOXFGV1UzY3U0RERHS3lvaVN5WjdMUVlVbmV1V1Z0bmowT2xPNS1TWGFXVGx3Znc?oc=5",
-      "sources": 2
+      "sources": 4
     },
     {
       "id": 1436,
@@ -285,7 +304,7 @@
       "lng": -83.3764,
       "src": "11Alive.com",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSDF0bDBfRWFzeTY2aHA2cVQ4RFJla3paeEo1ZGpKTldMUl9lUElnWlRFdHROSmRYRll0Z1o1VVl1UWJ1cEFMV0dXX3F5OG9BaVVQRkltUE9rTmNRVDdmRE5vVkNIdnFiYVNQbnVUbGhpTjc3bjBpQWFMUTEzdmFrWFFERzllTHhaZ1RzX01ueG9vdTVVZ2ctcjBtRXZ6UUxIa1VuUDlUYXVzZU16NDc1eVR0YWRFb2JVdXp4bjZ1MnFObU1ET2Vidk1JVVhpM040U2t3VXdoZHg4LUYtUlBN?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1422,
@@ -361,7 +380,7 @@
       "lng": -74.006,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUJMQlZmS0RxeFA2aVFrVjV3V1VBTWVacmQ4cmt3aGdSR2hja2IyQWxRT1BQTEJoZ0NwSkltMmtoTXBvSUM4ckpNcDVQbHpPRmEzY3VHa1FFT01QY21PZFJUdWR6RGE4d3lhbi15ZEJhOWVESEU0cGVGWlc4YllmN2o4X2ZGY2tkYVZRNDBaZGwtbktVa1pv?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1418,
@@ -12126,14 +12145,14 @@
     }
   ],
   "last_run": {
-    "ingested": 135,
-    "skipped_seen": 109,
-    "recognized": 8,
-    "new": 4,
+    "ingested": 141,
+    "skipped_seen": 111,
+    "recognized": 5,
+    "new": 1,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 30,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12163,7 +12182,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 44
       },
       {
         "edition": "CA:en",
@@ -12181,6 +12200,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-14T04:52:19.585712Z"
+    "ran_at": "2026-10-14T10:11:48.815610Z"
   }
 }
