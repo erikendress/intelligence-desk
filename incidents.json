@@ -1,7 +1,102 @@
 {
-  "generated": "2026-10-14T10:11:48.821850Z",
-  "count": 639,
+  "generated": "2026-10-14T15:08:18.966608Z",
+  "count": 644,
   "incidents": [
+    {
+      "id": 1443,
+      "country": "United Kingdom",
+      "date": "2026-10-14",
+      "school": "Magna Science Activity Centre",
+      "city": "Sheffield",
+      "state": "England",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Magna Science Activity Centre bomb threat 2026-10-14",
+      "notes": "Bomb threat at Magna Science Activity Centre as police called to popular attraction",
+      "lat": 53.3807,
+      "lng": -1.4702,
+      "src": "sheffieldtelegraph.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbUZQcmowZ1RoVXo4NEMwZGE5V3dNLVNRYnBfLWZJMDA3RDVULXNCMWdMNmR5a1B4VGVndVFFbWNkdmlNSHdhazBFVkxWMkoyV3o1blFObkpTU08tWks4YlN6Uklfc0NoT0trWS1SbzFkZzdYakgyR0JfM3hFbmRzMk1IMzRiMzF3empONHVNcFhHZW1GRHJDQS1IcU1sdEd0?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1442,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Haw Creek Elementary",
+      "city": "Forsyth County",
+      "state": "North Carolina",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Haw Creek Elementary bomb threat 2026-10-14",
+      "notes": "Nothing dangerous found after bomb threat call at Haw Creek Elementary",
+      "lat": 36.1476,
+      "lng": -80.2416,
+      "src": "Forsyth County News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYVRlR0RER2duQzNPOHB2dExZSjN3Y0xGSEgxeXExTzFGYkpLWDBrRzR4b0lnbkFTN0tVU3BTdVlScnNXRURVRExIaTVLWW1JdU5FalF3Qkh2Zkc5c2YySk1sck9aQWk3Ymk4Q0lsQjJOekhGa2tLQkZFSlJ3RUZZV0hfdjV4cElKWkRaNVJEUVNIVHlMQXFmV0ZLQVhUbFphMElJX043U2hTbGYySS1SMkcwMmhvRjVELTRsNVlzTQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1441,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Palmyra School District",
+      "city": "Palmyra",
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Palmyra assault suspect flight 2026-10-14",
+      "notes": "Assault suspect's flight prompts Palmyra school district shelter order",
+      "lat": 40.3089,
+      "lng": -76.5932,
+      "src": "Lebanon Daily News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ1Ixd3RlXzdTVGgzTW5HTkhnaFlXM19XTkdCVEJTVGlUeU9NaGJMaUIxbHBUSEtRY0t1VWJOUGt3T09aU0dMd19BcElFanhPdnhBeldtd01nc2tyRFkzZHFicEdOZnYwVkF2NFVHcHhnOUJOTm1LdTVTekFJNThwQ0ttbTRIcUhyS21EYkpxMURWbmg4b2tMOVVYZzlmNjFvU3g1TGtuWlMzblpjcWdjb0E2VVhhQ19QUXJjVHpUV2FaSEhfTlV3SDhTYTY?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1440,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Waterville Schools",
+      "city": "Waterville",
+      "state": "Maine",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Waterville ME bomb threat 2026-10-14",
+      "notes": "Waterville schools canceled after bomb threat",
+      "lat": 44.5506,
+      "lng": -69.6303,
+      "src": "Centralmaine.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTFoXzBtMVhxa1RHMnJSbkE3VGk3c0tYY01IWXlOT2dSeVh4TWFqU193RW5Ld3plRjA3T2tJTndCRnNBVTZWb2d6enBqNDBsbjhvTkVwRDNyLV9USDg2b1JJOE5SRmFfdEIxcW9BTnlYeExySWVaMVRYOTNRZFQtU29OaGJBT1FTNWJxeURldw?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1439,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Williamstown Elementary",
+      "city": "Williamstown",
+      "state": "West Virginia",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Williamstown Elementary bomb threat 2026-10-14",
+      "notes": "Williamstown Elementary on lockdown due to reported bomb threat",
+      "lat": 39.4,
+      "lng": -81.4489,
+      "src": "WTAP",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkVYcGdEZ01hSm4zWng5NmNSaVBwOVFzZV9VOEJ0RFJKaE1yc2daQjVkZ1BZWWVaMk5uME1vX3N5UHk2bDVKZHFIOFFLY1A3TktVVkRYVHhWUnFIemFaOHFFOEYxMS0zSlBET3dnMjl1NS1LbTdLcmlTQUdJNm9sRVpvT2tDODYxeUZud3l5TUJJRVlF0gGoAUFVX3lxTE1PaGdYeUY4MEV6MW5xdmU2RVhWSG1WTDFRR1JWLWtsS0lFaGdwM3B1Ul9icFVpcV9KMlg2N01FSTFNcmVYN3ozYy02OTAtSERjbFRYQVBqMGVOU3JsT0lsdGNQZUtzOU5HNkkzR0V0dW1feXdBTVllRElFUFhJaUdvaVdQOEhwQkhTcllodUtwOEpWS0R1LUtpQ0lOQzl6ZTQtdkd0d253cQ?oc=5",
+      "sources": 1
+    },
     {
       "id": 1438,
       "country": "United States",
@@ -76,7 +171,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 3
+      "sources": 8
     },
     {
       "id": 1434,
@@ -342,7 +437,7 @@
       "lng": -80.0124,
       "src": "WTAE",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uc0NMSnpabUtJWkNDVHVubkNYb1FsT1JfOExRQ2JNT19JVDlJUVNzOTduR3BfbWlpa2J0cGZqYURPRmNmM3ZnOEpOdDVTMUF4WEhkOTJqMkx6VFpBSzhVTmQ0RWYxbThHbE5sbkxlTVpDXzl0TVlBcEZrVQ?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1420,
@@ -12145,14 +12240,14 @@
     }
   ],
   "last_run": {
-    "ingested": 141,
+    "ingested": 140,
     "skipped_seen": 111,
-    "recognized": 5,
-    "new": 1,
+    "recognized": 11,
+    "new": 5,
     "updated": 0,
-    "rejected": 24,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 30,
+    "attempted": 29,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12168,7 +12263,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 39
       },
       {
         "edition": "GB:en",
@@ -12182,7 +12277,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 39
       },
       {
         "edition": "CA:en",
@@ -12196,10 +12291,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 39
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-14T10:11:48.815610Z"
+    "ran_at": "2026-10-14T15:08:18.955542Z"
   }
 }
