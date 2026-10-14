@@ -1,7 +1,83 @@
 {
-  "generated": "2026-10-13T23:18:35.392728Z",
-  "count": 634,
+  "generated": "2026-10-14T04:52:19.592858Z",
+  "count": 638,
   "incidents": [
+    {
+      "id": 1435,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "School in Bed Stuy",
+      "city": "Brooklyn",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Bed Stuy shooting response",
+      "notes": "Nearby Shooting Prompts Shelter In Place At Bed Stuy School",
+      "lat": 40.6526,
+      "lng": -73.9497,
+      "src": "News12 | Brooklyn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSTh6WGxqOEJmbS1NNEUyQUs0d0VneFVkMTd5eVNwRV9QWVcySjE5Z19Ya1JMckluVnlNcHlhXzk2RlI4aWg3YUNBQ0k2R3RzVUZ5Nm5iYXBRNExNMkY4dDVUNl9veHNYRXphUkhCZ0R1VzFtTmpob0lVdW1jem9UbFlJUTVTQ05OeEZQOHF1Q3Y?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1437,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "Schools in Payson",
+      "city": "Payson",
+      "state": "Arizona",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Payson schools threat 2026-10-13",
+      "notes": "Lockdown lifted at Payson schools after threat deemed not credible",
+      "lat": 34.2406,
+      "lng": -111.323,
+      "src": "ABC15 Arizona",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUnNFZHlSNmNBblE5SmtxU21HQS04WVRxcm56VGh1M0ozT0tXNWRvSlNERHpzZ1pYSWhCRkxLWS1Ra3gtQnNVREJRZ1NkWGZESlZQa2xHY2FKdUQyR3BJVnFnVV9DQU5DOXFGV1UzY3U0RERHS3lvaVN5WjdMUVlVbmV1V1Z0bmowT2xPNS1TWGFXVGx3Znc?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1436,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "University of Detroit Mercy",
+      "city": "Detroit",
+      "state": "Michigan",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "UDM_suspicious_package_20261014",
+      "notes": "suspicious package found on campus",
+      "lat": 42.3316,
+      "lng": -83.0466,
+      "src": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
+      "sources": 3
+    },
+    {
+      "id": 1434,
+      "country": "United States",
+      "date": "2026-10-13",
+      "school": "North Kansas City High School",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "NKC_bomb_threat_20261013",
+      "notes": "Bomb threat Tuesday afternoon at North Kansas City High School deemed not credible",
+      "lat": 39.1001,
+      "lng": -94.5781,
+      "src": "KSHB 41 Kansas City",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjl2cFRWR1VuWDhRNmJaMk9OSHNrQzM3dHdCZnVHOWQ5a3l0bUhwYzdneHd0d0Rwb3FDNXJwZkREZTdxMWt6d1ltclhSUHh1NVp3b09iRnBJOFVETGhXdWRTWUtHWkZxZ2lXZ0k4NDBpa0o4dmg1OXAyd2k1NHJMb3ZaR2pKTF9uSGRfQndfeXQydV80aFNnRW9QcFpjOFN3MW5qSTkzNUVET1lVVTFFblBnWXo?oc=5",
+      "sources": 1
+    },
     {
       "id": 1433,
       "country": "Canada",
@@ -25,8 +101,8 @@
       "id": 1432,
       "country": "United States",
       "date": "2026-10-13",
-      "school": "Louisiana State Office",
-      "city": null,
+      "school": "Louisiana Secretary of State's Office",
+      "city": "Baton Rouge",
       "state": "Louisiana",
       "sector": "Government",
       "type": "Bomb Threat",
@@ -38,7 +114,7 @@
       "lng": -92.0071,
       "src": "KTALnews.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FqWHhWOHJ1WDB5cWxZQ3dKdTg0TUxFei1GUlB1aVgxVG85VUpWaFgyRElQUHJTbG9yV2hFTGlKNGozdllCWWZUWEZQV1NjNFp3TVV0b09qamM5WWd3NnBJbElQdW1VTFU1Y0ladFc2ZVFnMUZ6MzQxN1dNcXVDWGxpMHlLNjU4M1AyeVRVX0lqaUNfemlqcGdPeTBUZw?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1431,
@@ -12050,12 +12126,12 @@
     }
   ],
   "last_run": {
-    "ingested": 124,
-    "skipped_seen": 98,
-    "recognized": 15,
-    "new": 8,
-    "updated": 1,
-    "rejected": 12,
+    "ingested": 135,
+    "skipped_seen": 109,
+    "recognized": 8,
+    "new": 4,
+    "updated": 0,
+    "rejected": 16,
     "errors": 0,
     "attempted": 26,
     "backfill": false,
@@ -12073,7 +12149,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 44
       },
       {
         "edition": "GB:en",
@@ -12087,7 +12163,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 45
       },
       {
         "edition": "CA:en",
@@ -12101,10 +12177,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 44
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-13T23:18:35.382501Z"
+    "ran_at": "2026-10-14T04:52:19.585712Z"
   }
 }
