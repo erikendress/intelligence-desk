@@ -1,7 +1,83 @@
 {
-  "generated": "2026-10-14T15:08:18.966608Z",
-  "count": 644,
+  "generated": "2026-10-14T19:23:12.915010Z",
+  "count": 648,
   "incidents": [
+    {
+      "id": 1447,
+      "country": "Canada",
+      "date": "2026-10-14",
+      "school": "Glendale Secondary School",
+      "city": "Glendale",
+      "state": "Ontario",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Glendale Secondary School firearm report Oct 2026",
+      "notes": "Lockdown lifted at Glendale Secondary School after reports of person with firearm",
+      "lat": 45.0703,
+      "lng": -74.679,
+      "src": "CHCH",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUzRBTnh3SzB1TVpPUnpGaHVBY3pza2M3V3p3b1ZzeGdCMzJzcF8zWlBzLVZnUE1fSXFURWxZdmRiMFZaSXZZVzhNVzRUS1ZyMG9Jd1lMbEdSQTE2dV9HTU5yVHpWREhRZjBPclI0Z3JfeUpBOG9ETjJiSXh6VV9JVTkwY3JlYWd3YmwxcjVwTlBhQ1M2cExkR1NmdzNnWFI2NEtVaHVybmoxdDd6d2Fyd05wRQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1446,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Ector Middle School",
+      "city": "Odessa",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Ector Middle School hoax reports Oct 2026",
+      "notes": "Odessa police investigate two hoax active shooter reports at Ector Middle School",
+      "lat": 31.8457,
+      "lng": -102.3677,
+      "src": "Yourbasin",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uSklaWGp5TFBFUXhVUlFXakMzNVNCS2xCcUdTNTQ3dkREMFVMZ3JjSHI5ZS1WcGtjM0xFLS14YXg0bnBtb2JZREhLa1lrSTY2S3dOVVR1VzlhYnpTdVdhOHlUdjhaTDF1LTVrMFJ4NGtycWdr0gF6QVVfeXFMTmNfSjVzWlZqcW5fckt1TnRLY2V1ZFR3WTgxVFBYaTJuU01uZkhuc1hnRlVjczM4M0xKdjdxbjZ1R0UzNFNuTEpCdVR0dWotdEE0NjRTeWJ0alVfOS1icFZWYjRyRk1DQWNpRXRjM0tQQjlxMUM2aVdlVVE?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1445,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "White River High School",
+      "city": "Buckley",
+      "state": "Washington",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "White River High School threat and lockdown 2026-10-14",
+      "notes": "14-year-old arrested for threats after gun report prompts White River High School lockdown",
+      "lat": 47.1622,
+      "lng": -122.0277,
+      "src": "KING5.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRk0zSjhGNFlLTHlyZ1VhMlZXRW1OSjU0LXY4RjljcmdHTGpaTnFJR3IxaWszMElLcS1PYVFYRWIwLWNwdm1xODFrMUZLcU9RRFdRV3RlRUpXdmM1M2gtSFFPRW1icGdCNlZMMkhBeGNUR29rR05lRDloRElZQkN2X3QzN0RfS05RUnhmNHJwU1VWaDg1LXZjTFRqdFB4Z2xLb1B6X1Q0NXZLbmFUaFV0dTREbDM3aGotc09Mb2pRbFM4R2s3bHdyOE1SZWZrVTNlTUphNmtzQU5lZWp5OUQxRGhGVDNqVnZheWc?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1444,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Harvard University",
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Arrest made",
+      "cluster": "Harvard_armed_suspect_2026-10-14",
+      "notes": "Armed suspect in custody, shelter-in-place order lifted",
+      "lat": 42.3656,
+      "lng": -71.104,
+      "src": "Boston 25 News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1ZEV3lfX0NzQi1yekVPWHBjU0hYY1E4T2NWYTI5V05fQV9GWmhzUHl5OFI5U3RQNFY2SXg3MFNQdkYxcGR6ZlJEZTFrc1Y2LVgzSzNKazBPbVNoaTB4T3BSTDhfX09QbmNIeHkwd0N1RTl4WU52a2xRRFdPNGVMZ2p4NThHUld5TlhLVlZ4dEtzay1hZHFnckc0T2JXeVlyVWtVeFljM1RyV2F1RHBLZHRuT2RUMVFacncwZXJ3QjFDRm1oTHgtY1JyWmhfRkxL0gHkAUFVX3lxTE4yaUtwZWYwLXVXVDJCREl5Z1ctNFNDbkxPbERHdlhKSFlZNTFVaWFYNmNyVDhPN3RYQW1wc0tfNVkybXZQcXhrMlRtYWRXdHdDSGM1RkI2Zzh6VVZOcm1HdWRXYURTVEJJcnZmX2c4Wmtqcy1GTmxlaGszY3JCY1JpUm5JMko3RExkajV1WTl5OF9nVHlINC1XNTV6ZlQyeTBGM0tuSHhVV0l2ZXg4QWk2eWowN3dSOThZOE1GLXpoQVQ3MWpETlA3YWE5Z282ZEdRNXJPME5oWmE1SFVTWVg1SXdyUg?oc=5",
+      "sources": 8
+    },
     {
       "id": 1443,
       "country": "United Kingdom",
@@ -69,14 +145,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Closure",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Waterville ME bomb threat 2026-10-14",
       "notes": "Waterville schools canceled after bomb threat",
       "lat": 44.5506,
       "lng": -69.6303,
       "src": "Centralmaine.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTFoXzBtMVhxa1RHMnJSbkE3VGk3c0tYY01IWXlOT2dSeVh4TWFqU193RW5Ld3plRjA3T2tJTndCRnNBVTZWb2d6enBqNDBsbjhvTkVwRDNyLV9USDg2b1JJOE5SRmFfdEIxcW9BTnlYeExySWVaMVRYOTNRZFQtU29OaGJBT1FTNWJxeURldw?oc=5",
-      "sources": 1
+      "sources": 5
     },
     {
       "id": 1439,
@@ -95,7 +171,7 @@
       "lng": -81.4489,
       "src": "WTAP",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkVYcGdEZ01hSm4zWng5NmNSaVBwOVFzZV9VOEJ0RFJKaE1yc2daQjVkZ1BZWWVaMk5uME1vX3N5UHk2bDVKZHFIOFFLY1A3TktVVkRYVHhWUnFIemFaOHFFOEYxMS0zSlBET3dnMjl1NS1LbTdLcmlTQUdJNm9sRVpvT2tDODYxeUZud3l5TUJJRVlF0gGoAUFVX3lxTE1PaGdYeUY4MEV6MW5xdmU2RVhWSG1WTDFRR1JWLWtsS0lFaGdwM3B1Ul9icFVpcV9KMlg2N01FSTFNcmVYN3ozYy02OTAtSERjbFRYQVBqMGVOU3JsT0lsdGNQZUtzOU5HNkkzR0V0dW1feXdBTVllRElFUFhJaUdvaVdQOEhwQkhTcllodUtwOEpWS0R1LUtpQ0lOQzl6ZTQtdkd0d253cQ?oc=5",
-      "sources": 1
+      "sources": 3
     },
     {
       "id": 1438,
@@ -152,7 +228,7 @@
       "lng": -111.323,
       "src": "ABC15 Arizona",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUnNFZHlSNmNBblE5SmtxU21HQS04WVRxcm56VGh1M0ozT0tXNWRvSlNERHpzZ1pYSWhCRkxLWS1Ra3gtQnNVREJRZ1NkWGZESlZQa2xHY2FKdUQyR3BJVnFnVV9DQU5DOXFGV1UzY3U0RERHS3lvaVN5WjdMUVlVbmV1V1Z0bmowT2xPNS1TWGFXVGx3Znc?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1436,
@@ -12240,14 +12316,14 @@
     }
   ],
   "last_run": {
-    "ingested": 140,
-    "skipped_seen": 111,
-    "recognized": 11,
-    "new": 5,
-    "updated": 0,
-    "rejected": 16,
+    "ingested": 134,
+    "skipped_seen": 95,
+    "recognized": 19,
+    "new": 4,
+    "updated": 1,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 29,
+    "attempted": 39,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12263,7 +12339,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 37
       },
       {
         "edition": "GB:en",
@@ -12277,7 +12353,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 38
       },
       {
         "edition": "CA:en",
@@ -12291,10 +12367,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 37
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-14T15:08:18.955542Z"
+    "ran_at": "2026-10-14T19:23:12.909328Z"
   }
 }
