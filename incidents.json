@@ -1,7 +1,26 @@
 {
-  "generated": "2026-10-14T19:23:12.915010Z",
-  "count": 648,
+  "generated": "2026-10-14T23:13:52.468618Z",
+  "count": 649,
   "incidents": [
+    {
+      "id": 1448,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Walmart",
+      "city": "Marysville",
+      "state": "California",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Marysville-Walmart-bomb-threat-20261014",
+      "notes": "Deputies investigate a bomb threat at Walmart in Marysville",
+      "lat": 39.1457,
+      "lng": -121.5914,
+      "src": "KCRA",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2YzVQUVVlcGlGSTRUdkEzQk44M0pZX3loLTBVSDZIbk1mUDhYWVA0Qll1SG1jSVE1V3pINk5WSHhDSUUtaVlIQVE1ZUNISGZ4SjNSeV96cU11UmVMRTkxZ1VpaTBDblZucGlyN1UwUEt6U2V2OHpR?oc=5",
+      "sources": 2
+    },
     {
       "id": 1447,
       "country": "Canada",
@@ -25,7 +44,7 @@
       "id": 1446,
       "country": "United States",
       "date": "2026-10-14",
-      "school": "Ector Middle School",
+      "school": "Ector County Prep",
       "city": "Odessa",
       "state": "Texas",
       "sector": "K-12",
@@ -38,7 +57,7 @@
       "lng": -102.3677,
       "src": "Yourbasin",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uSklaWGp5TFBFUXhVUlFXakMzNVNCS2xCcUdTNTQ3dkREMFVMZ3JjSHI5ZS1WcGtjM0xFLS14YXg0bnBtb2JZREhLa1lrSTY2S3dOVVR1VzlhYnpTdVdhOHlUdjhaTDF1LTVrMFJ4NGtycWdr0gF6QVVfeXFMTmNfSjVzWlZqcW5fckt1TnRLY2V1ZFR3WTgxVFBYaTJuU01uZkhuc1hnRlVjczM4M0xKdjdxbjZ1R0UzNFNuTEpCdVR0dWotdEE0NjRTeWJ0alVfOS1icFZWYjRyRk1DQWNpRXRjM0tQQjlxMUM2aVdlVVE?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1445,
@@ -76,7 +95,7 @@
       "lng": -71.104,
       "src": "Boston 25 News",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1ZEV3lfX0NzQi1yekVPWHBjU0hYY1E4T2NWYTI5V05fQV9GWmhzUHl5OFI5U3RQNFY2SXg3MFNQdkYxcGR6ZlJEZTFrc1Y2LVgzSzNKazBPbVNoaTB4T3BSTDhfX09QbmNIeHkwd0N1RTl4WU52a2xRRFdPNGVMZ2p4NThHUld5TlhLVlZ4dEtzay1hZHFnckc0T2JXeVlyVWtVeFljM1RyV2F1RHBLZHRuT2RUMVFacncwZXJ3QjFDRm1oTHgtY1JyWmhfRkxL0gHkAUFVX3lxTE4yaUtwZWYwLXVXVDJCREl5Z1ctNFNDbkxPbERHdlhKSFlZNTFVaWFYNmNyVDhPN3RYQW1wc0tfNVkybXZQcXhrMlRtYWRXdHdDSGM1RkI2Zzh6VVZOcm1HdWRXYURTVEJJcnZmX2c4Wmtqcy1GTmxlaGszY3JCY1JpUm5JMko3RExkajV1WTl5OF9nVHlINC1XNTV6ZlQyeTBGM0tuSHhVV0l2ZXg4QWk2eWowN3dSOThZOE1GLXpoQVQ3MWpETlA3YWE5Z282ZEdRNXJPME5oWmE1SFVTWVg1SXdyUg?oc=5",
-      "sources": 8
+      "sources": 10
     },
     {
       "id": 1443,
@@ -152,7 +171,7 @@
       "lng": -69.6303,
       "src": "Centralmaine.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTFoXzBtMVhxa1RHMnJSbkE3VGk3c0tYY01IWXlOT2dSeVh4TWFqU193RW5Ld3plRjA3T2tJTndCRnNBVTZWb2d6enBqNDBsbjhvTkVwRDNyLV9USDg2b1JJOE5SRmFfdEIxcW9BTnlYeExySWVaMVRYOTNRZFQtU29OaGJBT1FTNWJxeURldw?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1439,
@@ -171,7 +190,7 @@
       "lng": -81.4489,
       "src": "WTAP",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkVYcGdEZ01hSm4zWng5NmNSaVBwOVFzZV9VOEJ0RFJKaE1yc2daQjVkZ1BZWWVaMk5uME1vX3N5UHk2bDVKZHFIOFFLY1A3TktVVkRYVHhWUnFIemFaOHFFOEYxMS0zSlBET3dnMjl1NS1LbTdLcmlTQUdJNm9sRVpvT2tDODYxeUZud3l5TUJJRVlF0gGoAUFVX3lxTE1PaGdYeUY4MEV6MW5xdmU2RVhWSG1WTDFRR1JWLWtsS0lFaGdwM3B1Ul9icFVpcV9KMlg2N01FSTFNcmVYN3ozYy02OTAtSERjbFRYQVBqMGVOU3JsT0lsdGNQZUtzOU5HNkkzR0V0dW1feXdBTVllRElFUFhJaUdvaVdQOEhwQkhTcllodUtwOEpWS0R1LUtpQ0lOQzl6ZTQtdkd0d253cQ?oc=5",
-      "sources": 3
+      "sources": 4
     },
     {
       "id": 1438,
@@ -240,14 +259,14 @@
       "sector": "Higher Ed",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Resolved \u2013 no cause found",
+      "outcome": "Confirmed hoax",
       "cluster": "UDM_suspicious_package_20261014",
       "notes": "suspicious package found on campus",
       "lat": 42.3316,
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 8
+      "sources": 9
     },
     {
       "id": 1434,
@@ -304,7 +323,7 @@
       "lng": -92.0071,
       "src": "KTALnews.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FqWHhWOHJ1WDB5cWxZQ3dKdTg0TUxFei1GUlB1aVgxVG85VUpWaFgyRElQUHJTbG9yV2hFTGlKNGozdllCWWZUWEZQV1NjNFp3TVV0b09qamM5WWd3NnBJbElQdW1VTFU1Y0ladFc2ZVFnMUZ6MzQxN1dNcXVDWGxpMHlLNjU4M1AyeVRVX0lqaUNfemlqcGdPeTBUZw?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1431,
@@ -12316,14 +12335,14 @@
     }
   ],
   "last_run": {
-    "ingested": 134,
-    "skipped_seen": 95,
-    "recognized": 19,
-    "new": 4,
+    "ingested": 138,
+    "skipped_seen": 118,
+    "recognized": 9,
+    "new": 1,
     "updated": 1,
-    "rejected": 17,
+    "rejected": 11,
     "errors": 0,
-    "attempted": 39,
+    "attempted": 20,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12339,7 +12358,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 42
       },
       {
         "edition": "GB:en",
@@ -12353,7 +12372,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 41
       },
       {
         "edition": "CA:en",
@@ -12367,10 +12386,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 42
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-14T19:23:12.909328Z"
+    "ran_at": "2026-10-14T23:13:52.462935Z"
   }
 }
