@@ -1,7 +1,64 @@
 {
-  "generated": "2026-10-15T13:25:34.525270Z",
-  "count": 656,
+  "generated": "2026-10-15T18:18:12.690108Z",
+  "count": 659,
   "incidents": [
+    {
+      "id": 1458,
+      "country": "United Kingdom",
+      "date": "2026-10-15",
+      "school": "Schools in Donegal",
+      "city": "Donegal",
+      "state": "England",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Donegal schools bomb threat 2026-10-15",
+      "notes": "All Donegal schools expected to reopen on Friday after bomb threat email",
+      "lat": 51.4288,
+      "lng": -2.5914,
+      "src": "Donegal Daily",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTdkNDEzdGNGU2FmeTFsUDVCOHQwc2NCbE56RkVnU3Q4TzdBdnJmWWM5YTdFLUl3NWxjZERDNlhlYmJYX2F5RlJReGJQN0dSNUlZMkxvMGJQTElKek5QczZLMHFkVlEyNVVNR3FVVG1LTnNpd2xQbWR5cThBNlUyRmp3a1Y1LWRVOF91YXhrcUYwcjFrSERRRXNjTDYyM1RsVnE2SGFBbVpMb1BIOGM4a3R4NA?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1457,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Wylie East Elementary",
+      "city": "Wylie",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Wylie_East_Elementary_20261015",
+      "notes": "Wylie East Elementary lockdown lifted after incident near Kirby Lake",
+      "lat": 33.0152,
+      "lng": -96.5388,
+      "src": "myfoxzone.com",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSlpjZkdSRFZEcHZZLUl0T3o1a3J6Qm5aQW8wMTBZZ3hWZWYxNUtOTEJkajQ3Smd3WkszYjE3SGtMeEhSLUhPSTdYdDctcmktbVpMcDUzbzNkM05LeWVESDlJaXpWdlhUQ2dlMHVwektZNWFLVjNibVEydlRHeEM4am5QQTlldDI4eERVemwtY3FJbGxhWTBCbFRFTHhaSURSdFZHNnhOUmFwMDcxY3pQemJKYnJnNXVVQ3lLalM3TVdhUDBNVGtpYkRPNERGR09rS2M4WVdtWjNZWlJHTE1NZnhsd1dDd3JtajY2ZElDdw?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1456,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Liberty County High School",
+      "city": null,
+      "state": "Georgia",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Liberty County High School bomb threat 2026-10-15",
+      "notes": "Police respond to bomb threat involving Liberty County High School",
+      "lat": 32.3294,
+      "lng": -83.1137,
+      "src": "WJCL",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWl1Z0dfelVxU2xEcjRJVzNsSnB2ZWZXSUh4enBjY3RZcUUxSFZaanhGY1N6SGtBN2ZGZ3VtQ3ZuU2JKWnlNYUJaallqVWlhbUZ6QU5OQXMzd3BqbHowSERfbHBsbFVoOXJpTDhrb1lNeEk3VXRvVUY0Z1ZyYUNtTHBR?oc=5",
+      "sources": 1
+    },
     {
       "id": 1455,
       "country": "United Kingdom",
@@ -57,7 +114,7 @@
       "lng": -71.2689,
       "src": "Facebook",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNSWdoWnFQQjFOY1dmLXExRXlOaGxJamQwcnI4ZldjbEdDTEpHVmNNODBpQnM2VUJfVWNmNDFBa1JTSkljVVhCZ0NPTGZXeWt6SEZ0SWhwNUlNNmRhNDQyXzdsSFh3SE5nYjFQRHB3Y1NmUzZvRldXOGloLVhoMTdGTnRwY2N3ZVAwdFVTVW1CellzTUN1eUZ4bnhRNDdIRGt2UmlieDZETmctUHByMUk0V0RyaUlKS0RrV29odlNDRWRiWlZXTl9qdFE4X3BHcG56LUM2eG9adlljdw?oc=5",
-      "sources": 3
+      "sources": 7
     },
     {
       "id": 1451,
@@ -76,7 +133,7 @@
       "lng": -85.6679,
       "src": "WZZM13.com",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUTR2ajJIc1luQTljb1lrVXkyVUM2Tk0xSlJUb3o3RW0wSHE3bVV4UXNXV3g1MkdFT3NiZEVnaFZiRmlZb013cXRQLWJSQ0hhanVpSFZ3ZU0tNWVsRktfVm4yakY3VkwtZU85YzRvdHM5OGd4ZmFnaTdTc1JBTFhnSmo5cXljaTJqRC01dXl4aGdXMWpVUWFZWDBLODQ0TUR2VVY3M2hMQl80UE0wWDZEaURuSU5Qd3liSlUxX1NZd3Y4Y0tSYTNRcV84V3dZQVVTdVd4bjFRVVl2LXJ3cENPWXF6cFhGNVU5Sld1Q1EwdWFqQQ?oc=5",
-      "sources": 3
+      "sources": 4
     },
     {
       "id": 1450,
@@ -323,7 +380,7 @@
       "lng": -81.4489,
       "src": "WTAP",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkVYcGdEZ01hSm4zWng5NmNSaVBwOVFzZV9VOEJ0RFJKaE1yc2daQjVkZ1BZWWVaMk5uME1vX3N5UHk2bDVKZHFIOFFLY1A3TktVVkRYVHhWUnFIemFaOHFFOEYxMS0zSlBET3dnMjl1NS1LbTdLcmlTQUdJNm9sRVpvT2tDODYxeUZud3l5TUJJRVlF0gGoAUFVX3lxTE1PaGdYeUY4MEV6MW5xdmU2RVhWSG1WTDFRR1JWLWtsS0lFaGdwM3B1Ul9icFVpcV9KMlg2N01FSTFNcmVYN3ozYy02OTAtSERjbFRYQVBqMGVOU3JsT0lsdGNQZUtzOU5HNkkzR0V0dW1feXdBTVllRElFUFhJaUdvaVdQOEhwQkhTcllodUtwOEpWS0R1LUtpQ0lOQzl6ZTQtdkd0d253cQ?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1438,
@@ -399,7 +456,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 15
+      "sources": 22
     },
     {
       "id": 1434,
@@ -627,7 +684,7 @@
       "lng": -83.3764,
       "src": "11Alive.com",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSDF0bDBfRWFzeTY2aHA2cVQ4RFJla3paeEo1ZGpKTldMUl9lUElnWlRFdHROSmRYRll0Z1o1VVl1UWJ1cEFMV0dXX3F5OG9BaVVQRkltUE9rTmNRVDdmRE5vVkNIdnFiYVNQbnVUbGhpTjc3bjBpQWFMUTEzdmFrWFFERzllTHhaZ1RzX01ueG9vdTVVZ2ctcjBtRXZ6UUxIa1VuUDlUYXVzZU16NDc1eVR0YWRFb2JVdXp4bjZ1MnFObU1ET2Vidk1JVVhpM040U2t3VXdoZHg4LUYtUlBN?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1422,
@@ -12468,14 +12525,14 @@
     }
   ],
   "last_run": {
-    "ingested": 160,
-    "skipped_seen": 134,
-    "recognized": 9,
+    "ingested": 167,
+    "skipped_seen": 129,
+    "recognized": 17,
     "new": 3,
-    "updated": 1,
+    "updated": 0,
     "rejected": 15,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 38,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12491,7 +12548,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 50
+        "items": 53
       },
       {
         "edition": "GB:en",
@@ -12505,7 +12562,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 55
+        "items": 60
       },
       {
         "edition": "CA:en",
@@ -12519,10 +12576,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 50
+        "items": 53
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-15T13:25:34.516525Z"
+    "ran_at": "2026-10-15T18:18:12.683849Z"
   }
 }
