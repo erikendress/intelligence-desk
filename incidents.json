@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T01:28:40.717669Z",
-  "count": 652,
+  "generated": "2026-10-15T07:25:58.047440Z",
+  "count": 653,
   "incidents": [
     {
       "id": 1451,
@@ -19,7 +19,7 @@
       "lng": -85.6679,
       "src": "WZZM13.com",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUTR2ajJIc1luQTljb1lrVXkyVUM2Tk0xSlJUb3o3RW0wSHE3bVV4UXNXV3g1MkdFT3NiZEVnaFZiRmlZb013cXRQLWJSQ0hhanVpSFZ3ZU0tNWVsRktfVm4yakY3VkwtZU85YzRvdHM5OGd4ZmFnaTdTc1JBTFhnSmo5cXljaTJqRC01dXl4aGdXMWpVUWFZWDBLODQ0TUR2VVY3M2hMQl80UE0wWDZEaURuSU5Qd3liSlUxX1NZd3Y4Y0tSYTNRcV84V3dZQVVTdVd4bjFRVVl2LXJ3cENPWXF6cFhGNVU5Sld1Q1EwdWFqQQ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1450,
@@ -38,6 +38,25 @@
       "lng": -122.2729,
       "src": "The Berkeley Scanner",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWUhmOEJyU0lUd2dBYlljUFpsT1R5YTVySGJWN3dxRWIyTllxR01nakRhVlZKVHRscHZ0QlZ2WEI3bHVUZ3YtbWpiUzhtX0VfQnd1NnFVOUpkSmtLZXViRFNPRkVUOHBSSmVrNDJKTk5udlJMQVBVcW5vSTR3QVZNOThlUUptLTJtaHhxRGVwTW53NmJpcjFNX3AxQ3dHakxsenNfWnBBajdGaVdFZXc?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1452,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Riverdale High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Riverdale High School escape incident",
+      "notes": "student accused of escaping patrol car, triggering campus lockdown",
+      "lat": null,
+      "lng": null,
+      "src": "Gulf Coast News and Weather",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbkZEak92ek5tNHg0WHRKT2paTFI5S1RncVdvdk9UT1ZvM08yYkJ6UXJSbmEtd1d4RFViX0s5UmVKV1RkY18ydldVYmszUUdvMW0tQjhVZ1FZMTUxWlh4YWlpd1VhUjRDZ1FFZlBjWlVZZ0FsQTNFMVJ2LWQzMEJGY0F2MVpJQ01XZGJTQlJ1X2dWNloxWGxWVklVRlVMVUU?oc=5",
       "sources": 1
     },
     {
@@ -152,7 +171,7 @@
       "lng": -71.104,
       "src": "Boston 25 News",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM1ZEV3lfX0NzQi1yekVPWHBjU0hYY1E4T2NWYTI5V05fQV9GWmhzUHl5OFI5U3RQNFY2SXg3MFNQdkYxcGR6ZlJEZTFrc1Y2LVgzSzNKazBPbVNoaTB4T3BSTDhfX09QbmNIeHkwd0N1RTl4WU52a2xRRFdPNGVMZ2p4NThHUld5TlhLVlZ4dEtzay1hZHFnckc0T2JXeVlyVWtVeFljM1RyV2F1RHBLZHRuT2RUMVFacncwZXJ3QjFDRm1oTHgtY1JyWmhfRkxL0gHkAUFVX3lxTE4yaUtwZWYwLXVXVDJCREl5Z1ctNFNDbkxPbERHdlhKSFlZNTFVaWFYNmNyVDhPN3RYQW1wc0tfNVkybXZQcXhrMlRtYWRXdHdDSGM1RkI2Zzh6VVZOcm1HdWRXYURTVEJJcnZmX2c4Wmtqcy1GTmxlaGszY3JCY1JpUm5JMko3RExkajV1WTl5OF9nVHlINC1XNTV6ZlQyeTBGM0tuSHhVV0l2ZXg4QWk2eWowN3dSOThZOE1GLXpoQVQ3MWpETlA3YWE5Z282ZEdRNXJPME5oWmE1SFVTWVg1SXdyUg?oc=5",
-      "sources": 10
+      "sources": 11
     },
     {
       "id": 1443,
@@ -323,7 +342,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 9
+      "sources": 12
     },
     {
       "id": 1434,
@@ -12392,14 +12411,14 @@
     }
   ],
   "last_run": {
-    "ingested": 140,
-    "skipped_seen": 130,
-    "recognized": 5,
-    "new": 3,
+    "ingested": 153,
+    "skipped_seen": 134,
+    "recognized": 6,
+    "new": 1,
     "updated": 0,
-    "rejected": 4,
+    "rejected": 13,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12415,7 +12434,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 48
       },
       {
         "edition": "GB:en",
@@ -12429,7 +12448,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 51
       },
       {
         "edition": "CA:en",
@@ -12443,10 +12462,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 48
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-15T01:28:40.714026Z"
+    "ran_at": "2026-10-15T07:25:58.042646Z"
   }
 }
