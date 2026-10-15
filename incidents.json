@@ -1,7 +1,64 @@
 {
-  "generated": "2026-10-14T23:13:52.468618Z",
-  "count": 649,
+  "generated": "2026-10-15T01:28:40.717669Z",
+  "count": 652,
   "incidents": [
+    {
+      "id": 1451,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Hotels and businesses in downtown Grand Rapids",
+      "city": "Grand Rapids",
+      "state": "Michigan",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "downtown-grand-rapids-suspicious-package-2026-10-15",
+      "notes": "Hotels, businesses evacuate as GRPD investigates 'suspicious package' in downtown",
+      "lat": 42.9632,
+      "lng": -85.6679,
+      "src": "WZZM13.com",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUTR2ajJIc1luQTljb1lrVXkyVUM2Tk0xSlJUb3o3RW0wSHE3bVV4UXNXV3g1MkdFT3NiZEVnaFZiRmlZb013cXRQLWJSQ0hhanVpSFZ3ZU0tNWVsRktfVm4yakY3VkwtZU85YzRvdHM5OGd4ZmFnaTdTc1JBTFhnSmo5cXljaTJqRC01dXl4aGdXMWpVUWFZWDBLODQ0TUR2VVY3M2hMQl80UE0wWDZEaURuSU5Qd3liSlUxX1NZd3Y4Y0tSYTNRcV84V3dZQVVTdVd4bjFRVVl2LXJ3cENPWXF6cFhGNVU5Sld1Q1EwdWFqQQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1450,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Amtrak",
+      "city": "Berkeley",
+      "state": "California",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Berkeley Amtrak bomb threat 2026-10-15",
+      "notes": "Amtrak train stopped in Berkeley after reported bomb threat",
+      "lat": 37.8708,
+      "lng": -122.2729,
+      "src": "The Berkeley Scanner",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWUhmOEJyU0lUd2dBYlljUFpsT1R5YTVySGJWN3dxRWIyTllxR01nakRhVlZKVHRscHZ0QlZ2WEI3bHVUZ3YtbWpiUzhtX0VfQnd1NnFVOUpkSmtLZXViRFNPRkVUOHBSSmVrNDJKTk5udlJMQVBVcW5vSTR3QVZNOThlUUptLTJtaHhxRGVwTW53NmJpcjFNX3AxQ3dHakxsenNfWnBBajdGaVdFZXc?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1449,
+      "country": "United States",
+      "date": "2026-10-14",
+      "school": "Canyon Ranch",
+      "city": "Lenox",
+      "state": "Massachusetts",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Canyon Ranch bomb hoax 2026-10-14",
+      "notes": "Bomb hoax causes evacuation at Canyon Ranch",
+      "lat": 42.3568,
+      "lng": -73.2851,
+      "src": "Berkshire eagle",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQV9oeGZwSTMyV0dKTnZCMXBFRFdOeXpzX2wxa2E5N3lCeDVWZHdwRjN0aFR1TWJKSGswLVNlRERDTGFWMWptWV9UTnN0LTV1RzFkUXVSdmI1QXpVYUV1a3RRaVd3a2o0dk01WlZVVU5YZWVLcVlKd0RPVkQ5TmtUVFktbkQ4U3hpQWRfTDRoRk5ZTFJCa2hhcU9FSjA5SFRzbUI4WWtURDI4dw?oc=5",
+      "sources": 1
+    },
     {
       "id": 1448,
       "country": "United States",
@@ -57,7 +114,7 @@
       "lng": -102.3677,
       "src": "Yourbasin",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uSklaWGp5TFBFUXhVUlFXakMzNVNCS2xCcUdTNTQ3dkREMFVMZ3JjSHI5ZS1WcGtjM0xFLS14YXg0bnBtb2JZREhLa1lrSTY2S3dOVVR1VzlhYnpTdVdhOHlUdjhaTDF1LTVrMFJ4NGtycWdr0gF6QVVfeXFMTmNfSjVzWlZqcW5fckt1TnRLY2V1ZFR3WTgxVFBYaTJuU01uZkhuc1hnRlVjczM4M0xKdjdxbjZ1R0UzNFNuTEpCdVR0dWotdEE0NjRTeWJ0alVfOS1icFZWYjRyRk1DQWNpRXRjM0tQQjlxMUM2aVdlVVE?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1445,
@@ -323,7 +380,7 @@
       "lng": -92.0071,
       "src": "KTALnews.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FqWHhWOHJ1WDB5cWxZQ3dKdTg0TUxFei1GUlB1aVgxVG85VUpWaFgyRElQUHJTbG9yV2hFTGlKNGozdllCWWZUWEZQV1NjNFp3TVV0b09qamM5WWd3NnBJbElQdW1VTFU1Y0ladFc2ZVFnMUZ6MzQxN1dNcXVDWGxpMHlLNjU4M1AyeVRVX0lqaUNfemlqcGdPeTBUZw?oc=5",
-      "sources": 3
+      "sources": 4
     },
     {
       "id": 1431,
@@ -12335,14 +12392,14 @@
     }
   ],
   "last_run": {
-    "ingested": 138,
-    "skipped_seen": 118,
-    "recognized": 9,
-    "new": 1,
-    "updated": 1,
-    "rejected": 11,
+    "ingested": 140,
+    "skipped_seen": 130,
+    "recognized": 5,
+    "new": 3,
+    "updated": 0,
+    "rejected": 4,
     "errors": 0,
-    "attempted": 20,
+    "attempted": 10,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12358,7 +12415,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 42
+        "items": 44
       },
       {
         "edition": "GB:en",
@@ -12372,7 +12429,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 43
       },
       {
         "edition": "CA:en",
@@ -12386,10 +12443,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 42
+        "items": 44
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-14T23:13:52.462935Z"
+    "ran_at": "2026-10-15T01:28:40.714026Z"
   }
 }
