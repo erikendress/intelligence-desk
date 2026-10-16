@@ -1,7 +1,45 @@
 {
-  "generated": "2026-10-16T11:22:08.106774Z",
-  "count": 672,
+  "generated": "2026-10-16T16:38:50.485126Z",
+  "count": 674,
   "incidents": [
+    {
+      "id": 1473,
+      "country": "United Kingdom",
+      "date": "2026-10-16",
+      "school": "Rochdale High School",
+      "city": "Rochdale",
+      "state": "England",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Rochdale_bomb_threat_2026-10-16",
+      "notes": "Rochdale high school evacuated after 'bomb threat' phone call",
+      "lat": 53.6154,
+      "lng": -2.1558,
+      "src": "The Bury Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0kwOGptcjJ0LWljVkVrN1pFSzNRSFJwQ2M5LVZDVUQwRHdJcDNmUmd2d3FjZHlsODI3ajZaT0JKT0o2bDFNblVNSUduSU5SdlZuT0NqamlqSFlFLUNFVUU4YkhxM2wzY29UQk5lZnl6RFJ0TUVCbUU2bVZnb0xOYlhQandyVUpqWC1idUNlWXM1U3NCSUtBMHhQQUVKU0U?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1472,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Alabama Secretary of State's Office",
+      "city": "Montgomery",
+      "state": "Alabama",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Alabama Secretary of State suspicious package 2026-10-16",
+      "notes": "Alabama Secretary of State's office received 'suspicious package' in mail, investigation underway",
+      "lat": 32.3777,
+      "lng": -86.3091,
+      "src": "WBRC",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX056MFZJVUdyaHFLRTNHME1GV3dSYTlyb1BEYng5dTRHOWNMd3U3MUdPQUE5dHl6ME1wTUpSMVVQWmNwNFBnRW02SGwzbjZ1Y2Z2a0doem9fRGtCb3hTSVpGTEUtdzFOOGozV2R3SGRvcUlVV3JTVlBqWERmVFZ1X09RTjBWbTFXUFdYX2ZzMHNOX0pENkVQSDRNWTlsTEoyTGpSSWRsMGdSSU51RVRjS3JJZ2lOQXlfNUxyaA?oc=5",
+      "sources": 1
+    },
     {
       "id": 1471,
       "country": "United States",
@@ -19,7 +57,7 @@
       "lng": -86.7743,
       "src": "fox10tv.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHR5QmRPYmRwQTQyZ24xMWsyaFFIVXRpN2pNc0VrYzZFTnVacmRqUFZobEhpLU53dU1rY1BVRE1BbElXbDljR1hGOWZ0ZTJtNDZuSTllbTI4Sjg2VEZKWVBKSkJWSE11cExHc2JiNFFGcm84bDlleWlvYzNxWWZSclZlcEdXSDBldy1VVzJlQW1GQnkyaWNJUEZiS1dkdTlnRE1oZzJqd0lxbEtKazIzTWFzYnI?oc=5",
-      "sources": 3
+      "sources": 4
     },
     {
       "id": 1470,
@@ -76,7 +114,7 @@
       "lng": -77.0364,
       "src": "Facebook",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX1NYdmdxNWpnOFFGbFpZMWxJX0VQbHF5SVBxVS1ZcTc1QW5GZEczV1RPUk1pV09hSzY0ZlBoZ0J0LTh5Y1ZKZUJmWGxVY1RrZXFlVU1OdDRxTC1BZkdOVjI2N0ltdllsQ3RjX3l0YkpfaXRBeXlBTTR3c1lGeVdjUUlraEpEZ291RE82MFNuR0RZTkFxS2laQjVNeUFRXzdnbzRuTFdPZ1VlbXN6X0lrSVdiM24zSmgyMHhtVFYyZmdqWDd0YldIR05SS0V3Y2lDNG9MbjlmMDUzNDJJ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1467,
@@ -703,7 +741,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 41
+      "sources": 42
     },
     {
       "id": 1434,
@@ -12772,14 +12810,14 @@
     }
   ],
   "last_run": {
-    "ingested": 182,
-    "skipped_seen": 155,
-    "recognized": 6,
-    "new": 0,
-    "updated": 0,
-    "rejected": 19,
+    "ingested": 198,
+    "skipped_seen": 157,
+    "recognized": 7,
+    "new": 2,
+    "updated": 1,
+    "rejected": 26,
     "errors": 0,
-    "attempted": 27,
+    "attempted": 41,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12827,6 +12865,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-16T11:22:08.104291Z"
+    "ran_at": "2026-10-16T16:38:50.480209Z"
   }
 }
