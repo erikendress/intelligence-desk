@@ -1,7 +1,64 @@
 {
-  "generated": "2026-10-15T21:29:48.254171Z",
-  "count": 667,
+  "generated": "2026-10-16T00:26:22.769105Z",
+  "count": 670,
   "incidents": [
+    {
+      "id": 1469,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Bend Elementary School",
+      "city": "Bend",
+      "state": "Oregon",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": null,
+      "outcome": "Confirmed real",
+      "cluster": "Bend_Elementary_20261015",
+      "notes": "Active Shooter Killed At Bend Elementary School",
+      "lat": 44.0582,
+      "lng": -121.3153,
+      "src": "News Radio 1190 KEX",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMkwwQ3VfVV9hMGZxTHRvRkdNeXZzWnZMUkxFc3NXX0hZMEktcER1QmhDNDc3WngtcUVkbG1qN1lKSWwwdEtzbDUzN0FPZXB0dWxKTU9sZFZ5SHpXcVpvbVVaZTE5RWZubHNIWU1ORTFNdmQ0aHVxMm9IV0VMRUlpVWE4b2JJd0pnNWFmdXZTdmZjTUZDR2V4dEd30gGiAUFVX3lxTE9idXZ4dldwVm1BWENVNjlQUVFYV1ZEdTc5bVJkRHZtTEVKQmlGdkJ1Z0pOWTBVTFJDN3RaU0cySkJhTUwzdzl4Q0V4TnVmWm9nVW1kczJuN3BTajM2VkRwMVM4R0xINlZkUU42dXcycjlib1FWNk1tQjNOdjl5NnRhTDRnZWpxa2lsd2JfTko5NlJoc0dGaTlDdFUyaHM1NEJUUQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1468,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "United States Capitol",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Capitol Hill suspicious mail incident",
+      "notes": "mail containing \"suspicious substances\" had been sent to some Capitol Hill offices",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "src": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX1NYdmdxNWpnOFFGbFpZMWxJX0VQbHF5SVBxVS1ZcTc1QW5GZEczV1RPUk1pV09hSzY0ZlBoZ0J0LTh5Y1ZKZUJmWGxVY1RrZXFlVU1OdDRxTC1BZkdOVjI2N0ltdllsQ3RjX3l0YkpfaXRBeXlBTTR3c1lGeVdjUUlraEpEZ291RE82MFNuR0RZTkFxS2laQjVNeUFRXzdnbzRuTFdPZ1VlbXN6X0lrSVdiM24zSmgyMHhtVFYyZmdqWDd0YldIR05SS0V3Y2lDNG9MbjlmMDUzNDJJ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1467,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Elementary school in Oregon",
+      "city": null,
+      "state": "Oregon",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Oregon elementary school shooting 2026-10-15",
+      "notes": "5 people believed dead after shooting at Oregon elementary school",
+      "lat": 43.9793,
+      "lng": -120.7373,
+      "src": "KSN.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTVRtMzBxQUpwTFBvVURndFdYMlNvWHo4aG1lbkhhbk43TG5hUTNvdUw1VllhZnBSZDR3cDN4LVpUcjJZcmlwVGFDVmNaclNueGVxY3NjbThUQ2sxa1RzVFJMSWJUNVFsQUViTlZudGVkalJISXE3NkNXRzNpTzI4ZTBJek94VWNJTWpudGt0S0UtTnRNRFQxVUZ3Zkt2T1VDS19aa0w0bUs4dkswRnZ0WFlsOWZWWjjSAbwBQVVfeXFMTWNPc1laOTFJRm1zTjJVbTVMRTk0XzB1bmpwVy1TNmR0ckhTT3YyYzU0VWVVUWw0NTBadW15WGNCWmtHN2RYbTZFX2pnMnNqTWh4YkFubUJhVlFWbE5Qd3l2Mk1SRlVxRm5qZ3d2WHVRS2lwR3RNeDRsYXVWNHdSeEJ3Y1hDclJtWVJfaEg5c1Joa0FIRnp3VnZwd3RRaU1VRm93Zjl5U0lYbDYzaWFmUmlKSldvcWlTLWkwbEk?oc=5",
+      "sources": 1
+    },
     {
       "id": 1466,
       "country": "United States",
@@ -38,7 +95,7 @@
       "lng": -86.7743,
       "src": "WKRN News 2",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUkJiQ1JwWkNUSk9hYVdwZHA3X3VYSkdIWWI0VXpFSnJyVUFDdF9DWjZ1OFdMOGFfVHR6bXViVTdEaE1aRU9FaXBLTzN0UDl2cFlnT3A5NXl3RGZ4Q3ZkZUVtNzQzSUhNd3ZFRVZUUnJmWVFNNEJWOE9OUUluUUdlelVtY0t0ZDBfbWtWZVhDR2taU0E1SXRzdlduRlcxclFTa0ZhQm5nYV_SAa4BQVVfeXFMUEJibDNmSy1rYVhBZmpQZ2FrT0tNZUpPTnZhLWJsOUJoSXVCWGRmaFlMY0hFaUFLRVVsaXd6Zkw1VTNSNHNEVmlHU1ZSLWxjWEZaLWItWDZES21Dc0Z1RkQycUNpSFlSSHl6THFkMXB1YzhtcUN3c3cwNlhmdjRxWnBmSVlRaWlLcFo5U2JqTFk5TUMtTmYyQ2xweDJNYVE0M1lqZmRYbWh6T0Fka1p3?oc=5",
-      "sources": 2
+      "sources": 5
     },
     {
       "id": 1464,
@@ -114,7 +171,7 @@
       "lng": -76.6108,
       "src": "Baltimore Sun",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zUVZkX1ZndkdGdDZQSkI4dERabkgzM2pqdTRoTHR1UnpacTJfdG5UQzl4c0JPWUhySzRFbW8xOGRYMGVPNUJrYjdzODctLW0zN1dOZHpWRTVwMER2NXRvNWVQVUE4YlFMeVUydmlCcG1xZkNf?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1460,
@@ -145,14 +202,14 @@
       "sector": "K-12",
       "type": "Swatting / Active-Shooter Hoax",
       "response": null,
-      "outcome": "Under investigation",
+      "outcome": "Confirmed real",
       "cluster": "Silver Rail Elementary active shooter report Bend OR 2026-10-15",
       "notes": "Bend police responding to reported 'active shooter' situation at Silver Rail Elementary",
       "lat": 44.0582,
       "lng": -121.3153,
       "src": "KATU",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSml3cjJieU9iMFJPYTQ4dzZmUEVLRnBBeFFIekhNeUE1UUkzbzlCZ3RfVHRxS3IydUVMT05GNXNSWVQ5ZklqWDFGMnlVeVFNdEtaenVrOWpzOC1LaVZIczZJN3dkMnFwLXdlVGNxU2JjSjljNEJTTVpFRk5xWERjdG9IeEM3WGkzMG9fajJqeWZzZkFEZmZWdWRLazNMWHhJQ2t5TS0zcnB4NWpqbzNiSk9QOA?oc=5",
-      "sources": 8
+      "sources": 18
     },
     {
       "id": 1458,
@@ -209,7 +266,7 @@
       "lng": -83.1137,
       "src": "WJCL",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWl1Z0dfelVxU2xEcjRJVzNsSnB2ZWZXSUh4enBjY3RZcUUxSFZaanhGY1N6SGtBN2ZGZ3VtQ3ZuU2JKWnlNYUJaallqVWlhbUZ6QU5OQXMzd3BqbHowSERfbHBsbFVoOXJpTDhrb1lNeEk3VXRvVUY0Z1ZyYUNtTHBR?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1455,
@@ -285,7 +342,7 @@
       "lng": -85.6679,
       "src": "WZZM13.com",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUTR2ajJIc1luQTljb1lrVXkyVUM2Tk0xSlJUb3o3RW0wSHE3bVV4UXNXV3g1MkdFT3NiZEVnaFZiRmlZb013cXRQLWJSQ0hhanVpSFZ3ZU0tNWVsRktfVm4yakY3VkwtZU85YzRvdHM5OGd4ZmFnaTdTc1JBTFhnSmo5cXljaTJqRC01dXl4aGdXMWpVUWFZWDBLODQ0TUR2VVY3M2hMQl80UE0wWDZEaURuSU5Qd3liSlUxX1NZd3Y4Y0tSYTNRcV84V3dZQVVTdVd4bjFRVVl2LXJ3cENPWXF6cFhGNVU5Sld1Q1EwdWFqQQ?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1450,
@@ -608,7 +665,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 26
+      "sources": 34
     },
     {
       "id": 1434,
@@ -12677,14 +12734,14 @@
     }
   ],
   "last_run": {
-    "ingested": 158,
-    "skipped_seen": 100,
-    "recognized": 21,
-    "new": 8,
+    "ingested": 180,
+    "skipped_seen": 102,
+    "recognized": 28,
+    "new": 3,
     "updated": 1,
-    "rejected": 31,
+    "rejected": 46,
     "errors": 0,
-    "attempted": 58,
+    "attempted": 78,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12732,6 +12789,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-15T21:29:48.245992Z"
+    "ran_at": "2026-10-16T00:26:22.753763Z"
   }
 }
