@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T05:52:40.957624Z",
+  "generated": "2026-10-16T11:22:08.106774Z",
   "count": 672,
   "incidents": [
     {
@@ -133,7 +133,7 @@
       "lng": -86.7743,
       "src": "WKRN News 2",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUkJiQ1JwWkNUSk9hYVdwZHA3X3VYSkdIWWI0VXpFSnJyVUFDdF9DWjZ1OFdMOGFfVHR6bXViVTdEaE1aRU9FaXBLTzN0UDl2cFlnT3A5NXl3RGZ4Q3ZkZUVtNzQzSUhNd3ZFRVZUUnJmWVFNNEJWOE9OUUluUUdlelVtY0t0ZDBfbWtWZVhDR2taU0E1SXRzdlduRlcxclFTa0ZhQm5nYV_SAa4BQVVfeXFMUEJibDNmSy1rYVhBZmpQZ2FrT0tNZUpPTnZhLWJsOUJoSXVCWGRmaFlMY0hFaUFLRVVsaXd6Zkw1VTNSNHNEVmlHU1ZSLWxjWEZaLWItWDZES21Dc0Z1RkQycUNpSFlSSHl6THFkMXB1YzhtcUN3c3cwNlhmdjRxWnBmSVlRaWlLcFo5U2JqTFk5TUMtTmYyQ2xweDJNYVE0M1lqZmRYbWh6T0Fka1p3?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1464,
@@ -247,7 +247,7 @@
       "lng": -121.3153,
       "src": "KATU",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSml3cjJieU9iMFJPYTQ4dzZmUEVLRnBBeFFIekhNeUE1UUkzbzlCZ3RfVHRxS3IydUVMT05GNXNSWVQ5ZklqWDFGMnlVeVFNdEtaenVrOWpzOC1LaVZIczZJN3dkMnFwLXdlVGNxU2JjSjljNEJTTVpFRk5xWERjdG9IeEM3WGkzMG9fajJqeWZzZkFEZmZWdWRLazNMWHhJQ2t5TS0zcnB4NWpqbzNiSk9QOA?oc=5",
-      "sources": 20
+      "sources": 21
     },
     {
       "id": 1458,
@@ -380,7 +380,7 @@
       "lng": -85.6679,
       "src": "WZZM13.com",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUTR2ajJIc1luQTljb1lrVXkyVUM2Tk0xSlJUb3o3RW0wSHE3bVV4UXNXV3g1MkdFT3NiZEVnaFZiRmlZb013cXRQLWJSQ0hhanVpSFZ3ZU0tNWVsRktfVm4yakY3VkwtZU85YzRvdHM5OGd4ZmFnaTdTc1JBTFhnSmo5cXljaTJqRC01dXl4aGdXMWpVUWFZWDBLODQ0TUR2VVY3M2hMQl80UE0wWDZEaURuSU5Qd3liSlUxX1NZd3Y4Y0tSYTNRcV84V3dZQVVTdVd4bjFRVVl2LXJ3cENPWXF6cFhGNVU5Sld1Q1EwdWFqQQ?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1450,
@@ -703,7 +703,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 38
+      "sources": 41
     },
     {
       "id": 1434,
@@ -12773,13 +12773,13 @@
   ],
   "last_run": {
     "ingested": 182,
-    "skipped_seen": 131,
-    "recognized": 12,
-    "new": 2,
+    "skipped_seen": 155,
+    "recognized": 6,
+    "new": 0,
     "updated": 0,
-    "rejected": 32,
+    "rejected": 19,
     "errors": 0,
-    "attempted": 51,
+    "attempted": 27,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12827,6 +12827,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-16T05:52:40.955301Z"
+    "ran_at": "2026-10-16T11:22:08.104291Z"
   }
 }
