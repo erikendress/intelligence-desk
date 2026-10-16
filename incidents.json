@@ -1,25 +1,101 @@
 {
-  "generated": "2026-10-16T19:58:27.085065Z",
-  "count": 679,
+  "generated": "2026-10-16T22:52:31.905445Z",
+  "count": 683,
   "incidents": [
+    {
+      "id": 1482,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Deluzio's Center Township Office",
+      "city": "Center Township",
+      "state": "Pennsylvania",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Deluzio Center Twp Office suspicious package 2026-10-16",
+      "notes": "HAZMAT Responds To Suspicious Package At Deluzio's Center Twp Office",
+      "lat": 40.664,
+      "lng": -80.2868,
+      "src": "Beaver Countian",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc3dmN01XN21Fd0o1S0hmdGh4Ymhjd0RBQ1UyeXUtUlZWQXRMSTBQdHRwTkFVRzdWclhQVnkzSjNqQ2dvU3VQZWViQnpYdWw3N1I4VHB4V0s5OFcyN1Uzd2U1WnlpbnlMR1pEREROVkNMakJEZ19pUjRodHlRcFdTMDhMbHdJcUJxellBVVFadVF0dExfM0diYmVMUWFPQWNpWGxMRV9FSTVINThsbmFpRmVlaTNrX3VGbUJR?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1481,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Representative Pramila Jayapal's Seattle office",
+      "city": "Seattle",
+      "state": "Washington",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Jayapal_Seattle_20261016",
+      "notes": "Suspicious package sent to Jayapal's Seattle office, prompting evacuation",
+      "lat": 47.6038,
+      "lng": -122.3301,
+      "src": "The Seattle Times",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1480,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Rep. Maxwell Frost's Orlando Office",
+      "city": "Orlando",
+      "state": "Florida",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Orlando-Maxwell-Frost-office-suspicious-package-2026-10-16",
+      "notes": "Rep. Maxwell Frost's Orlando office evacuated after suspicious package received",
+      "lat": 28.5421,
+      "lng": -81.379,
+      "src": "WFTV",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTkxPWVhjaFF6QThmcWg0T04xVVRmcXlFMEd0UFF1LURJMGo3eUpTOHBLc2tjaVBnZ2U5VTJoaXVEdE15MjFpYTVWNEVyMTBQSlRmTUUyamVZWGYyalM0YmxiWUJ6NS1hOFRwNWJpT1hQd1poVklSSGlENklUWlVWeWNSdmVsaE1XYWtHek5rdlRKdDhmX0ZtQ0pkTGZLM3B6Y3l2N1FMdG1lR2l3UW5odmZjWDhxekV4VFFuVnJiOHN2Qi1RSllTZXoxOW9CYzVQYzQ40gHnAUFVX3lxTE9KLUZMUk53REdwNFN4VXFweGZwMDNqeDNoaWYzYllyNWNXYVA5N01UaExQTW01bV96NGhsb0xwSDUzLWhHS2RMdnhRT1ZWR3RDWFZqVnBDNUxEOW5yalBKZ0NCekNaWEl3Y2J6SjN1WDY1LWtsV2NPbE5uTnJRQVBDNHBmenl2d1BLbl9VZ1FSR205RUZsaGhGMEgzNEUtQXlwblZybE1DeGJfODZLaG8zV3VFZFR6X044T2dTMXJ3SjVrbmJtVmhDckRsc1NRaGxubkVHVWVBZWVySkRoYmh3cDFuLXgtYw?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1479,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Federal Building in Cheyenne",
+      "city": "Cheyenne",
+      "state": "Wyoming",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Suspicious packages at federal building",
+      "notes": "Federal employees evacuated due to second suspicious package",
+      "lat": 41.14,
+      "lng": -104.8202,
+      "src": "WyomingNews.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeHB4QV8tUlJuQXFNbWM2Y2xVUnY0Q0NET1lpYXN3eGhNeEFxbDZHLUhZOFJZbjV3RjBWUS1sa1M3U1pNT2k4ZmgxQ05XQmJmeXk1bEVCbDcxcDBuN1dVbHpvRnV3RGVfWGY0bEVwRnI1Um9OQlpRMG54Q2NaenNxNkJMQzZieW5LR2U4eWR6WF84cDNqMF9Td2pUV2hUbmJ5UWkyTlFab0tNWFhwMk9oUEVYZWFCZnpTZXNMWnVGcG9MR2NjTmFFZm1GUGJCQy1YbVBlVHVxTWZHTE5MSWZXVEVpUXMzMnZDQlE?oc=5",
+      "sources": 1
+    },
     {
       "id": 1478,
       "country": "United States",
       "date": "2026-10-16",
       "school": "Valley Children's Hospital",
       "city": null,
-      "state": null,
+      "state": "California",
       "sector": "Healthcare",
       "type": "Credible Threat",
       "response": "Lockdown",
       "outcome": "Resolved \u2013 no cause found",
       "cluster": "Valley Children's Hospital lockdown 2026-10-16",
       "notes": "Lockdown lifted after no threat found at Valley Children's Hospital",
-      "lat": null,
-      "lng": null,
+      "lat": 36.7015,
+      "lng": -118.756,
       "src": "kmph.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnoyR0lsRUV4ZDllMTNjY1Q1OFV3SGo3WFZNbTBrRXFXWkJ5UUw3MGdXWGlDdVJvZFdmdFZncnR0R2xOSGszZzNCaW1PT2hBcDhZb2gwWWtXYVIwTDRVaGJYS2ltMURpdDUyWTF0d1NJWDBqQ05WR1dSWVJkSEhoMU1TdWFyMmx4ZlBEWFdxa3ZZQmtFR2xiMTQ5elRWMDNnRzg0OA?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1477,
@@ -114,7 +190,7 @@
       "lng": -2.1558,
       "src": "The Bury Times",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0kwOGptcjJ0LWljVkVrN1pFSzNRSFJwQ2M5LVZDVUQwRHdJcDNmUmd2d3FjZHlsODI3ajZaT0JKT0o2bDFNblVNSUduSU5SdlZuT0NqamlqSFlFLUNFVUU4YkhxM2wzY29UQk5lZnl6RFJ0TUVCbUU2bVZnb0xOYlhQandyVUpqWC1idUNlWXM1U3NCSUtBMHhQQUVKU0U?oc=5",
-      "sources": 2
+      "sources": 3
     },
     {
       "id": 1471,
@@ -152,7 +228,7 @@
       "lng": -86.3091,
       "src": "WBRC",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX056MFZJVUdyaHFLRTNHME1GV3dSYTlyb1BEYng5dTRHOWNMd3U3MUdPQUE5dHl6ME1wTUpSMVVQWmNwNFBnRW02SGwzbjZ1Y2Z2a0doem9fRGtCb3hTSVpGTEUtdzFOOGozV2R3SGRvcUlVV3JTVlBqWERmVFZ1X09RTjBWbTFXUFdYX2ZzMHNOX0pENkVQSDRNWTlsTEoyTGpSSWRsMGdSSU51RVRjS3JJZ2lOQXlfNUxyaA?oc=5",
-      "sources": 9
+      "sources": 11
     },
     {
       "id": 1470,
@@ -215,8 +291,8 @@
       "id": 1467,
       "country": "United States",
       "date": "2026-10-15",
-      "school": "Elementary school in Oregon",
-      "city": null,
+      "school": "Oregon Secretary of State Office",
+      "city": "Salem",
       "state": "Oregon",
       "sector": "K-12",
       "type": "Credible Threat",
@@ -228,7 +304,7 @@
       "lng": -120.7373,
       "src": "KSN.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTVRtMzBxQUpwTFBvVURndFdYMlNvWHo4aG1lbkhhbk43TG5hUTNvdUw1VllhZnBSZDR3cDN4LVpUcjJZcmlwVGFDVmNaclNueGVxY3NjbThUQ2sxa1RzVFJMSWJUNVFsQUViTlZudGVkalJISXE3NkNXRzNpTzI4ZTBJek94VWNJTWpudGt0S0UtTnRNRFQxVUZ3Zkt2T1VDS19aa0w0bUs4dkswRnZ0WFlsOWZWWjjSAbwBQVVfeXFMTWNPc1laOTFJRm1zTjJVbTVMRTk0XzB1bmpwVy1TNmR0ckhTT3YyYzU0VWVVUWw0NTBadW15WGNCWmtHN2RYbTZFX2pnMnNqTWh4YkFubUJhVlFWbE5Qd3l2Mk1SRlVxRm5qZ3d2WHVRS2lwR3RNeDRsYXVWNHdSeEJ3Y1hDclJtWVJfaEg5c1Joa0FIRnp3VnZwd3RRaU1VRm93Zjl5U0lYbDYzaWFmUmlKSldvcWlTLWkwbEk?oc=5",
-      "sources": 1
+      "sources": 3
     },
     {
       "id": 1466,
@@ -380,7 +456,7 @@
       "lng": -121.3153,
       "src": "KATU",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSml3cjJieU9iMFJPYTQ4dzZmUEVLRnBBeFFIekhNeUE1UUkzbzlCZ3RfVHRxS3IydUVMT05GNXNSWVQ5ZklqWDFGMnlVeVFNdEtaenVrOWpzOC1LaVZIczZJN3dkMnFwLXdlVGNxU2JjSjljNEJTTVpFRk5xWERjdG9IeEM3WGkzMG9fajJqeWZzZkFEZmZWdWRLazNMWHhJQ2t5TS0zcnB4NWpqbzNiSk9QOA?oc=5",
-      "sources": 21
+      "sources": 22
     },
     {
       "id": 1458,
@@ -12905,14 +12981,14 @@
     }
   ],
   "last_run": {
-    "ingested": 197,
-    "skipped_seen": 156,
-    "recognized": 16,
-    "new": 5,
-    "updated": 1,
-    "rejected": 20,
+    "ingested": 191,
+    "skipped_seen": 145,
+    "recognized": 12,
+    "new": 4,
+    "updated": 0,
+    "rejected": 30,
     "errors": 0,
-    "attempted": 41,
+    "attempted": 46,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12960,6 +13036,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-16T19:58:27.075161Z"
+    "ran_at": "2026-10-16T22:52:31.898860Z"
   }
 }
