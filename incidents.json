@@ -1,7 +1,45 @@
 {
-  "generated": "2026-10-16T00:26:22.769105Z",
-  "count": 670,
+  "generated": "2026-10-16T05:52:40.957624Z",
+  "count": 672,
   "incidents": [
+    {
+      "id": 1471,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Tennessee State Election Office",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Tennessee state election office suspicious package",
+      "notes": "'Suspicious package' addressed to Tennessee state election office intercepted",
+      "lat": 36.1623,
+      "lng": -86.7743,
+      "src": "fox10tv.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHR5QmRPYmRwQTQyZ24xMWsyaFFIVXRpN2pNc0VrYzZFTnVacmRqUFZobEhpLU53dU1rY1BVRE1BbElXbDljR1hGOWZ0ZTJtNDZuSTllbTI4Sjg2VEZKWVBKSkJWSE11cExHc2JiNFFGcm84bDlleWlvYzNxWWZSclZlcEdXSDBldy1VVzJlQW1GQnkyaWNJUEZiS1dkdTlnRE1oZzJqd0lxbEtKazIzTWFzYnI?oc=5",
+      "sources": 3
+    },
+    {
+      "id": 1470,
+      "country": "United States",
+      "date": "2026-10-15",
+      "school": "Bryn Mawr College",
+      "city": "Bryn Mawr",
+      "state": "Pennsylvania",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Bryn Mawr College bomb threat Oct 2026",
+      "notes": "Bryn Mawr lifts lockdown after bomb threat deemed unfounded",
+      "lat": 40.0238,
+      "lng": -75.3173,
+      "src": "Capital Gazette",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvMXN5cUEybldaOFlMZndkSFkzb0pmUWlfTVhEejdaM2RJLWVLdFh2cTJjT0dhMEpQdUZEUENKM2UxajNQZS1adW5JLWNpYjI4c0ZrMi0xTWNkM1RUUExfejYteWVJRHRNT3BiSWM4R2k3OWdiT29J?oc=5",
+      "sources": 1
+    },
     {
       "id": 1469,
       "country": "United States",
@@ -114,7 +152,7 @@
       "lng": -73.7542,
       "src": "WCAX",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1EtdkYxMjlBLWExS3pRNXRBT2RlM2Q3OEVESzB0NXFtd2FhdENmOU5DNGtnU3FQTk9TTDZrSGlLUURFOFUtd2Z2MTFxMW5ZODVJYWgwVFdyaVpaSnpFMnZnNTNSanlTSjlybl9qSTVtYmhzMzZlaG9xRVFnbzMwekZoaUhKLWhsb0ZxUk1tR1lhWXZ6WDFCcHMtVDZUSzROLWRDTXBob25wQQ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1463,
@@ -152,7 +190,7 @@
       "lng": -80.0124,
       "src": "WPXI",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdjBzdkZ6a003VXNvRDZZaUtPUzdxNU1NRDk3bHNabE0yZEZrRV9SU1hoVkx4eFY4YkhzbTRjdWF5bnRNU2hKUHdFZ2tVVUZGcTYwemhrUEZ2bzFlQU1kUWJENGdoZFR1OE9EUDFjbUhIczlzZ1VUZTRpSGFOVk0yOWY0a1N0VlJ2dVNsSW1pcHNBQk5MQXgyaWdtSW4tRjhBcWtrbkNGOTNJYUI0OUswdURTNlV4RF8xeWtoOXE1dG85cUhPS3pSNGp4RVBOb3lOUjNuSS1n0gHqAUFVX3lxTFBiYVNXaXNrQmZTaFdlNEhLS2NSTnVQZXZ6NHZSeGlZYk16N2w0dkJxb2hLVzBiMUNfdUEwWXpfalhFdGJDMTV0STRmVFpjVzcxQW5aemUxUkZlT0pnV2U3QTFQSkJTR1dUa2x2MWhHTnM1ZDMzdktwTm9PR29aak9JaXNkd0pNX0hVakNrdS1KMGx0Ylk0Q1R3aldXaXVrUjdybXBUcXJIQnJRV3pFRjlxUGlyanZGelJSdVRla2VoQWtpVnY5YjNOT2UtaHlFQXl5VEE1SXAtdFZXVU1YOXMzUF9PX2NGSkpoUQ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1461,
@@ -209,7 +247,7 @@
       "lng": -121.3153,
       "src": "KATU",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSml3cjJieU9iMFJPYTQ4dzZmUEVLRnBBeFFIekhNeUE1UUkzbzlCZ3RfVHRxS3IydUVMT05GNXNSWVQ5ZklqWDFGMnlVeVFNdEtaenVrOWpzOC1LaVZIczZJN3dkMnFwLXdlVGNxU2JjSjljNEJTTVpFRk5xWERjdG9IeEM3WGkzMG9fajJqeWZzZkFEZmZWdWRLazNMWHhJQ2t5TS0zcnB4NWpqbzNiSk9QOA?oc=5",
-      "sources": 18
+      "sources": 20
     },
     {
       "id": 1458,
@@ -665,7 +703,7 @@
       "lng": -83.0466,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNazdlaGhDblFTZ0JrUnpHMG5iRU8zYVVtbVI4QjlzRjFOckJYRTUwUlRQZjYxNFBYS2o1R0JqTWNKTVI2YW5qT0hKakw3aGFYdWZCMWdtUlZpWVlQSXUyY2kyUmhXejE0UUpkQmxKMUxIM1c2c2ZuYm1HNC10VmNHVDBzR1ZvZC02dktwV0gzdGlaTExVTHBwenNGdlpSQ2JOVWwydG8tUmVRS1ZybFZnbmdJOWNnNUJxUmt2bDNYbmFnSmRqRGJVdmllcjg?oc=5",
-      "sources": 34
+      "sources": 38
     },
     {
       "id": 1434,
@@ -12734,14 +12772,14 @@
     }
   ],
   "last_run": {
-    "ingested": 180,
-    "skipped_seen": 102,
-    "recognized": 28,
-    "new": 3,
-    "updated": 1,
-    "rejected": 46,
+    "ingested": 182,
+    "skipped_seen": 131,
+    "recognized": 12,
+    "new": 2,
+    "updated": 0,
+    "rejected": 32,
     "errors": 0,
-    "attempted": 78,
+    "attempted": 51,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -12789,6 +12827,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-16T00:26:22.753763Z"
+    "ran_at": "2026-10-16T05:52:40.955301Z"
   }
 }
