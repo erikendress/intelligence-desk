@@ -1,7 +1,64 @@
 {
-  "generated": "2026-10-17T01:19:37.067997Z",
-  "count": 688,
+  "generated": "2026-10-17T06:56:39.736725Z",
+  "count": 691,
   "incidents": [
+    {
+      "id": 1490,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "St. Luke's Hospital",
+      "city": null,
+      "state": null,
+      "sector": "Healthcare",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "St. Luke's Hospital lockdown 2026-10-17",
+      "notes": "St. Luke's Hospital lockdown lifted after patient with remote control prompts large police response",
+      "lat": null,
+      "lng": null,
+      "src": "The Morning Call",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT2I4OHBNemszdnRfWUh2N2R4Y0N6Z0djcExKa2w1cE9XdjJNaWhIeGlJaU14NGp3S3g3UDIxcmVTMlhoaFp6SWIwOWdnVWVYRlV0aU5TYm5udnZzNEZZVXFfY0RuSGJfMEtyUnU3Yjg5ZlBaRk83Rm9oY01SLXpKLW9GNmFDSXJ0aTBka0p2ckdSd3FETk1ZZ1JyWXAzcGc?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1489,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "High school in Merced",
+      "city": "Merced",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Merced schools bomb threat 2026-10-17",
+      "notes": "Middle school and high school in Merced evacuated for bomb threat, deputies say",
+      "lat": 37.1642,
+      "lng": -120.7679,
+      "src": "YourCentralValley.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb254UGRVUk1PczRDeUpxelRlbE1VSkYwNU1jdWhZbTliaG5EM2lrNjEtQ0tCa21wYVh3dXowRDVQY05nQk1PamwtNkN5Q19JMnNxaVBvb3F5b3ZGRTJxbjRwOFY2QUdVa0paUHduS09sNVZUVThmTjNCd0E3a3dsUU1RV2EtNGlx0gGOAUFVX3lxTE5Qb3ZmcWZLNTJyWUo2eWtXWUJuamNJZUR5QzRSVkZibDJKV3ZWUjFuVlNuM2JwOGNHZlVkZWlqTkFVMGVNcFBNeW80aTZqdVpfbTJXWmRDT2NSLU45UEo2ZklCMk9Ec05yM2VTLU9RUXlvQk41dGlhRjFuR1ZFQzNJNE1JTXE1d2poM2NDdGc?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1488,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Middle school in Merced",
+      "city": "Merced",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Merced schools bomb threat 2026-10-17",
+      "notes": "Middle school and high school in Merced evacuated for bomb threat, deputies say",
+      "lat": 37.1642,
+      "lng": -120.7679,
+      "src": "YourCentralValley.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb254UGRVUk1PczRDeUpxelRlbE1VSkYwNU1jdWhZbTliaG5EM2lrNjEtQ0tCa21wYVh3dXowRDVQY05nQk1PamwtNkN5Q19JMnNxaVBvb3F5b3ZGRTJxbjRwOFY2QUdVa0paUHduS09sNVZUVThmTjNCd0E3a3dsUU1RV2EtNGlx0gGOAUFVX3lxTE5Qb3ZmcWZLNTJyWUo2eWtXWUJuamNJZUR5QzRSVkZibDJKV3ZWUjFuVlNuM2JwOGNHZlVkZWlqTkFVMGVNcFBNeW80aTZqdVpfbTJXWmRDT2NSLU45UEo2ZklCMk9Ec05yM2VTLU9RUXlvQk41dGlhRjFuR1ZFQzNJNE1JTXE1d2poM2NDdGc?oc=5",
+      "sources": 1
+    },
     {
       "id": 1486,
       "country": "United States",
@@ -50,14 +107,14 @@
       "sector": "Other",
       "type": "Bomb Threat",
       "response": null,
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Statesville Recreation Center bomb threat 2026-10-17",
       "notes": "SPD Investigating Bomb Threat at Statesville Recreation Center",
       "lat": 35.7828,
       "lng": -80.8874,
       "src": "Statesville Police Department",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nNjVlLV9BaXBDT2dfZHo1blAtdWc2TDNLUkFXTmE3eFhDQXU5UFVBYVdEM3JES0dpSExWZnhxRHFqQXpYSGJQVWgyNWVGS1pvX2ZBaDU5TnU?oc=5",
-      "sources": 2
+      "sources": 4
     },
     {
       "id": 1487,
@@ -133,7 +190,7 @@
       "lng": -122.3301,
       "src": "The Seattle Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
-      "sources": 3
+      "sources": 5
     },
     {
       "id": 1480,
@@ -190,7 +247,7 @@
       "lng": -118.756,
       "src": "kmph.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnoyR0lsRUV4ZDllMTNjY1Q1OFV3SGo3WFZNbTBrRXFXWkJ5UUw3MGdXWGlDdVJvZFdmdFZncnR0R2xOSGszZzNCaW1PT2hBcDhZb2gwWWtXYVIwTDRVaGJYS2ltMURpdDUyWTF0d1NJWDBqQ05WR1dSWVJkSEhoMU1TdWFyMmx4ZlBEWFdxa3ZZQmtFR2xiMTQ5elRWMDNnRzg0OA?oc=5",
-      "sources": 5
+      "sources": 6
     },
     {
       "id": 1477,
@@ -228,7 +285,7 @@
       "lng": -81.379,
       "src": "WKMG",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa01zb3JUaU5qM3d2a2VVX3JlUlJjNE1rM3AyaTRYQzNsSE82anNWYXhwNU5BZnBUOXRxWV8xVmxXSElFcWtmUlZ1ZkZMeXcwTXI1U1U5cGtHRkQxcVpVbU5SSVdZQmx0T2JEa3ltSjg3OGlMZjZPYm9qc2Z5dWZHenhUc3pkeGpxTVlLb0JSbVRSN1QxeFZmbFdpYnF0aHhJOUU3V3dhV1FqRFFteTFfd1RBSQ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1475,
@@ -323,7 +380,7 @@
       "lng": -86.3091,
       "src": "WBRC",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX056MFZJVUdyaHFLRTNHME1GV3dSYTlyb1BEYng5dTRHOWNMd3U3MUdPQUE5dHl6ME1wTUpSMVVQWmNwNFBnRW02SGwzbjZ1Y2Z2a0doem9fRGtCb3hTSVpGTEUtdzFOOGozV2R3SGRvcUlVV3JTVlBqWERmVFZ1X09RTjBWbTFXUFdYX2ZzMHNOX0pENkVQSDRNWTlsTEoyTGpSSWRsMGdSSU51RVRjS3JJZ2lOQXlfNUxyaA?oc=5",
-      "sources": 12
+      "sources": 14
     },
     {
       "id": 1470,
@@ -13076,14 +13133,14 @@
     }
   ],
   "last_run": {
-    "ingested": 194,
-    "skipped_seen": 166,
-    "recognized": 13,
-    "new": 5,
-    "updated": 0,
-    "rejected": 15,
+    "ingested": 192,
+    "skipped_seen": 171,
+    "recognized": 11,
+    "new": 3,
+    "updated": 1,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 28,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13131,6 +13188,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-17T01:19:37.062991Z"
+    "ran_at": "2026-10-17T06:56:39.732311Z"
   }
 }
