@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T18:29:48.455196Z",
+  "generated": "2026-10-17T21:27:32.908743Z",
   "count": 693,
   "incidents": [
     {
@@ -19,7 +19,7 @@
       "lng": -86.3091,
       "src": "AL.com",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUVlZ29YU2RkbjhVcEVVNFBzYnNRVkQ4cDlCSU9qNzk4SFR4RDgxUWpqbkZjb1l3Rld6dDg0MmpQUU5xRURpeWphcVNFRXRJX09EUGkyWVRVaF85TlZGN1hpYUItUnluWmVRV1l0VVN5S3VoZS0xcE82cmxzcEFFWE5vaTJfRDBNQ2l2TGtuSEJ0dXFJbEtuQWlWNVFKZDd5Ny14bkdLeDdydTMtSHFEM0gyUjBBckNPcU85YzMxRlo3ekk4UVJzcm9jRdIBywFBVV95cUxOWUVlZ29YU2RkbjhVcEVVNFBzYnNRVkQ4cDlCSU9qNzk4SFR4RDgxUWpqbkZjb1l3Rld6dDg0MmpQUU5xRURpeWphcVNFRXRJX09EUGkyWVRVaF85TlZGN1hpYUItUnluWmVRV1l0VVN5S3VoZS0xcE82cmxzcEFFWE5vaTJfRDBNQ2l2TGtuSEJ0dXFJbEtuQWlWNVFKZDd5Ny14bkdLeDdydTMtSHFEM0gyUjBBckNPcU85YzMxRlo3ekk4UVJzcm9jRQ?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1491,
@@ -13171,14 +13171,14 @@
     }
   ],
   "last_run": {
-    "ingested": 187,
-    "skipped_seen": 177,
-    "recognized": 2,
-    "new": 2,
+    "ingested": 195,
+    "skipped_seen": 184,
+    "recognized": 1,
+    "new": 0,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 11,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13226,6 +13226,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-17T18:29:48.446119Z"
+    "ran_at": "2026-10-17T21:27:32.900148Z"
   }
 }
