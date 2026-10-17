@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T06:56:39.736725Z",
+  "generated": "2026-10-17T11:36:59.670011Z",
   "count": 691,
   "incidents": [
     {
@@ -209,7 +209,7 @@
       "lng": -81.379,
       "src": "WFTV",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTkxPWVhjaFF6QThmcWg0T04xVVRmcXlFMEd0UFF1LURJMGo3eUpTOHBLc2tjaVBnZ2U5VTJoaXVEdE15MjFpYTVWNEVyMTBQSlRmTUUyamVZWGYyalM0YmxiWUJ6NS1hOFRwNWJpT1hQd1poVklSSGlENklUWlVWeWNSdmVsaE1XYWtHek5rdlRKdDhmX0ZtQ0pkTGZLM3B6Y3l2N1FMdG1lR2l3UW5odmZjWDhxekV4VFFuVnJiOHN2Qi1RSllTZXoxOW9CYzVQYzQ40gHnAUFVX3lxTE9KLUZMUk53REdwNFN4VXFweGZwMDNqeDNoaWYzYllyNWNXYVA5N01UaExQTW01bV96NGhsb0xwSDUzLWhHS2RMdnhRT1ZWR3RDWFZqVnBDNUxEOW5yalBKZ0NCekNaWEl3Y2J6SjN1WDY1LWtsV2NPbE5uTnJRQVBDNHBmenl2d1BLbl9VZ1FSR205RUZsaGhGMEgzNEUtQXlwblZybE1DeGJfODZLaG8zV3VFZFR6X044T2dTMXJ3SjVrbmJtVmhDckRsc1NRaGxubkVHVWVBZWVySkRoYmh3cDFuLXgtYw?oc=5",
-      "sources": 2
+      "sources": 4
     },
     {
       "id": 1479,
@@ -361,7 +361,7 @@
       "lng": -86.7743,
       "src": "fox10tv.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHR5QmRPYmRwQTQyZ24xMWsyaFFIVXRpN2pNc0VrYzZFTnVacmRqUFZobEhpLU53dU1rY1BVRE1BbElXbDljR1hGOWZ0ZTJtNDZuSTllbTI4Sjg2VEZKWVBKSkJWSE11cExHc2JiNFFGcm84bDlleWlvYzNxWWZSclZlcEdXSDBldy1VVzJlQW1GQnkyaWNJUEZiS1dkdTlnRE1oZzJqd0lxbEtKazIzTWFzYnI?oc=5",
-      "sources": 6
+      "sources": 7
     },
     {
       "id": 1472,
@@ -462,7 +462,7 @@
       "id": 1466,
       "country": "United States",
       "date": "2026-10-15",
-      "school": "Ohio Election Office",
+      "school": "Oregon Election Office",
       "city": null,
       "state": "Ohio",
       "sector": "Government",
@@ -475,7 +475,7 @@
       "lng": -82.6881,
       "src": "WOWK 13 News",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVF9IZmcwS1I3ZlhGUEtoNlZUUXhPQ3R6M0hLNWlzRHRNOTRQQWM3Z0F5MFFEVlFOMndkeFpKc3RUSW1yME1fZzZGYV9EcW12ME9idTU2dXlnRnFkV1htSElGVXJPUVlnc1lQMVJmVmdlWWFHc1hXdWRCcDRqNTJ2UjNLV0JHOXdQUzlfLXVqa2EzdE1VT1ZqYnM5N2hxSGJkLTROTHp5WDkzOEFaRlUxT0R1N1gyLTlQaVpRYtIBvAFBVV95cUxOVF9IZmcwS1I3ZlhGUEtoNlZUUXhPQ3R6M0hLNWlzRHRNOTRQQWM3Z0F5MFFEVlFOMndkeFpKc3RUSW1yME1fZzZGYV9EcW12ME9idTU2dXlnRnFkV1htSElGVXJPUVlnc1lQMVJmVmdlWWFHc1hXdWRCcDRqNTJ2UjNLV0JHOXdQUzlfLXVqa2EzdE1VT1ZqYnM5N2hxSGJkLTROTHp5WDkzOEFaRlUxT0R1N1gyLTlQaVpRYg?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1465,
@@ -608,7 +608,7 @@
       "lng": -121.3153,
       "src": "KATU",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSml3cjJieU9iMFJPYTQ4dzZmUEVLRnBBeFFIekhNeUE1UUkzbzlCZ3RfVHRxS3IydUVMT05GNXNSWVQ5ZklqWDFGMnlVeVFNdEtaenVrOWpzOC1LaVZIczZJN3dkMnFwLXdlVGNxU2JjSjljNEJTTVpFRk5xWERjdG9IeEM3WGkzMG9fajJqeWZzZkFEZmZWdWRLazNMWHhJQ2t5TS0zcnB4NWpqbzNiSk9QOA?oc=5",
-      "sources": 22
+      "sources": 23
     },
     {
       "id": 1458,
@@ -13133,14 +13133,14 @@
     }
   ],
   "last_run": {
-    "ingested": 192,
-    "skipped_seen": 171,
-    "recognized": 11,
-    "new": 3,
-    "updated": 1,
-    "rejected": 10,
+    "ingested": 190,
+    "skipped_seen": 180,
+    "recognized": 5,
+    "new": 0,
+    "updated": 0,
+    "rejected": 5,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 10,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13188,6 +13188,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-17T06:56:39.732311Z"
+    "ran_at": "2026-10-17T11:36:59.660499Z"
   }
 }
