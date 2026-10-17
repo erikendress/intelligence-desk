@@ -1,7 +1,45 @@
 {
-  "generated": "2026-10-17T15:33:12.543891Z",
-  "count": 691,
+  "generated": "2026-10-17T18:29:48.455196Z",
+  "count": 693,
   "incidents": [
+    {
+      "id": 1492,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Alabama Secretary of State's office",
+      "city": "Montgomery",
+      "state": "Alabama",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Alabama Secretary of State suspicious package 2026-10-17",
+      "notes": "FBI investigating suspicious package sent to Alabama Secretary of State's office",
+      "lat": 32.3777,
+      "lng": -86.3091,
+      "src": "AL.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUVlZ29YU2RkbjhVcEVVNFBzYnNRVkQ4cDlCSU9qNzk4SFR4RDgxUWpqbkZjb1l3Rld6dDg0MmpQUU5xRURpeWphcVNFRXRJX09EUGkyWVRVaF85TlZGN1hpYUItUnluWmVRV1l0VVN5S3VoZS0xcE82cmxzcEFFWE5vaTJfRDBNQ2l2TGtuSEJ0dXFJbEtuQWlWNVFKZDd5Ny14bkdLeDdydTMtSHFEM0gyUjBBckNPcU85YzMxRlo3ekk4UVJzcm9jRdIBywFBVV95cUxOWUVlZ29YU2RkbjhVcEVVNFBzYnNRVkQ4cDlCSU9qNzk4SFR4RDgxUWpqbkZjb1l3Rld6dDg0MmpQUU5xRURpeWphcVNFRXRJX09EUGkyWVRVaF85TlZGN1hpYUItUnluWmVRV1l0VVN5S3VoZS0xcE82cmxzcEFFWE5vaTJfRDBNQ2l2TGtuSEJ0dXFJbEtuQWlWNVFKZDd5Ny14bkdLeDdydTMtSHFEM0gyUjBBckNPcU85YzMxRlo3ekk4UVJzcm9jRQ?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1491,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Statesville Rec Center",
+      "city": "Statesville",
+      "state": "North Carolina",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Statesville bomb threat 2026-10-17",
+      "notes": "Phoned-In Bomb Threat Empties Statesville Rec Center, K-9 Unit Finds Nothing",
+      "lat": 35.7828,
+      "lng": -80.8874,
+      "src": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTZPQjRhT1hzUHdSNGwtU3pCZV9tUi1QcGkyWUs4MHUwTkl3aWJpUlE0RmhsczFmNHhHQTVvZE4yRGpYM0hESTJKcEwxQVhWY2pGSk0xRjZNOTV4YVJFaVhQeVh5QWVVU3ZoTVpadDJ5c3QtR3diSEdLd0xHbDBwSXJvX0ktVXBVbHVZd05TX2d6YmZaZWFURU9VTjV0N3ptWWF5UGMxaGk?oc=5",
+      "sources": 1
+    },
     {
       "id": 1490,
       "country": "United States",
@@ -13133,14 +13171,14 @@
     }
   ],
   "last_run": {
-    "ingested": 188,
-    "skipped_seen": 176,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 187,
+    "skipped_seen": 177,
+    "recognized": 2,
+    "new": 2,
     "updated": 0,
-    "rejected": 10,
+    "rejected": 8,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 10,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13188,6 +13226,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-17T15:33:12.539044Z"
+    "ran_at": "2026-10-17T18:29:48.446119Z"
   }
 }
