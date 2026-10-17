@@ -1,7 +1,102 @@
 {
-  "generated": "2026-10-16T22:52:31.905445Z",
-  "count": 683,
+  "generated": "2026-10-17T01:19:37.067997Z",
+  "count": 688,
   "incidents": [
+    {
+      "id": 1486,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Building with Rep. Jayapal's office",
+      "city": "Seattle",
+      "state": "Washington",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Seattle-2026-10-17-suspicious-package",
+      "notes": "Seattle building with Rep. Jayapal's office evacuated for 'suspicious package'",
+      "lat": 47.6038,
+      "lng": -122.3301,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcElxMXVEU2ZYWW5nVGR6a1Y1NzdrZFVTUzZ2bjdNa1VBSFI3ZVF6Q0RpU2dvTERqWHVETUFha0NVVnFFQ3ZpWXFiOG1BZUhvUXl4dUQ3VlV4UTduRmVtQ2VZNUdGMkM3QlVSX1RGeUF0emphc1U2eDZhazRHOXB1c29KSm11dUdFeG41MjlB?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1485,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Linda S\u00e1nchez Whittier District Office",
+      "city": "Whittier",
+      "state": "California",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Whittier-suspicious-package-20261017",
+      "notes": "suspicious package received at Whittier district office",
+      "lat": 33.9749,
+      "lng": -118.0339,
+      "src": "Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ1VjTXFMQTFzZ3B6dWJCUFBJVnBOSWV5NVZBU0dUTTZzRzRCNzd3VjE2UmJBOUdKWkVqaDh1ZUtpNW81a2wzdHlHd0t2QndwZlAya0hob3oxUTd3dmMtbktKYmdoaGFsY09tUXhtcHZfVUg4V1JqU3VVYW9TeVlDeG1wQVhydTJ5ZmU3Q0Jodzh6azhpeE1BR2FHcHNDX2xxMEhJdXdsYzdvc0hWUnRiUVNnM2cxeXVxcnhUY24weS00b1RRZU16bg?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1483,
+      "country": "United States",
+      "date": "2026-10-17",
+      "school": "Statesville Recreation Center",
+      "city": "Statesville",
+      "state": "North Carolina",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Statesville Recreation Center bomb threat 2026-10-17",
+      "notes": "SPD Investigating Bomb Threat at Statesville Recreation Center",
+      "lat": 35.7828,
+      "lng": -80.8874,
+      "src": "Statesville Police Department",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9nNjVlLV9BaXBDT2dfZHo1blAtdWc2TDNLUkFXTmE3eFhDQXU5UFVBYVdEM3JES0dpSExWZnhxRHFqQXpYSGJQVWgyNWVGS1pvX2ZBaDU5TnU?oc=5",
+      "sources": 2
+    },
+    {
+      "id": 1487,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Ricketts' Omaha office",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Ricketts Omaha office suspicious envelope Oct 2026",
+      "notes": "Suspicious envelope prompts hazmat response at Ricketts' Omaha office",
+      "lat": 41.2587,
+      "lng": -95.9384,
+      "src": "Star-Herald",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWGJKOUtpNVFVXzJPYU5YdkMxZkFaSVVDc05RSjhhOVpnZnU0UV9oNkNlUkpYSE5CZE9WWm1Yd3VzWURpaDdnYzViS3VKV1oyVVdydjZ6YjU4bDdSQUgwdGZOVzVyM0I5Y1E5cjNoSG5SZU5iRzUtbjFZRXJ2MVRsdmNUdXcwMWhkMzNrYmxMWldWRWswY2stbUNJbFl4dUlEVHJj?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1484,
+      "country": "United States",
+      "date": "2026-10-16",
+      "school": "Schools in Hilmar",
+      "city": "Hilmar",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Hilmar bomb threat October 2026",
+      "notes": "Bomb threat prompts evacuation of two Hilmar schools; no explosives found",
+      "lat": 37.4085,
+      "lng": -120.8502,
+      "src": "Los Banos Enterprise",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX2NmR0w1LVNUS2VTMUVfU3NzRVptYjZXR3lJdEZEVi1peTNieTM0M2FMbnNNTWhaNVdzY3RMcldzb2c1NkxlOHFpOUJ3Z0pOWXlabHdEazhFWFRXRjNpY3F1bUFhWWRHTEdZSUh5ZVpNVzdDRFR0NklqeTZvTUxCX3VSekRiWm9rTmFXOVJ2OW1MSFA3RC1ER2lBX0otandYQUhvdklEbm1VNDVIQV9Rby1keWVRenNFQVNtaC1iaFRBbjg?oc=5",
+      "sources": 1
+    },
     {
       "id": 1482,
       "country": "United States",
@@ -25,7 +120,7 @@
       "id": 1481,
       "country": "United States",
       "date": "2026-10-16",
-      "school": "Representative Pramila Jayapal's Seattle office",
+      "school": "U.S. Representative Pramila Jayapal's Seattle Office",
       "city": "Seattle",
       "state": "Washington",
       "sector": "Government",
@@ -38,7 +133,7 @@
       "lng": -122.3301,
       "src": "The Seattle Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
-      "sources": 1
+      "sources": 3
     },
     {
       "id": 1480,
@@ -57,7 +152,7 @@
       "lng": -81.379,
       "src": "WFTV",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTkxPWVhjaFF6QThmcWg0T04xVVRmcXlFMEd0UFF1LURJMGo3eUpTOHBLc2tjaVBnZ2U5VTJoaXVEdE15MjFpYTVWNEVyMTBQSlRmTUUyamVZWGYyalM0YmxiWUJ6NS1hOFRwNWJpT1hQd1poVklSSGlENklUWlVWeWNSdmVsaE1XYWtHek5rdlRKdDhmX0ZtQ0pkTGZLM3B6Y3l2N1FMdG1lR2l3UW5odmZjWDhxekV4VFFuVnJiOHN2Qi1RSllTZXoxOW9CYzVQYzQ40gHnAUFVX3lxTE9KLUZMUk53REdwNFN4VXFweGZwMDNqeDNoaWYzYllyNWNXYVA5N01UaExQTW01bV96NGhsb0xwSDUzLWhHS2RMdnhRT1ZWR3RDWFZqVnBDNUxEOW5yalBKZ0NCekNaWEl3Y2J6SjN1WDY1LWtsV2NPbE5uTnJRQVBDNHBmenl2d1BLbl9VZ1FSR205RUZsaGhGMEgzNEUtQXlwblZybE1DeGJfODZLaG8zV3VFZFR6X044T2dTMXJ3SjVrbmJtVmhDckRsc1NRaGxubkVHVWVBZWVySkRoYmh3cDFuLXgtYw?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1479,
@@ -83,7 +178,7 @@
       "country": "United States",
       "date": "2026-10-16",
       "school": "Valley Children's Hospital",
-      "city": null,
+      "city": "Madera",
       "state": "California",
       "sector": "Healthcare",
       "type": "Credible Threat",
@@ -95,7 +190,7 @@
       "lng": -118.756,
       "src": "kmph.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWnoyR0lsRUV4ZDllMTNjY1Q1OFV3SGo3WFZNbTBrRXFXWkJ5UUw3MGdXWGlDdVJvZFdmdFZncnR0R2xOSGszZzNCaW1PT2hBcDhZb2gwWWtXYVIwTDRVaGJYS2ltMURpdDUyWTF0d1NJWDBqQ05WR1dSWVJkSEhoMU1TdWFyMmx4ZlBEWFdxa3ZZQmtFR2xiMTQ5elRWMDNnRzg0OA?oc=5",
-      "sources": 2
+      "sources": 5
     },
     {
       "id": 1477,
@@ -228,7 +323,7 @@
       "lng": -86.3091,
       "src": "WBRC",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX056MFZJVUdyaHFLRTNHME1GV3dSYTlyb1BEYng5dTRHOWNMd3U3MUdPQUE5dHl6ME1wTUpSMVVQWmNwNFBnRW02SGwzbjZ1Y2Z2a0doem9fRGtCb3hTSVpGTEUtdzFOOGozV2R3SGRvcUlVV3JTVlBqWERmVFZ1X09RTjBWbTFXUFdYX2ZzMHNOX0pENkVQSDRNWTlsTEoyTGpSSWRsMGdSSU51RVRjS3JJZ2lOQXlfNUxyaA?oc=5",
-      "sources": 11
+      "sources": 12
     },
     {
       "id": 1470,
@@ -12981,14 +13076,14 @@
     }
   ],
   "last_run": {
-    "ingested": 191,
-    "skipped_seen": 145,
-    "recognized": 12,
-    "new": 4,
+    "ingested": 194,
+    "skipped_seen": 166,
+    "recognized": 13,
+    "new": 5,
     "updated": 0,
-    "rejected": 30,
+    "rejected": 15,
     "errors": 0,
-    "attempted": 46,
+    "attempted": 28,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13036,6 +13131,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-16T22:52:31.898860Z"
+    "ran_at": "2026-10-17T01:19:37.062991Z"
   }
 }
