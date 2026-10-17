@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T11:36:59.670011Z",
+  "generated": "2026-10-17T15:33:12.543891Z",
   "count": 691,
   "incidents": [
     {
@@ -209,7 +209,7 @@
       "lng": -81.379,
       "src": "WFTV",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTkxPWVhjaFF6QThmcWg0T04xVVRmcXlFMEd0UFF1LURJMGo3eUpTOHBLc2tjaVBnZ2U5VTJoaXVEdE15MjFpYTVWNEVyMTBQSlRmTUUyamVZWGYyalM0YmxiWUJ6NS1hOFRwNWJpT1hQd1poVklSSGlENklUWlVWeWNSdmVsaE1XYWtHek5rdlRKdDhmX0ZtQ0pkTGZLM3B6Y3l2N1FMdG1lR2l3UW5odmZjWDhxekV4VFFuVnJiOHN2Qi1RSllTZXoxOW9CYzVQYzQ40gHnAUFVX3lxTE9KLUZMUk53REdwNFN4VXFweGZwMDNqeDNoaWYzYllyNWNXYVA5N01UaExQTW01bV96NGhsb0xwSDUzLWhHS2RMdnhRT1ZWR3RDWFZqVnBDNUxEOW5yalBKZ0NCekNaWEl3Y2J6SjN1WDY1LWtsV2NPbE5uTnJRQVBDNHBmenl2d1BLbl9VZ1FSR205RUZsaGhGMEgzNEUtQXlwblZybE1DeGJfODZLaG8zV3VFZFR6X044T2dTMXJ3SjVrbmJtVmhDckRsc1NRaGxubkVHVWVBZWVySkRoYmh3cDFuLXgtYw?oc=5",
-      "sources": 4
+      "sources": 5
     },
     {
       "id": 1479,
@@ -13133,14 +13133,14 @@
     }
   ],
   "last_run": {
-    "ingested": 190,
-    "skipped_seen": 180,
-    "recognized": 5,
+    "ingested": 188,
+    "skipped_seen": 176,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
-    "rejected": 5,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13188,6 +13188,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-17T11:36:59.660499Z"
+    "ran_at": "2026-10-17T15:33:12.539044Z"
   }
 }
