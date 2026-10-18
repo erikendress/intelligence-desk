@@ -1,7 +1,74 @@
 {
-  "generated": "2026-10-18T17:22:25.723253Z",
-  "count": 693,
+  "generated": "2026-10-18T20:41:43.641715Z",
+  "count": 696,
   "incidents": [
+    {
+      "id": 1497,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "Downtown Santa Fe",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "sector": "Other",
+      "type": "Suspicious Package / Mail",
+      "response": "Lockout/Secure",
+      "outcome": "Under investigation",
+      "cluster": "Santa Fe downtown suspicious package 2026-10-18",
+      "notes": "investigation of 'suspicious package'",
+      "lat": 35.6876,
+      "lng": -105.9385,
+      "src": "Santa Fe New Mexican",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQU1dIOHdBRVlKN2tNbHJpOE11RXVHbnREQnRhZGQ5bmpnQ0RnQ0lmdUl2SEY3V0hKbjc3VTNham15aWwtOTR2Y3hybkdpSFBsXzRpcGVRZjIyY3pZT1pQTk10Mlk1dmQxWDk5Tm9PdjdrV2U4ZUFwbE9BY080ZTcwT3Jab1pKUlBGeUtwTVFGTS00WUlWQm93Nlg3NXhhOTRqTG9oeE1WT2prNFZCTy1jSHV5Sk96UXZ3YXk2LU5scTd3dWJoVERLSUFDQklEcHJCVFZ5cVlKTWJGOTdlVlZpbzFHZjB4eXNsdGpPRTRkaTBnQldpNF9HQjBHcjUxMWlYb0V3ZzNxN2lwR0lBT0xqcHh4cw?oc=5",
+      "sources": 1,
+      "county": "Santa Fe County"
+    },
+    {
+      "id": 1496,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "Oregon Election Office",
+      "city": null,
+      "state": "Oregon",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Oregon election office suspicious package 2026-10-18",
+      "notes": "Feds intercept 'suspicious' package intended for Oregon election office",
+      "lat": 43.9793,
+      "lng": -120.7373,
+      "src": "Nisqually Valley News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWE94b2ZTX3VRS3BkREFKdktodlBCbjVaZ1ZQQS11dWxyd0dxQXVtR1ZodVRPUkVFQkttYWZqbklabTUwY3hEVnZUU1YwU2VJMkFobzFldUlPTmM2eEl1TkFHdG5GT2diVmFYYTJSdWljS0RINy1udmRTNXNmU2xrSUZPcVc3ZUJHdU0tTUhYTzBsOW9aSEpjbHdlanFFSnpYWE9MbWtuOGNwQUtSUUFv?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1495,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "Donald J. Trump International Airport",
+      "city": "West Palm Beach",
+      "state": "Florida",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "DJT_airport_bomb_threat_2026-10-18",
+      "notes": "Bomb threat reported at DJT airport",
+      "lat": 26.7154,
+      "lng": -80.0533,
+      "src": "KTUL",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGN3a0NFMm5zVFpYTjBhYWowRXBubW0wYjM0cDVfQ2FZeS1kbk56cWFIOFYtbENEWEdETkVBZElJaW9wVTJoYnZxZnJZNXc1SFFuYWVkTVZYZ2NjUkNROVV1aUk4MFR0RWp1NmxVSlhfTjQ1WVdTQzhxeGt4Y25PRGphLUNTTjlZR2RweG5COXh1VV9HT1lZUndNTllLQzZQVl9CWjVWMExUVlhfRll6T09TcWN0dGM4RjB3SGlyQWI?oc=5",
+      "sources": 5,
+      "county": "Palm Beach County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-12",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1494,
       "country": "United States",
@@ -300,7 +367,7 @@
       "lng": -122.3301,
       "src": "The Seattle Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "King County"
     },
     {
@@ -14252,12 +14319,12 @@
         ]
       },
       {
-        "county": "Wayne County",
-        "region": "Michigan",
+        "county": "Palm Beach County",
+        "region": "Florida",
         "country": "United States",
         "events": 2,
         "dates": [
-          "2026-10-10",
+          "2026-10-12",
           "2026-10-18"
         ]
       }
@@ -14351,14 +14418,14 @@
     }
   },
   "last_run": {
-    "ingested": 193,
-    "skipped_seen": 186,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 190,
+    "skipped_seen": 166,
+    "recognized": 8,
+    "new": 3,
     "updated": 0,
-    "rejected": 5,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 7,
+    "attempted": 24,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14406,6 +14473,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-18T17:22:25.707237Z"
+    "ran_at": "2026-10-18T20:41:43.623569Z"
   }
 }
