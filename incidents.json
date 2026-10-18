@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:58:17.511796Z",
+  "generated": "2026-10-18T13:54:16.751593Z",
   "count": 693,
   "incidents": [
     {
@@ -14271,24 +14271,10 @@
         "country": "United States"
       },
       {
-        "id": 1434,
-        "date": "2026-10-13",
-        "facility": "North Kansas City High School",
-        "region": "Missouri",
-        "country": "United States"
-      },
-      {
         "id": 1320,
         "date": "2026-10-11",
         "facility": "Florence County School",
         "region": "Michigan",
-        "country": "United States"
-      },
-      {
-        "id": 1335,
-        "date": "2026-10-11",
-        "facility": "Florence County School District",
-        "region": "South Carolina",
         "country": "United States"
       },
       {
@@ -14298,17 +14284,81 @@
         "region": "Ohio",
         "country": "United States"
       }
-    ]
+    ],
+    "headline": {
+      "country": "United States",
+      "from": "2026-10-04",
+      "to": "2026-10-17",
+      "days": 14,
+      "hoax": {
+        "total": 79,
+        "bomb": 57,
+        "swatting": 22,
+        "schools": 59,
+        "by_sector": {
+          "K-12": 57,
+          "Venue": 5,
+          "Retail": 3,
+          "Government": 3,
+          "Other": 3,
+          "Higher Ed": 2,
+          "Healthcare": 2,
+          "Transit": 2,
+          "Worship": 1,
+          "Workplace": 1
+        },
+        "states": 27,
+        "confirmed_hoax": 27,
+        "arrests": 2,
+        "under_investigation": 45,
+        "per_day": {
+          "2026-10-04": 2,
+          "2026-10-05": 6,
+          "2026-10-06": 10,
+          "2026-10-07": 9,
+          "2026-10-08": 10,
+          "2026-10-09": 10,
+          "2026-10-10": 2,
+          "2026-10-11": 2,
+          "2026-10-12": 5,
+          "2026-10-13": 6,
+          "2026-10-14": 6,
+          "2026-10-15": 7,
+          "2026-10-16": 2,
+          "2026-10-17": 2
+        },
+        "per_day_schools": {
+          "2026-10-04": 0,
+          "2026-10-05": 4,
+          "2026-10-06": 8,
+          "2026-10-07": 7,
+          "2026-10-08": 8,
+          "2026-10-09": 8,
+          "2026-10-10": 2,
+          "2026-10-11": 2,
+          "2026-10-12": 3,
+          "2026-10-13": 5,
+          "2026-10-14": 4,
+          "2026-10-15": 5,
+          "2026-10-16": 2,
+          "2026-10-17": 1
+        }
+      },
+      "suspicious_mail": {
+        "total": 24,
+        "government": 16
+      }
+    }
   },
   "last_run": {
-    "ingested": 194,
+    "ingested": 197,
     "skipped_seen": 193,
-    "recognized": 1,
+    "recognized": 0,
     "new": 0,
     "updated": 0,
-    "rejected": 0,
+    "rejected": 4,
     "errors": 0,
-    "attempted": 1,
+    "attempted": 4,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14356,6 +14406,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-18T12:58:17.504528Z"
+    "ran_at": "2026-10-18T13:54:16.738329Z"
   }
 }
