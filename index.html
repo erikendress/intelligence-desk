@@ -11,7 +11,7 @@
   :root{
     --ink:#0f0f0f; --navy:#0f0f0f; --muted:#6b6660; --line:#e6e2db; --bg:#f8f6f1; --card:#fff;
     --accent:#ff6207; --accent2:#ce3000;
-    --swat:#ef4444; --bomb:#e26b08; --other:#9333ea;
+    --swat:#ef4444; --bomb:#e26b08; --pkg:#0e7490; --other:#9333ea;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
@@ -69,6 +69,17 @@
   .tag{font-size:11px;padding:3px 8px;border-radius:999px;background:#f1f5f9;color:#475569;border:1px solid var(--line)}
   .tag.inv{background:#fffbeb;color:#92400e;border-color:#fde68a}
   .tag.hoax{background:#f0fdf4;color:#166534;border-color:#bbf7d0}
+  .tag.sig{background:#fff7ed;color:#9a3412;border-color:#fdba74;font-weight:600}
+  .tag.sig.wave{background:#eff6ff;color:#1e40af;border-color:#93c5fd}
+  .tag.sig.stack{background:#fef2f2;color:#991b1b;border-color:#fca5a5}
+  .patterns{margin-top:16px;border-top:1px solid rgba(255,255,255,.12);padding-top:14px}
+  .patterns .k{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;color:#ffb16b;font-weight:700;margin-bottom:8px}
+  .patterns .pwrap{display:flex;gap:10px;flex-wrap:wrap}
+  .pat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:9px 12px;font-size:13px;color:#ded8ce;cursor:pointer;max-width:360px}
+  .pat:hover{background:rgba(255,255,255,.11)}
+  .pat b{color:#fff}
+  .pat .why{display:block;font-size:11.5px;color:#a89c8e;margin-top:3px}
+  .pat.wave{border-color:#60a5fa66} .pat.repeat{border-color:#fdba7466} .pat.stack{border-color:#f8717166}
   .row .notes{font-size:12.5px;color:#475569;margin-top:7px}
   .row a.src{font-size:12px;font-weight:600}
   .count{font-size:12px;color:var(--muted);font-weight:600;text-transform:none;letter-spacing:0}
@@ -105,6 +116,7 @@
     <h2 id="headline">What we're seeing</h2>
     <p class="narr" id="narr">Loading the latest incidents…</p>
     <div class="takeaways" id="takeaways"></div>
+    <div class="patterns" id="patterns" style="display:none"></div>
     <div class="tstamp" id="tstamp"></div>
   </section>
 
@@ -125,6 +137,7 @@
       <label>Type</label>
       <span class="chip" data-type="swat"><span class="sw" style="background:var(--swat)"></span>Swatting / Hoax</span>
       <span class="chip" data-type="bomb"><span class="sw" style="background:var(--bomb)"></span>Bomb Threat</span>
+      <span class="chip" data-type="pkg"><span class="sw" style="background:var(--pkg)"></span>Suspicious Package / Mail</span>
       <span class="chip" data-type="other"><span class="sw" style="background:var(--other)"></span>Other</span>
     </div>
     <div class="fgroup"><input type="search" id="search" placeholder="Search place, town, keyword…"></div>
@@ -138,6 +151,7 @@
       <div class="legend">
         <span><span class="sw" style="background:var(--swat)"></span>Swatting / Active-Shooter Hoax</span>
         <span><span class="sw" style="background:var(--bomb)"></span>Bomb Threat</span>
+        <span><span class="sw" style="background:var(--pkg)"></span>Suspicious Package / Mail</span>
         <span><span class="sw" style="background:var(--other)"></span>Other Threat / Lockdown</span>
       </div>
     </div>
@@ -156,14 +170,41 @@
 // Same-origin feed: the board and incidents.json are served together on GitHub Pages,
 // so a relative path is more reliable than raw.githubusercontent (no CORS, no cache lag).
 const FEED_URL = "incidents.json";
-const COLORS = { swat:"#ef4444", bomb:"#e26b08", other:"#9333ea" };
-const BUCKET_LABEL = { swat:"Swatting / Hoax", bomb:"Bomb Threat", other:"Other" };
-let INCIDENTS = [];
-const stateF = { types:new Set(["swat","bomb","other"]), country:"all", region:"all", sector:"all", q:"" };
+const COLORS = { swat:"#ef4444", bomb:"#e26b08", pkg:"#0e7490", other:"#9333ea" };
+const BUCKET_LABEL = { swat:"Swatting / Hoax", bomb:"Bomb Threat", pkg:"Suspicious Package / Mail", other:"Other" };
+let INCIDENTS = [], SIGNALS = null;
+const stateF = { types:new Set(["swat","bomb","pkg","other"]), country:"all", region:"all", sector:"all", q:"" };
+
+// Pattern signals computed by the engine (see signals.py): repeat / wave / stacked
+function sigTags(i){
+  const s = i.signals; if(!s) return "";
+  let out = "";
+  if(s.repeat) out += `<span class="tag sig" title="Another hoax threat in ${i.county||'this county'} within the prior ${s.repeat.window_days} days — usually a local serial offender">↻ Repeat in county (${s.repeat.prior+1} in ${s.repeat.window_days}d)</span>`;
+  if(s.wave) out += `<span class="tag sig wave" title="Same-day hoax threats in ${s.wave.counties} counties of this state — the signature of a remote caller working a list">⇶ State wave · ${s.wave.counties} counties</span>`;
+  if(s.stacked) out += `<span class="tag sig stack" title="One call claimed both a bomb and an active shooter — forces evacuation and lockdown at once">⚠ Bomb + shooter call</span>`;
+  return out;
+}
+function renderPatterns(){
+  const el = document.getElementById('patterns');
+  if(!SIGNALS){ el.style.display="none"; return; }
+  const cards = [];
+  (SIGNALS.waves||[]).forEach(w=>cards.push({cls:"wave", q:w.region, html:`<b>${w.region}</b> · ${fmtDate(w.date)}: hoax threats in <b>${w.counties} counties</b> the same day<span class="why">Same-day sweep across a state — the pattern of a remote caller working a list.</span>`}));
+  (SIGNALS.repeat_counties||[]).forEach(r=>cards.push({cls:"repeat", q:r.county, html:`<b>${r.county}${r.region?", "+r.region:""}</b>: <b>${r.events}</b> hoax threats, ${fmtDate(r.dates[0])} – ${fmtDate(r.dates[r.dates.length-1])}<span class="why">A county that takes one hoax has ~2× the chance of another within 7 days — usually someone local, and these get solved.</span>`}));
+  const st = SIGNALS.stacked_recent||[];
+  if(st.length) cards.push({cls:"stack", q:"", html:`<b>${st.length}</b> call${st.length>1?"s":""} in 14 days claimed <b>both a bomb and an active shooter</b><span class="why">${st.slice(0,3).map(s=>s.facility).join(" · ")}${st.length>3?" · …":""}</span>`});
+  if(!cards.length){ el.style.display="none"; return; }
+  el.style.display = "";
+  el.innerHTML = `<div class="k">Patterns in the last 14 days</div><div class="pwrap">${cards.map(c=>`<div class="pat ${c.cls}" data-q="${c.q}">${c.html}</div>`).join("")}</div>`;
+  el.querySelectorAll('.pat').forEach(p=>p.addEventListener('click',()=>{
+    const q = p.dataset.q; const box = document.getElementById('search');
+    if(q){ box.value = q; stateF.q = q; render(true); window.scrollTo({top: box.getBoundingClientRect().top + window.scrollY - 20, behavior:'smooth'}); }
+  }));
+}
 
 function typeBucket(t){
   t = (t||"").toLowerCase();
   if(/swat|hoax|active.?shooter/.test(t)) return "swat";
+  if(/suspicious|package|mail/.test(t)) return "pkg";
   if(/bomb/.test(t)) return "bomb";
   return "other";
 }
@@ -203,7 +244,7 @@ function render(refit){
       const mk=L.circleMarker([i.lat,i.lng],{radius:8,color:"#fff",weight:2,fillColor:COLORS[b],fillOpacity:.9}).addTo(map);
       mk.bindPopup(`<div class="lp"><div class="n">${i.school||"(unnamed site)"}</div>
         <div class="l">${[i.city,i.state].filter(Boolean).join(", ")} · ${i.country||""} · ${fmtDate(i.date)}</div>
-        <div class="b"><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span></div>
+        <div class="b"><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span> ${sigTags(i)}</div>
         <div class="b">${i.response||""}</div>
         <div class="b" style="color:#475569">${i.notes||""}</div>
         ${i.url?`<a href="${i.url}" target="_blank" rel="noopener">Source: ${i.src||"link"} ↗</a>`:""}</div>`);
@@ -222,8 +263,8 @@ function render(refit){
              : (i.outcome?`<span class="tag">${i.outcome}</span>`:"");
     return `<div class="row" data-id="${i.id}">
       <div class="top"><span class="name">${i.school||"(unnamed site)"}</span><span class="date">${fmtDate(i.date)}</span></div>
-      <div class="loc">${[i.city,i.state].filter(Boolean).join(", ")}${i.sector?" · "+i.sector:""}</div>
-      <div class="meta"><span class="cty">${i.country||"?"}</span><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span>${oc}${i.response?`<span class="tag">${i.response}</span>`:""}</div>
+      <div class="loc">${[i.city,i.state].filter(Boolean).join(", ")}${i.county&&i.county!==i.city?" · "+i.county:""}${i.sector?" · "+i.sector:""}</div>
+      <div class="meta"><span class="cty">${i.country||"?"}</span><span class="badge" style="background:${COLORS[b]}">${i.type||BUCKET_LABEL[b]}</span>${oc}${i.response?`<span class="tag">${i.response}</span>`:""}${sigTags(i)}</div>
       ${i.notes?`<div class="notes">${i.notes}</div>`:""}
       ${i.url?`<div style="margin-top:6px"><a class="src" href="${i.url}" target="_blank" rel="noopener">Source: ${i.src||"link"} ↗</a></div>`:""}
     </div>`;
@@ -242,7 +283,7 @@ function renderSummary(rows){
   const total = rows.length;
   const countries = new Set(rows.map(i=>i.country).filter(Boolean));
   const sectors = new Set(rows.map(i=>i.sector).filter(Boolean));
-  const byBucket = {swat:0,bomb:0,other:0};
+  const byBucket = {swat:0,bomb:0,pkg:0,other:0};
   rows.forEach(i=>byBucket[typeBucket(i.type)]++);
   const top = Object.entries(byBucket).sort((a,b)=>b[1]-a[1])[0];
   const hoax = rows.filter(i=>/hoax/i.test(i.outcome||"")).length;
@@ -298,7 +339,7 @@ function init(){
   document.getElementById('sector').addEventListener('change',e=>{stateF.sector=e.target.value;render(true);});
   document.getElementById('search').addEventListener('input',e=>{stateF.q=e.target.value;render(false);});
   document.getElementById('reset').addEventListener('click',()=>{
-    stateF.types=new Set(["swat","bomb","other"]); stateF.country="all"; stateF.region="all"; stateF.sector="all"; stateF.q="";
+    stateF.types=new Set(["swat","bomb","pkg","other"]); stateF.country="all"; stateF.region="all"; stateF.sector="all"; stateF.q="";
     document.querySelectorAll('.chip[data-type]').forEach(c=>c.classList.remove('off'));
     document.getElementById('country').value="all"; fillRegions(); document.getElementById('region').value="all";
     document.getElementById('sector').value="all";
@@ -311,6 +352,8 @@ fetch(FEED_URL, {cache:"no-store"})
   .then(r=>{ if(!r.ok) throw new Error("feed "+r.status); return r.json(); })
   .then(data=>{
     INCIDENTS = (data.incidents||[]).map((i,n)=>({id:i.id!=null?i.id:n, ...i}));
+    SIGNALS = data.signals || null;
+    renderPatterns();
     if(data.generated){
       const g=new Date(data.generated);
       document.getElementById('tstamp').textContent = "Feed generated "+g.toLocaleString('en-US')+" · updates hourly";

@@ -12,7 +12,7 @@ The board reads the exported incidents.json. GitHub Actions runs this on a sched
 and commits the updated feed — no server, nobody feeding it by hand.
 """
 import os, re, sys, json, time, random, sqlite3, argparse, datetime, hashlib, urllib.parse, urllib.request
-import dedupe, regions
+import dedupe, regions, signals
 
 DB   = os.path.join(os.path.dirname(__file__), "incidents.db")
 OUT  = os.path.join(os.path.dirname(__file__), "incidents.json")
@@ -45,8 +45,9 @@ action; and events that are part of an armed conflict, war zone, or military ope
 facility-safety desk, not a war tracker).
 
 GEOGRAPHY: United States, Canada and the United Kingdom ONLY. Set "country" to exactly one of "United States",
-"Canada" or "United Kingdom" (England, Scotland, Wales and Northern Ireland are "United Kingdom"). If the incident
-happened anywhere else, or you cannot tell the country from the text, return {"include": false}.
+"Canada" or "United Kingdom" (England, Scotland, Wales and Northern Ireland are "United Kingdom"). The Republic of
+Ireland (Dublin, Cork, Cavan, Donegal, Monaghan, Galway, Limerick, etc.) is NOT the United Kingdom and is out of
+scope. If the incident happened anywhere else, or you cannot tell the country from the text, return {"include": false}.
 
 RULES: Extract only what the text supports; use null for unknowns. Never assert a hoax-or-real determination
 the article does not state — use "Under investigation". Quote a short verbatim evidence span. Assign confidence
@@ -59,9 +60,16 @@ CONSISTENCY (the same event is reported by many outlets — your records must co
   If the places are NOT named ("three Ludhiana schools"), emit ONE record named "Schools in <town>" and put the
   number in schools_affected. Never invent placeholders like "School 1" / "School 2".
 - date: the day the incident happened, not the publication date. "Monday's threat" in a Tuesday article = Monday.
-- town: the municipality. region: the US state / Canadian province / UK nation / Indian state — never a county.
-- trigger_type: exactly one of "Swatting / Active-Shooter Hoax", "Bomb Threat", "Weapon / Intruder",
-  "Credible Threat", "Actual Violence", "Non-threat safety cause". Suspicious packages are "Bomb Threat".
+- town: the municipality. region: the US state / Canadian province / UK nation — never a county. If the
+  article does not state or clearly imply the state/province (e.g. "Florence County School District" with no
+  state named), set region to null — never guess; there are Florence Counties in several states.
+- county: the US county / Canadian regional municipality / UK council area ONLY if the article states it
+  (e.g. "Lauderdale County"); otherwise null. Many towns share a name (Halls TN, Brentwood CA) — the county
+  is what disambiguates them, so copy it whenever it appears.
+- trigger_type: exactly one of "Swatting / Active-Shooter Hoax", "Bomb Threat", "Suspicious Package / Mail",
+  "Weapon / Intruder", "Credible Threat", "Actual Violence", "Non-threat safety cause".
+  "Bomb Threat" = a phoned, emailed, written or posted threat that a bomb exists. "Suspicious Package / Mail" =
+  an unattended bag/package, or an envelope/letter with powder or an unknown substance, with no threat made.
 - protective_action: exactly one of "Lockdown", "Lockout/Secure", "Shelter-in-place", "Evacuation",
   "Invacuation", "Early dismissal", "Closure", "None", or null.
 - outcome_status: exactly one of "Under investigation", "Confirmed hoax", "Confirmed real",
@@ -72,14 +80,25 @@ OUTPUT exactly one JSON object:
   A qualifying event:      {"include": true, "records": [ { ...fields... } ]}
 Each record's fields:
   facility_name, facility_type ("K-12"|"Higher Ed"|"Workplace"|"Healthcare"|"Worship"|"Retail"|"Transit"|"Venue"|"Government"|"Other"),
-  town, region (state / province / county / nation), country (full English country name),
+  town, region (state / province / nation), county (string|null), country (full English country name),
   date ("YYYY-MM-DD"), trigger_type, protective_action, outcome_status,
   injuries (int|null), schools_affected (int|null),
   cluster_hint (string), confidence (0..1), evidence_quote (string)."""
 
 # ----------------------------------------------------------------------------- scope
 ALLOWED_COUNTRIES = ("United States", "Canada", "United Kingdom")
-SCOPE_VERSION = "us-ca-uk"
+SCOPE_VERSION = "us-ca-uk-2"   # -2: Republic of Ireland rows (misfiled as UK) removed
+# Republic of Ireland counties: the classifier has filed these under "United Kingdom" (Cavan, Donegal, Oct 2026).
+ROI_COUNTIES = {"carlow", "cavan", "clare", "cork", "donegal", "dublin", "galway", "kerry", "kildare", "kilkenny",
+    "laois", "leitrim", "limerick", "longford", "louth", "mayo", "meath", "monaghan", "offaly", "roscommon",
+    "sligo", "tipperary", "waterford", "westmeath", "wexford", "wicklow"}
+
+def is_republic_of_ireland(rec):
+    if norm_country(rec.get("country")) != "United Kingdom":
+        return False
+    text = " ".join(str(rec.get(k) or "") for k in ("town", "region", "county", "facility_name")).lower()
+    words = set(re.findall(r"[a-z]+", text))
+    return bool(words & ROI_COUNTIES) and "northern ireland" not in text
 _COUNTRY_ALIASES = {
     "united states": "United States", "united states of america": "United States", "usa": "United States",
     "us": "United States", "u.s.": "United States", "america": "United States",
@@ -100,10 +119,28 @@ def apply_scope(con):
             con.execute("UPDATE incidents SET country=? WHERE id=?", (nc, rid))
     q = "SELECT id FROM incidents WHERE country NOT IN (%s) OR country IS NULL" % ",".join("?" * len(ALLOWED_COUNTRIES))
     gone = [r[0] for r in con.execute(q, ALLOWED_COUNTRIES).fetchall()]
+    for rid, fac, town, region in con.execute("SELECT id, facility_name, town, region FROM incidents WHERE country='United Kingdom'").fetchall():
+        if is_republic_of_ireland({"country": "United Kingdom", "facility_name": fac, "town": town, "region": region}):
+            gone.append(rid)
     for rid in gone:
         con.execute("DELETE FROM incident_sources WHERE incident_id=?", (rid,))
         con.execute("DELETE FROM incidents WHERE id=?", (rid,))
     print("scope: removed %d incidents outside %s" % (len(gone), ", ".join(ALLOWED_COUNTRIES)))
+
+TYPES_VERSION = "2-suspicious-mail"
+COUNTY_VERSION = "1"
+
+def reclassify_types(con):
+    """One-time: split suspicious packages / mailed powder out of "Bomb Threat" into their own type, so the
+    bomb-threat count means phoned/written threats (mostly schools) and not the election-office mail wave."""
+    n = 0
+    rows = con.execute("SELECT id, trigger_type, evidence_quote, cluster_hint, facility_name FROM incidents WHERE trigger_type='Bomb Threat'").fetchall()
+    for rid, t, ev, hint, fac in rows:
+        text = " ".join(x or "" for x in (ev, hint, fac))
+        if dedupe.canon_trigger(text) == "Suspicious Package / Mail" and not re.search(r"bomb threat|threat(ened|ening)? (to )?(bomb|blow)", text, re.I):
+            con.execute("UPDATE incidents SET trigger_type='Suspicious Package / Mail' WHERE id=?", (rid,)); n += 1
+    con.commit()
+    print("types: reclassified %d suspicious-package rows out of Bomb Threat" % n)
 
 # ----------------------------------------------------------------------------- ingest
 # Lead with the THREAT terms and let the classifier identify the place. A place-led query
@@ -271,38 +308,81 @@ def _parse_json(txt):
 
 # ----------------------------------------------------------------------------- geocode (optional)
 GEO_CACHE = {}
+GEO_UA = "OnSceneTechnologiesIntelligenceDesk/1.0 (contact: info@onscenetechnologies.com)"
+
+def _nominatim(path, params):
+    url = "https://nominatim.openstreetmap.org/%s?" % path + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent": GEO_UA})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.load(r)
+    time.sleep(1.05)   # Nominatim usage policy: max 1 request/second
+    return data
+
+def _county_from(address):
+    """Nominatim address -> a county-level dispatch area name, or None."""
+    if not address:
+        return None
+    for k in ("county", "state_district", "district", "municipality", "city_district"):
+        v = address.get(k)
+        if v:
+            return v
+    return None
+
 def geocode(rec):
-    """Fill lat/lng from town/region via OpenStreetMap Nominatim (free, no key)."""
+    """Fill lat/lng (and county) from town/county/region via OpenStreetMap Nominatim (free, no key).
+    Returns (lat, lng, county). The county the classifier read from the article is used as a query hint
+    so that "Halls, Lauderdale County, Tennessee" does not land on the Halls near Knoxville."""
     if rec.get("lat") and rec.get("lng"):
-        return rec["lat"], rec["lng"]
-    if not rec.get("town") and not rec.get("region"):
-        return None, None   # a bare country name geocodes to its centre point (e.g. Kansas) — a false pin
-    q = ", ".join(x for x in [rec.get("town"), rec.get("region"), rec.get("country")] if x)
+        return rec["lat"], rec["lng"], rec.get("county")
+    if not rec.get("region") and not rec.get("county"):
+        return None, None, None   # town alone is ambiguous (Florence? Jackson?) — no pin beats a wrong pin
+    q = ", ".join(x for x in [rec.get("town"), rec.get("county"), rec.get("region"), rec.get("country")] if x)
     if q in GEO_CACHE:
         return GEO_CACHE[q]
-    import time
     try:
-        url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(
-            {"q": q, "format": "json", "limit": 1})
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "OnSceneTechnologiesIntelligenceDesk/1.0 (contact: info@onscenetechnologies.com)"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.load(r)
-        time.sleep(1)
+        data = _nominatim("search", {"q": q, "format": "json", "limit": 1, "addressdetails": 1})
+        if not data and rec.get("county"):   # the county hint can over-constrain; retry without it
+            data = _nominatim("search", {"q": ", ".join(x for x in [rec.get("town"), rec.get("region"), rec.get("country")] if x),
+                                         "format": "json", "limit": 1, "addressdetails": 1})
         if data:
-            latlng = (round(float(data[0]["lat"]), 4), round(float(data[0]["lon"]), 4))
-            GEO_CACHE[q] = latlng
-            return latlng
+            out = (round(float(data[0]["lat"]), 4), round(float(data[0]["lon"]), 4),
+                   _county_from(data[0].get("address")) or rec.get("county"))
+            GEO_CACHE[q] = out
+            return out
     except Exception:
         pass
-    GEO_CACHE[q] = (None, None)
-    return None, None
+    GEO_CACHE[q] = (None, None, rec.get("county"))
+    return GEO_CACHE[q]
+
+def reverse_county(lat, lng):
+    """County-level reverse geocode for rows stored before the county column existed."""
+    try:
+        data = _nominatim("reverse", {"lat": lat, "lon": lng, "format": "json", "zoom": 8, "addressdetails": 1})
+        return _county_from(data.get("address"))
+    except Exception:
+        return None
+
+def backfill_counties(con, days=60):
+    """One-time: fill incidents.county for recent rows with coordinates (1 Nominatim call/second)."""
+    since = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    rows = con.execute("SELECT id, lat, lng FROM incidents WHERE county IS NULL AND lat IS NOT NULL AND lng IS NOT NULL AND date >= ?", (since,)).fetchall()
+    cache, done = {}, 0
+    for rid, lat, lng in rows:
+        k = (round(lat, 2), round(lng, 2))
+        if k not in cache:
+            cache[k] = reverse_county(lat, lng)
+        if cache[k]:
+            con.execute("UPDATE incidents SET county=? WHERE id=?", (cache[k], rid)); done += 1
+    con.commit()
+    print("county backfill: %d of %d recent rows filled" % (done, len(rows)))
 
 # ----------------------------------------------------------------------------- store
 def init_db():
     con = sqlite3.connect(DB)
     con.executescript(open(SCHEMA).read())
     con.execute("CREATE TABLE IF NOT EXISTS seen_articles (url TEXT PRIMARY KEY, seen_at TEXT)")
+    if "county" not in [r[1] for r in con.execute("PRAGMA table_info(incidents)").fetchall()]:
+        con.execute("ALTER TABLE incidents ADD COLUMN county TEXT")
     dedupe.ensure_tables(con)
     return con
 
@@ -312,8 +392,8 @@ def slug(s):
 def upsert(con, rec):
     now = datetime.datetime.utcnow().isoformat()
     key = hashlib.sha1(f"{rec.get('facility_name')}|{rec.get('date')}|{rec.get('trigger_type')}".lower().encode()).hexdigest()
-    lat, lng = geocode(rec)
-    rec["lat"], rec["lng"] = lat, lng
+    lat, lng, county = geocode(rec)
+    rec["lat"], rec["lng"], rec["county"] = lat, lng, county
     rec["region"] = regions.resolve(rec)   # always a US state / province / UK nation (or None)
     rec["trigger_type"] = dedupe.canon_trigger(rec.get("trigger_type")) or "Under investigation"
     # same event under a different name / wording / date? fold it into the existing record
@@ -324,13 +404,13 @@ def upsert(con, rec):
     existing = cur.fetchone()
     if existing is None:
         con.execute("""INSERT INTO incidents
-          (dedup_key, facility_name, facility_type, town, region, country, lat, lng, date,
+          (dedup_key, facility_name, facility_type, town, region, county, country, lat, lng, date,
            trigger_type, protective_action, outcome_status, injuries, schools_affected,
            cluster_hint, cluster_id, confidence, evidence_quote, source_domain, source_url,
            first_seen, last_updated)
-          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
           (key, rec.get("facility_name"), rec.get("facility_type"), rec.get("town"), rec.get("region"),
-           rec.get("country"), lat, lng, rec.get("date"), rec.get("trigger_type"),
+           county, rec.get("country"), lat, lng, rec.get("date"), rec.get("trigger_type"),
            rec.get("protective_action"), rec.get("outcome_status"), rec.get("injuries"),
            rec.get("schools_affected"), rec.get("cluster_hint"), slug(rec.get("cluster_hint")),
            rec.get("confidence"), rec.get("evidence_quote"), rec.get("_domain"), rec.get("_url"),
@@ -355,18 +435,20 @@ def assign_clusters(con):
 
 # ----------------------------------------------------------------------------- export
 def export(con, last_run=None):
+    flags, summary = signals.compute(con)
     rows = con.execute("""SELECT id, country, date, facility_name, town, region, facility_type,
         trigger_type, protective_action, outcome_status, cluster_hint, evidence_quote, lat, lng,
         source_domain, source_url,
-        (SELECT COUNT(*) FROM incident_sources s WHERE s.incident_id = incidents.id)
+        (SELECT COUNT(*) FROM incident_sources s WHERE s.incident_id = incidents.id), county
         FROM incidents ORDER BY date DESC""").fetchall()
     incidents = [{
         "id": r[0], "country": r[1], "date": r[2], "school": r[3], "city": r[4], "state": r[5],
         "sector": r[6], "type": r[7], "response": r[8], "outcome": r[9], "cluster": r[10] or "",
-        "notes": r[11] or "", "lat": r[12], "lng": r[13], "src": r[14], "url": r[15], "sources": r[16] or 1
+        "notes": r[11] or "", "lat": r[12], "lng": r[13], "src": r[14], "url": r[15], "sources": r[16] or 1,
+        "county": r[17], **({"signals": flags[r[0]]} if r[0] in flags else {})
     } for r in rows]
     doc = {"generated": datetime.datetime.utcnow().isoformat() + "Z",
-           "count": len(incidents), "incidents": incidents}
+           "count": len(incidents), "incidents": incidents, "signals": summary}
     if last_run is not None:
         doc["last_run"] = last_run   # self-reported run stats; the board ignores this key
     json.dump(doc, open(OUT, "w"), indent=2)
@@ -401,6 +483,14 @@ def run(mock=False):
     if _meta_get(con, "region_version") != regions.VERSION:
         regions.fix_all(con)
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('region_version', ?)", (regions.VERSION,))
+        con.commit()
+    if _meta_get(con, "types_version") != TYPES_VERSION:
+        reclassify_types(con)
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('types_version', ?)", (TYPES_VERSION,))
+        con.commit()
+    if not mock and _meta_get(con, "county_version") != COUNTY_VERSION:
+        backfill_counties(con)
+        con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('county_version', ?)", (COUNTY_VERSION,))
         con.commit()
     if _meta_get(con, "dedupe_version") != dedupe.VERSION:
         while dedupe.cleanup(con):
@@ -437,7 +527,7 @@ def run(mock=False):
                 if not rec.get("facility_name") or not rec.get("date"):
                     continue  # skip incomplete records
                 rec["country"] = norm_country(rec.get("country"))
-                if rec["country"] not in ALLOWED_COUNTRIES:
+                if rec["country"] not in ALLOWED_COUNTRIES or is_republic_of_ireland(rec):
                     stats["rejected"] += 1
                     continue  # US, Canada and UK only (backstop for the prompt)
                 rec["_domain"] = a.get("domain"); rec["_url"] = a.get("url")
@@ -462,7 +552,7 @@ def run(mock=False):
         con.execute("INSERT OR REPLACE INTO meta(key, value) VALUES ('gapfill_version', ?)", (GAPFILL_VERSION,))
     con.commit()
     last_run = {**stats, "attempted": attempted, "backfill": backfill, "gapfill": gapfill, "routes": ROUTE_LOG,
-                "engine": "v8.1-gapfill", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
+                "engine": "v9-signals", "ran_at": datetime.datetime.utcnow().isoformat() + "Z"}
     total = export(con, last_run)
     print(json.dumps({**last_run, "total_in_db": total, "output": OUT}, indent=2))
     if not mock and attempted >= 5 and stats["recognized"] == 0 and stats["errors"] >= attempted * 0.5:

@@ -61,6 +61,26 @@ That's the whole loop: every hour it reads the news, updates the feed, and the p
 
 ---
 
+## Pattern signals (`signals.py`)
+
+Every export carries three signals, computed over the last 45 days and grounded in a measured effect
+(Aug–Oct 2026, US school hoax threats, permutation-tested):
+
+- **repeat** — another hoax threat in the same county within the prior 7 days. Observed at ~2× the
+  chance rate. Usually a *local* serial offender (a student, someone with a local tie) and these get solved.
+- **wave** — same-day hoax threats in 3+ counties of one state. The signature of a *remote* caller
+  working a list (the Purgatory / Com model).
+- **stacked** — one call claiming both a bomb and an active shooter, which forces evacuation and lockdown
+  protocols at once. Surfaced, not scored: still a small sample.
+
+Per-incident flags live in `incidents[].signals`; a 14-day summary lives in `signals` at the top level and
+the board renders it as the "Patterns" strip. County comes from the geocoder (Nominatim `addressdetails`)
+and is stored in `incidents.county`; the first run after this change back-fills ~60 days of rows at one
+request per second (about 8 minutes, once).
+
+Related: "Suspicious Package / Mail" is now its own trigger type, so the bomb-threat count means phoned,
+emailed or written threats and is not inflated by mailed-powder waves against election offices.
+
 ## Cost (rough)
 
 - **Classification:** a small "haiku"-class model at a few hundred articles a day is on the order of

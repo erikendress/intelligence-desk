@@ -24,7 +24,7 @@ WINDOW_DAYS = 1          # same event reported on consecutive days merges; a rea
 GEO_KM = 40              # "same place" radius when towns are spelled differently
 
 # ------------------------------------------------------------------ canonical categories
-TRIGGERS = ["Swatting / Active-Shooter Hoax", "Bomb Threat", "Weapon / Intruder",
+TRIGGERS = ["Swatting / Active-Shooter Hoax", "Bomb Threat", "Suspicious Package / Mail", "Weapon / Intruder",
             "Actual Violence", "Credible Threat", "Non-threat safety cause"]
 
 def canon_trigger(t):
@@ -33,7 +33,10 @@ def canon_trigger(t):
         return None      # the model sometimes puts the outcome in this field; treat as "any category"
     if re.search(r"swat|hoax.*shoot|shoot.*hoax|false.*(shoot|report|emergency)|fake.*call", t):
         return "Swatting / Active-Shooter Hoax"
-    if re.search(r"bomb|explos|suspicious (package|object|vehicle|device)|unattended package|\bied\b|device", t):
+    if re.search(r"suspicious (package|mail|envelope|letter|substance|powder|item|bag|object|vehicle)|unattended (package|bag|item)|white powder|powdery substance", t) \
+            and not re.search(r"bomb threat|threat(ened|ening)? (to )?(bomb|blow)", t):
+        return "Suspicious Package / Mail"
+    if re.search(r"bomb|explos|suspicious device|\bied\b|device", t):
         return "Bomb Threat"
     if re.search(r"fire|gas|chemical|hazmat|hazard|leak|smell|weather|wildlife|structural|plume|drill|alarm|thunder", t):
         return "Non-threat safety cause"
