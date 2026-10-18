@@ -131,8 +131,75 @@ def compute(con, today=None):
         "waves": sorted([w for w in waves if w["date"] >= recent], key=lambda w: w["date"], reverse=True),
         "repeat_counties": repeat_counties[:12],
         "stacked_recent": sorted(stacked_recent, key=lambda s: s["date"], reverse=True)[:12],
+        "headline": headline(con, today),
     }
     return dict(flags), summary
+
+
+# --------------------------------------------------------------------------- 14-day headline
+# The same event-merge rule used for the published posts, so the board says what the posts say:
+# records on the same day within 3 km, or sharing the first 8 letters of the facility name, are one event
+# (two outlets covering one call, or one call naming two schools). Suspicious packages / mail are reported
+# separately because they are a different phenomenon from phoned and written hoax threats.
+MAIL_TYPE = "Suspicious Package / Mail"
+SCHOOL_SECTORS = ("K-12", "Higher Ed")
+HEADLINE_DAYS = 14
+
+def _km(a, b):
+    import math
+    if not (a.get("lat") and b.get("lat") and a.get("lng") and b.get("lng")):
+        return 999.0
+    la1, lo1, la2, lo2 = map(math.radians, [a["lat"], a["lng"], b["lat"], b["lng"]])
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 6371 * 2 * math.asin(math.sqrt(h))
+
+def merge_events(rows):
+    """Collapse same-event records (same day, within 3 km or same facility-name prefix) to one."""
+    out = []
+    for r in sorted(rows, key=lambda x: x["date"]):
+        nm = re.sub(r"[^a-z0-9]", "", (r["facility_name"] or "").lower())[:8]
+        if any(m["date"][:10] == r["date"][:10] and (_km(m, r) <= 3 or
+               re.sub(r"[^a-z0-9]", "", (m["facility_name"] or "").lower())[:8] == nm) for m in out):
+            continue
+        out.append(r)
+    return out
+
+def headline(con, today=None, days=HEADLINE_DAYS, country="United States"):
+    today = today or datetime.date.today()
+    end = today - datetime.timedelta(days=1)            # through yesterday: today's reporting is still arriving
+    start = end - datetime.timedelta(days=days - 1)
+    cols = ["id", "country", "region", "county", "facility_name", "facility_type", "date", "trigger_type",
+            "outcome_status", "lat", "lng"]
+    rows = [dict(zip(cols, r)) for r in con.execute(
+        "SELECT id, country, region, county, facility_name, facility_type, date, trigger_type, outcome_status, lat, lng "
+        "FROM incidents WHERE country=? AND date >= ? AND date <= ?", (country, start.isoformat(), end.isoformat())).fetchall()]
+    hoax = merge_events([r for r in rows if r["trigger_type"] in HOAX_TYPES])
+    mail = merge_events([r for r in rows if r["trigger_type"] == MAIL_TYPE])
+    def n(pred): return sum(1 for r in hoax if pred(r))
+    out = {
+        "country": country, "from": start.isoformat(), "to": end.isoformat(), "days": days,
+        "hoax": {
+            "total": len(hoax),
+            "bomb": n(lambda r: r["trigger_type"] == "Bomb Threat"),
+            "swatting": n(lambda r: r["trigger_type"].startswith("Swatting")),
+            "schools": n(lambda r: r["facility_type"] in SCHOOL_SECTORS),
+            "by_sector": dict(collections.Counter(r["facility_type"] or "Other" for r in hoax).most_common()),
+            "states": len({r["region"] for r in hoax if r["region"]}),
+            "confirmed_hoax": n(lambda r: "hoax" in (r["outcome_status"] or "").lower()),
+            "arrests": n(lambda r: "arrest" in (r["outcome_status"] or "").lower()),
+            "under_investigation": n(lambda r: "investig" in (r["outcome_status"] or "").lower()),
+            "per_day": {}, "per_day_schools": {},
+        },
+        "suspicious_mail": {
+            "total": len(mail),
+            "government": sum(1 for r in mail if r["facility_type"] == "Government"),
+        },
+    }
+    for k in range(days):
+        d = (start + datetime.timedelta(days=k)).isoformat()
+        out["hoax"]["per_day"][d] = sum(1 for r in hoax if r["date"][:10] == d)
+        out["hoax"]["per_day_schools"][d] = sum(1 for r in hoax if r["date"][:10] == d and r["facility_type"] in SCHOOL_SECTORS)
+    return out
 
 
 if __name__ == "__main__":

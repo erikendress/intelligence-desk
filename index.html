@@ -283,6 +283,25 @@ function render(refit){
 }
 
 function renderSummary(rows){
+  const H = SIGNALS && SIGNALS.headline;
+  const narr = document.getElementById('narr');
+  if(H && H.hoax && H.hoax.total){
+    // Fixed 14-day headline, computed by the engine with the same event-merge rule as the published posts.
+    const h = H.hoax, m = H.suspicious_mail || {total:0, government:0};
+    const pct = Math.round(h.schools/h.total*100), perDay = (h.total/H.days).toFixed(1);
+    const sectors = Object.keys(h.by_sector||{}).filter(k=>k!=="K-12"&&k!=="Higher Ed"&&k!=="Other");
+    const tiles = [
+      ["Hoax threats · 14 days", h.total, `${h.bomb} bomb · ${h.swatting} active-shooter`],
+      ["States", h.states, "United States"],
+      ["At schools", pct+"%", `${h.schools} of ${h.total} · rest: ${sectors.slice(0,3).join(", ").toLowerCase()||"—"}`],
+      ["Suspicious packages", "+"+m.total, `${m.government} at government offices`],
+      ["Confirmed hoax", Math.round(h.confirmed_hoax/h.total*100)+"%", `${h.arrests} arrest${h.arrests===1?"":"s"} · ${h.under_investigation} still open`]
+    ];
+    document.getElementById('takeaways').innerHTML = tiles.map(t=>`
+      <div class="tk"><div class="k">${t[0]}</div><div class="v">${t[1]}</div><div class="d">${t[2]}</div></div>`).join('');
+    narr.innerHTML = `In the ${H.days} days to ${fmtDate(H.to)}, at least <b>${h.total}</b> distinct hoax bomb and active-shooter threats hit places where people gather in the United States — <b>${perDay} a day</b>, across <b>${h.states}</b> states. <b>${h.schools}</b> were schools; the rest were hospitals, venues, courthouses, shops and transit. Another <b>${m.total}</b> suspicious-package and mailed-substance scares are counted separately. Two outlets covering one call count once. Compiled automatically from public reporting; the value is seeing them together.`;
+    return;
+  }
   const total = rows.length;
   const countries = new Set(rows.map(i=>i.country).filter(Boolean));
   const sectors = new Set(rows.map(i=>i.sector).filter(Boolean));
@@ -299,7 +318,6 @@ function renderSummary(rows){
   ];
   document.getElementById('takeaways').innerHTML = tiles.map(t=>`
     <div class="tk"><div class="k">${t[0]}</div><div class="v">${t[1]}</div><div class="d">${t[2]}</div></div>`).join('');
-  const narr = document.getElementById('narr');
   if(total===0){ narr.textContent = "No qualifying incidents match the current filters — the engine adds them as they surface in public reporting."; return; }
   const b = BUCKET_LABEL[top[0]].toLowerCase();
   narr.innerHTML = `Tracking <b>${total}</b> recent safety incident${total>1?"s":""} at schools, workplaces, and public places across <b>${countries.size}</b> countr${countries.size===1?"y":"ies"}. The most common type right now is <b>${b}</b>. These are compiled automatically from public reporting — the value is seeing them together, so a single event can be read against the wider pattern.`;
