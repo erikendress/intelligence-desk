@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T12:31:31.770133Z",
+  "generated": "2026-10-18T12:35:20.010674Z",
   "count": 695,
   "incidents": [
     {
@@ -13209,14 +13209,14 @@
     }
   ],
   "last_run": {
-    "ingested": 192,
-    "skipped_seen": 182,
+    "ingested": 194,
+    "skipped_seen": 193,
     "recognized": 0,
     "new": 0,
     "updated": 0,
-    "rejected": 10,
+    "rejected": 1,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 1,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13264,6 +13264,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-18T12:31:31.760557Z"
+    "ran_at": "2026-10-18T12:35:20.007176Z"
   }
 }
