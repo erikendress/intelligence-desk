@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T20:41:43.641715Z",
+  "generated": "2026-10-18T23:11:46.056365Z",
   "count": 696,
   "incidents": [
     {
@@ -59,7 +59,7 @@
       "lng": -80.0533,
       "src": "KTUL",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGN3a0NFMm5zVFpYTjBhYWowRXBubW0wYjM0cDVfQ2FZeS1kbk56cWFIOFYtbENEWEdETkVBZElJaW9wVTJoYnZxZnJZNXc1SFFuYWVkTVZYZ2NjUkNROVV1aUk4MFR0RWp1NmxVSlhfTjQ1WVdTQzhxeGt4Y25PRGphLUNTTjlZR2RweG5COXh1VV9HT1lZUndNTllLQzZQVl9CWjVWMExUVlhfRll6T09TcWN0dGM4RjB3SGlyQWI?oc=5",
-      "sources": 5,
+      "sources": 8,
       "county": "Palm Beach County",
       "signals": {
         "repeat": {
@@ -14418,14 +14418,14 @@
     }
   },
   "last_run": {
-    "ingested": 190,
-    "skipped_seen": 166,
-    "recognized": 8,
-    "new": 3,
+    "ingested": 181,
+    "skipped_seen": 148,
+    "recognized": 3,
+    "new": 0,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 30,
     "errors": 0,
-    "attempted": 24,
+    "attempted": 33,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14473,6 +14473,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-18T20:41:43.623569Z"
+    "ran_at": "2026-10-18T23:11:46.037989Z"
   }
 }
