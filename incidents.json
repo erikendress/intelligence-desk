@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T14:00:31.142423Z",
+  "generated": "2026-10-18T17:22:25.723253Z",
   "count": 693,
   "incidents": [
     {
@@ -79,7 +79,7 @@
       "lng": -80.8874,
       "src": "Hoodline",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTZPQjRhT1hzUHdSNGwtU3pCZV9tUi1QcGkyWUs4MHUwTkl3aWJpUlE0RmhsczFmNHhHQTVvZE4yRGpYM0hESTJKcEwxQVhWY2pGSk0xRjZNOTV4YVJFaVhQeVh5QWVVU3ZoTVpadDJ5c3QtR3diSEdLd0xHbDBwSXJvX0ktVXBVbHVZd05TX2d6YmZaZWFURU9VTjV0N3ptWWF5UGMxaGk?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Iredell County"
     },
     {
@@ -14352,13 +14352,13 @@
   },
   "last_run": {
     "ingested": 193,
-    "skipped_seen": 192,
-    "recognized": 0,
+    "skipped_seen": 186,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
-    "rejected": 1,
+    "rejected": 5,
     "errors": 0,
-    "attempted": 1,
+    "attempted": 7,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14406,6 +14406,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-18T14:00:31.128633Z"
+    "ran_at": "2026-10-18T17:22:25.707237Z"
   }
 }
