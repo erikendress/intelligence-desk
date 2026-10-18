@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T04:30:34.153362Z",
+  "generated": "2026-10-18T09:36:35.042642Z",
   "count": 695,
   "incidents": [
     {
@@ -31,14 +31,14 @@
       "sector": "Retail",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Taylor-Walmart-bomb-threat-20261018",
       "notes": "Taylor Walmart evacuated due to bomb threat, police say",
       "lat": 42.2409,
       "lng": -83.2697,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0Z3U3E5b0owM0tfUVRkZ3plTnFjcFpsaE5aYTAtTVRFVy0tbHJId2NmclVBbVZaUDhhUmdWRE9QMUs0eTNZb2U0LS1SZTE2VXFJZU5OQVZKUjdKQXdRaDFtVkNNUzdLNzl2MnFVd3lmZ2U1RmN3d0Z5Z3hZcDhid2czdWFpREFqVVJXYk5rUFZYTzN5aFQ2TEFhUVltM09RNDhaaGlhNXpxOUVr?oc=5",
-      "sources": 1
+      "sources": 2
     },
     {
       "id": 1492,
@@ -13209,14 +13209,14 @@
     }
   ],
   "last_run": {
-    "ingested": 193,
-    "skipped_seen": 184,
-    "recognized": 2,
-    "new": 2,
-    "updated": 0,
-    "rejected": 6,
+    "ingested": 197,
+    "skipped_seen": 191,
+    "recognized": 1,
+    "new": 0,
+    "updated": 1,
+    "rejected": 5,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 6,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13264,6 +13264,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-18T04:30:34.145493Z"
+    "ran_at": "2026-10-18T09:36:35.037932Z"
   }
 }
