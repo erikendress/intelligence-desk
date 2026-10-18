@@ -189,7 +189,10 @@ function renderPatterns(){
   if(!SIGNALS){ el.style.display="none"; return; }
   const cards = [];
   (SIGNALS.waves||[]).forEach(w=>cards.push({cls:"wave", q:w.region, html:`<b>${w.region}</b> · ${fmtDate(w.date)}: hoax threats in <b>${w.counties} counties</b> the same day<span class="why">Same-day sweep across a state — the pattern of a remote caller working a list.</span>`}));
-  (SIGNALS.repeat_counties||[]).forEach(r=>cards.push({cls:"repeat", q:r.county, html:`<b>${r.county}${r.region?", "+r.region:""}</b>: <b>${r.events}</b> hoax threats, ${fmtDate(r.dates[0])} – ${fmtDate(r.dates[r.dates.length-1])}<span class="why">A county that takes one hoax has ~2× the chance of another within 7 days — usually someone local, and these get solved.</span>`}));
+  // Repeat counties: all with 3+ events, then the most recent 2-event ones, capped at 4 cards; explain once.
+  const reps = (SIGNALS.repeat_counties||[]).slice().sort((a,b)=>b.events-a.events || b.dates[b.dates.length-1].localeCompare(a.dates[a.dates.length-1]));
+  const shown = reps.filter(r=>r.events>=3).concat(reps.filter(r=>r.events<3)).slice(0,4);
+  shown.forEach((r,n)=>cards.push({cls:"repeat", q:r.county, html:`<b>${r.county}${r.region?", "+r.region:""}</b>: <b>${r.events}</b> hoax threats, ${fmtDate(r.dates[0])} – ${fmtDate(r.dates[r.dates.length-1])}${n===0?`<span class="why">A county that takes one hoax has ~2× the chance of another within 7 days — usually someone local, and these get solved.${reps.length>shown.length?` ${reps.length-shown.length} more counties on a repeat run — filter by state to find them.`:""}</span>`:""}`}));
   const st = SIGNALS.stacked_recent||[];
   if(st.length) cards.push({cls:"stack", q:"", html:`<b>${st.length}</b> call${st.length>1?"s":""} in 14 days claimed <b>both a bomb and an active shooter</b><span class="why">${st.slice(0,3).map(s=>s.facility).join(" · ")}${st.length>3?" · …":""}</span>`});
   if(!cards.length){ el.style.display="none"; return; }

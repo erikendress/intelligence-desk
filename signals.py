@@ -115,7 +115,7 @@ def compute(con, today=None):
     stacked_recent, seen_ev = [], set()
     for r in hoax:
         if flags.get(r["id"], {}).get("stacked") and r["date"][:10] >= recent:
-            ek = _event_key(r)[:3] + (re.sub(r"[^a-z0-9]", "", (r["facility_name"] or "").lower())[:8],)
+            ek = (r["country"], r["date"][:10], re.sub(r"[^a-z0-9]", "", (r["facility_name"] or "").lower())[:12])
             if ek in seen_ev: continue
             seen_ev.add(ek)
             stacked_recent.append({"id": r["id"], "date": r["date"][:10], "facility": r["facility_name"],
