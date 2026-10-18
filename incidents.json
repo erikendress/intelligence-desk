@@ -1,7 +1,45 @@
 {
-  "generated": "2026-10-18T00:02:06.689366Z",
-  "count": 693,
+  "generated": "2026-10-18T04:30:34.153362Z",
+  "count": 695,
   "incidents": [
+    {
+      "id": 1494,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "U.S. Congressman Krishnamoorthi's Office",
+      "city": null,
+      "state": "Illinois",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Nationwide suspicious package threats October 2026",
+      "notes": "US Congressman Krishnamoorthi's Illinois office receives \"suspicious package\" amid nationwide threats",
+      "lat": 40.0797,
+      "lng": -89.4337,
+      "src": "The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb1VkN2p5bEhkazI1UDk2WXcyWG5SelJ4blZHLWRxY1dvZlpaWTh2MnRqWFBIQ3hncnhrVzdxWjY3ZmJTd3RDQm40LUU5UDZkQ3JhSlZtYkI3Mms3MnA1bld4cy1WcWFFRm1XZUo0MEtwZUxxR0xIRWdVZDlIWWdNVUFtblVFQU1Nd0JnOTZ1MWFwZlNsbW1NUGQ0ZV9lUEN5MmZMeTRMRk9keDFzNFlfWXpsTDhpNnBNWlNkbFR0NGtGR3FtVkkyYXpkQm5RYnBiSTNJWVRzNkQweXhGQVHSAd4BQVVfeXFMUG9VZDdqeWxIZGsyNVA5Nll3MlhuUnpSeG5WRy1kcWNXb2ZaWlk4djJ0alhQSEN4Z3J4a1c3cVo2N2ZiU3d0Q0JuNC1FOVA2ZENyYUpWbWJCNzJrNzJwNW5XeHMtVnFhRUZtV2VKNDBLcGVMcUdMSEVnVWQ5SFlnTVVBbW5VRUFNTXdCZzk2dTFhcGZTbG1tTVBkNGVfZVBDeTJmTHk0TEZPZHgxczRZX1l6bEw4aTZwTVpTZGxUdDRrRkdxbVZJMmF6ZEJuUWJwYkkzSVlUczZEMHl4RkFR?oc=5",
+      "sources": 1
+    },
+    {
+      "id": 1493,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "Walmart",
+      "city": "Taylor",
+      "state": "Michigan",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Taylor-Walmart-bomb-threat-20261018",
+      "notes": "Taylor Walmart evacuated due to bomb threat, police say",
+      "lat": 42.2409,
+      "lng": -83.2697,
+      "src": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0Z3U3E5b0owM0tfUVRkZ3plTnFjcFpsaE5aYTAtTVRFVy0tbHJId2NmclVBbVZaUDhhUmdWRE9QMUs0eTNZb2U0LS1SZTE2VXFJZU5OQVZKUjdKQXdRaDFtVkNNUzdLNzl2MnFVd3lmZ2U1RmN3d0Z5Z3hZcDhid2czdWFpREFqVVJXYk5rUFZYTzN5aFQ2TEFhUVltM09RNDhaaGlhNXpxOUVr?oc=5",
+      "sources": 1
+    },
     {
       "id": 1492,
       "country": "United States",
@@ -13171,14 +13209,14 @@
     }
   ],
   "last_run": {
-    "ingested": 195,
-    "skipped_seen": 190,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 193,
+    "skipped_seen": 184,
+    "recognized": 2,
+    "new": 2,
     "updated": 0,
-    "rejected": 4,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 5,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -13226,6 +13264,6 @@
       }
     ],
     "engine": "v8.1-gapfill",
-    "ran_at": "2026-10-18T00:02:06.684675Z"
+    "ran_at": "2026-10-18T04:30:34.145493Z"
   }
 }
