@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-18T23:11:46.056365Z",
-  "count": 696,
+  "generated": "2026-10-19T01:16:11.814920Z",
+  "count": 697,
   "incidents": [
+    {
+      "id": 1498,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "DJT International Airport",
+      "city": null,
+      "state": null,
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "DJT Airport bomb threat 2026-10-18",
+      "notes": "Bomb Threat Targeting DJT Airport Causes Traffic Delays Sunday",
+      "lat": null,
+      "lng": null,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd3ozeDloS09oOEhaTGVPc1NIOXRLbjdJbi0zYWJMbmRoZk9reGZLUFlHM0s2Zi1GdG9NZ1Q4UWR4YXZQaGVLNEVxNG5JZ3VYMTdtT1lsQXV4V3FpMjRnbzJZZjAzVjl6STBiWW5WdHY3eHVfNkl4TVpfQlVlRWtJTG01MEVma1JXWURRUXZGbmtIXzFfSzZiWVgtTDltZk5fSEhINHhpM0pNSGN1bHFCNmV30gHDAUFVX3lxTE5PazZEQzI3Z1Q3b2t2OUpRdzZ0SXRNSEo2Wmh4UjBWYzg2cTN1VlNLdnJGcTFfX0tzWVRaalIxamVnNTVQaXVDQUtjV1VCVUFPdXZfMDJLVnJ0cFpwdXFhRXhoS2IwdjRDYlpFVDRzSE1GU0lPNU44eWsyeFlFa2U0Z05Sc1pGVUs0NUZpVVI5SjhHNV9sd1FDekxZQktZYXNidWhHek9rb3p6TzlXZzFqcXBrcWlKUWwtYlhyNXdscGtyMA?oc=5",
+      "sources": 2,
+      "county": null
+    },
     {
       "id": 1497,
       "country": "United States",
@@ -59,7 +79,7 @@
       "lng": -80.0533,
       "src": "KTUL",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGN3a0NFMm5zVFpYTjBhYWowRXBubW0wYjM0cDVfQ2FZeS1kbk56cWFIOFYtbENEWEdETkVBZElJaW9wVTJoYnZxZnJZNXc1SFFuYWVkTVZYZ2NjUkNROVV1aUk4MFR0RWp1NmxVSlhfTjQ1WVdTQzhxeGt4Y25PRGphLUNTTjlZR2RweG5COXh1VV9HT1lZUndNTllLQzZQVl9CWjVWMExUVlhfRll6T09TcWN0dGM4RjB3SGlyQWI?oc=5",
-      "sources": 8,
+      "sources": 11,
       "county": "Palm Beach County",
       "signals": {
         "repeat": {
@@ -14189,7 +14209,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-18",
+    "computed": "2026-10-19",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -14354,32 +14374,31 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-04",
-      "to": "2026-10-17",
+      "from": "2026-10-05",
+      "to": "2026-10-18",
       "days": 14,
       "hoax": {
-        "total": 79,
-        "bomb": 57,
+        "total": 80,
+        "bomb": 58,
         "swatting": 22,
         "schools": 59,
         "by_sector": {
           "K-12": 57,
-          "Venue": 5,
+          "Venue": 4,
+          "Transit": 4,
           "Retail": 3,
           "Government": 3,
           "Other": 3,
           "Higher Ed": 2,
           "Healthcare": 2,
-          "Transit": 2,
           "Worship": 1,
           "Workplace": 1
         },
         "states": 27,
-        "confirmed_hoax": 27,
+        "confirmed_hoax": 26,
         "arrests": 2,
-        "under_investigation": 45,
+        "under_investigation": 47,
         "per_day": {
-          "2026-10-04": 2,
           "2026-10-05": 6,
           "2026-10-06": 10,
           "2026-10-07": 9,
@@ -14392,10 +14411,10 @@
           "2026-10-14": 6,
           "2026-10-15": 7,
           "2026-10-16": 2,
-          "2026-10-17": 2
+          "2026-10-17": 2,
+          "2026-10-18": 3
         },
         "per_day_schools": {
-          "2026-10-04": 0,
           "2026-10-05": 4,
           "2026-10-06": 8,
           "2026-10-07": 7,
@@ -14408,24 +14427,25 @@
           "2026-10-14": 4,
           "2026-10-15": 5,
           "2026-10-16": 2,
-          "2026-10-17": 1
+          "2026-10-17": 1,
+          "2026-10-18": 0
         }
       },
       "suspicious_mail": {
-        "total": 24,
-        "government": 16
+        "total": 27,
+        "government": 18
       }
     }
   },
   "last_run": {
-    "ingested": 181,
-    "skipped_seen": 148,
-    "recognized": 3,
-    "new": 0,
+    "ingested": 182,
+    "skipped_seen": 155,
+    "recognized": 5,
+    "new": 1,
     "updated": 0,
-    "rejected": 30,
+    "rejected": 22,
     "errors": 0,
-    "attempted": 33,
+    "attempted": 27,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14473,6 +14493,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-18T23:11:46.037989Z"
+    "ran_at": "2026-10-19T01:16:11.795067Z"
   }
 }
