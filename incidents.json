@@ -1,7 +1,87 @@
 {
-  "generated": "2026-10-19T13:22:30.018647Z",
-  "count": 703,
+  "generated": "2026-10-19T19:56:57.503233Z",
+  "count": 707,
   "incidents": [
+    {
+      "id": 1508,
+      "country": "United Kingdom",
+      "date": "2026-10-19",
+      "school": "St Colman's Primary School",
+      "city": null,
+      "state": "Northern Ireland",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "St Colman's Primary School bomb threat 2026-10-19",
+      "notes": "email bomb threat was 'a very serious concern'",
+      "lat": 54.586,
+      "lng": -6.9592,
+      "src": "NorthernIrelandWorld",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOWVZZZlFqcWczV3NUWGoxc0xMQWV4RUx4THdVc2laNGJMYmsyVERteEdrY0ttcWd4bjBHSmU1elpUZUtaQVdsVFhXckg2UlRZRWhBT3NmaE02OUZDX0tlX1Rvd2M5RzFjaUhqWkFXVGJoMGd2REEtcXdlRnE1TVNweWYzdXZSTHhkUTlYSjl5U1ZWVlU3ODJhZC1SNE9GN3ptdkh3bWpKSDFmVGtlSjNENVFER0lNMkN2TzAwM2ZFU0d3NXdhY3F6Smd3Tk1ZTUZ2TlA2ZlJpM2RsVFBsTmM2TGxocjNMSU5ucFNxNFdhOWR4d0VxbEduMVBKODJrRFZWdWxOVkp2X3RnZVlVdGY0OXNubTRzSWhUbFVQY0lYbENfdw?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1507,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Santa Fe Railyard",
+      "city": "Santa Fe",
+      "state": "New Mexico",
+      "sector": "Transit",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Santa Fe Railyard suspicious package 2026-10-19",
+      "notes": "suspicious package left at Santa Fe Railyard",
+      "lat": 35.6876,
+      "lng": -105.9385,
+      "src": "KOB 4",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdTBySUNyY3phN0JSUC1jNFlxdVRpZFNWRWxQeTBPaEhseU5VQmJsSVdIQ2luOFh5RGctSnNiTU1mY2xkbzhrZzhDRF8zWmdyX2xZbVhMQ2JabE0wSzUxM2JvUTA5eW1OVWs5Q2NBU0Y2UE8tRHl3ekw2bzFQZldGdEdUUGVIdVJjU1dISXFfVTRtZ2gwS0NHQUNqMUVSSElh?oc=5",
+      "sources": 1,
+      "county": "Santa Fe County"
+    },
+    {
+      "id": 1506,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Hoboken High School",
+      "city": "Hoboken",
+      "state": "New Jersey",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hoboken High School lockdown 2026-10-19",
+      "notes": "Hoboken High School Lockdown Investigation Continues",
+      "lat": 40.7433,
+      "lng": -74.0324,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdFB6SVpuYXZKZl8xWUNnYlRXRnRlamltaWRXZVRjbmJBTUxtenhyUV9WUUhqSFJ2c0t6LUVkOHZGWnhLd1dMWUgwcEhSLWZ1aXJVQTFFZGNYLWN0TjF2Z21NcHRFVEwxYVpsN1ZTZlFyazAtR1pTejZhQUMxbmhVZks1bGtGSzhyZm9tVWZZeENBRzhUZHJ1Ti1WeFFIQWo4Tjd5RmVR0gG3AUFVX3lxTE5VZ0hnblhXM1NSXzNrcmRXSzNvbHpKNnctZTZsdUhKZnc2UXVBeXc2Y09HTFl4SHhEOTJTOEtqd3lFX1lxbzlLdURieE9QaHFDNGZCZFNna3lIaFNKLUR0TUdrcGpoalpaVWRHcmM0Q2pZRGExZjJGQ212U240Tm9WckYwSnh2ODF6NGp1clcxZ2luei1nNmxzNVpfNHFkeWxuRVg1anJzRlRQaUltMFhxRFlZZ29XSQ?oc=5",
+      "sources": 1,
+      "county": "Hudson County"
+    },
+    {
+      "id": 1505,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Simms High School",
+      "city": "Simms",
+      "state": "Montana",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Simms High School bomb threat 2026-10-19",
+      "notes": "Authorities respond to possible bomb threat at Simms High School",
+      "lat": 47.4932,
+      "lng": -111.9408,
+      "src": "NBC Montana",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjg5d3JHWmlHdHd5RXRvTGFtejEwR1ZiLW43T3ZRU3JIN3dteXkzR0ZwOUUwMWlJckVlODBEeU5NaUVuZGhMMl9WcENDUVpJT1FCUk9UZUczakFQRWY2YThDOFp3WEREYnFtSG9tNl85NEVMMFd5RDdmQlozbGo2b2xCbzc0WEpLblBJaTFmSWFqUU1Xc1M0bkwzSUo0Y2M?oc=5",
+      "sources": 3,
+      "county": "Cascade County"
+    },
     {
       "id": 1504,
       "country": "United Kingdom",
@@ -79,7 +159,7 @@
       "lng": -4.5,
       "src": "Largs and Millport News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSGRMOEFFQjJRS21zWkdySm52QzBRc20zdDAwMFFRbk53c1FIUFB0NXBvRElQVGFGV2pONjRCX0sxRFFqSV9qSFlFRlZLTF9ySUNkUmdadmRUMlRvRk5wT1hoTC1IeFE4OElYRHd6c0I3YzAwc2pIeUoyRWg1M01BZUx3c1dsMTFsX3VjVF9HMW9VUVkzTmswTXFDX0ZjdmV4TGY4?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Ayrshire"
     },
     {
@@ -119,7 +199,7 @@
       "lng": -6.9592,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXNRWWRTTm1wWk1yeEdfMmdnTmxnUDJMclVFUERsZUlKbHQ0SHFJTnRQYkFpb2p6Tmt1UWY5TmxpNkpNUldCWGd4M2pqSC1ySU1mZHkwRDBIaXVzRm01eXhHMEd4X3ljbzFySG1haFZYQktiT3Y1aDhxbzBOdnF1NzJzNlVXeFVxVU5fanZQQnhtQQ?oc=5",
-      "sources": 18,
+      "sources": 21,
       "county": null
     },
     {
@@ -226,7 +306,7 @@
       "lng": -89.4337,
       "src": "The Tribune",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb1VkN2p5bEhkazI1UDk2WXcyWG5SelJ4blZHLWRxY1dvZlpaWTh2MnRqWFBIQ3hncnhrVzdxWjY3ZmJTd3RDQm40LUU5UDZkQ3JhSlZtYkI3Mms3MnA1bld4cy1WcWFFRm1XZUo0MEtwZUxxR0xIRWdVZDlIWWdNVUFtblVFQU1Nd0JnOTZ1MWFwZlNsbW1NUGQ0ZV9lUEN5MmZMeTRMRk9keDFzNFlfWXpsTDhpNnBNWlNkbFR0NGtGR3FtVkkyYXpkQm5RYnBiSTNJWVRzNkQweXhGQVHSAd4BQVVfeXFMUG9VZDdqeWxIZGsyNVA5Nll3MlhuUnpSeG5WRy1kcWNXb2ZaWlk4djJ0alhQSEN4Z3J4a1c3cVo2N2ZiU3d0Q0JuNC1FOVA2ZENyYUpWbWJCNzJrNzJwNW5XeHMtVnFhRUZtV2VKNDBLcGVMcUdMSEVnVWQ5SFlnTVVBbW5VRUFNTXdCZzk2dTFhcGZTbG1tTVBkNGVfZVBDeTJmTHk0TEZPZHgxczRZX1l6bEw4aTZwTVpTZGxUdDRrRkdxbVZJMmF6ZEJuUWJwYkkzSVlUczZEMHl4RkFR?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Logan County"
     },
     {
@@ -246,7 +326,7 @@
       "lng": -83.2697,
       "src": "ClickOnDetroit | WDIV Local 4",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0Z3U3E5b0owM0tfUVRkZ3plTnFjcFpsaE5aYTAtTVRFVy0tbHJId2NmclVBbVZaUDhhUmdWRE9QMUs0eTNZb2U0LS1SZTE2VXFJZU5OQVZKUjdKQXdRaDFtVkNNUzdLNzl2MnFVd3lmZ2U1RmN3d0Z5Z3hZcDhid2czdWFpREFqVVJXYk5rUFZYTzN5aFQ2TEFhUVltM09RNDhaaGlhNXpxOUVr?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Wayne County"
     },
     {
@@ -507,7 +587,7 @@
       "lng": -122.3301,
       "src": "The Seattle Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "King County"
     },
     {
@@ -14558,14 +14638,14 @@
     }
   },
   "last_run": {
-    "ingested": 194,
-    "skipped_seen": 93,
-    "recognized": 25,
-    "new": 6,
+    "ingested": 200,
+    "skipped_seen": 131,
+    "recognized": 15,
+    "new": 4,
     "updated": 1,
-    "rejected": 76,
+    "rejected": 54,
     "errors": 0,
-    "attempted": 101,
+    "attempted": 69,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14613,6 +14693,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-19T13:22:30.001405Z"
+    "ran_at": "2026-10-19T19:56:57.482517Z"
   }
 }
