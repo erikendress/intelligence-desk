@@ -1,7 +1,94 @@
 {
-  "generated": "2026-10-19T19:56:57.503233Z",
-  "count": 707,
+  "generated": "2026-10-19T23:40:56.882084Z",
+  "count": 711,
   "incidents": [
+    {
+      "id": 1512,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "US Rep. Wasserman Schultz office",
+      "city": "Sunrise",
+      "state": "Florida",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Sunrise-FL-Wasserman-Schultz-Oct2026",
+      "notes": "Suspicious package triggers hazmat situation at Sunrise office for US Rep. Wasserman Schultz",
+      "lat": 26.1667,
+      "lng": -80.2788,
+      "src": "WSVN",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTENQZmpoMEdraUZ0TVZ3Y1Izdno1V0RHQnk5VF92NW9XclV3NHV6aUkxTDBHNHJQa3FVSzBjZ3dKNVNmY1pGeTdCWDlvNGx2QnJJZElINDZYMUUtSkZmYjRSbHhYUDdDMFVfUE5faEk3MUtOSXhKYk1TOW5kZHJwbk1ZQWdYcFE?oc=5",
+      "sources": 1,
+      "county": "Broward County"
+    },
+    {
+      "id": 1511,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "United States Federal Courthouse, Birmingham",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Birmingham federal courthouse suspicious package 2026-10-19",
+      "notes": "Suspicious package reported at Birmingham federal courthouse",
+      "lat": 33.5207,
+      "lng": -86.8024,
+      "src": "WBRC",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVgyQ21ualdYRXBvN0ZqdGtUcnN6ZEh6dzhQR3M2UTdIY205MThMY2Jfc3VVZnVHUFVYWXlHNFBLVEFYZmlUX0g0WUk5TnRTaHBjZ2RpaEhnYkV5OXhEV0JyelFiUTBRVGVCWkRHSFFlWWxsWEQwVFFEX0xXUVB4Wi1OZnlwcVBWNGNiSThOdndacEtrY045eVJvVzlkNDY3cUkw?oc=5",
+      "sources": 4,
+      "county": "Jefferson County"
+    },
+    {
+      "id": 1510,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Congressman Sanford Bishop's Albany office",
+      "city": "Albany",
+      "state": "Georgia",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Albany GA suspicious package 2026-10-19",
+      "notes": "Suspicious package sent to Congressman Sanford Bishop's Albany office",
+      "lat": 31.5782,
+      "lng": -84.1557,
+      "src": "WALB.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVUppQ2JmNHVJYW0zY2JkM3JJOFNjdmZfZVlSMFFxcGR4SlFicWhLSFgzRGFJOGduV2pPbVdfODlrNElGbElia2xpZ0NDT05oSFB2Y3pmN3YwVVZXNDVzOElIdHFGZ0JPNThLODNDNlFNOC1FcnF6VUsxVV83dk9PVkZ1X1hVX3UwQ3pEZ184aFp6ekNMRVU0VFlNYy1OUVnSAbMBQVVfeXFMTjhyTFpidVVidDJWbFFzcWlnOW9BcXozVkFFZ21LVGM4U3RGMmctclcwa2dQMlU5UlNMWE9qZUVCS3hIYzlDQTZpaG5Cc3VDd2tMTmt2ZjZqYzRkeXNSVlJRa1FjcFNuNDBQNkJ1dnlPdG5xSTRzY0Y0ODhzQk5tRmMxNHA0MnlGbnh5dVlJVkdfMHNmQm5takdNczRPTjBhbHRKaVcwTXZVeVh2UkkxRXlFVEU?oc=5",
+      "sources": 1,
+      "county": "Dougherty County"
+    },
+    {
+      "id": 1509,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Butler County Schools middle school",
+      "city": null,
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Butler County Schools swatting incident 2026-10-19",
+      "notes": "threat originated from online game, deemed to be swatting incident",
+      "lat": 40.9162,
+      "lng": -79.9261,
+      "src": "WBKO",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPUlppOUljSjVpZjBFMHJzVHdWVXA0T3E1Z1BkYmlNTjBIS0FZaHlHanM2MkY1WVZFTWVITGtCN2s5cDJvWjRyMWx5Z2FlTHR0S3loTk1yZkV6TFctRURZVW8tMjRMUzV4VjNVV0hIaU1aRjctUERSQ0tvVkVVRGQ1c2FWUWJMQzdVdFhfNVhQcHhpbDVURkZNZGFGcm1BWUJRRWowMVBXZ2dteDZydUpkMkloNU16X0VzUEpiMi1Xdm9TUjdsd1R5Q3lHTFFxOU5zZ3RnUTlSenF3bXN6cFpUaDhXNUs4cHhyRks0aE1ocWFZalg0b0lUM2J0RGl3aDVPV3c?oc=5",
+      "sources": 1,
+      "county": "Butler County",
+      "signals": {
+        "repeat": {
+          "prior": 2,
+          "first": "2026-10-13",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1508,
       "country": "United Kingdom",
@@ -159,7 +246,7 @@
       "lng": -4.5,
       "src": "Largs and Millport News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSGRMOEFFQjJRS21zWkdySm52QzBRc20zdDAwMFFRbk53c1FIUFB0NXBvRElQVGFGV2pONjRCX0sxRFFqSV9qSFlFRlZLTF9ySUNkUmdadmRUMlRvRk5wT1hoTC1IeFE4OElYRHd6c0I3YzAwc2pIeUoyRWg1M01BZUx3c1dsMTFsX3VjVF9HMW9VUVkzTmswTXFDX0ZjdmV4TGY4?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Ayrshire"
     },
     {
@@ -199,7 +286,7 @@
       "lng": -6.9592,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXNRWWRTTm1wWk1yeEdfMmdnTmxnUDJMclVFUERsZUlKbHQ0SHFJTnRQYkFpb2p6Tmt1UWY5TmxpNkpNUldCWGd4M2pqSC1ySU1mZHkwRDBIaXVzRm01eXhHMEd4X3ljbzFySG1haFZYQktiT3Y1aDhxbzBOdnF1NzJzNlVXeFVxVU5fanZQQnhtQQ?oc=5",
-      "sources": 21,
+      "sources": 22,
       "county": null
     },
     {
@@ -14439,6 +14526,17 @@
         ]
       },
       {
+        "county": "Butler County",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "events": 3,
+        "dates": [
+          "2026-10-13",
+          "2026-10-15",
+          "2026-10-19"
+        ]
+      },
+      {
         "county": "Ocean County",
         "region": "New Jersey",
         "country": "United States",
@@ -14516,16 +14614,6 @@
         "dates": [
           "2026-10-10",
           "2026-10-13"
-        ]
-      },
-      {
-        "county": "Butler County",
-        "region": "Pennsylvania",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-13",
-          "2026-10-15"
         ]
       },
       {
@@ -14638,14 +14726,14 @@
     }
   },
   "last_run": {
-    "ingested": 200,
-    "skipped_seen": 131,
-    "recognized": 15,
+    "ingested": 196,
+    "skipped_seen": 156,
+    "recognized": 9,
     "new": 4,
-    "updated": 1,
-    "rejected": 54,
+    "updated": 0,
+    "rejected": 26,
     "errors": 0,
-    "attempted": 69,
+    "attempted": 40,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14693,6 +14781,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-19T19:56:57.482517Z"
+    "ran_at": "2026-10-19T23:40:56.861198Z"
   }
 }
