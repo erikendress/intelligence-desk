@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-20T04:49:00.713095Z",
-  "count": 711,
+  "generated": "2026-10-20T10:03:31.801988Z",
+  "count": 714,
   "incidents": [
+    {
+      "id": 1515,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "Sen. Dave McCormick's Office",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "McCormick_office_Pittsburgh_2026-10-20",
+      "notes": "FBI testing suspicious package found at Sen. Dave McCormick's office in Pittsburgh",
+      "lat": 40.4407,
+      "lng": -80.0026,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObHNSLUl1a2Nuc0IxWk54ZEJlVHF0a09FZU1EcGo5VHRDQXdSNzBfOW9DLTNaQ3FsNmdsZ1UtVDRJZGhhZnd1X29ROFpDNjBwbVVLR2NvYTlDai1ZbFluTkpEYlBXQ25xb2Izb0tIbWVjNUF4XzBrZlhOakFuT1U0WWwyYXdlUUoxZmo0V3hPckRubW95Q3YwLVh0RnVIUllGT3NCQ1NoaTdjX0dZNzBlWFVLRG9xOXdDaEh5R0lYdw?oc=5",
+      "sources": 1,
+      "county": "Allegheny County"
+    },
+    {
+      "id": 1513,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "Evansville apartments",
+      "city": "Evansville",
+      "state": "Indiana",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Evansville bomb threat 2026-10-20",
+      "notes": "Building cleared, no device found following bomb threat at Evansville apartments",
+      "lat": 37.9705,
+      "lng": -87.5716,
+      "src": "WFIE | 14 News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRFJXMlR0QjByYXhxdUxuanNMaDl6ZlJ3emdjM01kV0NueFlNSU1JUW80dkd6ZVpJei1Ud0dSQnA3WFhtTFlXcGpOLVpEa1B5LTlRSkRXamVPb1RaVWtwZlVhNXphcV9zaDhJUHNpbzVXUUZ2Qlh5cURjOEdWRXVtWGR5S3l3VVlPUElzZ0llNlRSUWZ2YjNlLXp3?oc=5",
+      "sources": 1,
+      "county": "Vanderburgh County"
+    },
     {
       "id": 1512,
       "country": "United States",
@@ -286,8 +326,28 @@
       "lng": -6.9592,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXNRWWRTTm1wWk1yeEdfMmdnTmxnUDJMclVFUERsZUlKbHQ0SHFJTnRQYkFpb2p6Tmt1UWY5TmxpNkpNUldCWGd4M2pqSC1ySU1mZHkwRDBIaXVzRm01eXhHMEd4X3ljbzFySG1haFZYQktiT3Y1aDhxbzBOdnF1NzJzNlVXeFVxVU5fanZQQnhtQQ?oc=5",
-      "sources": 22,
+      "sources": 23,
       "county": null
+    },
+    {
+      "id": 1514,
+      "country": "United States",
+      "date": "2026-10-18",
+      "school": "Gas station in Ashland",
+      "city": "Ashland",
+      "state": "New Hampshire",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Ashland NH gas station bomb threat 2026-10-18",
+      "notes": "Bomb threat at gas station Sunday was hoax",
+      "lat": 43.7161,
+      "lng": -71.6276,
+      "src": "The Laconia Daily Sun",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa1NyWV9fck9lUFVHUXhWUmI3VDAwOW44bjBKd200c2k3Q2k1QVZCRWtiZ2lzci1fY3dwUmVhbDhkMGZ0RUE0d25ycU02cHJqdFBCekt3WHlHbnA3aFl1UHF5MWFTSERzLTlEbkxUc1BIWFFRcWlpam8yV08zQ0s2cm5fUTdpVGtFWjlLaXZyLVM3bUZmeE5pYUF3OWV2YVB3Z0xWTmhBYkVLT0xqMEhONEh3SkwzRVE0TGhWN25ubFBLSXhNY1RGU1NfWVJIVWRNNWEwQTJ5VGlFLTI5OVl4T0dtUkI?oc=5",
+      "sources": 1,
+      "county": "Grafton County"
     },
     {
       "id": 1498,
@@ -346,7 +406,7 @@
       "lng": -120.7373,
       "src": "Nisqually Valley News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWE94b2ZTX3VRS3BkREFKdktodlBCbjVaZ1ZQQS11dWxyd0dxQXVtR1ZodVRPUkVFQkttYWZqbklabTUwY3hEVnZUU1YwU2VJMkFobzFldUlPTmM2eEl1TkFHdG5GT2diVmFYYTJSdWljS0RINy1udmRTNXNmU2xrSUZPcVc3ZUJHdU0tTUhYTzBsOW9aSEpjbHdlanFFSnpYWE9MbWtuOGNwQUtSUUFv?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -14642,23 +14702,23 @@
       "to": "2026-10-19",
       "days": 14,
       "hoax": {
-        "total": 76,
-        "bomb": 54,
+        "total": 77,
+        "bomb": 55,
         "swatting": 22,
         "schools": 57,
         "by_sector": {
           "K-12": 55,
+          "Retail": 4,
           "Transit": 4,
           "Venue": 3,
-          "Retail": 3,
           "Government": 3,
           "Other": 3,
           "Higher Ed": 2,
           "Healthcare": 2,
           "Workplace": 1
         },
-        "states": 28,
-        "confirmed_hoax": 25,
+        "states": 29,
+        "confirmed_hoax": 26,
         "arrests": 2,
         "under_investigation": 44,
         "per_day": {
@@ -14674,7 +14734,7 @@
           "2026-10-15": 7,
           "2026-10-16": 2,
           "2026-10-17": 2,
-          "2026-10-18": 3,
+          "2026-10-18": 4,
           "2026-10-19": 2
         },
         "per_day_schools": {
@@ -14701,12 +14761,12 @@
     }
   },
   "last_run": {
-    "ingested": 190,
-    "skipped_seen": 169,
-    "recognized": 2,
-    "new": 0,
+    "ingested": 189,
+    "skipped_seen": 168,
+    "recognized": 6,
+    "new": 3,
     "updated": 0,
-    "rejected": 19,
+    "rejected": 15,
     "errors": 0,
     "attempted": 21,
     "backfill": false,
@@ -14756,6 +14816,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-20T04:49:00.696857Z"
+    "ran_at": "2026-10-20T10:03:31.772448Z"
   }
 }
