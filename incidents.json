@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T23:40:56.882084Z",
+  "generated": "2026-10-20T04:49:00.713095Z",
   "count": 711,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -86.8024,
       "src": "WBRC",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVgyQ21ualdYRXBvN0ZqdGtUcnN6ZEh6dzhQR3M2UTdIY205MThMY2Jfc3VVZnVHUFVYWXlHNFBLVEFYZmlUX0g0WUk5TnRTaHBjZ2RpaEhnYkV5OXhEV0JyelFiUTBRVGVCWkRHSFFlWWxsWEQwVFFEX0xXUVB4Wi1OZnlwcVBWNGNiSThOdndacEtrY045eVJvVzlkNDY3cUkw?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Jefferson County"
     },
     {
@@ -674,7 +674,7 @@
       "lng": -122.3301,
       "src": "The Seattle Times",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaVRFNDJDTXF4TjdKTmZ6RGM1THdKRzVjU3pmcTJ4Vm90bkwyRzJpd1pCY1UwSTJsLUswZEtnaHEwNGtXb0lkYWtUbnlLdGo1N0FCcDJsamEyLXMwWHpxb2doU1d2QmtMRDlaNnl6OVdnakVFRm9nOWtMMkNMTFBPYjNUR1RmWUJhLXQtTzJhTlV5ZWZhZGtLTzVIUHV6U2RENlNaMVR4eUVHVWlZNURYWmU1anJqZ2UwYzZwbzZfMm5TbHIt?oc=5",
-      "sources": 7,
+      "sources": 8,
       "county": "King County"
     },
     {
@@ -7104,14 +7104,7 @@
       "src": "WPBF",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZDJRSTJLSnV4WE80ckt1ZGxlY2N6N21xWEVMX2wtdk5PamhuZ0h5YzZDWjlqdVdiLXhTdUU4YlhDZDF6bUl6bXNLTUhTZzFVMXRUN3ZSdWN6TFJfamtGNzNaS3lqRzBRZmtYQ2Y1Q2xRVU5Ed0hVUGRTREJxcWZxUDh3eWcyNjA2Y0t4aE5KVjhjYzdnb2w1Vk5yVWc0UHhDT1ZwLVdYS3RKYVd6cjdjUVlHVQ?oc=5",
       "sources": 5,
-      "county": "Saint Lucie County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-04",
-          "window_days": 7
-        }
-      }
+      "county": "Saint Lucie County"
     },
     {
       "id": 933,
@@ -7151,14 +7144,7 @@
       "src": "St. George News",
       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQU1lIc0NfTVZnVFJTM2gxVzdyUmVtWElqS25EX2dpNllBcEVlaGxGRldYdUFtNG5Ud0o4SUd6M2ZsVDBlTEVmTXBHZC1UR2V0dnRPVFFYZndVbXNRRHlKeFNBZXhwN0NncUpmR3l6V3E4OHAtbkM1WXVVb21CQnFDLWUwaEkyblhKY3JNRUVrMFRxcFAtQVlia0wxXzlnSVZQMjkyc0dqNF9aN2g3X0JTdzNEMFRJX2VCeGF5VzZFMzh4eTVxaTlaYlpERzZZOW5ScFlLRjhieURaZWZuOFhHX1dqekp1X3MzUFdwWHhXTVBjaWhfejNMNg?oc=5",
       "sources": 1,
-      "county": "Washington County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-04",
-          "window_days": 7
-        }
-      }
+      "county": "Washington County"
     },
     {
       "id": 925,
@@ -14496,7 +14482,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-19",
+    "computed": "2026-10-20",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -14537,16 +14523,6 @@
         ]
       },
       {
-        "county": "Ocean County",
-        "region": "New Jersey",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-05",
-          "2026-10-08"
-        ]
-      },
-      {
         "county": "Stanislaus County",
         "region": "California",
         "country": "United States",
@@ -14554,16 +14530,6 @@
         "dates": [
           "2026-10-07",
           "2026-10-08"
-        ]
-      },
-      {
-        "county": "Walla Walla County",
-        "region": "Washington",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-05",
-          "2026-10-09"
         ]
       },
       {
@@ -14635,6 +14601,16 @@
           "2026-10-12",
           "2026-10-18"
         ]
+      },
+      {
+        "county": "Wayne County",
+        "region": "Michigan",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-10",
+          "2026-10-18"
+        ]
       }
     ],
     "stacked_recent": [
@@ -14662,32 +14638,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-05",
-      "to": "2026-10-18",
+      "from": "2026-10-06",
+      "to": "2026-10-19",
       "days": 14,
       "hoax": {
-        "total": 80,
-        "bomb": 58,
+        "total": 76,
+        "bomb": 54,
         "swatting": 22,
-        "schools": 59,
+        "schools": 57,
         "by_sector": {
-          "K-12": 57,
-          "Venue": 4,
+          "K-12": 55,
           "Transit": 4,
+          "Venue": 3,
           "Retail": 3,
           "Government": 3,
           "Other": 3,
           "Higher Ed": 2,
           "Healthcare": 2,
-          "Worship": 1,
           "Workplace": 1
         },
-        "states": 27,
-        "confirmed_hoax": 26,
+        "states": 28,
+        "confirmed_hoax": 25,
         "arrests": 2,
-        "under_investigation": 47,
+        "under_investigation": 44,
         "per_day": {
-          "2026-10-05": 6,
           "2026-10-06": 10,
           "2026-10-07": 9,
           "2026-10-08": 10,
@@ -14700,10 +14674,10 @@
           "2026-10-15": 7,
           "2026-10-16": 2,
           "2026-10-17": 2,
-          "2026-10-18": 3
+          "2026-10-18": 3,
+          "2026-10-19": 2
         },
         "per_day_schools": {
-          "2026-10-05": 4,
           "2026-10-06": 8,
           "2026-10-07": 7,
           "2026-10-08": 8,
@@ -14716,24 +14690,25 @@
           "2026-10-15": 5,
           "2026-10-16": 2,
           "2026-10-17": 1,
-          "2026-10-18": 0
+          "2026-10-18": 0,
+          "2026-10-19": 2
         }
       },
       "suspicious_mail": {
-        "total": 27,
-        "government": 18
+        "total": 31,
+        "government": 21
       }
     }
   },
   "last_run": {
-    "ingested": 196,
-    "skipped_seen": 156,
-    "recognized": 9,
-    "new": 4,
+    "ingested": 190,
+    "skipped_seen": 169,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 26,
+    "rejected": 19,
     "errors": 0,
-    "attempted": 40,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14781,6 +14756,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-19T23:40:56.861198Z"
+    "ran_at": "2026-10-20T04:49:00.696857Z"
   }
 }
