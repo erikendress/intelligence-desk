@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-20T19:16:27.007284Z",
-  "count": 721,
+  "generated": "2026-10-20T22:19:57.694552Z",
+  "count": 723,
   "incidents": [
+    {
+      "id": 1523,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "University of Pittsburgh",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Evacuation",
+      "outcome": "Arrest made",
+      "cluster": "University of Pittsburgh threat evacuation 2026-10-20",
+      "notes": "University of Pittsburgh building evacuated after threats, police say",
+      "lat": 40.4407,
+      "lng": -80.0026,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlVaWXFmVFRzdnkxeXRHNE9mUi1lT3ZkcHc5alVXV1d0akktNks4bkFXY2MxbWxOUGUwMmZESi1wc3JCdndNa2VRWnB3ZXZSWGlYQ1pzel9Xa0J3TGd5QWVJdXYtOTdqSVUwdmJjVFNTZHlndEpiZ3NjUlFIUzJmYjBJX3BiYnBIVVdSaw?oc=5",
+      "sources": 2,
+      "county": "Allegheny County"
+    },
     {
       "id": 1522,
       "country": "United States",
@@ -39,7 +59,7 @@
       "lng": -81.2082,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0xkQjZXbllwTEowLUFsOGhzVllnVE5WRnFZUDFtcDdSZFI2RDJRZ0d0bGdkTE5YLXpZOW4zaE1fNFFGRGFYTGp1a3kzYUpmOV9uSWZSOUVxaElnNEhvWkc0TGpOQ2tnTEtaVDNfbXpnU1daZVBmbnhqUXllR3NwcjFFVHNBUlFPMjdMTkVCNUo5M3VfVzBCTU5ja0RVWGFGdW0waNIBuAFBVV95cUxPZDhMcmNBNTJLYWZHX09lRGFzclRtVW1DTVR4cGJEbWhfWVVhWUJRNmdtYUI0elNQakJydDlWSUFfTkZEcVFXOWZRdHdvbWMyX1RVLUtubXV5RG05c3I3bUlfdTRLQmk2X0VEMzRuZ2F1aFVFUG9KVHB1M0tIdkNibElNbUdrZzcweGF2ZUg1X3dlcjI5ZmtseWpzbTEtRVN4M1pUN0RldVQ2TmItYVV5WnZSZVFCMWdm?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Portage County"
     },
     {
@@ -13754,6 +13774,26 @@
       "county": null
     },
     {
+      "id": 1524,
+      "country": "United States",
+      "date": "2026-08-01",
+      "school": "Marion High School",
+      "city": "Marion",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Marion High School August 2026 bomb threat",
+      "notes": "Two out-of-state teens are suspects in the August bomb threat at Marion High School",
+      "lat": null,
+      "lng": null,
+      "src": "WSIU NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONnh5SlM3aFJQLXpsdkNfdG9yZE14WDVaOU52aDVEY1R4UTFkV2FvT2hRUXcyTDFXS1dsVXNQZGxLVFZ5S1RhRURtM0RQaU9PSUg3WjVWVW1wZ1ZGS0RNeWM1bE9WNXQzSWpiTjVsUVlYenFjQWJWbWNsRkNjYU1hazMwajUxWDY2Q1ZCUnZZTHdXTXd2YTM3aDJyS2llM3FSRzdWRjNPeFlmcGZyTE5OZVdya0JHOGlNU3BfaHdSTXRQNzlIa0NQOG9rWVVxTFpWb3MxcUowanE?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
       "id": 179,
       "country": "United States",
       "date": "2026-07-29",
@@ -14926,14 +14966,14 @@
     }
   },
   "last_run": {
-    "ingested": 189,
-    "skipped_seen": 152,
-    "recognized": 10,
-    "new": 7,
-    "updated": 0,
-    "rejected": 26,
+    "ingested": 188,
+    "skipped_seen": 163,
+    "recognized": 4,
+    "new": 2,
+    "updated": 1,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 37,
+    "attempted": 25,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14981,6 +15021,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-20T19:16:26.998847Z"
+    "ran_at": "2026-10-20T22:19:57.674658Z"
   }
 }
