@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T10:03:31.801988Z",
+  "generated": "2026-10-20T15:04:58.490691Z",
   "count": 714,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -87.5716,
       "src": "WFIE | 14 News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRFJXMlR0QjByYXhxdUxuanNMaDl6ZlJ3emdjM01kV0NueFlNSU1JUW80dkd6ZVpJei1Ud0dSQnA3WFhtTFlXcGpOLVpEa1B5LTlRSkRXamVPb1RaVWtwZlVhNXphcV9zaDhJUHNpbzVXUUZ2Qlh5cURjOEdWRXVtWGR5S3l3VVlPUElzZ0llNlRSUWZ2YjNlLXp3?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Vanderburgh County"
     },
     {
@@ -14761,14 +14761,14 @@
     }
   },
   "last_run": {
-    "ingested": 189,
-    "skipped_seen": 168,
-    "recognized": 6,
-    "new": 3,
+    "ingested": 191,
+    "skipped_seen": 163,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 15,
+    "rejected": 26,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 28,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -14816,6 +14816,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-20T10:03:31.772448Z"
+    "ran_at": "2026-10-20T15:04:58.471310Z"
   }
 }
