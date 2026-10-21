@@ -1,7 +1,87 @@
 {
-  "generated": "2026-10-20T22:19:57.694552Z",
-  "count": 723,
+  "generated": "2026-10-21T01:35:26.745976Z",
+  "count": 728,
   "incidents": [
+    {
+      "id": 1528,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Nettleton STEAM",
+      "city": "Nettleton",
+      "state": "Arkansas",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Nettleton STEAM shots-heard 2026-10-21",
+      "notes": "Nettleton STEAM Precautionary Lockdown Lifted Following Shots-Heard Report; Three Suspects Detained",
+      "lat": 35.8195,
+      "lng": -90.6512,
+      "src": "Jonesboro Right Now",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEtaQW04dG9QTUkyZTNCYmNvWXJZNEVYb0NVb1R2UVJqbWUtYXBXaTJLblFVbTAwRmZlNlp0M1c1Tzl6d0otbnNZQ1J2bVVhRzNJQmxieVlVaXVTMkNTWEJtZldzNFFGdFA5dzdydXFTRS1XWEh2S08zYnpkaVZuS1VicENIZ1QzYVZOdE9BTkFVZmdhWGxTajV0X0VzS0dpUHVpUmhCekd6SDR0WVVVQ2JkUVRMMTl3VlE?oc=5",
+      "sources": 1,
+      "county": "Craighead County"
+    },
+    {
+      "id": 1525,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Marion High School",
+      "city": "Marion",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Marion High School bomb threat 2026-10-21",
+      "notes": "Police identify two suspects in Marion High School bomb threat",
+      "lat": 38.6477,
+      "lng": -88.9232,
+      "src": "Southern Illinoisan",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVUhYakZjOWFFcm9EaGJUWEQxRXFTUEJmVnhDbUQ3Um9yOXZNN3B6RzJ3MUc1T0dlUXpoR05IRXZnRzNqbWxmVThOOXIyR21TUV9GWk91SkJ3dzhNWVAzRjZ0NFdVU3BmakNMUC1KUEoweVBKR1l1X2tJcVJoU1Fpblh3dVU0U3lhU0M5SDFWa3RwNkVQU1pTcDhSb1F0T0ZBZnVZVXNCMlhsNkx0RFhpTFpiQ2IwZkFya2YyQlMtajJQSFA3eFBuVU9wS0taY04xZnlXVkNNUHo?oc=5",
+      "sources": 1,
+      "county": "Marion County"
+    },
+    {
+      "id": 1529,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "U.S. Senator Deb Fischer Omaha Office",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Omaha office suspicious package 2026-10-20",
+      "notes": "Omaha office of U.S. Senator Deb Fischer receives suspicious package",
+      "lat": 41.2587,
+      "lng": -95.9384,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHRkRVlsZ090cVUyZjZmamotUGVsVGVzR3RMWE1hUHZZY182NGpKbER2RGlzS0J2SzZ2NjVJTmpLRUZLQU5reWNvNVZxMGRiMHJmSjdjd21aTGpiX1RYbTdSNTBYbjREQm1acEstZmJjRlFERWY4bnNmeWZkdGdWem1fRWgtNzg?oc=5",
+      "sources": 2,
+      "county": "Douglas County"
+    },
+    {
+      "id": 1527,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "Montgomery High School",
+      "city": "Santa Rosa",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Santa Rosa Montgomery High School fight 2026-10-20",
+      "notes": "Fight At Montgomery High School Prompts Campus Lockdown",
+      "lat": 38.4405,
+      "lng": -122.7141,
+      "src": "SFGATE",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM3YzQ0xBQll4QUJlZHNNR1hNYnJSa1FRcXNHbTZSMVZCcU9hVl9DSkROTlRHWHRJLUV6enZ6STlkcnoyVlJZUnVvLWpuLWhzQjRnTTg1Y013Zm9mZVRvSl9PV0dyUVk5bm4zU1JFTGVwVUVrNEx0bWRMT1dUR0lYVV9QOUxJb05zb0NqNkFWTXBseklxRWlWZ0dEdk02SFB3?oc=5",
+      "sources": 1,
+      "county": "Sonoma County"
+    },
     {
       "id": 1523,
       "country": "United States",
@@ -59,7 +139,7 @@
       "lng": -81.2082,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0xkQjZXbllwTEowLUFsOGhzVllnVE5WRnFZUDFtcDdSZFI2RDJRZ0d0bGdkTE5YLXpZOW4zaE1fNFFGRGFYTGp1a3kzYUpmOV9uSWZSOUVxaElnNEhvWkc0TGpOQ2tnTEtaVDNfbXpnU1daZVBmbnhqUXllR3NwcjFFVHNBUlFPMjdMTkVCNUo5M3VfVzBCTU5ja0RVWGFGdW0waNIBuAFBVV95cUxPZDhMcmNBNTJLYWZHX09lRGFzclRtVW1DTVR4cGJEbWhfWVVhWUJRNmdtYUI0elNQakJydDlWSUFfTkZEcVFXOWZRdHdvbWMyX1RVLUtubXV5RG05c3I3bUlfdTRLQmk2X0VEMzRuZ2F1aFVFUG9KVHB1M0tIdkNibElNbUdrZzcweGF2ZUg1X3dlcjI5ZmtseWpzbTEtRVN4M1pUN0RldVQ2TmItYVV5WnZSZVFCMWdm?oc=5",
-      "sources": 2,
+      "sources": 5,
       "county": "Portage County"
     },
     {
@@ -99,7 +179,7 @@
       "lng": -84.6433,
       "src": "WXYZ 7 News Detroit",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTlVbTR6TjFvTE1HUHM0T3hkWm93LVRxekhaelRIamNwRGVfRFc5Q0tHckZ4VGtha2pqX04wNUpOTDBsMjZCNkFqQ3pDeFVXOXBlZXVzXzZENFg4cmdTQm9iS1JpWHl6bEVob0xZVXluSHRVbnBkMEUtOU1iYWVkVUxFLUVWN01YMkx0SEVTQjN1WUZza2ZQeXVR?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Eaton County"
     },
     {
@@ -166,7 +246,7 @@
       "lng": -84.028,
       "src": "WVLT",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRDFTSlNpWGMydmZ5RlltdzhuU2ZHcFI2SDN2VUplS3E4dzk4dm03ZnVYa3cwUDdPZ1FfVzV6eG1Qd0dCa1Z5RjE5Yk12QS1GYTh4YWpNd1hrYmo2UllfckU1UTlJRlJKOGg4TzUtcGNaQWNQMmZDQ2x0WTJVWjA2Q0xkT3ZxaUhqTlRoSFNKbnB2cGpXVEREaldySEJUV0dxb0M2bGpoZ1Z5MDlGcFp3T2FFY3k0Njg?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Knox County",
       "signals": {
         "repeat": {
@@ -500,7 +580,7 @@
       "lng": -6.9592,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXNRWWRTTm1wWk1yeEdfMmdnTmxnUDJMclVFUERsZUlKbHQ0SHFJTnRQYkFpb2p6Tmt1UWY5TmxpNkpNUldCWGd4M2pqSC1ySU1mZHkwRDBIaXVzRm01eXhHMEd4X3ljbzFySG1haFZYQktiT3Y1aDhxbzBOdnF1NzJzNlVXeFVxVU5fanZQQnhtQQ?oc=5",
-      "sources": 24,
+      "sources": 25,
       "county": null
     },
     {
@@ -13794,6 +13874,26 @@
       "county": null
     },
     {
+      "id": 1526,
+      "country": "United States",
+      "date": "2026-08",
+      "school": "Marion High School",
+      "city": "Marion",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Marion-HS-bomb-threat-Aug2026",
+      "notes": "New York, Maryland teens identified as suspects in August Marion High School bomb threat",
+      "lat": 38.6477,
+      "lng": -88.9232,
+      "src": "Southern Illinoisan",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaHkxdGI5c3ptd1ZQQWtuZFdaZC1XeDJvRXY3Y1doTjFuTjFFM2lfZ19mWnNPWkVWX0tyWm9fM1JzZkRTZUh5OUxHSkJpQi1BcXB4MmM5QkhNUUZVT2RPb3U2MHB4YjdLd19mVkozdHJvT1czcHJjdGhPWDdiLXFiWXlYRktCaGhWZlBnVk4tMWEyMF94aTdKVF9rLUF1SEFsakFxekViSmdXMzZKbFRsTTFMVFZjSGlyeXU2VWc5bDRIYVpmZUVEaE5vN2ZOS0hvdTFndXBfa2pRdHVZVGFqUmkzZFktMThtazd5WWJrSjNiblJROTdHT093?oc=5",
+      "sources": 1,
+      "county": "Marion County"
+    },
+    {
       "id": 179,
       "country": "United States",
       "date": "2026-07-29",
@@ -14736,22 +14836,13 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-20",
+    "computed": "2026-10-21",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
       "stacked": "one call claiming both a bomb and an active shooter"
     },
-    "waves": [
-      {
-        "date": "2026-10-06",
-        "country": "United States",
-        "region": "Pennsylvania",
-        "counties": 3,
-        "events": 4,
-        "key": "2026-10-06|United States|Pennsylvania"
-      }
-    ],
+    "waves": [],
     "repeat_counties": [
       {
         "county": "Merced County",
@@ -14815,16 +14906,6 @@
         "dates": [
           "2026-10-09",
           "2026-10-12"
-        ]
-      },
-      {
-        "county": "New York County",
-        "region": "New York",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-06",
-          "2026-10-13"
         ]
       },
       {
@@ -14903,31 +14984,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-06",
-      "to": "2026-10-19",
+      "from": "2026-10-07",
+      "to": "2026-10-20",
       "days": 14,
       "hoax": {
-        "total": 77,
-        "bomb": 55,
-        "swatting": 22,
-        "schools": 57,
+        "total": 72,
+        "bomb": 51,
+        "swatting": 21,
+        "schools": 51,
         "by_sector": {
-          "K-12": 55,
-          "Retail": 4,
+          "K-12": 49,
+          "Government": 4,
+          "Other": 4,
           "Transit": 4,
-          "Venue": 3,
-          "Government": 3,
-          "Other": 3,
+          "Retail": 4,
           "Higher Ed": 2,
           "Healthcare": 2,
+          "Venue": 2,
           "Workplace": 1
         },
-        "states": 29,
-        "confirmed_hoax": 26,
-        "arrests": 2,
-        "under_investigation": 44,
+        "states": 30,
+        "confirmed_hoax": 25,
+        "arrests": 3,
+        "under_investigation": 40,
         "per_day": {
-          "2026-10-06": 10,
           "2026-10-07": 9,
           "2026-10-08": 10,
           "2026-10-09": 10,
@@ -14940,10 +15020,10 @@
           "2026-10-16": 2,
           "2026-10-17": 2,
           "2026-10-18": 4,
-          "2026-10-19": 2
+          "2026-10-19": 2,
+          "2026-10-20": 5
         },
         "per_day_schools": {
-          "2026-10-06": 8,
           "2026-10-07": 7,
           "2026-10-08": 8,
           "2026-10-09": 8,
@@ -14956,24 +15036,25 @@
           "2026-10-16": 2,
           "2026-10-17": 1,
           "2026-10-18": 0,
-          "2026-10-19": 2
+          "2026-10-19": 2,
+          "2026-10-20": 2
         }
       },
       "suspicious_mail": {
-        "total": 31,
-        "government": 21
+        "total": 32,
+        "government": 23
       }
     }
   },
   "last_run": {
-    "ingested": 188,
-    "skipped_seen": 163,
-    "recognized": 4,
-    "new": 2,
-    "updated": 1,
-    "rejected": 18,
+    "ingested": 202,
+    "skipped_seen": 174,
+    "recognized": 12,
+    "new": 5,
+    "updated": 0,
+    "rejected": 15,
     "errors": 0,
-    "attempted": 25,
+    "attempted": 28,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15021,6 +15102,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-20T22:19:57.674658Z"
+    "ran_at": "2026-10-21T01:35:26.735283Z"
   }
 }
