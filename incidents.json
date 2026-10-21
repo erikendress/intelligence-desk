@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-21T01:35:26.745976Z",
-  "count": 728,
+  "generated": "2026-10-21T07:38:40.143511Z",
+  "count": 731,
   "incidents": [
+    {
+      "id": 1532,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Congresswoman Joyce Beatty's Columbus office",
+      "city": "Columbus",
+      "state": "Ohio",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Joyce Beatty office suspicious package Columbus OH 2026-10-21",
+      "notes": "Suspicious package sent to Congresswoman Joyce Beatty's Columbus office",
+      "lat": 39.9623,
+      "lng": -83.0007,
+      "src": "10TV",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXRwV1Y2ektCRGpPZmdLczY2MUs5enNQeDNNU2dRcW81SUpnRHVqa2k3TF9sWmxuQ3Rzcy1iRHktRFNDUUpNeTM5dXZWNWtPQXRUeEZhbjRwWFd3dU9RSE9lZGk1WUVWaWxzalFOQmNmZFh3ZnpOUHQ4d1JSeXZQMjN6anZ4cXFFMDBrV3YzZmg5dlo1cWJtazRWc01uMHhzeHQyVGFtQXlGc0ZEV0V3bXcwaS1NUDlkN3lJaEtuc3IyWllLakFNOUpkUnptXy1KdnVhaXoxVFQ1eTlaNzQyS201aw?oc=5",
+      "sources": 1,
+      "county": "Franklin County"
+    },
+    {
+      "id": 1530,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Schools in Albuquerque",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Albuquerque swatting Oct 21 2026",
+      "notes": "'Swatting' calls put 2 New Mexico schools under shelter-in-place status on Monday",
+      "lat": 35.0841,
+      "lng": -106.651,
+      "src": "KRQE",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXpfVlJjUjhISVNTbDVSRFpjc2dRSlIwTnBQeEZFQ2NBZEdJdmRtQlJpcWxuT2tiRngyOFJLcEJtbHRaU2huTHMtN3h3Z3FudEtubm90WjhlNmZTVHctRFNJWXc0MEtBY3c3TDNhcThYOVk5SnoxWFVlQjNhOEpmN2ZhanVHb1MybWhOQmtGdlBnOVhCOG95RWtQODg0U1dwU0ZNelE2aVYxazZyakpJWlBMenJqb09o?oc=5",
+      "sources": 1,
+      "county": "Bernalillo County"
+    },
     {
       "id": 1528,
       "country": "United States",
@@ -43,6 +83,26 @@
       "county": "Marion County"
     },
     {
+      "id": 1531,
+      "country": "United States",
+      "date": "2026-10-20",
+      "school": "Posvar Hall",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Posvar Hall bomb threat 2026-10-20",
+      "notes": "Posvar Hall evacuation was due to social media bomb threat, Pitt says",
+      "lat": 40.4407,
+      "lng": -80.0026,
+      "src": "The Pitt News",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUhLT01sTE5Rc25uWDMwcTl0cWJQOG9LS1F2TFBfbU5saGdqOGlXN2dRdXRZdHdMQlhHc2xmTmxYY0d3V3FJUUJqa043STZBdUxESVZ3WFo0TUtyZzRSX1BpZUd5Rzk5MzJhMDNSazlBYlRKWnNNVXBWNWwtaHIxdENBSWthWDRZc1lWWERueWhkX1VWSW9UeGh5STl0Q0p4endVenpocUVTUF9rZjh6cm9sV2jSAboBQVVfeXFMUHo5d2dUanVwaUotSi1wZ3RTeXlUU1pUR0xEaFd1MTMzcUlBZHQ4ZlBDN3k0MF9RQUVQVkV2ZjZHUmtBc2xhekNaSHZNOWhrMG92QWlWcl9OZDI2ZGxRbkxlWlduU0s4QXBqdVVrUVVKNzhpSHlaNjZXYU04aFhWb0ZxMDFrbU9DTTJ0b1o0cGptR2w3bkJidW14M1VhbmNiQnZxOUFLMlBCTERpTEJUbzQ5cnNHbkpqR2lR?oc=5",
+      "sources": 2,
+      "county": "Allegheny County"
+    },
+    {
       "id": 1529,
       "country": "United States",
       "date": "2026-10-20",
@@ -59,7 +119,7 @@
       "lng": -95.9384,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHRkRVlsZ090cVUyZjZmamotUGVsVGVzR3RMWE1hUHZZY182NGpKbER2RGlzS0J2SzZ2NjVJTmpLRUZLQU5reWNvNVZxMGRiMHJmSjdjd21aTGpiX1RYbTdSNTBYbjREQm1acEstZmJjRlFERWY4bnNmeWZkdGdWem1fRWgtNzg?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Douglas County"
     },
     {
@@ -99,7 +159,7 @@
       "lng": -80.0026,
       "src": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlVaWXFmVFRzdnkxeXRHNE9mUi1lT3ZkcHc5alVXV1d0akktNks4bkFXY2MxbWxOUGUwMmZESi1wc3JCdndNa2VRWnB3ZXZSWGlYQ1pzel9Xa0J3TGd5QWVJdXYtOTdqSVUwdmJjVFNTZHlndEpiZ3NjUlFIUzJmYjBJX3BiYnBIVVdSaw?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Allegheny County"
     },
     {
@@ -139,7 +199,7 @@
       "lng": -81.2082,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0xkQjZXbllwTEowLUFsOGhzVllnVE5WRnFZUDFtcDdSZFI2RDJRZ0d0bGdkTE5YLXpZOW4zaE1fNFFGRGFYTGp1a3kzYUpmOV9uSWZSOUVxaElnNEhvWkc0TGpOQ2tnTEtaVDNfbXpnU1daZVBmbnhqUXllR3NwcjFFVHNBUlFPMjdMTkVCNUo5M3VfVzBCTU5ja0RVWGFGdW0waNIBuAFBVV95cUxPZDhMcmNBNTJLYWZHX09lRGFzclRtVW1DTVR4cGJEbWhfWVVhWUJRNmdtYUI0elNQakJydDlWSUFfTkZEcVFXOWZRdHdvbWMyX1RVLUtubXV5RG05c3I3bUlfdTRLQmk2X0VEMzRuZ2F1aFVFUG9KVHB1M0tIdkNibElNbUdrZzcweGF2ZUg1X3dlcjI5ZmtseWpzbTEtRVN4M1pUN0RldVQ2TmItYVV5WnZSZVFCMWdm?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Portage County"
     },
     {
@@ -14988,17 +15048,17 @@
       "to": "2026-10-20",
       "days": 14,
       "hoax": {
-        "total": 72,
-        "bomb": 51,
+        "total": 73,
+        "bomb": 52,
         "swatting": 21,
-        "schools": 51,
+        "schools": 52,
         "by_sector": {
           "K-12": 49,
           "Government": 4,
           "Other": 4,
           "Transit": 4,
           "Retail": 4,
-          "Higher Ed": 2,
+          "Higher Ed": 3,
           "Healthcare": 2,
           "Venue": 2,
           "Workplace": 1
@@ -15006,7 +15066,7 @@
         "states": 30,
         "confirmed_hoax": 25,
         "arrests": 3,
-        "under_investigation": 40,
+        "under_investigation": 41,
         "per_day": {
           "2026-10-07": 9,
           "2026-10-08": 10,
@@ -15021,7 +15081,7 @@
           "2026-10-17": 2,
           "2026-10-18": 4,
           "2026-10-19": 2,
-          "2026-10-20": 5
+          "2026-10-20": 6
         },
         "per_day_schools": {
           "2026-10-07": 7,
@@ -15037,7 +15097,7 @@
           "2026-10-17": 1,
           "2026-10-18": 0,
           "2026-10-19": 2,
-          "2026-10-20": 2
+          "2026-10-20": 3
         }
       },
       "suspicious_mail": {
@@ -15047,12 +15107,12 @@
     }
   },
   "last_run": {
-    "ingested": 202,
-    "skipped_seen": 174,
-    "recognized": 12,
-    "new": 5,
+    "ingested": 204,
+    "skipped_seen": 176,
+    "recognized": 7,
+    "new": 3,
     "updated": 0,
-    "rejected": 15,
+    "rejected": 19,
     "errors": 0,
     "attempted": 28,
     "backfill": false,
@@ -15102,6 +15162,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-21T01:35:26.735283Z"
+    "ran_at": "2026-10-21T07:38:40.130388Z"
   }
 }
