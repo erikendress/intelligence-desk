@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-21T07:38:40.143511Z",
-  "count": 731,
+  "generated": "2026-10-21T13:48:05.593557Z",
+  "count": 733,
   "incidents": [
+    {
+      "id": 1534,
+      "country": "United Kingdom",
+      "date": "2026-10-21",
+      "school": "Stowmarket High School",
+      "city": "Stowmarket",
+      "state": "England",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Stowmarket High School threatening calls lockdown Oct 2026",
+      "notes": "Two teenage girls arrested over Stowmarket High School lockdown after receiving 'threatening phone calls'",
+      "lat": 52.1878,
+      "lng": 0.9973,
+      "src": "Suffolk News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFVRZ1h4ZS1Sc2tIWF9jQXhlUzJuSGlLUktmMGVaSXRGU2tudGdpYmpqaTl0cE56aHo1MDlBVGxJV3FiRnUwbGFpazd4eURsUldxWGNJVVZNbEV4VVZZVjIwV2hFb1d1QklQZW1iTjl2UnNMS1pOYlg3eUtLd1MxMk9jdl9rX2JQbmZhNFJ2dEE2THpnVXRJTFJDZFFNTDJsX1ZWcDlLZHF0OG9QMjUzcWxhT3l1UQ?oc=5",
+      "sources": 1,
+      "county": "Suffolk"
+    },
+    {
+      "id": 1533,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Virginia Union University",
+      "city": "Richmond",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "VUU-Richmond-20261021-shooting-reports",
+      "notes": "VUU lockdown lifted after reports of shooting",
+      "lat": 37.5385,
+      "lng": -77.4343,
+      "src": "WWBT",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVmhGNVVlSi16WlhFaEtPQ3lvSUpkWUNfbXEwUDhodUNkdE96Ui0yZ014MkFkVG5ycGZiYkpKTUxuTlIxZlEzNnh3WVdPREM0M3hvZEJ5cXdFOE5NNVJmOE5na0tIMGQ4SzFuR0p4S0Q2NXlSb3VwX0lkbTlUOHpFNzJvcC1ZZHppOVZMakd2Y05XelE?oc=5",
+      "sources": 2,
+      "county": null
+    },
     {
       "id": 1532,
       "country": "United States",
@@ -159,7 +199,7 @@
       "lng": -80.0026,
       "src": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlVaWXFmVFRzdnkxeXRHNE9mUi1lT3ZkcHc5alVXV1d0akktNks4bkFXY2MxbWxOUGUwMmZESi1wc3JCdndNa2VRWnB3ZXZSWGlYQ1pzel9Xa0J3TGd5QWVJdXYtOTdqSVUwdmJjVFNTZHlndEpiZ3NjUlFIUzJmYjBJX3BiYnBIVVdSaw?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Allegheny County"
     },
     {
@@ -353,7 +393,7 @@
       "lng": -87.5716,
       "src": "WFIE | 14 News",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRFJXMlR0QjByYXhxdUxuanNMaDl6ZlJ3emdjM01kV0NueFlNSU1JUW80dkd6ZVpJei1Ud0dSQnA3WFhtTFlXcGpOLVpEa1B5LTlRSkRXamVPb1RaVWtwZlVhNXphcV9zaDhJUHNpbzVXUUZ2Qlh5cURjOEdWRXVtWGR5S3l3VVlPUElzZ0llNlRSUWZ2YjNlLXp3?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Vanderburgh County"
     },
     {
@@ -13930,7 +13970,7 @@
       "lng": null,
       "src": "WSIU NEWS",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONnh5SlM3aFJQLXpsdkNfdG9yZE14WDVaOU52aDVEY1R4UTFkV2FvT2hRUXcyTDFXS1dsVXNQZGxLVFZ5S1RhRURtM0RQaU9PSUg3WjVWVW1wZ1ZGS0RNeWM1bE9WNXQzSWpiTjVsUVlYenFjQWJWbWNsRkNjYU1hazMwajUxWDY2Q1ZCUnZZTHdXTXd2YTM3aDJyS2llM3FSRzdWRjNPeFlmcGZyTE5OZVdya0JHOGlNU3BfaHdSTXRQNzlIa0NQOG9rWVVxTFpWb3MxcUowanE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -15107,14 +15147,14 @@
     }
   },
   "last_run": {
-    "ingested": 204,
-    "skipped_seen": 176,
-    "recognized": 7,
-    "new": 3,
+    "ingested": 185,
+    "skipped_seen": 134,
+    "recognized": 6,
+    "new": 2,
     "updated": 0,
-    "rejected": 19,
+    "rejected": 45,
     "errors": 0,
-    "attempted": 28,
+    "attempted": 51,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15162,6 +15202,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-21T07:38:40.130388Z"
+    "ran_at": "2026-10-21T13:48:05.575388Z"
   }
 }
