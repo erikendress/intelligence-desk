@@ -1,7 +1,74 @@
 {
-  "generated": "2026-10-21T18:39:43.021303Z",
-  "count": 741,
+  "generated": "2026-10-21T22:21:17.298826Z",
+  "count": 744,
   "incidents": [
+    {
+      "id": 1545,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Schools in Apple Valley",
+      "city": "Apple Valley",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Apple Valley explosion and gunfire 2026-10-21",
+      "notes": "Reported Explosion, Gunfire Between Suspect and Deputies in Apple Valley Neighborhood Prompt School Lockdown",
+      "lat": 34.5008,
+      "lng": -117.1859,
+      "src": "VVNG",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM2h5RVVqMXJQV0M4OGdfcTlWSkoxSzNRQTBiZktZcjNQUjRSLVhvdHhyRXlheTBDMG9XMTA4MWc3WkFYNUNDcGI5Skp1ZDl6Q29RYXlMY0Q2ajNGcm0zVnUweDhyMTI0SVlJaklTeUlobEJTSEw0SHo3Mi1YTUc4dFRQVzQzR3NONkdFSWhjdHJYSDRsUlNwN0hhSjZyVlV1emJ2dTZIN1Y1UGdQQmFnSWhUWktjbVllbFRTWHpZN1FwdGQzNDFCag?oc=5",
+      "sources": 1,
+      "county": "San Bernardino County"
+    },
+    {
+      "id": 1544,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Mayfield High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Mayfield High School verbal threat 2026-10-21",
+      "notes": "Verbal threat sparked 'Shelter in Place' order at Mayfield High School",
+      "lat": null,
+      "lng": null,
+      "src": "News-Herald",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRmpmMlRpdXBMNDdfS2NFUzhDRWg3V0JBengwc05pYm1fOHl6VGVvMkJJWE5OazhIVVg2WUFoTEZUcGRzdzBRaE92NUd1ZVQtU2RveFZkWE91emxDa0VZQ3lQdS1vckZRWFk2TTgxMGJWVE9mWERGb1dOLS1wY2JKdV9oaE1QdFNyREdfY2RYcVRrdk8wYVJSV0V6Tm14VTgxRFJyR0Y1NXRUT3Bv?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1543,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Harts Hill Elementary School",
+      "city": "Utica",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Harts Hill Elementary School bomb threat 2026-10-21",
+      "notes": "Deputies investigating bomb threat at Harts Hill Elementary School",
+      "lat": 43.1009,
+      "lng": -75.2327,
+      "src": "Utica Observer Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSlQ4clV6QThMQVJabWdrYkFoUzNnQ3NDeXladWtVYWVDYnBzaGJ2TkRjbGhMTEk1bk1VUEM0YnZVb1VkZmFKTHBIVVhNb2VYZFhJRjJNelI1dXpYamJwUUJFZnh1Qzl2TWJRakxMbWRSYlFGMHZ0SThsRHJnVm80cnNpRTk3aEh5U0s0NDZOUllaSEFPM0xwLTZ5UUFXY3psaVhUSGpmb2JOdGRueTRaaFd1aC1RYVQ0SXFVVVdmQ0p2N2lY?oc=5",
+      "sources": 1,
+      "county": "Oneida County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-15",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1542,
       "country": "United States",
@@ -66,20 +133,20 @@
       "id": 1539,
       "country": "United States",
       "date": "2026-10-21",
-      "school": "Cayuga BOCES",
+      "school": "Cayuga-Onondaga BOCES",
       "city": null,
       "state": "New York",
       "sector": "K-12",
-      "type": "Under investigation",
+      "type": "Weapon / Intruder",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Resolved \u2013 no cause found",
       "cluster": "Cayuga BOCES lockdown 2026-10-21",
       "notes": "Cayuga BOCES lockdown lifted",
       "lat": 42.8093,
       "lng": -76.5701,
       "src": "WSYR",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByZ196TmZwX3RUUld6OV8wa3U0SWNVUk9PNU5hS25kWUZsTER0UzFXdXdDRkZTalJlejV6R3RNT2RxSlM1amRxWERYSExmM1ZoWWhPeVF2dXltYXVFZl85Uk1ZZENuYzUyNExEQXprRUtuX1Mxd0g0STBB0gF_QVVfeXFMUENvYzQyQzFaOE1NNTlHejlJX242X1cyTzVtWVRVVWJSV2hvcnZmT0VPd1hQa1g4UDA2X2xFaEZBUTFiMzI2TDl5S0g0ZEc0RUd6aVg0OVZ0X3JPcTVvV21GOVFvQVFyc25zRzFaTm5tVVJKNmY0T095VEdFT1E3dw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Cayuga County"
     },
     {
@@ -141,19 +208,19 @@
       "country": "United States",
       "date": "2026-10-21",
       "school": "William Allen High School",
-      "city": null,
-      "state": null,
+      "city": "Allentown",
+      "state": "Pennsylvania",
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Evacuation",
       "outcome": "Under investigation",
       "cluster": "William Allen High School bomb threats Oct 2026",
       "notes": "Bomb threat prompts evacuation of William Allen High School for 2nd time in 2 days",
-      "lat": null,
-      "lng": null,
+      "lat": 40.6023,
+      "lng": -75.4716,
       "src": "WFMZ.com",
       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOdVJTeDFTck1FR3F5VnVtbzY3RlZHR1NraUFiX3JPdEw3VXg0Q0FsQjNLOXl3aERGWmMyOWlzazJ2Q0hOcHdQLVdhWlpnSktXU053Qm92eGNIOUlUWmhvVnh6VGR3ekUwaWhiU0txSWpfWDhlSkc5N1JVNlFQWVBnRXpMVGMyb1JTYy1oaElUOU53SkN1VzR2OFRSc2dpNS1JZGYxTjNaVHFISC1tTXIteE9TMUhaMkxmaU9FMlNzS0JOS01FS2laMEZGaFFWVVVkT3lsZDZzM1laUmJBMm14emRfSmtpRFhKenBLVXBORFlBLUJBYVVzdzlVTGtSRzBpZkVOUTU4OTZEelB6UjRGbHZlZHQ5WVlMa0NlUF9HUXBUa1BkdDJfRTlOenR0UQ?oc=5",
-      "sources": 1,
+      "sources": 4,
       "county": null
     },
     {
@@ -213,7 +280,7 @@
       "lng": -77.4343,
       "src": "WWBT",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVmhGNVVlSi16WlhFaEtPQ3lvSUpkWUNfbXEwUDhodUNkdE96Ui0yZ014MkFkVG5ycGZiYkpKTUxuTlIxZlEzNnh3WVdPREM0M3hvZEJ5cXdFOE5NNVJmOE5na0tIMGQ4SzFuR0p4S0Q2NXlSb3VwX0lkbTlUOHpFNzJvcC1ZZHppOVZMakd2Y05XelE?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": null
     },
     {
@@ -233,7 +300,7 @@
       "lng": -83.0007,
       "src": "10TV",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVXRwV1Y2ektCRGpPZmdLczY2MUs5enNQeDNNU2dRcW81SUpnRHVqa2k3TF9sWmxuQ3Rzcy1iRHktRFNDUUpNeTM5dXZWNWtPQXRUeEZhbjRwWFd3dU9RSE9lZGk1WUVWaWxzalFOQmNmZFh3ZnpOUHQ4d1JSeXZQMjN6anZ4cXFFMDBrV3YzZmg5dlo1cWJtazRWc01uMHhzeHQyVGFtQXlGc0ZEV0V3bXcwaS1NUDlkN3lJaEtuc3IyWllLakFNOUpkUnptXy1KdnVhaXoxVFQ1eTlaNzQyS201aw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Franklin County"
     },
     {
@@ -246,14 +313,14 @@
       "sector": "K-12",
       "type": "Swatting / Active-Shooter Hoax",
       "response": "Shelter-in-place",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Albuquerque swatting Oct 21 2026",
       "notes": "'Swatting' calls put 2 New Mexico schools under shelter-in-place status on Monday",
       "lat": 35.0841,
       "lng": -106.651,
       "src": "KRQE",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXpfVlJjUjhISVNTbDVSRFpjc2dRSlIwTnBQeEZFQ2NBZEdJdmRtQlJpcWxuT2tiRngyOFJLcEJtbHRaU2huTHMtN3h3Z3FudEtubm90WjhlNmZTVHctRFNJWXc0MEtBY3c3TDNhcThYOVk5SnoxWFVlQjNhOEpmN2ZhanVHb1MybWhOQmtGdlBnOVhCOG95RWtQODg0U1dwU0ZNelE2aVYxazZyakpJWlBMenJqb09o?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Bernalillo County"
     },
     {
@@ -306,14 +373,14 @@
       "sector": "Higher Ed",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Arrest made",
       "cluster": "Posvar Hall bomb threat 2026-10-20",
       "notes": "Posvar Hall evacuation was due to social media bomb threat, Pitt says",
       "lat": 40.4407,
       "lng": -80.0026,
       "src": "The Pitt News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUhLT01sTE5Rc25uWDMwcTl0cWJQOG9LS1F2TFBfbU5saGdqOGlXN2dRdXRZdHdMQlhHc2xmTmxYY0d3V3FJUUJqa043STZBdUxESVZ3WFo0TUtyZzRSX1BpZUd5Rzk5MzJhMDNSazlBYlRKWnNNVXBWNWwtaHIxdENBSWthWDRZc1lWWERueWhkX1VWSW9UeGh5STl0Q0p4endVenpocUVTUF9rZjh6cm9sV2jSAboBQVVfeXFMUHo5d2dUanVwaUotSi1wZ3RTeXlUU1pUR0xEaFd1MTMzcUlBZHQ4ZlBDN3k0MF9RQUVQVkV2ZjZHUmtBc2xhekNaSHZNOWhrMG92QWlWcl9OZDI2ZGxRbkxlWlduU0s4QXBqdVVrUVVKNzhpSHlaNjZXYU04aFhWb0ZxMDFrbU9DTTJ0b1o0cGptR2w3bkJidW14M1VhbmNiQnZxOUFLMlBCTERpTEJUbzQ5cnNHbkpqR2lR?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Allegheny County"
     },
     {
@@ -413,7 +480,7 @@
       "lng": -81.2082,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0xkQjZXbllwTEowLUFsOGhzVllnVE5WRnFZUDFtcDdSZFI2RDJRZ0d0bGdkTE5YLXpZOW4zaE1fNFFGRGFYTGp1a3kzYUpmOV9uSWZSOUVxaElnNEhvWkc0TGpOQ2tnTEtaVDNfbXpnU1daZVBmbnhqUXllR3NwcjFFVHNBUlFPMjdMTkVCNUo5M3VfVzBCTU5ja0RVWGFGdW0waNIBuAFBVV95cUxPZDhMcmNBNTJLYWZHX09lRGFzclRtVW1DTVR4cGJEbWhfWVVhWUJRNmdtYUI0elNQakJydDlWSUFfTkZEcVFXOWZRdHdvbWMyX1RVLUtubXV5RG05c3I3bUlfdTRLQmk2X0VEMzRuZ2F1aFVFUG9KVHB1M0tIdkNibElNbUdrZzcweGF2ZUg1X3dlcjI5ZmtseWpzbTEtRVN4M1pUN0RldVQ2TmItYVV5WnZSZVFCMWdm?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Portage County"
     },
     {
@@ -500,7 +567,7 @@
       "lng": -75.4804,
       "src": "The Morning Call",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQam05X04xREd3WjB3YjhnUEN1WVlBM0xmNzlWaHZhTjFCQVd3QTRxNlNrRjNNVW53WDVKaUw5SHhxY2RicWVUbUlERXRCcTdxekc4TV82ZGZXRnNOSXVGaU1BQlhORjk2NDVpekFVRDBMeTNPTHN5OFFrcVEwSEloWlpJSmpVeFNfSjh4QjhUaVA0TzBwN1VlNkdPSEdRejg?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Lehigh County"
     },
     {
@@ -15289,8 +15356,8 @@
         },
         "states": 30,
         "confirmed_hoax": 25,
-        "arrests": 3,
-        "under_investigation": 41,
+        "arrests": 4,
+        "under_investigation": 40,
         "per_day": {
           "2026-10-07": 9,
           "2026-10-08": 10,
@@ -15331,14 +15398,14 @@
     }
   },
   "last_run": {
-    "ingested": 179,
-    "skipped_seen": 106,
-    "recognized": 12,
-    "new": 8,
-    "updated": 0,
-    "rejected": 61,
+    "ingested": 172,
+    "skipped_seen": 127,
+    "recognized": 14,
+    "new": 3,
+    "updated": 3,
+    "rejected": 29,
     "errors": 0,
-    "attempted": 73,
+    "attempted": 45,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15386,6 +15453,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-21T18:39:43.007531Z"
+    "ran_at": "2026-10-21T22:21:17.281340Z"
   }
 }
