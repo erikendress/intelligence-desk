@@ -1,7 +1,181 @@
 {
-  "generated": "2026-10-21T13:48:05.593557Z",
-  "count": 733,
+  "generated": "2026-10-21T18:39:43.021303Z",
+  "count": 741,
   "incidents": [
+    {
+      "id": 1542,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Snowflake High School",
+      "city": "Snowflake",
+      "state": "Arizona",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Snowflake High School lockdown 2026-10-21",
+      "notes": "Snowflake High School lockdown lifted after person detained",
+      "lat": 34.5115,
+      "lng": -110.0796,
+      "src": "White Mountain Independent",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcEFYVDJlelZqdEFnblZUSGtkMkRib3RPOXJtZ2Y0bC1pOFYydF9FdUxPT3BxQlFMMXpWWHhqUVozYmUycGxVcXp5Y2pJTEpvTFg0dkg2RkVTMmdEV0NuRU1yaFdkdE90RnpSdTk1bFZneTQzUlZFSkdEQnNNTHJ6T05uT3hzaThjaDZEMkE0d1duVmNNUE9NWkQzb0h1bDVPMWcyMk5mM2tmVERNNXpteENKLU90QV91OGZ0Z1VnakZPdlZ2aDFDeFROQVdMLUxrQ3R1LTk5MzA?oc=5",
+      "sources": 1,
+      "county": "Navajo County"
+    },
+    {
+      "id": 1541,
+      "country": "United Kingdom",
+      "date": "2026-10-21",
+      "school": "School in Wishaw",
+      "city": "Wishaw",
+      "state": "Scotland",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Wishaw bomb threat 2026-10-21",
+      "notes": "Wishaw school 'bomb threat' being treated as latest hoax",
+      "lat": 55.7743,
+      "lng": -3.9184,
+      "src": "Glasgow Live",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTzJpMTNCdDFLSXpYMkxvYlNfZEw5THMxVUZkQzRHQkR6OXhDTG1vVTdmeXlLTm1BdFlYT25jcS03WHJZTnhaWmt0ZktNVG5HREVtekE2Ym82RDl6dGQyZnhDaElId3FNWEVFM0hwMkdnaXBhcURXclZNWXliYy1IMk92N24zMzg2MjNyS1NudEw0d9IBlwFBVV95cUxOanhJbWt2UkcwUUFKM2xQZTJsMlFOMTVaTnNhbl9VUUFDblNzOFdGTnpTUTZQRjA1Y0xyVHJrSUxpam81OGxpYkxIUUpiRFYyWmF6bWlCd1hVUUtOdW85d0V3eEpWNndmWmMzaUE1OVlXZzE0a3k4Y1M1Ql9qTmZmQWIyUG1JZWRpZmVBeXdKaXNyQXF5Uk04?oc=5",
+      "sources": 1,
+      "county": "North Lanarkshire"
+    },
+    {
+      "id": 1540,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Hampton-Dumont Schools",
+      "city": "Hampton-Dumont",
+      "state": "Iowa",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hampton-Dumont-2026-10-21-lockdown",
+      "notes": "Hampton-Dumont Schools Lockdown Lifted After All-Clear Given",
+      "lat": 42.7515,
+      "lng": -93.1985,
+      "src": "KIOW",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVRqRzNQMG9HWnBSVTAzemhPeW5kQ3pRU05FaUpabVhWVFdWQnhyUG9NRGxmMTBQY0hoQ1cwZG16VjV1eVFIQVFjd19EY2s1RkZjMUlfUFpzbjJVdFRVSC1Qb0w1NlVhX1RHM1FQTVplREpDZ3lQdEdDNU9jQy1IMzVHMENhOTR4RHdQN3JMQUJtTHc?oc=5",
+      "sources": 1,
+      "county": "Franklin County"
+    },
+    {
+      "id": 1539,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Cayuga BOCES",
+      "city": null,
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Cayuga BOCES lockdown 2026-10-21",
+      "notes": "Cayuga BOCES lockdown lifted",
+      "lat": 42.8093,
+      "lng": -76.5701,
+      "src": "WSYR",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByZ196TmZwX3RUUld6OV8wa3U0SWNVUk9PNU5hS25kWUZsTER0UzFXdXdDRkZTalJlejV6R3RNT2RxSlM1amRxWERYSExmM1ZoWWhPeVF2dXltYXVFZl85Uk1ZZENuYzUyNExEQXprRUtuX1Mxd0g0STBB0gF_QVVfeXFMUENvYzQyQzFaOE1NNTlHejlJX242X1cyTzVtWVRVVWJSV2hvcnZmT0VPd1hQa1g4UDA2X2xFaEZBUTFiMzI2TDl5S0g0ZEc0RUd6aVg0OVZ0X3JPcTVvV21GOVFvQVFyc25zRzFaTm5tVVJKNmY0T095VEdFT1E3dw?oc=5",
+      "sources": 1,
+      "county": "Cayuga County"
+    },
+    {
+      "id": 1538,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Notre Dame Elementary School",
+      "city": "Utica",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Utica bomb threat 2026-10-21",
+      "notes": "Hughes and Notre Dame Elementary Schools on lockdown after bomb threat",
+      "lat": 43.1009,
+      "lng": -75.2327,
+      "src": "Utica Observer Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ29JY0VnMlV0TWphbHNEeWVHak1zalZwMkVqaktMUlhtY2dpQmpnSlEwUUFFUGFWZmx1bmZlNzRRcHN3bWJ3SlM3STJWVHNHUWhWQ1BDNm5ueGtSdThlUmVxUkxTNF9kU2VzRUppNlFJLVZ5REJWaDQwUWNGTEo3aDNXQk5kUU42azd4TFFERkVLRmhnc05ocFJEWGFsYXdpeFV0aWpHMktPU0RiOWpTZ1RZMkpwZW5zc0V0N21hRlVFcUZUWTktdE8yd2JKN00?oc=5",
+      "sources": 2,
+      "county": "Oneida County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-15",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1537,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Hughes Elementary School",
+      "city": "Utica",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Utica bomb threat 2026-10-21",
+      "notes": "Hughes and Notre Dame Elementary Schools on lockdown after bomb threat",
+      "lat": 43.1009,
+      "lng": -75.2327,
+      "src": "Utica Observer Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ29JY0VnMlV0TWphbHNEeWVHak1zalZwMkVqaktMUlhtY2dpQmpnSlEwUUFFUGFWZmx1bmZlNzRRcHN3bWJ3SlM3STJWVHNHUWhWQ1BDNm5ueGtSdThlUmVxUkxTNF9kU2VzRUppNlFJLVZ5REJWaDQwUWNGTEo3aDNXQk5kUU42azd4TFFERkVLRmhnc05ocFJEWGFsYXdpeFV0aWpHMktPU0RiOWpTZ1RZMkpwZW5zc0V0N21hRlVFcUZUWTktdE8yd2JKN00?oc=5",
+      "sources": 2,
+      "county": "Oneida County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-15",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1536,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "William Allen High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "William Allen High School bomb threats Oct 2026",
+      "notes": "Bomb threat prompts evacuation of William Allen High School for 2nd time in 2 days",
+      "lat": null,
+      "lng": null,
+      "src": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOdVJTeDFTck1FR3F5VnVtbzY3RlZHR1NraUFiX3JPdEw3VXg0Q0FsQjNLOXl3aERGWmMyOWlzazJ2Q0hOcHdQLVdhWlpnSktXU053Qm92eGNIOUlUWmhvVnh6VGR3ekUwaWhiU0txSWpfWDhlSkc5N1JVNlFQWVBnRXpMVGMyb1JTYy1oaElUOU53SkN1VzR2OFRSc2dpNS1JZGYxTjNaVHFISC1tTXIteE9TMUhaMkxmaU9FMlNzS0JOS01FS2laMEZGaFFWVVVkT3lsZDZzM1laUmJBMm14emRfSmtpRFhKenBLVXBORFlBLUJBYVVzdzlVTGtSRzBpZkVOUTU4OTZEelB6UjRGbHZlZHQ5WVlMa0NlUF9HUXBUa1BkdDJfRTlOenR0UQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1535,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Parkersburg High School",
+      "city": "Parkersburg",
+      "state": "West Virginia",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Parkersburg HS lockdown 2026-10-21",
+      "notes": "Parkersburg High School lockdown ends after report of man carrying gun nearby",
+      "lat": 39.2667,
+      "lng": -81.5621,
+      "src": "WTAP",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeXVUZFFMQ1ZZbTRaeFI3WGFKOVFzTlpQNjZ2WjJmOEtseWhJWjRVVEtaTFU2MXlfVWIyRHhXZENRT1RaVlFBd182Yk80b3A1RHhNTkp0Ym1Rc2I4UFFnWmstT293X3c4bEk3ZDVYN3FHV3IyU0hkUm9PejNyWUp3cFVwb0JnU2oySTV3Y01TS2xQOFdWbDZOZWdiX0lTU1QzS3RXdE4zLWQxUm_SAb8BQVVfeXFMTy1nWVFNX194dG43YWZIYlBlOGJLTnA1SUxYY2JKaS1xMVNkdi1uWER0MUN0alM0SnlqM3BIcGRZMmtNbC1EWFNsempMN0c4Y1k3bTU1aXVXX3ZDWUJkekxGRngwbUVYcmYzU3VDSkk0TmlHYy0xSGR6cHNMczEyRHZ4OGpXOUJVeXl4aFMydVNabmZsRnFNNVI5a3hrRFA1S3pvZWdKSFFuYThwNWFJUlktTHlDX0E0dkJIdlN4VDg?oc=5",
+      "sources": 1,
+      "county": "Wood County"
+    },
     {
       "id": 1534,
       "country": "United Kingdom",
@@ -39,7 +213,7 @@
       "lng": -77.4343,
       "src": "WWBT",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVmhGNVVlSi16WlhFaEtPQ3lvSUpkWUNfbXEwUDhodUNkdE96Ui0yZ014MkFkVG5ycGZiYkpKTUxuTlIxZlEzNnh3WVdPREM0M3hvZEJ5cXdFOE5NNVJmOE5na0tIMGQ4SzFuR0p4S0Q2NXlSb3VwX0lkbTlUOHpFNzJvcC1ZZHppOVZMakd2Y05XelE?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -326,7 +500,7 @@
       "lng": -75.4804,
       "src": "The Morning Call",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQam05X04xREd3WjB3YjhnUEN1WVlBM0xmNzlWaHZhTjFCQVd3QTRxNlNrRjNNVW53WDVKaUw5SHhxY2RicWVUbUlERXRCcTdxekc4TV82ZGZXRnNOSXVGaU1BQlhORjk2NDVpekFVRDBMeTNPTHN5OFFrcVEwSEloWlpJSmpVeFNfSjh4QjhUaVA0TzBwN1VlNkdPSEdRejg?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Lehigh County"
     },
     {
@@ -15057,6 +15231,16 @@
           "2026-10-13",
           "2026-10-20"
         ]
+      },
+      {
+        "county": "Oneida County",
+        "region": "New York",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-15",
+          "2026-10-21"
+        ]
       }
     ],
     "stacked_recent": [
@@ -15147,14 +15331,14 @@
     }
   },
   "last_run": {
-    "ingested": 185,
-    "skipped_seen": 134,
-    "recognized": 6,
-    "new": 2,
+    "ingested": 179,
+    "skipped_seen": 106,
+    "recognized": 12,
+    "new": 8,
     "updated": 0,
-    "rejected": 45,
+    "rejected": 61,
     "errors": 0,
-    "attempted": 51,
+    "attempted": 73,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15202,6 +15386,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-21T13:48:05.575388Z"
+    "ran_at": "2026-10-21T18:39:43.007531Z"
   }
 }
