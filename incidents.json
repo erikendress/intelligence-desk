@@ -1,27 +1,7 @@
 {
-  "generated": "2026-10-22T01:31:49.514631Z",
+  "generated": "2026-10-22T07:33:58.795350Z",
   "count": 752,
   "incidents": [
-    {
-      "id": 1550,
-      "country": "United States",
-      "date": "2026-10-22",
-      "school": "Alief ISD",
-      "city": null,
-      "state": "Texas",
-      "sector": "K-12",
-      "type": "Bomb Threat",
-      "response": "Lockdown",
-      "outcome": "Under investigation",
-      "cluster": "Alief ISD bomb threat 2026-10-22",
-      "notes": "Alief ISD school lockdown lifted after bomb threat",
-      "lat": 31.2639,
-      "lng": -98.5456,
-      "src": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcHVwRXBSWEp1U1JTVDdOeWp0Z0pxQ3RtdkFCNmpsQS1xV1BwbmMwMjFfYVY0MEdNVWUxMjR3MURqRkFLVndSdWZ1eTRkX3ZickQzVWVLUnFrcFU1T2xIUjB6d1dySmt3aWx2cWRtMTdkTmlQTzhlTXU3c0t5M29NdlpRbUNoVVp3SUFj?oc=5",
-      "sources": 1,
-      "county": null
-    },
     {
       "id": 1548,
       "country": "United States",
@@ -81,6 +61,26 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0ZDdjVVT1k4eGhLUlNsRU9LdjBQREhtVmN1TEZlYl83c0NDZVFubzJVYkZjdlNPM1NEb1JZV2dGcGw0YUN3QWVQMjBwMkNjVkhxV01NUllwVXVRMnNwenVkejI1U29FSjNQQlpGQTk1cEZNdHg4VE5LTDR2UzhPdzVaM2pqalVmamZudUtLSWZlcWNuMk1jTlJaVGZnMTh5Y3lTN1BNc2tVT2U2OXRTaU1uYWR4RE9XOUtiWUd5VE8?oc=5",
       "sources": 1,
       "county": "Cook County"
+    },
+    {
+      "id": 1550,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Alief ISD",
+      "city": "Houston",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Alief ISD bomb threat 2026-10-22",
+      "notes": "Alief ISD school lockdown lifted after bomb threat",
+      "lat": 31.2639,
+      "lng": -98.5456,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcHVwRXBSWEp1U1JTVDdOeWp0Z0pxQ3RtdkFCNmpsQS1xV1BwbmMwMjFfYVY0MEdNVWUxMjR3MURqRkFLVndSdWZ1eTRkX3ZickQzVWVLUnFrcFU1T2xIUjB6d1dySmt3aWx2cWRtMTdkTmlQTzhlTXU3c0t5M29NdlpRbUNoVVp3SUFj?oc=5",
+      "sources": 2,
+      "county": null
     },
     {
       "id": 1549,
@@ -360,7 +360,7 @@
       "lng": -75.4716,
       "src": "WFMZ.com",
       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOdVJTeDFTck1FR3F5VnVtbzY3RlZHR1NraUFiX3JPdEw3VXg0Q0FsQjNLOXl3aERGWmMyOWlzazJ2Q0hOcHdQLVdhWlpnSktXU053Qm92eGNIOUlUWmhvVnh6VGR3ekUwaWhiU0txSWpfWDhlSkc5N1JVNlFQWVBnRXpMVGMyb1JTYy1oaElUOU53SkN1VzR2OFRSc2dpNS1JZGYxTjNaVHFISC1tTXIteE9TMUhaMkxmaU9FMlNzS0JOS01FS2laMEZGaFFWVVVkT3lsZDZzM1laUmJBMm14emRfSmtpRFhKenBLVXBORFlBLUJBYVVzdzlVTGtSRzBpZkVOUTU4OTZEelB6UjRGbHZlZHQ5WVlMa0NlUF9HUXBUa1BkdDJfRTlOenR0UQ?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": null
     },
     {
@@ -460,7 +460,7 @@
       "lng": -106.651,
       "src": "KRQE",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXpfVlJjUjhISVNTbDVSRFpjc2dRSlIwTnBQeEZFQ2NBZEdJdmRtQlJpcWxuT2tiRngyOFJLcEJtbHRaU2huTHMtN3h3Z3FudEtubm90WjhlNmZTVHctRFNJWXc0MEtBY3c3TDNhcThYOVk5SnoxWFVlQjNhOEpmN2ZhanVHb1MybWhOQmtGdlBnOVhCOG95RWtQODg0U1dwU0ZNelE2aVYxazZyakpJWlBMenJqb09o?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Bernalillo County"
     },
     {
@@ -15472,12 +15472,12 @@
       "to": "2026-10-21",
       "days": 14,
       "hoax": {
-        "total": 68,
-        "bomb": 48,
+        "total": 69,
+        "bomb": 49,
         "swatting": 20,
-        "schools": 49,
+        "schools": 50,
         "by_sector": {
-          "K-12": 46,
+          "K-12": 47,
           "Other": 4,
           "Transit": 4,
           "Retail": 4,
@@ -15489,7 +15489,7 @@
         "states": 30,
         "confirmed_hoax": 23,
         "arrests": 4,
-        "under_investigation": 38,
+        "under_investigation": 39,
         "per_day": {
           "2026-10-08": 10,
           "2026-10-09": 10,
@@ -15504,7 +15504,7 @@
           "2026-10-18": 4,
           "2026-10-19": 2,
           "2026-10-20": 6,
-          "2026-10-21": 4
+          "2026-10-21": 5
         },
         "per_day_schools": {
           "2026-10-08": 8,
@@ -15520,7 +15520,7 @@
           "2026-10-18": 0,
           "2026-10-19": 2,
           "2026-10-20": 3,
-          "2026-10-21": 4
+          "2026-10-21": 5
         }
       },
       "suspicious_mail": {
@@ -15530,14 +15530,14 @@
     }
   },
   "last_run": {
-    "ingested": 178,
-    "skipped_seen": 144,
-    "recognized": 14,
-    "new": 8,
+    "ingested": 174,
+    "skipped_seen": 156,
+    "recognized": 3,
+    "new": 0,
     "updated": 0,
-    "rejected": 19,
+    "rejected": 14,
     "errors": 0,
-    "attempted": 34,
+    "attempted": 18,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15585,6 +15585,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-22T01:31:49.495571Z"
+    "ran_at": "2026-10-22T07:33:58.779116Z"
   }
 }
