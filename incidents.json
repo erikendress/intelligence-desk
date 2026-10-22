@@ -1,7 +1,147 @@
 {
-  "generated": "2026-10-21T22:21:17.298826Z",
-  "count": 744,
+  "generated": "2026-10-22T01:31:49.514631Z",
+  "count": 752,
   "incidents": [
+    {
+      "id": 1550,
+      "country": "United States",
+      "date": "2026-10-22",
+      "school": "Alief ISD",
+      "city": null,
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Alief ISD bomb threat 2026-10-22",
+      "notes": "Alief ISD school lockdown lifted after bomb threat",
+      "lat": 31.2639,
+      "lng": -98.5456,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcHVwRXBSWEp1U1JTVDdOeWp0Z0pxQ3RtdkFCNmpsQS1xV1BwbmMwMjFfYVY0MEdNVWUxMjR3MURqRkFLVndSdWZ1eTRkX3ZickQzVWVLUnFrcFU1T2xIUjB6d1dySmt3aWx2cWRtMTdkTmlQTzhlTXU3c0t5M29NdlpRbUNoVVp3SUFj?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1548,
+      "country": "United States",
+      "date": "2026-10-22",
+      "school": "Tilton School at House of the Good Shepherd",
+      "city": null,
+      "state": null,
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Tilton School bomb threat evacuation 2026-10-22",
+      "notes": "Bomb Threat Evacuates Tilton School at House of the Good Shepherd",
+      "lat": null,
+      "lng": null,
+      "src": "WKTV",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUVNhUUR6RUJ4Q05ZZ0YxWVBzOUpmUDJsY3FjOGlaY0I0TThQU0pxNUhnZU50QlY2UjVRZUZHNXFfVXB1d0s3M2E4TGhQR0xyNW51YnBoOVFQVExYV0ppNVRiWjFLTEtCZWVFU1FqRFFtcEJXSmd5VFI4ZWNiTkVVem51c3NGMGR0XzJPeVNVWEZUUndzRzRVUVpESEFNbHZGbkllRmwwMC0zbW45UFlINjBqT3N5UjhUQ2FPdnJUelFEUEs5WUlvSGFTVXJ6ZXAzc3p0VWsyaWNZNFpZLXhHUQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1553,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Quigley's Chicago Office",
+      "city": "Chicago",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Quigley Chicago suspicious packages October 2026",
+      "notes": "2nd Suspicious Package Sent To Quigley's Chicago Office In A Week",
+      "lat": 41.8756,
+      "lng": -87.6244,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQanczc2NZSTA5MHJ0Zl80akdhSENBM09UYmpZQWlsc09FeERUT1RIbzVmNlZkbXRtSnBIaklrQlkyV2V1aC1KT3J6dE5zSjRpd2l2V3I0b0lmcFpnWDctT2x0TUhBaWZvQkYyR3c5ZVo1ODVtV2owVUNSZTJfUHNhaHdmYk5UOW9lbmNaNG1hejd0ajVPQUHSAbIBQVVfeXFMTTI3TzlrdFhUWnBWMEtKakp3MjV5TG5VSHh0dUszRjB2dU5tOV9Wd3Y5VlVQSkFRdXMtMTNsV19kSWtaRFpqWjl2ZF8ycmd3bHBkXzFVQVRnaVZzN2MxTDY4Z0lJVk53VURvMDlNb1V2clZuUzhFM1JKZllqLTUzSnF4amlGbkFBT0VLQktYb2hydTJ2MTJoNFZhTnRpaHotMjZneHZyc0t5SC1oeDlQMHEtUQ?oc=5",
+      "sources": 1,
+      "county": "Cook County"
+    },
+    {
+      "id": 1552,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Office of Mike Quigley",
+      "city": "Chicago",
+      "state": "Illinois",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Mike Quigley office suspicious packages Chicago 2026-10",
+      "notes": "his Chicago office received a second suspicious package",
+      "lat": 41.8756,
+      "lng": -87.6244,
+      "src": "Quiver Quantitative",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc0ZDdjVVT1k4eGhLUlNsRU9LdjBQREhtVmN1TEZlYl83c0NDZVFubzJVYkZjdlNPM1NEb1JZV2dGcGw0YUN3QWVQMjBwMkNjVkhxV01NUllwVXVRMnNwenVkejI1U29FSjNQQlpGQTk1cEZNdHg4VE5LTDR2UzhPdzVaM2pqalVmamZudUtLSWZlcWNuMk1jTlJaVGZnMTh5Y3lTN1BNc2tVT2U2OXRTaU1uYWR4RE9XOUtiWUd5VE8?oc=5",
+      "sources": 1,
+      "county": "Cook County"
+    },
+    {
+      "id": 1549,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Bell Gardens High School",
+      "city": "Bell Gardens",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Bell Gardens HS gun incident 2026-10-21",
+      "notes": "student arrested for allegedly bringing gun on campus, causing school lockdown",
+      "lat": 33.9695,
+      "lng": -118.1504,
+      "src": "CBS News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeHp3NEtna29SbVNwbHpCX0dmNG1paXRPVV84QTNXbldFcExfd01WdnNKNjJEZWd0TjdoRG5KQWJhTFdSNDNpeDlBUXhZY2hxektPWUF2NFFVS0FxbVg1VEEybzVaVVZ2eERUQ3pSSzEyLWI4MURTakNhZ2hIUnd6RU1ndktyY0F0Z2VMU2xhb0VZSk5RWlBwTk14bDlaV0JxX0toUDk3T3pNZEJKTk1DLXdySTI4bXo0OENLejZKdl9CdElacDlNdGlFTEVhdVNU?oc=5",
+      "sources": 2,
+      "county": "Los Angeles County"
+    },
+    {
+      "id": 1547,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Desert Mirage High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Confirmed real",
+      "cluster": "Desert Mirage High School pellet gun 2026-10-21",
+      "notes": "Desert Mirage High School lockdown lifted after pellet gun found on campus",
+      "lat": null,
+      "lng": null,
+      "src": "KESQ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmZzTWNWVzdMVmFmcUJ3TzlsYjJBMHNPQVpTUml1UWZORF9kaTFvTlI4dzI5QTJSd1M3cHRrbXdRRGh5OUJaV042SkpqajE0Rms3NEpKdFdWanZZTXBPd3FDUUlKdnRMNElwV01lNk03ZXkzY3RBNUNCRTNYOVB4THJXYjVmQ2dESkZDZEpHeXpnRDc3Szd1QXJLUV9Fa0Q3cFVpYnc5VkpHNWVZ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1546,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Hastings High School",
+      "city": "Houston",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Alief ISD gun and bomb threat 2026-10-21",
+      "notes": "gun and bomb threat at Hastings High School",
+      "lat": 31.2639,
+      "lng": -98.5456,
+      "src": "Click2Houston",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOWNoaC00REpaSmt4ajFhYjJWNVV2TWUwd3ZURFdtbWF3dGxUQXVYS1JTSkpNeEVBRkdURVlmTWs0MlNRU0plYmtRUVhUV1RqMEF1ajlRekFHZWJEUWc3aWJBWngzd0tLaEZnUDh0cjdkUXVFbHVPRHJHVkNrYnAxWEV3cGxVdk9yd2dmZFQ0RmRGeUNOWjB0b2Q4SUhPdTgtRkVoeUhKRmg4WVp5NG9CV1BSYnM5YUU?oc=5",
+      "sources": 3,
+      "county": null
+    },
     {
       "id": 1545,
       "country": "United States",
@@ -146,7 +286,7 @@
       "lng": -76.5701,
       "src": "WSYR",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFByZ196TmZwX3RUUld6OV8wa3U0SWNVUk9PNU5hS25kWUZsTER0UzFXdXdDRkZTalJlejV6R3RNT2RxSlM1amRxWERYSExmM1ZoWWhPeVF2dXltYXVFZl85Uk1ZZENuYzUyNExEQXprRUtuX1Mxd0g0STBB0gF_QVVfeXFMUENvYzQyQzFaOE1NNTlHejlJX242X1cyTzVtWVRVVWJSV2hvcnZmT0VPd1hQa1g4UDA2X2xFaEZBUTFiMzI2TDl5S0g0ZEc0RUd6aVg0OVZ0X3JPcTVvV21GOVFvQVFyc25zRzFaTm5tVVJKNmY0T095VEdFT1E3dw?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Cayuga County"
     },
     {
@@ -320,7 +460,7 @@
       "lng": -106.651,
       "src": "KRQE",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXpfVlJjUjhISVNTbDVSRFpjc2dRSlIwTnBQeEZFQ2NBZEdJdmRtQlJpcWxuT2tiRngyOFJLcEJtbHRaU2huTHMtN3h3Z3FudEtubm90WjhlNmZTVHctRFNJWXc0MEtBY3c3TDNhcThYOVk5SnoxWFVlQjNhOEpmN2ZhanVHb1MybWhOQmtGdlBnOVhCOG95RWtQODg0U1dwU0ZNelE2aVYxazZyakpJWlBMenJqb09o?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Bernalillo County"
     },
     {
@@ -638,6 +778,26 @@
       "county": "Vanderburgh County"
     },
     {
+      "id": 1551,
+      "country": "United States",
+      "date": "2026-10-19",
+      "school": "Congressman Jared Huffman District Office",
+      "city": null,
+      "state": null,
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Huffman District Office suspicious package Oct 2026",
+      "notes": "District Office Received a 'Suspicious' Package With White Powder in It",
+      "lat": null,
+      "lng": null,
+      "src": "Lost Coast Outpost",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcS1UR3lxX2U3WFlHcjFfbXpGRDVfWkFIMkpMLW55QlVNMGhjN2I2cVRlQWZTeDY2T1l3b20zU1RUY29NVXExbWRYNXZCTkdpc0N0Y0hFUTFudEJpNTJFemFoRHFEZF9CR3dFdVduRmNWeV9mUUNZVWhUZGota3hlOGF5Z2NPNmc5YXFDblJnV0k0SllGSnc?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
       "id": 1512,
       "country": "United States",
       "date": "2026-10-19",
@@ -921,7 +1081,7 @@
       "lng": -6.9592,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWXNRWWRTTm1wWk1yeEdfMmdnTmxnUDJMclVFUERsZUlKbHQ0SHFJTnRQYkFpb2p6Tmt1UWY5TmxpNkpNUldCWGd4M2pqSC1ySU1mZHkwRDBIaXVzRm01eXhHMEd4X3ljbzFySG1haFZYQktiT3Y1aDhxbzBOdnF1NzJzNlVXeFVxVU5fanZQQnhtQQ?oc=5",
-      "sources": 25,
+      "sources": 26,
       "county": null
     },
     {
@@ -8645,14 +8805,7 @@
       "src": "People.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX0g4OWdTVUVJT1VuQ1pQb1dLRjdHNTMzRnlPUldNUDFXWmVtV2cwMTJjS2JoZm8tcm81ZVJZR0h0UWV3aXNGMmhoeW91UENfRXZrMU1scGpTSjRzMXN1TlNhXy0tTDAydlpreHJhUkN3dE1fTmF2NXhuZEVRQWdwZ0RLM0QySEE3bjA2YTVHQUNSUGxjZmMxVF9lSzlqd0Nkb2szQ0VDNUI?oc=5",
       "sources": 1,
-      "county": "Rutherford County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-06",
-          "window_days": 7
-        }
-      }
+      "county": "Rutherford County"
     },
     {
       "id": 820,
@@ -15177,7 +15330,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-21",
+    "computed": "2026-10-22",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -15220,16 +15373,6 @@
         ]
       },
       {
-        "county": "Stanislaus County",
-        "region": "California",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-07",
-          "2026-10-08"
-        ]
-      },
-      {
         "county": "Tulsa",
         "region": "Oklahoma",
         "country": "United States",
@@ -15267,16 +15410,6 @@
         "dates": [
           "2026-10-10",
           "2026-10-13"
-        ]
-      },
-      {
-        "county": "Iredell County",
-        "region": "North Carolina",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-07",
-          "2026-10-17"
         ]
       },
       {
@@ -15335,31 +15468,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-07",
-      "to": "2026-10-20",
+      "from": "2026-10-08",
+      "to": "2026-10-21",
       "days": 14,
       "hoax": {
-        "total": 73,
-        "bomb": 52,
-        "swatting": 21,
-        "schools": 52,
+        "total": 68,
+        "bomb": 48,
+        "swatting": 20,
+        "schools": 49,
         "by_sector": {
-          "K-12": 49,
-          "Government": 4,
+          "K-12": 46,
           "Other": 4,
           "Transit": 4,
           "Retail": 4,
+          "Government": 3,
           "Higher Ed": 3,
           "Healthcare": 2,
-          "Venue": 2,
-          "Workplace": 1
+          "Venue": 2
         },
         "states": 30,
-        "confirmed_hoax": 25,
+        "confirmed_hoax": 23,
         "arrests": 4,
-        "under_investigation": 40,
+        "under_investigation": 38,
         "per_day": {
-          "2026-10-07": 9,
           "2026-10-08": 10,
           "2026-10-09": 10,
           "2026-10-10": 2,
@@ -15372,10 +15503,10 @@
           "2026-10-17": 2,
           "2026-10-18": 4,
           "2026-10-19": 2,
-          "2026-10-20": 6
+          "2026-10-20": 6,
+          "2026-10-21": 4
         },
         "per_day_schools": {
-          "2026-10-07": 7,
           "2026-10-08": 8,
           "2026-10-09": 8,
           "2026-10-10": 2,
@@ -15388,24 +15519,25 @@
           "2026-10-17": 1,
           "2026-10-18": 0,
           "2026-10-19": 2,
-          "2026-10-20": 3
+          "2026-10-20": 3,
+          "2026-10-21": 4
         }
       },
       "suspicious_mail": {
         "total": 32,
-        "government": 23
+        "government": 25
       }
     }
   },
   "last_run": {
-    "ingested": 172,
-    "skipped_seen": 127,
+    "ingested": 178,
+    "skipped_seen": 144,
     "recognized": 14,
-    "new": 3,
-    "updated": 3,
-    "rejected": 29,
+    "new": 8,
+    "updated": 0,
+    "rejected": 19,
     "errors": 0,
-    "attempted": 45,
+    "attempted": 34,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15453,6 +15585,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-21T22:21:17.281340Z"
+    "ran_at": "2026-10-22T01:31:49.495571Z"
   }
 }
