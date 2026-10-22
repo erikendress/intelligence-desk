@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-22T07:33:58.795350Z",
-  "count": 752,
+  "generated": "2026-10-22T13:47:19.663050Z",
+  "count": 754,
   "incidents": [
+    {
+      "id": 1554,
+      "country": "United States",
+      "date": "2026-10-22",
+      "school": "Lafayette High School",
+      "city": "Lafayette",
+      "state": "Louisiana",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Lafayette_HS_20261022",
+      "notes": "Lafayette High School under shelter-in-place, heavy police presence",
+      "lat": 30.2262,
+      "lng": -92.0178,
+      "src": "KLFY.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGQ0Zy1rdVh2YXU2T0FQalVXTGxfYTNvcTAxZExoNDFja3c1bUYzOVJHbmxtTkpIekU5aUVMRXZZd0UxMFpJWllMd1RZYm5aX3FZaHlULXA4bThsRlg4MlBXdUcxWXB0ckYxWVFJWGFZcDdySGE0Rzc3VjlRT3RwM2FwY2FSMkVOWUNBUzdLaU9MRk9OVXE3Q190a3Vab05OZVFvS0JLUWFBemwyUDN1ZNIBtgFBVV95cUxOdW0yVVBnWlE5OGxMZnFQQ1pDYlZNRVFyRC1IZlBNYV9fUUg4YlNTNklySXkzUUEydkF3VmJNaUJFb1N0ZnhibGE3RTlNZGZyOWhWYTk2LTBGT2luQ09LZlJlLXFRcGdIUlR6YTBiUEw1X0hqcXptQ1l4Sk16MHZmNXMyVnE2TG9JMnZRLUFFWkdCQmNCOWoyeE5uZHJDUDQwaXJVMWl3N1JvMzNKVTNFM1BQdkZPQQ?oc=5",
+      "sources": 1,
+      "county": "Lafayette Parish"
+    },
     {
       "id": 1548,
       "country": "United States",
@@ -21,6 +41,26 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUVNhUUR6RUJ4Q05ZZ0YxWVBzOUpmUDJsY3FjOGlaY0I0TThQU0pxNUhnZU50QlY2UjVRZUZHNXFfVXB1d0s3M2E4TGhQR0xyNW51YnBoOVFQVExYV0ppNVRiWjFLTEtCZWVFU1FqRFFtcEJXSmd5VFI4ZWNiTkVVem51c3NGMGR0XzJPeVNVWEZUUndzRzRVUVpESEFNbHZGbkllRmwwMC0zbW45UFlINjBqT3N5UjhUQ2FPdnJUelFEUEs5WUlvSGFTVXJ6ZXAzc3p0VWsyaWNZNFpZLXhHUQ?oc=5",
       "sources": 1,
       "county": null
+    },
+    {
+      "id": 1555,
+      "country": "United States",
+      "date": "2026-10-21",
+      "school": "Walter Johnson High School",
+      "city": "Bethesda",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Walter Johnson High School shooting 2026-10-21",
+      "notes": "Four people detained for shooting that caused Walter Johnson High School lockdown",
+      "lat": 38.9813,
+      "lng": -77.1234,
+      "src": "WUSA9",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQS0lER2xwNXZWREx4d1I4V19aR1Y2N1N1VEtLcWJfMlZSZjZjbkVSMkxWbldVeWl6UkNfZzlNRGJZRnoxZGRYY090WHFmdWwyS1Q4WFlEanJNRkNzRVRaNEN1SnZqN0lrVFpyRzl2SlFCWnk5Vm91N3A3LU94WjczSGxjcU13cjUtekVWYUlMTWtEVkIwQ3N6WWhBY1hPNElkZi1RS3ljcV9RQ1pOR3RYQ0VWTWh4ZDhvRGw2WldmcWZfNFo1X1NtcTdaczA5VVdyaXVqM2tXQXNoTnhzSHlTdk5ERGllZ0pjOS1Z?oc=5",
+      "sources": 1,
+      "county": "Montgomery County"
     },
     {
       "id": 1553,
@@ -834,7 +874,7 @@
       "lng": -86.8024,
       "src": "WBRC",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVgyQ21ualdYRXBvN0ZqdGtUcnN6ZEh6dzhQR3M2UTdIY205MThMY2Jfc3VVZnVHUFVYWXlHNFBLVEFYZmlUX0g0WUk5TnRTaHBjZ2RpaEhnYkV5OXhEV0JyelFiUTBRVGVCWkRHSFFlWWxsWEQwVFFEX0xXUVB4Wi1OZnlwcVBWNGNiSThOdndacEtrY045eVJvVzlkNDY3cUkw?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Jefferson County"
     },
     {
@@ -15530,14 +15570,14 @@
     }
   },
   "last_run": {
-    "ingested": 174,
-    "skipped_seen": 156,
+    "ingested": 172,
+    "skipped_seen": 151,
     "recognized": 3,
-    "new": 0,
+    "new": 2,
     "updated": 0,
-    "rejected": 14,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 18,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15585,6 +15625,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-22T07:33:58.779116Z"
+    "ran_at": "2026-10-22T13:47:19.639422Z"
   }
 }
