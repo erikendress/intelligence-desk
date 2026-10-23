@@ -1,7 +1,87 @@
 {
-  "generated": "2026-10-23T07:31:01.524171Z",
-  "count": 767,
+  "generated": "2026-10-23T18:22:12.278263Z",
+  "count": 771,
   "incidents": [
+    {
+      "id": 1572,
+      "country": "United States",
+      "date": "2026-10-23",
+      "school": "Ukrainian Embassy",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Ukrainian Embassy suspicious package DC 2026-10-23",
+      "notes": "Secret Service investigates suspicious package near Ukrainian Embassy in DC",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "src": "WJLA",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRTAtLVNUN1B5SkpTWE5SV2NSckxnVVJtMXNKT1pGSnk4aG1vd21YendFVU9lWUwxRUN5Wi0zNlJkYzNmaEkxalhkQWRZaGdUSC1UR3hLN05vLTlUMXpzbXBITUpScUwwaC1MZE91cnFpZ29faWhZcGdXdTB1emllZ0tOWWNHaEJpdlJBY1VPc2cxelc2MTJPQnZhOEFwVFhwY3FPZmFTUzNGZXJOclJ3WA?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1571,
+      "country": "United States",
+      "date": "2026-10-23",
+      "school": "Federal Building",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Des Moines federal building suspicious package 2026-10-23",
+      "notes": "suspicious package at federal building in downtown Des Moines",
+      "lat": 41.5869,
+      "lng": -93.6249,
+      "src": "KCCI",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3RSR3ZScmhpWmZLMEV3NlhiLW5scVpZY21oSUI5UEs4eTlPZWhvYUlsY2xIbkx1TGZFWGRtRGpPUUVfYzRfR25XcnU5bGx1QTgxWDJRLWdiNW12VmZkQXg2WXZuUVFXSkxvTGZPc195aW1KRXFrVFNQOE9LNm9FcWVvN2pLZmRqOU0xX2hSbHNYZ1k?oc=5",
+      "sources": 1,
+      "county": "Polk County"
+    },
+    {
+      "id": 1570,
+      "country": "United States",
+      "date": "2026-10-23",
+      "school": "Saucon Valley School District",
+      "city": "Hellertown",
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Saucon Valley threat 2026-10-23",
+      "notes": "Threat forces Saucon Valley to close all schools Friday",
+      "lat": 40.5794,
+      "lng": -75.3406,
+      "src": "LehighValleyLive.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeE9jUjBKRjh1SzBJZ2pVU0dSdURDbDlpX25lUjQxWlZnbkFMUUNQanRYcTJOY18tdWx3dmx2VU5lNDVuNWxHcmxzVzZQRFBvLVNIOEl6OGZTbnFrOV9pX2FCblkxeWRueXBlVXVJTVlBSlZLelpNU3I3UUktYldnYUwwQ2FVS2hLajZSUmZheU9vZXhXNkMwVzFtUE85eXFEZWZuMEV2YXJKeHfSAb8BQVVfeXFMTWdtMW1BMHNVZGdIa2dqbVh4N0lGdXhrN3hjUlBsZjY0cTIzNlA2X1NxZ1dGTXRtUExnNjRoV0kzTjhZNExYSUhwb3cwTkd1bHB3SmJXR25WVnpkUVV3NVdEbnpvQnhqWXc2Vzh3MDVkeFFVaWlzVzRYeGI0Ul9ZamQ2VjFkaFVrRE9pMkg3Zy1VX0dTYU9kSWIzQWRSMEV6SDJ1UVFqWUxkSnRyNlFfdlZLMWdpVmJTUl83MHhKeWs?oc=5",
+      "sources": 1,
+      "county": "Northampton County"
+    },
+    {
+      "id": 1569,
+      "country": "United States",
+      "date": "2026-10-23",
+      "school": "McLennan County Courthouse",
+      "city": "Waco",
+      "state": "Texas",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "McLennan County Courthouse bomb threat 2026-10-23",
+      "notes": "Officials report bomb threat at McLennan County Courthouse",
+      "lat": 31.5488,
+      "lng": -97.2189,
+      "src": "KCENTV.com",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPa2w4OFNlSnBqR1FZSmNYZ3J1RWxtcDhnYXVCcEhHZ3Y4V3VsYjNsT3ZDZExUZ3Rtdm5iUHFXYjZLN2ZQWGdBdm95bU1PdGdTWTZhRG5FclMzNmhkeFlGZkg4UlFobVJ2amc4NWpFRGF4OThzMzhibXM3YTFkM1QxM2VDeTU4cUVaQXM1cWFFOGZWUW5rc0p4NHB1dkV5N1NBcEN6Z2J3alpGdVJwcXpaQ1hGM2VBOFNWbFlEelpjMXhGRWg3Y1d5S3BzS01hWjVSeURuWWJ0OEUwT2wxcWZEV2lfTk8?oc=5",
+      "sources": 4,
+      "county": "McLennan County"
+    },
     {
       "id": 1568,
       "country": "United States",
@@ -119,7 +199,7 @@
       "lng": -105.9385,
       "src": "Santa Fe New Mexican",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObDhkN0Q5c3pBQ3QyYldyaExmY3E1bVBSVFF2b0NEc0pzNEdjcXVUT2hrSU5LaFFzR0JMX3VJczRnSnR2TWtMTzU4M2FodVRERERldWtwbjN3RGc4aTBNSXBiTXdtYkFuVktJNW9UeWhXVXgxR2pqMjJIU3U0eXVsUDJGZXkyWkp6OFNxd2k1RmlYUHdqeUlHMTc2VFJDUFRpUGpZeW9zYjkyNlZTQU1tSGZtT2hCc0xqNDZsVDhEVW9DZ3M5dm5TZGZxOHJPVDhYRDlOSmV5bjJPZEh5amRuMEhPQXhzdXhGQXl5bjFDXy1Ya1cxaGVCUG51WDB1Y3lESlJzLVRQOFRVY1FXUlY4?oc=5",
-      "sources": 8,
+      "sources": 9,
       "county": "Santa Fe County"
     },
     {
@@ -139,7 +219,7 @@
       "lng": -77.0541,
       "src": "RochesterFirst",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1VBdWE5QUNkc1NzVFZrbjR2THZuSWg5S25reTRsRU02VmZVMHBVMnd0N0Zob1dwNTNvaHp4c0lwaUV6UnJpSWdocHlmcWU1RTRuQzlQMVVxRGxpLTRSSHFxM0pZVEJDeFZKanRaOWFzd2FSLWJadkRfSHZDYmFtODdGbUNlQjZyVnlLb1NFRnYzUjJUbXd1cG10S2NGdW9nYk01TFhn0gGrAUFVX3lxTE9OdWlZRWZ2UWtzMTgycHNGMmhhY2pGcWN6cGhwQmpiSkJBTlNXYkduZ08yY2xEUXFVWGpxcUxkRW1pYllzeXZvTV80cnNXSlF3WHhPSWxLQWVIajBKQ1RmcWVIVXZ1cExzbTd3cTVBYjJ2UzNwUlpBTElGWkxteEs3cm5OR2g3aS1EY29ZSjBQTW15LVJvM045N0dCdU9Kc3FqemZ0WWtUNFVNMA?oc=5",
-      "sources": 4,
+      "sources": 6,
       "county": "Yates County"
     },
     {
@@ -159,7 +239,7 @@
       "lng": -80.0026,
       "src": "ABC27",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcUN3NmNHVzdSQjBac0R1aE00WmxIRnlvTkZpZk1jSlJrbkZqTFQxVVNQaVBJVlgyclJBVUxXV29RVk1iZ0hEZ3NpQ3RUN2xkNTlaWUQ2dWdVLXJwWDY2SUxWOEFjSHVZU0VUakc4dVNDNjl2QVoyQ1h4Qm16b0NwTXF1a0xZUlMtdkt2bmZBNnFtUEZOam1NV2V6OU82cmtVZWhUcjZNQ2s5eUdBbjV1ZmtJQjgxbDgx0gG-AUFVX3lxTE4xaEE0NzR2MGh4amlTVmVxcTN5R2lhVDVYSHREM2YyNWNuT1h6bHFjMEZBLUNURDVqZnJsR2JTRFZEa0FfLXV6V20tWVg0cW5YVTIyWkFtcHY0S3NHcE9OdlBjbmM2WDE2RWhtYlN3bU1wbGY5TUZheUE4Tzd4UEFaNXE2RXRaclNXR192OE50OEkxT3N2a0dMZHlQRTBMSXZ3UlVRS2l5N2hoQ3RmWVM2bUxzZktKVkVUMlNjS0E?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -286,7 +366,7 @@
       "lng": -92.0178,
       "src": "KLFY.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGQ0Zy1rdVh2YXU2T0FQalVXTGxfYTNvcTAxZExoNDFja3c1bUYzOVJHbmxtTkpIekU5aUVMRXZZd0UxMFpJWllMd1RZYm5aX3FZaHlULXA4bThsRlg4MlBXdUcxWXB0ckYxWVFJWGFZcDdySGE0Rzc3VjlRT3RwM2FwY2FSMkVOWUNBUzdLaU9MRk9OVXE3Q190a3Vab05OZVFvS0JLUWFBemwyUDN1ZNIBtgFBVV95cUxOdW0yVVBnWlE5OGxMZnFQQ1pDYlZNRVFyRC1IZlBNYV9fUUg4YlNTNklySXkzUUEydkF3VmJNaUJFb1N0ZnhibGE3RTlNZGZyOWhWYTk2LTBGT2luQ09LZlJlLXFRcGdIUlR6YTBiUEw1X0hqcXptQ1l4Sk16MHZmNXMyVnE2TG9JMnZRLUFFWkdCQmNCOWoyeE5uZHJDUDQwaXJVMWl3N1JvMzNKVTNFM1BQdkZPQQ?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Lafayette Parish"
     },
     {
@@ -15847,14 +15927,14 @@
     }
   },
   "last_run": {
-    "ingested": 166,
-    "skipped_seen": 149,
-    "recognized": 6,
-    "new": 0,
-    "updated": 1,
-    "rejected": 11,
+    "ingested": 189,
+    "skipped_seen": 111,
+    "recognized": 13,
+    "new": 4,
+    "updated": 0,
+    "rejected": 63,
     "errors": 0,
-    "attempted": 17,
+    "attempted": 78,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -15902,6 +15982,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-23T07:31:01.507798Z"
+    "ran_at": "2026-10-23T18:22:12.260874Z"
   }
 }
