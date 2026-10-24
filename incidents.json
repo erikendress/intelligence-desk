@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-24T18:08:13.895624Z",
-  "count": 781,
+  "generated": "2026-10-24T20:47:53.337096Z",
+  "count": 783,
   "incidents": [
+    {
+      "id": 1584,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "Essex County Turtle Back Zoo",
+      "city": "West Orange",
+      "state": "New Jersey",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Turtle Back Zoo bomb threat evacuation 2026-10-24",
+      "notes": "Turtle Back Zoo Evacuated After Bomb Threat No Active Danger Reported",
+      "lat": 40.7987,
+      "lng": -74.239,
+      "src": "News12 | New Jersey",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWdGVS1jTkotREl4ZDJiUERCMDVvcnB3LTctNnIyQUk3dmpTTzhMNXpidFNBVENERVBTMjJ1QWRYZFg2N0xoRWZsLUFGRUY5V1ZrZENpaElvOU43eXRqYl91S3hoZWw1a0JSUElYWGU1alp0LXREa3F4Y05yVG9TWTFIdURkSC1fZnYwQml4Qk9EZjRMcTVIVW0xQmg3UmVUZjhGQ3FUak1SYm9nZkF4dA?oc=5",
+      "sources": 3,
+      "county": "Essex County"
+    },
+    {
+      "id": 1583,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "Hamilton County Board of Elections",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Hamilton Co. Board of Elections mail incident 2026-10-24",
+      "notes": "Hamilton Co. Board of Elections administrative building evacuated over suspicious substance found in mail",
+      "lat": 39.1013,
+      "lng": -84.5127,
+      "src": "FOX19 | Cincinnati",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3dBR0RhV2paZU1xaVlyYVl6SzBhXzJwUlBBSFZUWms5dk4xakN1UDljRUpVYjYtdmhmRk5TVDdCU2RjR3VlZU9Xc3VtOFVMWXppd3JxOW1ORXlPSzd4eDNvXzlmcWt6bTZrM0lncHlpTEtKSzlsUkVUM0ZMX1RSVnlNaUp4ZzQtZURuT2NvNEpUdFZJRmc4eThNczVnYWwtN0FVTzF5a3Fyc0w2S3pkeVZuaEtSMmNJNk0xWlN5VksyZ05LeWc4UXlvWEg?oc=5",
+      "sources": 1,
+      "county": "Hamilton County"
+    },
     {
       "id": 1582,
       "country": "United States",
@@ -546,7 +586,7 @@
       "lng": -75.4922,
       "src": "WWNY",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVzlpMko3Q24tRjJ4aUhXMV9KaW5rdzFYdnJhUVhDa2NsMFFlM0otZ3VMWWdwVmVTMWtDNUFmQnRtZ3FJTnJDVkdDcmFuNDQ5SHFKdkQxbkkzb1BEaWgwckprVDNqbTZrUm5SLXNTUlAzaDRubFBMNVduR1d3TWxDcVlfTk11QzZnd3BVS19n?oc=5",
-      "sources": 7,
+      "sources": 8,
       "county": "Lewis County"
     },
     {
@@ -16081,14 +16121,14 @@
     }
   },
   "last_run": {
-    "ingested": 191,
-    "skipped_seen": 181,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 185,
+    "skipped_seen": 172,
+    "recognized": 5,
+    "new": 2,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 13,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16136,6 +16176,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T18:08:13.881006Z"
+    "ran_at": "2026-10-24T20:47:53.318431Z"
   }
 }
