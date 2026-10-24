@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T05:52:00.642062Z",
+  "generated": "2026-10-24T10:57:17.431081Z",
   "count": 780,
   "incidents": [
     {
@@ -16062,13 +16062,13 @@
   },
   "last_run": {
     "ingested": 189,
-    "skipped_seen": 170,
-    "recognized": 3,
-    "new": 1,
+    "skipped_seen": 181,
+    "recognized": 0,
+    "new": 0,
     "updated": 0,
-    "rejected": 15,
+    "rejected": 8,
     "errors": 0,
-    "attempted": 19,
+    "attempted": 8,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16116,6 +16116,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T05:52:00.623867Z"
+    "ran_at": "2026-10-24T10:57:17.422579Z"
   }
 }
