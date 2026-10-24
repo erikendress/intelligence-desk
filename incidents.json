@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T14:31:37.788020Z",
+  "generated": "2026-10-24T18:08:13.895624Z",
   "count": 781,
   "incidents": [
     {
@@ -546,7 +546,7 @@
       "lng": -75.4922,
       "src": "WWNY",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVzlpMko3Q24tRjJ4aUhXMV9KaW5rdzFYdnJhUVhDa2NsMFFlM0otZ3VMWWdwVmVTMWtDNUFmQnRtZ3FJTnJDVkdDcmFuNDQ5SHFKdkQxbkkzb1BEaWgwckprVDNqbTZrUm5SLXNTUlAzaDRubFBMNVduR1d3TWxDcVlfTk11QzZnd3BVS19n?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Lewis County"
     },
     {
@@ -16081,14 +16081,14 @@
     }
   },
   "last_run": {
-    "ingested": 187,
-    "skipped_seen": 178,
+    "ingested": 191,
+    "skipped_seen": 181,
     "recognized": 1,
-    "new": 1,
+    "new": 0,
     "updated": 0,
     "rejected": 8,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 10,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16136,6 +16136,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T14:31:37.774274Z"
+    "ran_at": "2026-10-24T18:08:13.881006Z"
   }
 }
