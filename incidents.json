@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-24T10:57:17.431081Z",
-  "count": 780,
+  "generated": "2026-10-24T14:31:37.788020Z",
+  "count": 781,
   "incidents": [
+    {
+      "id": 1582,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "Hacker Valley Elementary School",
+      "city": null,
+      "state": "West Virginia",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Hacker Valley Elementary School threat 2026-10-24",
+      "notes": "Man arrested after threats force Hacker Valley Elementary School lockdown",
+      "lat": 38.4758,
+      "lng": -80.8408,
+      "src": "WV News",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMkRWc2tIRGRSS0VfOVFvMGIzY1JHYldKWEpsSHlIN2otdERkWUktY1l4V1paZHdWdXBuaXBlXzhaUXRZSWt0YkduUExGVDJXSUR1ZkNZTHRMcklLdkd0SVhRYTBhQjJBOTNWUlhBRWMzc0lhR3ZSQkVzM3VOWDVEaUJRS1JHemxfZllZODViN0VsM3N2ZDhFUk9uMHh3V0NNenpKZ0VpdjBwdFZRQTlqRmg1MlVsZzZqeUdhYk13VDk0SW9nU0g4MlQ2QnVGR1FjMXI0Wm4xLUNfSXU3dk9ScWVxbUpvSEoxYXZRWnk4bw?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1581,
       "country": "United States",
@@ -16061,14 +16081,14 @@
     }
   },
   "last_run": {
-    "ingested": 189,
-    "skipped_seen": 181,
-    "recognized": 0,
-    "new": 0,
+    "ingested": 187,
+    "skipped_seen": 178,
+    "recognized": 1,
+    "new": 1,
     "updated": 0,
     "rejected": 8,
     "errors": 0,
-    "attempted": 8,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16116,6 +16136,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T10:57:17.422579Z"
+    "ran_at": "2026-10-24T14:31:37.774274Z"
   }
 }
