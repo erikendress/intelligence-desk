@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-24T00:41:19.740916Z",
-  "count": 779,
+  "generated": "2026-10-24T05:52:00.642062Z",
+  "count": 780,
   "incidents": [
+    {
+      "id": 1581,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "Albany State University",
+      "city": "Albany",
+      "state": "Georgia",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Albany State University armed person report 2026-10-24",
+      "notes": "Albany State University issues shelter-in-place alert after report of armed person on Georgia campus",
+      "lat": 31.5782,
+      "lng": -84.1557,
+      "src": "Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxON2xUcmx6cmgyd200TWp2RXdJQnp2TmNzdUxPVG9jMUFXZ3RUU2tnazMtcDQ1Mnl4bGdCQ29ubmp5ZTVQckZUakJwdWJVRF9GQ21fN2JXQkwtWkhwNGE0Nnh3VVh6eFJVcGMwazA2aG1DRTVRNXJ6YmRMR1ZzVWM3d1ZsSkJXaXhOTW9jMnJHZzNjTloxNGNzMmNpMm93TzhQdE1PaUdmNUpWR003MHdhUGtXalZaRm5laVhxNkZzdWEyNXBhcmY0ZmZsVlVnWmN5MlVKVFBFSkVZX19DU2dwVHdOVlRFeWVOWHRjeXA5R2pMQ08xSEkzNEJBMm1XTk9N0gGGAkFVX3lxTFBLX2dDR1kyb2ZTNVhhZmRxbXptbV9qVU9pMVFfX3RTQ1V6S1A0LUNmLTBhU29kUHBxNGFCNUg1V2x5NktGQ29hY0JlbDdlT0ZUVXZCcXdrdk55bVkyaEgxTXA1VzdoR3FuWHhRdTM5NU92MjhTMWFMX2d3S2N2bHVYN292OGRhWW1uelduSkdhVzU5Vm1SNS0yMEpoeVQzU0xDMDFxQVV2VnNjcjBUT0kxYS15dWdTNWtoN0RpUGRtWlVDcjlJLWlmN2dhQ25oTUlILWVIQmVJbkFiX3lFd1JIMndSUFlCLTBHUXo2RzBndHU4eFlRWkZlY2NEQ2lpU2E0bDk0VUE?oc=5",
+      "sources": 1,
+      "county": "Dougherty County"
+    },
     {
       "id": 1580,
       "country": "United States",
@@ -99,7 +119,7 @@
       "lng": null,
       "src": "hngnews.com",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPbnRuYk9iTTNHQjJnSVFkX2xNbEhjbzNvcGlJa21UNjdmdzVybnRWc19qVHFNaVZ3dzYwRGlHdHBUUm9GMF9FalJ6dFU1R1dtd1pPaWZCTnViWTBramJVUV9JMUpCSnhtTThxMHBPR3pBQ0ZuQWI5UWRJcThqY0ZnSi03R1BTT1JwUktobUIwY0NKX3lYRG9JazNSNHRZTmlCOTdsLXFxWV9vb2xsS2s4VnBoMVU3aUVva3BiQ2xHaFlYYmVfQldFMV8zZFpGUXMwYnN3WXdiYTJ3bG5OUnhHX2VZdFZjZVVNV3IwNTZDOUlYS0pIaGpsQkt3UEtoZw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -359,7 +379,7 @@
       "lng": -105.9385,
       "src": "Santa Fe New Mexican",
       "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObDhkN0Q5c3pBQ3QyYldyaExmY3E1bVBSVFF2b0NEc0pzNEdjcXVUT2hrSU5LaFFzR0JMX3VJczRnSnR2TWtMTzU4M2FodVRERERldWtwbjN3RGc4aTBNSXBiTXdtYkFuVktJNW9UeWhXVXgxR2pqMjJIU3U0eXVsUDJGZXkyWkp6OFNxd2k1RmlYUHdqeUlHMTc2VFJDUFRpUGpZeW9zYjkyNlZTQU1tSGZtT2hCc0xqNDZsVDhEVW9DZ3M5dm5TZGZxOHJPVDhYRDlOSmV5bjJPZEh5amRuMEhPQXhzdXhGQXl5bjFDXy1Ya1cxaGVCUG51WDB1Y3lESlJzLVRQOFRVY1FXUlY4?oc=5",
-      "sources": 9,
+      "sources": 10,
       "county": "Santa Fe County"
     },
     {
@@ -16041,14 +16061,14 @@
     }
   },
   "last_run": {
-    "ingested": 193,
-    "skipped_seen": 175,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 189,
+    "skipped_seen": 170,
+    "recognized": 3,
+    "new": 1,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 15,
     "errors": 0,
-    "attempted": 18,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16096,6 +16116,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T00:41:19.724761Z"
+    "ran_at": "2026-10-24T05:52:00.623867Z"
   }
 }
