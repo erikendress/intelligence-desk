@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T22:10:10.961093Z",
+  "generated": "2026-10-24T00:41:19.740916Z",
   "count": 779,
   "incidents": [
     {
@@ -239,7 +239,7 @@
       "lng": -94.6042,
       "src": "Valley News Live",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOENETHRYQjR0dVFjcWswSkRoTGxrRkhpeGRabklEYUJFQVMxcU9ldUZBbTl1ajV5WDZ5QTlZOTdMRjI3NzdxNkJsVWpHRGpxSDVOdFM3R1NNeGlJNWUxVk9sYUNLWHdLZ3B4STNIWHlRQnZ1MkVFVDVhcHhCMXBWdm5FNmRiMjV0OExveXBkRHVva0lETkhjNDVUNjQ3TEk2bkF2ZTN3MVVSUjBQczlVRE9OLThuaHp6NzBIbC0wTzN2WXdFUnlLWXZIM3BYbThNNUE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Cass County"
     },
     {
@@ -8025,14 +8025,7 @@
       "src": "wtae.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTjFpa3NWU2NYRGJDQTZlVGt4cXVHc253WjhrNEhPaUdwUnRkRVZXR1gxbXJ0azh2eFJjMTU5ZmNvM0tSRUktRDkzVFhYOWVUN3h4WFVZbFhLMHFDOGx4bzlpNnlaclZlMXo4SlF6OUxLdlpmVEJPYlIxTExoLV9PSHZuRHlRUmxicThLbA?oc=5",
       "sources": 1,
-      "county": "Beaver County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-08",
-          "window_days": 7
-        }
-      }
+      "county": "Beaver County"
     },
     {
       "id": 992,
@@ -15877,7 +15870,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-23",
+    "computed": "2026-10-24",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -15889,9 +15882,8 @@
         "county": "Merced County",
         "region": "California",
         "country": "United States",
-        "events": 4,
+        "events": 3,
         "dates": [
-          "2026-10-09",
           "2026-10-12",
           "2026-10-16",
           "2026-10-17"
@@ -15917,36 +15909,6 @@
           "2026-10-10",
           "2026-10-18",
           "2026-10-20"
-        ]
-      },
-      {
-        "county": "Tulsa",
-        "region": "Oklahoma",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-09",
-          "2026-10-12"
-        ]
-      },
-      {
-        "county": "Miami-Dade County",
-        "region": "Florida",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-09",
-          "2026-10-12"
-        ]
-      },
-      {
-        "county": "Lauderdale County",
-        "region": "Alabama",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-09",
-          "2026-10-13"
         ]
       },
       {
@@ -16014,41 +15976,32 @@
         "facility": "Florence County School",
         "region": "Michigan",
         "country": "United States"
-      },
-      {
-        "id": 1316,
-        "date": "2026-10-09",
-        "facility": "West Clermont High School",
-        "region": "Ohio",
-        "country": "United States"
       }
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-09",
-      "to": "2026-10-22",
+      "from": "2026-10-10",
+      "to": "2026-10-23",
       "days": 14,
       "hoax": {
-        "total": 68,
-        "bomb": 50,
-        "swatting": 18,
-        "schools": 50,
+        "total": 63,
+        "bomb": 48,
+        "swatting": 15,
+        "schools": 46,
         "by_sector": {
-          "K-12": 46,
+          "K-12": 42,
           "Other": 5,
           "Transit": 4,
           "Retail": 4,
           "Higher Ed": 4,
-          "Venue": 2,
-          "Government": 2,
-          "Healthcare": 1
+          "Government": 3,
+          "Venue": 1
         },
-        "states": 29,
-        "confirmed_hoax": 23,
+        "states": 27,
+        "confirmed_hoax": 21,
         "arrests": 5,
-        "under_investigation": 36,
+        "under_investigation": 33,
         "per_day": {
-          "2026-10-09": 10,
           "2026-10-10": 2,
           "2026-10-11": 2,
           "2026-10-12": 5,
@@ -16061,10 +16014,10 @@
           "2026-10-19": 2,
           "2026-10-20": 6,
           "2026-10-21": 5,
-          "2026-10-22": 9
+          "2026-10-22": 9,
+          "2026-10-23": 5
         },
         "per_day_schools": {
-          "2026-10-09": 8,
           "2026-10-10": 2,
           "2026-10-11": 2,
           "2026-10-12": 3,
@@ -16077,24 +16030,25 @@
           "2026-10-19": 2,
           "2026-10-20": 3,
           "2026-10-21": 5,
-          "2026-10-22": 8
+          "2026-10-22": 8,
+          "2026-10-23": 4
         }
       },
       "suspicious_mail": {
-        "total": 33,
-        "government": 26
+        "total": 35,
+        "government": 29
       }
     }
   },
   "last_run": {
-    "ingested": 185,
-    "skipped_seen": 145,
-    "recognized": 10,
-    "new": 8,
+    "ingested": 193,
+    "skipped_seen": 175,
+    "recognized": 1,
+    "new": 0,
     "updated": 0,
-    "rejected": 25,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 40,
+    "attempted": 18,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16142,6 +16096,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-23T22:10:10.943306Z"
+    "ran_at": "2026-10-24T00:41:19.724761Z"
   }
 }
