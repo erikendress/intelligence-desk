@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-25T11:25:20.798633Z",
-  "count": 786,
+  "generated": "2026-10-25T16:16:09.492951Z",
+  "count": 787,
   "incidents": [
+    {
+      "id": 1588,
+      "country": "United States",
+      "date": "2026-10-25",
+      "school": "Jasmine Crockett's Dallas Office",
+      "city": "Dallas",
+      "state": "Texas",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Dallas-suspicious-package-2026-10-25",
+      "notes": "Suspicious Package Forces Evacuation at Jasmine Crockett's Dallas Office",
+      "lat": 32.7763,
+      "lng": -96.7969,
+      "src": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMzFSX3hEdExFc3J6OUhRWE8yZTE2ei1COW5KT21XSmQzUVY4TlhuSHdrZlpuaS1ESE9ndFI3V18xb1J0ZWFSbW1MWUd6NE5pLWhoQkVzQmJMX2h6clYwakZ0RE9qamhpZWxOV0pIdXl4MUM4N2hSTlp1ajdic2tjRVRwSWUtaUpzZHN3M3FYX1NBdFJoV3RqU2VpQks2M3UtRXNZNQ?oc=5",
+      "sources": 1,
+      "county": "Dallas County"
+    },
     {
       "id": 1585,
       "country": "United States",
@@ -79,7 +99,7 @@
       "lng": -74.239,
       "src": "News12 | New Jersey",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWdGVS1jTkotREl4ZDJiUERCMDVvcnB3LTctNnIyQUk3dmpTTzhMNXpidFNBVENERVBTMjJ1QWRYZFg2N0xoRWZsLUFGRUY5V1ZrZENpaElvOU43eXRqYl91S3hoZWw1a0JSUElYWGU1alp0LXREa3F4Y05yVG9TWTFIdURkSC1fZnYwQml4Qk9EZjRMcTVIVW0xQmg3UmVUZjhGQ3FUak1SYm9nZkF4dA?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Essex County"
     },
     {
@@ -16164,14 +16184,14 @@
     }
   },
   "last_run": {
-    "ingested": 179,
-    "skipped_seen": 171,
-    "recognized": 0,
-    "new": 0,
+    "ingested": 178,
+    "skipped_seen": 166,
+    "recognized": 2,
+    "new": 1,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 8,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16219,6 +16239,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-25T11:25:20.784263Z"
+    "ran_at": "2026-10-25T16:16:09.475014Z"
   }
 }
