@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T23:12:43.423977Z",
+  "generated": "2026-10-25T01:09:30.984578Z",
   "count": 783,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -84.5127,
       "src": "FOX19 | Cincinnati",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3dBR0RhV2paZU1xaVlyYVl6SzBhXzJwUlBBSFZUWms5dk4xakN1UDljRUpVYjYtdmhmRk5TVDdCU2RjR3VlZU9Xc3VtOFVMWXppd3JxOW1ORXlPSzd4eDNvXzlmcWt6bTZrM0lncHlpTEtKSzlsUkVUM0ZMX1RSVnlNaUp4ZzQtZURuT2NvNEpUdFZJRmc4eThNczVnYWwtN0FVTzF5a3Fyc0w2S3pkeVZuaEtSMmNJNk0xWlN5VksyZ05LeWc4UXlvWEg?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Hamilton County"
     },
     {
@@ -259,7 +259,7 @@
       "lng": -93.6249,
       "src": "KCCI",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3RSR3ZScmhpWmZLMEV3NlhiLW5scVpZY21oSUI5UEs4eTlPZWhvYUlsY2xIbkx1TGZFWGRtRGpPUUVfYzRfR25XcnU5bGx1QTgxWDJRLWdiNW12VmZkQXg2WXZuUVFXSkxvTGZPc195aW1KRXFrVFNQOE9LNm9FcWVvN2pLZmRqOU0xX2hSbHNYZ1k?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Polk County"
     },
     {
@@ -8879,10 +8879,7 @@
       "src": "KESQ",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON2JtWUJ5SzFyc2o0Sl93TE1DdmcySkdONFRwRnZZdFhTQ2o3THMzZ29vazVwSWtUVVV0UVUxV1dKVGJWd2F5QlhxVkpscGd5VVZBWXRpT09ONEZtMUpNVG5RNzVpYWxjcWc4MF9aXy1fVnhtQkpaUDNhenVuNjRKZGV5QjdqU2RkemlqOGVUMUxsdi1CcFVyZ0NpTVByTk13OFVNMTVvLWZlRWp0T1JCdURVMG9FX0ZYZ1JMTzZGNUhtdEpINE5V?oc=5",
       "sources": 1,
-      "county": "Riverside County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Riverside County"
     },
     {
       "id": 877,
@@ -8922,10 +8919,7 @@
       "src": "The Desert Sun",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSk02TmF4RFpJV1JiS2RRMjVtcVZhb0V0My1wRnBXN1hJWlI1clllRkNJTHhtY1VDWFYtdEgyZWFVSGlaNUhLLS1BMDZQQm14TmJQcjdrVjdKTGhWT2tsWnRFRkhGWDZXYU9SaXdEaVRueHBkTEFRaHBOeFhTVWxnS0tMVFZMcl9HNmVCcTlpMGNzdFhJdENjeVdBMDNEYk9vM0lUVzRMOGR3d1lsMWxGX1pfWnZTYmdQSFhnd0Rn?oc=5",
       "sources": 2,
-      "county": "Riverside County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Riverside County"
     },
     {
       "id": 874,
@@ -15950,7 +15944,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-24",
+    "computed": "2026-10-25",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -15981,27 +15975,6 @@
         ]
       },
       {
-        "county": "Wayne County",
-        "region": "Michigan",
-        "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-10-10",
-          "2026-10-18",
-          "2026-10-20"
-        ]
-      },
-      {
-        "county": "Jackson County",
-        "region": "Michigan",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-10",
-          "2026-10-13"
-        ]
-      },
-      {
         "county": "Palm Beach County",
         "region": "Florida",
         "country": "United States",
@@ -16009,6 +15982,16 @@
         "dates": [
           "2026-10-12",
           "2026-10-18"
+        ]
+      },
+      {
+        "county": "Wayne County",
+        "region": "Michigan",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-18",
+          "2026-10-20"
         ]
       },
       {
@@ -16060,29 +16043,28 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-10",
-      "to": "2026-10-23",
+      "from": "2026-10-11",
+      "to": "2026-10-24",
       "days": 14,
       "hoax": {
-        "total": 63,
-        "bomb": 48,
-        "swatting": 15,
-        "schools": 46,
+        "total": 62,
+        "bomb": 49,
+        "swatting": 13,
+        "schools": 44,
         "by_sector": {
-          "K-12": 42,
+          "K-12": 40,
           "Other": 5,
           "Transit": 4,
           "Retail": 4,
           "Higher Ed": 4,
           "Government": 3,
-          "Venue": 1
+          "Venue": 2
         },
         "states": 27,
-        "confirmed_hoax": 21,
+        "confirmed_hoax": 19,
         "arrests": 5,
-        "under_investigation": 33,
+        "under_investigation": 34,
         "per_day": {
-          "2026-10-10": 2,
           "2026-10-11": 2,
           "2026-10-12": 5,
           "2026-10-13": 6,
@@ -16095,10 +16077,10 @@
           "2026-10-20": 6,
           "2026-10-21": 5,
           "2026-10-22": 9,
-          "2026-10-23": 5
+          "2026-10-23": 5,
+          "2026-10-24": 1
         },
         "per_day_schools": {
-          "2026-10-10": 2,
           "2026-10-11": 2,
           "2026-10-12": 3,
           "2026-10-13": 5,
@@ -16111,24 +16093,25 @@
           "2026-10-20": 3,
           "2026-10-21": 5,
           "2026-10-22": 8,
-          "2026-10-23": 4
+          "2026-10-23": 4,
+          "2026-10-24": 0
         }
       },
       "suspicious_mail": {
-        "total": 35,
-        "government": 29
+        "total": 36,
+        "government": 30
       }
     }
   },
   "last_run": {
-    "ingested": 184,
-    "skipped_seen": 184,
-    "recognized": 0,
+    "ingested": 182,
+    "skipped_seen": 177,
+    "recognized": 3,
     "new": 0,
     "updated": 0,
-    "rejected": 0,
+    "rejected": 2,
     "errors": 0,
-    "attempted": 0,
+    "attempted": 5,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16176,6 +16159,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-24T23:12:43.409633Z"
+    "ran_at": "2026-10-25T01:09:30.968264Z"
   }
 }
