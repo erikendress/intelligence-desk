@@ -1,7 +1,67 @@
 {
-  "generated": "2026-10-25T01:09:30.984578Z",
-  "count": 783,
+  "generated": "2026-10-25T06:06:59.162860Z",
+  "count": 786,
   "incidents": [
+    {
+      "id": 1585,
+      "country": "United States",
+      "date": "2026-10-25",
+      "school": "Florida A&M University",
+      "city": "Tallahassee",
+      "state": "Florida",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "FAMU Bragg Stadium police activity",
+      "notes": "FAMU issues alert to shelter in place after police activity near Bragg Stadium",
+      "lat": 30.4381,
+      "lng": -84.2809,
+      "src": "Miami Herald",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93emRzYnJFQXJwX1VYYnpxQUZsYi1lby1PaE1BbEI0dlFvVXUzbm9yRFZndExWX2k5YzhuMEluakV0LXh5aDQyUjJ0RTRMNEJ4NW9xQjZhclIzVWU1WFU2TWFoakg?oc=5",
+      "sources": 3,
+      "county": "Leon County"
+    },
+    {
+      "id": 1587,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "New Jersey voting location",
+      "city": null,
+      "state": "New Jersey",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "NJ_bomb_threat_voting_20261024",
+      "notes": "bomb threat stops votes at one New Jersey location",
+      "lat": 40.0757,
+      "lng": -74.4042,
+      "src": "NBC New York",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPekpoaXBvNENpeVVidmNhbmVDdEJJanNPYUM1ZkNjZHlqMUhCSTJ4d2l4Y3ZHZTNVYW5ETXl4QTMwa0xxcTFRWnk2TXJmVmNpdUZ0MnVONElERTBsM3VzU1VaSmV2eWUtR0JFR0wwTTFtX3hFQTNmRmF5Z0dKU2RhU255emtWNm80X2Yzbjdwa3d6NURiSWNrNi1tMGVrRzRtUXJWSzB6Y1hGSzN5bXJmZlFuT2tGa01adnFwU3UtOGZvdUpUZmI3cW5wdlR1bld30gHYAUFVX3lxTE1keWdOWWZDS0pnTFMtcTRUOF8wWklTOV93eVZlZkkxSDVYYXZCU2JBd3ZYWjdPQ0RRS0ZBWU9rUU1FVUpYZmFhVXNlTkFZV3lsNXRSMUJzczhCRjlzaEx3QUtFUVRwdERZbWQ1RDNQaDdqaHlDME03UDJJdVFhYTlVbEEyZ0k2R3d3SUVpdWFYbDlvbzJLRVR2eXM1WjE1bDN1UW1RUE4tSndiSTEtek9IWU1DRzByb3JTV2dqa0E1WFRpU3RrSlJTYnBoVGstU0xEWjAzSFk4YQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1586,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "The White House",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "White House suspicious package 2026-10-24",
+      "notes": "suspicious package found near the White House",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "src": "News24",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSVVySDNRMXJ3SC14M2VIMEVGQm9sRmFlS0p1cm5nVzFKNHJHdVZTdktiQUlINzBnT0ZpV3VqNUVDSm5CdUJEeFAyZUQ0X19PcTBtSlBZSFF4R3h1R1g3NjYwLWY3QXdvOWhLODFqM245Rzlhc1ZmS2xKMXNYbFJVMnlabnppWllHWkVuYzdmUFVHSmhlSzNlUUR5SjA5aERHNjhoMlB3SXpmVEJSZWp4cE5TNzdOZ2ZwUllINHM3QmNSd19tNzFEVFNObnZKSW04RDlVNTQyb0c3TElMUnlPT2hGRU5tYTBWa1HSAe8BQVVfeXFMT2dMbWZLZFdhbHpLVkhWUXNhUmVEa3NTOGl2VGNJdkdzb0lKeGNkWXR4LXlrV0tzcTVxc05ScktKWnBLT3VUUUliakdHaGJ1U0kwRGRaQlN0dTB3Z0R2OGNKT2czMjVhekNMY05KaFBFX3dFTklxYkt4NU5YdGU2SXI5N1daZ2pTbWQ0emtGUXdfZDE0bjAzZlA5a3d0MVZzQm92WTB3dERXSUcwa20ydkNWbHQxcXoyaDlXRHBiV09JY3JFb2dqUm93dnRTMG8zcFhLcUFaLVUweEs1dUlLem1HUGFDaW05SmlRc2JMVUU?oc=5",
+      "sources": 2,
+      "county": null
+    },
     {
       "id": 1584,
       "country": "United States",
@@ -19,7 +79,7 @@
       "lng": -74.239,
       "src": "News12 | New Jersey",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWdGVS1jTkotREl4ZDJiUERCMDVvcnB3LTctNnIyQUk3dmpTTzhMNXpidFNBVENERVBTMjJ1QWRYZFg2N0xoRWZsLUFGRUY5V1ZrZENpaElvOU43eXRqYl91S3hoZWw1a0JSUElYWGU1alp0LXREa3F4Y05yVG9TWTFIdURkSC1fZnYwQml4Qk9EZjRMcTVIVW0xQmg3UmVUZjhGQ3FUak1SYm9nZkF4dA?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Essex County"
     },
     {
@@ -16047,8 +16107,8 @@
       "to": "2026-10-24",
       "days": 14,
       "hoax": {
-        "total": 62,
-        "bomb": 49,
+        "total": 63,
+        "bomb": 50,
         "swatting": 13,
         "schools": 44,
         "by_sector": {
@@ -16056,14 +16116,14 @@
           "Other": 5,
           "Transit": 4,
           "Retail": 4,
+          "Government": 4,
           "Higher Ed": 4,
-          "Government": 3,
           "Venue": 2
         },
         "states": 27,
         "confirmed_hoax": 19,
         "arrests": 5,
-        "under_investigation": 34,
+        "under_investigation": 35,
         "per_day": {
           "2026-10-11": 2,
           "2026-10-12": 5,
@@ -16078,7 +16138,7 @@
           "2026-10-21": 5,
           "2026-10-22": 9,
           "2026-10-23": 5,
-          "2026-10-24": 1
+          "2026-10-24": 2
         },
         "per_day_schools": {
           "2026-10-11": 2,
@@ -16098,20 +16158,20 @@
         }
       },
       "suspicious_mail": {
-        "total": 36,
-        "government": 30
+        "total": 37,
+        "government": 31
       }
     }
   },
   "last_run": {
-    "ingested": 182,
-    "skipped_seen": 177,
-    "recognized": 3,
-    "new": 0,
+    "ingested": 179,
+    "skipped_seen": 160,
+    "recognized": 7,
+    "new": 3,
     "updated": 0,
-    "rejected": 2,
+    "rejected": 9,
     "errors": 0,
-    "attempted": 5,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16159,6 +16219,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-25T01:09:30.968264Z"
+    "ran_at": "2026-10-25T06:06:59.148702Z"
   }
 }
