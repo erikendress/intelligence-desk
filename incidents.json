@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T19:05:23.693250Z",
+  "generated": "2026-10-25T21:46:49.700575Z",
   "count": 789,
   "incidents": [
     {
@@ -19,7 +19,7 @@
       "lng": -91.8571,
       "src": "KY3",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNF9ZY0pDVzBseWVnLXp4WXdPYWF3N2tZWk1pRzlKMHJNcWN3Vm56dzJYMUVBR1V1eHRSeG5WN29wVUpnWnFXaTlqN1h6Q3JrclloZDJDNHltX2FuaEthejJQS0locU1WVXhhNEJXOFRVUllnOFZKYzN1Y0k5aTFKYjdoWkZya055LVdKMV9XOTkxMGNKWDQ3NlRLa1BDQVE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Texas County"
     },
     {
@@ -126,7 +126,7 @@
       "lng": -77.0364,
       "src": "News24",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSVVySDNRMXJ3SC14M2VIMEVGQm9sRmFlS0p1cm5nVzFKNHJHdVZTdktiQUlINzBnT0ZpV3VqNUVDSm5CdUJEeFAyZUQ0X19PcTBtSlBZSFF4R3h1R1g3NjYwLWY3QXdvOWhLODFqM245Rzlhc1ZmS2xKMXNYbFJVMnlabnppWllHWkVuYzdmUFVHSmhlSzNlUUR5SjA5aERHNjhoMlB3SXpmVEJSZWp4cE5TNzdOZ2ZwUllINHM3QmNSd19tNzFEVFNObnZKSW04RDlVNTQyb0c3TElMUnlPT2hGRU5tYTBWa1HSAe8BQVVfeXFMT2dMbWZLZFdhbHpLVkhWUXNhUmVEa3NTOGl2VGNJdkdzb0lKeGNkWXR4LXlrV0tzcTVxc05ScktKWnBLT3VUUUliakdHaGJ1U0kwRGRaQlN0dTB3Z0R2OGNKT2czMjVhekNMY05KaFBFX3dFTklxYkt4NU5YdGU2SXI5N1daZ2pTbWQ0emtGUXdfZDE0bjAzZlA5a3d0MVZzQm92WTB3dERXSUcwa20ydkNWbHQxcXoyaDlXRHBiV09JY3JFb2dqUm93dnRTMG8zcFhLcUFaLVUweEs1dUlLem1HUGFDaW05SmlRc2JMVUU?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -16241,14 +16241,14 @@
     }
   },
   "last_run": {
-    "ingested": 177,
-    "skipped_seen": 170,
-    "recognized": 5,
-    "new": 2,
+    "ingested": 163,
+    "skipped_seen": 154,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 2,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 7,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16296,6 +16296,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-25T19:05:23.676082Z"
+    "ran_at": "2026-10-25T21:46:49.688165Z"
   }
 }
