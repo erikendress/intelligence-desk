@@ -1,7 +1,54 @@
 {
-  "generated": "2026-10-25T16:16:09.492951Z",
-  "count": 787,
+  "generated": "2026-10-25T19:05:23.693250Z",
+  "count": 789,
   "incidents": [
+    {
+      "id": 1589,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Licking R-8 School District",
+      "city": "Licking",
+      "state": "Missouri",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Licking R-8 School District bomb threat October 2026",
+      "notes": "Licking R-8 School District cancels classes Monday due to bomb threat",
+      "lat": 37.4995,
+      "lng": -91.8571,
+      "src": "KY3",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNF9ZY0pDVzBseWVnLXp4WXdPYWF3N2tZWk1pRzlKMHJNcWN3Vm56dzJYMUVBR1V1eHRSeG5WN29wVUpnWnFXaTlqN1h6Q3JrclloZDJDNHltX2FuaEthejJQS0locU1WVXhhNEJXOFRVUllnOFZKYzN1Y0k5aTFKYjdoWkZya055LVdKMV9XOTkxMGNKWDQ3NlRLa1BDQVE?oc=5",
+      "sources": 1,
+      "county": "Texas County"
+    },
+    {
+      "id": 1590,
+      "country": "United States",
+      "date": "2026-10-25",
+      "school": "Carrollton hospital",
+      "city": "Carrollton",
+      "state": "Texas",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Carrollton TX hospital bomb threat 2026-10-25",
+      "notes": "Carrollton hospital bomb threat forces patient transfers and ER diversions",
+      "lat": 32.9515,
+      "lng": -96.9034,
+      "src": "WFAA",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcUhtUnU0bnV5RVJid0dtWXlaUHFXUDBZSkM1Y19TRDNPTHVvVjhnQWhLRGR5blBKUE5QaEx1Mk5UQ0p3aldYWWZTVXhEQlhGWk9yM1VOYk5pMS11OHFxeVRsTm5KaW9nbHVLU2VMakpsZnNzV1JiV3VlM1FwNXdzT0x4S3dnaEV5WEFiREVDYkd3RXpRNU1CeHdlRzdkRkNhaDJCMS10bmFQRDJWc1NvN2RRRGY2cVNESmJBRGFyc3hNY3BDWTBHR3NyVFRUdlJFMDJOMg?oc=5",
+      "sources": 1,
+      "county": "Dallas County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-22",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1588,
       "country": "United States",
@@ -99,7 +146,7 @@
       "lng": -74.239,
       "src": "News12 | New Jersey",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWdGVS1jTkotREl4ZDJiUERCMDVvcnB3LTctNnIyQUk3dmpTTzhMNXpidFNBVENERVBTMjJ1QWRYZFg2N0xoRWZsLUFGRUY5V1ZrZENpaElvOU43eXRqYl91S3hoZWw1a0JSUElYWGU1alp0LXREa3F4Y05yVG9TWTFIdURkSC1fZnYwQml4Qk9EZjRMcTVIVW0xQmg3UmVUZjhGQ3FUak1SYm9nZkF4dA?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Essex County"
     },
     {
@@ -119,7 +166,7 @@
       "lng": -84.5127,
       "src": "FOX19 | Cincinnati",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3dBR0RhV2paZU1xaVlyYVl6SzBhXzJwUlBBSFZUWms5dk4xakN1UDljRUpVYjYtdmhmRk5TVDdCU2RjR3VlZU9Xc3VtOFVMWXppd3JxOW1ORXlPSzd4eDNvXzlmcWt6bTZrM0lncHlpTEtKSzlsUkVUM0ZMX1RSVnlNaUp4ZzQtZURuT2NvNEpUdFZJRmc4eThNczVnYWwtN0FVTzF5a3Fyc0w2S3pkeVZuaEtSMmNJNk0xWlN5VksyZ05LeWc4UXlvWEg?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Hamilton County"
     },
     {
@@ -646,7 +693,7 @@
       "lng": -74.266,
       "src": "WRGB",
       "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQM2NmbGFPRmlKMGV0NVNPaFNTSVI4czdpcVBWalVienhpREdfMWZ3eUtXdFo5YlYxLVl1bDVxRjQxM3NFV1B4SEkxMWlXUjA2cWFpMjBIVWhGV0pKbS11SkhUNlR1eXJWbUhXdEIxWlp5UzhzU21USGUweTdoUVBJb0JZaXlCcmZyNGN3MkVyLThKcXBwOFE4UldBOG15OTIxdDhjVE9Ic2lmSFAtX3JhajlDWklQSGM1ckxFZGFBbmFNLUJMaVZPTHN3UUpRVS00aTkzeUYzZENNeUpoUmM4Mm5KVFFRMVlJUjRRc1Z1VmRRQUVJOUsyYk5GUWVySDcwR2htRUtOVVRCWmFrM0JoRDFrYWVUY0pGb3F1WW9pWE0wMWpuTnR0Q2VGQXZrZUtqODM4?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Hamilton County"
     },
     {
@@ -16103,6 +16150,16 @@
           "2026-10-20",
           "2026-10-22"
         ]
+      },
+      {
+        "county": "Dallas County",
+        "region": "Texas",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-22",
+          "2026-10-25"
+        ]
       }
     ],
     "stacked_recent": [
@@ -16184,14 +16241,14 @@
     }
   },
   "last_run": {
-    "ingested": 178,
-    "skipped_seen": 166,
-    "recognized": 2,
-    "new": 1,
+    "ingested": 177,
+    "skipped_seen": 170,
+    "recognized": 5,
+    "new": 2,
     "updated": 0,
-    "rejected": 10,
+    "rejected": 2,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 7,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16239,6 +16296,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-25T16:16:09.475014Z"
+    "ran_at": "2026-10-25T19:05:23.676082Z"
   }
 }
