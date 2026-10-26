@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T00:22:30.410700Z",
-  "count": 789,
+  "generated": "2026-10-26T06:11:59.473626Z",
+  "count": 790,
   "incidents": [
     {
       "id": 1589,
@@ -208,6 +208,26 @@
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxON2xUcmx6cmgyd200TWp2RXdJQnp2TmNzdUxPVG9jMUFXZ3RUU2tnazMtcDQ1Mnl4bGdCQ29ubmp5ZTVQckZUakJwdWJVRF9GQ21fN2JXQkwtWkhwNGE0Nnh3VVh6eFJVcGMwazA2aG1DRTVRNXJ6YmRMR1ZzVWM3d1ZsSkJXaXhOTW9jMnJHZzNjTloxNGNzMmNpMm93TzhQdE1PaUdmNUpWR003MHdhUGtXalZaRm5laVhxNkZzdWEyNXBhcmY0ZmZsVlVnWmN5MlVKVFBFSkVZX19DU2dwVHdOVlRFeWVOWHRjeXA5R2pMQ08xSEkzNEJBMm1XTk9N0gGGAkFVX3lxTFBLX2dDR1kyb2ZTNVhhZmRxbXptbV9qVU9pMVFfX3RTQ1V6S1A0LUNmLTBhU29kUHBxNGFCNUg1V2x5NktGQ29hY0JlbDdlT0ZUVXZCcXdrdk55bVkyaEgxTXA1VzdoR3FuWHhRdTM5NU92MjhTMWFMX2d3S2N2bHVYN292OGRhWW1uelduSkdhVzU5Vm1SNS0yMEpoeVQzU0xDMDFxQVV2VnNjcjBUT0kxYS15dWdTNWtoN0RpUGRtWlVDcjlJLWlmN2dhQ25oTUlILWVIQmVJbkFiX3lFd1JIMndSUFlCLTBHUXo2RzBndHU4eFlRWkZlY2NEQ2lpU2E0bDk0VUE?oc=5",
       "sources": 1,
       "county": "Dougherty County"
+    },
+    {
+      "id": 1591,
+      "country": "United Kingdom",
+      "date": "2026-10-23",
+      "school": "Major Bristol street",
+      "city": "Bristol",
+      "state": "England",
+      "sector": "Other",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Bristol suspicious item 2026-10-23",
+      "notes": "Bomb squad rush to major Bristol street and people evacuated over 'suspicious item' fears",
+      "lat": 51.443,
+      "lng": -2.5817,
+      "src": "Daily Express",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KQkpUVGFGR1NsRjVSUWZBb2hSVG5IR2pLN0R6cUlhVXRzem9ZaHNQWENDdVZZY2xEc0hVT3lzYjZRcy1WMFJsRi1KR2l6Z1ZlMUM2NjVVVzNfTENFODdhYmFZbnVlNHBPcFM0aTJfQ3hrY3l0czJwSDlGSdIBgAFBVV95cUxQREZIdXp4b3R4REU5V2Y4WE5CMTVualhGbHBrUTc5VGloRGw1N0dtMEk2MHM0dU9zWHp6Y0hlZk96bnVCN1lmZS0tX3VMYVhFUXJRdzBRakNxcmtnVFBDUXhsNzJLSVZxeTFwMmtXRGIzcXNQOUxiSS1vODVUNTZWeQ?oc=5",
+      "sources": 1,
+      "county": "City of Bristol"
     },
     {
       "id": 1580,
@@ -16228,14 +16248,14 @@
     }
   },
   "last_run": {
-    "ingested": 163,
-    "skipped_seen": 156,
+    "ingested": 164,
+    "skipped_seen": 149,
     "recognized": 1,
-    "new": 0,
+    "new": 1,
     "updated": 0,
-    "rejected": 6,
+    "rejected": 13,
     "errors": 0,
-    "attempted": 7,
+    "attempted": 15,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16283,6 +16303,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-26T00:22:30.394936Z"
+    "ran_at": "2026-10-26T06:11:59.464888Z"
   }
 }
