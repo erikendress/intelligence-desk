@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T06:11:59.473626Z",
+  "generated": "2026-10-26T12:59:36.425474Z",
   "count": 790,
   "incidents": [
     {
@@ -166,7 +166,7 @@
       "lng": -84.5127,
       "src": "FOX19 | Cincinnati",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3dBR0RhV2paZU1xaVlyYVl6SzBhXzJwUlBBSFZUWms5dk4xakN1UDljRUpVYjYtdmhmRk5TVDdCU2RjR3VlZU9Xc3VtOFVMWXppd3JxOW1ORXlPSzd4eDNvXzlmcWt6bTZrM0lncHlpTEtKSzlsUkVUM0ZMX1RSVnlNaUp4ZzQtZURuT2NvNEpUdFZJRmc4eThNczVnYWwtN0FVTzF5a3Fyc0w2S3pkeVZuaEtSMmNJNk0xWlN5VksyZ05LeWc4UXlvWEg?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Hamilton County"
     },
     {
@@ -16248,14 +16248,14 @@
     }
   },
   "last_run": {
-    "ingested": 164,
-    "skipped_seen": 149,
+    "ingested": 157,
+    "skipped_seen": 140,
     "recognized": 1,
-    "new": 1,
+    "new": 0,
     "updated": 0,
-    "rejected": 13,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 15,
+    "attempted": 17,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16271,7 +16271,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 52
       },
       {
         "edition": "GB:en",
@@ -16285,7 +16285,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 53
       },
       {
         "edition": "CA:en",
@@ -16299,10 +16299,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 53
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-26T06:11:59.464888Z"
+    "ran_at": "2026-10-26T12:59:36.410558Z"
   }
 }
