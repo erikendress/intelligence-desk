@@ -1,7 +1,107 @@
 {
-  "generated": "2026-10-26T12:59:36.425474Z",
-  "count": 790,
+  "generated": "2026-10-26T19:18:45.500430Z",
+  "count": 797,
   "incidents": [
+    {
+      "id": 1597,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Hamburg Middle School",
+      "city": "Hamburg",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hamburg NY police chase 2026-10-26",
+      "notes": "Lockdown lifted at Hamburg High School, Middle School following police chase",
+      "lat": 42.7163,
+      "lng": -78.8287,
+      "src": "WIVB News 4",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEdsTVcwZEVtM2h2QzY5UENtbnpBclFuTV84R1NHUXcxbjRabzN6RDQ4Y3hpZV9fVkRXcWdPODcwaUJxMHlHUXdCNnNXTFJYRXo3c0V3bmwyaUZXMHJUTHNhM05BbWwyWkRNeTZVMF93OUlobDBpTHc4MzVnWlNJR1d5SmM0c2lQTTZER2pVM1lwUGdmYnl4TjVncWE3UEMwY19iazZIS29lOTZ1SVpJZ1RR?oc=5",
+      "sources": 1,
+      "county": "Erie County"
+    },
+    {
+      "id": 1596,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Hamburg High School",
+      "city": "Hamburg",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hamburg NY police chase 2026-10-26",
+      "notes": "Lockdown lifted at Hamburg High School, Middle School following police chase",
+      "lat": 42.7163,
+      "lng": -78.8287,
+      "src": "WIVB News 4",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEdsTVcwZEVtM2h2QzY5UENtbnpBclFuTV84R1NHUXcxbjRabzN6RDQ4Y3hpZV9fVkRXcWdPODcwaUJxMHlHUXdCNnNXTFJYRXo3c0V3bmwyaUZXMHJUTHNhM05BbWwyWkRNeTZVMF93OUlobDBpTHc4MzVnWlNJR1d5SmM0c2lQTTZER2pVM1lwUGdmYnl4TjVncWE3UEMwY19iazZIS29lOTZ1SVpJZ1RR?oc=5",
+      "sources": 1,
+      "county": "Erie County"
+    },
+    {
+      "id": 1594,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "New Jersey Zoo",
+      "city": null,
+      "state": "New Jersey",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "NJ Zoo bomb threat 2026-10-26",
+      "notes": "NJ Zoo Gets Bomb Threat On First Day Of Early Voting For 2026 Election",
+      "lat": 40.0757,
+      "lng": -74.4042,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUDJYR2cyaEZaa1BsQ2dhVUgyekxXdHd4bjZ5NmFHN3Rqc3hDNWNYV1BuM2RzVEo2U01jY3l1MG1TcGNPVHpkZWVTcDZhMWx4dFpDeFVjeEo1NmtERHo2VVZLcjhZYkdQWHoyNDlGSU0zQlNxTHJua2Z0bVdRd2V0MTBIeUpiNkprSFlGc25Rb3U3Ri1pQ1NOVllBekROaXVNdGfSAcABQVVfeXFMT0cwb2Y1YVhFWkRYUFhxUlhhOGZxdWp4R0lXQWNmdlRzbjhhNlp3VkpYRGpISHllNlJUYklMNVVjWFlvX0xDbEZtLUUtQk51V1IzcHNFaGFteVpoVjJWZlg0OVJ6WS12STdpM1NaYlZuWHI3b0J2OFJkOWVOck1RZEtOZFhBWGNQTkpYNHFCUWs1Wnk4UnJZSGh0dzVuWE1FS2Y0TWtoNkt2R3NxMzJtcWVwY3lodVRaWlEzLVJ2UnVk?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1593,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Circle Schools",
+      "city": "Billings",
+      "state": "Montana",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Circle Schools bomb threat Billings MT 2026-10-26",
+      "notes": "Reported bomb threat at Circle Schools campus blocking traffic",
+      "lat": 45.7875,
+      "lng": -108.4961,
+      "src": "NonStop Local Billings",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdElEX25iTE90cC15ZldCczRxTHluVTY3LXRvZWxnd2xQd3hwcFNDNE82TWdYRU5Ud09WRkdKS1RaS0RwMGZ5Slg5ZVZwb2kxUGhWSjExczM3Unh4bEtmZC0yazZXd3g2YllhSjMzVFZKc1NCdWR4YWdwdFlJNzBmVzdVbklmYW4wM013c0tUNzh5TndpS2hpUkRIOHBPem0wWC1KZXd2VnYzLVRveEh6b0lrVGg2a0lKRzFjcktnZ0NudnktTi1MZGs4ZHFDdS0zUzdDeVZR?oc=5",
+      "sources": 1,
+      "county": "Yellowstone County"
+    },
+    {
+      "id": 1592,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Bullard High School",
+      "city": "Fresno",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Bullard High School shelter-in-place 2026-10-26",
+      "notes": "Shelter-in-place ordered at Bullard High School in Fresno",
+      "lat": 36.7394,
+      "lng": -119.7848,
+      "src": "KMPH Fox 26",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYWZZRWNiUWdyMDVzbXdac0tBNVRjbTNxdXdBSUVyVHp5eGEwR0ZVN0lmNzZzSGxLLVpaWkFxLWVNQzVqUWEtZGdiNVFCWDRPSlpMU3dzVWU3dDFrdGNrdnJkN0QyYjhEMTlRc2ZMZElZTjdSa2wtWTZ4Q3hKS3dDZ2xTTGVZSXZKb1pKSC1R?oc=5",
+      "sources": 1,
+      "county": "Fresno County"
+    },
     {
       "id": 1589,
       "country": "United States",
@@ -88,6 +188,26 @@
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93emRzYnJFQXJwX1VYYnpxQUZsYi1lby1PaE1BbEI0dlFvVXUzbm9yRFZndExWX2k5YzhuMEluakV0LXh5aDQyUjJ0RTRMNEJ4NW9xQjZhclIzVWU1WFU2TWFoakg?oc=5",
       "sources": 3,
       "county": "Leon County"
+    },
+    {
+      "id": 1595,
+      "country": "United States",
+      "date": "2026-10-24",
+      "school": "Penn Yan schools",
+      "city": "Penn Yan",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Penn Yan swatting 2026-10-24",
+      "notes": "Swatting call prompted lockdown at Penn Yan schools, officials say",
+      "lat": 42.6603,
+      "lng": -77.0541,
+      "src": "13wham.com",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb2ZMVncwZlJ6emVuckw0Mmx3X1MtamxaeTBpYzNXbE1WUll2NTNrYkJnYUFfMzRpTkFEX3N3NGNmbjVfdDFDaFVabkZET2FjYjl2T01Mc2NQSlpkbUFnZ1Jpb3Q4ZjZnTlJsQURKZUEtQVlCZG5sWllXS0N4ZWtmWU5RYVVyZWVhVk4xTGc3Y2tQcGV3Q0J1RUhZOXRnbnM5UDVNODk0U3Z0c3YzaVNqdWlCMWh5TnBkVkN6WVRMbjU3TENEcy1WXzZQekpJU0JCV0Y2LU5IUUZ4X2M?oc=5",
+      "sources": 1,
+      "county": "Yates County"
     },
     {
       "id": 1587,
@@ -208,6 +328,26 @@
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxON2xUcmx6cmgyd200TWp2RXdJQnp2TmNzdUxPVG9jMUFXZ3RUU2tnazMtcDQ1Mnl4bGdCQ29ubmp5ZTVQckZUakJwdWJVRF9GQ21fN2JXQkwtWkhwNGE0Nnh3VVh6eFJVcGMwazA2aG1DRTVRNXJ6YmRMR1ZzVWM3d1ZsSkJXaXhOTW9jMnJHZzNjTloxNGNzMmNpMm93TzhQdE1PaUdmNUpWR003MHdhUGtXalZaRm5laVhxNkZzdWEyNXBhcmY0ZmZsVlVnWmN5MlVKVFBFSkVZX19DU2dwVHdOVlRFeWVOWHRjeXA5R2pMQ08xSEkzNEJBMm1XTk9N0gGGAkFVX3lxTFBLX2dDR1kyb2ZTNVhhZmRxbXptbV9qVU9pMVFfX3RTQ1V6S1A0LUNmLTBhU29kUHBxNGFCNUg1V2x5NktGQ29hY0JlbDdlT0ZUVXZCcXdrdk55bVkyaEgxTXA1VzdoR3FuWHhRdTM5NU92MjhTMWFMX2d3S2N2bHVYN292OGRhWW1uelduSkdhVzU5Vm1SNS0yMEpoeVQzU0xDMDFxQVV2VnNjcjBUT0kxYS15dWdTNWtoN0RpUGRtWlVDcjlJLWlmN2dhQ25oTUlILWVIQmVJbkFiX3lFd1JIMndSUFlCLTBHUXo2RzBndHU4eFlRWkZlY2NEQ2lpU2E0bDk0VUE?oc=5",
       "sources": 1,
       "county": "Dougherty County"
+    },
+    {
+      "id": 1598,
+      "country": "United States",
+      "date": "2026-10-23",
+      "school": "Kluczynski Federal Building",
+      "city": "Chicago",
+      "state": "Illinois",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Nationwide suspicious mail investigation October 2026",
+      "notes": "Suspicious letter delivered to Kluczynski Federal Building downtown Chicago amid nationwide investigation",
+      "lat": 41.8756,
+      "lng": -87.6244,
+      "src": "ABC7 Chicago",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTXlJZWkwOUpJYVlweHVoWERxWFZDdEhDLTg3ZzhGVHdrY3lKVlhnc3pjWUxDVVktY3FhM1dwcE5mZ1BSODctd05wZTVscTJISmJId2Q4dm5mMkxiMlFqY2NXcUZWdkFNc3hwOFFTWXNPcERqb2FRWlZVbXMtNkJ2LWNPVDhnb2pzUE1yaXR0OVdLT0t6ejM2N3lnVHdDMjRUR21fR2NkNDBWbDRxSlFMSnNscnZySEY4cDJzX0drVjF1MENqTzJBb1cwTU9LZkI1NE90aUZSQU5lS3ExMHZFaHROaVIwRHJQTG5j0gHwAUFVX3lxTE9pUXd1ZXBRcVUxZUFmM1NvMEx2LVdyTjc5LURfbGxONmVPOXRXMnd5bC1nbm1ILTlkS2VQWk8tN2oteFdRWlRyaU83dWs0MDJZNG1fU2s5bmQ2c2pjQ003TzdZeU9aOUlSMWM1RTdFenNzUjFENzQxMEZ5R1hzaW4wdmh1R3RLRFY5YjFyd2Z1UzlLUmF4dDJ3aHA1c2F2ZnBkTWVCNGxlN2Nmb1FNczlKSVhkVU5FdFBYUTdNdmc2RTNtMWdsXzRJeUYyTnpjeWRwRFd6d216Z0JQMjFRSmJmTU5oRXYxZ1MzY09NSmJPSQ?oc=5",
+      "sources": 1,
+      "county": "Cook County"
     },
     {
       "id": 1591,
@@ -16190,12 +16330,12 @@
       "to": "2026-10-25",
       "days": 14,
       "hoax": {
-        "total": 62,
+        "total": 63,
         "bomb": 50,
-        "swatting": 12,
-        "schools": 42,
+        "swatting": 13,
+        "schools": 43,
         "by_sector": {
-          "K-12": 38,
+          "K-12": 39,
           "Other": 5,
           "Transit": 4,
           "Retail": 4,
@@ -16207,7 +16347,7 @@
         "states": 27,
         "confirmed_hoax": 19,
         "arrests": 5,
-        "under_investigation": 34,
+        "under_investigation": 35,
         "per_day": {
           "2026-10-12": 5,
           "2026-10-13": 6,
@@ -16221,7 +16361,7 @@
           "2026-10-21": 5,
           "2026-10-22": 9,
           "2026-10-23": 5,
-          "2026-10-24": 2,
+          "2026-10-24": 3,
           "2026-10-25": 1
         },
         "per_day_schools": {
@@ -16237,25 +16377,25 @@
           "2026-10-21": 5,
           "2026-10-22": 8,
           "2026-10-23": 4,
-          "2026-10-24": 0,
+          "2026-10-24": 1,
           "2026-10-25": 0
         }
       },
       "suspicious_mail": {
-        "total": 38,
-        "government": 32
+        "total": 39,
+        "government": 33
       }
     }
   },
   "last_run": {
-    "ingested": 157,
-    "skipped_seen": 140,
-    "recognized": 1,
-    "new": 0,
+    "ingested": 141,
+    "skipped_seen": 109,
+    "recognized": 7,
+    "new": 7,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 25,
     "errors": 0,
-    "attempted": 17,
+    "attempted": 32,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16271,7 +16411,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 52
+        "items": 42
       },
       {
         "edition": "GB:en",
@@ -16285,7 +16425,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 41
       },
       {
         "edition": "CA:en",
@@ -16299,10 +16439,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 41
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-26T12:59:36.410558Z"
+    "ran_at": "2026-10-26T19:18:45.486655Z"
   }
 }
