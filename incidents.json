@@ -1,7 +1,67 @@
 {
-  "generated": "2026-10-26T19:18:45.500430Z",
-  "count": 797,
+  "generated": "2026-10-26T23:52:41.236096Z",
+  "count": 800,
   "incidents": [
+    {
+      "id": 1601,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Licking School District",
+      "city": null,
+      "state": "Missouri",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Licking School District bomb threat 2026-10-26",
+      "notes": "Bomb threat closes Licking School District on Monday",
+      "lat": 38.7605,
+      "lng": -92.5618,
+      "src": "KY3",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc3lFUGdGSW1sWTdBN3ExcmNHV1RYNVRYUmJUYzRqb1IxX0Q3Q29zNnJrVHMtQnUzWUN4alV5N0M2ZGJkQU5nRkdWRmduclBORjlCUE9KQzRqcnZieG5tN2xyTWlLSWlmUy1DRFlmZXlaSU1Dd3dwZTBKdnlPZHZ0cmljTC1SVUMtMmNTWnlfZmY?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1600,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Wilton School",
+      "city": "Wilton",
+      "state": "Connecticut",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Wilton_School_20261026_suspicious_person",
+      "notes": "Report Of Suspicious Person Near Polling Site Prompts Wilton School Lockdown",
+      "lat": 41.1954,
+      "lng": -73.4379,
+      "src": "News12 | Long Island",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMm5zRmpZOVJKQ0Jnc0J1NlhpYk0yMkRMVnh2dGpPc1hDR2ZQOWVVeFFOM3RFNW90RkxnekJrM0RYWjhyQXJ6NUN5SlZHek5vTDdyUE5JVlRuUGU5c2QyaS1DTWZEV0dvWEdoOW9SUjhCZUh6bEhCRUtEMjNSdTNteEt2bm8xQjZsQkRBNmMtTTBjbmpIYmJEclNhbS1ucVZEdlFQTFZaalYxdw?oc=5",
+      "sources": 1,
+      "county": "Western Connecticut Planning Region"
+    },
+    {
+      "id": 1599,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Georgetown College",
+      "city": "Georgetown",
+      "state": "Kentucky",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Arrest made",
+      "cluster": "Georgetown College threat 2026-10-26",
+      "notes": "Students told to shelter in place after threat against Georgetown College",
+      "lat": 38.21,
+      "lng": -84.5597,
+      "src": "WKYT",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV09qUHJzUU5icE9qY3AyX29XUnNfY0I4VEVleHVJdDlGVkw2OFdPSTZ3bWpCbWxROTk4NmZmNVlrMHlnWkRPU2NJdWNGOHBXTXQ4X2g0R3R1WFhaLVFsTmdERzJkWlM0eGlTWmF5SlA2UXNfWW1vT0EyN3kydVl1a19vN2p1NGgtQ0FSYUtNeUFpbEI5TlZxcXJWMFV3cVpFWWc?oc=5",
+      "sources": 2,
+      "county": "Scott County"
+    },
     {
       "id": 1597,
       "country": "United States",
@@ -19,7 +79,7 @@
       "lng": -78.8287,
       "src": "WIVB News 4",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEdsTVcwZEVtM2h2QzY5UENtbnpBclFuTV84R1NHUXcxbjRabzN6RDQ4Y3hpZV9fVkRXcWdPODcwaUJxMHlHUXdCNnNXTFJYRXo3c0V3bmwyaUZXMHJUTHNhM05BbWwyWkRNeTZVMF93OUlobDBpTHc4MzVnWlNJR1d5SmM0c2lQTTZER2pVM1lwUGdmYnl4TjVncWE3UEMwY19iazZIS29lOTZ1SVpJZ1RR?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Erie County"
     },
     {
@@ -39,7 +99,7 @@
       "lng": -78.8287,
       "src": "WIVB News 4",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEdsTVcwZEVtM2h2QzY5UENtbnpBclFuTV84R1NHUXcxbjRabzN6RDQ4Y3hpZV9fVkRXcWdPODcwaUJxMHlHUXdCNnNXTFJYRXo3c0V3bmwyaUZXMHJUTHNhM05BbWwyWkRNeTZVMF93OUlobDBpTHc4MzVnWlNJR1d5SmM0c2lQTTZER2pVM1lwUGdmYnl4TjVncWE3UEMwY19iazZIS29lOTZ1SVpJZ1RR?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Erie County"
     },
     {
@@ -112,14 +172,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Closure",
-      "outcome": "Under investigation",
+      "outcome": "Arrest made",
       "cluster": "Licking R-8 School District bomb threat October 2026",
       "notes": "Licking R-8 School District cancels classes Monday due to bomb threat",
       "lat": 37.4995,
       "lng": -91.8571,
       "src": "KY3",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNF9ZY0pDVzBseWVnLXp4WXdPYWF3N2tZWk1pRzlKMHJNcWN3Vm56dzJYMUVBR1V1eHRSeG5WN29wVUpnWnFXaTlqN1h6Q3JrclloZDJDNHltX2FuaEthejJQS0locU1WVXhhNEJXOFRVUllnOFZKYzN1Y0k5aTFKYjdoWkZya055LVdKMV9XOTkxMGNKWDQ3NlRLa1BDQVE?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Texas County"
     },
     {
@@ -16388,14 +16448,14 @@
     }
   },
   "last_run": {
-    "ingested": 141,
-    "skipped_seen": 109,
-    "recognized": 7,
-    "new": 7,
-    "updated": 0,
-    "rejected": 25,
+    "ingested": 133,
+    "skipped_seen": 108,
+    "recognized": 9,
+    "new": 3,
+    "updated": 2,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 32,
+    "attempted": 25,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16411,7 +16471,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 42
+        "items": 23
       },
       {
         "edition": "GB:en",
@@ -16425,7 +16485,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 38
       },
       {
         "edition": "CA:en",
@@ -16439,10 +16499,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 38
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-26T19:18:45.486655Z"
+    "ran_at": "2026-10-26T23:52:41.215460Z"
   }
 }
