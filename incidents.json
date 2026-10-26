@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T21:46:49.700575Z",
+  "generated": "2026-10-26T00:22:30.410700Z",
   "count": 789,
   "incidents": [
     {
@@ -19,7 +19,7 @@
       "lng": -91.8571,
       "src": "KY3",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNF9ZY0pDVzBseWVnLXp4WXdPYWF3N2tZWk1pRzlKMHJNcWN3Vm56dzJYMUVBR1V1eHRSeG5WN29wVUpnWnFXaTlqN1h6Q3JrclloZDJDNHltX2FuaEthejJQS0locU1WVXhhNEJXOFRVUllnOFZKYzN1Y0k5aTFKYjdoWkZya055LVdKMV9XOTkxMGNKWDQ3NlRLa1BDQVE?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Texas County"
     },
     {
@@ -8272,14 +8272,7 @@
       "src": "WPBF",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczRoZ1lYSGNDdWd5dnQ2WWxabzN2U0VOdTBBLWdUNElieXY2UTNsQm03aGpqajNjdTEybzZIQW0wN0R0bENzZEhBSjJfT2xheS1vaFkteHlsblF1Szk4cnlobnNIMFlMUFNySW1OT2pJNXZFcWhzaXJqdEtCNllZZTVxNEVsc3JXa2dDd3MxRjdSMHdhSEZZVmtDMkF0SS1STnc?oc=5",
       "sources": 2,
-      "county": "Martin County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-10",
-          "window_days": 7
-        }
-      }
+      "county": "Martin County"
     },
     {
       "id": 979,
@@ -16071,7 +16064,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-25",
+    "computed": "2026-10-26",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -16169,40 +16162,33 @@
         "facility": "North Kansas City High School",
         "region": "Missouri",
         "country": "United States"
-      },
-      {
-        "id": 1320,
-        "date": "2026-10-11",
-        "facility": "Florence County School",
-        "region": "Michigan",
-        "country": "United States"
       }
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-11",
-      "to": "2026-10-24",
+      "from": "2026-10-12",
+      "to": "2026-10-25",
       "days": 14,
       "hoax": {
-        "total": 63,
+        "total": 62,
         "bomb": 50,
-        "swatting": 13,
-        "schools": 44,
+        "swatting": 12,
+        "schools": 42,
         "by_sector": {
-          "K-12": 40,
+          "K-12": 38,
           "Other": 5,
           "Transit": 4,
           "Retail": 4,
           "Government": 4,
           "Higher Ed": 4,
-          "Venue": 2
+          "Venue": 2,
+          "Healthcare": 1
         },
         "states": 27,
         "confirmed_hoax": 19,
         "arrests": 5,
-        "under_investigation": 35,
+        "under_investigation": 34,
         "per_day": {
-          "2026-10-11": 2,
           "2026-10-12": 5,
           "2026-10-13": 6,
           "2026-10-14": 6,
@@ -16215,10 +16201,10 @@
           "2026-10-21": 5,
           "2026-10-22": 9,
           "2026-10-23": 5,
-          "2026-10-24": 2
+          "2026-10-24": 2,
+          "2026-10-25": 1
         },
         "per_day_schools": {
-          "2026-10-11": 2,
           "2026-10-12": 3,
           "2026-10-13": 5,
           "2026-10-14": 4,
@@ -16231,24 +16217,25 @@
           "2026-10-21": 5,
           "2026-10-22": 8,
           "2026-10-23": 4,
-          "2026-10-24": 0
+          "2026-10-24": 0,
+          "2026-10-25": 0
         }
       },
       "suspicious_mail": {
-        "total": 37,
-        "government": 31
+        "total": 38,
+        "government": 32
       }
     }
   },
   "last_run": {
     "ingested": 163,
-    "skipped_seen": 154,
-    "recognized": 2,
+    "skipped_seen": 156,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
     "rejected": 6,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 7,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16296,6 +16283,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-25T21:46:49.688165Z"
+    "ran_at": "2026-10-26T00:22:30.394936Z"
   }
 }
