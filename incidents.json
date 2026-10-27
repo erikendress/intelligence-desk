@@ -1,13 +1,120 @@
 {
-  "generated": "2026-10-27T16:37:43.693270Z",
-  "count": 803,
+  "generated": "2026-10-27T21:19:51.101355Z",
+  "count": 808,
   "incidents": [
+    {
+      "id": 1609,
+      "country": "United Kingdom",
+      "date": "2026-10-27",
+      "school": "Ebrington",
+      "city": "Londonderry",
+      "state": "Northern Ireland",
+      "sector": "Other",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Ebrington Londonderry 2026-10-27",
+      "notes": "Police respond to security alert in Londonderry following report of 'suspicious package'",
+      "lat": 54.9979,
+      "lng": -7.3213,
+      "src": "Belfast Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTlRDTlRYSjhUYTVueEp5dW9OcDFSUG84VFFkZXV3QzBBVjZuR0hqckxiQ3R5QnQ4elFtekFTOGFsMkpWdzdTMUU3N2xyU2JlcXNTVGxDSTVfcWtZTzdhVDdpWG9KOF9kUUZmeENadXRjM1BVd0kzVlBLUEZYTWRZNUo2SnZTVU9SSGlsWnl6SkVBRWJ0dXJEWk9TOU5iVy1USERoWmx6alZIdWd6RmdJUHB4bE1ZYURFSHQxVWtsNGFqZ0UtOExxeHpHLTBPS3lVaGw1blpYWm5oQ1cxeTI4aUNHQ210S0lURS1yNURfMGdOeklLM0txdk5B?oc=5",
+      "sources": 1,
+      "county": "County Londonderry"
+    },
+    {
+      "id": 1608,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Berkeley Hall School",
+      "city": "Brentwood",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Berkeley Hall School Brentwood swatting 2026-10-27",
+      "notes": "Berkeley Hall School Brentwood Lockdown Tied to Swatting Call",
+      "lat": 37.9318,
+      "lng": -121.696,
+      "src": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUDR2ai0yLUYySE5uUjFZRVEzUG5TV2FqZUtWLXJsVllOUXNpY08tSko0b1Vlb09TRzlWZUdIN0FGNXQ2NEoxa0FEdWZSMlhmeHBvcG1CLS1pLU83RGE5UGdfQ3FQSHpSRjVWZnpHSm1Ha2Q5TzhnQUNfRXJuTWFpbDRWdXVXVnI4UVdwcGQzRGg5NGpFTXhrcWppQnV3XzYybWlEeU9jMmJiQQ?oc=5",
+      "sources": 1,
+      "county": "Contra Costa County"
+    },
+    {
+      "id": 1607,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Sotomayor High School",
+      "city": "San Antonio",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Sotomayor High School bomb threat 2026-10-27",
+      "notes": "Bomb threat prompts evacuation at Sotomayor High School, district officials say",
+      "lat": 29.4246,
+      "lng": -98.4951,
+      "src": "kens5.com",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOVXFtQVpmS1NCdi1HLW1ZdGhUNHJxb2RfaVMwTmpETW53TUlZTzZNUGZGWnYtaTZtYWxXeFo5Vy1qbVJ1d1RiNXlGb0FtT2dzdXc1NEZ4TjJ5TjFORTJZR09mOVdZYWxaWVl4aFRZMXdIV3UzbDhFRllGU1BEVFl6bmJQUW1rcnlCeWdhSXM1VGVHNTlqNlZQR3BVSUppLTVjeElKVjBMcEk1a2lUblYxWVMzMENoSWZPTmk1eUFTU1BGck9zNEtTeFUybTEzTHZxSHN2Q2RRSXBTXzloZF92MVF3UU00dDFrRHo1Q1JGRlZTamdraE15VUZ6Nm9LODRFeXBVV0tySnJVcEFlQldRSF9zVzFoRmNLMVNEZ3REWUJLbHhUTEdieU94bGJ1Z21NdUdlaA?oc=5",
+      "sources": 6,
+      "county": null
+    },
+    {
+      "id": 1606,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Greenville mall",
+      "city": "Greenville",
+      "state": "South Carolina",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Greenville mall bomb threat 2026-10-27",
+      "notes": "Greenville police evacuate mall while investigating bomb threat",
+      "lat": null,
+      "lng": null,
+      "src": "WCTI",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVFhMa2JDOGV6bWVmMzlaM1NHNGVrQUlYMjl1Zk9wV05zdk5Va3dtUkdEUmNnNHRSekk4eF9DTVdhNE5MWTFNTV9vN3BOY3libFI5Tk1DZFhpUU40ZnZJQ1VJTXQ0TnVmSXNqOVI4R0dRbHVuSndsMXlfR2dINjZ6Smlhc2dDWHhaeFpvWWdqcEZNaEJNd1RGQQ?oc=5",
+      "sources": 3,
+      "county": null
+    },
+    {
+      "id": 1605,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Hamilton ISD",
+      "city": "Hamilton",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Hamilton ISD bomb threat 2026-10-27",
+      "notes": "Hamilton ISD campuses evacuate due to bomb threat",
+      "lat": 31.6429,
+      "lng": -97.9716,
+      "src": "KWTX",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdHh2VlE0VXc4U05WUVdRcV9GVHl3ZF90YV9Fd1FnRG9HWUI2RUV0M1p5U0FjaWxHdDJsZFBmTGhmR2M0VFNXQlhaOUdJdjEzWHFia1dlX1pEWkItVXB0ZGh4eXZ1SE1oX2tQbkgwM0F3UnAyUUpuTnpCN1NZSEZ0V3dCVUNFQdIBmgFBVV95cUxOTFh6QzRXbEpybU9vRFRvd2kwYXAwSkZuNWt0QzZJVHJSM3ZJUVIwWVRvMWdjeGRKak53TkpjZjBiaGRheUEweUJ3aGdQMG4xQzhsd2N1Qk9GcTJnaTBleEdrYUdnYjcxOFMweDFOck4tRC11TEhVX0FQVFRMV0tqbGtpZURxMHVITE5UU2dZSGlqcWZvMmxoYkR3?oc=5",
+      "sources": 1,
+      "county": "Hamilton County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-22",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1604,
       "country": "United States",
       "date": "2026-10-27",
       "school": "Branch County Courthouse",
-      "city": null,
+      "city": "Coldwater",
       "state": "Michigan",
       "sector": "Government",
       "type": "Bomb Threat",
@@ -19,7 +126,7 @@
       "lng": -85.0649,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3hxcmxMdS0xeXF1a2xlYk1DM1Nuc2NmbGg0U0s3WWM2Y1c4b3RXcmxUcG5EbFZtaGViQkEyRWJyQTRNa0x5cHBqZWhBN0NtNzRRRTBBekNHNVhXeDZMdlY2X2lZRzRxei1pbG0tX1FWeTZWLVpEMC1TOXk4LUkwMlVOMkRqZjIxcG8tdXNpaFV3MDFu?oc=5",
-      "sources": 1,
+      "sources": 4,
       "county": "Branch County"
     },
     {
@@ -32,14 +139,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Boston University Academy bomb threat 2026-10-27",
       "notes": "Bomb Threat Prompts Evacuation At Boston University Academy Building",
       "lat": 42.3588,
       "lng": -71.0578,
       "src": "Patch",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY2lUbDktYlNhWFlvUm56SXlZZ0c0UWxOSHA2eW9CMHVPRGVtRFRGbnF3R2xXLXRUZ0FweF9oX3lPTlgyRnplajBqR0d4TmJjRU0zZDZlT1VpMXg3T0VFS2xmSGxqN2ozSFNYNHFnVlRSUzNWZEZFSHpCdkR1TlRTVXlkeU9HcWoyZ19fZHEtNl85ZEM3RWNKVHB2VU9VS09vTENLa3B1b9IBvAFBVV95cUxPaDh1eXd6UkdhMENlV3NyZDVFZ252MWJLWVktS0ZmcERyVlFNdHVESzNMVDJxNXpmRGxRT0JLWnJkTldQUkVHMzE0U1NUdGNMNExXWUxlMzBEelRyZkFmakEwdjBxWmNFQ3BwTVFxaVc3MDZqMGJkYlVxR25lY05SUTlpWC1IVTNZRjE5RUhXVm51ckFZUWNPaDZYOXBpVEx6ZXQ0RmlRRDlrWERpcjJPdl9Jc1JJbXFHLU5jWg?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Suffolk County"
     },
     {
@@ -16415,6 +16522,16 @@
           "2026-10-22",
           "2026-10-25"
         ]
+      },
+      {
+        "county": "Hamilton County",
+        "region": "New York",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-22",
+          "2026-10-27"
+        ]
       }
     ],
     "stacked_recent": [
@@ -16490,14 +16607,14 @@
     }
   },
   "last_run": {
-    "ingested": 147,
-    "skipped_seen": 115,
-    "recognized": 4,
-    "new": 2,
-    "updated": 0,
-    "rejected": 28,
+    "ingested": 142,
+    "skipped_seen": 94,
+    "recognized": 17,
+    "new": 5,
+    "updated": 1,
+    "rejected": 31,
     "errors": 0,
-    "attempted": 32,
+    "attempted": 48,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16513,7 +16630,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 48
+        "items": 27
       },
       {
         "edition": "GB:en",
@@ -16527,7 +16644,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 49
       },
       {
         "edition": "CA:en",
@@ -16541,10 +16658,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 27
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-27T16:37:43.662746Z"
+    "ran_at": "2026-10-27T21:19:51.091663Z"
   }
 }
