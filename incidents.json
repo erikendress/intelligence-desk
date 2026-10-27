@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T23:52:41.236096Z",
+  "generated": "2026-10-27T05:01:58.089908Z",
   "count": 800,
   "incidents": [
     {
@@ -8532,14 +8532,7 @@
       "src": "WPBF",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbzQ3ZHR5NGFWUFNGQllHOTJaMFpXT3pSdHdfY2FsTktUbDYtXzc3bDJJNllvTEVnNjk0NGtPQmtTNGVHTVhfTXpFUzhlT0FSQVNVWGVzOVUxbG9uRXc5WDBoTksxZVhMaERROFc0WkVfRXdsVzZGeTI2M0hvb040NWVqNEhPaEI3Wk1rVzExTWNjRW9Md2xPTk9NRTNSOGs?oc=5",
       "sources": 3,
-      "county": "Saint Lucie County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-11",
-          "window_days": 7
-        }
-      }
+      "county": "Saint Lucie County"
     },
     {
       "id": 966,
@@ -16284,7 +16277,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-26",
+    "computed": "2026-10-27",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -16292,17 +16285,6 @@
     },
     "waves": [],
     "repeat_counties": [
-      {
-        "county": "Merced County",
-        "region": "California",
-        "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-10-12",
-          "2026-10-16",
-          "2026-10-17"
-        ]
-      },
       {
         "county": "Butler County",
         "region": "Pennsylvania",
@@ -16315,13 +16297,13 @@
         ]
       },
       {
-        "county": "Palm Beach County",
-        "region": "Florida",
+        "county": "Merced County",
+        "region": "California",
         "country": "United States",
         "events": 2,
         "dates": [
-          "2026-10-12",
-          "2026-10-18"
+          "2026-10-16",
+          "2026-10-17"
         ]
       },
       {
@@ -16386,30 +16368,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-12",
-      "to": "2026-10-25",
+      "from": "2026-10-13",
+      "to": "2026-10-26",
       "days": 14,
       "hoax": {
-        "total": 63,
+        "total": 62,
         "bomb": 50,
-        "swatting": 13,
+        "swatting": 12,
         "schools": 43,
         "by_sector": {
           "K-12": 39,
-          "Other": 5,
           "Transit": 4,
           "Retail": 4,
+          "Other": 4,
           "Government": 4,
           "Higher Ed": 4,
           "Venue": 2,
           "Healthcare": 1
         },
-        "states": 27,
-        "confirmed_hoax": 19,
-        "arrests": 5,
-        "under_investigation": 35,
+        "states": 26,
+        "confirmed_hoax": 18,
+        "arrests": 6,
+        "under_investigation": 34,
         "per_day": {
-          "2026-10-12": 5,
           "2026-10-13": 6,
           "2026-10-14": 6,
           "2026-10-15": 7,
@@ -16422,10 +16403,10 @@
           "2026-10-22": 9,
           "2026-10-23": 5,
           "2026-10-24": 3,
-          "2026-10-25": 1
+          "2026-10-25": 1,
+          "2026-10-26": 4
         },
         "per_day_schools": {
-          "2026-10-12": 3,
           "2026-10-13": 5,
           "2026-10-14": 4,
           "2026-10-15": 5,
@@ -16438,7 +16419,8 @@
           "2026-10-22": 8,
           "2026-10-23": 4,
           "2026-10-24": 1,
-          "2026-10-25": 0
+          "2026-10-25": 0,
+          "2026-10-26": 3
         }
       },
       "suspicious_mail": {
@@ -16448,14 +16430,14 @@
     }
   },
   "last_run": {
-    "ingested": 133,
-    "skipped_seen": 108,
-    "recognized": 9,
-    "new": 3,
-    "updated": 2,
-    "rejected": 18,
+    "ingested": 122,
+    "skipped_seen": 107,
+    "recognized": 0,
+    "new": 0,
+    "updated": 0,
+    "rejected": 14,
     "errors": 0,
-    "attempted": 25,
+    "attempted": 15,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16471,7 +16453,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 37
       },
       {
         "edition": "GB:en",
@@ -16485,7 +16467,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 22
       },
       {
         "edition": "CA:en",
@@ -16499,10 +16481,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 37
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-26T23:52:41.215460Z"
+    "ran_at": "2026-10-27T05:01:58.072176Z"
   }
 }
