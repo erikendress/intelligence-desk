@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-27T10:32:38.370249Z",
-  "count": 801,
+  "generated": "2026-10-27T16:37:43.693270Z",
+  "count": 803,
   "incidents": [
+    {
+      "id": 1604,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Branch County Courthouse",
+      "city": null,
+      "state": "Michigan",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Branch County Courthouse bomb threat 2026-10-27",
+      "notes": "Branch County Courthouse closes after bomb threat",
+      "lat": 41.9168,
+      "lng": -85.0649,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3hxcmxMdS0xeXF1a2xlYk1DM1Nuc2NmbGg0U0s3WWM2Y1c4b3RXcmxUcG5EbFZtaGViQkEyRWJyQTRNa0x5cHBqZWhBN0NtNzRRRTBBekNHNVhXeDZMdlY2X2lZRzRxei1pbG0tX1FWeTZWLVpEMC1TOXk4LUkwMlVOMkRqZjIxcG8tdXNpaFV3MDFu?oc=5",
+      "sources": 1,
+      "county": "Branch County"
+    },
+    {
+      "id": 1603,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Boston University Academy",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Boston University Academy bomb threat 2026-10-27",
+      "notes": "Bomb Threat Prompts Evacuation At Boston University Academy Building",
+      "lat": 42.3588,
+      "lng": -71.0578,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY2lUbDktYlNhWFlvUm56SXlZZ0c0UWxOSHA2eW9CMHVPRGVtRFRGbnF3R2xXLXRUZ0FweF9oX3lPTlgyRnplajBqR0d4TmJjRU0zZDZlT1VpMXg3T0VFS2xmSGxqN2ozSFNYNHFnVlRSUzNWZEZFSHpCdkR1TlRTVXlkeU9HcWoyZ19fZHEtNl85ZEM3RWNKVHB2VU9VS09vTENLa3B1b9IBvAFBVV95cUxPaDh1eXd6UkdhMENlV3NyZDVFZ252MWJLWVktS0ZmcERyVlFNdHVESzNMVDJxNXpmRGxRT0JLWnJkTldQUkVHMzE0U1NUdGNMNExXWUxlMzBEelRyZkFmakEwdjBxWmNFQ3BwTVFxaVc3MDZqMGJkYlVxR25lY05SUTlpWC1IVTNZRjE5RUhXVm51ckFZUWNPaDZYOXBpVEx6ZXQ0RmlRRDlrWERpcjJPdl9Jc1JJbXFHLU5jWg?oc=5",
+      "sources": 1,
+      "county": "Suffolk County"
+    },
     {
       "id": 1602,
       "country": "United States",
@@ -346,7 +386,7 @@
       "lng": -74.239,
       "src": "News12 | New Jersey",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOWdGVS1jTkotREl4ZDJiUERCMDVvcnB3LTctNnIyQUk3dmpTTzhMNXpidFNBVENERVBTMjJ1QWRYZFg2N0xoRWZsLUFGRUY5V1ZrZENpaElvOU43eXRqYl91S3hoZWw1a0JSUElYWGU1alp0LXREa3F4Y05yVG9TWTFIdURkSC1fZnYwQml4Qk9EZjRMcTVIVW0xQmg3UmVUZjhGQ3FUak1SYm9nZkF4dA?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Essex County"
     },
     {
@@ -366,7 +406,7 @@
       "lng": -84.5127,
       "src": "FOX19 | Cincinnati",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3dBR0RhV2paZU1xaVlyYVl6SzBhXzJwUlBBSFZUWms5dk4xakN1UDljRUpVYjYtdmhmRk5TVDdCU2RjR3VlZU9Xc3VtOFVMWXppd3JxOW1ORXlPSzd4eDNvXzlmcWt6bTZrM0lncHlpTEtKSzlsUkVUM0ZMX1RSVnlNaUp4ZzQtZURuT2NvNEpUdFZJRmc4eThNczVnYWwtN0FVTzF5a3Fyc0w2S3pkeVZuaEtSMmNJNk0xWlN5VksyZ05LeWc4UXlvWEg?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Hamilton County"
     },
     {
@@ -16450,14 +16490,14 @@
     }
   },
   "last_run": {
-    "ingested": 131,
-    "skipped_seen": 110,
-    "recognized": 3,
-    "new": 1,
+    "ingested": 147,
+    "skipped_seen": 115,
+    "recognized": 4,
+    "new": 2,
     "updated": 0,
-    "rejected": 17,
+    "rejected": 28,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 32,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16473,7 +16513,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 48
       },
       {
         "edition": "GB:en",
@@ -16487,7 +16527,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 47
       },
       {
         "edition": "CA:en",
@@ -16501,10 +16541,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 22
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-27T10:32:38.351879Z"
+    "ran_at": "2026-10-27T16:37:43.662746Z"
   }
 }
