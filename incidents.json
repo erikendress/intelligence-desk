@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-27T05:01:58.089908Z",
-  "count": 800,
+  "generated": "2026-10-27T10:32:38.370249Z",
+  "count": 801,
   "incidents": [
+    {
+      "id": 1602,
+      "country": "United States",
+      "date": "2026-10-26",
+      "school": "Southern University",
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed real",
+      "cluster": "Southern University shooting 2026-10-26",
+      "notes": "Southern University lifts campus lockdown after evening shooting that injured 1 person",
+      "lat": 30.4494,
+      "lng": -91.187,
+      "src": "The Advocate",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU2N1UnpuUUJfWnJPSHVCNDFGQ21FRkctTEN5RnNTOVdXUGlRZlVhcWUwWDlZVE1xd2otc2hIbGJKWW1WUEJmUnZ4X0hWcEpobnJIZFRzYjR3M21CUUt5cUY2RHZ6VUE5WmNQTGdsSEN5NW9HRzdCczZpZ2ZId1VfdmVWYzFMUjNEZG1HWkNHT25LSzJDVDhzQ2hCd0xIVkRNMlZ6SFpOYmI0VUJnRllNQ2VxR0dtenE0UjVPdUZsNHdJYVhWRXB4RmtJNXpPWGtkNlMyRUJYNXhNZw?oc=5",
+      "sources": 1,
+      "county": "East Baton Rouge Parish"
+    },
     {
       "id": 1601,
       "country": "United States",
@@ -39,7 +59,7 @@
       "lng": -73.4379,
       "src": "News12 | Long Island",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMm5zRmpZOVJKQ0Jnc0J1NlhpYk0yMkRMVnh2dGpPc1hDR2ZQOWVVeFFOM3RFNW90RkxnekJrM0RYWjhyQXJ6NUN5SlZHek5vTDdyUE5JVlRuUGU5c2QyaS1DTWZEV0dvWEdoOW9SUjhCZUh6bEhCRUtEMjNSdTNteEt2bm8xQjZsQkRBNmMtTTBjbmpIYmJEclNhbS1ucVZEdlFQTFZaalYxdw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Western Connecticut Planning Region"
     },
     {
@@ -59,7 +79,7 @@
       "lng": -84.5597,
       "src": "WKYT",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV09qUHJzUU5icE9qY3AyX29XUnNfY0I4VEVleHVJdDlGVkw2OFdPSTZ3bWpCbWxROTk4NmZmNVlrMHlnWkRPU2NJdWNGOHBXTXQ4X2g0R3R1WFhaLVFsTmdERzJkWlM0eGlTWmF5SlA2UXNfWW1vT0EyN3kydVl1a19vN2p1NGgtQ0FSYUtNeUFpbEI5TlZxcXJWMFV3cVpFWWc?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Scott County"
     },
     {
@@ -16430,14 +16450,14 @@
     }
   },
   "last_run": {
-    "ingested": 122,
-    "skipped_seen": 107,
-    "recognized": 0,
-    "new": 0,
+    "ingested": 131,
+    "skipped_seen": 110,
+    "recognized": 3,
+    "new": 1,
     "updated": 0,
-    "rejected": 14,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 15,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16453,7 +16473,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 38
       },
       {
         "edition": "GB:en",
@@ -16467,7 +16487,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 38
       },
       {
         "edition": "CA:en",
@@ -16481,10 +16501,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 38
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-27T05:01:58.072176Z"
+    "ran_at": "2026-10-27T10:32:38.351879Z"
   }
 }
