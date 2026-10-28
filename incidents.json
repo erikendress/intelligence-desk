@@ -1,25 +1,45 @@
 {
-  "generated": "2026-10-28T01:21:06.638903Z",
-  "count": 812,
+  "generated": "2026-10-28T08:29:28.439759Z",
+  "count": 814,
   "incidents": [
     {
-      "id": 1613,
+      "id": 1615,
+      "country": "United Kingdom",
+      "date": "2026-10-28",
+      "school": "Hotel in Derry",
+      "city": "Derry",
+      "state": "Northern Ireland",
+      "sector": "Other",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Derry hotel suspicious package 2026-10-28",
+      "notes": "Suspicious package sent to Derry hotel as police carry out explosion after evacuation",
+      "lat": 54.9979,
+      "lng": -7.3213,
+      "src": "Belfast Live",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTVVQclNYWnVFcWkzc0tQcmpsa21ycTZET3prbC1wZnV3dzE5eFRfQkxld0RPbG9Mdi1FUnZjX25CLWpnMWQtRXZ3Vk45NmlQYnZ4VTN0WFNTa3JvX1MxcWswSDJHT2lPeUFockduZVpxWlp4a296bEtYV3dzNGtGclB4YVpJYjF5bG1sLXQweHhpNjlWeHRBTUt1b1bSAaIBQVVfeXFMTWNaRXRfQmxtamE2U1VsWnIxdHJid09VUlp3UGtTYUsxT29ZT0pqdllEOEVTbEl5OGtfMVpfSTAyMHdDckxsTlo2a0gyanU1bXRYRkNBSEJzZWNCUVpEa0dJQktrbTdmMlFyWE4wOXpXLVlNWTlvTVVpQTE4LWZEQUFyRXRYSHlnRHYtaEFHWFZZUGpLaWZ6UDQ1RkxUeFhoWHVn?oc=5",
+      "sources": 1,
+      "county": "County Londonderry"
+    },
+    {
+      "id": 1614,
       "country": "United States",
       "date": "2026-10-28",
-      "school": "Islamic Center of San Diego",
+      "school": "San Diego Mosque",
       "city": "San Diego",
       "state": "California",
       "sector": "Worship",
       "type": "Weapon / Intruder",
       "response": "Lockdown",
       "outcome": "Under investigation",
-      "cluster": "Islamic Center of San Diego lockdown 2026-10-28",
-      "notes": "Islamic Center of San Diego lockdown lifted",
+      "cluster": "San Diego mosque incident 2026-10-28",
+      "notes": "Lockdown lifted at San Diego mosque after potentially armed woman drives onto property",
       "lat": 32.7157,
       "lng": -117.1638,
       "src": "cbs8.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOGQtNUJoYVJjNG9PNFJEMWFsWURHZFN0VG9nMVZScmRVc2dGeWMzdmFXNFVZYUc2WHJPZ19zRGg5MGpIdHY0Q0VhdFBkMmJkZHU4WWVaTkF1Sm5rTWE4ekU0emxpNkVCYW9nUkdvLWhVOVdHWTNOakYyZ2VIVS03S0V6WS11RTBFWnI4MzJQbkZaaEFUWG96aDZrcl8tN1Zwb01vbGc1QXktSTdlUHNlMFhvclNpdU5Rd0lkTGNWbnJuNTE5VGFzWkdQcjM0X0U?oc=5",
-      "sources": 2,
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQVI2SlVfWDNZcTc0S29mQ2lYd3hfUWV1UDV1WG1xVE9UV2pBUHZaM1hFRWtveDBkaTU0WEdraWZwX1BuaDFSUW5iSjg0M1dLSEFxUWlXNVRSSEZnNlR5elZDdmJFakZQRllkZmZzbTIyWDlabE9IazhacUdEQWdLc0Q0Wk1sOXJSX19EZjZZN1BDaWhLU2ZpQmRZU0lodWhwN1ZMbXNGWWtkaGRZZEF2bHZiNExkcnVYeGVjY045b01heU00MnRmWkpkQXhCVWZzWEpldjFxU1dXcHVTdm5ZOWFDZEZ1NXBwMjlRRVB3WU5VaGdGY1JXcA?oc=5",
+      "sources": 1,
       "county": "San Diego County"
     },
     {
@@ -39,14 +59,34 @@
       "lng": -71.2009,
       "src": "NBC Boston",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWo5Nno4Q3lWY0pGS3NnVGtmM2x0QlBWckZDd2x5NHpuTHZqbS1rVmVQSHE5NC1zWlVITXNkaHlmRXplc2NYYkZOS3BnTDIydVBSbEYtQ3NiWmFXdzBGYWJhUzJxMWFWTWZ2Z1o1V2NHLXh4ZXpyWEViN0VjaC13TDVmWlNJeTF4RThaTFlB0gGWAUFVX3lxTE0wSHRLOXYyMEV0dlU5OFNtVFZKc0RueXpqSDktZWdWazhTUzRxREd6aFYzRmNBOFBCVmVGeHFTdXpGVlFyTVZJUjRFQ053NUthdHpVXzZnY0U1SlI0Qzh5OWtzbGdoOFEyZUJoazlad3FXMmk0RHIzNDBsU2NHVWROWlBEa2VGUnlEeDItS1NaU2JJVXFmdw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Rockingham County"
+    },
+    {
+      "id": 1613,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Islamic Center of San Diego",
+      "city": "San Diego",
+      "state": "California",
+      "sector": "Worship",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Islamic Center of San Diego lockdown 2026-10-28",
+      "notes": "Islamic Center of San Diego lockdown lifted",
+      "lat": 32.7157,
+      "lng": -117.1638,
+      "src": "cbs8.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOGQtNUJoYVJjNG9PNFJEMWFsWURHZFN0VG9nMVZScmRVc2dGeWMzdmFXNFVZYUc2WHJPZ19zRGg5MGpIdHY0Q0VhdFBkMmJkZHU4WWVaTkF1Sm5rTWE4ekU0emxpNkVCYW9nUkdvLWhVOVdHWTNOakYyZ2VIVS03S0V6WS11RTBFWnI4MzJQbkZaaEFUWG96aDZrcl8tN1Zwb01vbGc1QXktSTdlUHNlMFhvclNpdU5Rd0lkTGNWbnJuNTE5VGFzWkdQcjM0X0U?oc=5",
+      "sources": 7,
+      "county": "San Diego County"
     },
     {
       "id": 1612,
       "country": "Canada",
       "date": "2026-10-27",
-      "school": "Strathmore",
+      "school": "Strathmore hotel",
       "city": "Strathmore",
       "state": "Alberta",
       "sector": "Other",
@@ -59,7 +99,7 @@
       "lng": -113.3998,
       "src": "CityNews Calgary",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1o5LThITnRiNmswWHpMczRVX1I1bHZEekI3UGxCV1dFdHljUWs0UGUtbVlyYlFUX1FPZ3Q3TVl0bVZXZ0d5YS1zU0pSekVmM3Y1MUx4RklhTjdJd0Q1X2tRTENPZHRmalJwRWZRdmt4VnBSZHJxZmw5RURpUWw2STZ6MlVFeU9XazdKZHVFRUxvUW5HaXZ3UU12dWo0OU91MEVoVEdobTlqQXZvZUdldHJJQVQ5Q1NSX0RKMElhaUEtNGJTTXc?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Strathmore"
     },
     {
@@ -139,7 +179,7 @@
       "lng": -98.4951,
       "src": "kens5.com",
       "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOVXFtQVpmS1NCdi1HLW1ZdGhUNHJxb2RfaVMwTmpETW53TUlZTzZNUGZGWnYtaTZtYWxXeFo5Vy1qbVJ1d1RiNXlGb0FtT2dzdXc1NEZ4TjJ5TjFORTJZR09mOVdZYWxaWVl4aFRZMXdIV3UzbDhFRllGU1BEVFl6bmJQUW1rcnlCeWdhSXM1VGVHNTlqNlZQR3BVSUppLTVjeElKVjBMcEk1a2lUblYxWVMzMENoSWZPTmk1eUFTU1BGck9zNEtTeFUybTEzTHZxSHN2Q2RRSXBTXzloZF92MVF3UU00dDFrRHo1Q1JGRlZTamdraE15VUZ6Nm9LODRFeXBVV0tySnJVcEFlQldRSF9zVzFoRmNLMVNEZ3REWUJLbHhUTEdieU94bGJ1Z21NdUdlaA?oc=5",
-      "sources": 10,
+      "sources": 13,
       "county": null
     },
     {
@@ -206,7 +246,7 @@
       "lng": -85.0649,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3hxcmxMdS0xeXF1a2xlYk1DM1Nuc2NmbGg0U0s3WWM2Y1c4b3RXcmxUcG5EbFZtaGViQkEyRWJyQTRNa0x5cHBqZWhBN0NtNzRRRTBBekNHNVhXeDZMdlY2X2lZRzRxei1pbG0tX1FWeTZWLVpEMC1TOXk4LUkwMlVOMkRqZjIxcG8tdXNpaFV3MDFu?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Branch County"
     },
     {
@@ -16668,10 +16708,10 @@
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 113,
+    "ingested": 137,
+    "skipped_seen": 106,
     "recognized": 13,
-    "new": 4,
+    "new": 2,
     "updated": 0,
     "rejected": 17,
     "errors": 0,
@@ -16691,7 +16731,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 41
       },
       {
         "edition": "GB:en",
@@ -16705,7 +16745,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 48
+        "items": 43
       },
       {
         "edition": "CA:en",
@@ -16719,10 +16759,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 41
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-28T01:21:06.621374Z"
+    "ran_at": "2026-10-28T08:29:28.428547Z"
   }
 }
