@@ -1,7 +1,87 @@
 {
-  "generated": "2026-10-27T21:19:51.101355Z",
-  "count": 808,
+  "generated": "2026-10-28T01:21:06.638903Z",
+  "count": 812,
   "incidents": [
+    {
+      "id": 1613,
+      "country": "United States",
+      "date": "2026-10-28",
+      "school": "Islamic Center of San Diego",
+      "city": "San Diego",
+      "state": "California",
+      "sector": "Worship",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Islamic Center of San Diego lockdown 2026-10-28",
+      "notes": "Islamic Center of San Diego lockdown lifted",
+      "lat": 32.7157,
+      "lng": -117.1638,
+      "src": "cbs8.com",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOGQtNUJoYVJjNG9PNFJEMWFsWURHZFN0VG9nMVZScmRVc2dGeWMzdmFXNFVZYUc2WHJPZ19zRGg5MGpIdHY0Q0VhdFBkMmJkZHU4WWVaTkF1Sm5rTWE4ekU0emxpNkVCYW9nUkdvLWhVOVdHWTNOakYyZ2VIVS03S0V6WS11RTBFWnI4MzJQbkZaaEFUWG96aDZrcl8tN1Zwb01vbGc1QXktSTdlUHNlMFhvclNpdU5Rd0lkTGNWbnJuNTE5VGFzWkdQcjM0X0U?oc=5",
+      "sources": 2,
+      "county": "San Diego County"
+    },
+    {
+      "id": 1611,
+      "country": "United States",
+      "date": "2026-10-28",
+      "school": "Salem, NH",
+      "city": "Salem",
+      "state": "New Hampshire",
+      "sector": "Other",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Salem NH fugitive search 2026-10-28",
+      "notes": "Police search for dangerous fugitive prompts shelter-in-place in Salem, NH",
+      "lat": 42.7885,
+      "lng": -71.2009,
+      "src": "NBC Boston",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWo5Nno4Q3lWY0pGS3NnVGtmM2x0QlBWckZDd2x5NHpuTHZqbS1rVmVQSHE5NC1zWlVITXNkaHlmRXplc2NYYkZOS3BnTDIydVBSbEYtQ3NiWmFXdzBGYWJhUzJxMWFWTWZ2Z1o1V2NHLXh4ZXpyWEViN0VjaC13TDVmWlNJeTF4RThaTFlB0gGWAUFVX3lxTE0wSHRLOXYyMEV0dlU5OFNtVFZKc0RueXpqSDktZWdWazhTUzRxREd6aFYzRmNBOFBCVmVGeHFTdXpGVlFyTVZJUjRFQ053NUthdHpVXzZnY0U1SlI0Qzh5OWtzbGdoOFEyZUJoazlad3FXMmk0RHIzNDBsU2NHVWROWlBEa2VGUnlEeDItS1NaU2JJVXFmdw?oc=5",
+      "sources": 1,
+      "county": "Rockingham County"
+    },
+    {
+      "id": 1612,
+      "country": "Canada",
+      "date": "2026-10-27",
+      "school": "Strathmore",
+      "city": "Strathmore",
+      "state": "Alberta",
+      "sector": "Other",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Strathmore armed robbery 2026-10-27",
+      "notes": "attempted armed robbery prompts Strathmore shelter-in-place",
+      "lat": 51.0435,
+      "lng": -113.3998,
+      "src": "CityNews Calgary",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1o5LThITnRiNmswWHpMczRVX1I1bHZEekI3UGxCV1dFdHljUWs0UGUtbVlyYlFUX1FPZ3Q3TVl0bVZXZ0d5YS1zU0pSekVmM3Y1MUx4RklhTjdJd0Q1X2tRTENPZHRmalJwRWZRdmt4VnBSZHJxZmw5RURpUWw2STZ6MlVFeU9XazdKZHVFRUxvUW5HaXZ3UU12dWo0OU91MEVoVEdobTlqQXZvZUdldHJJQVQ5Q1NSX0RKMElhaUEtNGJTTXc?oc=5",
+      "sources": 1,
+      "county": "Strathmore"
+    },
+    {
+      "id": 1610,
+      "country": "United States",
+      "date": "2026-10-27",
+      "school": "Schools in Arlington",
+      "city": "Arlington",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Arlington TX bomb threat 27 Oct 2026",
+      "notes": "Three Arlington schools evacuated for bomb threat",
+      "lat": 32.7356,
+      "lng": -97.1071,
+      "src": "WFAA",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ1V1Z1R5dF9IN0ZmOFo0M0lLOXRCaXpTTHFsOE10cDEta2VUcjl6bE96WlBYOEhoNWFFNmIzWi1QTkZWbEtxM2hTc0hLRHE1dW1YaU9ibGNfVnptdkJTdF9OWjJxOVdpejF1UHNuQmtzck9hRDNhbFFpaFNWdTRMYVZUVldHWEZaTFJ5Z1ZkZkpSZDI4bktLMTZTSFQ2NHRQTzQtaXUtcElkM2xqdmpCYWJIcl9taC1aOUFWbTEyZHpOaTlIeDEw?oc=5",
+      "sources": 1,
+      "county": "Tarrant County"
+    },
     {
       "id": 1609,
       "country": "United Kingdom",
@@ -46,7 +126,7 @@
       "id": 1607,
       "country": "United States",
       "date": "2026-10-27",
-      "school": "Sotomayor High School",
+      "school": "Sonia Sotomayor High School",
       "city": "San Antonio",
       "state": "Texas",
       "sector": "K-12",
@@ -59,7 +139,7 @@
       "lng": -98.4951,
       "src": "kens5.com",
       "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxOVXFtQVpmS1NCdi1HLW1ZdGhUNHJxb2RfaVMwTmpETW53TUlZTzZNUGZGWnYtaTZtYWxXeFo5Vy1qbVJ1d1RiNXlGb0FtT2dzdXc1NEZ4TjJ5TjFORTJZR09mOVdZYWxaWVl4aFRZMXdIV3UzbDhFRllGU1BEVFl6bmJQUW1rcnlCeWdhSXM1VGVHNTlqNlZQR3BVSUppLTVjeElKVjBMcEk1a2lUblYxWVMzMENoSWZPTmk1eUFTU1BGck9zNEtTeFUybTEzTHZxSHN2Q2RRSXBTXzloZF92MVF3UU00dDFrRHo1Q1JGRlZTamdraE15VUZ6Nm9LODRFeXBVV0tySnJVcEFlQldRSF9zVzFoRmNLMVNEZ3REWUJLbHhUTEdieU94bGJ1Z21NdUdlaA?oc=5",
-      "sources": 6,
+      "sources": 10,
       "county": null
     },
     {
@@ -75,11 +155,11 @@
       "outcome": "Under investigation",
       "cluster": "Greenville mall bomb threat 2026-10-27",
       "notes": "Greenville police evacuate mall while investigating bomb threat",
-      "lat": null,
-      "lng": null,
+      "lat": 35.6132,
+      "lng": -77.3725,
       "src": "WCTI",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVFhMa2JDOGV6bWVmMzlaM1NHNGVrQUlYMjl1Zk9wV05zdk5Va3dtUkdEUmNnNHRSekk4eF9DTVdhNE5MWTFNTV9vN3BOY3libFI5Tk1DZFhpUU40ZnZJQ1VJTXQ0TnVmSXNqOVI4R0dRbHVuSndsMXlfR2dINjZ6Smlhc2dDWHhaeFpvWWdqcEZNaEJNd1RGQQ?oc=5",
-      "sources": 3,
+      "sources": 5,
       "county": null
     },
     {
@@ -99,7 +179,7 @@
       "lng": -97.9716,
       "src": "KWTX",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdHh2VlE0VXc4U05WUVdRcV9GVHl3ZF90YV9Fd1FnRG9HWUI2RUV0M1p5U0FjaWxHdDJsZFBmTGhmR2M0VFNXQlhaOUdJdjEzWHFia1dlX1pEWkItVXB0ZGh4eXZ1SE1oX2tQbkgwM0F3UnAyUUpuTnpCN1NZSEZ0V3dCVUNFQdIBmgFBVV95cUxOTFh6QzRXbEpybU9vRFRvd2kwYXAwSkZuNWt0QzZJVHJSM3ZJUVIwWVRvMWdjeGRKak53TkpjZjBiaGRheUEweUJ3aGdQMG4xQzhsd2N1Qk9GcTJnaTBleEdrYUdnYjcxOFMweDFOck4tRC11TEhVX0FQVFRMV0tqbGtpZURxMHVITE5UU2dZSGlqcWZvMmxoYkR3?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Hamilton County",
       "signals": {
         "repeat": {
@@ -126,7 +206,7 @@
       "lng": -85.0649,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3hxcmxMdS0xeXF1a2xlYk1DM1Nuc2NmbGg0U0s3WWM2Y1c4b3RXcmxUcG5EbFZtaGViQkEyRWJyQTRNa0x5cHBqZWhBN0NtNzRRRTBBekNHNVhXeDZMdlY2X2lZRzRxei1pbG0tX1FWeTZWLVpEMC1TOXk4LUkwMlVOMkRqZjIxcG8tdXNpaFV3MDFu?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Branch County"
     },
     {
@@ -16444,7 +16524,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-27",
+    "computed": "2026-10-28",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -16452,17 +16532,6 @@
     },
     "waves": [],
     "repeat_counties": [
-      {
-        "county": "Butler County",
-        "region": "Pennsylvania",
-        "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-10-13",
-          "2026-10-15",
-          "2026-10-19"
-        ]
-      },
       {
         "county": "Merced County",
         "region": "California",
@@ -16474,22 +16543,22 @@
         ]
       },
       {
+        "county": "Butler County",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-15",
+          "2026-10-19"
+        ]
+      },
+      {
         "county": "Wayne County",
         "region": "Michigan",
         "country": "United States",
         "events": 2,
         "dates": [
           "2026-10-18",
-          "2026-10-20"
-        ]
-      },
-      {
-        "county": "Knox County",
-        "region": "Tennessee",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-13",
           "2026-10-20"
         ]
       },
@@ -16534,41 +16603,32 @@
         ]
       }
     ],
-    "stacked_recent": [
-      {
-        "id": 1426,
-        "date": "2026-10-13",
-        "facility": "North Kansas City High School",
-        "region": "Missouri",
-        "country": "United States"
-      }
-    ],
+    "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-10-13",
-      "to": "2026-10-26",
+      "from": "2026-10-14",
+      "to": "2026-10-27",
       "days": 14,
       "hoax": {
-        "total": 62,
-        "bomb": 50,
+        "total": 63,
+        "bomb": 51,
         "swatting": 12,
         "schools": 43,
         "by_sector": {
           "K-12": 39,
-          "Transit": 4,
-          "Retail": 4,
+          "Retail": 5,
+          "Government": 5,
           "Other": 4,
-          "Government": 4,
           "Higher Ed": 4,
+          "Transit": 3,
           "Venue": 2,
           "Healthcare": 1
         },
         "states": 26,
-        "confirmed_hoax": 18,
+        "confirmed_hoax": 19,
         "arrests": 6,
         "under_investigation": 34,
         "per_day": {
-          "2026-10-13": 6,
           "2026-10-14": 6,
           "2026-10-15": 7,
           "2026-10-16": 2,
@@ -16581,10 +16641,10 @@
           "2026-10-23": 5,
           "2026-10-24": 3,
           "2026-10-25": 1,
-          "2026-10-26": 4
+          "2026-10-26": 4,
+          "2026-10-27": 7
         },
         "per_day_schools": {
-          "2026-10-13": 5,
           "2026-10-14": 4,
           "2026-10-15": 5,
           "2026-10-16": 2,
@@ -16597,24 +16657,25 @@
           "2026-10-23": 4,
           "2026-10-24": 1,
           "2026-10-25": 0,
-          "2026-10-26": 3
+          "2026-10-26": 3,
+          "2026-10-27": 5
         }
       },
       "suspicious_mail": {
-        "total": 39,
-        "government": 33
+        "total": 35,
+        "government": 31
       }
     }
   },
   "last_run": {
-    "ingested": 142,
-    "skipped_seen": 94,
-    "recognized": 17,
-    "new": 5,
-    "updated": 1,
-    "rejected": 31,
+    "ingested": 144,
+    "skipped_seen": 113,
+    "recognized": 13,
+    "new": 4,
+    "updated": 0,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 48,
+    "attempted": 31,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16630,7 +16691,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 27
+        "items": 30
       },
       {
         "edition": "GB:en",
@@ -16641,27 +16702,27 @@
       },
       {
         "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 48
+      },
+      {
+        "edition": "CA:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
         "items": 49
-      },
-      {
-        "edition": "CA:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "CA:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 27
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-27T21:19:51.091663Z"
+    "ran_at": "2026-10-28T01:21:06.621374Z"
   }
 }
