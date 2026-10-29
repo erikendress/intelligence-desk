@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T00:55:11.428302Z",
+  "generated": "2026-10-29T07:03:33.962270Z",
   "count": 826,
   "incidents": [
     {
@@ -139,7 +139,7 @@
       "lng": -85.1122,
       "src": "WZZM13.com",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQUozN3BqYmZfTDdwSDFPWlVBdjJCZkNwMEtkYk1SUFhHNko0YjBYemUwV1dxRnJTSmtpQTRzZkN3cWlGVXVIZVVMekFReFEyZmF2a0cyUlVGZzhMLVNfd2Y3TjRpakE2SDVEbTNGbXFoUXE5T0w4NkZjS0FLMlBUTFUzMDZpWGZmTnZxNjBJVkdDcDRkVWluTnktVXNDV1JHM2FfenEzRnQ0aVFpaVpta0doM29nYVQtMkIwaVJ3NmRIYjBrVk9mTW1Bc0xJbVNFMFNoaE90VjRJYlEwS2NiM29zdDVwREZRUVY5N0s3VQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Montcalm County"
     },
     {
@@ -199,7 +199,7 @@
       "lng": -96.9004,
       "src": "The Mighty 790 KFGO",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HV2FNNnVjeDRsYTBfMmk4QkhDek1HWnRsLWtRMGFaMVVnOHVKZDdsamlacUdsQ1gtcW1yOExCNU4ycTRTc081Y1N3QjY?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Cass County"
     },
     {
@@ -16948,14 +16948,14 @@
     }
   },
   "last_run": {
-    "ingested": 143,
-    "skipped_seen": 117,
-    "recognized": 7,
-    "new": 4,
+    "ingested": 144,
+    "skipped_seen": 135,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 18,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16971,7 +16971,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 58
       },
       {
         "edition": "GB:en",
@@ -16985,7 +16985,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 51
+        "items": 58
       },
       {
         "edition": "CA:en",
@@ -16999,10 +16999,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 56
+        "items": 58
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-29T00:55:11.412538Z"
+    "ran_at": "2026-10-29T07:03:33.948652Z"
   }
 }
