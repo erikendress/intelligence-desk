@@ -1,7 +1,90 @@
 {
-  "generated": "2026-10-29T14:16:48.331633Z",
-  "count": 827,
+  "generated": "2026-10-29T19:41:46.521959Z",
+  "count": 831,
   "incidents": [
+    {
+      "id": 1632,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Concierge Apartments",
+      "city": "Rocky Hill",
+      "state": "Connecticut",
+      "sector": "Other",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Concierge Apartments Rocky Hill cleaning solution 2026-10-29",
+      "notes": "Cleaning solution behind shelter-in-place at Concierge Apartments in Rocky Hill",
+      "lat": 41.6648,
+      "lng": -72.6393,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVHo4REU4RHo2X0QtbHpmVVlBUUVZbzluWE5DLXJIOHgxVEhMQnYtVnl1cGNKQ2tiempkWDlpOHdQQ1VwcHJmazM0Uko0UmNheE5tY2w2MnpXUkxuZ0V3Q2gtNm5hWVpUM3B1cjFXNzRVSGw4Qm53MnVSXy1lMlcwVFY4eXdDZUwzUHlGZHBxOUtNa00?oc=5",
+      "sources": 1,
+      "county": "Capitol Planning Region"
+    },
+    {
+      "id": 1631,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Chestnut Ridge Middle School",
+      "city": "Monsey",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Chestnut Ridge Middle School bomb threat Monsey 2026-10-29",
+      "notes": "Chestnut Ridge Middle School Evacuated Following Reported Bomb Threat",
+      "lat": 41.118,
+      "lng": -74.0594,
+      "src": "Monsey Scoop",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTm5oRVNkVWhFSXNhTEJ2MmwzX2tfSDJES3FiTHFfRHM1S1MwcXp6OGhCN2xIYXF3N0ZSQnJuSWdmcXlyeWxOVmhuaDlNNFhHWGVfV19vTVdDbTB4aXVaTGtCQkxqVDNPQmNCVmRWbjY5SVE5OTNjQ1J5V0Y2VVBERE9FRFgzejg3RV95OGZ0V21Yb1R3NTN0OVJEVG5oRk9KdkRmSHUyNnc?oc=5",
+      "sources": 3,
+      "county": "Rockland County"
+    },
+    {
+      "id": 1630,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Swea City School",
+      "city": "Swea City",
+      "state": "Iowa",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Swea City School bomb threat 2026-10-29",
+      "notes": "Bomb threat at Swea City school ruled non-credible",
+      "lat": 43.3848,
+      "lng": -94.3097,
+      "src": "KIMT",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVC1BXzQ0UzdMR05iVEV5QmpRd09QaWZmRl9BZ2c4WW5aalFqVTU2Ynh3WWJCMnJyeXRQZWhZRUNfZFozSkUwdUdiLUtZaG5aSkZGeC1MZURRUFR3MDI2ZjVpZTA5S2h0dUJPOTFiSHJtMVM4Y0N2Uzh3T01uTjk4cnRrdEV1S2NXOGY4SHM3ZkI4WFFOTzRFY1JfaGdkNHVHRDNZX09SUmh3dHhaU290UldEdTRiZUxjSkQyUmZhdXJMSFNL?oc=5",
+      "sources": 1,
+      "county": "Kossuth County"
+    },
+    {
+      "id": 1629,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "West Florida High School",
+      "city": "Pensacola",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "West Florida High School bomb threat 2026-10-29",
+      "notes": "ECSO clears West Florida High School of bomb, active shooter threat",
+      "lat": 30.4213,
+      "lng": -87.2169,
+      "src": "Pensacola News Journal",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSEt3dFVNQ2QzUXJfQnRfdTFCdlZleUtWTkRRRENkelVUVFRrdzdpTHA0cHdrZU9kbmVaU3o5bC1jNWF3aHdSRzhITDBaNFNBaVgxcHlwMFNjSUo4LXFIalY0ZU02cTFrSnBQTVhxMDhUdDRDLU01WG4zZElDS3hiQmxxdUhsZ2xxSXF0cUZpM01WWG9HVlFoR1ZZMkdnb1lreUhHeHJ1bGdTSGZidFlFdGZ6UG9uNnpOV3NvcWpiYmRCUU4tQmc?oc=5",
+      "sources": 3,
+      "county": "Escambia County",
+      "signals": {
+        "stacked": true
+      }
+    },
     {
       "id": 1628,
       "country": "United States",
@@ -59,7 +142,7 @@
       "lng": -68.7622,
       "src": "newscentermaine.com",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMW9pZU1BQ0x0WWRleUFkS0FiWDUyNGg1OW1kVm5DUTg0WTRtaklSRUpZNXV1azRNbDFUZGFzRG9Lcm9ndGNwZ3N4RmdyUTZxUnp6RVlxLXZaY3RNa3VOSzFQV2VGMkdmOXU1QVdLOWdlb0tjell0Wmh0Y3U3RUx0YmxfS3NuR3hxNU9zNVl1a0Nzall6MjMwQXU4OGp1aWFFZzBKdFk0VFEwMm5aT0RvQVVVMURVaWxqaFZTYi1DX0xLVi1zWFRJZzE4OUgyUXhjWFlyRWtBWnpJSDZHM3oyOGtBQzdiMU5ROXUzZURuWEY?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Penobscot County"
     },
     {
@@ -16903,7 +16986,15 @@
         ]
       }
     ],
-    "stacked_recent": [],
+    "stacked_recent": [
+      {
+        "id": 1629,
+        "date": "2026-10-29",
+        "facility": "West Florida High School",
+        "region": "Florida",
+        "country": "United States"
+      }
+    ],
     "headline": {
       "country": "United States",
       "from": "2026-10-15",
@@ -16968,14 +17059,14 @@
     }
   },
   "last_run": {
-    "ingested": 146,
-    "skipped_seen": 136,
-    "recognized": 1,
-    "new": 1,
+    "ingested": 155,
+    "skipped_seen": 121,
+    "recognized": 9,
+    "new": 4,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 34,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16991,38 +17082,38 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 59
-      },
-      {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 59
-      },
-      {
-        "edition": "CA:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "CA:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
         "items": 54
+      },
+      {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 59
+      },
+      {
+        "edition": "CA:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "CA:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 52
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-29T14:16:48.319692Z"
+    "ran_at": "2026-10-29T19:41:46.498747Z"
   }
 }
