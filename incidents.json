@@ -1,7 +1,87 @@
 {
-  "generated": "2026-10-28T21:04:27.006004Z",
-  "count": 822,
+  "generated": "2026-10-29T00:55:11.428302Z",
+  "count": 826,
   "incidents": [
+    {
+      "id": 1627,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Pleasant Grove High School",
+      "city": "Elk Grove",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Elk Grove stabbing incident 2026-10-29",
+      "notes": "2 suspects detained, lockdown lifted at Pleasant Grove High",
+      "lat": 38.4088,
+      "lng": -121.3716,
+      "src": "Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSG5GdFF3NkFCNDRSNl9LZVBCM2dHN1B3TE1tLTl1S1JqeU1PZXhRbUl6S1JLZlNWeEtCV2pnSk52UWVUSUdXOWM4UTlmeVBWYjc2M3E0RHZqQ2cwcUlCWklWN28wSnF5YWVJWG9aSXR2X0c3Q25JU24tQXRtekNwZGJyVnN0bi1SUGlxejFOdzdaUW02RDJMOFhHS09RbC0yM3AxMjlUa1lZNUxHeWpYYVFEYTVRZ1BZTDdOWm9uYURBVmtSY0p1Y1A4UFFjdlZWdTZObGk2MEhXZ2pGZjI4R2JYdTB1U1FFUktuVnkyd1A1WnJLdzBNSndB0gH_AUFVX3lxTE9NZWFCeC1lTlBmZTM5WXdCZDNNLVBZNFlVaEJDeE82cUtSLTNCV09zT2wwcnVuMlhQZTNHWlVicXEtNXRfWXg2X0NidFp0a0xMVVdRdVhVbER6cUV3cVh1TWVienFhSTBOOGI2ZUNqT194TUVEM05BTGN2Y3hvLTh5M3RFN3FTSFZDYktncTFXZE1zaFYxeXY2dlBpVFhFemR5VE9ibEV4LWNxMHZFNjRKMWtGZkpfbFVWOFdVUldGNkc1bEFvbGc5U0JvbjhEalUzbVVRdkxaRFJ6djBCUGtfMGFvUGcyZkp2R3lGOUNNQjBrY3FwQ3NuNnJvbzJNWQ?oc=5",
+      "sources": 1,
+      "county": "Sacramento County"
+    },
+    {
+      "id": 1625,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Schools in Brewer",
+      "city": "Brewer",
+      "state": "Maine",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Brewer-schools-escaped-patient-2026-10-29",
+      "notes": "Brewer schools lockdown lifted after police find escaped patient",
+      "lat": 44.7968,
+      "lng": -68.7622,
+      "src": "newscentermaine.com",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNMW9pZU1BQ0x0WWRleUFkS0FiWDUyNGg1OW1kVm5DUTg0WTRtaklSRUpZNXV1azRNbDFUZGFzRG9Lcm9ndGNwZ3N4RmdyUTZxUnp6RVlxLXZaY3RNa3VOSzFQV2VGMkdmOXU1QVdLOWdlb0tjell0Wmh0Y3U3RUx0YmxfS3NuR3hxNU9zNVl1a0Nzall6MjMwQXU4OGp1aWFFZzBKdFk0VFEwMm5aT0RvQVVVMURVaWxqaFZTYi1DX0xLVi1zWFRJZzE4OUgyUXhjWFlyRWtBWnpJSDZHM3oyOGtBQzdiMU5ROXUzZURuWEY?oc=5",
+      "sources": 1,
+      "county": "Penobscot County"
+    },
+    {
+      "id": 1626,
+      "country": "United States",
+      "date": "2026-10-28",
+      "school": "Westchester Courthouse",
+      "city": "White Plains",
+      "state": "New York",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Westchester Courthouse suspicious package 2026-10-28",
+      "notes": "Suspicious Package At Westchester Courthouse Determined To Be Nonhazardous",
+      "lat": 41.034,
+      "lng": -73.7629,
+      "src": "News12 | Hudson Valley",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb0NhTWEyd280UE1UYUZ0TDR2Qm5QSERESFVGMnpvYkh6T1dqbk1xdWdLTmQzVEx5YnZjcW96SERnSWxxd09EZFFyZERadnk0YmRZajQzZUgxa0hxZ3l6S3g4el83SjBfc18zTUFXbHN6VEszSjcwMVpfalJzejRyTVoyeG1CSzFzWWh4M01ya3VTOXVyZnBHMk0wX3ZsbS1PQkNBdXM4OElWQQ?oc=5",
+      "sources": 1,
+      "county": "Westchester County"
+    },
+    {
+      "id": 1624,
+      "country": "United States",
+      "date": "2026-10-28",
+      "school": "Pine Wood Elementary",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Pine Wood Elementary active-shooter alert 2026-10-28",
+      "notes": "Active Shooter Alert Determined To Be False Alarm At Pine Wood Elementary, No Real Danger Reported",
+      "lat": null,
+      "lng": null,
+      "src": "westcentralsbest.com",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNVjVqcUlxc2U4bTJQMG9oTjN3eHlFRl91T3owWlRsZHJ5ZXRsMkxGYVR1YlktZzhudnhaTU50cElKQ05qU1cwLVhNRHA4Y0dYRk5tVG9fcXFUOTAzeTcySUJ3QVM1SG1VcDlMbXpXMWpoRnBmRnBmX2tkMlhKQktIVEJULWpjZUQ1WGlaUmROT3J1MTEwX2tNbnBIdjRxYnZtYVA3OHdfSmg5WkJXZjVIcW5ZSUVhYUpBOGlzV0JXSEM2dmRweHlOckxwdGJKYjJ1YXZvOFVpNTd6SmNrOHBDTzRDU0RiM2tBNEVMcFRfM3M5WkRBUHZwSkpTWExQRTIzT08yTFhyMjR5bnVZYlg2MUo5WE5oc1p2UVVfaDhOeFVuQQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1623,
       "country": "United States",
@@ -79,7 +159,7 @@
       "lng": -81.6996,
       "src": "WV News",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOG9iTUlCRzdITjRaTzR2dVp1dUdaSmpnNWt3X0c1RzdrME53MVZMMk5rVG1xWUt6Rk5pUVppUHQyb3NmdldRT19QaGxLbjFPVDhRMWt1OE83VS1fRng0b1hTR3NmZEJFVE16S3lGOW5FLXRDTXo2TjhncXZTakp6endkc0FmSWtWRlF5UEpIZkpWbkthaVg5Vi0zN0ZfeWQzZDdhRnZhRmo5VlRqck5sd3p1bmE0TFpyb2NtT0xCZmVkeHpQLW0zY2ZCZk5nLXNXUjhwdExGY3p0c1pWdTkyaXVzVHVBM09sQUcyUlktc2Z0R1NIckNVOXJDaTRCQ2hIX25EVWlIRXh5QQ?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Kanawha County"
     },
     {
@@ -119,7 +199,7 @@
       "lng": -96.9004,
       "src": "The Mighty 790 KFGO",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HV2FNNnVjeDRsYTBfMmk4QkhDek1HWnRsLWtRMGFaMVVnOHVKZDdsamlacUdsQ1gtcW1yOExCNU4ycTRTc081Y1N3QjY?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Cass County"
     },
     {
@@ -159,7 +239,7 @@
       "lng": -86.1747,
       "src": "WNDU",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSk4zREp5Y1NtWWVwMEFoODRvVUlHZm9YamhyYmw1VEZPX19iWXFJTGtrZnVCVkFRRVB2WnloZHZ6cS0wYzlCZEoxZ091UW9nM09xbHY3dHhuV2t3dmR4UVNqelVkRkRmcF9ELXhScEZJOFZlLXo0RHVXcWQydFRiLTJHOTAwem55NHh6eFpiTU9faE42ai1BSDBzUkFjcFN3Z1Jn?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": null
     },
     {
@@ -16724,7 +16804,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-28",
+    "computed": "2026-10-29",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -16806,30 +16886,29 @@
     "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-10-14",
-      "to": "2026-10-27",
+      "from": "2026-10-15",
+      "to": "2026-10-28",
       "days": 14,
       "hoax": {
-        "total": 63,
-        "bomb": 51,
-        "swatting": 12,
+        "total": 62,
+        "bomb": 47,
+        "swatting": 15,
         "schools": 43,
         "by_sector": {
           "K-12": 39,
-          "Retail": 5,
-          "Government": 5,
-          "Other": 4,
+          "Government": 6,
           "Higher Ed": 4,
+          "Retail": 4,
           "Transit": 3,
+          "Other": 3,
           "Venue": 2,
           "Healthcare": 1
         },
         "states": 26,
-        "confirmed_hoax": 19,
-        "arrests": 6,
-        "under_investigation": 34,
+        "confirmed_hoax": 18,
+        "arrests": 7,
+        "under_investigation": 33,
         "per_day": {
-          "2026-10-14": 6,
           "2026-10-15": 7,
           "2026-10-16": 2,
           "2026-10-17": 2,
@@ -16842,10 +16921,10 @@
           "2026-10-24": 3,
           "2026-10-25": 1,
           "2026-10-26": 4,
-          "2026-10-27": 7
+          "2026-10-27": 7,
+          "2026-10-28": 5
         },
         "per_day_schools": {
-          "2026-10-14": 4,
           "2026-10-15": 5,
           "2026-10-16": 2,
           "2026-10-17": 1,
@@ -16858,24 +16937,25 @@
           "2026-10-24": 1,
           "2026-10-25": 0,
           "2026-10-26": 3,
-          "2026-10-27": 5
+          "2026-10-27": 5,
+          "2026-10-28": 4
         }
       },
       "suspicious_mail": {
-        "total": 35,
-        "government": 31
+        "total": 36,
+        "government": 32
       }
     }
   },
   "last_run": {
-    "ingested": 147,
-    "skipped_seen": 102,
-    "recognized": 20,
-    "new": 8,
-    "updated": 1,
-    "rejected": 23,
+    "ingested": 143,
+    "skipped_seen": 117,
+    "recognized": 7,
+    "new": 4,
+    "updated": 0,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 45,
+    "attempted": 26,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -16891,7 +16971,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 56
+        "items": 53
       },
       {
         "edition": "GB:en",
@@ -16905,7 +16985,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 56
+        "items": 51
       },
       {
         "edition": "CA:en",
@@ -16923,6 +17003,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-28T21:04:26.992215Z"
+    "ran_at": "2026-10-29T00:55:11.412538Z"
   }
 }
