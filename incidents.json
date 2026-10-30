@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-30T12:53:08.606438Z",
-  "count": 834,
+  "generated": "2026-10-30T18:36:44.830322Z",
+  "count": 835,
   "incidents": [
+    {
+      "id": 1636,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "William Allen High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "William Allen High School bomb threat October 2026",
+      "notes": "William Allen High School dismisses early after bomb threat, 5th threat in last 2 weeks",
+      "lat": null,
+      "lng": null,
+      "src": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQSUFvNV9ISTNpZFpzNEZYaDlrV1Zab2lKYWszYVk1VHVWOFd5a21hLWVlME5JcUl5cVQyMkVNMTJVTEhoekNZTmJVYmQ0NDNJS2x2Qm8wd05Sd3pyUk9IVDcwdkJrQ2pJQXFTZVNpT0NJcGtyLWZ0MEs1TTVMeXpUZVJaNUkxWnlINE1lY2dVaDNJaUlFdFdvdXZTZURDc1pkZ185UFlYVDRCbWYwRkpseU9FdVhTQXRXX3h5b3JyOWdxeUQ4ZnJZVUtjQmNHc1JEcGNVU2g1eHNjQzB4Q3kyVjFPWnR4ZGd5NHNWcHB3Y0ZkSTJVREV1MmY3dXFGbFh5UW51UmFxX0V6cGt2djh1NUZjdGFqbG1Fdmxpd01VM0cxUWJ4ZVdrNDVlWk1ER2ZDM1NJ?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1634,
       "country": "United States",
@@ -59,7 +79,7 @@
       "lng": -80.2082,
       "src": "TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IR2xMeUZuREJwZVFBbjR1ZnlhNV8tcndReTQ5dnZjRUJ2UWpmWlpPVUttZFdVQ3hrTkE5eHRYVGlVRWhJQkhQVEp5cHBMY1BuWHdkWGJB?oc=5",
-      "sources": 10,
+      "sources": 11,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -106,7 +126,7 @@
       "lng": -74.0594,
       "src": "Monsey Scoop",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTm5oRVNkVWhFSXNhTEJ2MmwzX2tfSDJES3FiTHFfRHM1S1MwcXp6OGhCN2xIYXF3N0ZSQnJuSWdmcXlyeWxOVmhuaDlNNFhHWGVfV19vTVdDbTB4aXVaTGtCQkxqVDNPQmNCVmRWbjY5SVE5OTNjQ1J5V0Y2VVBERE9FRFgzejg3RV95OGZ0V21Yb1R3NTN0OVJEVG5oRk9KdkRmSHUyNnc?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Rockland County"
     },
     {
@@ -17093,14 +17113,14 @@
     }
   },
   "last_run": {
-    "ingested": 154,
-    "skipped_seen": 131,
+    "ingested": 153,
+    "skipped_seen": 132,
     "recognized": 3,
-    "new": 0,
+    "new": 1,
     "updated": 0,
-    "rejected": 20,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 23,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17144,10 +17164,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 53
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-30T12:53:08.586239Z"
+    "ran_at": "2026-10-30T18:36:44.810952Z"
   }
 }
