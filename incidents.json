@@ -1,7 +1,114 @@
 {
-  "generated": "2026-10-30T18:36:44.830322Z",
-  "count": 835,
+  "generated": "2026-10-30T22:58:37.191104Z",
+  "count": 842,
   "incidents": [
+    {
+      "id": 1641,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "University of Rhode Island",
+      "city": "Kingston",
+      "state": "Rhode Island",
+      "sector": "Higher Ed",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "URI swatting 2026-10-30",
+      "notes": "Police investigate suspected swatting incident at the University of Rhode Island",
+      "lat": 41.4732,
+      "lng": -71.5225,
+      "src": "WJAR",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMHV2OTY3RDJfYzZOMFdJTVRGN2tVMlU1N0xYb29FbFdxUXFPMl9wQzNSdThvcmRyR3p0SHE1M1dJbW9pM04weEhIakVyMVYwV1Nub1d2WWo5MVRSZWFzSmg0VHk1TzF3cFNFemJuM2hrVzVOaml3bTBSWjBfUEJ2Q0l5WlZORXFqQjRNTWl0Z01yZUktZ1hRSE9XMm9TX1dGRXhiTnVQMDdxOXZuWGpqc29Od3pwOGlzaUpMWVFWam5KRjM4d2J3?oc=5",
+      "sources": 2,
+      "county": "South County"
+    },
+    {
+      "id": 1640,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "Boise High School",
+      "city": "Boise",
+      "state": "Idaho",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Boise High School bomb threat 2026-10-30",
+      "notes": "Boise High School students evacuated after 'bomb threat', classes canceled",
+      "lat": 43.6166,
+      "lng": -116.2009,
+      "src": "KTVB",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbDJVamJvbVM3YUV4NFpPZjd6ZGljWmlQMGdSd3ZHSFF0VHRIcTB0RXRpS19KUVBGcmF2Ni1CTjhXVTVpVkh6dnpWU2JaU013eGctcWxIam1ycDNVbnhXMDV2WUpOZXhBVHlvVDVtOU1TT3RwNUc0Ynh2ZUVxWEVIU0tqWUpDZko3M2NxY3VGcjc1ZC1pSDhqc3FOU1BGNWdwMXc2VXBnS0czcDJQYzhFRVlpU0ZyWEpCLWZiaFNwcDhadFktM09iTXlaN0dRNkFQUnRNQklod2tsX2FaSUZyNkJPRGc?oc=5",
+      "sources": 3,
+      "county": "Ada County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-28",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1639,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "Galleria",
+      "city": null,
+      "state": null,
+      "sector": "Retail",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Galleria active shooter scare 2026-10-30",
+      "notes": "Shopper says she hid in Macy's dressing room during active shooter scare at Galleria",
+      "lat": null,
+      "lng": null,
+      "src": "WVTM Channel 13",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHFHbDluTHRjSkdYWEV6ODVFUTgzemVpN09rN1hfYXJvRUJPVUZYZWVUR0ppQnBfYV9GOVc4R283LS1ZbFM3dUpjdUIydXVodWgxM242bGo5Ym1aRGJGXzdrSllRc2hmUlVIMDlpS254cHBJTFVrbS0xUVl5VUZDUFhETkROV0o0NkdPTHkxUGxLNFlkVGc?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1638,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "Wichita State University Innovation Campus",
+      "city": "Wichita",
+      "state": "Kansas",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Wichita State University bomb threat 2026-10-30",
+      "notes": "Bomb threat forces evacuations at Wichita State",
+      "lat": 37.6922,
+      "lng": -97.3375,
+      "src": "KWCH",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSW5JSm1rNFdmN1Fja3MwR1l1Nko4OExoQUZYT0hVYUZwTXZMTUdJRkpWNnVSV2JxbFVwYzJBMW84VXFZczJUVjdSMWRJVjB3YU1yRHVzelctVy12eGVWMlg4QTU3NWtBWm9HWmdYWWZvOWtZVGpMSFQySnllZ21RVWFFeU5jTUpJclRF?oc=5",
+      "sources": 4,
+      "county": "Sedgwick County"
+    },
+    {
+      "id": 1637,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "Allen High School",
+      "city": "Allen",
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Allen High School bomb threats October 2026",
+      "notes": "Allen High School dismissed early after yet another bomb threat; 5th incident in 2 weeks",
+      "lat": 40.1654,
+      "lng": -77.0844,
+      "src": "The Morning Call",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSG1uRmNxakdOUUVuS2N5UTJtS09iTFpuMXpKTXlYczlvMEhQTWJLcE1DeEpTbmFpODMteTBVcnJyNlJRbE96RktkX1FjckhRUWZzSTVuSXhQc1g2TmZQMGlHbVItdmhJbVhmQ3RzRkc3N0F4Z0hWOUpwX21VWXVnYWcwZ19QUnYtSDNUbmd3UQ?oc=5",
+      "sources": 1,
+      "county": "Cumberland County"
+    },
     {
       "id": 1636,
       "country": "United States",
@@ -19,7 +126,7 @@
       "lng": null,
       "src": "WFMZ.com",
       "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQSUFvNV9ISTNpZFpzNEZYaDlrV1Zab2lKYWszYVk1VHVWOFd5a21hLWVlME5JcUl5cVQyMkVNMTJVTEhoekNZTmJVYmQ0NDNJS2x2Qm8wd05Sd3pyUk9IVDcwdkJrQ2pJQXFTZVNpT0NJcGtyLWZ0MEs1TTVMeXpUZVJaNUkxWnlINE1lY2dVaDNJaUlFdFdvdXZTZURDc1pkZ185UFlYVDRCbWYwRkpseU9FdVhTQXRXX3h5b3JyOWdxeUQ4ZnJZVUtjQmNHc1JEcGNVU2g1eHNjQzB4Q3kyVjFPWnR4ZGd5NHNWcHB3Y0ZkSTJVREV1MmY3dXFGbFh5UW51UmFxX0V6cGt2djh1NUZjdGFqbG1Fdmxpd01VM0cxUWJ4ZVdrNDVlWk1ER2ZDM1NJ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -41,6 +148,46 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWloZHJfUjZsaC1oSXRxbTYxbzZaZEVKWHV5Zkxwc3JsZDZEb3dJRWJ0Ty1Fa2ZVWU04UDZ4VDFSSldOa09lemtIbjUzTVBmV1ZLT0NuQTg4TzJIa0JyLUxBc2U0MGtwQ2tvUTgwRmhuRDNKdjNBaGYxRlhqTUVuU1Flby1tWWlkWTRfWExvOXFsTG9Cdk9IZTBWNEhNQVAtanNBWlZCTQ?oc=5",
       "sources": 1,
       "county": null
+    },
+    {
+      "id": 1643,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Church Square Park",
+      "city": "Hoboken",
+      "state": "New Jersey",
+      "sector": "Other",
+      "type": "Under investigation",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Hoboken-2026-10-29",
+      "notes": "Church Square Park Evacuated",
+      "lat": 40.7433,
+      "lng": -74.0324,
+      "src": "Hoboken Girl",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TRzhfQlA0Qmx0cW1KZmFHNWsyZW45dHdldzhIZmZLTHotSGsyM01SR1c3OExuYTAxTTNfRUdzR2RnVnYxMmV1VXpKMENWa3RvOWNmczZhSTctMUxfQUhfdGVxUUpkd1NBdFFnUm1xZw?oc=5",
+      "sources": 1,
+      "county": "Hudson County"
+    },
+    {
+      "id": 1642,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Hoboken Middle School",
+      "city": "Hoboken",
+      "state": "New Jersey",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Hoboken-2026-10-29",
+      "notes": "Investigation at Hoboken Middle School, Lockdown Lifted",
+      "lat": 40.7433,
+      "lng": -74.0324,
+      "src": "Hoboken Girl",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TRzhfQlA0Qmx0cW1KZmFHNWsyZW45dHdldzhIZmZLTHotSGsyM01SR1c3OExuYTAxTTNfRUdzR2RnVnYxMmV1VXpKMENWa3RvOWNmczZhSTctMUxfQUhfdGVxUUpkd1NBdFFnUm1xZw?oc=5",
+      "sources": 1,
+      "county": "Hudson County"
     },
     {
       "id": 1635,
@@ -79,7 +226,7 @@
       "lng": -80.2082,
       "src": "TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IR2xMeUZuREJwZVFBbjR1ZnlhNV8tcndReTQ5dnZjRUJ2UWpmWlpPVUttZFdVQ3hrTkE5eHRYVGlVRWhJQkhQVEp5cHBMY1BuWHdkWGJB?oc=5",
-      "sources": 11,
+      "sources": 12,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -17038,6 +17185,26 @@
           "2026-10-22",
           "2026-10-27"
         ]
+      },
+      {
+        "county": "Cumberland County",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-22",
+          "2026-10-30"
+        ]
+      },
+      {
+        "county": "Ada County",
+        "region": "Idaho",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-28",
+          "2026-10-30"
+        ]
       }
     ],
     "stacked_recent": [
@@ -17113,14 +17280,14 @@
     }
   },
   "last_run": {
-    "ingested": 153,
-    "skipped_seen": 132,
-    "recognized": 3,
-    "new": 1,
-    "updated": 0,
-    "rejected": 18,
+    "ingested": 154,
+    "skipped_seen": 128,
+    "recognized": 15,
+    "new": 7,
+    "updated": 1,
+    "rejected": 12,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 26,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17136,7 +17303,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 50
       },
       {
         "edition": "GB:en",
@@ -17150,7 +17317,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 58
       },
       {
         "edition": "CA:en",
@@ -17164,10 +17331,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 49
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-30T18:36:44.810952Z"
+    "ran_at": "2026-10-30T22:58:37.178393Z"
   }
 }
