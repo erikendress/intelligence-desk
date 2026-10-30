@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T05:46:19.429787Z",
+  "generated": "2026-10-30T12:53:08.606438Z",
   "count": 834,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -82.2554,
       "src": "WSPA 7News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVENvajZCWlpwcXlZSjFCTmd2ZHJUNFZ5eGFJdlRLNm5raFQ5N0Rfb1pIemJEMnRpdTFJMXNUMGs2X3lYamJIVHhCZHZlRWZaOC1tOVBVcGRrcExmclZGNWxaTDVRWC1PaV9Cdkczb0VyTmF2Qjgta0FOalpORFhkc2xLNHY2VmpoMEpnRXFsc0dkUXRHZEtkR3NELS1Yazl0cFB0VzhwallWbDZm0gGyAUFVX3lxTE1yemxtSkVIMW00Vi1BQXU2YndXbEY1M2RONGVhY1Y3SnBmYkUtME1IYnpBVlVPNXROMFhGTkRBNGl6Y015dlNZUlh0eFFSaEdsN04xMko1ancwb2I4b3FlcDNNOEQzekZ3QWd1RnA1RktPTmJZRjU3M05UYlEyMlJLc2llZVd3REsycm5pOERNazJDYmlVb0tYaGg4NDNOM2xvdTY0UHdnblVjUm9Rbjl6TEE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Greenville County"
     },
     {
@@ -59,7 +59,7 @@
       "lng": -80.2082,
       "src": "TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IR2xMeUZuREJwZVFBbjR1ZnlhNV8tcndReTQ5dnZjRUJ2UWpmWlpPVUttZFdVQ3hrTkE5eHRYVGlVRWhJQkhQVEp5cHBMY1BuWHdkWGJB?oc=5",
-      "sources": 9,
+      "sources": 10,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -489,7 +489,7 @@
       "lng": -117.1638,
       "src": "cbs8.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOGQtNUJoYVJjNG9PNFJEMWFsWURHZFN0VG9nMVZScmRVc2dGeWMzdmFXNFVZYUc2WHJPZ19zRGg5MGpIdHY0Q0VhdFBkMmJkZHU4WWVaTkF1Sm5rTWE4ekU0emxpNkVCYW9nUkdvLWhVOVdHWTNOakYyZ2VIVS03S0V6WS11RTBFWnI4MzJQbkZaaEFUWG96aDZrcl8tN1Zwb01vbGc1QXktSTdlUHNlMFhvclNpdU5Rd0lkTGNWbnJuNTE5VGFzWkdQcjM0X0U?oc=5",
-      "sources": 12,
+      "sources": 13,
       "county": "San Diego County"
     },
     {
@@ -17093,14 +17093,14 @@
     }
   },
   "last_run": {
-    "ingested": 153,
-    "skipped_seen": 129,
-    "recognized": 7,
-    "new": 2,
+    "ingested": 154,
+    "skipped_seen": 131,
+    "recognized": 3,
+    "new": 0,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 20,
     "errors": 0,
-    "attempted": 24,
+    "attempted": 23,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17116,7 +17116,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 54
+        "items": 60
       },
       {
         "edition": "GB:en",
@@ -17130,7 +17130,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 60
       },
       {
         "edition": "CA:en",
@@ -17148,6 +17148,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-30T05:46:19.408960Z"
+    "ran_at": "2026-10-30T12:53:08.586239Z"
   }
 }
