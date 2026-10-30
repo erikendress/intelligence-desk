@@ -1,7 +1,47 @@
 {
-  "generated": "2026-10-29T23:56:54.285707Z",
-  "count": 832,
+  "generated": "2026-10-30T05:46:19.429787Z",
+  "count": 834,
   "incidents": [
+    {
+      "id": 1634,
+      "country": "United States",
+      "date": "2026-10-30",
+      "school": "Nicholson Center",
+      "city": null,
+      "state": null,
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Nicholson Center bomb threat 2026-10-30",
+      "notes": "Nicholson Center Receives Bomb Threat, PD Orders Evacuation",
+      "lat": null,
+      "lng": null,
+      "src": "RMU Sentry Media",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWloZHJfUjZsaC1oSXRxbTYxbzZaZEVKWHV5Zkxwc3JsZDZEb3dJRWJ0Ty1Fa2ZVWU04UDZ4VDFSSldOa09lemtIbjUzTVBmV1ZLT0NuQTg4TzJIa0JyLUxBc2U0MGtwQ2tvUTgwRmhuRDNKdjNBaGYxRlhqTUVuU1Flby1tWWlkWTRfWExvOXFsTG9Cdk9IZTBWNEhNQVAtanNBWlZCTQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1635,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Preschools in Simpsonville",
+      "city": "Simpsonville",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Simpsonville preschools lockdown 2026-10-29",
+      "notes": "Lockdown lifted on three preschools in Simpsonville",
+      "lat": 34.7373,
+      "lng": -82.2554,
+      "src": "WSPA 7News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVENvajZCWlpwcXlZSjFCTmd2ZHJUNFZ5eGFJdlRLNm5raFQ5N0Rfb1pIemJEMnRpdTFJMXNUMGs2X3lYamJIVHhCZHZlRWZaOC1tOVBVcGRrcExmclZGNWxaTDVRWC1PaV9Cdkczb0VyTmF2Qjgta0FOalpORFhkc2xLNHY2VmpoMEpnRXFsc0dkUXRHZEtkR3NELS1Yazl0cFB0VzhwallWbDZm0gGyAUFVX3lxTE1yemxtSkVIMW00Vi1BQXU2YndXbEY1M2RONGVhY1Y3SnBmYkUtME1IYnpBVlVPNXROMFhGTkRBNGl6Y015dlNZUlh0eFFSaEdsN04xMko1ancwb2I4b3FlcDNNOEQzekZ3QWd1RnA1RktPTmJZRjU3M05UYlEyMlJLc2llZVd3REsycm5pOERNazJDYmlVb0tYaGg4NDNOM2xvdTY0UHdnblVjUm9Rbjl6TEE?oc=5",
+      "sources": 1,
+      "county": "Greenville County"
+    },
     {
       "id": 1633,
       "country": "United States",
@@ -19,7 +59,7 @@
       "lng": -80.2082,
       "src": "TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IR2xMeUZuREJwZVFBbjR1ZnlhNV8tcndReTQ5dnZjRUJ2UWpmWlpPVUttZFdVQ3hrTkE5eHRYVGlVRWhJQkhQVEp5cHBMY1BuWHdkWGJB?oc=5",
-      "sources": 4,
+      "sources": 9,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -7795,14 +7835,7 @@
       "src": "PennLive.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkZTcWdrS1gxRmVUUFlPbURna29kY0hHdVFOTER6ZGVhMDFCeVRWSGZ2UTNrWGJPOXlhMzI2VW5yTW85UHBITFBWSGVsUWJWTXBoSDA0dHFIb3Y0V1lMZFBPQ3RDcGhhcVNteDZzdnhSUWxXeVZaQ0dJWUFkZHNXeXVyTVNOUlVMYVAyOXBxeEJfVDBHcFNiMU9IUVhmWmh2TG9ZN1JuVWFXWURiQ19sc1poWdIBxwFBVV95cUxPTExyOHpOMm41TlZEY2RrdHhBSGRpekJsbV9QMi05SEE1dmlXYkVfMVJHODZvcGtCOGEyd1M2S3VkNWp4MDFLR2ZwUzZsdXFEN2tBZmFoclJSUzFqQlFMQTlma0p6NTlObnY2ZnBVdG1tZHJIYmF4MTZ1Ry1vdmpLVExoUVhja2h5dmVQNnR0WVkyekZuU29QcERpelFRbDdlb2lxTVRNZzlORHkyQjdsTTZRRHlvV2VtOWVRT1JNRVJBWG4wVHh3?oc=5",
       "sources": 1,
-      "county": "Centre County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-14",
-          "window_days": 7
-        }
-      }
+      "county": "Centre County"
     },
     {
       "id": 1171,
@@ -8042,14 +8075,7 @@
       "src": "WPBF",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc0cwT1I3V0JoZFpYS01ITjZGSFRscllXUTRVUnltNWw4T0JkbGpIMW14NzNlVEtDNkJLVXJqejBpcGFRaWxLdlhJM1Y0eFA0VXFmWjNEeUNPb3JXc216R2RqTkJ2ZE5kZ3daSHg5NHlZaW9BX0FTbVVSVkFOVHEybEozM3JCaFoxeE9aN2hwQ2RTekRvenZ1ckFVZ3RwZ0l0WjJRbWtQOTFYLUx4UEZ6MWNB?oc=5",
       "sources": 1,
-      "county": "Martin County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-09-14",
-          "window_days": 7
-        }
-      }
+      "county": "Martin County"
     },
     {
       "id": 1110,
@@ -16934,7 +16960,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-29",
+    "computed": "2026-10-30",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -16964,16 +16990,6 @@
         ]
       },
       {
-        "county": "Butler County",
-        "region": "Pennsylvania",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-15",
-          "2026-10-19"
-        ]
-      },
-      {
         "county": "Wayne County",
         "region": "Michigan",
         "country": "United States",
@@ -16981,16 +16997,6 @@
         "dates": [
           "2026-10-18",
           "2026-10-20"
-        ]
-      },
-      {
-        "county": "Oneida County",
-        "region": "New York",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-15",
-          "2026-10-21"
         ]
       },
       {
@@ -17025,30 +17031,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-15",
-      "to": "2026-10-28",
+      "from": "2026-10-16",
+      "to": "2026-10-29",
       "days": 14,
       "hoax": {
-        "total": 62,
-        "bomb": 47,
-        "swatting": 15,
-        "schools": 43,
+        "total": 60,
+        "bomb": 46,
+        "swatting": 14,
+        "schools": 42,
         "by_sector": {
-          "K-12": 39,
-          "Government": 6,
-          "Higher Ed": 4,
+          "K-12": 38,
+          "Government": 5,
+          "Other": 4,
           "Retail": 4,
-          "Transit": 3,
-          "Other": 3,
+          "Higher Ed": 4,
+          "Transit": 2,
           "Venue": 2,
           "Healthcare": 1
         },
-        "states": 26,
-        "confirmed_hoax": 18,
-        "arrests": 7,
+        "states": 25,
+        "confirmed_hoax": 20,
+        "arrests": 5,
         "under_investigation": 33,
         "per_day": {
-          "2026-10-15": 7,
           "2026-10-16": 2,
           "2026-10-17": 2,
           "2026-10-18": 4,
@@ -17061,10 +17066,10 @@
           "2026-10-25": 1,
           "2026-10-26": 4,
           "2026-10-27": 7,
-          "2026-10-28": 5
+          "2026-10-28": 5,
+          "2026-10-29": 5
         },
         "per_day_schools": {
-          "2026-10-15": 5,
           "2026-10-16": 2,
           "2026-10-17": 1,
           "2026-10-18": 0,
@@ -17077,24 +17082,25 @@
           "2026-10-25": 0,
           "2026-10-26": 3,
           "2026-10-27": 5,
-          "2026-10-28": 4
+          "2026-10-28": 4,
+          "2026-10-29": 4
         }
       },
       "suspicious_mail": {
-        "total": 36,
-        "government": 32
+        "total": 30,
+        "government": 27
       }
     }
   },
   "last_run": {
-    "ingested": 143,
+    "ingested": 153,
     "skipped_seen": 129,
-    "recognized": 5,
-    "new": 1,
-    "updated": 1,
-    "rejected": 8,
+    "recognized": 7,
+    "new": 2,
+    "updated": 0,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 14,
+    "attempted": 24,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17110,23 +17116,23 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
+        "items": 54
+      },
+      {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
         "items": 53
       },
       {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 52
-      },
-      {
         "edition": "CA:en",
         "q": 0,
         "route": "direct",
@@ -17138,10 +17144,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 59
+        "items": 60
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-29T23:56:54.271937Z"
+    "ran_at": "2026-10-30T05:46:19.408960Z"
   }
 }
