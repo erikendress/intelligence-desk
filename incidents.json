@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-31T15:44:04.253668Z",
-  "count": 845,
+  "generated": "2026-10-31T19:58:34.249009Z",
+  "count": 846,
   "incidents": [
+    {
+      "id": 1647,
+      "country": "United States",
+      "date": "2026-10-31",
+      "school": "FireKeepers Casino",
+      "city": null,
+      "state": null,
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "FireKeepers Casino bomb threat 2026-10-31",
+      "notes": "FireKeepers Casino forced to evacuate because of bomb threat",
+      "lat": null,
+      "lng": null,
+      "src": "WTVB",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96aWZxdTNndU1XbmNfVXhmMmxuSjM1Zk5qSWhaei1WWEtsQnVYU0tiWFJtYU11YzBpMHE2Um56dmtuWVVhaEdpeV9IMk5Qdw?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1646,
       "country": "United States",
@@ -17347,14 +17367,14 @@
     }
   },
   "last_run": {
-    "ingested": 128,
-    "skipped_seen": 119,
-    "recognized": 2,
+    "ingested": 113,
+    "skipped_seen": 105,
+    "recognized": 1,
     "new": 1,
     "updated": 0,
-    "rejected": 6,
+    "rejected": 7,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 8,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17370,7 +17390,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 24
       },
       {
         "edition": "GB:en",
@@ -17398,10 +17418,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 30
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-31T15:44:04.236047Z"
+    "ran_at": "2026-10-31T19:58:34.231971Z"
   }
 }
