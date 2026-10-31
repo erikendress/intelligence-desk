@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-31T02:20:42.479558Z",
-  "count": 843,
+  "generated": "2026-10-31T09:37:20.907804Z",
+  "count": 844,
   "incidents": [
+    {
+      "id": 1645,
+      "country": "United States",
+      "date": "2026-10-31",
+      "school": "Fairfield Mall",
+      "city": "Fairfield",
+      "state": "California",
+      "sector": "Retail",
+      "type": "Weapon / Intruder",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Solano mall active shooter incident 2026-10-31",
+      "notes": "Active shooter sparks panic at Solano mall in Fairfield, California as cops swarm scene",
+      "lat": 38.2494,
+      "lng": -122.04,
+      "src": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeTdoTERvaXdOclh6dGVJODA0bnB6a0tvaExJeXhKX0dQTTZFTk92YkFBSnNOa3lFNmdlN3paQl9DZlBXN3NweWhrNFFTb3RQLVo0S21pclhZYU5qT3JkYV93UXVtRmhCRFo3YnM2Um1OZENUQTJORm50WkJfbTBLWk5CNkU?oc=5",
+      "sources": 2,
+      "county": "Solano County"
+    },
     {
       "id": 1644,
       "country": "United States",
@@ -17290,14 +17310,14 @@
     }
   },
   "last_run": {
-    "ingested": 141,
-    "skipped_seen": 131,
-    "recognized": 3,
+    "ingested": 134,
+    "skipped_seen": 123,
+    "recognized": 2,
     "new": 1,
     "updated": 0,
-    "rejected": 6,
+    "rejected": 9,
     "errors": 0,
-    "attempted": 10,
+    "attempted": 11,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17313,23 +17333,23 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
-      },
-      {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
         "items": 44
       },
       {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 45
+      },
+      {
         "edition": "CA:en",
         "q": 0,
         "route": "direct",
@@ -17341,10 +17361,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 39
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-31T02:20:42.461933Z"
+    "ran_at": "2026-10-31T09:37:20.888531Z"
   }
 }
