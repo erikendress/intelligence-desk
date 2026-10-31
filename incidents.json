@@ -1,7 +1,34 @@
 {
-  "generated": "2026-10-31T09:37:20.907804Z",
-  "count": 844,
+  "generated": "2026-10-31T15:44:04.253668Z",
+  "count": 845,
   "incidents": [
+    {
+      "id": 1646,
+      "country": "United States",
+      "date": "2026-10-31",
+      "school": "Chestnut Ridge Middle School",
+      "city": null,
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Chestnut Ridge Middle School bomb threat 2026-10-31",
+      "notes": "Bomb Threat Forces Evacuation of Chestnut Ridge Middle School",
+      "lat": 41.1519,
+      "lng": -74.0357,
+      "src": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUE5Cc1E4cmIzRGlIeW9JT0pYWUF3ZGc2R2pvYVNJT2JtZGp6NGN2VzZ1N3NiV1F6Mnh6WE5PU0VOZmRyRG5wbDB2OGxIczBnbXE2ZWxjdFlnT0FpbWZsUWZIQXV6eUhndHR4MWV3TGgwcTlranJib2dWVEhzZVBPNmJPM2o1ZDBwRDJWMUtlSnQ4XzBIbG5GZHctTktsbTJUMUlNcGg3SVBWWDZKSlFN?oc=5",
+      "sources": 1,
+      "county": "Rockland County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-10-29",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1645,
       "country": "United States",
@@ -19,7 +46,7 @@
       "lng": -122.04,
       "src": "AOL.com",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeTdoTERvaXdOclh6dGVJODA0bnB6a0tvaExJeXhKX0dQTTZFTk92YkFBSnNOa3lFNmdlN3paQl9DZlBXN3NweWhrNFFTb3RQLVo0S21pclhZYU5qT3JkYV93UXVtRmhCRFo3YnM2Um1OZENUQTJORm50WkJfbTBLWk5CNkU?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Solano County"
     },
     {
@@ -17235,6 +17262,16 @@
           "2026-10-28",
           "2026-10-30"
         ]
+      },
+      {
+        "county": "Rockland County",
+        "region": "New York",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-29",
+          "2026-10-31"
+        ]
       }
     ],
     "stacked_recent": [
@@ -17310,14 +17347,14 @@
     }
   },
   "last_run": {
-    "ingested": 134,
-    "skipped_seen": 123,
+    "ingested": 128,
+    "skipped_seen": 119,
     "recognized": 2,
     "new": 1,
     "updated": 0,
-    "rejected": 9,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 11,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17333,7 +17370,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 34
       },
       {
         "edition": "GB:en",
@@ -17347,7 +17384,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 30
       },
       {
         "edition": "CA:en",
@@ -17361,10 +17398,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 34
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-31T09:37:20.888531Z"
+    "ran_at": "2026-10-31T15:44:04.236047Z"
   }
 }
