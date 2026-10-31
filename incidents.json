@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31T19:58:34.249009Z",
-  "count": 846,
+  "generated": "2026-10-31T23:23:10.194303Z",
+  "count": 847,
   "incidents": [
     {
       "id": 1647,
@@ -19,7 +19,7 @@
       "lng": null,
       "src": "WTVB",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE96aWZxdTNndU1XbmNfVXhmMmxuSjM1Zk5qSWhaei1WWEtsQnVYU0tiWFJtYU11YzBpMHE2Um56dmtuWVVhaEdpeV9IMk5Qdw?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": null
     },
     {
@@ -237,6 +237,26 @@
       "county": null
     },
     {
+      "id": 1648,
+      "country": "United States",
+      "date": "2026-10-29",
+      "school": "Westchester Courthouse",
+      "city": "Westchester",
+      "state": "Michigan",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Westchester Courthouse suspicious package 2026-10-29",
+      "notes": "Suspicious Package At Westchester Courthouse Determined To Be Nonhazardous",
+      "lat": 42.3349,
+      "lng": -83.5343,
+      "src": "News12 | Westchester",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZ2IyU3VDdGVVRmk2dmpVUktqZEJ6Zm4zZWFOQXpjRGxPMmdrRE5UemhDUkxLVjBQQWxMNERDd2RoN2RUMl8zcmYzSmd0eWZBR2oxWWpKeEY2ZVBsb2VEWXZreXM2ckZkdGdvTkRwM1pPUzl1WXJ3U1NDODBBUEY2Zm1xc2ZORmM2OUxTX1RJM1lTOExaTXdwVjRyaW9INEwtQ3hWbS1KUGk?oc=5",
+      "sources": 1,
+      "county": "Wayne County"
+    },
+    {
       "id": 1643,
       "country": "United States",
       "date": "2026-10-29",
@@ -360,7 +380,7 @@
       "lng": -74.0594,
       "src": "Monsey Scoop",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTm5oRVNkVWhFSXNhTEJ2MmwzX2tfSDJES3FiTHFfRHM1S1MwcXp6OGhCN2xIYXF3N0ZSQnJuSWdmcXlyeWxOVmhuaDlNNFhHWGVfV19vTVdDbTB4aXVaTGtCQkxqVDNPQmNCVmRWbjY5SVE5OTNjQ1J5V0Y2VVBERE9FRFgzejg3RV95OGZ0V21Yb1R3NTN0OVJEVG5oRk9KdkRmSHUyNnc?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Rockland County"
     },
     {
@@ -17361,20 +17381,20 @@
         }
       },
       "suspicious_mail": {
-        "total": 24,
-        "government": 22
+        "total": 25,
+        "government": 23
       }
     }
   },
   "last_run": {
-    "ingested": 113,
-    "skipped_seen": 105,
-    "recognized": 1,
+    "ingested": 119,
+    "skipped_seen": 110,
+    "recognized": 4,
     "new": 1,
     "updated": 0,
-    "rejected": 7,
+    "rejected": 3,
     "errors": 0,
-    "attempted": 8,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17390,7 +17410,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 24
+        "items": 29
       },
       {
         "edition": "GB:en",
@@ -17404,7 +17424,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 25
       },
       {
         "edition": "CA:en",
@@ -17418,10 +17438,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 29
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-31T19:58:34.231971Z"
+    "ran_at": "2026-10-31T23:23:10.175727Z"
   }
 }
