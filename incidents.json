@@ -1,7 +1,27 @@
 {
-  "generated": "2026-10-30T22:58:37.191104Z",
-  "count": 842,
+  "generated": "2026-10-31T02:20:42.479558Z",
+  "count": 843,
   "incidents": [
+    {
+      "id": 1644,
+      "country": "United States",
+      "date": "2026-10-31",
+      "school": "Spokane Navy Reserve Center",
+      "city": "Spokane",
+      "state": "Washington",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Spokane_Navy_Reserve_Center_bomb_threat_20261031",
+      "notes": "Man accused of making bomb threat at Spokane Navy Reserve Center",
+      "lat": 47.6572,
+      "lng": -117.4235,
+      "src": "KREM",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQjlsM3lWeDhpM3UyczhlT0FHS01EOE5HdjliU01rdkhGM1FINndnWURkdkdvRjd1UWpoU1A0N3NCNEVuMzBzMHdFelJpaUdlZ2Zyb0h0RzEydnV0VFJkRDZzUXltVmN2SGU2YllLR1FRakRfZ0pHQjZ5ZWZULTFtZV8tTVQ0Z1N1dEY3YjBRTWhvVnpIdTEyMlZDZFRMWkhwNHNERjZXa0s1N0pVR25LcjJHOTNyaU5JU0M2eTRuZ0NkR2lVUjNvVktiWmdNTUhuN09HZnlraWJQX09kcHc?oc=5",
+      "sources": 1,
+      "county": "Spokane County"
+    },
     {
       "id": 1641,
       "country": "United States",
@@ -86,7 +106,7 @@
       "lng": -97.3375,
       "src": "KWCH",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSW5JSm1rNFdmN1Fja3MwR1l1Nko4OExoQUZYT0hVYUZwTXZMTUdJRkpWNnVSV2JxbFVwYzJBMW84VXFZczJUVjdSMWRJVjB3YU1yRHVzelctVy12eGVWMlg4QTU3NWtBWm9HWmdYWWZvOWtZVGpMSFQySnllZ21RVWFFeU5jTUpJclRF?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Sedgwick County"
     },
     {
@@ -383,7 +403,7 @@
       "id": 1626,
       "country": "United States",
       "date": "2026-10-28",
-      "school": "Westchester Courthouse",
+      "school": "Westchester County Courthouse",
       "city": "White Plains",
       "state": "New York",
       "sector": "Government",
@@ -396,7 +416,7 @@
       "lng": -73.7629,
       "src": "News12 | Hudson Valley",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb0NhTWEyd280UE1UYUZ0TDR2Qm5QSERESFVGMnpvYkh6T1dqbk1xdWdLTmQzVEx5YnZjcW96SERnSWxxd09EZFFyZERadnk0YmRZajQzZUgxa0hxZ3l6S3g4el83SjBfc18zTUFXbHN6VEszSjcwMVpfalJzejRyTVoyeG1CSzFzWWh4M01ya3VTOXVyZnBHMk0wX3ZsbS1PQkNBdXM4OElWQQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Westchester County"
     },
     {
@@ -17127,7 +17147,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-30",
+    "computed": "2026-10-31",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -17144,16 +17164,6 @@
           "2026-10-20",
           "2026-10-22",
           "2026-10-29"
-        ]
-      },
-      {
-        "county": "Merced County",
-        "region": "California",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-16",
-          "2026-10-17"
         ]
       },
       {
@@ -17218,30 +17228,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-16",
-      "to": "2026-10-29",
+      "from": "2026-10-17",
+      "to": "2026-10-30",
       "days": 14,
       "hoax": {
-        "total": 60,
-        "bomb": 46,
-        "swatting": 14,
-        "schools": 42,
+        "total": 65,
+        "bomb": 49,
+        "swatting": 16,
+        "schools": 46,
         "by_sector": {
-          "K-12": 38,
+          "K-12": 39,
+          "Higher Ed": 7,
+          "Retail": 5,
           "Government": 5,
           "Other": 4,
-          "Retail": 4,
-          "Higher Ed": 4,
           "Transit": 2,
           "Venue": 2,
           "Healthcare": 1
         },
-        "states": 25,
-        "confirmed_hoax": 20,
+        "states": 26,
+        "confirmed_hoax": 19,
         "arrests": 5,
-        "under_investigation": 33,
+        "under_investigation": 39,
         "per_day": {
-          "2026-10-16": 2,
           "2026-10-17": 2,
           "2026-10-18": 4,
           "2026-10-19": 2,
@@ -17254,10 +17263,10 @@
           "2026-10-26": 4,
           "2026-10-27": 7,
           "2026-10-28": 5,
-          "2026-10-29": 5
+          "2026-10-29": 5,
+          "2026-10-30": 7
         },
         "per_day_schools": {
-          "2026-10-16": 2,
           "2026-10-17": 1,
           "2026-10-18": 0,
           "2026-10-19": 2,
@@ -17270,24 +17279,25 @@
           "2026-10-26": 3,
           "2026-10-27": 5,
           "2026-10-28": 4,
-          "2026-10-29": 4
+          "2026-10-29": 4,
+          "2026-10-30": 6
         }
       },
       "suspicious_mail": {
-        "total": 30,
-        "government": 27
+        "total": 24,
+        "government": 22
       }
     }
   },
   "last_run": {
-    "ingested": 154,
-    "skipped_seen": 128,
-    "recognized": 15,
-    "new": 7,
-    "updated": 1,
-    "rejected": 12,
+    "ingested": 141,
+    "skipped_seen": 131,
+    "recognized": 3,
+    "new": 1,
+    "updated": 0,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 10,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17303,7 +17313,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 50
+        "items": 53
       },
       {
         "edition": "GB:en",
@@ -17317,7 +17327,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 58
+        "items": 44
       },
       {
         "edition": "CA:en",
@@ -17331,10 +17341,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 53
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-30T22:58:37.178393Z"
+    "ran_at": "2026-10-31T02:20:42.461933Z"
   }
 }
