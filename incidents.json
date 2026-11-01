@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T06:00:13.003674Z",
+  "generated": "2026-11-01T13:20:29.975255Z",
   "count": 847,
   "incidents": [
     {
@@ -17388,14 +17388,14 @@
     }
   },
   "last_run": {
-    "ingested": 105,
-    "skipped_seen": 100,
+    "ingested": 112,
+    "skipped_seen": 105,
     "recognized": 0,
     "new": 0,
     "updated": 0,
-    "rejected": 4,
+    "rejected": 7,
     "errors": 0,
-    "attempted": 5,
+    "attempted": 7,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17411,7 +17411,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 25
       },
       {
         "edition": "GB:en",
@@ -17425,7 +17425,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 24
       },
       {
         "edition": "CA:en",
@@ -17439,10 +17439,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 31
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-01T06:00:12.985946Z"
+    "ran_at": "2026-11-01T13:20:29.958048Z"
   }
 }
