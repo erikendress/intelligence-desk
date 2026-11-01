@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T23:23:10.194303Z",
+  "generated": "2026-11-01T06:00:13.003674Z",
   "count": 847,
   "incidents": [
     {
@@ -17234,7 +17234,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-10-31",
+    "computed": "2026-11-01",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -17325,12 +17325,12 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-17",
-      "to": "2026-10-30",
+      "from": "2026-10-18",
+      "to": "2026-10-31",
       "days": 14,
       "hoax": {
-        "total": 65,
-        "bomb": 49,
+        "total": 66,
+        "bomb": 50,
         "swatting": 16,
         "schools": 46,
         "by_sector": {
@@ -17338,17 +17338,17 @@
           "Higher Ed": 7,
           "Retail": 5,
           "Government": 5,
-          "Other": 4,
+          "Other": 3,
+          "Venue": 3,
           "Transit": 2,
-          "Venue": 2,
-          "Healthcare": 1
+          "Healthcare": 1,
+          "Workplace": 1
         },
-        "states": 26,
-        "confirmed_hoax": 19,
+        "states": 25,
+        "confirmed_hoax": 18,
         "arrests": 5,
-        "under_investigation": 39,
+        "under_investigation": 41,
         "per_day": {
-          "2026-10-17": 2,
           "2026-10-18": 4,
           "2026-10-19": 2,
           "2026-10-20": 6,
@@ -17361,10 +17361,10 @@
           "2026-10-27": 7,
           "2026-10-28": 5,
           "2026-10-29": 5,
-          "2026-10-30": 7
+          "2026-10-30": 7,
+          "2026-10-31": 3
         },
         "per_day_schools": {
-          "2026-10-17": 1,
           "2026-10-18": 0,
           "2026-10-19": 2,
           "2026-10-20": 3,
@@ -17377,24 +17377,25 @@
           "2026-10-27": 5,
           "2026-10-28": 4,
           "2026-10-29": 4,
-          "2026-10-30": 6
+          "2026-10-30": 6,
+          "2026-10-31": 1
         }
       },
       "suspicious_mail": {
-        "total": 25,
-        "government": 23
+        "total": 22,
+        "government": 20
       }
     }
   },
   "last_run": {
-    "ingested": 119,
-    "skipped_seen": 110,
-    "recognized": 4,
-    "new": 1,
+    "ingested": 105,
+    "skipped_seen": 100,
+    "recognized": 0,
+    "new": 0,
     "updated": 0,
-    "rejected": 3,
+    "rejected": 4,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 5,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17410,7 +17411,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 29
+        "items": 22
       },
       {
         "edition": "GB:en",
@@ -17424,7 +17425,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 25
+        "items": 23
       },
       {
         "edition": "CA:en",
@@ -17438,10 +17439,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 29
+        "items": 22
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-10-31T23:23:10.175727Z"
+    "ran_at": "2026-11-01T06:00:12.985946Z"
   }
 }
