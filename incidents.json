@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-01T18:55:32.551670Z",
-  "count": 847,
+  "generated": "2026-11-01T22:48:12.185631Z",
+  "count": 848,
   "incidents": [
+    {
+      "id": 1649,
+      "country": "United States",
+      "date": "2026-10-31",
+      "school": "Old Dominion University",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Confirmed real",
+      "cluster": "Old Dominion University gunman incident 2026-10-31",
+      "notes": "ROTC students subdued and killed Old Dominion University gunman, officials say",
+      "lat": 36.8494,
+      "lng": -76.29,
+      "src": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMXpORlpFSy1hbDNqNmtOYW9jSGZmcTVCQVlmUzY4c0I0VzFmOVhzajVOTlBDdVpubE1DNXFOZk9mMzkwUF9NZjVhUk0wM21XSFZURWt1cmN1QmJxU240bjAwT1luODVzelNuWkZBd2tGVUdrYWluOHdGYnByMzE5cU1GUVNvRDYzYmN2RTI1a0lfUW91X19ldzI5bU9uTTlrUU5V0gGoAUFVX3lxTE5yRkxRQTZsTldxYXJ1WlBjRG9BT1Bvckh1ZlF1MUtuVndOcURTUkltRnd6cTBGeE9ZUEFyeVA1b0JHSl8telN3aDlkcm9rQm5GaWF6WE5TYXdBVzFOOFBtVkVjYTVGdjVpZlg5RzBodmF3SW1mNUpCejZYSkRTR2NMOFkzOGItUTVuM3E4bk1acTc3cWxFbmRram83eXFwRmJ5d2lIblNSWA?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1647,
       "country": "United States",
@@ -17389,13 +17409,13 @@
   },
   "last_run": {
     "ingested": 113,
-    "skipped_seen": 97,
+    "skipped_seen": 104,
     "recognized": 1,
-    "new": 0,
+    "new": 1,
     "updated": 0,
-    "rejected": 15,
+    "rejected": 8,
     "errors": 0,
-    "attempted": 16,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17411,7 +17431,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 32
+        "items": 30
       },
       {
         "edition": "GB:en",
@@ -17425,7 +17445,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 32
+        "items": 23
       },
       {
         "edition": "CA:en",
@@ -17439,10 +17459,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 28
+        "items": 30
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-01T18:55:32.538392Z"
+    "ran_at": "2026-11-01T22:48:12.167958Z"
   }
 }
