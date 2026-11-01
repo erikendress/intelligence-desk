@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T13:20:29.975255Z",
+  "generated": "2026-11-01T18:55:32.551670Z",
   "count": 847,
   "incidents": [
     {
@@ -333,7 +333,7 @@
       "lng": -80.2082,
       "src": "TribLIVE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IR2xMeUZuREJwZVFBbjR1ZnlhNV8tcndReTQ5dnZjRUJ2UWpmWlpPVUttZFdVQ3hrTkE5eHRYVGlVRWhJQkhQVEp5cHBMY1BuWHdkWGJB?oc=5",
-      "sources": 12,
+      "sources": 13,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -17388,14 +17388,14 @@
     }
   },
   "last_run": {
-    "ingested": 112,
-    "skipped_seen": 105,
-    "recognized": 0,
+    "ingested": 113,
+    "skipped_seen": 97,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
-    "rejected": 7,
+    "rejected": 15,
     "errors": 0,
-    "attempted": 7,
+    "attempted": 16,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17411,7 +17411,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 25
+        "items": 32
       },
       {
         "edition": "GB:en",
@@ -17425,7 +17425,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 24
+        "items": 32
       },
       {
         "edition": "CA:en",
@@ -17439,10 +17439,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 31
+        "items": 28
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-01T13:20:29.958048Z"
+    "ran_at": "2026-11-01T18:55:32.538392Z"
   }
 }
