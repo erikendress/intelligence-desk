@@ -1,25 +1,45 @@
 {
-  "generated": "2026-11-02T02:29:46.462877Z",
-  "count": 850,
+  "generated": "2026-11-02T11:01:37.135698Z",
+  "count": 851,
   "incidents": [
+    {
+      "id": 1652,
+      "country": "United States",
+      "date": "2026-11-02",
+      "school": "UNM Library",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "sector": "Higher Ed",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "UNM Library suspicious package 2026-11-02",
+      "notes": "UNM Library evacuated due to suspicious package, now deemed safe",
+      "lat": 35.0841,
+      "lng": -106.651,
+      "src": "KRQE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVDZfTFRPMzkzRl82WnFYMnVRaWFzbzVLU2ZQT3Z1U2FMdnhuZHJDYkVYRjRHMzc0aFdkRGRuOHJiV0ducXpfLWhIZ01CakpubDlEVmZibVJXejlZZElBRzYzOHh5UFFHLXcxTnRkQkNuMjlxNk5COEYwNTItS1ZVSUh2M3gySzlBU01Pb1VjUFF2TDlHQ0NuSUhYQzJoUUw0Q1E?oc=5",
+      "sources": 2,
+      "county": "Bernalillo County"
+    },
     {
       "id": 1651,
       "country": "United States",
       "date": "2026-11-01",
       "school": "Valley Children's Hospital",
-      "city": null,
-      "state": null,
+      "city": "Madera",
+      "state": "California",
       "sector": "Healthcare",
       "type": "Credible Threat",
       "response": "Lockdown",
       "outcome": "Under investigation",
       "cluster": "Valley Children's Hospital lockdown Nov 1 2026",
       "notes": "Lockdown lifted at Valley Children s Hospital",
-      "lat": null,
-      "lng": null,
+      "lat": 36.9623,
+      "lng": -120.0595,
       "src": "KMPH Fox 26",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDlpajhZTVZ0TTd0WFpjOERxNXFzdm1kV3ZnR0FScmYyMEdmTUxPQ3l5aFUxTldCa3lWZVFRS0taOTNMMUNGS2tIaUhkak9QNVcwbDNvVTd3WDR6UnZ2a3ZyMFpVMHVFUERqdWFUN19VU184V1R0Tm80T0RCN2NzX2c1QkRQU0ZIM2wzSDlHVEFlU0dnUTFVS0dTUmVPR3VfWUZr?oc=5",
-      "sources": 2,
+      "sources": 5,
       "county": null
     },
     {
@@ -17437,14 +17457,14 @@
     }
   },
   "last_run": {
-    "ingested": 112,
-    "skipped_seen": 98,
-    "recognized": 4,
-    "new": 2,
+    "ingested": 119,
+    "skipped_seen": 89,
+    "recognized": 5,
+    "new": 1,
     "updated": 0,
-    "rejected": 10,
+    "rejected": 25,
     "errors": 0,
-    "attempted": 14,
+    "attempted": 30,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17460,7 +17480,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 23
       },
       {
         "edition": "GB:en",
@@ -17474,7 +17494,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 24
+        "items": 34
       },
       {
         "edition": "CA:en",
@@ -17488,10 +17508,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 33
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-02T02:29:46.439661Z"
+    "ran_at": "2026-11-02T11:01:37.121678Z"
   }
 }
