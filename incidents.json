@@ -1,7 +1,47 @@
 {
-  "generated": "2026-11-01T22:48:12.185631Z",
-  "count": 848,
+  "generated": "2026-11-02T02:29:46.462877Z",
+  "count": 850,
   "incidents": [
+    {
+      "id": 1651,
+      "country": "United States",
+      "date": "2026-11-01",
+      "school": "Valley Children's Hospital",
+      "city": null,
+      "state": null,
+      "sector": "Healthcare",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Valley Children's Hospital lockdown Nov 1 2026",
+      "notes": "Lockdown lifted at Valley Children s Hospital",
+      "lat": null,
+      "lng": null,
+      "src": "KMPH Fox 26",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDlpajhZTVZ0TTd0WFpjOERxNXFzdm1kV3ZnR0FScmYyMEdmTUxPQ3l5aFUxTldCa3lWZVFRS0taOTNMMUNGS2tIaUhkak9QNVcwbDNvVTd3WDR6UnZ2a3ZyMFpVMHVFUERqdWFUN19VU184V1R0Tm80T0RCN2NzX2c1QkRQU0ZIM2wzSDlHVEFlU0dnUTFVS0dTUmVPR3VfWUZr?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1650,
+      "country": "United States",
+      "date": "2026-11-01",
+      "school": "Zimmerman Library",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "sector": "Higher Ed",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "UNM Zimmerman Library suspicious package 2026-11-01",
+      "notes": "UNM evacuates Zimmerman Library amid suspicious package reports",
+      "lat": 35.0841,
+      "lng": -106.651,
+      "src": "KOAT",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0RGSXQ3bGktZlhSSlJGV19tZUg5SXN4enY0Y20wYkEzM3BBb2o5RXMyYUZFU2poS1BZZlM2dml5QkpjaWMzaXJ1YnV3ZmxOVDlDQ1VZTERXMTlCekNEOXcwMUFPLXZ3VmIybVFGQW9xY1p6dVVKdURNblBFM3Q3cEZreTdWLWJUVXh3WjlOYUFMc1k?oc=5",
+      "sources": 2,
+      "county": "Bernalillo County"
+    },
     {
       "id": 1649,
       "country": "United States",
@@ -17254,7 +17294,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-01",
+    "computed": "2026-11-02",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -17271,16 +17311,6 @@
           "2026-10-20",
           "2026-10-22",
           "2026-10-29"
-        ]
-      },
-      {
-        "county": "Wayne County",
-        "region": "Michigan",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-18",
-          "2026-10-20"
         ]
       },
       {
@@ -17345,31 +17375,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-18",
-      "to": "2026-10-31",
+      "from": "2026-10-19",
+      "to": "2026-11-01",
       "days": 14,
       "hoax": {
-        "total": 66,
-        "bomb": 50,
+        "total": 62,
+        "bomb": 46,
         "swatting": 16,
         "schools": 46,
         "by_sector": {
           "K-12": 39,
           "Higher Ed": 7,
-          "Retail": 5,
           "Government": 5,
           "Other": 3,
+          "Retail": 3,
           "Venue": 3,
-          "Transit": 2,
           "Healthcare": 1,
           "Workplace": 1
         },
-        "states": 25,
-        "confirmed_hoax": 18,
+        "states": 24,
+        "confirmed_hoax": 16,
         "arrests": 5,
-        "under_investigation": 41,
+        "under_investigation": 39,
         "per_day": {
-          "2026-10-18": 4,
           "2026-10-19": 2,
           "2026-10-20": 6,
           "2026-10-21": 5,
@@ -17382,10 +17410,10 @@
           "2026-10-28": 5,
           "2026-10-29": 5,
           "2026-10-30": 7,
-          "2026-10-31": 3
+          "2026-10-31": 3,
+          "2026-11-01": 0
         },
         "per_day_schools": {
-          "2026-10-18": 0,
           "2026-10-19": 2,
           "2026-10-20": 3,
           "2026-10-21": 5,
@@ -17398,24 +17426,25 @@
           "2026-10-28": 4,
           "2026-10-29": 4,
           "2026-10-30": 6,
-          "2026-10-31": 1
+          "2026-10-31": 1,
+          "2026-11-01": 0
         }
       },
       "suspicious_mail": {
-        "total": 22,
-        "government": 20
+        "total": 20,
+        "government": 18
       }
     }
   },
   "last_run": {
-    "ingested": 113,
-    "skipped_seen": 104,
-    "recognized": 1,
-    "new": 1,
+    "ingested": 112,
+    "skipped_seen": 98,
+    "recognized": 4,
+    "new": 2,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 14,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17445,7 +17474,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 24
       },
       {
         "edition": "CA:en",
@@ -17463,6 +17492,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-01T22:48:12.167958Z"
+    "ran_at": "2026-11-02T02:29:46.439661Z"
   }
 }
