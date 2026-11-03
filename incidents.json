@@ -1,7 +1,67 @@
 {
-  "generated": "2026-11-03T02:55:38.380970Z",
-  "count": 865,
+  "generated": "2026-11-03T10:51:30.251726Z",
+  "count": 868,
   "incidents": [
+    {
+      "id": 1669,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Roger Williams Middle School",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Roger Williams Middle School lockdown Providence RI 2026-11-03",
+      "notes": "Lockdown lifted at Roger Williams Middle School in Providence",
+      "lat": 41.824,
+      "lng": -71.4128,
+      "src": "WJAR",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaVNlOW0tYXQzcjAzbi1IU3VfVU9SbVNvSk14QlU4R0I5ZGdNdVU2SkpNMUdOZmZsd0FwT3dHUDZtR3RQb3RVRHNNU0N4MU91aGcwS2ZUbWNkcEo5RHg2UlptXzRkSDZudVNUQThTZW9OUUxjSHNXM0hxRVVraGlnU043NDV1Slp4REV6VElpOHVXdVdoMGJiaHhJNC15MWNDQlBfczBNOGFPUGpIRUMwLUNReXV5YThOc01qaXN0QS1EVlhNclZKRnpIZUg1Y28?oc=5",
+      "sources": 1,
+      "county": "Providence County"
+    },
+    {
+      "id": 1668,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Virginia State University",
+      "city": "Petersburg",
+      "state": "Virginia",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "VSU shooting Nov 2026",
+      "notes": "Lockdown Lifted After Shooting on VSU Campus",
+      "lat": 37.2279,
+      "lng": -77.4019,
+      "src": "WWBT",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQWFLd21lMk5yUHg4dDR0bjhtdTl5Tk02U01DQm5wSHFhakhlMVRNb0J2dzZtNFc2TEdEemFYMTE5Q3JuRDdzWjBHMTlQZ0FCSXNaMjRscVFQSzhEcFhKNjR3RTFlZUZCWVF2NUt0bmg1aGJnQmczMklxU2FXbDJMZdIBlAFBVV95cUxNcjNjbzhDQl9IRzlKVHA2VVVOQVVFVkFqblZFam9MdnZ5WDl0bEpVSzBwV2tIT1ZzUjBIdGlONFR4ZEc5bHBSVGVxaTBWNzRsSHFaMUVBNTktbHI5OVk4VnRwYXNXRDE3M05RNThHSFNFYWZzOFQ1ME1oWi1kNm5JeU1NWEhWMEtfRHRLVE5sWmI2c29S?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1667,
+      "country": "Canada",
+      "date": "2026-11-03",
+      "school": "University of Toronto Mississauga",
+      "city": "Mississauga",
+      "state": "Ontario",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "UTM_20261103",
+      "notes": "'Active incident': Shelter-in-place order issued at University of Toronto Mississauga campus",
+      "lat": 43.5885,
+      "lng": -79.6437,
+      "src": "CP24",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ1Z0NlpfWklOTUZQSlJrOEdKdUxTemVoMDdtVnRQNVVSU0NIZ2wtaS0yMnFTc2VvS2lRUWo3UmNjVWRSN1JDd3NoeW9DX1RkanpXWXdzR2lpYi1VMmpZTDB3NWZReVhjMWxvRVhlelV6U1Z6T1BPV2txWkt1MndJa2ZyR3FieXJna0lPeXQwSG1KaTZzaWRaYkRBQTZMdEUwaE1QZ3Q4TC1ab3VFRzVTYWdsMXJBM0lrNkFRQ2tyOVVSSl9EcGs3REpkb0diNjlSTDJhbVUwM1FGbFE?oc=5",
+      "sources": 11,
+      "county": "Peel Region"
+    },
     {
       "id": 1661,
       "country": "United States",
@@ -59,7 +119,7 @@
       "lng": -117.1638,
       "src": "NBC 7 San Diego",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQajc2M2puSXE2UC1Za1Nic1lJRGJMbW9SRTR5RG8tS3V0NnBpX0xFd25RbFRRSlRGRlo2bXZCRUYtYnJBekZVMi04THVuSkdmS2UwWXh0R2dvODFZOFpqblhaOFFpeG1UajZuNG1wdFY3T2VQOTNtSEMzTmZiY2FMSUNrZFp3bEpLLXV6VUlZQkR2R3lhLUhBek53U1g0X1ZDc2NGU0hjMDFXbHV4bmREZUtJdC1hLVdEb056cU4tTG5wSlEyYUhCUnVn0gHSAUFVX3lxTFA5UXRjNlV3Z3dqYjBzSy1mLVJwejdUN1NUMVBwSlRSTU5HU2c3XzRLVzczazRZNU92aDM2U1dDRElBSUJLb2RSdUxCS1MtVVRXaEJObFF5cHBfc3ZoMG5tNnVWUFJ3WEpaWmdRUm9UQlhmdlk0U1BuUjNyWWtQaC1JakVzcl8yOUhDdm9VZWdUajgzMzVoZ3BxN1c1SkJDWVQ1SVJDbHJpSzZyOU15VVd6bi1DTGNhRFZFQy1MdGE0NzVKcGd0QV80OTVBMVhleWJhQQ?oc=5",
-      "sources": 2,
+      "sources": 5,
       "county": "San Diego County"
     },
     {
@@ -146,20 +206,20 @@
       "id": 1658,
       "country": "United Kingdom",
       "date": "2026-11-02",
-      "school": "London Airport",
+      "school": "London Heathrow Airport",
       "city": "London",
-      "state": null,
+      "state": "England",
       "sector": "Transit",
       "type": "Bomb Threat",
       "response": "Diversion",
       "outcome": "Under investigation",
       "cluster": "Wizz Air bomb threat diversion 2026-11-02",
       "notes": "Wizz Air Flight From London Diverts Due To Bomb Threat",
-      "lat": null,
-      "lng": null,
+      "lat": 51.5074,
+      "lng": -0.1278,
       "src": "Simple Flying",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRNVFVWVloMVotZnJrMUcySzk3NktKaU5qVGZnNktuWXFNZTZjTUl4R0ZRNjU2ZjMzTW5OTWsyMFJJN0ZGZU1xRE85VXVMUmlmaDl6NEVRUzV6Nl8tcUdCZFpwWkNkR2M?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -179,7 +239,7 @@
       "lng": -84.8766,
       "src": "wtvcfox",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcHZPQTE3UHFOOEU0c1pvU3lvTGFxNjFyQnNyeU5kakw1a3R2bHhvLTBHUXAyanhaN1FxeS02cnNYUzNpU0NkWDk2U0NqVmNJZE5tOWFUX3JpeE5HYXVKREJJVVlRblpET01kVGM0MnJzT3ozeWl0S09NQVQ1dGRlS3dLT3d1eDlQRTRhOHl2anpDcGYyMzE3ZFZKWnRZTUhHWW4wTHpZcVdZRjhnWEE?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": null
     },
     {
@@ -199,7 +259,7 @@
       "lng": -71.3967,
       "src": "MetroWest Daily News",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUU9Oenpram5LZEtsS19TNFZIRFBORzJwaUpKOGVsVWhOV0hNTm1jOTdLTU9wVThKc0tsaXZ5UEJyMjRDZzFwNXZDYkRmZUdMTWFSWERyTnFESWpuM2JlcjVSQlUxYmhQSTV6VUV5N1JVQ1VhWlN3WWx1M3ZnajNyZy0xcWxlajlkaXBHUU5Xem1BSkV2Z2ZwaFg2OUNxMVVyaGdEMldvV1NiVjViRzV2M0FYVEpuTjN0Szc3R2ZCMDZJNk5PNng2bTJVZUtBaDFCWnJWVEpDRm1JeUNySkgzNVh0ZHI2LUVLVzZN?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Norfolk County"
     },
     {
@@ -259,7 +319,7 @@
       "lng": -78.4581,
       "src": "WRAL",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWHp6VEJyUEV2R1NGMUZzb0pXYUxfUElIZ04xeWRnM0tXZ3JveVc5ZWw4WndDVUVqcUd1S3hLZHg2bkVjT2RqMmJ4bUU2emhGZlBIV3JIUlFYSWhsMDh3c3d5ZVBJTV84Ym5WUDRLajZaREp3bHdmVVVHTDE2RmtCYzliaTJla1dGQVpqakZfZFROMGVNZEdNWnA3NA?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Franklin County"
     },
     {
@@ -17723,14 +17783,14 @@
     }
   },
   "last_run": {
-    "ingested": 134,
-    "skipped_seen": 105,
-    "recognized": 15,
-    "new": 6,
+    "ingested": 162,
+    "skipped_seen": 114,
+    "recognized": 21,
+    "new": 3,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 27,
     "errors": 0,
-    "attempted": 29,
+    "attempted": 48,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17746,7 +17806,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 47
       },
       {
         "edition": "GB:en",
@@ -17760,7 +17820,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 47
       },
       {
         "edition": "CA:en",
@@ -17774,10 +17834,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 37
+        "items": 38
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-03T02:55:38.362134Z"
+    "ran_at": "2026-11-03T10:51:30.234331Z"
   }
 }
