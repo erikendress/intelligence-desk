@@ -1,7 +1,208 @@
 {
-  "generated": "2026-11-03T18:28:03.137447Z",
-  "count": 874,
+  "generated": "2026-11-04T00:02:19.744936Z",
+  "count": 884,
   "incidents": [
+    {
+      "id": 1684,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Rep. Henry Cuellar Campaign Office",
+      "city": null,
+      "state": null,
+      "sector": "Workplace",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Cuellar_campaign_suspicious_package_Nov2026",
+      "notes": "Rep. Henry Cuellar's campaign office evacuated after suspicious package discovered",
+      "lat": null,
+      "lng": null,
+      "src": "KABB",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMVpkWE5rbHVOSXhGcUxoQkIzYkJkTVc1SnNaamx3dmFrZzJGRGstd2R1dHlqMnI0azJCdjJCdFl3c3pVYm5VMGlJVTQ2cU5IeUhKWEJTN0hWZGgzZTk3ZFppRjBQUnRHa0NNU0QzSUpyeTFHRWFGclJOVW5OS1UtVGx1QWRTYzEycWJRWmpBMzhSbV9hNHFiUmZacVc5cXhNSWlYSzF5Q3JVMlVFdk9aTHZTTXcxY0M0aG5hRVNXeFI?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1683,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Cuellar's Laredo office",
+      "city": "Laredo",
+      "state": "Texas",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Laredo_2026-11-03_suspicious_package",
+      "notes": "Staff evacuated after 'suspicous package' found at Cuellar's Laredo office",
+      "lat": 27.5079,
+      "lng": -99.507,
+      "src": "BorderReport",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYWFmbFRPSDhuVkFzQ1FjZFEtM3JUaFh6TUkwdm5FbV93UDcwVkJnUzNjOW5SYkN5RjZxMmNaR0cxQ2hEa0NUU1QyZmFTbFpLVHhxczlrdl82TGpBZHZCX3BXcmp1V3NqTWNZMlFneVIwQTdvcDhrWjNaX1I2Mnp5aFYxcWYwOEJ1UVROeXA0VFAxY01QZ2tyTTFYZkhZSjBKcklmMFdfTmdpWlpjRFlmZEZGUVpYQdIBuwFBVV95cUxONERhTHFYd1F4U0txRldVbUctN0hTSHh0aDBuZVUyaG1Ucm9fR05ZTFdQN3NjLWFGT2xaZ3RWR1A0VUNvU0RReXZNbERRSnhZRW96dUltNUdWUjE3dk8tYkNFUFZXQTJPdmhIZzFWMGtZZ2lxUmRNaGNMa25HRGN5aE9ZcW9qb0pJcG54UzI0YlJXdWFybWEzZ3NmYkhEX1Yta1F0YTh6VHFNdTlnT29TdXlQS0x1bHZLX0VZ?oc=5",
+      "sources": 2,
+      "county": "Webb County"
+    },
+    {
+      "id": 1682,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Defiance School Building",
+      "city": "Defiance",
+      "state": "Ohio",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Defiance_OH_20261103_bombthreat",
+      "notes": "Defiance School Building Evacuated After Bomb Threat, Nothing Suspicious Found",
+      "lat": 41.3203,
+      "lng": -84.5085,
+      "src": "The Village Reporter",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNTVjQTZqd05NTmZyUWt5YWFZUF9TU2JrR0NZTVE0RG1sSmVBQ1FwejlOU1IyMTRHNFVhTUoxMWF0RTFnYTlXT1F4dU1lWGY2NW9LcmJCSFRPMkk5MTlJLWp0NEFmeXpOb1VnOVdYcE83SWFFVzVUZnF4bE5IZnRPbVJMYXRMQU90bTJFMUQtYTdMNjVqUXBKS2lHU2t6c3dOZ19EUnRpUE9pR1RaOUE?oc=5",
+      "sources": 1,
+      "county": "Defiance County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-03|United States|Ohio",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1681,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Marissa Elementary School",
+      "city": "Marissa",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Marissa Elementary School active shooter report 2026-11-03",
+      "notes": "Randolph County deputies respond to reported possible active shooter situation at Marissa Elementary School",
+      "lat": 38.2272,
+      "lng": -89.8158,
+      "src": "KBSI Fox 23 Cape Girardeau News | Paducah News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc1NwZXlVOGVmMFY2bG5ibWlnRWkzZXVOR0haZ3h2T3ZJWEtKV3BrOVBfdnYtVHhCUmYtTmxoVXlOT3ItMWtTTzRMa3psel9RWnM1LWhTNFZ3VnpUaUhGUmFvZDdXcHlYeXFzeHRVNHpfWDZsMUY4SkRtX29iR1E3VEdNeE1qcDNvU2JLOXotOVRjR0xkR1UtUUtWcF96SFBtaU1Oby0zLURZMVNDOGNXUzAwQ1N6bldzd0ZRT2llWUt0Ujg3OXJZanFwZ1JSNFYtWXc?oc=5",
+      "sources": 1,
+      "county": "Saint Clair County"
+    },
+    {
+      "id": 1680,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Voting Location in Toledo",
+      "city": "Toledo",
+      "state": "Ohio",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Toledo bomb threat election day 2026-11-03",
+      "notes": "Bomb threat disrupts voting at one location",
+      "lat": 41.6529,
+      "lng": -83.5378,
+      "src": "Toledo Blade",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeGlmRkczWmpjMmFQODh6NGRNVFVEdzBtNFhJOVVLVVdodE02NWtkQTlKVVlmUURUOUVXb21BUjY4SG1RdU1acjJQc1pHNlA1dmU1Z1hxaVNVcnlYNXlSanZ6LTNBOHJzU1BCLXhtalNudFZkNVFKaGd3WlUyRmhrUXJBdE9RTDFrN3hXTjRleWYxQVlxSlhjcDliaVd2T2tyT0k3cTZJVTFVMzdDNWVFdk5SYVpfVFIwRVV6Z1Z3WW1fR3c?oc=5",
+      "sources": 1,
+      "county": "Lucas County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-03|United States|Ohio",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1679,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Polling Place in Toledo",
+      "city": "Toledo",
+      "state": "Ohio",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "toledo-polling-place-bomb-threat-20261103",
+      "notes": "Toldeo-area polling place evacuated for a time due to reported bomb threat",
+      "lat": 41.6529,
+      "lng": -83.5378,
+      "src": "WFMJ",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQM09NNkRaandSM1JvZnczVXJuLUwzc3lEQXpBWjZUcl9KZ3FNYUwxOTlHZ3BwWVJGMk9KcFFDdWZBUF9feG5EMC0xdWtRN2NhOUdNWUk3c3MweF9DVHM5TV95N25ackp3dDhtbGNoRTQyNURCcmx2SE01X1lnRElrSTZTR09qMTVodklxWGVKVDdldU9DcDJUNS1LY3o3R1ZESEoyMndQcEw3WEU1RmpzQjZSclpFRGZUZnFnUW1XWVk3ejdlVVA1T21SUmJoRkFrcGFKYlNXU0JyS0NMamtqWEtYZVVCX1VjWXhXZHRLYk5PY28?oc=5",
+      "sources": 1,
+      "county": "Lucas County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-03|United States|Ohio",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1678,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Polling Location in Wayne County",
+      "city": "Gibraltar",
+      "state": "Michigan",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Arrest made",
+      "cluster": "Michigan polling location bomb threat November 2026",
+      "notes": "Voting moved outside following bomb threat at Michigan polling location",
+      "lat": 43.6212,
+      "lng": -84.6824,
+      "src": "WPTV",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSk9ybzdTZ2hKeVJfZENUeGg3NmRzNEhOWlhyUldUSUo0bExwSHFTeXoxRnVtVDhjTXFRVHNoOHRGaDNud3lZT09ZWEtDU19iNVRLTGh4YUVjMjduZExWTjdOWTV2WnNOQzlxWUdPT2Npa0NySlhfRTlnNHUwN0M3UVF2Z0JqWmQ2cUpuOXVuVS1qWkU0T0dabkFoNEVmV2dWU0tR?oc=5",
+      "sources": 3,
+      "county": null
+    },
+    {
+      "id": 1677,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Planned Parenthood Hampton",
+      "city": "Hampton",
+      "state": "Virginia",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Hampton VA Planned Parenthood bomb threat 2026-11-03",
+      "notes": "Bomb threat investigated at Hampton Planned Parenthood facility",
+      "lat": 37.0264,
+      "lng": -76.3443,
+      "src": "WAVY.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaV84QkJyRFlTYnhCNGhGcUxCOEd0aldVc3V6a1B1aExFUXU3ZlRHTXVBYkFrbjZtekpzckh1NWo2YzI1TDJ0ZDRodEhJejNIY2EzVklpMkZuSTR0QVZFV2RPLTQ1V1Y1NU9seEVpSkRveUlsYVpJV3FkUEZUYnh4NTMyRjhhWm00VzAtdk5aUVY1MkZy0gGaAUFVX3lxTE5tSEVVTGk4WnFWaE5aREx2NzdPVFdTYjR3MVZiSVdoWENmU1BPT2RKR0RVWjdSOVFPNlR4NTJNZDJqdWlvMEFLdkdkRHgtcU15dHo4ZWRRdTlYalcxazNuZFNNcUFRMk9TYjFldDREOTFhUzU4bG9tekV6b1duc0hoUFdqazJNUlNRTmJzVlVJSHh4QzduR1Z3QlE?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1676,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Gibraltar High School",
+      "city": "Gibraltar",
+      "state": "Michigan",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Gibraltar High School Election Day bomb threat",
+      "notes": "Election Day bomb threat at Gibraltar high school polling location",
+      "lat": 42.095,
+      "lng": -83.1896,
+      "src": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQUI2NTg1UGNHZW9hdU1BUGxYSmV1dDJDeVdRUW5ZVXhHUVFobElWNTVNdXRZYWhFaTFoOHlxR3pQUGxVY2NFaVM2M1JYVHRVZDNqN2hOZzVTV2YwbldNZTRpeU53b1Q0YXhNeTI4Z05yM1RxVV9YZURMaFBqX2F3N3ducW5tcGllYjZ0b3hhY3BZem1qZ1diVzFSTXdTT09Ldm5scG84MkExbGZLeF9xM08tNEtRNE56aFhfbG1CZ0tCQTJWN3g1UlB6bE9rZ01vSG81WDFfLWs0UkFDSHc?oc=5",
+      "sources": 1,
+      "county": "Wayne County"
+    },
     {
       "id": 1675,
       "country": "United Kingdom",
@@ -11,7 +212,7 @@
       "state": "England",
       "sector": "Transit",
       "type": "Bomb Threat",
-      "response": null,
+      "response": "Lockout/Secure",
       "outcome": "Under investigation",
       "cluster": "Manchester Airport bomb threat 2026-11-03",
       "notes": "Ryanair flight from Manchester Airport inspected amid suspected bomb threat",
@@ -19,7 +220,7 @@
       "lng": -2.2325,
       "src": "Lancashire Telegraph",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWlVWHFzVmZCYjh1Y2FfSHZUR3R6OWpBYng1ZGRIWWd0WjR0S2o4VTkwdUY0bW96Z2s4aENhTWVPaThqZTdoczlyYVNCUVV3b2lvSm9fVzhYWldDQXlYbWl4N0FDWi1XZHlYekFpeFM5cmhNT1ZBVi1QUkVQTEZXWHVkazVmY25JSUljSGktRTVoZDFMNk13YTdEUDQ3d1FLNUowQWNVTlF1WHBkQ3VRdlhtRQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Greater Manchester"
     },
     {
@@ -99,7 +300,7 @@
       "lng": -80.6078,
       "src": "Florida Tech",
       "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPcWlPeUstTF9GdE1LN1lxb2tqcy1DOTJnWFpLTUhHUnIxNWptN2J6QXF1NWdlZW11R0hrcDUzQlhiUGpGVTB5WGdyLVpGM1oxODI2d1VHN1VDbFExWHZCMU90Z1JfbGk1c3JaQjJwdDFucDRRUHZyaWpJN3lpQURqSXROSWhSY2pfUGg4T08taW92dmRyNVo3dlFxdVZoVkhHblIteDBnR2lvdDloMTdaTW5IbElCYkpFTmRhc3U3X040YnQyUTBpLThVdlJxMGNrR2dwVl9DNGduUFhHWnVMOGdYUGlQUWRnVUxkOURKc2lfNFd0bzhNR05Fd3c5STRtc29rZExCWGo?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Brevard County"
     },
     {
@@ -119,8 +320,15 @@
       "lng": -81.6937,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMHdoVlJIdjJVTzl2RTBqaGFkNDgtaVctak00em9YamFVNkRfWjFSV2lGRWFLXzRvZXl1NzBGUnFhNVRxNEk3NU15STVMa2hRX2U0TzN1eTA4UkRCazZxMTMweGx5YmJYM1NMX09Ud1JaN0pJTy1JMVlkTmVFUkxNOE05SDhVNWR2LUFycHR1andjcTFpZzFjT3RmaXBEVTZqeTI0M0M2bFhOWTg?oc=5",
-      "sources": 1,
-      "county": "Cuyahoga County"
+      "sources": 12,
+      "county": "Cuyahoga County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-03|United States|Ohio",
+          "counties": 3,
+          "events": 4
+        }
+      }
     },
     {
       "id": 1669,
@@ -179,7 +387,7 @@
       "lng": -79.6437,
       "src": "CP24",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ1Z0NlpfWklOTUZQSlJrOEdKdUxTemVoMDdtVnRQNVVSU0NIZ2wtaS0yMnFTc2VvS2lRUWo3UmNjVWRSN1JDd3NoeW9DX1RkanpXWXdzR2lpYi1VMmpZTDB3NWZReVhjMWxvRVhlelV6U1Z6T1BPV2txWkt1MndJa2ZyR3FieXJna0lPeXQwSG1KaTZzaWRaYkRBQTZMdEUwaE1QZ3Q4TC1ab3VFRzVTYWdsMXJBM0lrNkFRQ2tyOVVSSl9EcGs3REpkb0diNjlSTDJhbVUwM1FGbFE?oc=5",
-      "sources": 14,
+      "sources": 15,
       "county": "Peel Region"
     },
     {
@@ -439,7 +647,7 @@
       "lng": -78.4581,
       "src": "WRAL",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWHp6VEJyUEV2R1NGMUZzb0pXYUxfUElIZ04xeWRnM0tXZ3JveVc5ZWw4WndDVUVqcUd1S3hLZHg2bkVjT2RqMmJ4bUU2emhGZlBIV3JIUlFYSWhsMDh3c3d5ZVBJTV84Ym5WUDRLajZaREp3bHdmVVVHTDE2RmtCYzliaTJla1dGQVpqakZfZFROMGVNZEdNWnA3NA?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Franklin County"
     },
     {
@@ -17638,6 +17846,26 @@
       "county": null
     },
     {
+      "id": 1685,
+      "country": "United States",
+      "date": "2024-11-05",
+      "school": "San Diego County Registrar of Voters",
+      "city": "San Diego",
+      "state": "California",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "San Diego County Registrar of Voters evacuation 2024-11-05",
+      "notes": "Suspicious item forces evacuation of San Diego County Registrar of Voters office on election eve",
+      "lat": 32.7157,
+      "lng": -117.1638,
+      "src": "10News.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcThzbEtNTGo2QmFjNnFLVXR4NUZNS192cEE2UkhhSkRwSUFNUFItTElLcF96UG5HVm1tSFJxVS11YTlhbXN0SFVEY1Q0bFNQeGpWaC1LTXhZT2VFMlRveml3MURjaW9DVXBLdS1VY2FXMUF6bEN0Uy05dUh3MUFYWi0zUU4yWExxU0gxeEQ5QnJWeE5OWUp1ZVFYR3k5R2lvV1JReUtSYkx3d3hQTXNGckJsWXNUWHhuLWdTSV9IeW03OU5WSFZ4SmpFRWVkV2VuT2N0R1MwZmRJcDQxLVpVb05TN2s5NW9LUFQ5QzNB?oc=5",
+      "sources": 1,
+      "county": "San Diego County"
+    },
+    {
       "id": 1349,
       "country": "United States",
       "date": "2024-10-07",
@@ -17760,25 +17988,23 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-03",
+    "computed": "2026-11-04",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
       "stacked": "one call claiming both a bomb and an active shooter"
     },
-    "waves": [],
-    "repeat_counties": [
+    "waves": [
       {
-        "county": "Allegheny County",
-        "region": "Pennsylvania",
+        "date": "2026-11-03",
         "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-10-20",
-          "2026-10-22",
-          "2026-10-29"
-        ]
-      },
+        "region": "Ohio",
+        "counties": 3,
+        "events": 4,
+        "key": "2026-11-03|United States|Ohio"
+      }
+    ],
+    "repeat_counties": [
       {
         "county": "Dallas County",
         "region": "Texas",
@@ -17797,6 +18023,16 @@
         "dates": [
           "2026-10-22",
           "2026-10-27"
+        ]
+      },
+      {
+        "county": "Allegheny County",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-22",
+          "2026-10-29"
         ]
       },
       {
@@ -17841,30 +18077,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-20",
-      "to": "2026-11-02",
+      "from": "2026-10-21",
+      "to": "2026-11-03",
       "days": 14,
       "hoax": {
-        "total": 64,
-        "bomb": 48,
+        "total": 66,
+        "bomb": 50,
         "swatting": 16,
-        "schools": 47,
+        "schools": 49,
         "by_sector": {
-          "K-12": 40,
-          "Higher Ed": 7,
-          "Government": 6,
-          "Other": 3,
-          "Retail": 3,
+          "K-12": 43,
+          "Government": 7,
+          "Higher Ed": 6,
           "Venue": 3,
-          "Healthcare": 1,
+          "Other": 2,
+          "Healthcare": 2,
+          "Retail": 2,
           "Workplace": 1
         },
-        "states": 25,
-        "confirmed_hoax": 16,
-        "arrests": 5,
-        "under_investigation": 42,
+        "states": 27,
+        "confirmed_hoax": 15,
+        "arrests": 4,
+        "under_investigation": 45,
         "per_day": {
-          "2026-10-20": 6,
           "2026-10-21": 5,
           "2026-10-22": 9,
           "2026-10-23": 5,
@@ -17877,10 +18112,10 @@
           "2026-10-30": 7,
           "2026-10-31": 3,
           "2026-11-01": 0,
-          "2026-11-02": 4
+          "2026-11-02": 4,
+          "2026-11-03": 8
         },
         "per_day_schools": {
-          "2026-10-20": 3,
           "2026-10-21": 5,
           "2026-10-22": 8,
           "2026-10-23": 4,
@@ -17893,24 +18128,25 @@
           "2026-10-30": 6,
           "2026-10-31": 1,
           "2026-11-01": 0,
-          "2026-11-02": 3
+          "2026-11-02": 3,
+          "2026-11-03": 5
         }
       },
       "suspicious_mail": {
         "total": 18,
-        "government": 16
+        "government": 15
       }
     }
   },
   "last_run": {
-    "ingested": 175,
-    "skipped_seen": 94,
-    "recognized": 16,
-    "new": 6,
+    "ingested": 176,
+    "skipped_seen": 99,
+    "recognized": 32,
+    "new": 10,
     "updated": 1,
-    "rejected": 66,
+    "rejected": 39,
     "errors": 0,
-    "attempted": 81,
+    "attempted": 77,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -17926,7 +18162,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 52
+        "items": 60
       },
       {
         "edition": "GB:en",
@@ -17940,7 +18176,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 60
       },
       {
         "edition": "CA:en",
@@ -17954,10 +18190,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 52
+        "items": 59
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-03T18:28:03.126103Z"
+    "ran_at": "2026-11-04T00:02:19.724557Z"
   }
 }
