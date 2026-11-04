@@ -1,7 +1,81 @@
 {
-  "generated": "2026-11-04T00:02:19.744936Z",
-  "count": 884,
+  "generated": "2026-11-04T14:42:21.217250Z",
+  "count": 887,
   "incidents": [
+    {
+      "id": 1688,
+      "country": "United States",
+      "date": "2026-11-04",
+      "school": "Carlson High School",
+      "city": "Belleville",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Carlson High School bomb threat evacuation 2026-11-04",
+      "notes": "Bomb threat temporarily evacuates Carlson High School polling place",
+      "lat": 38.5136,
+      "lng": -89.9842,
+      "src": "Belleville News-Democrat",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WUDh0UUEyWlRnMm1MSHV2RW0xdE1rNDJMS29JT3dXdXo3SEJ3WDg4WkpGMEhIcUswUml0R2t5TEdYLVd2RXlFLVJPUnBiOHNNb0I0WFRRLU9Cam01WVh6Y0dOeWtwQnotS1hIWWlTZTY2MW9ycjFV?oc=5",
+      "sources": 1,
+      "county": "Saint Clair County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-03",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1686,
+      "country": "United States",
+      "date": "2026-11-04",
+      "school": "Brownstown Township",
+      "city": "Brownstown",
+      "state": "Michigan",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Brownstown Township bomb threat Nov 2026",
+      "notes": "voters kept casting ballots during bomb threat",
+      "lat": 42.1529,
+      "lng": -83.2753,
+      "src": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaERRRUNJdFpiVl9QOExPZlVmMC1VQ3VJQmVobC1jLVVPcllpdmstd3lzTGZ3UndoUEwwNE4zX2NLaWw5TkhHRzVPRlY0VHdtaTNlUGhDLVhkNDBoQnJtamEzWVg1SnBEZDY3OG41SGpQQ1VNQVR3U0JQcmRJMjlteXpzTGFNOW9ZZGlsak8taEl5RXl6eEhsSjE2NzlfMHBLZzJRM24zS25DOC1vQ3BNNFZDc2VtSUlFWFJqRER0QzNndmlSSzNwQThoUGdZaHRzWkZFbWJrQ1JaNll3QzdmS1dIeDkyenl4U2c?oc=5",
+      "sources": 1,
+      "county": "Wayne County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-03",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1687,
+      "country": "United States",
+      "date": "2026-11-03",
+      "school": "Gibraltar Carlson High School",
+      "city": "Detroit",
+      "state": "Michigan",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Carlson High School bomb threat Nov 2026",
+      "notes": "Police evacuated Carlson High School after a bomb threat was called in to the polling location on Election Day",
+      "lat": 42.3316,
+      "lng": -83.0466,
+      "src": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLXBGSVlCalBjSFpoWG9mMHAyS0ZGcmxYdXpOalM0UnJZVEVtNGc5WXNIcjZ6Rl95blN1VGZaRzQzbkY2VVM4SHUwdENzVUZyOFJDczlwRnpsWDEtNzU0SUNaaVZKeXlqamdHdFRSdlR3cEZzZ0llQ01LR0dvWFNKR1lVVHdud0hPcTU1Y2hsakpDYTR4Wkk2U3ExVUR4cHNIOWc5bzdlUGN6eENpeFpUM1I1dWNCMDNwMGF0VHhLMGZmX0x1V1VIU0x2N1pIUmZ6cXBub1ZRbHRUdUk3b29r?oc=5",
+      "sources": 3,
+      "county": null
+    },
     {
       "id": 1684,
       "country": "United States",
@@ -19,14 +93,14 @@
       "lng": null,
       "src": "KABB",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMVpkWE5rbHVOSXhGcUxoQkIzYkJkTVc1SnNaamx3dmFrZzJGRGstd2R1dHlqMnI0azJCdjJCdFl3c3pVYm5VMGlJVTQ2cU5IeUhKWEJTN0hWZGgzZTk3ZFppRjBQUnRHa0NNU0QzSUpyeTFHRWFGclJOVW5OS1UtVGx1QWRTYzEycWJRWmpBMzhSbV9hNHFiUmZacVc5cXhNSWlYSzF5Q3JVMlVFdk9aTHZTTXcxY0M0aG5hRVNXeFI?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
       "id": 1683,
       "country": "United States",
       "date": "2026-11-03",
-      "school": "Cuellar's Laredo office",
+      "school": "Rep. Henry Cuellar's Laredo office",
       "city": "Laredo",
       "state": "Texas",
       "sector": "Government",
@@ -39,7 +113,7 @@
       "lng": -99.507,
       "src": "BorderReport",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYWFmbFRPSDhuVkFzQ1FjZFEtM3JUaFh6TUkwdm5FbV93UDcwVkJnUzNjOW5SYkN5RjZxMmNaR0cxQ2hEa0NUU1QyZmFTbFpLVHhxczlrdl82TGpBZHZCX3BXcmp1V3NqTWNZMlFneVIwQTdvcDhrWjNaX1I2Mnp5aFYxcWYwOEJ1UVROeXA0VFAxY01QZ2tyTTFYZkhZSjBKcklmMFdfTmdpWlpjRFlmZEZGUVpYQdIBuwFBVV95cUxONERhTHFYd1F4U0txRldVbUctN0hTSHh0aDBuZVUyaG1Ucm9fR05ZTFdQN3NjLWFGT2xaZ3RWR1A0VUNvU0RReXZNbERRSnhZRW96dUltNUdWUjE3dk8tYkNFUFZXQTJPdmhIZzFWMGtZZ2lxUmRNaGNMa25HRGN5aE9ZcW9qb0pJcG54UzI0YlJXdWFybWEzZ3NmYkhEX1Yta1F0YTh6VHFNdTlnT29TdXlQS0x1bHZLX0VZ?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Webb County"
     },
     {
@@ -120,7 +194,7 @@
       "id": 1679,
       "country": "United States",
       "date": "2026-11-03",
-      "school": "Polling Place in Toledo",
+      "school": "South Toledo polling place",
       "city": "Toledo",
       "state": "Ohio",
       "sector": "Government",
@@ -133,7 +207,7 @@
       "lng": -83.5378,
       "src": "WFMJ",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQM09NNkRaandSM1JvZnczVXJuLUwzc3lEQXpBWjZUcl9KZ3FNYUwxOTlHZ3BwWVJGMk9KcFFDdWZBUF9feG5EMC0xdWtRN2NhOUdNWUk3c3MweF9DVHM5TV95N25ackp3dDhtbGNoRTQyNURCcmx2SE01X1lnRElrSTZTR09qMTVodklxWGVKVDdldU9DcDJUNS1LY3o3R1ZESEoyMndQcEw3WEU1RmpzQjZSclpFRGZUZnFnUW1XWVk3ejdlVVA1T21SUmJoRkFrcGFKYlNXU0JyS0NMamtqWEtYZVVCX1VjWXhXZHRLYk5PY28?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Lucas County",
       "signals": {
         "wave": {
@@ -160,7 +234,7 @@
       "lng": -84.6824,
       "src": "WPTV",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSk9ybzdTZ2hKeVJfZENUeGg3NmRzNEhOWlhyUldUSUo0bExwSHFTeXoxRnVtVDhjTXFRVHNoOHRGaDNud3lZT09ZWEtDU19iNVRLTGh4YUVjMjduZExWTjdOWTV2WnNOQzlxWUdPT2Npa0NySlhfRTlnNHUwN0M3UVF2Z0JqWmQ2cUpuOXVuVS1qWkU0T0dabkFoNEVmV2dWU0tR?oc=5",
-      "sources": 3,
+      "sources": 8,
       "county": null
     },
     {
@@ -220,7 +294,7 @@
       "lng": -2.2325,
       "src": "Lancashire Telegraph",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWWlVWHFzVmZCYjh1Y2FfSHZUR3R6OWpBYng1ZGRIWWd0WjR0S2o4VTkwdUY0bW96Z2s4aENhTWVPaThqZTdoczlyYVNCUVV3b2lvSm9fVzhYWldDQXlYbWl4N0FDWi1XZHlYekFpeFM5cmhNT1ZBVi1QUkVQTEZXWHVkazVmY25JSUljSGktRTVoZDFMNk13YTdEUDQ3d1FLNUowQWNVTlF1WHBkQ3VRdlhtRQ?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Greater Manchester"
     },
     {
@@ -320,7 +394,7 @@
       "lng": -81.6937,
       "src": "Cleveland 19 News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMHdoVlJIdjJVTzl2RTBqaGFkNDgtaVctak00em9YamFVNkRfWjFSV2lGRWFLXzRvZXl1NzBGUnFhNVRxNEk3NU15STVMa2hRX2U0TzN1eTA4UkRCazZxMTMweGx5YmJYM1NMX09Ud1JaN0pJTy1JMVlkTmVFUkxNOE05SDhVNWR2LUFycHR1andjcTFpZzFjT3RmaXBEVTZqeTI0M0M2bFhOWTg?oc=5",
-      "sources": 12,
+      "sources": 24,
       "county": "Cuyahoga County",
       "signals": {
         "wave": {
@@ -367,7 +441,7 @@
       "lng": -77.4019,
       "src": "WWBT",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQWFLd21lMk5yUHg4dDR0bjhtdTl5Tk02U01DQm5wSHFhakhlMVRNb0J2dzZtNFc2TEdEemFYMTE5Q3JuRDdzWjBHMTlQZ0FCSXNaMjRscVFQSzhEcFhKNjR3RTFlZUZCWVF2NUt0bmg1aGJnQmczMklxU2FXbDJMZdIBlAFBVV95cUxNcjNjbzhDQl9IRzlKVHA2VVVOQVVFVkFqblZFam9MdnZ5WDl0bEpVSzBwV2tIT1ZzUjBIdGlONFR4ZEc5bHBSVGVxaTBWNzRsSHFaMUVBNTktbHI5OVk4VnRwYXNXRDE3M05RNThHSFNFYWZzOFQ1ME1oWi1kNm5JeU1NWEhWMEtfRHRLVE5sWmI2c29S?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": null
     },
     {
@@ -18064,6 +18138,26 @@
           "2026-10-29",
           "2026-10-31"
         ]
+      },
+      {
+        "county": "Wayne County",
+        "region": "Michigan",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
+      },
+      {
+        "county": "Saint Clair County",
+        "region": "Illinois",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-03",
+          "2026-11-04"
+        ]
       }
     ],
     "stacked_recent": [
@@ -18133,20 +18227,20 @@
         }
       },
       "suspicious_mail": {
-        "total": 18,
+        "total": 17,
         "government": 15
       }
     }
   },
   "last_run": {
-    "ingested": 176,
-    "skipped_seen": 99,
-    "recognized": 32,
-    "new": 10,
+    "ingested": 172,
+    "skipped_seen": 114,
+    "recognized": 29,
+    "new": 3,
     "updated": 1,
-    "rejected": 39,
+    "rejected": 26,
     "errors": 0,
-    "attempted": 77,
+    "attempted": 58,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -18162,7 +18256,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 43
       },
       {
         "edition": "GB:en",
@@ -18176,7 +18270,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 42
       },
       {
         "edition": "CA:en",
@@ -18190,10 +18284,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 59
+        "items": 55
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-04T00:02:19.724557Z"
+    "ran_at": "2026-11-04T14:42:21.204152Z"
   }
 }
