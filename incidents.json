@@ -1,7 +1,240 @@
 {
-  "generated": "2026-11-05T10:54:12.224297Z",
-  "count": 904,
+  "generated": "2026-11-05T18:45:58.449365Z",
+  "count": 914,
   "incidents": [
+    {
+      "id": 1715,
+      "country": "United Kingdom",
+      "date": "2026-11-05",
+      "school": "Heathrow Airport",
+      "city": "London",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Heathrow hoax bomb threat 2026-11-05",
+      "notes": "Heathrow Airport targeted in hoax bomb threats affecting flights across Europe",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "src": "London Now",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbWRfWDJRcTdZOTcyWlc0WDRuSHFqZmtlVkMzQk1oU2dPeWVIOXIxQ3N3MEtVRkVBOWUyMGVUTUFrclBWMFNzYWhnLVZvcGIxX1JqSXdtNGozZU43eEtxR1ZjbE9jSU50RkNUUl9CZjdqTmJNTW9qN2tCMnVJYXBVQ0FUWGdOQXpFRUp3c1FiOC1EdkVGWWZFdEw3S0NiMWdvNVZfcFV3Y3I4UQ?oc=5",
+      "sources": 1,
+      "county": null,
+      "signals": {
+        "wave": {
+          "key": "2026-11-05|United Kingdom|England",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1714,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Iowa postal office",
+      "city": null,
+      "state": "Iowa",
+      "sector": "Workplace",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Iowa postal shooting 2026-11-05",
+      "notes": "Female postal employee opens fire at Iowa office injuring three",
+      "lat": 41.9217,
+      "lng": -93.3123,
+      "src": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOWYyN3RaZlBURThsSVp3U3hkUFpwZjF0WWRTV3ZwUEFBWnp0XzFYVHJDNjlUM0EtS0s1dzZDX1E5Mm9GMTV0djVtMVE1bDZVR2t0d01lMlphWGNMLVdRR2Y1a05UcXBrYlNER0dKVVZBblB4N2VMXzBMMUNlR3NhY1ZlSVBYbTN1REVKejI5QUZXUVU0aWRMUnI0eTBzdUExWUE?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1713,
+      "country": "United Kingdom",
+      "date": "2026-11-05",
+      "school": "Manchester Airport",
+      "city": "Manchester",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Manchester Airport bomb threats November 2026",
+      "notes": "flights impacted by more bomb threats",
+      "lat": 53.4425,
+      "lng": -2.2325,
+      "src": "Lancashire Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcW9TdVlvM3pPeGpfQXBOYkFwSzRldzJncnczT3FsM19RdUVIMzVSQzFiX0JRMnNWaXNGVFNZYnVrQUVrSXg5QktxaGE1QjhnUy1ITzBHZ0RPQ0xCQkZkNVFwN0d4Ym1xZm10X2wtTEpoLXBZSnRnTkI5MDk0QzYwajRZNldDR0JIR2dKellxMTBvOFVEMjQ5bW5nM0NhM2MzR1lLQ3JpMkk?oc=5",
+      "sources": 1,
+      "county": "Greater Manchester",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-03",
+          "window_days": 7
+        },
+        "wave": {
+          "key": "2026-11-05|United Kingdom|England",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1712,
+      "country": "United Kingdom",
+      "date": "2026-11-05",
+      "school": "Stansted Airport",
+      "city": "Stansted",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Stansted_bomb_threat_20261105",
+      "notes": "flight forced to divert mid-flight over 'bomb threat'",
+      "lat": 51.887,
+      "lng": 0.2442,
+      "src": "Colchester Gazette",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVk01dU9RSkdFbmVkYURkZDJBS2UyVVd4TEI1SGNYUTBWcXBJLXlIbjZURnRfVUc2YzBkaVZ1bWlpdGJQeGs1UkRNZE1aeklCX1lpbTVwaDcxX1haY1FYVjhSanVNa2t3aUZHNzI2SENNOHFvNnhaNjNVaGkySG54OTBsaUdVVkdqS29HUFo4MDViYkxrVURvemF2aGt2VEE?oc=5",
+      "sources": 1,
+      "county": "Essex",
+      "signals": {
+        "wave": {
+          "key": "2026-11-05|United Kingdom|England",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1711,
+      "country": "United Kingdom",
+      "date": "2026-11-05",
+      "school": "Birmingham Airport",
+      "city": "Birmingham",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Birmingham Airport bomb threat 2026-11-05",
+      "notes": "Bomb threat at Birmingham Airport assessed as not credible",
+      "lat": 52.4949,
+      "lng": -1.8518,
+      "src": "Rayo",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdGFuV0hKZ2NqWUtBLU02SDFFMHI0T3I3TWttMU9sbnpjdkszdWg3TmswMkFuUGtxZXhDb2NzdVJBTDF6bGlqUTdvVFJPSW9CNXZyQl9ZUVBGT25HQzFoRnVINldTX1hEZFAyWEhyYkE2eWx1d2cyQ3lyYnN5ckMzUnlGb3g0S2FnaEtETDZJNVBSSVRrWHhSaGZRelhzY3dBazlhRkRLQTFxYS1ROTFTVlJpZWlIUQ?oc=5",
+      "sources": 2,
+      "county": "West Midlands",
+      "signals": {
+        "wave": {
+          "key": "2026-11-05|United Kingdom|England",
+          "counties": 3,
+          "events": 4
+        }
+      }
+    },
+    {
+      "id": 1710,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Silver Bluff High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Silver Bluff High School lockdown 2026-11-05",
+      "notes": "Lockdown lifted at Silver Bluff High after no gun found on campus",
+      "lat": null,
+      "lng": null,
+      "src": "WRDW",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbXBGdG1IMjBRd1ZDcVN3a2kyblJNUV9jVzE0WEFQMlM2WHFxekdDNjA2bUI1amJLYVVfV0tVRF9PZ3prRmJoa05RQ0J2OUtsREZIcVF1ZVdEWEN6ZXJMNE9ZOFc4SEloSGFkYjVOU1ZJbExRSmNrcW9yekxpc1RqeU5KNzBzdTU3OXpUOVpUOFlsdFpJSzdn0gGrAUFVX3lxTE9yV3p6THZIcWVLSTNZUkMySDNYaFIxUGpCT1ZveGR3ZlNrRWpublhuMXRpVEdaMkZ2YU8xTFUzQjRrVVpSTGthSDUxd084anJzVUdLWHZmZ09EVmNsYkM1ZmtkMXNqZkxYTEJoN0Ezd05rcTR5eGtERkhDckprRlhCM3BlbTNRNlg0QmkwcGdXUXJtTGcxb19XcURlRDdtZGxjME9icTNwMlhMVQ?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1709,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Brockport High School",
+      "city": "Brockport",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Brockport High School lockdown Nov 5 2026",
+      "notes": "Brockport High School lockdown lifted, started over 'concerning statements' related to video game",
+      "lat": 43.2137,
+      "lng": -77.9392,
+      "src": "WHEC.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc2hreHVPanpna0pRV1o1cXhMSS1RMEJjNTNqRXdiZmdPckdxekE5VENrZVUyWXdzbTl1cTdyUzlQRFp2LU50SndDalFBQ2JsdnlOaDRCTnJLMDBqZ1hBc3hGT2QySE4yR2dCZUZYU2RkZ2V2NE1oWjdFZk44cEI1V0RLYUJ4VWpreWV5ZzdmdkNBM2lJMEVpUnFLVDdienJZN0tjRDlpaVU4VDUxeHJjc2tpblZ3UHdhWF8xVzl5cGdDQnM?oc=5",
+      "sources": 1,
+      "county": "Monroe County"
+    },
+    {
+      "id": 1708,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Des Moines Main Post Office",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "sector": "Government",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Des Moines Main Post Office shooting 2026-11-05",
+      "notes": "Multiple injured, suspect detained in shooting at Des Moines Main Post Office",
+      "lat": 41.5869,
+      "lng": -93.6249,
+      "src": "WHO13.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOTdEa3VHanhyTVA1UWNsYURqeE1ieTh1NUJxOGVEd2tGaHU4eUEtUTJCWFRfUXRPUDZta1RqVTZQN21nTDE5ZGJRbXBUMEo2OE4wSmxsTWdLMi1JbEd2Z0JIanNwY0kzejhSUmRWb2VpNVFPajVlWXdlSEpFckYxTjh5dDU1dl9teDVzNHFCYldBcVRkM0ZZ0gGcAUFVX3lxTFB5SmRMVVFaZTZGX2xLRXFwZzk0S29uTjFhVGc0d2ZWTzlmbDFlS2JPQ3gzMGZ2eDMycmVsYlJQVWRBc0luam4tanJWeHJUbkd6UDVnSkxuV0hSVW1SZE1NUUF4LXdMQllNMjlpVWs0QktpSktxNmdwdHEwOFJEWFVhbmktV1JCdVJodlR5ZEsxZmtnc1FpWWFFZkdtVA?oc=5",
+      "sources": 3,
+      "county": "Polk County"
+    },
+    {
+      "id": 1707,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "West Phoenix High School",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "West Phoenix High School shelter-in-place 2026-11-05",
+      "notes": "West Phoenix high school activates shelter in place during police investigation",
+      "lat": 33.4484,
+      "lng": -112.0741,
+      "src": "12News",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQNVVjYjVsN1hYdTdRUXVrSnluNWhKVTRWMmxsOXJfTjRJTHM2OW56ZnVHa2tYSE9aQ1kxLXNUdTRlUFBnSXl4blI3UnNncURjaUNEZUIzeC02WklxTklwSHZ4eWZtVXpTR1llUEZyeGQtZGhkR3hlMFBrYUI1ZjMxbm9pNnZHMkxzQ1g4TzB6Rk5KaWFaSUFwdk1jeWxXZTBJZnJFemVRUXRqeDBVQy1nbExfaHd0WmJfcnIzUXdzODJ3dktQMlBuRWViNGlqN3hfcldLTmFyN3ZGX1JDQk5GOGFadTFiTTlaTW9fMlk3TGNYZm1ZQmYxbWVBcXBDUnNRQlRUX3RqSzBEQQ?oc=5",
+      "sources": 1,
+      "county": "Maricopa County"
+    },
+    {
+      "id": 1706,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Wolman Elementary School",
+      "city": "Katy",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Katy-gas-leak-2026-11-05",
+      "notes": "Wolman Elementary School under shelter-in-place following reported gas leak nearby",
+      "lat": 29.7858,
+      "lng": -95.8244,
+      "src": "ABC13 Houston",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZU1CRW5KUGVHQVpNOTE4MnJFVkhTNzc1em40U184aDBNbmlqcFFDWUxiSHpiRjhrTVJ3d2ltbXduUWdWcnNQQzdmX1FyVTJ3eEVJb2RlRWpCaHd5T3gxWExYY0o1ZWpyRF9oU1BhcE1GX2xLVjhOeG9BNXBITFhVN3E1SXJfTnY1S1NPWVE2MFFRWlpyLVpjSG5vajFiZzl4bnFFVF9DUlZ1QlNuelN1OFFvZExxclNwcVBiWnd30gHDAUFVX3lxTFBrbGIwV2JhTUZSVWlfVzgwSWp0bE5tb1lva2JTY3owRTl6VmlWRldRaTJEdGpTeXlaRnFMRFZibEJ6U0lfMXhxZzFUelBERVJaSjhrcGRwMFJjckpYNE90YTc0QkR4ZkIyUGhyejJfb2lia3BFUkZ1cklycHpRMGdpY3N2b3gyaEp0Tkg1dUZ2ek02Y3IxQS1aUWU3Z0xSMW4xSVhJY2VjNzFOeHg4ck5mVzEyRkNIdHRHVUMwWDBjQlo0Yw?oc=5",
+      "sources": 1,
+      "county": "Fort Bend County"
+    },
     {
       "id": 1705,
       "country": "United States",
@@ -18410,6 +18643,14 @@
     },
     "waves": [
       {
+        "date": "2026-11-05",
+        "country": "United Kingdom",
+        "region": "England",
+        "counties": 3,
+        "events": 4,
+        "key": "2026-11-05|United Kingdom|England"
+      },
+      {
         "date": "2026-11-03",
         "country": "United States",
         "region": "Ohio",
@@ -18498,6 +18739,16 @@
           "2026-11-03",
           "2026-11-04"
         ]
+      },
+      {
+        "county": "Greater Manchester",
+        "region": "England",
+        "country": "United Kingdom",
+        "events": 2,
+        "dates": [
+          "2026-11-03",
+          "2026-11-05"
+        ]
       }
     ],
     "stacked_recent": [
@@ -18573,14 +18824,14 @@
     }
   },
   "last_run": {
-    "ingested": 146,
-    "skipped_seen": 77,
-    "recognized": 3,
-    "new": 2,
+    "ingested": 156,
+    "skipped_seen": 88,
+    "recognized": 14,
+    "new": 10,
     "updated": 0,
-    "rejected": 66,
+    "rejected": 53,
     "errors": 0,
-    "attempted": 69,
+    "attempted": 68,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -18596,7 +18847,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 40
       },
       {
         "edition": "GB:en",
@@ -18610,7 +18861,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 42
       },
       {
         "edition": "CA:en",
@@ -18624,10 +18875,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 42
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-05T10:54:12.207873Z"
+    "ran_at": "2026-11-05T18:45:58.426192Z"
   }
 }
