@@ -1,7 +1,47 @@
 {
-  "generated": "2026-11-05T02:27:26.209374Z",
-  "count": 902,
+  "generated": "2026-11-05T10:54:12.224297Z",
+  "count": 904,
   "incidents": [
+    {
+      "id": 1705,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Citibank Tampa",
+      "city": "Tampa",
+      "state": "Florida",
+      "sector": "Workplace",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Confirmed real",
+      "cluster": "Citibank Tampa active shooter 2026-11-05",
+      "notes": "Security Officer Kills Active Shooter to Protect 3,200 Tampa Employees",
+      "lat": 27.945,
+      "lng": -82.4583,
+      "src": "The SOFX Report",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1JWMm5LWUttTXdfM1hwM09mR1hKaEMtRmhfdGhsQ3F1OUhpSE5tVDhuYkx2LWpJQ3JCaThfSWo2VzdhYUFTQ3dGZHZmZ0F1TEljRDlReGhFRE5MNGZqbjFjVlFtNGh4VTNpTktKdklHVHlDUHhoMzctUEZ5RXRJTEhpQlRKQ0JSUjBoRkxNNlA5VGhvODBKaXRKdlVLRmlpZkE?oc=5",
+      "sources": 1,
+      "county": "Hillsborough County"
+    },
+    {
+      "id": 1704,
+      "country": "United States",
+      "date": "2026-11-05",
+      "school": "Polling Location in Michigan",
+      "city": null,
+      "state": "Michigan",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Michigan polling location bomb threat 2026-11-05",
+      "notes": "Voting moved outside following bomb threat at Michigan polling location",
+      "lat": 43.6212,
+      "lng": -84.6824,
+      "src": "KOAA News 5",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZENJbzhDT1JzdXQ2ZEZ4Rzd3VWtCeUxIb1NwMnAxTy05eFNZdmlHSlE1eng1eXoyazVsOGVlNVkyLWJ4YkxBaUpHSHpOWVpmMVRGYXp1YXM1RldUSkJOTjFEX1FuSVJ4SEU4ZXhocXhfbk1jS2RFRTF4Qks1RVFDbWRmZ19mNlpGektzWGQ5YXAyR3lDY08zUzR5ZnZiWGdQWmZMUW53MkZ3TXZMTWwzTk9WNkZmYTBLZzZxS1Zqcw?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1703,
       "country": "United States",
@@ -19,7 +59,7 @@
       "lng": -73.2566,
       "src": "News12 | Long Island",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1BjOG05N2gwRnFmRjRPM0liS0c4SExpWUR6clN4SlhVWGs4SzEyWHRuX0FyYV9VYlEtTkNNd0d6RHJSbWQ1WXQzUlBDNFpSQVIycHhaYjNPQ3loTDRPS0RYNGI2em02a1RvMDlmX3JlQmxkVDBoSW1CQklZNWhQZ2k0WEh0OERrTnF0R3RNeksyU2YwSXBDVzZKYmdnalFuZDdWR2NHSHVIU2UzTGdhYXhUYjVMX1U?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Suffolk County"
     },
     {
@@ -18533,14 +18573,14 @@
     }
   },
   "last_run": {
-    "ingested": 150,
-    "skipped_seen": 123,
-    "recognized": 14,
-    "new": 5,
-    "updated": 1,
-    "rejected": 11,
+    "ingested": 146,
+    "skipped_seen": 77,
+    "recognized": 3,
+    "new": 2,
+    "updated": 0,
+    "rejected": 66,
     "errors": 0,
-    "attempted": 27,
+    "attempted": 69,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -18556,23 +18596,23 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
+        "items": 45
+      },
+      {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
         "items": 47
       },
       {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 48
-      },
-      {
         "edition": "CA:en",
         "q": 0,
         "route": "direct",
@@ -18584,10 +18624,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 47
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-05T02:27:26.193969Z"
+    "ran_at": "2026-11-05T10:54:12.207873Z"
   }
 }
