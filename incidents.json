@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T00:15:22.968981Z",
+  "generated": "2026-11-06T06:49:07.184464Z",
   "count": 919,
   "incidents": [
     {
@@ -66,7 +66,7 @@
       "lng": -79.8136,
       "src": "WRAL",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORTd2emtzdG5fWEJXMmVFVC16MHQ4M2FNNTZsWmZwMW1YWFh0eHlKN09vczhCaG1kekpLTVk1bkc3ZkxtYV94blM5RTlwTlNxV28tYmd2ZklMcVEzdWtGZnUyX0QxcEQyNmM3WmM4RVR6dGp0MXRTUTBQTVJRc2o2SHV2bDRjNjV4WkdsNGNmZ3JWUnZ4NVFKbXRBdUdXbThw?oc=5",
-      "sources": 4,
+      "sources": 6,
       "county": "Randolph County"
     },
     {
@@ -205,7 +205,7 @@
       "lng": 0.2442,
       "src": "Colchester Gazette",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVk01dU9RSkdFbmVkYURkZDJBS2UyVVd4TEI1SGNYUTBWcXBJLXlIbjZURnRfVUc2YzBkaVZ1bWlpdGJQeGs1UkRNZE1aeklCX1lpbTVwaDcxX1haY1FYVjhSanVNa2t3aUZHNzI2SENNOHFvNnhaNjNVaGkySG54OTBsaUdVVkdqS29HUFo4MDViYkxrVURvemF2aGt2VEE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Essex",
       "signals": {
         "wave": {
@@ -232,7 +232,7 @@
       "lng": -1.8518,
       "src": "Rayo",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdGFuV0hKZ2NqWUtBLU02SDFFMHI0T3I3TWttMU9sbnpjdkszdWg3TmswMkFuUGtxZXhDb2NzdVJBTDF6bGlqUTdvVFJPSW9CNXZyQl9ZUVBGT25HQzFoRnVINldTX1hEZFAyWEhyYkE2eWx1d2cyQ3lyYnN5ckMzUnlGb3g0S2FnaEtETDZJNVBSSVRrWHhSaGZRelhzY3dBazlhRkRLQTFxYS1ROTFTVlJpZWlIUQ?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "West Midlands",
       "signals": {
         "wave": {
@@ -18886,13 +18886,13 @@
   },
   "last_run": {
     "ingested": 152,
-    "skipped_seen": 121,
-    "recognized": 12,
-    "new": 5,
+    "skipped_seen": 129,
+    "recognized": 4,
+    "new": 0,
     "updated": 0,
-    "rejected": 17,
+    "rejected": 18,
     "errors": 0,
-    "attempted": 31,
+    "attempted": 23,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -18922,7 +18922,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 40
+        "items": 42
       },
       {
         "edition": "CA:en",
@@ -18936,10 +18936,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 40
+        "items": 39
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-06T00:15:22.953125Z"
+    "ran_at": "2026-11-06T06:49:07.166831Z"
   }
 }
