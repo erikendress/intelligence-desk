@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T18:46:51.264905Z",
-  "count": 932,
+  "generated": "2026-11-07T22:44:42.505827Z",
+  "count": 933,
   "incidents": [
     {
       "id": 1733,
@@ -48,6 +48,26 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWR5c1FXeEljejVTTTZST2lXZDR2T0RGUXJMM1VBc2NXTkpJN1VqQzdGNGdlUUxfWXE1eVFhcVlKX3p5MmNXTW5QamNTcE1yQUx0QVFXSEVkZWdTS1JFalJLbDZsS3RkbHF1RURSU05US2M5RUNuYWx2cExiMzM0bXBWZVlBUlFubXZ4UWpRN0FuZnVVZUFnTkhGU1E?oc=5",
       "sources": 2,
       "county": "City of Bristol"
+    },
+    {
+      "id": 1734,
+      "country": "United Kingdom",
+      "date": "2026-11-06",
+      "school": "Brands Hatch Hotel",
+      "city": null,
+      "state": null,
+      "sector": "Other",
+      "type": "Weapon / Intruder",
+      "response": "Lockout/Secure",
+      "outcome": "Under investigation",
+      "cluster": "Brands Hatch Hotel shots fired 2026-11-06",
+      "notes": "Reports of Shots Fired at Brands Hatch Hotel as Police Cordon Off Entrance Following Late-Night Disturbance",
+      "lat": null,
+      "lng": null,
+      "src": "UKNIP",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUGk5X3hON3RSN29WdUM0YUhfUWkzTy01blBQZkdvMUpkQVI3alo3bnBibGJvenJtbXFnM2hjRGhMNHR6SGsycVk5YVc3R3RoVDh3SW00TEZXUXF4S2J1QWdtajlhWmxKM3ZOSFFuSnZ1dmR2MjRERmk3ME42TjgzTUtQc3FTTjdRaFlTTWwtd2JuTlM4NW13bXlnQWFmYnRadElpWHBOWFNLTGtneXRwS01HSFJKci1MZ3VGdlFMaC1hN01vUXVjc1o2RFducFNjOWsxeEtFNUhsNnVp?oc=5",
+      "sources": 1,
+      "county": null
     },
     {
       "id": 1731,
@@ -19206,14 +19226,14 @@
     }
   },
   "last_run": {
-    "ingested": 160,
-    "skipped_seen": 144,
-    "recognized": 2,
+    "ingested": 155,
+    "skipped_seen": 150,
+    "recognized": 1,
     "new": 1,
     "updated": 0,
-    "rejected": 14,
+    "rejected": 4,
     "errors": 0,
-    "attempted": 16,
+    "attempted": 5,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19229,7 +19249,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 29
+        "items": 27
       },
       {
         "edition": "GB:en",
@@ -19243,7 +19263,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 28
+        "items": 26
       },
       {
         "edition": "CA:en",
@@ -19257,10 +19277,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 28
+        "items": 27
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-07T18:46:51.255104Z"
+    "ran_at": "2026-11-07T22:44:42.496790Z"
   }
 }
