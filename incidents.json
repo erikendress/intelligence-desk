@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-07T07:08:18.251236Z",
-  "count": 930,
+  "generated": "2026-11-07T14:00:34.785732Z",
+  "count": 931,
   "incidents": [
+    {
+      "id": 1732,
+      "country": "United Kingdom",
+      "date": "2026-11-07",
+      "school": "Bristol Airport",
+      "city": "Bristol",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Bristol_Airport_2026-11-07_suspicious_package",
+      "notes": "'Suspicious package' at Bristol Airport sees flight diverted to Birmingham",
+      "lat": 51.443,
+      "lng": -2.5817,
+      "src": "Bristol Live",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWR5c1FXeEljejVTTTZST2lXZDR2T0RGUXJMM1VBc2NXTkpJN1VqQzdGNGdlUUxfWXE1eVFhcVlKX3p5MmNXTW5QamNTcE1yQUx0QVFXSEVkZWdTS1JFalJLbDZsS3RkbHF1RURSU05US2M5RUNuYWx2cExiMzM0bXBWZVlBUlFubXZ4UWpRN0FuZnVVZUFnTkhGU1E?oc=5",
+      "sources": 1,
+      "county": "City of Bristol"
+    },
     {
       "id": 1731,
       "country": "United States",
@@ -19158,14 +19178,14 @@
     }
   },
   "last_run": {
-    "ingested": 148,
-    "skipped_seen": 136,
-    "recognized": 0,
-    "new": 0,
+    "ingested": 160,
+    "skipped_seen": 142,
+    "recognized": 1,
+    "new": 1,
     "updated": 0,
-    "rejected": 12,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 18,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19181,7 +19201,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 33
+        "items": 34
       },
       {
         "edition": "GB:en",
@@ -19195,7 +19215,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 33
+        "items": 34
       },
       {
         "edition": "CA:en",
@@ -19209,10 +19229,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 33
+        "items": 34
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-07T07:08:18.234929Z"
+    "ran_at": "2026-11-07T14:00:34.769861Z"
   }
 }
