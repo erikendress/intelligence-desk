@@ -1,7 +1,54 @@
 {
-  "generated": "2026-11-06T20:55:07.072547Z",
-  "count": 928,
+  "generated": "2026-11-07T00:56:37.040538Z",
+  "count": 930,
   "incidents": [
+    {
+      "id": 1731,
+      "country": "United States",
+      "date": "2026-11-06",
+      "school": "Allentown Water Treatment Facility",
+      "city": "Allentown",
+      "state": "Pennsylvania",
+      "sector": "Other",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Allentown hazmat spill 2026-11-06",
+      "notes": "\u00bd mile radius shelter-in-place order in effect following hazardous material spill at Allentown water treatment facility",
+      "lat": 40.6023,
+      "lng": -75.4716,
+      "src": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQbVRmdzIzTFlsekd1MkZZeVkxekxzTFpuY2RtNGtGekhNY0g0UkVFaVh5SEpVR0ZXU0ZzY3FTckpxeHlsOUdSRndMRUo4QmVCOHFRdHJjSzdaTy1UX00yOG9LWm5XZl9qRnl2QXVocVJWejBxRndCMHZ0TkVuS3VUbmZMeHBIejB3OEgyTHpnSDhhQkN2WDIyU0dHTWl1cFltRXlWdkl0Mzh4aEZuTnhrYUZYY0VnWEdmTXJ1bGV3Ul9OY1daNjFuTkJIMDV1VFFGejJCSDcxdDRtMURabUtQS0poVHpSUXBTV3FfRUo4OWpIdWFWcV9iVFFwZ2htMDc2ZVZGWVpMdGxneVBvald0ckNKU214a1o2cGRMYzcwNzFGV2lxZkRjUnRmSTRQenBlbUdSU3lSVmItMThIMTVELWtldw?oc=5",
+      "sources": 2,
+      "county": "Lehigh County"
+    },
+    {
+      "id": 1730,
+      "country": "United States",
+      "date": "2026-11-06",
+      "school": "Lucerne Valley Elementary School",
+      "city": "Victorville",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Lucerne Valley Elementary School bomb threat 2026-11-06",
+      "notes": "Lucerne Valley Elementary School evacuated due to bomb threat",
+      "lat": 34.5361,
+      "lng": -117.2912,
+      "src": "Victorville Daily Press",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQVRDaTV3WEFyZWF4dUVkc2pFWUVVbElZVk9ienpqRUlUMkd3MFVmUXl3WndBN1VwWEQwc2VLVVo1S3ZCcG9mY1VnLXFtUTAzak11ZEhWcXpEaTUtRjhaTXh4SC1uOWU0QjF3YndnQ2prOVpkV216bFczUW4yQkNsWUh1SUxzMWJhLW1YSG9TN09LZEpwcHhhd0RNYWEzdU9jbjhxR25fZUNhajlSUG1xZmM1OWlDV3o4aU1QOXBkcndESk5za3V5d2pDaw?oc=5",
+      "sources": 2,
+      "county": "San Bernardino County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-04",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1729,
       "country": "Canada",
@@ -18943,7 +18990,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-06",
+    "computed": "2026-11-07",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -19026,6 +19073,16 @@
           "2026-11-03",
           "2026-11-05"
         ]
+      },
+      {
+        "county": "San Bernardino County",
+        "region": "California",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-04",
+          "2026-11-06"
+        ]
       }
     ],
     "stacked_recent": [
@@ -19039,17 +19096,17 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-23",
-      "to": "2026-11-05",
+      "from": "2026-10-24",
+      "to": "2026-11-06",
       "days": 14,
       "hoax": {
         "total": 65,
-        "bomb": 50,
-        "swatting": 15,
-        "schools": 45,
+        "bomb": 51,
+        "swatting": 14,
+        "schools": 46,
         "by_sector": {
-          "K-12": 40,
-          "Government": 9,
+          "K-12": 41,
+          "Government": 8,
           "Higher Ed": 5,
           "Venue": 4,
           "Retail": 3,
@@ -19057,12 +19114,11 @@
           "Other": 1,
           "Workplace": 1
         },
-        "states": 25,
-        "confirmed_hoax": 13,
+        "states": 24,
+        "confirmed_hoax": 14,
         "arrests": 4,
-        "under_investigation": 46,
+        "under_investigation": 44,
         "per_day": {
-          "2026-10-23": 5,
           "2026-10-24": 3,
           "2026-10-25": 1,
           "2026-10-26": 4,
@@ -19075,10 +19131,10 @@
           "2026-11-02": 4,
           "2026-11-03": 8,
           "2026-11-04": 8,
-          "2026-11-05": 5
+          "2026-11-05": 5,
+          "2026-11-06": 5
         },
         "per_day_schools": {
-          "2026-10-23": 4,
           "2026-10-24": 1,
           "2026-10-25": 0,
           "2026-10-26": 3,
@@ -19091,24 +19147,25 @@
           "2026-11-02": 3,
           "2026-11-03": 5,
           "2026-11-04": 6,
-          "2026-11-05": 3
+          "2026-11-05": 3,
+          "2026-11-06": 5
         }
       },
       "suspicious_mail": {
-        "total": 15,
-        "government": 13
+        "total": 11,
+        "government": 9
       }
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 93,
-    "recognized": 18,
-    "new": 9,
-    "updated": 0,
-    "rejected": 36,
+    "ingested": 146,
+    "skipped_seen": 127,
+    "recognized": 5,
+    "new": 2,
+    "updated": 1,
+    "rejected": 13,
     "errors": 0,
-    "attempted": 51,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19124,7 +19181,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 34
       },
       {
         "edition": "GB:en",
@@ -19138,7 +19195,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 34
       },
       {
         "edition": "CA:en",
@@ -19152,10 +19209,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 34
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-06T20:55:07.056916Z"
+    "ran_at": "2026-11-07T00:56:37.022804Z"
   }
 }
