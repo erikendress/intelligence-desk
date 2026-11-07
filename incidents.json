@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T00:56:37.040538Z",
+  "generated": "2026-11-07T07:08:18.251236Z",
   "count": 930,
   "incidents": [
     {
@@ -19158,14 +19158,14 @@
     }
   },
   "last_run": {
-    "ingested": 146,
-    "skipped_seen": 127,
-    "recognized": 5,
-    "new": 2,
-    "updated": 1,
-    "rejected": 13,
+    "ingested": 148,
+    "skipped_seen": 136,
+    "recognized": 0,
+    "new": 0,
+    "updated": 0,
+    "rejected": 12,
     "errors": 0,
-    "attempted": 19,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19181,7 +19181,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 33
       },
       {
         "edition": "GB:en",
@@ -19195,7 +19195,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 33
       },
       {
         "edition": "CA:en",
@@ -19209,10 +19209,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 33
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-07T00:56:37.022804Z"
+    "ran_at": "2026-11-07T07:08:18.234929Z"
   }
 }
