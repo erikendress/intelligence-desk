@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T02:28:12.789308Z",
+  "generated": "2026-11-08T10:18:50.078723Z",
   "count": 934,
   "incidents": [
     {
@@ -19,7 +19,7 @@
       "lng": -83.1763,
       "src": "FOX 2 Detroit",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTFZVFIwMWl5NHpoWGtSV0E3X3MwdVU4dkVmS3dleEkwVkhOajBnVXdGQ3ViRHdVS3dYdUQ0QnZsSVRPSUFRUFBmYUE2MU1EclUyWmdzX2tiN1BqZ0hsa090MjlzdnV5Z21mM2FhNW9RZjVPS05vZWdxWDY3S1Y2ME45Mlp3WXlDbmxtVzNOWjFoZw?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": "Wayne County",
       "signals": {
         "repeat": {
@@ -19233,14 +19233,14 @@
     }
   },
   "last_run": {
-    "ingested": 146,
-    "skipped_seen": 139,
-    "recognized": 3,
-    "new": 1,
+    "ingested": 141,
+    "skipped_seen": 133,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 4,
+    "rejected": 5,
     "errors": 0,
-    "attempted": 7,
+    "attempted": 8,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19270,7 +19270,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 21
+        "items": 22
       },
       {
         "edition": "CA:en",
@@ -19284,10 +19284,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 21
+        "items": 22
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-08T02:28:12.779901Z"
+    "ran_at": "2026-11-08T10:18:50.063660Z"
   }
 }
