@@ -1,7 +1,34 @@
 {
-  "generated": "2026-11-07T22:44:42.505827Z",
-  "count": 933,
+  "generated": "2026-11-08T02:28:12.789308Z",
+  "count": 934,
   "incidents": [
+    {
+      "id": 1735,
+      "country": "United States",
+      "date": "2026-11-08",
+      "school": "Henry Ford Museum",
+      "city": "Dearborn",
+      "state": "Michigan",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Henry Ford bomb threat 2026-11-08",
+      "notes": "The Henry Ford evacuated after potential bomb threat called in",
+      "lat": 42.3223,
+      "lng": -83.1763,
+      "src": "FOX 2 Detroit",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTFZVFIwMWl5NHpoWGtSV0E3X3MwdVU4dkVmS3dleEkwVkhOajBnVXdGQ3ViRHdVS3dYdUQ0QnZsSVRPSUFRUFBmYUE2MU1EclUyWmdzX2tiN1BqZ0hsa090MjlzdnV5Z21mM2FhNW9RZjVPS05vZWdxWDY3S1Y2ME45Mlp3WXlDbmxtVzNOWjFoZw?oc=5",
+      "sources": 2,
+      "county": "Wayne County",
+      "signals": {
+        "repeat": {
+          "prior": 2,
+          "first": "2026-11-03",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1733,
       "country": "United States",
@@ -721,7 +748,7 @@
       "lng": -73.2566,
       "src": "News12 | Long Island",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1BjOG05N2gwRnFmRjRPM0liS0c4SExpWUR6clN4SlhVWGs4SzEyWHRuX0FyYV9VYlEtTkNNd0d6RHJSbWQ1WXQzUlBDNFpSQVIycHhaYjNPQ3loTDRPS0RYNGI2em02a1RvMDlmX3JlQmxkVDBoSW1CQklZNWhQZ2k0WEh0OERrTnF0R3RNeksyU2YwSXBDVzZKYmdnalFuZDdWR2NHSHVIU2UzTGdhYXhUYjVMX1U?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Suffolk County"
     },
     {
@@ -9011,14 +9038,7 @@
       "src": "KTVB",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQb1oxcTU1djh2Q1R5aGdKbk83WmgzSlI5WDBYOGVzRE5FVV92ZnIzNmNlS01qQm5hNFZ4U0lEalhnVzZJYlJkcTg2Qi1Gb19DQklCR25pcS1hZXNCODdmcVpkV1JRYU8tYTZ5X2V6VlFsLVZoNHVEZDZ0Uk9CVk94UVczM3N3Sk41RXE0ZUVQMTBoalVXOGhlV3Q0VmRQT1FIUnpFVlFmaUJkeU9BbC1sZUpzVkNjX2VxNU00SHVxTWQ2aHZhQlg2djRFZGs2OFphMHB1emJ1TUFUal95SXlsQVREblMxb3JvaHg4?oc=5",
       "sources": 3,
-      "county": "Canyon County",
-      "signals": {
-        "wave": {
-          "key": "2026-09-23|United States|Idaho",
-          "counties": 3,
-          "events": 3
-        }
-      }
+      "county": "Canyon County"
     },
     {
       "id": 1264,
@@ -9158,14 +9178,7 @@
       "src": "krem.com",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNU0lJZFFVSGhVLUJfRkpNQ3J6ejJJMFAyZW1CS2hTX1FIUUwzWF8yMW9TWUtHY3JLQUI2S0FlSG9STjdTbDB0UG4wLUF5NThZQTc2VldqU1FxY3B0S3FoQkgtenVGSzl6Z0dJY0FWOHZEMXVaeS1DQ0h6ZFlvSUQxR1pvUk1Xc2xwWlh3LWR5Q2FRZU15cW9oaW04ZXhrVElHdlJVZVg1cmg1ak1QTm5PRC1iZzZMZWk0MURYc3pTSDJ2N05vZzB6ZGFuSzR5eW1MNDZfNTZrdVFYLXBsSm8zaTVwRE1hbUNVUVJrRVRscw?oc=5",
       "sources": 4,
-      "county": "Kootenai County",
-      "signals": {
-        "wave": {
-          "key": "2026-09-23|United States|Idaho",
-          "counties": 3,
-          "events": 3
-        }
-      }
+      "county": "Kootenai County"
     },
     {
       "id": 1252,
@@ -9185,14 +9198,7 @@
       "src": "East Idaho News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUUk4RS1ERnlEMHc1UGVRU2laTWJBSzJKRGxpXzhiUENpeGFITWg5NDhlaVk4YVJlUXQ2bTJMUGxQWEVCNFBDeG1TNjlGS1dYdWZJT3lRWDRJMW9PUW0wZUNJVndCZXc5NHVWaWd6bVhQXzFsVGdPb2M1VU5haEhGX3VKU0o1YVZ4TnBKNFl5MHRwWXoyYlFDelU3NjB1N0pLOXRyVU9NOA?oc=5",
       "sources": 1,
-      "county": "Blaine County",
-      "signals": {
-        "wave": {
-          "key": "2026-09-23|United States|Idaho",
-          "counties": 3,
-          "events": 3
-        }
-      }
+      "county": "Blaine County"
     },
     {
       "id": 1250,
@@ -19057,7 +19063,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-07",
+    "computed": "2026-11-08",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -19113,6 +19119,17 @@
         ]
       },
       {
+        "county": "Wayne County",
+        "region": "Michigan",
+        "country": "United States",
+        "events": 3,
+        "dates": [
+          "2026-11-03",
+          "2026-11-04",
+          "2026-11-08"
+        ]
+      },
+      {
         "county": "Ada County",
         "region": "Idaho",
         "country": "United States",
@@ -19120,16 +19137,6 @@
         "dates": [
           "2026-10-28",
           "2026-10-30"
-        ]
-      },
-      {
-        "county": "Wayne County",
-        "region": "Michigan",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-03",
-          "2026-11-04"
         ]
       },
       {
@@ -19164,19 +19171,19 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-24",
-      "to": "2026-11-06",
+      "from": "2026-10-25",
+      "to": "2026-11-07",
       "days": 14,
       "hoax": {
-        "total": 65,
-        "bomb": 51,
-        "swatting": 14,
+        "total": 63,
+        "bomb": 50,
+        "swatting": 13,
         "schools": 46,
         "by_sector": {
           "K-12": 41,
-          "Government": 8,
+          "Government": 7,
           "Higher Ed": 5,
-          "Venue": 4,
+          "Venue": 3,
           "Retail": 3,
           "Healthcare": 2,
           "Other": 1,
@@ -19185,9 +19192,8 @@
         "states": 24,
         "confirmed_hoax": 14,
         "arrests": 4,
-        "under_investigation": 44,
+        "under_investigation": 42,
         "per_day": {
-          "2026-10-24": 3,
           "2026-10-25": 1,
           "2026-10-26": 4,
           "2026-10-27": 7,
@@ -19200,10 +19206,10 @@
           "2026-11-03": 8,
           "2026-11-04": 8,
           "2026-11-05": 5,
-          "2026-11-06": 5
+          "2026-11-06": 5,
+          "2026-11-07": 1
         },
         "per_day_schools": {
-          "2026-10-24": 1,
           "2026-10-25": 0,
           "2026-10-26": 3,
           "2026-10-27": 5,
@@ -19216,24 +19222,25 @@
           "2026-11-03": 5,
           "2026-11-04": 6,
           "2026-11-05": 3,
-          "2026-11-06": 5
+          "2026-11-06": 5,
+          "2026-11-07": 1
         }
       },
       "suspicious_mail": {
-        "total": 11,
-        "government": 9
+        "total": 9,
+        "government": 7
       }
     }
   },
   "last_run": {
-    "ingested": 155,
-    "skipped_seen": 150,
-    "recognized": 1,
+    "ingested": 146,
+    "skipped_seen": 139,
+    "recognized": 3,
     "new": 1,
     "updated": 0,
     "rejected": 4,
     "errors": 0,
-    "attempted": 5,
+    "attempted": 7,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19249,7 +19256,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 27
+        "items": 22
       },
       {
         "edition": "GB:en",
@@ -19263,7 +19270,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 21
       },
       {
         "edition": "CA:en",
@@ -19277,10 +19284,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 27
+        "items": 21
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-07T22:44:42.496790Z"
+    "ran_at": "2026-11-08T02:28:12.779901Z"
   }
 }
