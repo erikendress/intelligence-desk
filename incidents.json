@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-08T17:02:25.804260Z",
-  "count": 935,
+  "generated": "2026-11-08T21:09:53.312581Z",
+  "count": 936,
   "incidents": [
+    {
+      "id": 1737,
+      "country": "United States",
+      "date": "2026-11-08",
+      "school": "Johns Hopkins All Children's Hospital",
+      "city": "St. Petersburg",
+      "state": "Florida",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "All Children's Hospital St. Petersburg bomb threat 2026-11-08",
+      "notes": "Police responding to bomb threat at All Children's hospital in St. Pete",
+      "lat": 27.7712,
+      "lng": -82.634,
+      "src": "firstcoastnews.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWkNlNjR0SjVtNkI0OXNVT2lIbzRSOW9xMzRDMGY5YzdpcFBaVGlyRFJfb3RfbmlIVTQ5eVFSa01LTkYwREU0SVpwR2U2TDM2RmFkbWJuU0txRVpzenJHS21GbDlvNFF6dG5OYmxyM2pBZlNFUEhIb1VudFJQS3N5Q3YtY1FYdER3QTdQVzB3U0FzTmFDTTkzTjVteXNXczR4RDZKZm8zRkFhdVZIWG13RjNkUWdFLWE3WjdvX0x3aktIU2ZuRkpCYWpPck9Cenc3R2JYVmlwbzQ3blNnYkdV?oc=5",
+      "sources": 4,
+      "county": "Pinellas County"
+    },
     {
       "id": 1735,
       "country": "United States",
@@ -19,7 +39,7 @@
       "lng": -83.1763,
       "src": "FOX 2 Detroit",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTFZVFIwMWl5NHpoWGtSV0E3X3MwdVU4dkVmS3dleEkwVkhOajBnVXdGQ3ViRHdVS3dYdUQ0QnZsSVRPSUFRUFBmYUE2MU1EclUyWmdzX2tiN1BqZ0hsa090MjlzdnV5Z21mM2FhNW9RZjVPS05vZWdxWDY3S1Y2ME45Mlp3WXlDbmxtVzNOWjFoZw?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": "Wayne County",
       "signals": {
         "repeat": {
@@ -19253,14 +19273,14 @@
     }
   },
   "last_run": {
-    "ingested": 138,
-    "skipped_seen": 132,
-    "recognized": 2,
+    "ingested": 140,
+    "skipped_seen": 128,
+    "recognized": 5,
     "new": 1,
     "updated": 0,
-    "rejected": 4,
+    "rejected": 7,
     "errors": 0,
-    "attempted": 6,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19276,7 +19296,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 23
       },
       {
         "edition": "GB:en",
@@ -19290,7 +19310,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 21
+        "items": 22
       },
       {
         "edition": "CA:en",
@@ -19308,6 +19328,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-08T17:02:25.789452Z"
+    "ran_at": "2026-11-08T21:09:53.294930Z"
   }
 }
