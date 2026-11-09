@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T00:53:32.006329Z",
+  "generated": "2026-11-09T07:57:30.582242Z",
   "count": 937,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -82.634,
       "src": "firstcoastnews.com",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWkNlNjR0SjVtNkI0OXNVT2lIbzRSOW9xMzRDMGY5YzdpcFBaVGlyRFJfb3RfbmlIVTQ5eVFSa01LTkYwREU0SVpwR2U2TDM2RmFkbWJuU0txRVpzenJHS21GbDlvNFF6dG5OYmxyM2pBZlNFUEhIb1VudFJQS3N5Q3YtY1FYdER3QTdQVzB3U0FzTmFDTTkzTjVteXNXczR4RDZKZm8zRkFhdVZIWG13RjNkUWdFLWE3WjdvX0x3aktIU2ZuRkpCYWpPck9Cenc3R2JYVmlwbzQ3blNnYkdV?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Pinellas County"
     },
     {
@@ -59,7 +59,7 @@
       "lng": -83.1763,
       "src": "FOX 2 Detroit",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTFZVFIwMWl5NHpoWGtSV0E3X3MwdVU4dkVmS3dleEkwVkhOajBnVXdGQ3ViRHdVS3dYdUQ0QnZsSVRPSUFRUFBmYUE2MU1EclUyWmdzX2tiN1BqZ0hsa090MjlzdnV5Z21mM2FhNW9RZjVPS05vZWdxWDY3S1Y2ME45Mlp3WXlDbmxtVzNOWjFoZw?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Wayne County",
       "signals": {
         "repeat": {
@@ -19293,14 +19293,14 @@
     }
   },
   "last_run": {
-    "ingested": 134,
-    "skipped_seen": 128,
-    "recognized": 3,
-    "new": 1,
+    "ingested": 127,
+    "skipped_seen": 119,
+    "recognized": 2,
+    "new": 0,
     "updated": 0,
-    "rejected": 3,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 6,
+    "attempted": 8,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19316,7 +19316,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 20
       },
       {
         "edition": "GB:en",
@@ -19330,7 +19330,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 20
       },
       {
         "edition": "CA:en",
@@ -19344,10 +19344,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 20
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-09T00:53:31.992074Z"
+    "ran_at": "2026-11-09T07:57:30.566620Z"
   }
 }
