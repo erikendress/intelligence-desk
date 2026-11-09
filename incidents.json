@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-08T21:09:53.312581Z",
-  "count": 936,
+  "generated": "2026-11-09T00:53:32.006329Z",
+  "count": 937,
   "incidents": [
+    {
+      "id": 1738,
+      "country": "United States",
+      "date": "2026-11-08",
+      "school": "Children's Hospital",
+      "city": "St. Petersburg",
+      "state": "Florida",
+      "sector": "Healthcare",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Children's Hospital St. Petersburg bomb threat November 2026",
+      "notes": "Bomb Threat At Children's Hospital Deemed Swatting Incident: St. Pete Police",
+      "lat": 27.7712,
+      "lng": -82.634,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSW1vcDhtYk5fa1BxeGk5bEVyYlpXT3lZOE9EVVlELXNHUmRXWVlrMnlBZ0kyZnl3QVZCWFN6MS10aWdiS01XMEJjeTRBbXExOEppM2w3VWtaTDdzbm1iYVZCOTRUSHRIWTZYVXk1Qzd5ektWcmlSYzY0QmFvZE1PQVFfRWVRN1N4UlVTbFZqb1hxVWt2Ylp0Z2ZYbXpFWWtxYWU4NGtR0gG7AUFVX3lxTE9IcHdZMmc5TXA2S3ZyQVJZamtqeXM4c2Z6ZldycDNveEw1dVFnMUF6Z2I2bVJoT0s1eENBQzQzRGdxeU0xN3R4TXhqN3RzNHNlajI3VEoweXRKVWd4cVBERHpTYm9fcXFmd2dlTm1YeXBmamJIUkl3cmdUWVFJcWNRbWZIa0NReUlOU29PdmV3dVlIVGJGYy12Q1pkTDBjeTRwLWhqenBQZ2JPX083RjcxbTNyaUJEM0pwNjg?oc=5",
+      "sources": 1,
+      "county": "Pinellas County"
+    },
     {
       "id": 1737,
       "country": "United States",
@@ -19,7 +39,7 @@
       "lng": -82.634,
       "src": "firstcoastnews.com",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWkNlNjR0SjVtNkI0OXNVT2lIbzRSOW9xMzRDMGY5YzdpcFBaVGlyRFJfb3RfbmlIVTQ5eVFSa01LTkYwREU0SVpwR2U2TDM2RmFkbWJuU0txRVpzenJHS21GbDlvNFF6dG5OYmxyM2pBZlNFUEhIb1VudFJQS3N5Q3YtY1FYdER3QTdQVzB3U0FzTmFDTTkzTjVteXNXczR4RDZKZm8zRkFhdVZIWG13RjNkUWdFLWE3WjdvX0x3aktIU2ZuRkpCYWpPck9Cenc3R2JYVmlwbzQ3blNnYkdV?oc=5",
-      "sources": 4,
+      "sources": 6,
       "county": "Pinellas County"
     },
     {
@@ -19103,7 +19123,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-08",
+    "computed": "2026-11-09",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -19211,19 +19231,19 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-25",
-      "to": "2026-11-07",
+      "from": "2026-10-26",
+      "to": "2026-11-08",
       "days": 14,
       "hoax": {
-        "total": 64,
-        "bomb": 51,
+        "total": 65,
+        "bomb": 52,
         "swatting": 13,
         "schools": 46,
         "by_sector": {
           "K-12": 41,
           "Government": 8,
           "Higher Ed": 5,
-          "Venue": 3,
+          "Venue": 4,
           "Retail": 3,
           "Healthcare": 2,
           "Other": 1,
@@ -19232,9 +19252,8 @@
         "states": 25,
         "confirmed_hoax": 14,
         "arrests": 4,
-        "under_investigation": 43,
+        "under_investigation": 44,
         "per_day": {
-          "2026-10-25": 1,
           "2026-10-26": 4,
           "2026-10-27": 7,
           "2026-10-28": 5,
@@ -19247,10 +19266,10 @@
           "2026-11-04": 8,
           "2026-11-05": 5,
           "2026-11-06": 6,
-          "2026-11-07": 1
+          "2026-11-07": 1,
+          "2026-11-08": 2
         },
         "per_day_schools": {
-          "2026-10-25": 0,
           "2026-10-26": 3,
           "2026-10-27": 5,
           "2026-10-28": 4,
@@ -19263,24 +19282,25 @@
           "2026-11-04": 6,
           "2026-11-05": 3,
           "2026-11-06": 5,
-          "2026-11-07": 1
+          "2026-11-07": 1,
+          "2026-11-08": 0
         }
       },
       "suspicious_mail": {
-        "total": 9,
-        "government": 7
+        "total": 8,
+        "government": 6
       }
     }
   },
   "last_run": {
-    "ingested": 140,
+    "ingested": 134,
     "skipped_seen": 128,
-    "recognized": 5,
+    "recognized": 3,
     "new": 1,
     "updated": 0,
-    "rejected": 7,
+    "rejected": 3,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 6,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19328,6 +19348,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-08T21:09:53.294930Z"
+    "ran_at": "2026-11-09T00:53:31.992074Z"
   }
 }
