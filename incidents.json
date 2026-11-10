@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T02:07:25.716154Z",
-  "count": 955,
+  "generated": "2026-11-10T09:47:13.631149Z",
+  "count": 956,
   "incidents": [
     {
       "id": 1751,
@@ -21,6 +21,33 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEptblA5blZWQWtGOG5QZFpuZklsVW9wakU1MG9DcllfNWZZc2NWZUU2djZMSkpoSmZUbWpua21GSkFNLVJlaXlvWlZTZi05Q1hJQ0NJbnpsMXhSU3lIWDFZYXo0Qlk4THFidlNQMzNyUVNHWXJ4UUdCbjNBQ3JEcWpiSWdWeDZYX3hKaVpJNVZpd3hja2MySTlTdVhiejBzdE9hZ1hyeURzN3hqQXc?oc=5",
       "sources": 1,
       "county": "Sweetwater County"
+    },
+    {
+      "id": 1757,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Venice High School",
+      "city": "Venice",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Venice High School bomb threat 2026-11-09",
+      "notes": "Bomb threat at Venice High was a hoax, police say",
+      "lat": 27.0998,
+      "lng": -82.4443,
+      "src": "ABC7 WWSB",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEFJU0tZVEVKdlpEOGpXMVNydXRfd2tZbkJFQXFzd3ZYZE5SemNKdDNBVEQybXJvc0dvQWNHZEFEcnZpNkl3ZkMyRlBOQ3lqc0FFX2hyZHBfbGNuS2VtNWpjVV8wUHJ0NV8tbU95NVdkZlR6NWhZZTRhQlBUd3lwS1BsNGdaX3I2TXc?oc=5",
+      "sources": 1,
+      "county": "Sarasota County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-09|United States|Florida",
+          "counties": 3,
+          "events": 3
+        }
+      }
     },
     {
       "id": 1755,
@@ -140,7 +167,14 @@
       "src": "Local 3 News",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa1d4QzJFTkR3bC1oQnR2MFpqZWJYbHRVVk93LUNlWFdaOG4wRllkcmU3RmZFTkpIZmZiVkd4X1hvREQtWmFTbkZvb3A2RTdQNkxGV0lnOFhIc0V0ZnFzVTlicW5WR1Y0VEdjNDRKX3FfSi1US0tqWEtURHd4QzlCdEd6UFVmS21lNzAxWUhTbE1YNXBhYWZNdUlmZzRrXzM4OFN5RHpWdDFaZHFVSUozYlBVSzU2YkhkOTdDS0xMc0ZFdVMtbVpvX3V6WjRDbE9zVDFvMmJGWGNCMTBvalVsN0Judm9sR2tUZE9DRXhkLVB1RmM?oc=5",
       "sources": 3,
-      "county": "Miami-Dade County"
+      "county": "Miami-Dade County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-09|United States|Florida",
+          "counties": 3,
+          "events": 3
+        }
+      }
     },
     {
       "id": 1748,
@@ -160,7 +194,14 @@
       "src": "WEAR-TV",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTXE0UkpaWG5LVUdxR0Nqd1lLTFVXeHhvZ0Z1cXpTMVVlVUUxZ0tGaE9ZN2JmbWtoS0twYWJrZ0xlaWx4OXdJY0FsTHJKQXdHRFpaRGVNTFFFbGduekM0WUUwMURTU29YTkJZdUNvUlR1WGNMVXV5OV9LLVQ2dFE0cmNLRklBbmZIV0FsbWctRVFkSkxCcmpUbDVFTXFlWGtVbUY5akRfUHZTNDBjUFJVMV8xTjk?oc=5",
       "sources": 1,
-      "county": "Escambia County"
+      "county": "Escambia County",
+      "signals": {
+        "wave": {
+          "key": "2026-11-09|United States|Florida",
+          "counties": 3,
+          "events": 3
+        }
+      }
     },
     {
       "id": 1747,
@@ -19491,6 +19532,14 @@
     },
     "waves": [
       {
+        "date": "2026-11-09",
+        "country": "United States",
+        "region": "Florida",
+        "counties": 3,
+        "events": 3,
+        "key": "2026-11-09|United States|Florida"
+      },
+      {
         "date": "2026-11-06",
         "country": "United States",
         "region": "Pennsylvania",
@@ -19605,12 +19654,12 @@
       "to": "2026-11-09",
       "days": 14,
       "hoax": {
-        "total": 67,
-        "bomb": 53,
+        "total": 68,
+        "bomb": 54,
         "swatting": 14,
-        "schools": 47,
+        "schools": 48,
         "by_sector": {
-          "K-12": 41,
+          "K-12": 42,
           "Government": 8,
           "Higher Ed": 6,
           "Retail": 3,
@@ -19620,7 +19669,7 @@
           "Workplace": 1
         },
         "states": 25,
-        "confirmed_hoax": 15,
+        "confirmed_hoax": 16,
         "arrests": 3,
         "under_investigation": 46,
         "per_day": {
@@ -19637,7 +19686,7 @@
           "2026-11-06": 6,
           "2026-11-07": 1,
           "2026-11-08": 2,
-          "2026-11-09": 6
+          "2026-11-09": 7
         },
         "per_day_schools": {
           "2026-10-27": 5,
@@ -19653,7 +19702,7 @@
           "2026-11-06": 5,
           "2026-11-07": 1,
           "2026-11-08": 0,
-          "2026-11-09": 4
+          "2026-11-09": 5
         }
       },
       "suspicious_mail": {
@@ -19664,13 +19713,13 @@
   },
   "last_run": {
     "ingested": 132,
-    "skipped_seen": 93,
-    "recognized": 17,
-    "new": 10,
+    "skipped_seen": 114,
+    "recognized": 1,
+    "new": 1,
     "updated": 0,
-    "rejected": 24,
+    "rejected": 15,
     "errors": 0,
-    "attempted": 39,
+    "attempted": 18,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19686,7 +19735,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 51
+        "items": 52
       },
       {
         "edition": "GB:en",
@@ -19700,7 +19749,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 49
       },
       {
         "edition": "CA:en",
@@ -19714,10 +19763,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 50
+        "items": 52
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-10T02:07:25.698345Z"
+    "ran_at": "2026-11-10T09:47:13.612367Z"
   }
 }
