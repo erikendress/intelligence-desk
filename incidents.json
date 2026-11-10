@@ -1,7 +1,187 @@
 {
-  "generated": "2026-11-09T18:48:34.165446Z",
-  "count": 945,
+  "generated": "2026-11-10T02:07:25.716154Z",
+  "count": 955,
   "incidents": [
+    {
+      "id": 1751,
+      "country": "United States",
+      "date": "2026-11-10",
+      "school": "Rock Springs High School",
+      "city": "Rock Springs",
+      "state": "Wyoming",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Rock Springs High School weapon bomb threat Nov 2026",
+      "notes": "Police Search Rock Springs High School With Guns Drawn After Weapon, Bomb Threat",
+      "lat": 41.5861,
+      "lng": -109.2195,
+      "src": "Cowboy State Daily",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUEptblA5blZWQWtGOG5QZFpuZklsVW9wakU1MG9DcllfNWZZc2NWZUU2djZMSkpoSmZUbWpua21GSkFNLVJlaXlvWlZTZi05Q1hJQ0NJbnpsMXhSU3lIWDFZYXo0Qlk4THFidlNQMzNyUVNHWXJ4UUdCbjNBQ3JEcWpiSWdWeDZYX3hKaVpJNVZpd3hja2MySTlTdVhiejBzdE9hZ1hyeURzN3hqQXc?oc=5",
+      "sources": 1,
+      "county": "Sweetwater County"
+    },
+    {
+      "id": 1755,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Mercy Medical Center",
+      "city": null,
+      "state": null,
+      "sector": "Healthcare",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Mercy Medical Center suspicious item 2026-11-09",
+      "notes": "Suspicious item cleared following investigation at Mercy Medical Center",
+      "lat": null,
+      "lng": null,
+      "src": "KCRG",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNGd4am1fTEYwZkpDS3ZSX1VWbUxpNUxuTlFlNGNvZHFVeDM0RHh4T21Lc1BGZHBVSTJ1SVlUbnpDWmxWYzEzdkQ2d2I4WmJjcnFmbjl2X2d6REtzWVB3VVFQV2JHZnpORzk1akZrWnhaam5LMDhFcklScWN5YWlYLTA3ZFpWeGt0eDltMmp0MDZ4UXNMNUE?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1754,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Children's Hospital Colorado",
+      "city": "Aurora",
+      "state": "Colorado",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Children's Hospital Colorado bomb threat Aurora 2026-11-09",
+      "notes": "Reported Bomb Threat at Children's Hospital Colorado Draws Aurora Police Response",
+      "lat": 39.7401,
+      "lng": -104.8733,
+      "src": "Hoodline",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOVBfcl94X19kVDlEWTVJY1VkYS1RalNXT1cwSTc4dXNNb3JnczZpYUdESWxtX0poMDEyM2dsNUM5aUZpa2VCbHZId1p4UWUyR3paTG1lcm9OMm4yTTBRSUpRSWE5MHBWS3pzb1dMYk1KeTk1UGtuczZUV1U5NkRVNUlQb0pPUko0THdlWFBZYU5RU3hoaFlYZ0MwcV9iMk1VSVVaUGFiWHZDN3lxT1U5bg?oc=5",
+      "sources": 1,
+      "county": "Adams County"
+    },
+    {
+      "id": 1753,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Schools in Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Atlanta_bomb_threat_Nov2026",
+      "notes": "Three Atlanta elementary schools cleared after bomb threat",
+      "lat": 33.7545,
+      "lng": -84.3898,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcUc0V0NHb0h2S3JTd0tXYl9CTGZ2N0pTUjJtalVZTk1sZTRtTE56QldBUXVpQ3JUcHVOSzl4VFF3VXNYbTlSNy1WRFpmbHVVa3FKdzVxLUdRWDk5Uk01UzBpZ0ptOFdQd2Y2N3dqMjg5VG9Pa0NWb0NNS1ljQlltaHg5WkFBNjU5cmY0YXVGTjFsX0NfTEE?oc=5",
+      "sources": 1,
+      "county": "Fulton County"
+    },
+    {
+      "id": 1752,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Hillsborough High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Hillsborough High School bomb threat 2026-11-09",
+      "notes": "Bomb Threat Prompts Evacuation At Hillsborough High School",
+      "lat": null,
+      "lng": null,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbkE2SUtUR2oybkNKdG81WTVaU082c2FldUhUNWJJVnd4OXRrOTFJUldsSzBYNHFWcm81bkszNlg2UE1vOWlHT2REd3ZVT0hSS3dhX01GeWRaWEtzb3NoZldSVWxLUl9wa0VQWkhSYUdsUEliM2JjTlc5UVgxSlJ1dDBYb20tb3ludlhnLUgweVdVeGRqVXVnSm14alRUUdIBswFBVV95cUxPeFpoR0RCLVN4THZEenZRZURrQXB4SHZaTlZEUU5OUVIwdFRKcE43aEw2aGZkenBhRFdJRWo4X3VGOFNmc19LUUJpVlk2b21lN3BwSmRqN3FJdTIxcUxYS0Vpdm03TV9acTc3SDc5UzhqR0did3VTQ3VFTGRNdXBBa0FSQnBjdGV2SFUxbzk4WWU4bnZjTHAxNTFLWTFCdjBnUFFLdEpwTWRnOGJGeElKYi1kVQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1750,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Sierra Vista schools",
+      "city": "Sierra Vista",
+      "state": "Arizona",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Sierra Vista domestic incident lockdown 2026-11-09",
+      "notes": "Search for suspect in domestic incident prompts Sierra Vista school lockdown",
+      "lat": 31.5648,
+      "lng": -110.2743,
+      "src": "KGUN 9",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU2JEVVlVUUdnRkhiVXQ3Wm5lOHJwUVNsQTNrMlFYYzFRa1pXRWRlLTNGMklSQTVzOE96WlNkVUJWQUNkNG10bmR0d0V4dUhnTjJLc0NSRVR1TEhnNjNRVDllWkJ6Q3VWbERwSTZQdGZzX25vQ0JPeUdmeHZTTHVod3Eybmp6VHpmRk5idmdCM0xRaEJRdWRab1hnSTl0LTlvdFFoUDg2cW4tWkZ3c1pHTE5YU0tJenhOMmU5bzdQSUFTdzlJaUE?oc=5",
+      "sources": 1,
+      "county": "Cochise County"
+    },
+    {
+      "id": 1749,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Dade County Public Library",
+      "city": null,
+      "state": "Florida",
+      "sector": "Other",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Dade County swatting incident 2026-11-09",
+      "notes": "Dade Co. library threat was a swatting call",
+      "lat": 25.6364,
+      "lng": -80.4989,
+      "src": "Local 3 News",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa1d4QzJFTkR3bC1oQnR2MFpqZWJYbHRVVk93LUNlWFdaOG4wRllkcmU3RmZFTkpIZmZiVkd4X1hvREQtWmFTbkZvb3A2RTdQNkxGV0lnOFhIc0V0ZnFzVTlicW5WR1Y0VEdjNDRKX3FfSi1US0tqWEtURHd4QzlCdEd6UFVmS21lNzAxWUhTbE1YNXBhYWZNdUlmZzRrXzM4OFN5RHpWdDFaZHFVSUozYlBVSzU2YkhkOTdDS0xMc0ZFdVMtbVpvX3V6WjRDbE9zVDFvMmJGWGNCMTBvalVsN0Judm9sR2tUZE9DRXhkLVB1RmM?oc=5",
+      "sources": 3,
+      "county": "Miami-Dade County"
+    },
+    {
+      "id": 1748,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "University of West Florida",
+      "city": "Pensacola",
+      "state": "Florida",
+      "sector": "Higher Ed",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "UWF_bomb_threat_20261109",
+      "notes": "UWF campus police investigate alleged bomb threat post, seek tips to identify suspect",
+      "lat": 30.4213,
+      "lng": -87.2169,
+      "src": "WEAR-TV",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTXE0UkpaWG5LVUdxR0Nqd1lLTFVXeHhvZ0Z1cXpTMVVlVUUxZ0tGaE9ZN2JmbWtoS0twYWJrZ0xlaWx4OXdJY0FsTHJKQXdHRFpaRGVNTFFFbGduekM0WUUwMURTU29YTkJZdUNvUlR1WGNMVXV5OV9LLVQ2dFE0cmNLRklBbmZIV0FsbWctRVFkSkxCcmpUbDVFTXFlWGtVbUY5akRfUHZTNDBjUFJVMV8xTjk?oc=5",
+      "sources": 1,
+      "county": "Escambia County"
+    },
+    {
+      "id": 1747,
+      "country": "United States",
+      "date": "2026-11-09",
+      "school": "Schools in Orosi",
+      "city": "Orosi",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Suspicious Package / Mail",
+      "response": "Shelter-in-place",
+      "outcome": "Confirmed hoax",
+      "cluster": "Orosi schools fake devices 2026-11-09",
+      "notes": "Bomb squad clears fake devices after Orosi area schools ordered to shelter in place",
+      "lat": 36.5449,
+      "lng": -119.2873,
+      "src": "KMPH Fox 26",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSmRoWWdZRHh3dlZqRklmcXZvcS1vQlFoOFlaalZfN180T3pYQ2hMeEQ2UzI2U0tBU1JnME5uQkZYeEFtY3JudzY0cFpYWVBQRllEN25oQTB2OGxzNEJWcWo4S1ZvQWFwUXpLSVlOcVF5ZWdpLVpJVnZnWU9NWDhsdzNjQzlnX0dsRjMyX2ZFNEl5UVJhT05WZHMxb05lRVQ2aTQwSTVZY2ZlRE9ITms2bmdvMHhDdw?oc=5",
+      "sources": 1,
+      "county": "Tulare County"
+    },
     {
       "id": 1746,
       "country": "United Kingdom",
@@ -19,7 +199,7 @@
       "lng": -1.5438,
       "src": "Leeds Live",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYkpoZnJfdXY3S2ZPbk5SbGE0Yk9ueHBiaHpvc1NocHFmSXIwSkU2T0ZCUURfaWpDbjNHdk5XZExJM3AwQkplNmlycFkydTZkVHl6OWJEVDBzSXVhcDFvUE5lZHY4N1VsZUd5NWhTNWlrajY5WmhmaVRzejJ5cW1lYTdUWVRWTVZYQllhQVgzVdIBlAFBVV95cUxNZ1NnZHdaSU1uVklfYno5OVhoVVN3MFdwaDhpZEJULWI0RWt3d0xxQmpESHYwLTBDM0lTdWhEendmZUlnc0NJVUk4U2lqbi16VVB4ZUlwbWhFMmtUTFprQkZub0tWbWxWZjZEQVhEN2MwQXd0aVF4Q0ZnOG5saEZYSkJ4blFVcmp2ZDVoQUstZ3M5ZElk?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "West Yorkshire"
     },
     {
@@ -123,10 +303,30 @@
       "county": "New York"
     },
     {
+      "id": 1756,
+      "country": "United Kingdom",
+      "date": "2026-11-08",
+      "school": "Chessington World of Adventures",
+      "city": "Chessington",
+      "state": "England",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Chessington World of Adventures bomb threat 2026-11-08",
+      "notes": "Chessington World of Adventures Closed Amid Bomb Threat Reports",
+      "lat": 51.362,
+      "lng": -0.2879,
+      "src": "UKNIP",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTkpvTW9jcVprSmRCUEY3QnVnWHdpVjF2eWIzclRwVmsxUW9NUlpJY0ZFS0pPUVhOMHY1ZFI0ZEN1amxzU0d4bC1PQTVZbkJ2R0ZILTVQQ2ZkdU9UdVRsZ0ZlckdGVFNuZ08yV0hxT19oTGdLVkFVRWRKanltMmpWaEF1eElTcGxFNG01eDZCLXAzcGxPZk9sZTU2Q01XX1h0VGZxdWxsTnhiUnlUN3hrYkFpTW4tazlrYnA2dkV1MU5IY0xrOTViVE9ja1c?oc=5",
+      "sources": 1,
+      "county": "Surrey"
+    },
+    {
       "id": 1742,
       "country": "United Kingdom",
       "date": "2026-11-08",
-      "school": "Asda Head Quarters",
+      "school": "Asda Leeds Head Office",
       "city": "Leeds",
       "state": "England",
       "sector": "Workplace",
@@ -139,7 +339,7 @@
       "lng": -1.5438,
       "src": "The Independent",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPREw5SnNPUGN5SmEzZnVzajJJMlRPR1QtMVo5Y2RwTGJsSHdDREt3NlFFUHBlRlA1QmxrTlhEMjJWc014bE55OWJfb1dVd2k2VlJfbm5Dckt3QnBxV0JwWnpYT1lmb0N3MzFPMGg4Uk8zVmhVUjNSNjBGaHE2RDBKT2hyZW1iZDgweFlFWi1FN2hCNUZxLUJZ?oc=5",
-      "sources": 9,
+      "sources": 10,
       "county": null
     },
     {
@@ -219,7 +419,7 @@
       "lng": -83.1763,
       "src": "FOX 2 Detroit",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUTFZVFIwMWl5NHpoWGtSV0E3X3MwdVU4dkVmS3dleEkwVkhOajBnVXdGQ3ViRHdVS3dYdUQ0QnZsSVRPSUFRUFBmYUE2MU1EclUyWmdzX2tiN1BqZ0hsa090MjlzdnV5Z21mM2FhNW9RZjVPS05vZWdxWDY3S1Y2ME45Mlp3WXlDbmxtVzNOWjFoZw?oc=5",
-      "sources": 10,
+      "sources": 11,
       "county": "Wayne County",
       "signals": {
         "repeat": {
@@ -19283,7 +19483,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-09",
+    "computed": "2026-11-10",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -19378,6 +19578,16 @@
           "2026-11-03",
           "2026-11-05"
         ]
+      },
+      {
+        "county": "Escambia County",
+        "region": "Florida",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-10-29",
+          "2026-11-09"
+        ]
       }
     ],
     "stacked_recent": [
@@ -19391,30 +19601,29 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-26",
-      "to": "2026-11-08",
+      "from": "2026-10-27",
+      "to": "2026-11-09",
       "days": 14,
       "hoax": {
-        "total": 65,
-        "bomb": 52,
-        "swatting": 13,
-        "schools": 46,
+        "total": 67,
+        "bomb": 53,
+        "swatting": 14,
+        "schools": 47,
         "by_sector": {
           "K-12": 41,
           "Government": 8,
-          "Higher Ed": 5,
-          "Venue": 4,
+          "Higher Ed": 6,
           "Retail": 3,
-          "Healthcare": 2,
-          "Other": 1,
+          "Venue": 3,
+          "Healthcare": 3,
+          "Other": 2,
           "Workplace": 1
         },
         "states": 25,
-        "confirmed_hoax": 14,
-        "arrests": 4,
-        "under_investigation": 44,
+        "confirmed_hoax": 15,
+        "arrests": 3,
+        "under_investigation": 46,
         "per_day": {
-          "2026-10-26": 4,
           "2026-10-27": 7,
           "2026-10-28": 5,
           "2026-10-29": 5,
@@ -19427,10 +19636,10 @@
           "2026-11-05": 5,
           "2026-11-06": 6,
           "2026-11-07": 1,
-          "2026-11-08": 2
+          "2026-11-08": 2,
+          "2026-11-09": 6
         },
         "per_day_schools": {
-          "2026-10-26": 3,
           "2026-10-27": 5,
           "2026-10-28": 4,
           "2026-10-29": 4,
@@ -19443,24 +19652,25 @@
           "2026-11-05": 3,
           "2026-11-06": 5,
           "2026-11-07": 1,
-          "2026-11-08": 0
+          "2026-11-08": 0,
+          "2026-11-09": 4
         }
       },
       "suspicious_mail": {
-        "total": 8,
-        "government": 6
+        "total": 11,
+        "government": 7
       }
     }
   },
   "last_run": {
-    "ingested": 138,
-    "skipped_seen": 72,
-    "recognized": 26,
-    "new": 8,
+    "ingested": 132,
+    "skipped_seen": 93,
+    "recognized": 17,
+    "new": 10,
     "updated": 0,
-    "rejected": 39,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 66,
+    "attempted": 39,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -19476,7 +19686,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 51
       },
       {
         "edition": "GB:en",
@@ -19487,27 +19697,27 @@
       },
       {
         "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 45
-      },
-      {
-        "edition": "CA:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
         "items": 47
+      },
+      {
+        "edition": "CA:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "CA:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 50
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-09T18:48:34.142873Z"
+    "ran_at": "2026-11-10T02:07:25.698345Z"
   }
 }
