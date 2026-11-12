@@ -1,7 +1,47 @@
 {
-  "generated": "2026-11-11T21:58:08.935330Z",
-  "count": 985,
+  "generated": "2026-11-12T02:58:46.535231Z",
+  "count": 987,
   "incidents": [
+    {
+      "id": 1788,
+      "country": "United States",
+      "date": "2026-11-11",
+      "school": "Aircraft in flight",
+      "city": null,
+      "state": null,
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Diversion",
+      "outcome": "Arrest made",
+      "cluster": "midair bomb threat scare",
+      "notes": "midair bomb threat scare",
+      "lat": null,
+      "lng": null,
+      "src": "NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTVN2aVR4NmVNV1hKRTd6dnFGYlVSamV0aG15RUJrN3lOdllldl9fUVhKYVpJNk9XMFF0MTRXenpld0szNjNVT1cwNTUwc3ducldhS2ZJQ2Jfc2xBTURyRVA1U1JVMks1Q1JWM08yc2p0amNKVDRXcllJU3U4bEQya1FrMzBJSEl3NW9la3R1aDRJRGFjMkxjY1VTcVBHVmlNeWhlX0xpbVhLQ1F3cjlDX1NKbG9fakVqWlVFWA?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1787,
+      "country": "United States",
+      "date": "2026-11-11",
+      "school": "Children's Wisconsin Milwaukee",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Children's Wisconsin Milwaukee bomb threat 2026-11-11",
+      "notes": "Children's Wisconsin Milwaukee campus all clear after lockdown due to bomb threat",
+      "lat": 43.0386,
+      "lng": -87.9091,
+      "src": "WTMJ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHk4S0FQX09SaUVUWi1OZHRmS2NRLTRISWRqSXhHRzZKZEtDZ0tnUkJrZzY2ZGVRd2lLenhOMlVwcndWQ0hDc3NlQk1kcTlCSmRwU0pFSTMtN25rVHlyUzNvbEhiRTFYMFJCcVo2VWJNN2YxOVhpOS0yQ1BXWmMzRUxZVHp5RW96?oc=5",
+      "sources": 5,
+      "county": "Milwaukee County"
+    },
     {
       "id": 1786,
       "country": "United Kingdom",
@@ -99,7 +139,7 @@
       "lng": -71.0578,
       "src": "NBC Boston",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWUFtSUVLaE5DTGdHamtNZHRTR0NETHFvTEZ4ZjZJZFFwU3BvaDZfVkJvc0M2VW9TSTVnR3gtT3Q3SE4yNWVZVjlKWmtkXzh4aXY2VG5wbGdfcTdqVUdvajhrRmRnSEl2aFBjVGR6WUg4UERDS3hidXI4OENRZVhsOV80ajA3eUUxUGdybTVLX01wOG81OXQ1MHRZSEg4V29nYjZHbXV30gGuAUFVX3lxTE1JMGlJcUdvZXFUMnB3WnBXMWJaM1BacnphU094d3kyRzNhMTVscGJSd3NoWlowZ0ZOMk9zQ1JDRXZWMjRjbVZrcXpDQWlfeW9pS3VRWHlLbGx5T3Q5Umw1MEozSENPMWZwTmllYzJMZXo0ZGJtel8wbVRwajZrMGJFUUx4Y2JaZWFLZTQ1RjZONG5hWlp4cXk3dkJOMnJvY05XcjNWeU1sRXM5ZFE2dw?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": "Suffolk County"
     },
     {
@@ -279,7 +319,7 @@
       "lng": -74.1724,
       "src": "ABC11 News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVhoczlWOFRVaDgtMXExVFhtdEJmZS1KUE1FbXdRbnZsMWtKWURvWFhWUmNpNHJsdExrNENyeTFraXBSWkRlQ0VoZEg4NHhMUE9yaUlpU3VGR3JIUFBaTFRob1cyNEFyVUlMdHdPZWJ4NVcyWmlmTHpxNC0tdk5OSEo1eU9VUzVWN3Y5dXRFY1hDSl9NRVVoYXMweGjSAaIBQVVfeXFMTWhjajgwTGtyb21yX2NqY2EyRU8xc2h4cXV6Z1lSWnhIVGxtenE1VkIzWEhFN0lPMXd2SU1uZndKTE9icV9LYzZBM1hLN1N5VFdlSFBFSTBmdFNaTmpuU1JYRjM3YkVZS2JMYzRkZXV2VGlqOTdrUU55dHV2WWNWby16aFpfM0hma3JZS244RGhfajREODJpeS1ibmF2QkJMRjV3?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Essex County"
     },
     {
@@ -506,14 +546,14 @@
       "sector": "Healthcare",
       "type": "Bomb Threat",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Resolved \u2013 no cause found",
       "cluster": "Johns Hopkins All Children's Hospital bomb threat 2026-11-10",
       "notes": "Bomb Threat at Johns Hopkins All Children's Hospital Prompts Lockdown",
       "lat": 27.7712,
       "lng": -82.634,
       "src": "NewsRadio WFLA",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZmpfUjFnQXdYcEI2X3VLdFE2TXpnSmppN3dZcXluYjM1OUpuN1pvazlMaHNzSUhpUHVsTDhvWXJuYnl0UElOS1lSNFYzclFNMHNxOUlwdGdpdGxLMmRCeFloVlNyczJRcFRBTnNKZUN4VDJRY3NFd25aWWx1ZXRYUW9kUjBQbE82VjYtcm96SHRiRFcxR25qMHk1bFJncXczMVJsLXloSXg0ZHlhS3oxS2gwNTJ0NHNrdXNxUTc3Nkd6bTV0SmtZNFYtMC1VYkpsVUt5Vg?oc=5",
-      "sources": 1,
+      "sources": 6,
       "county": "Pinellas County",
       "signals": {
         "repeat": {
@@ -20117,7 +20157,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-11",
+    "computed": "2026-11-12",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -20203,16 +20243,6 @@
         ]
       },
       {
-        "county": "Ada County",
-        "region": "Idaho",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-28",
-          "2026-10-30"
-        ]
-      },
-      {
         "county": "Saint Clair County",
         "region": "Illinois",
         "country": "United States",
@@ -20264,31 +20294,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-10-28",
-      "to": "2026-11-10",
+      "from": "2026-10-29",
+      "to": "2026-11-11",
       "days": 14,
       "hoax": {
-        "total": 68,
-        "bomb": 54,
-        "swatting": 14,
-        "schools": 46,
+        "total": 69,
+        "bomb": 58,
+        "swatting": 11,
+        "schools": 43,
         "by_sector": {
-          "K-12": 40,
-          "Government": 7,
+          "K-12": 37,
           "Higher Ed": 6,
-          "Healthcare": 4,
+          "Government": 6,
+          "Healthcare": 6,
+          "Transit": 5,
           "Retail": 3,
           "Venue": 3,
           "Other": 2,
-          "Transit": 2,
           "Workplace": 1
         },
-        "states": 27,
+        "states": 26,
         "confirmed_hoax": 15,
         "arrests": 4,
-        "under_investigation": 46,
+        "under_investigation": 45,
         "per_day": {
-          "2026-10-28": 5,
           "2026-10-29": 5,
           "2026-10-30": 7,
           "2026-10-31": 3,
@@ -20301,10 +20330,10 @@
           "2026-11-07": 1,
           "2026-11-08": 2,
           "2026-11-09": 7,
-          "2026-11-10": 7
+          "2026-11-10": 7,
+          "2026-11-11": 6
         },
         "per_day_schools": {
-          "2026-10-28": 4,
           "2026-10-29": 4,
           "2026-10-30": 6,
           "2026-10-31": 1,
@@ -20317,24 +20346,25 @@
           "2026-11-07": 1,
           "2026-11-08": 0,
           "2026-11-09": 5,
-          "2026-11-10": 3
+          "2026-11-10": 3,
+          "2026-11-11": 1
         }
       },
       "suspicious_mail": {
-        "total": 11,
-        "government": 7
+        "total": 10,
+        "government": 6
       }
     }
   },
   "last_run": {
-    "ingested": 169,
-    "skipped_seen": 96,
-    "recognized": 19,
-    "new": 5,
-    "updated": 3,
-    "rejected": 54,
+    "ingested": 168,
+    "skipped_seen": 142,
+    "recognized": 14,
+    "new": 2,
+    "updated": 2,
+    "rejected": 11,
     "errors": 0,
-    "attempted": 73,
+    "attempted": 26,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20382,6 +20412,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-11T21:58:08.925692Z"
+    "ran_at": "2026-11-12T02:58:46.516051Z"
   }
 }
