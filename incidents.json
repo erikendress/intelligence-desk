@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T02:58:46.535231Z",
+  "generated": "2026-11-12T11:04:13.170154Z",
   "count": 987,
   "incidents": [
     {
@@ -139,7 +139,7 @@
       "lng": -71.0578,
       "src": "NBC Boston",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWUFtSUVLaE5DTGdHamtNZHRTR0NETHFvTEZ4ZjZJZFFwU3BvaDZfVkJvc0M2VW9TSTVnR3gtT3Q3SE4yNWVZVjlKWmtkXzh4aXY2VG5wbGdfcTdqVUdvajhrRmRnSEl2aFBjVGR6WUg4UERDS3hidXI4OENRZVhsOV80ajA3eUUxUGdybTVLX01wOG81OXQ1MHRZSEg4V29nYjZHbXV30gGuAUFVX3lxTE1JMGlJcUdvZXFUMnB3WnBXMWJaM1BacnphU094d3kyRzNhMTVscGJSd3NoWlowZ0ZOMk9zQ1JDRXZWMjRjbVZrcXpDQWlfeW9pS3VRWHlLbGx5T3Q5Umw1MEozSENPMWZwTmllYzJMZXo0ZGJtel8wbVRwajZrMGJFUUx4Y2JaZWFLZTQ1RjZONG5hWlp4cXk3dkJOMnJvY05XcjNWeU1sRXM5ZFE2dw?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Suffolk County"
     },
     {
@@ -20357,14 +20357,14 @@
     }
   },
   "last_run": {
-    "ingested": 168,
-    "skipped_seen": 142,
-    "recognized": 14,
-    "new": 2,
-    "updated": 2,
-    "rejected": 11,
+    "ingested": 163,
+    "skipped_seen": 136,
+    "recognized": 1,
+    "new": 0,
+    "updated": 0,
+    "rejected": 25,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 27,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20412,6 +20412,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-12T02:58:46.516051Z"
+    "ran_at": "2026-11-12T11:04:13.152756Z"
   }
 }
