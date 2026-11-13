@@ -1,7 +1,67 @@
 {
-  "generated": "2026-11-13T16:20:53.788121Z",
-  "count": 1003,
+  "generated": "2026-11-13T22:37:15.773412Z",
+  "count": 1006,
   "incidents": [
+    {
+      "id": 1807,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Powell School",
+      "city": "Powell",
+      "state": "Tennessee",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Powell school lockdown Nov 2026",
+      "notes": "Powell school lockdown lifted after 'law enforcement activity'",
+      "lat": 36.0317,
+      "lng": -84.028,
+      "src": "WVLT",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkprNmpqQ0w1SS1zaUx2V2Y4cDNUWTg2bDI1OXdkZDkwRngtVHRaUkFWdTRyclBuWFhHSHhmY212NnJMcG5lMkpBZFhaeS1UcFYxNGNrb0tFWGxJRUxvekZEMklhekNRNmJyd1UyeUVIaDJCbUpUX3Y0MjFaVk9NblhCNHh6TjJ1T0M5d3FMbjY4MWE2S1F4RW5FMjRNSjQ?oc=5",
+      "sources": 1,
+      "county": "Knox County"
+    },
+    {
+      "id": 1806,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Residence in Town of Milton",
+      "city": "Milton",
+      "state": "Wisconsin",
+      "sector": "Government",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Milton WI swatting 2026-11-13",
+      "notes": "Reported shooting in Town of Milton was swatting incident, sheriff's office says",
+      "lat": 42.7754,
+      "lng": -88.939,
+      "src": "Channel 3000",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTXN3UVkwZmtZNlBiSmJ1cS1PTXhCRlk5WVBLVXBBTlpNS2NUWU5EMVpxN0Y2NjJYZGk4ZUVWZm45UXptMElHbDB3bHk4S09Qc1kwY2pRTmQ2OTZ3bGF2NmgtQS1GQUNqQzZrNnlBTTAwSk9PSm5hN29hbmhEV1BQNEpNMGhGS1NLMjFlOUhEVVVySU83dDlLenR4VVVTNmdmRmViWGY4UFZLdnpwTTFwd3VtemVfd0NDcUdpTlR6VDFGM1pZOHRPRHZyNjJQcThNODgzOVFlSG11cjF6eHlKdVFRSU9NcTd6cl9IRENGOHY1bUU?oc=5",
+      "sources": 2,
+      "county": "Rock County"
+    },
+    {
+      "id": 1805,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Southwood High School",
+      "city": "Shreveport",
+      "state": "Louisiana",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Southwood High School Shreveport bomb threat 2026-11-13",
+      "notes": "Southwood High School in Shreveport is on lockdown after bomb threat",
+      "lat": 32.5135,
+      "lng": -93.7478,
+      "src": "KSLA",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzBORXliOGVHZWVjdVVRbW1IdWZmcV9FNWpVaWl0UXE4dkdrVm9wQVR6cjJaT0lYQXdoMWNBX211RFl6Sm5hZDh5OHMtaE5kcUNaSWFuNjlMQzBGWUxiM002WUp3VUFKeEVqTGlUR0NCVTluT2prNk4yNEg5bFRmMHJOeHpsTWlrd0ZfRGJmYlJJU3lEbjA4MjhoSQ?oc=5",
+      "sources": 1,
+      "county": "Caddo Parish"
+    },
     {
       "id": 1804,
       "country": "United States",
@@ -67,7 +127,7 @@
       "country": "United States",
       "date": "2026-11-13",
       "school": "Walmart",
-      "city": null,
+      "city": "Ashland City",
       "state": "Tennessee",
       "sector": "Retail",
       "type": "Bomb Threat",
@@ -79,7 +139,7 @@
       "lng": -87.0968,
       "src": "WSMV",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYnN4dS1Pcm9DV0I1VzRFZzVoaEtjcmIyS2VVWjQyM1NQNHlYQXk1eXgtMldYUmpEZFYyc2dtSHlWYkxoNGNUcVJWVWYzaVRXdlBvcEZsOTN2T0tGdVUyamVxZWhuMXJTd3lSWkozbkQxRVdBR18wM3BKUExCVTJtdVY5Mktrcl9nVTNZX3ZaS3lDcVdHdTRzZU1pRUJUZnBxZDE3ZTZoLWZ3WUJ1THdTcGdZUVJ1QQ?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Cheatham County"
     },
     {
@@ -20655,14 +20715,14 @@
     }
   },
   "last_run": {
-    "ingested": 164,
-    "skipped_seen": 145,
-    "recognized": 6,
-    "new": 4,
+    "ingested": 150,
+    "skipped_seen": 115,
+    "recognized": 7,
+    "new": 3,
     "updated": 0,
-    "rejected": 12,
+    "rejected": 26,
     "errors": 0,
-    "attempted": 19,
+    "attempted": 35,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20678,7 +20738,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 46
       },
       {
         "edition": "GB:en",
@@ -20692,7 +20752,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 53
+        "items": 45
       },
       {
         "edition": "CA:en",
@@ -20705,11 +20765,11 @@
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 52
+        "attempt": 1,
+        "items": 46
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-13T16:20:53.769712Z"
+    "ran_at": "2026-11-13T22:37:15.758145Z"
   }
 }
