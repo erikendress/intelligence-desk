@@ -1,7 +1,87 @@
 {
-  "generated": "2026-11-12T18:56:52.803324Z",
-  "count": 995,
+  "generated": "2026-11-13T00:22:09.674159Z",
+  "count": 999,
   "incidents": [
+    {
+      "id": 1800,
+      "country": "United States",
+      "date": "2026-11-12",
+      "school": "Gym in Washington",
+      "city": null,
+      "state": "Washington",
+      "sector": "Venue",
+      "type": "Credible Threat",
+      "response": null,
+      "outcome": "Confirmed real",
+      "cluster": "Washington gym shooting 2026-11-12",
+      "notes": "Four injured, one dead as disgruntled tenant opens fire in Washington gym",
+      "lat": 38.8951,
+      "lng": -77.0364,
+      "src": "The Australian",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTTZwR0RQMWliSURhNVBpS2RrcG9aTWFPLXJXZnczZW4ybUsydGpfLUpZTHdyTGJqYnJrczN3anMxV1llTEMzSTctQkpEN1RJOE81c0pROXE0c2ZmWURIVUFQWXJLb1ozLWR6MWQwLWFycWJsYTZwdXcyTGVQQnZoYWhocHpldFIxcldPbE1wT0xtdkNwQTRGVmhjLUNGUU5wMjFteHpPd3Z1TW51eEhJbjJTUDhFNU0wdjZIZ3RjUFBORFRfWWdfSzZXc19OUGV6SmdHUVRaNjItQi1rNWctM1ZyY1U0WHpRY0swbVktRmlleV9jelE?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1799,
+      "country": "United States",
+      "date": "2026-11-12",
+      "school": "Schools in Quincy",
+      "city": "Quincy",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Quincy_MBTA_suspect_2026-11-12",
+      "notes": "school lockdown lifted",
+      "lat": 42.251,
+      "lng": -71.0037,
+      "src": "Boston 25 News",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWEsyaThSWlMyd0E3U2RCbkJVV1o3XzdTSlFZYU1fTHN3X19iMHg5ZldHeFlraTlTZEx4cDkxYUZCeUtsOWdPeHpZWFROMWN2eU5VLWtnckdHQ1Ewb242bTRKRmVMMWhjQWd1MDFWRzN1LTk0ZXpnTTVjVnkwMEVlUkNWWm5mMXVVTTJ2NmRFb3l3TnN1RmxWaHoyaVBibjNrNzF6c3JyZkFxS1M0ZEJuODlkUERXWXVqRzF5U0EtUGdVYy11TVJwVE11aE15NmVoZzUyamI2N2M4ZGhLQkdmUzNTeV9IZ1BEbXIyWlJ4Z1XSAYQCQVVfeXFMT05sU25qSkxVbEVvWDc3NGllOGRJb0plUUlZRXlEdXlWNVFkX053UW9qeXQ2REdIejdZMXpCaE9EMW5iSnhsNXFwTzR4Y1JoLXdDenNCNDkyZmtrMVBqbTR0TzllVnZEdUJqTmRaSUIxaUJXNWxEOEV1cE1jQVhQeG52ZVh3YmNhS2JIOUlEY0RFWEcwZEUtN29rZVQ1S3J2V3ozOHp4OFduRjdudFVlQWZRRDRyS1RzdllLSGlVdEp3T1RLS09Za01sNDh4WS1NM0RKbHdtZnBPQ0RWcnFPbGZwRGwzblZkeTRyT1pwNVdoT2p4U1R4UlRFQ2JtRmp2bTZqVWg?oc=5",
+      "sources": 1,
+      "county": "Norfolk County"
+    },
+    {
+      "id": 1798,
+      "country": "United States",
+      "date": "2026-11-12",
+      "school": "Murdochs",
+      "city": "Galveston",
+      "state": "Texas",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Murdochs bomb threats Nov 2026",
+      "notes": "Galveston police respond to third bomb threat at Murdochs since August",
+      "lat": 29.3872,
+      "lng": -94.9927,
+      "src": "The Daily News | Texas' Oldest Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ0lHaDJKN25tcUlhUXVaVmRmWVRXRmVSRy1VNmZYbzFFcUR6ZU84WUUtYWczQWVoV0hUNDlidmlLaVdRZUl4WDZLRVF5czgtbjZmSHBtb0JZeFZBaDNHTDcyb3dLZ0RLaDUyZXVXcVNHTUUyck9hR2I2b2hmTmtuQkRqM3JuRDJYYlZXaExya0Y5eVFOWDhzMGh4eVJuZFpEWmlIS2pRZ18tWTlwN2lRNno3OU1fQ09PdS1FNm9LWmFJMkMwNkFEX1lvd1pwOU11SGJyZDFhZmVZQ29Oa0dsNlo4NjU?oc=5",
+      "sources": 1,
+      "county": "Galveston County"
+    },
+    {
+      "id": 1797,
+      "country": "United States",
+      "date": "2026-11-12",
+      "school": "Greenville Catholic School",
+      "city": "Greenville",
+      "state": "North Carolina",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Greenville NC bomb threat 2026-11-12",
+      "notes": "10-year-old accused of making bomb threat against Greenville Catholic school",
+      "lat": 35.6132,
+      "lng": -77.3725,
+      "src": "WITN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHR4eFNfTWY1ZXdGWVVjOXdLTmxkMmk3TXg0bFRKVTlVOHp1MDN3NkhTdmFvVURqcUxkbElZLUVWbGZ4bGJnaFZsaVZqMUZhTWh2Q2pjRDY1cnloV05NTU1USU1OYjg0WmVJWGZDY19pallUZDN4c3JVMkxFT1NCRXIzcllINkhPY1l5WmE1OHVXb1hpSzdHbC1ad3hTRWxscThCb1BLMnZWdw?oc=5",
+      "sources": 1,
+      "county": "Pitt County"
+    },
     {
       "id": 1796,
       "country": "United States",
@@ -127,19 +207,19 @@
       "country": "United States",
       "date": "2026-11-12",
       "school": "University of Illinois",
-      "city": null,
-      "state": null,
+      "city": "Urbana",
+      "state": "Illinois",
       "sector": "Higher Ed",
       "type": "Swatting / Active-Shooter Hoax",
       "response": "Evacuation",
       "outcome": "Under investigation",
       "cluster": "University of Illinois swatting evacuation 2026-11-12",
       "notes": "Suspected swatting call prompts evacuation near University of Illinois auditorium",
-      "lat": null,
-      "lng": null,
+      "lat": 40.1117,
+      "lng": -88.2073,
       "src": "WAND",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONF8yeTVWQUhOVVRFMTRBTWNlTF9Pay1BNncyWVRHNEluOW9JcTMwR3kyNW1QZUprU1laN3cyZ0NscTVZa2FDQlAwakF1QmFtckJUNW5NOEs4UjRUSkNRTnpmRFlGSXRZb1dTX3dkRFJTZjQyR09tRW1XWGNTdnhqaUoxdEtjSzlmNTY5cVRFYVZzUmRZTEc5a0hIcEZ4R2lhM0lENjdiUmlVQjNYdklZMXNoc9IBxwFBVV95cUxOaDBfUTRDc2VpNUFoNlI3X0hXZ291V0ZBNmVBVk9pVXYzSmd4QUsySFh0cjlJQ1dLWmF0cHNmeWdjMzZjN1NobTJCaVd1dzhrR19lS2VtTmRVem53a3FKTjU0MkN2VEs0bVU3ZmIzZ1lCVkdzZ3Rlc1hlNnBXekJSREFLWGZHYzU4VEc0dm9TeUlFV2NHTmpQa3Y2NEtvdTFrX01NN19kWFVETzUtVWdqNkVjS2RwUVo5MEgzOWNvcGpZZUt3bFg0?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -332,14 +412,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Highland bomb threat 2026-11-11",
       "notes": "'Bomb threat' sparks evacuation of numerous Highland schools",
       "lat": 56.7861,
       "lng": -4.1141,
       "src": "Inverness Courier",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWEd4WFhlZFd1SWtfTEx0a19rWlVPTjNPVTMwVGxhRlFUeEFMUzJkSHRDekhadGh1MUNLS2tRdWZmeWlycWtpQjZ5dksxSm94VHZST1Q5c1ZrUjh6UUZyT1ZCQ09WakVEa3R2b3VVUmtXOW55MUV2R0Q3WklDQnBKcDE4aE5ndDlFb05QN3l4dXE3UUJZVk5ScjltSkZnV2lh?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -9969,10 +10049,7 @@
       "src": "Wilson County Source",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzNudzF4amljaUVzTjd4VTRZenlwOTh3Nms0RHJzaDA3X0xpd2Q4RHBmamI0UWRIUlFzZUhxRnowTGNWUE50dnNjSHo0VmNhY2oxaEdtY25rNTh4UnViRXMwNkY1MjVDZDd4dVV2cko3ODRMX0szcEZWNjZia0IyV1E3bWNYUTNjOTdWM0dTUEg1WlFZaGV0ZHRR?oc=5",
       "sources": 1,
-      "county": "Wilson County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Wilson County"
     },
     {
       "id": 1310,
@@ -20317,7 +20394,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-12",
+    "computed": "2026-11-13",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -20358,17 +20435,6 @@
       }
     ],
     "repeat_counties": [
-      {
-        "county": "Rockland County",
-        "region": "New York",
-        "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-10-29",
-          "2026-10-31",
-          "2026-11-05"
-        ]
-      },
       {
         "county": "San Bernardino County",
         "region": "California",
@@ -20423,13 +20489,13 @@
         ]
       },
       {
-        "county": "Escambia County",
-        "region": "Florida",
+        "county": "Rockland County",
+        "region": "New York",
         "country": "United States",
         "events": 2,
         "dates": [
-          "2026-10-29",
-          "2026-11-09"
+          "2026-10-31",
+          "2026-11-05"
         ]
       },
       {
@@ -20443,24 +20509,16 @@
         ]
       }
     ],
-    "stacked_recent": [
-      {
-        "id": 1629,
-        "date": "2026-10-29",
-        "facility": "West Florida High School",
-        "region": "Florida",
-        "country": "United States"
-      }
-    ],
+    "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-10-29",
-      "to": "2026-11-11",
+      "from": "2026-10-30",
+      "to": "2026-11-12",
       "days": 14,
       "hoax": {
         "total": 69,
-        "bomb": 58,
-        "swatting": 11,
+        "bomb": 56,
+        "swatting": 13,
         "schools": 43,
         "by_sector": {
           "K-12": 37,
@@ -20468,17 +20526,16 @@
           "Government": 6,
           "Healthcare": 6,
           "Transit": 5,
-          "Retail": 3,
+          "Retail": 4,
           "Venue": 3,
-          "Other": 2,
-          "Workplace": 1
+          "Workplace": 1,
+          "Other": 1
         },
-        "states": 26,
-        "confirmed_hoax": 15,
+        "states": 25,
+        "confirmed_hoax": 12,
         "arrests": 4,
-        "under_investigation": 45,
+        "under_investigation": 48,
         "per_day": {
-          "2026-10-29": 5,
           "2026-10-30": 7,
           "2026-10-31": 3,
           "2026-11-01": 0,
@@ -20491,10 +20548,10 @@
           "2026-11-08": 2,
           "2026-11-09": 7,
           "2026-11-10": 7,
-          "2026-11-11": 6
+          "2026-11-11": 6,
+          "2026-11-12": 5
         },
         "per_day_schools": {
-          "2026-10-29": 4,
           "2026-10-30": 6,
           "2026-10-31": 1,
           "2026-11-01": 0,
@@ -20507,24 +20564,25 @@
           "2026-11-08": 0,
           "2026-11-09": 5,
           "2026-11-10": 3,
-          "2026-11-11": 1
+          "2026-11-11": 1,
+          "2026-11-12": 4
         }
       },
       "suspicious_mail": {
-        "total": 10,
-        "government": 6
+        "total": 9,
+        "government": 5
       }
     }
   },
   "last_run": {
-    "ingested": 166,
-    "skipped_seen": 72,
-    "recognized": 14,
-    "new": 8,
-    "updated": 0,
-    "rejected": 81,
+    "ingested": 160,
+    "skipped_seen": 128,
+    "recognized": 6,
+    "new": 4,
+    "updated": 1,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 94,
+    "attempted": 32,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20540,7 +20598,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 54
       },
       {
         "edition": "GB:en",
@@ -20554,7 +20612,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 51
       },
       {
         "edition": "CA:en",
@@ -20568,10 +20626,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 55
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-12T18:56:52.784782Z"
+    "ran_at": "2026-11-13T00:22:09.649736Z"
   }
 }
