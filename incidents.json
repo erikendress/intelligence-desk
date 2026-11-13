@@ -1,7 +1,87 @@
 {
-  "generated": "2026-11-13T07:56:15.729279Z",
-  "count": 999,
+  "generated": "2026-11-13T16:20:53.788121Z",
+  "count": 1003,
   "incidents": [
+    {
+      "id": 1804,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Creekview",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockout/Secure",
+      "outcome": "Confirmed hoax",
+      "cluster": "Creekview hoax threat 2026-11-13",
+      "notes": "Police added at Creekview after hoax threat on social media",
+      "lat": null,
+      "lng": null,
+      "src": "Cherokee Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRUJsMXpLVUN1V1NucjFIbU1QYXVUbWxhMzIzTzV2UHZISmdFMmJsSmJDQUM5cWhhbVBmbkdVc3EwOWhsRTFjSHNhMHJycGpvejZ5cHUydU1LU2c4NTFlaEVWcGVqUURmcFJBZkhDVkYxQXMwTGlDR0g1NG9lVi1zaUJ2bXZjbExNbmU2LUNvaTZVN3Q0VncwSGVubU9mV09OMVFwcWpkUUstZm1QWmF0SlZXdlAtaC1JMEF5cXVMR1R6YXR5TGM4SXhWZ0FqWW8xOE5ROGpmeHFQSnJ5Q0gzWnprcnNadjNUVjduVFA1ci03V0twUkNR?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1803,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Deadwood Police Department",
+      "city": "Deadwood",
+      "state": "South Dakota",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Deadwood bomb threat 2026-11-13",
+      "notes": "Deadwood PD responds to bomb threat, determines call to be false report",
+      "lat": 44.3744,
+      "lng": -103.7291,
+      "src": "Black Hills Pioneer",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWE1IdjRjWHZJVERxS2RNN2t0SlhiS2c5UXNjVUhUT3FRTDlqZlhmOTJDWmtSbkNNM2FUdURiT3JRenpRMVdqUlRJN1RzNzJTT251TEVyWXVJbWJUb2VOeFBrdjNTT1VfcWZWSHMwdWlfUUNOVUhtWndxNTZ4RFJLbE1sTDJfLWgwTXczb0kwaTJZbWtpX2QyYXBNcFVfdzU1UFJDSGF3ZWtCSXUzOFE4Q3kxSnZuVzhmRHhaMTA0MzZvSTFFQmlHSkU0S25fcDd5UVVvQW9QalFJUW5SQmV6TGRBT2VYcENXeGxyUGl3?oc=5",
+      "sources": 1,
+      "county": "Lawrence County"
+    },
+    {
+      "id": 1802,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Schools in Franklin County",
+      "city": null,
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Franklin County schools soft lockdown Nov 2026",
+      "notes": "Three Franklin County schools on soft lockdown due to nearby law enforcement operation",
+      "lat": 33.2003,
+      "lng": -95.2232,
+      "src": "WKYT",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSXNXdHFrcTl5T01IX2wtUUMyWHJKN3d4WHo0OG1fR05BNnhKM2dkOVJlLXpFQmk2R2JrUEJhSHN6OXp4T1E0ZVA5UWZxeF9CRnY5Q0NxNGN3V28tTExSWC1WSkpNWldJVnJpVE9idFRIcDBHV2FIUjNuenVtMzFOZ2R1clktcWNsNTFtTVNEZkM2OWhnMmhpdnFNWlNPV18wRmFWRGhTdlhkRVFjYS1sZmxJOA?oc=5",
+      "sources": 1,
+      "county": "Franklin County"
+    },
+    {
+      "id": 1801,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Walmart",
+      "city": null,
+      "state": "Tennessee",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Cheatham County Walmart bomb threat 2026-11-13",
+      "notes": "Walmart evacuated due to bomb threat in Cheatham County",
+      "lat": 36.2445,
+      "lng": -87.0968,
+      "src": "WSMV",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYnN4dS1Pcm9DV0I1VzRFZzVoaEtjcmIyS2VVWjQyM1NQNHlYQXk1eXgtMldYUmpEZFYyc2dtSHlWYkxoNGNUcVJWVWYzaVRXdlBvcEZsOTN2T0tGdVUyamVxZWhuMXJTd3lSWkozbkQxRVdBR18wM3BKUExCVTJtdVY5Mktrcl9nVTNZX3ZaS3lDcVdHdTRzZU1pRUJUZnBxZDE3ZTZoLWZ3WUJ1THdTcGdZUVJ1QQ?oc=5",
+      "sources": 1,
+      "county": "Cheatham County"
+    },
     {
       "id": 1800,
       "country": "United States",
@@ -151,7 +231,7 @@
       "state": "Florida",
       "sector": "K-12",
       "type": "Credible Threat",
-      "response": null,
+      "response": "Lockdown",
       "outcome": "Confirmed hoax",
       "cluster": "Venice High School gun threat 2026-11-12",
       "notes": "Venice Police say reported gun threat at Venice High School not credible",
@@ -159,7 +239,7 @@
       "lng": -82.4443,
       "src": "ABC7 WWSB",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOWJRT1JMQkRvcHl6RVFBOXlQS1ZpXzlJZ3RlTDVCRnhBR1lxdFJQZEhfV0R3dzlrTUVSaXNNVl9qcHE0Q0pMWlI0VGxTOTRwTHZYbExoS04waEppa2g3UUNSR2stZmkxZkdVMkxrU3NnS2xlTXAxQTUwNWdEQlRid0dvMkZlWC1qeV9ySFNfeWJuMmg3bjcwVmFtUm5xS2FOUUh6elRWNTdpcnlD0gHAAUFVX3lxTFBTRllKV05pOGpxNUVGQ3laeGl5T3V3ZHQ4ekxUazl6bHViVDk0RFdwdHA2XzBxMlFsOFE3TFhRSWhOelFCVV9NTzZYWjVyS3JxN2xrYkZDSkVFOXlkU0c1TU1DYzFwZUJLMGRwTU95aFNqX09mQ2JrS3lRczRKeFQ0MkY1YU8ydllHZndmYkxJNGticWlZaGtHNFVDZndTSDNDWDJST255dVhXMHdaNEV2bUVkUzAtSW5oMm5kdE13Xw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Sarasota County"
     },
     {
@@ -199,7 +279,7 @@
       "lng": -83.8241,
       "src": "Gainesville Times",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWlFqVGZPcmI4U3g1WVJKODdzV3YtQWNZeXE4V2VHRUM5NldTWUNzZEFkYkJHVEVjaFBTLXBJRGhXWUlwbUhwRHZDbm9ZajZhcE9JakVURjRtTTNhOHZpbHk3bjc4TEJxbHF5QWZaazdWSFBZSmdZbV93aWp6VVpvVUxUcmN4dDZaYUdObkxTUklVS2hxUzdNTUpUZHZReE5VUUplbUFYNFB3cTR5b2Q3ck9CYw?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": null
     },
     {
@@ -20575,14 +20655,14 @@
     }
   },
   "last_run": {
-    "ingested": 160,
-    "skipped_seen": 137,
+    "ingested": 164,
+    "skipped_seen": 145,
     "recognized": 6,
-    "new": 0,
-    "updated": 1,
-    "rejected": 13,
+    "new": 4,
+    "updated": 0,
+    "rejected": 12,
     "errors": 0,
-    "attempted": 23,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20598,7 +20678,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 51
+        "items": 53
       },
       {
         "edition": "GB:en",
@@ -20612,7 +20692,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 51
+        "items": 53
       },
       {
         "edition": "CA:en",
@@ -20625,11 +20705,11 @@
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
-        "attempt": 1,
-        "items": 50
+        "attempt": 2,
+        "items": 52
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-13T07:56:15.709754Z"
+    "ran_at": "2026-11-13T16:20:53.769712Z"
   }
 }
