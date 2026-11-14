@@ -1,7 +1,47 @@
 {
-  "generated": "2026-11-14T17:07:41.171650Z",
-  "count": 1013,
+  "generated": "2026-11-14T21:29:30.576782Z",
+  "count": 1015,
   "incidents": [
+    {
+      "id": 1816,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "Illinois plant in Peoria",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Peoria IL bomb threat 2026-11-14",
+      "notes": "Peoria police urge evacuations after 'credible' bomb threat at Illinois plant",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "KAKE",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOWNHN2lUMVJaNERydTBjTnYwcWg0eGxqMlRMTFJTdl83eTV5SV9zVGpzN0pFd0NTSGlxWm9lRml6STVIWWR2R0xNVzRadDc1cTJnY2d0a1otWTFHYUx5SndsMVZ6eVRPdzBULTdpdGtfbF9vRWFUdnZoeHUyLTVCbDRsNkVra3dqTWRqRHMtanQ0aXZpWFM5WlI4QTdlYzdrelQtek5WMEl4eXdKbzd0N0dNZllQZzBERnNPOXp6RGttX2tWa3JCb1ExamtQN0dRYmdkTHBHZjdKVjhIdGJBdEhSeFRoTDlzRmpQSGxlTm0tUQ?oc=5",
+      "sources": 2,
+      "county": "Peoria County"
+    },
+    {
+      "id": 1815,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "Peoria",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Peoria_IL_bomb_threat_20261114",
+      "notes": "'It is real': Peoria, Illinois mayor confirms bomb threat, other devices sought",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR3p5dkpUNzlCMWhlNUwyQ05tbWtLZkFlZU5VV1otRHVsRmhwb1EyU2liNl9LOFVKN3BhY1RvRGlZTGlXNFVCRDVDTVlqNnpqYjIxbEZXXzduOTlsY3lRUm4yWlE1R3JYTno0S2RfNGtBRjBUUUFZcG9nbG5ySms1WWRMdTBwNWvSAYwBQVVfeXFMUFlKT1ZvOVRsbHRSeEZnN1l1U2NuaVVNOVNKb2NkWmJnaXozay1WQThSSEdfY042OUZyMkFtdmQ4aGRVZ3RuY3AzVWVrNE5qT2dMbllDS1pNaWthSTdyQ0Q4UEJMZFdVdFdFZjFRTDFRNGtlekFkWXVJMkotU2VWaGxaR25rUVlqU3NFOEc?oc=5",
+      "sources": 1,
+      "county": "Peoria County"
+    },
     {
       "id": 1814,
       "country": "United States",
@@ -39,7 +79,7 @@
       "lng": -89.5891,
       "src": "Peoria Journal Star",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRUJwZ3JuT3VXcC1Db3ozRjExQ1EwQlcwR0wzeVlCVjJYM1IzaHZDeWFhZ1pYYTNNWkdELWZVdzNfd2Q3c2Npa1IxVTJxdHBlQTd5dmFDSWlBem12Z2M4V2t5MkxCVjBqcW93M2JGSkZJTmQ1cl8wSUNVOEJ4Y0VKZ2hCSkRSdVY1a2xxeWlZb2trT2RzYldYT3hRTFZmaW5oVUZXLXNBVFBBVkdjV1drSXdsM1RRajdwc0RsaDJYeV8?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": "Peoria County"
     },
     {
@@ -119,7 +159,7 @@
       "lng": -72.9251,
       "src": "New Haven Register",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekkyNDc4eDY3ck9faE1ueVBYd0Q5WTd3c0tQcVF6Rnk0ZWxfQlJxUU5CejBpMVRrcmF1YWtsUGJVVUloVzhNa1c4VDF5NEw0bzVFdVdzZTFOVVBWVGFJZ2Jhd3lIZ0xkUDdhZWdGWDRseFY3TmR6TVN5UWNmdXBGTXN3TzJHTG1EZmg5R1NzR09ETGpjclZzWS1qcVpMYkd6QlE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -559,7 +599,7 @@
       "lng": -87.9091,
       "src": "WTMJ",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHk4S0FQX09SaUVUWi1OZHRmS2NRLTRISWRqSXhHRzZKZEtDZ0tnUkJrZzY2ZGVRd2lLenhOMlVwcndWQ0hDc3NlQk1kcTlCSmRwU0pFSTMtN25rVHlyUzNvbEhiRTFYMFJCcVo2VWJNN2YxOVhpOS0yQ1BXWmMzRUxZVHp5RW96?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Milwaukee County"
     },
     {
@@ -20855,14 +20895,14 @@
     }
   },
   "last_run": {
-    "ingested": 142,
-    "skipped_seen": 51,
+    "ingested": 137,
+    "skipped_seen": 107,
     "recognized": 7,
-    "new": 1,
+    "new": 2,
     "updated": 0,
-    "rejected": 76,
+    "rejected": 23,
     "errors": 0,
-    "attempted": 91,
+    "attempted": 30,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20878,7 +20918,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 33
       },
       {
         "edition": "GB:en",
@@ -20892,7 +20932,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 36
+        "items": 32
       },
       {
         "edition": "CA:en",
@@ -20906,10 +20946,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 38
+        "items": 31
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-14T17:07:41.150952Z"
+    "ran_at": "2026-11-14T21:29:30.556507Z"
   }
 }
