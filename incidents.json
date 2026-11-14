@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-14T10:25:30.143502Z",
-  "count": 1012,
+  "generated": "2026-11-14T17:07:41.171650Z",
+  "count": 1013,
   "incidents": [
+    {
+      "id": 1814,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "Manual Academy",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Manual Academy bomb threat 2026-11-14",
+      "notes": "Community shelters at Manual Academy amidst bomb threat",
+      "lat": null,
+      "lng": null,
+      "src": "WEEK | 25 News Now",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcU5HNkVSUHk0TC00dURidEZtMWNIeUJCaFVFWFJqVmdndC1JNnNQX01JQnllNmdwQ2NmSXRrTmtOek5JOWZsZDZJeDhOTTQ5a2FKeExmUTIwSlBLbnVuSnFQR1BadTBsekRMdnpPNXJ6WDBNYWt0S1FNek85Z2pYV25mMlRfSEI2eDlTMlFnTUdtbWUydnhPS05Ncm4?oc=5",
+      "sources": 2,
+      "county": null
+    },
     {
       "id": 1813,
       "country": "United States",
@@ -19,7 +39,7 @@
       "lng": -89.5891,
       "src": "Peoria Journal Star",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRUJwZ3JuT3VXcC1Db3ozRjExQ1EwQlcwR0wzeVlCVjJYM1IzaHZDeWFhZ1pYYTNNWkdELWZVdzNfd2Q3c2Npa1IxVTJxdHBlQTd5dmFDSWlBem12Z2M4V2t5MkxCVjBqcW93M2JGSkZJTmQ1cl8wSUNVOEJ4Y0VKZ2hCSkRSdVY1a2xxeWlZb2trT2RzYldYT3hRTFZmaW5oVUZXLXNBVFBBVkdjV1drSXdsM1RRajdwc0RsaDJYeV8?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Peoria County"
     },
     {
@@ -79,7 +99,7 @@
       "lng": -89.5891,
       "src": "WCBU Peoria",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjV2NW9fc0dacTdkbFdfNHE5RGROSDN4UDVzR3BMQ3pULXR3Y3ZtMHJJa1ZYa2gxakREdkxDMVg3UER0Wk5NMTdWYmVkclJDWGZVbmdxNy1ROUp0MGtodW1XNllCUVhsVE9vVXg4aFFzRDhZaXpqa3VrOG5LOU9OQW9EcTItMzM1TGVXMjNMOTduQXNMWENwbFpxNktUYkcwVVlJVmJEUElRNXlkbjhPTmxn?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Peoria County"
     },
     {
@@ -159,7 +179,7 @@
       "lng": -88.939,
       "src": "Channel 3000",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTXN3UVkwZmtZNlBiSmJ1cS1PTXhCRlk5WVBLVXBBTlpNS2NUWU5EMVpxN0Y2NjJYZGk4ZUVWZm45UXptMElHbDB3bHk4S09Qc1kwY2pRTmQ2OTZ3bGF2NmgtQS1GQUNqQzZrNnlBTTAwSk9PSm5hN29hbmhEV1BQNEpNMGhGS1NLMjFlOUhEVVVySU83dDlLenR4VVVTNmdmRmViWGY4UFZLdnpwTTFwd3VtemVfd0NDcUdpTlR6VDFGM1pZOHRPRHZyNjJQcThNODgzOVFlSG11cjF6eHlKdVFRSU9NcTd6cl9IRENGOHY1bUU?oc=5",
-      "sources": 2,
+      "sources": 5,
       "county": "Rock County"
     },
     {
@@ -20835,14 +20855,14 @@
     }
   },
   "last_run": {
-    "ingested": 153,
-    "skipped_seen": 125,
+    "ingested": 142,
+    "skipped_seen": 51,
     "recognized": 7,
     "new": 1,
     "updated": 0,
-    "rejected": 21,
+    "rejected": 76,
     "errors": 0,
-    "attempted": 28,
+    "attempted": 91,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20858,7 +20878,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 39
       },
       {
         "edition": "GB:en",
@@ -20872,7 +20892,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 36
       },
       {
         "edition": "CA:en",
@@ -20886,10 +20906,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 50
+        "items": 38
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-14T10:25:30.122329Z"
+    "ran_at": "2026-11-14T17:07:41.150952Z"
   }
 }
