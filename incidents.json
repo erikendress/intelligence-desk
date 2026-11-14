@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-14T03:14:07.698043Z",
-  "count": 1011,
+  "generated": "2026-11-14T10:25:30.143502Z",
+  "count": 1012,
   "incidents": [
+    {
+      "id": 1813,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "Peoria Civic Center",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Peoria Civic Center bomb threat 2026-11-14",
+      "notes": "Jon Pardi concert canceled at Peoria Civic Center amid bomb threat in city",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "Peoria Journal Star",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRUJwZ3JuT3VXcC1Db3ozRjExQ1EwQlcwR0wzeVlCVjJYM1IzaHZDeWFhZ1pYYTNNWkdELWZVdzNfd2Q3c2Npa1IxVTJxdHBlQTd5dmFDSWlBem12Z2M4V2t5MkxCVjBqcW93M2JGSkZJTmQ1cl8wSUNVOEJ4Y0VKZ2hCSkRSdVY1a2xxeWlZb2trT2RzYldYT3hRTFZmaW5oVUZXLXNBVFBBVkdjV1drSXdsM1RRajdwc0RsaDJYeV8?oc=5",
+      "sources": 1,
+      "county": "Peoria County"
+    },
     {
       "id": 1811,
       "country": "United States",
@@ -15,11 +35,11 @@
       "outcome": "Under investigation",
       "cluster": "Peoria ADM plant bomb threat 2026-11-14",
       "notes": "Peoria police order evacuation after bomb threat at old ADM plant",
-      "lat": null,
-      "lng": null,
+      "lat": 40.6939,
+      "lng": -89.5891,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUcxNkdsakJMeWdlclk2VTQ0cVo5LWxYdzMyUkQ1Zjh2cHJUTU1XZ29Ob1JTRVlZLUVqQkVsTUN4V2MtZk1vekJPNk5YUHJ5NDR3dVhoNXVHRTdFT2JRd3BnR3JlazM1MkdkOXdEd1dONGhYQTl0bFBwRF9nQkprZGRnRFpFbmo3Ym1hRnpqSQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -39,7 +59,7 @@
       "lng": null,
       "src": "WAND",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTZXdUhMeVBCMXBRWkZWZTJxMWwwVXMzOTdLRjg3SnRCbm1qa0kxTU1nYU5OcTMzQlRHNnoxdXJiR1ZwTWtqY2Y0Zkh4cjlZTERhQzBhNzVnVC1lNmdxazZrZGdfVExqbi1mUTdHTXBiS3hMMURqOEZzZ09sX1dRWWo1N1Zrc1hnLW1jOFNuY2I4RlJCRTBEM3BqeHVaTDVqb1BKSzZGONIBuwFBVV95cUxQZTBjeVpHV3g2Y0ZTUFo0QzNlOEc4NXVDLTFZYmYtYkFpeGM5aEFvb0RERDRBZVlfcHp0dU9mbkNPNDBVblRCZ0dOenVQdTU4VTVVcEJObHdISXFfcTJvMThGdDRBOXpfeUhxWVBYN0lOejZoVUpmbnA0WHRfQ0tOM1R3YkswNE5xMVNoMmdyM0hlZlNrbzBxYzRvQmtrb0Fsd0E3OWJDZlZjbXQtU1FuS2VCMHRDTnNKWHhr?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": null
     },
     {
@@ -59,7 +79,7 @@
       "lng": -89.5891,
       "src": "WCBU Peoria",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjV2NW9fc0dacTdkbFdfNHE5RGROSDN4UDVzR3BMQ3pULXR3Y3ZtMHJJa1ZYa2gxakREdkxDMVg3UER0Wk5NMTdWYmVkclJDWGZVbmdxNy1ROUp0MGtodW1XNllCUVhsVE9vVXg4aFFzRDhZaXpqa3VrOG5LOU9OQW9EcTItMzM1TGVXMjNMOTduQXNMWENwbFpxNktUYkcwVVlJVmJEUElRNXlkbjhPTmxn?oc=5",
-      "sources": 1,
+      "sources": 4,
       "county": "Peoria County"
     },
     {
@@ -20816,13 +20836,13 @@
   },
   "last_run": {
     "ingested": 153,
-    "skipped_seen": 126,
+    "skipped_seen": 125,
     "recognized": 7,
-    "new": 5,
-    "updated": 1,
-    "rejected": 20,
+    "new": 1,
+    "updated": 0,
+    "rejected": 21,
     "errors": 0,
-    "attempted": 27,
+    "attempted": 28,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20838,7 +20858,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 47
       },
       {
         "edition": "GB:en",
@@ -20849,27 +20869,27 @@
       },
       {
         "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 44
-      },
-      {
-        "edition": "CA:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
         "items": 47
+      },
+      {
+        "edition": "CA:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "CA:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 50
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-14T03:14:07.679176Z"
+    "ran_at": "2026-11-14T10:25:30.122329Z"
   }
 }
