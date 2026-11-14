@@ -1,7 +1,107 @@
 {
-  "generated": "2026-11-13T22:37:15.773412Z",
-  "count": 1006,
+  "generated": "2026-11-14T03:14:07.698043Z",
+  "count": 1011,
   "incidents": [
+    {
+      "id": 1811,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "ADM Plant",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Peoria ADM plant bomb threat 2026-11-14",
+      "notes": "Peoria police order evacuation after bomb threat at old ADM plant",
+      "lat": null,
+      "lng": null,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUcxNkdsakJMeWdlclk2VTQ0cVo5LWxYdzMyUkQ1Zjh2cHJUTU1XZ29Ob1JTRVlZLUVqQkVsTUN4V2MtZk1vekJPNk5YUHJ5NDR3dVhoNXVHRTdFT2JRd3BnR3JlazM1MkdkOXdEd1dONGhYQTl0bFBwRF9nQkprZGRnRFpFbmo3Ym1hRnpqSQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1809,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "BioUrja plant",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Peoria BioUrja bomb threat 2026-11-14",
+      "notes": "Police evacuate 1-mile radius of Peoria's BioUrja plant after bomb threat",
+      "lat": null,
+      "lng": null,
+      "src": "WAND",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTZXdUhMeVBCMXBRWkZWZTJxMWwwVXMzOTdLRjg3SnRCbm1qa0kxTU1nYU5OcTMzQlRHNnoxdXJiR1ZwTWtqY2Y0Zkh4cjlZTERhQzBhNzVnVC1lNmdxazZrZGdfVExqbi1mUTdHTXBiS3hMMURqOEZzZ09sX1dRWWo1N1Zrc1hnLW1jOFNuY2I4RlJCRTBEM3BqeHVaTDVqb1BKSzZGONIBuwFBVV95cUxQZTBjeVpHV3g2Y0ZTUFo0QzNlOEc4NXVDLTFZYmYtYkFpeGM5aEFvb0RERDRBZVlfcHp0dU9mbkNPNDBVblRCZ0dOenVQdTU4VTVVcEJObHdISXFfcTJvMThGdDRBOXpfeUhxWVBYN0lOejZoVUpmbnA0WHRfQ0tOM1R3YkswNE5xMVNoMmdyM0hlZlNrbzBxYzRvQmtrb0Fsd0E3OWJDZlZjbXQtU1FuS2VCMHRDTnNKWHhr?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1808,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "BioUrja Renewables",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "BioUrja Renewables bomb threat Peoria IL 2026-11-14",
+      "notes": "Peoria Police urge evacuation after bomb threat at BioUrja Renewables",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "WCBU Peoria",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZjV2NW9fc0dacTdkbFdfNHE5RGROSDN4UDVzR3BMQ3pULXR3Y3ZtMHJJa1ZYa2gxakREdkxDMVg3UER0Wk5NMTdWYmVkclJDWGZVbmdxNy1ROUp0MGtodW1XNllCUVhsVE9vVXg4aFFzRDhZaXpqa3VrOG5LOU9OQW9EcTItMzM1TGVXMjNMOTduQXNMWENwbFpxNktUYkcwVVlJVmJEUElRNXlkbjhPTmxn?oc=5",
+      "sources": 1,
+      "county": "Peoria County"
+    },
+    {
+      "id": 1812,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Yale University",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "sector": "Higher Ed",
+      "type": "Suspicious Package / Mail",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Yale suspicious package 2026-11-13",
+      "notes": "Suspicious package at Yale under investigation, officials say",
+      "lat": 41.3082,
+      "lng": -72.9251,
+      "src": "New Haven Register",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekkyNDc4eDY3ck9faE1ueVBYd0Q5WTd3c0tQcVF6Rnk0ZWxfQlJxUU5CejBpMVRrcmF1YWtsUGJVVUloVzhNa1c4VDF5NEw0bzVFdVdzZTFOVVBWVGFJZ2Jhd3lIZ0xkUDdhZWdGWDRseFY3TmR6TVN5UWNmdXBGTXN3TzJHTG1EZmg5R1NzR09ETGpjclZzWS1qcVpMYkd6QlE?oc=5",
+      "sources": 1,
+      "county": "South Central Connecticut Planning Region"
+    },
+    {
+      "id": 1810,
+      "country": "United States",
+      "date": "2026-11-13",
+      "school": "Victor School",
+      "city": "Victor",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Victor NY school threat 2026-11-13",
+      "notes": "13-year-old charged after threats during Victor school lockdown",
+      "lat": 42.9826,
+      "lng": -77.4089,
+      "src": "RochesterFirst",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnhtaHFnc2JvN2d0TFdOTFI4UlNoODV6VWNoY2tmY0NZbDUyU05mVElmMmtjeVZ0S0cyQm9ldGFUR01NVHVpZzhMcGI0b0sydi1reTRrMWNEemVibHUwaUpJTEpGV0tSRkxTaHQ2OHFqNVFuclVaNnJRTS1xaGJMU3FLMVZxbjZjSHVFQ2dMSnhILXR2YXdNTzRnclNHcG4zQmEw0gGoAUFVX3lxTFBObHZqNUk3MEgydXlKSmxTdVlNazRwNHhDd3ZNSHY3SUp4TnZuV0x6YmIzZkZHV3FEX0k3LUVfYWVfZDV3QllfSXdKQ3V1VnZSOTdpUXBDM3dEbEtIdXhkcFBJOGJkLXBIcUlyMWJaUVJaejdaS3FvMl82QTR1TmxQcXU2aVFkVWhuMm5Qdl85aFBoNS12aGh1U2JiMFVJLTNoM2FhQVVWRQ?oc=5",
+      "sources": 1,
+      "county": "Ontario County"
+    },
     {
       "id": 1807,
       "country": "United States",
@@ -52,14 +152,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Resolved \u2013 no cause found",
       "cluster": "Southwood High School Shreveport bomb threat 2026-11-13",
       "notes": "Southwood High School in Shreveport is on lockdown after bomb threat",
       "lat": 32.5135,
       "lng": -93.7478,
       "src": "KSLA",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzBORXliOGVHZWVjdVVRbW1IdWZmcV9FNWpVaWl0UXE4dkdrVm9wQVR6cjJaT0lYQXdoMWNBX211RFl6Sm5hZDh5OHMtaE5kcUNaSWFuNjlMQzBGWUxiM002WUp3VUFKeEVqTGlUR0NCVTluT2prNk4yNEg5bFRmMHJOeHpsTWlrd0ZfRGJmYlJJU3lEbjA4MjhoSQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Caddo Parish"
     },
     {
@@ -20534,7 +20634,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-13",
+    "computed": "2026-11-14",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -20652,31 +20752,30 @@
     "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-10-30",
-      "to": "2026-11-12",
+      "from": "2026-10-31",
+      "to": "2026-11-13",
       "days": 14,
       "hoax": {
-        "total": 69,
-        "bomb": 56,
-        "swatting": 13,
-        "schools": 43,
+        "total": 66,
+        "bomb": 54,
+        "swatting": 12,
+        "schools": 38,
         "by_sector": {
-          "K-12": 37,
-          "Higher Ed": 6,
-          "Government": 6,
+          "K-12": 35,
+          "Government": 8,
           "Healthcare": 6,
           "Transit": 5,
           "Retail": 4,
           "Venue": 3,
+          "Higher Ed": 3,
           "Workplace": 1,
           "Other": 1
         },
-        "states": 25,
-        "confirmed_hoax": 12,
+        "states": 23,
+        "confirmed_hoax": 13,
         "arrests": 5,
-        "under_investigation": 47,
+        "under_investigation": 42,
         "per_day": {
-          "2026-10-30": 7,
           "2026-10-31": 3,
           "2026-11-01": 0,
           "2026-11-02": 4,
@@ -20689,10 +20788,10 @@
           "2026-11-09": 7,
           "2026-11-10": 7,
           "2026-11-11": 6,
-          "2026-11-12": 5
+          "2026-11-12": 5,
+          "2026-11-13": 4
         },
         "per_day_schools": {
-          "2026-10-30": 6,
           "2026-10-31": 1,
           "2026-11-01": 0,
           "2026-11-02": 3,
@@ -20705,24 +20804,25 @@
           "2026-11-09": 5,
           "2026-11-10": 3,
           "2026-11-11": 1,
-          "2026-11-12": 4
+          "2026-11-12": 4,
+          "2026-11-13": 1
         }
       },
       "suspicious_mail": {
-        "total": 9,
+        "total": 10,
         "government": 5
       }
     }
   },
   "last_run": {
-    "ingested": 150,
-    "skipped_seen": 115,
+    "ingested": 153,
+    "skipped_seen": 126,
     "recognized": 7,
-    "new": 3,
-    "updated": 0,
-    "rejected": 26,
+    "new": 5,
+    "updated": 1,
+    "rejected": 20,
     "errors": 0,
-    "attempted": 35,
+    "attempted": 27,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20738,23 +20838,23 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 46
-      },
-      {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
         "items": 45
       },
       {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 44
+      },
+      {
         "edition": "CA:en",
         "q": 0,
         "route": "direct",
@@ -20766,10 +20866,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 46
+        "items": 47
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-13T22:37:15.758145Z"
+    "ran_at": "2026-11-14T03:14:07.679176Z"
   }
 }
