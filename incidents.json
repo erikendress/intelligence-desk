@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T09:23:34.755902Z",
+  "generated": "2026-11-15T17:08:46.004530Z",
   "count": 1017,
   "incidents": [
     {
@@ -20925,14 +20925,14 @@
     }
   },
   "last_run": {
-    "ingested": 124,
-    "skipped_seen": 102,
-    "recognized": 2,
-    "new": 1,
-    "updated": 1,
-    "rejected": 19,
+    "ingested": 113,
+    "skipped_seen": 89,
+    "recognized": 0,
+    "new": 0,
+    "updated": 0,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 22,
+    "attempted": 24,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20948,7 +20948,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 31
+        "items": 28
       },
       {
         "edition": "GB:en",
@@ -20962,7 +20962,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 31
+        "items": 28
       },
       {
         "edition": "CA:en",
@@ -20976,10 +20976,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 32
+        "items": 29
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-15T09:23:34.739507Z"
+    "ran_at": "2026-11-15T17:08:45.984260Z"
   }
 }
