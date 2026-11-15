@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-14T21:29:30.576782Z",
-  "count": 1015,
+  "generated": "2026-11-15T01:54:25.375571Z",
+  "count": 1016,
   "incidents": [
+    {
+      "id": 1817,
+      "country": "United States",
+      "date": "2026-11-14",
+      "school": "Illinois Comic Con",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Peoria Illinois Comic Con bomb threat November 2026",
+      "notes": "Illinois Comic Con will be held Sunday after Peoria bomb threat resolved",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "Peoria Journal Star",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdFVyX0JxYllmQ3dmSHBiM3RRY181dWFmY085TVl5MTgxWWpRZWplbUVBd1VPSnVHZzd3azc1aHJUY1E1TTc1b1J4V0M4RXU0RHJIZi0tN1QycHhRdG45MDJoY2Z1elVHdDJlVUhyUTQtYmdyclJhVVNjVnpTczhCcWNuQzl1U0pHSjJOaVdRMVNVYjlCQnlnVF9ORVJpQzY5WllrRjhsZVlWQ1BhOU52V1hpQ2Zwamx4cGstOUNaMWVrcDZSUnZMWU5jTzRWNFNXLWRsalpvbHBEZUtXREU3REhPbGw1S1BlZjRmU2FGLUw0VkpxX3FOSTZ6NzJPQXc?oc=5",
+      "sources": 1,
+      "county": "Peoria County"
+    },
     {
       "id": 1816,
       "country": "United States",
@@ -20714,7 +20734,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-14",
+    "computed": "2026-11-15",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -20809,16 +20829,6 @@
         ]
       },
       {
-        "county": "Rockland County",
-        "region": "New York",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-10-31",
-          "2026-11-05"
-        ]
-      },
-      {
         "county": "Pinellas County",
         "region": "Florida",
         "country": "United States",
@@ -20832,8 +20842,8 @@
     "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-10-31",
-      "to": "2026-11-13",
+      "from": "2026-11-01",
+      "to": "2026-11-14",
       "days": 14,
       "hoax": {
         "total": 66,
@@ -20846,17 +20856,16 @@
           "Healthcare": 6,
           "Transit": 5,
           "Retail": 4,
-          "Venue": 3,
           "Higher Ed": 3,
-          "Workplace": 1,
+          "Venue": 2,
+          "Workplace": 2,
           "Other": 1
         },
-        "states": 23,
+        "states": 22,
         "confirmed_hoax": 13,
         "arrests": 5,
         "under_investigation": 42,
         "per_day": {
-          "2026-10-31": 3,
           "2026-11-01": 0,
           "2026-11-02": 4,
           "2026-11-03": 8,
@@ -20869,10 +20878,10 @@
           "2026-11-10": 7,
           "2026-11-11": 6,
           "2026-11-12": 5,
-          "2026-11-13": 4
+          "2026-11-13": 4,
+          "2026-11-14": 3
         },
         "per_day_schools": {
-          "2026-10-31": 1,
           "2026-11-01": 0,
           "2026-11-02": 3,
           "2026-11-03": 5,
@@ -20885,7 +20894,8 @@
           "2026-11-10": 3,
           "2026-11-11": 1,
           "2026-11-12": 4,
-          "2026-11-13": 1
+          "2026-11-13": 1,
+          "2026-11-14": 1
         }
       },
       "suspicious_mail": {
@@ -20895,14 +20905,14 @@
     }
   },
   "last_run": {
-    "ingested": 137,
-    "skipped_seen": 107,
-    "recognized": 7,
-    "new": 2,
+    "ingested": 131,
+    "skipped_seen": 115,
+    "recognized": 1,
+    "new": 1,
     "updated": 0,
-    "rejected": 23,
+    "rejected": 14,
     "errors": 0,
-    "attempted": 30,
+    "attempted": 16,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20918,7 +20928,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 33
+        "items": 30
       },
       {
         "edition": "GB:en",
@@ -20932,7 +20942,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 32
+        "items": 30
       },
       {
         "edition": "CA:en",
@@ -20950,6 +20960,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-14T21:29:30.556507Z"
+    "ran_at": "2026-11-15T01:54:25.359992Z"
   }
 }
