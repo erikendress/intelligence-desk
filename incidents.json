@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-15T01:54:25.375571Z",
-  "count": 1016,
+  "generated": "2026-11-15T09:23:34.755902Z",
+  "count": 1017,
   "incidents": [
+    {
+      "id": 1818,
+      "country": "United States",
+      "date": "2026-11-15",
+      "school": "Dallas Love Field Airport",
+      "city": "Dallas",
+      "state": "Texas",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Closure",
+      "outcome": "Under investigation",
+      "cluster": "Dallas Love Field bomb threat 2026-11-15",
+      "notes": "Dallas Love Field Airport closed over bomb threat",
+      "lat": 32.7763,
+      "lng": -96.7969,
+      "src": "Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalRuWktsLWhFQnIxTE9malUzN2hxRkNBVDAzaUwwcDVHdVktdVU2cnBxNXAtN1ZWVEV1c05SVEo4ajBId1h3RGdIR3NKMFE5WGQ2MVNTUXBhZnVXWEJTNW5DbnNRdFpuZXNfOFJaWkJJNUg4SlZVVkREeHdqU0ZHYVhlUnM3Y2hmbXZtZU5Ia0NwM2FZMzNv0gGcAUFVX3lxTE5QNmpOLWI5LUlGaE1PWWdxWEVESGlMT3F0b3FKUmNGSXpmNE9tY2hxSFJ4OFpXdkdOYXhMbXBYdmVmWFJ1VnE0T1VBVk94UFhYUW5FaHVmdUZoQWpvcTViUExBaXdsVm5WN2FEbk9BSE5PeHR3RlRYVW4wMFhxZFNkRk82a0hOOHRDNVZ6Sk1DUGsxN2pFTVBqYVYwMg?oc=5",
+      "sources": 1,
+      "county": "Dallas County"
+    },
     {
       "id": 1817,
       "country": "United States",
@@ -252,14 +272,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Lockdown",
-      "outcome": "Resolved \u2013 no cause found",
+      "outcome": "Confirmed hoax",
       "cluster": "Southwood High School Shreveport bomb threat 2026-11-13",
       "notes": "Southwood High School in Shreveport is on lockdown after bomb threat",
       "lat": 32.5135,
       "lng": -93.7478,
       "src": "KSLA",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzBORXliOGVHZWVjdVVRbW1IdWZmcV9FNWpVaWl0UXE4dkdrVm9wQVR6cjJaT0lYQXdoMWNBX211RFl6Sm5hZDh5OHMtaE5kcUNaSWFuNjlMQzBGWUxiM002WUp3VUFKeEVqTGlUR0NCVTluT2prNk4yNEg5bFRmMHJOeHpsTWlrd0ZfRGJmYlJJU3lEbjA4MjhoSQ?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Caddo Parish"
     },
     {
@@ -20862,7 +20882,7 @@
           "Other": 1
         },
         "states": 22,
-        "confirmed_hoax": 13,
+        "confirmed_hoax": 14,
         "arrests": 5,
         "under_investigation": 42,
         "per_day": {
@@ -20905,14 +20925,14 @@
     }
   },
   "last_run": {
-    "ingested": 131,
-    "skipped_seen": 115,
-    "recognized": 1,
+    "ingested": 124,
+    "skipped_seen": 102,
+    "recognized": 2,
     "new": 1,
-    "updated": 0,
-    "rejected": 14,
+    "updated": 1,
+    "rejected": 19,
     "errors": 0,
-    "attempted": 16,
+    "attempted": 22,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20928,7 +20948,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 30
+        "items": 31
       },
       {
         "edition": "GB:en",
@@ -20939,27 +20959,27 @@
       },
       {
         "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 30
-      },
-      {
-        "edition": "CA:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
         "items": 31
+      },
+      {
+        "edition": "CA:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "CA:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 32
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-15T01:54:25.359992Z"
+    "ran_at": "2026-11-15T09:23:34.739507Z"
   }
 }
