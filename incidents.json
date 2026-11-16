@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T21:47:24.510379Z",
+  "generated": "2026-11-16T02:04:23.725832Z",
   "count": 1017,
   "incidents": [
     {
@@ -39,7 +39,7 @@
       "lng": -89.5891,
       "src": "Peoria Journal Star",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdFVyX0JxYllmQ3dmSHBiM3RRY181dWFmY085TVl5MTgxWWpRZWplbUVBd1VPSnVHZzd3azc1aHJUY1E1TTc1b1J4V0M4RXU0RHJIZi0tN1QycHhRdG45MDJoY2Z1elVHdDJlVUhyUTQtYmdyclJhVVNjVnpTczhCcWNuQzl1U0pHSjJOaVdRMVNVYjlCQnlnVF9ORVJpQzY5WllrRjhsZVlWQ1BhOU52V1hpQ2Zwamx4cGstOUNaMWVrcDZSUnZMWU5jTzRWNFNXLWRsalpvbHBEZUtXREU3REhPbGw1S1BlZjRmU2FGLUw0VkpxX3FOSTZ6NzJPQXc?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Peoria County"
     },
     {
@@ -20754,7 +20754,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-15",
+    "computed": "2026-11-16",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -20862,19 +20862,19 @@
     "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-11-01",
-      "to": "2026-11-14",
+      "from": "2026-11-02",
+      "to": "2026-11-15",
       "days": 14,
       "hoax": {
-        "total": 66,
-        "bomb": 54,
+        "total": 67,
+        "bomb": 55,
         "swatting": 12,
         "schools": 38,
         "by_sector": {
           "K-12": 35,
           "Government": 8,
           "Healthcare": 6,
-          "Transit": 5,
+          "Transit": 6,
           "Retail": 4,
           "Higher Ed": 3,
           "Venue": 2,
@@ -20884,9 +20884,8 @@
         "states": 22,
         "confirmed_hoax": 14,
         "arrests": 5,
-        "under_investigation": 42,
+        "under_investigation": 43,
         "per_day": {
-          "2026-11-01": 0,
           "2026-11-02": 4,
           "2026-11-03": 8,
           "2026-11-04": 8,
@@ -20899,10 +20898,10 @@
           "2026-11-11": 6,
           "2026-11-12": 5,
           "2026-11-13": 4,
-          "2026-11-14": 3
+          "2026-11-14": 3,
+          "2026-11-15": 1
         },
         "per_day_schools": {
-          "2026-11-01": 0,
           "2026-11-02": 3,
           "2026-11-03": 5,
           "2026-11-04": 6,
@@ -20915,24 +20914,25 @@
           "2026-11-11": 1,
           "2026-11-12": 4,
           "2026-11-13": 1,
-          "2026-11-14": 1
+          "2026-11-14": 1,
+          "2026-11-15": 0
         }
       },
       "suspicious_mail": {
-        "total": 10,
+        "total": 9,
         "government": 5
       }
     }
   },
   "last_run": {
-    "ingested": 105,
+    "ingested": 109,
     "skipped_seen": 97,
-    "recognized": 0,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
-    "rejected": 8,
+    "rejected": 11,
     "errors": 0,
-    "attempted": 8,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20962,7 +20962,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 23
       },
       {
         "edition": "CA:en",
@@ -20980,6 +20980,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-15T21:47:24.493388Z"
+    "ran_at": "2026-11-16T02:04:23.706122Z"
   }
 }
