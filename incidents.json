@@ -1,7 +1,74 @@
 {
-  "generated": "2026-11-16T02:04:23.725832Z",
-  "count": 1017,
+  "generated": "2026-11-16T09:40:36.586691Z",
+  "count": 1020,
   "incidents": [
+    {
+      "id": 1821,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "General Wayne A. Downning Peoria International Airport",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Peoria_IL_bomb_threat_20261116",
+      "notes": "Then came the bomb threat",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "WCBU Peoria",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVDB2VV8xS1I0SzI1Wkd2YXJzR2pzTVN0S3ljRkNXRWJUVEgxVGxPR09wM09YUWk3eUVvdDFCaVZuR3JoMVlGQnJPQmJOMFI1ektZSGN3b2syUG5BMUVRUWlnbWZjNXFqTXFBZllUeEMxeHpOMS16azZnM2lsMl9EeFJpMkR6TE9XdFY4RTBST1FSX3o1bDVMZmgyQlNyN1hwUUttMVR6VXZCYzRaMi1J?oc=5",
+      "sources": 1,
+      "county": "Peoria County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-14",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1820,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Kraft food plant",
+      "city": "Columbia",
+      "state": "South Carolina",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Columbia Kraft bomb threat 2026-11-16",
+      "notes": "Columbia Police confirm bomb threat at Kraft food plant",
+      "lat": null,
+      "lng": null,
+      "src": "ABC17NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTZOR19jZk51MWtWZV9qRzJtbkNic2ZrUmxiN096QldhNDhTdklyZUxqSTRuQ0NLRlN3WG9OVXRNSy1PNzVrOFhqM2dtdi0xVW91S01yYlJXREtHNE5iLU16R3ZEaWZqNnM0V0xqc3JWTEtJSmkxNkhBYUVDai1ZVTNUdkNXWlJkb0d5allCanUyRTAydVNnbTg4QjJrcFdFQ3BqTl9jZGJPTUppUE9SRnJXTTF3SUhK?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1819,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Kraft Heinz-Columbia",
+      "city": "Columbia",
+      "state": "Missouri",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Columbia MO Kraft Heinz bomb threat 2026-11-16",
+      "notes": "Columbia police ask public to avoid area after bomb threat at Kraft Heinz factory",
+      "lat": 38.9519,
+      "lng": -92.3337,
+      "src": "KOMU 8",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObDYwYVhiMUI1bzJqLTI1S2xWTm9UVFB6cV94LVdKbkdmcThPTTE5N1hrb1ZpZ1AtUGhNMmFJQWRhSUhMQ1NFazRXRHlVU3JmdjF4aFBUWmRRd3BnQmtiZmRJQXg3M2o5a1Buem11WTBXaVFwZGNldy1vTTlTUmw5WjRmU0JCOHNINXdkaHd3ZUhPTjE0M3pwcU1hZ1FDNFhNUy1WQU1HVHY2b3k2YXRYSm1CemFWUFVFMXBKRE9ZdEZIbC1TSmJidG5OeFBKOE5YV0lKbFNEUjNZNllCVy1IaFhkU20zVUNuQm5Zd1R1bFJoeFVSWnRRX2Zn?oc=5",
+      "sources": 4,
+      "county": "Boone County"
+    },
     {
       "id": 1818,
       "country": "United States",
@@ -20857,6 +20924,16 @@
           "2026-11-08",
           "2026-11-10"
         ]
+      },
+      {
+        "county": "Peoria County",
+        "region": "Illinois",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-14",
+          "2026-11-16"
+        ]
       }
     ],
     "stacked_recent": [],
@@ -20926,13 +21003,13 @@
   },
   "last_run": {
     "ingested": 109,
-    "skipped_seen": 97,
-    "recognized": 1,
-    "new": 0,
-    "updated": 0,
-    "rejected": 11,
+    "skipped_seen": 90,
+    "recognized": 6,
+    "new": 3,
+    "updated": 1,
+    "rejected": 10,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 19,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -20948,7 +21025,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 22
+        "items": 21
       },
       {
         "edition": "GB:en",
@@ -20962,7 +21039,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 21
       },
       {
         "edition": "CA:en",
@@ -20976,10 +21053,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 23
+        "items": 21
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-16T02:04:23.706122Z"
+    "ran_at": "2026-11-16T09:40:36.572167Z"
   }
 }
