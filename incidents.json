@@ -1,7 +1,107 @@
 {
-  "generated": "2026-11-16T20:30:22.551172Z",
-  "count": 1032,
+  "generated": "2026-11-17T03:53:30.944615Z",
+  "count": 1037,
   "incidents": [
+    {
+      "id": 1835,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Schools in Jasper",
+      "city": "Jasper",
+      "state": "Texas",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Jasper schools swatting 2026-11-17",
+      "notes": "Jasper schools cancel evening events after suspected swatting call",
+      "lat": null,
+      "lng": null,
+      "src": "14 News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNXlRVXh3aHNvTGl6VHBZT29QQWI4X3lsZV9STDltZ2FCYmJQYTVyMVpXbEpnRkJGZXNCbWU4Qi1rSEM2Z01IbklsMzdjR3NmcXJqbFBXY3BPR2JxZUhLeTNkLXJwcXVia2lmSVBpUDU1R2tKVnA3S0VfTXpJM3BBdVBCMmVzbU51a0xGbDJRdFdxd0Y5eHl1bi1Rc00zaEpwMy1V?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1838,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Seattle Police Department",
+      "city": "Seattle",
+      "state": "Washington",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Seattle suspicious package near police precinct 2026-11-16",
+      "notes": "suspicious package left near precinct",
+      "lat": 47.6038,
+      "lng": -122.3301,
+      "src": "FOX 13 Seattle",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yT1pMMWQtdmluLW93bG82ZkNCYzctdlVSWllHV2ljb1l4LXpVUG9BU0l6alB6VGplUTdjSXJDOEVHQ3N1VnJOMGVLNEhwWU1zQUFZUjlNNldiaC02TUc1ZHpDNXFRQdIBa0FVX3lxTE4yRXcwenE5M09BdFh3ZnVUcFBUNUlKWXJXdUxwdGZZeGNFR2JRcHlrNW4xbXFwb0xmclZqaE9kSVJIeFo3OEVrTXE1TTVjVW5BUnZwNTZDSFE5RmFMa0Z0M0hCUVFzdEttT0Fz?oc=5",
+      "sources": 1,
+      "county": "King County"
+    },
+    {
+      "id": 1837,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Montague Public Schools",
+      "city": "Montague",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Amherst and Montague school threats 2026-11-16",
+      "notes": "school threats: No credible danger found after lockdown, evacuation",
+      "lat": 42.5901,
+      "lng": -72.5497,
+      "src": "Daily Hampshire Gazette",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbkRsYTFnNU5xZUgweHlqby1EUzY5bHVZajU5bE9sZTZkeV90X2ZCeEpNREpPTFdKdkVnY2dSSXVvT1p6bTlGcTlBSWlCZlBCWjQ0QXdIVV9mUVA0UHozUW95SDk5dHpkUzlqX09MX3Q1R3ZyNVg3bmFOV3BRcHZFNmtxRmFlTDdqVVNtWDlYa29aLXVNR3BkZmFoeGV3NlNmVnFTT3pCRVNDcVdTMDFqWkZGc0dYcmNuc19vT2szQkRGYTkwcHI2cQ?oc=5",
+      "sources": 1,
+      "county": "Franklin County"
+    },
+    {
+      "id": 1836,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Amherst Public Schools",
+      "city": "Amherst",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Amherst and Montague school threats 2026-11-16",
+      "notes": "school threats: No credible danger found after lockdown, evacuation",
+      "lat": 42.3732,
+      "lng": -72.5199,
+      "src": "Daily Hampshire Gazette",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbkRsYTFnNU5xZUgweHlqby1EUzY5bHVZajU5bE9sZTZkeV90X2ZCeEpNREpPTFdKdkVnY2dSSXVvT1p6bTlGcTlBSWlCZlBCWjQ0QXdIVV9mUVA0UHozUW95SDk5dHpkUzlqX09MX3Q1R3ZyNVg3bmFOV3BRcHZFNmtxRmFlTDdqVVNtWDlYa29aLXVNR3BkZmFoeGV3NlNmVnFTT3pCRVNDcVdTMDFqWkZGc0dYcmNuc19vT2szQkRGYTkwcHI2cQ?oc=5",
+      "sources": 1,
+      "county": "Hampshire County"
+    },
+    {
+      "id": 1834,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Walnut High School",
+      "city": "Walnut",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Walnut High School 2026-11-16",
+      "notes": "Walnut High School locked down after reports of gun and bomb. 'Swatting' suspected",
+      "lat": 34.0203,
+      "lng": -117.8659,
+      "src": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNjNtbkV5M21oOUJ3eUJxX04yQXZFd0xuQVZxUVo2SUNxb0M4emtpbnNCNEZjcG9TS2pPZGRaZHNVN1ViWWFJejE3UkQ0NHJFdEh6UEhBdzdnRHF2VmN6WEVGT3l5VkFOTmtQSmdhdWpuSlNZQW0wUzg5ektKSlpsSm9LU3gyN3h5Y0c1NW40OTJXTUpObHYzTkJHd19yRVJIWlJQdlJTb0NzVnpzam5aWGVKT1JMRGcxdUpYQkNQVDUyRTBFU2c?oc=5",
+      "sources": 4,
+      "county": "Los Angeles County"
+    },
     {
       "id": 1833,
       "country": "Canada",
@@ -39,18 +139,18 @@
       "lng": null,
       "src": "WTVA",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT05UMTZmWGozQWdoM0ZTcWpRaG9ES05ESXo4Rld5NVRqY3Zod1NUZWFfQldieUw0aTJFWXBjdHRjNnZpTm95YXFMMDBUMzZNRU9MMGo0OGtGbDhIOUlQM2FuT2dPTzNWQ0xkQ0dGVk94ZWdReGlLYjE4MmxxNGJiVThLb1EyRk05NXZaRHNndWZ6XzJzV240WEt0TE5SQmtCaDNWQUg0aWxVTm8?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
       "id": 1831,
       "country": "United States",
       "date": "2026-11-16",
-      "school": "Naval Construction Battalion Center",
+      "school": "Naval Construction Battalion Center Gulfport",
       "city": "Gulfport",
       "state": "Mississippi",
       "sector": "Government",
-      "type": "Under investigation",
+      "type": "Suspicious Package / Mail",
       "response": "Lockdown",
       "outcome": "Under investigation",
       "cluster": "NCBC Gulfport lockdown Nov 16 2026",
@@ -59,7 +159,7 @@
       "lng": -89.0928,
       "src": "WXXV News 25",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbi1mWHl5aGswX0lLZXd6c19oNUp4anM5QnpJbDBYVDM3MGN4Yjc1VDNVXzE1VjlCSEZMWUhqU0tWcWJtc1ExaTV4czkxclZOenQ0YzZxenZmX0VEWU9RVjNsOVhhZXRBZ3NlT0pFc2dDSlJkaHFWVlY2YnNjVnlRRjZFU2dVNVB5dzBidGFua0MtOHMtcUw2eUFvbmhaQQ?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Harrison County"
     },
     {
@@ -79,7 +179,7 @@
       "lng": -89.0928,
       "src": "WTVA",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnhTS2FZTlRTeHREMTRYdnJtMklicFgzc0hRYUlDNmFmS1dkRGNwQ0FQVUkxUVZ2QmRNU0wzWXdmRkhMNWdfamt1bVo0bUh5X195Nl9idS1xR2VjTkhobkE3by0wenk5S0NCNWZUeHVXV1JZc1l6OTJtaS02Z3ZPUnRMMThQU3JsWHlSTkdPSFRrV0tETlZYOHpxcFcxOFJSWDlj0gG3AUFVX3lxTE02TnBDa00zckRSU0pGX2k4QzdlSzdsaHFTMFZPdnNFVEUzSW5oOEd4aG1NNW9zZWxNZVY3Q3IwRjcwU0hKTlRpa293VjNtX2d3MEJ3bXM3ZTBsZGJmWl9Cbm1zM215LVZFTUhpWFg4TUgzV1ItbGNfZ3dxcE5WS0o0ZWV1c2Z0a29ZN3RsTkh1alA3WjN4Skdpb3dMaWJIbWE5cWs0dDhCRHBVM2RQY1R0VUdDSkdRQQ?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": "Harrison County"
     },
     {
@@ -139,7 +239,7 @@
       "lng": -74.0557,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN2pHbHc3TU12NmJzZXZEZTlUV2NzRlR6REhZMlVoRU9mQzU4VDVLa21hLXNpMFdpVnVTSFZ0VjhOX3dIeUNHY0ZfMFhydnotVTlqTHBLUnlybFBCQXhidkZ1Y01yMXJvemIzMVM3RTRfWEVGUFJEc0l6Tk92UUlkUVI3c0ExWHE5SW1GSQ?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": null
     },
     {
@@ -172,14 +272,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed hoax",
       "cluster": "Gordo High bomb threat Nov 16 2026",
       "notes": "Bomb Threat Reported at Gordo High, K-9 Units Searching School Monday",
       "lat": 33.3201,
       "lng": -87.9028,
       "src": "Tuscaloosa Thread",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yUklZcUNQb1VBUEhQenRuNXEzVkowdTBJN3p2NFN5RTZjaHZiZkJ3OFdNX3VxbUE4Z29nN05pUlFIWWM4S2xGd09DcGZGZWwwLUtoTE9Cck1WSnRkRUtseW9YemphMnVMOUtlSDFmUXRBSlZuYWpn?oc=5",
-      "sources": 2,
+      "sources": 4,
       "county": "Pickens County"
     },
     {
@@ -266,7 +366,7 @@
       "lng": -89.5891,
       "src": "WCBU Peoria",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVDB2VV8xS1I0SzI1Wkd2YXJzR2pzTVN0S3ljRkNXRWJUVEgxVGxPR09wM09YUWk3eUVvdDFCaVZuR3JoMVlGQnJPQmJOMFI1ektZSGN3b2syUG5BMUVRUWlnbWZjNXFqTXFBZllUeEMxeHpOMS16azZnM2lsMl9EeFJpMkR6TE9XdFY4RTBST1FSX3o1bDVMZmgyQlNyN1hwUUttMVR6VXZCYzRaMi1J?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Peoria County",
       "signals": {
         "repeat": {
@@ -313,7 +413,7 @@
       "lng": -92.3337,
       "src": "KOMU 8",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObDYwYVhiMUI1bzJqLTI1S2xWTm9UVFB6cV94LVdKbkdmcThPTTE5N1hrb1ZpZ1AtUGhNMmFJQWRhSUhMQ1NFazRXRHlVU3JmdjF4aFBUWmRRd3BnQmtiZmRJQXg3M2o5a1Buem11WTBXaVFwZGNldy1vTTlTUmw5WjRmU0JCOHNINXdkaHd3ZUhPTjE0M3pwcU1hZ1FDNFhNUy1WQU1HVHY2b3k2YXRYSm1CemFWUFVFMXBKRE9ZdEZIbC1TSmJidG5OeFBKOE5YV0lKbFNEUjNZNllCVy1IaFhkU20zVUNuQm5Zd1R1bFJoeFVSWnRRX2Zn?oc=5",
-      "sources": 8,
+      "sources": 9,
       "county": "Boone County"
     },
     {
@@ -21068,7 +21168,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-16",
+    "computed": "2026-11-17",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -21173,12 +21273,12 @@
         ]
       },
       {
-        "county": "Franklin County",
-        "region": "North Carolina",
+        "county": "Los Angeles County",
+        "region": "California",
         "country": "United States",
         "events": 2,
         "dates": [
-          "2026-11-02",
+          "2026-11-04",
           "2026-11-16"
         ]
       },
@@ -21196,31 +21296,30 @@
     "stacked_recent": [],
     "headline": {
       "country": "United States",
-      "from": "2026-11-02",
-      "to": "2026-11-15",
+      "from": "2026-11-03",
+      "to": "2026-11-16",
       "days": 14,
       "hoax": {
-        "total": 67,
-        "bomb": 55,
-        "swatting": 12,
-        "schools": 38,
+        "total": 74,
+        "bomb": 61,
+        "swatting": 13,
+        "schools": 42,
         "by_sector": {
-          "K-12": 35,
-          "Government": 8,
+          "K-12": 38,
+          "Government": 7,
+          "Transit": 7,
           "Healthcare": 6,
-          "Transit": 6,
+          "Higher Ed": 4,
           "Retail": 4,
-          "Higher Ed": 3,
-          "Venue": 2,
-          "Workplace": 2,
+          "Workplace": 4,
+          "Venue": 3,
           "Other": 1
         },
-        "states": 22,
-        "confirmed_hoax": 14,
+        "states": 24,
+        "confirmed_hoax": 17,
         "arrests": 5,
-        "under_investigation": 43,
+        "under_investigation": 47,
         "per_day": {
-          "2026-11-02": 4,
           "2026-11-03": 8,
           "2026-11-04": 8,
           "2026-11-05": 5,
@@ -21233,10 +21332,10 @@
           "2026-11-12": 5,
           "2026-11-13": 4,
           "2026-11-14": 3,
-          "2026-11-15": 1
+          "2026-11-15": 1,
+          "2026-11-16": 11
         },
         "per_day_schools": {
-          "2026-11-02": 3,
           "2026-11-03": 5,
           "2026-11-04": 6,
           "2026-11-05": 3,
@@ -21249,24 +21348,25 @@
           "2026-11-12": 4,
           "2026-11-13": 1,
           "2026-11-14": 1,
-          "2026-11-15": 0
+          "2026-11-15": 0,
+          "2026-11-16": 7
         }
       },
       "suspicious_mail": {
-        "total": 9,
-        "government": 5
+        "total": 10,
+        "government": 6
       }
     }
   },
   "last_run": {
-    "ingested": 115,
-    "skipped_seen": 38,
-    "recognized": 24,
-    "new": 12,
-    "updated": 2,
-    "rejected": 51,
+    "ingested": 136,
+    "skipped_seen": 82,
+    "recognized": 19,
+    "new": 5,
+    "updated": 1,
+    "rejected": 33,
     "errors": 0,
-    "attempted": 77,
+    "attempted": 54,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -21282,7 +21382,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 34
+        "items": 46
       },
       {
         "edition": "GB:en",
@@ -21295,8 +21395,8 @@
         "edition": "GB:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 33
+        "attempt": 1,
+        "items": 47
       },
       {
         "edition": "CA:en",
@@ -21309,11 +21409,11 @@
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 34
+        "attempt": 1,
+        "items": 45
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-16T20:30:22.533730Z"
+    "ran_at": "2026-11-17T03:53:30.921509Z"
   }
 }
