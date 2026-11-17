@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T03:53:30.944615Z",
+  "generated": "2026-11-17T13:23:17.016208Z",
   "count": 1037,
   "incidents": [
     {
@@ -139,7 +139,7 @@
       "lng": null,
       "src": "WTVA",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT05UMTZmWGozQWdoM0ZTcWpRaG9ES05ESXo4Rld5NVRqY3Zod1NUZWFfQldieUw0aTJFWXBjdHRjNnZpTm95YXFMMDBUMzZNRU9MMGo0OGtGbDhIOUlQM2FuT2dPTzNWQ0xkQ0dGVk94ZWdReGlLYjE4MmxxNGJiVThLb1EyRk05NXZaRHNndWZ6XzJzV240WEt0TE5SQmtCaDNWQUg0aWxVTm8?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -179,7 +179,7 @@
       "lng": -89.0928,
       "src": "WTVA",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnhTS2FZTlRTeHREMTRYdnJtMklicFgzc0hRYUlDNmFmS1dkRGNwQ0FQVUkxUVZ2QmRNU0wzWXdmRkhMNWdfamt1bVo0bUh5X195Nl9idS1xR2VjTkhobkE3by0wenk5S0NCNWZUeHVXV1JZc1l6OTJtaS02Z3ZPUnRMMThQU3JsWHlSTkdPSFRrV0tETlZYOHpxcFcxOFJSWDlj0gG3AUFVX3lxTE02TnBDa00zckRSU0pGX2k4QzdlSzdsaHFTMFZPdnNFVEUzSW5oOEd4aG1NNW9zZWxNZVY3Q3IwRjcwU0hKTlRpa293VjNtX2d3MEJ3bXM3ZTBsZGJmWl9Cbm1zM215LVZFTUhpWFg4TUgzV1ItbGNfZ3dxcE5WS0o0ZWV1c2Z0a29ZN3RsTkh1alA3WjN4Skdpb3dMaWJIbWE5cWs0dDhCRHBVM2RQY1R0VUdDSkdRQQ?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Harrison County"
     },
     {
@@ -187,19 +187,19 @@
       "country": "United States",
       "date": "2026-11-16",
       "school": "Chestnut Ridge School",
-      "city": null,
-      "state": null,
+      "city": "Monsey",
+      "state": "New York",
       "sector": "K-12",
       "type": "Bomb Threat",
-      "response": null,
+      "response": "Evacuation",
       "outcome": "Under investigation",
       "cluster": "Chestnut Ridge School bomb threats Nov 2026",
       "notes": "Bomb Threat Reported At Chestnut Ridge School, Second In Less Than 3 Weeks",
-      "lat": null,
-      "lng": null,
+      "lat": 41.118,
+      "lng": -74.0594,
       "src": "DailyVoice.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNFF0Rkg1cmh1RHoyX2UzX3Nrb3JQZUN4U1RlbVVQU1VqY3VvdHl2elJxb0Q2ZjFJUDFBbF9QeFlPN1NLMzcwTFowYkxVX2x1TnhxY0VZS0hsU05tUkJMQkQ5aDRuSmtHbWk4Ti02dm52WkNORFhuSTZrWXVnNVRnWDFnQU1SZG90dm9F?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -239,7 +239,7 @@
       "lng": -74.0557,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN2pHbHc3TU12NmJzZXZEZTlUV2NzRlR6REhZMlVoRU9mQzU4VDVLa21hLXNpMFdpVnVTSFZ0VjhOX3dIeUNHY0ZfMFhydnotVTlqTHBLUnlybFBCQXhidkZ1Y01yMXJvemIzMVM3RTRfWEVGUFJEc0l6Tk92UUlkUVI3c0ExWHE5SW1GSQ?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": null
     },
     {
@@ -413,7 +413,7 @@
       "lng": -92.3337,
       "src": "KOMU 8",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObDYwYVhiMUI1bzJqLTI1S2xWTm9UVFB6cV94LVdKbkdmcThPTTE5N1hrb1ZpZ1AtUGhNMmFJQWRhSUhMQ1NFazRXRHlVU3JmdjF4aFBUWmRRd3BnQmtiZmRJQXg3M2o5a1Buem11WTBXaVFwZGNldy1vTTlTUmw5WjRmU0JCOHNINXdkaHd3ZUhPTjE0M3pwcU1hZ1FDNFhNUy1WQU1HVHY2b3k2YXRYSm1CemFWUFVFMXBKRE9ZdEZIbC1TSmJidG5OeFBKOE5YV0lKbFNEUjNZNllCVy1IaFhkU20zVUNuQm5Zd1R1bFJoeFVSWnRRX2Zn?oc=5",
-      "sources": 9,
+      "sources": 10,
       "county": "Boone County"
     },
     {
@@ -21359,14 +21359,14 @@
     }
   },
   "last_run": {
-    "ingested": 136,
-    "skipped_seen": 82,
-    "recognized": 19,
-    "new": 5,
-    "updated": 1,
-    "rejected": 33,
+    "ingested": 133,
+    "skipped_seen": 108,
+    "recognized": 5,
+    "new": 0,
+    "updated": 0,
+    "rejected": 20,
     "errors": 0,
-    "attempted": 54,
+    "attempted": 25,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -21382,7 +21382,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 46
+        "items": 44
       },
       {
         "edition": "GB:en",
@@ -21396,7 +21396,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 45
       },
       {
         "edition": "CA:en",
@@ -21414,6 +21414,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-17T03:53:30.921509Z"
+    "ran_at": "2026-11-17T13:23:16.995353Z"
   }
 }
