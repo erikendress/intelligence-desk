@@ -1,7 +1,214 @@
 {
-  "generated": "2026-11-17T13:23:17.016208Z",
-  "count": 1037,
+  "generated": "2026-11-17T22:23:32.272572Z",
+  "count": 1048,
   "incidents": [
+    {
+      "id": 1849,
+      "country": "Canada",
+      "date": "2026-11-17",
+      "school": "Cobourg Collegiate Institute",
+      "city": "Cobourg",
+      "state": "Ontario",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Arrest made",
+      "cluster": "Cobourg Collegiate Institute lockdown 2026-11-17",
+      "notes": "Cobourg Collegiate Institute lockdown lifted, youth arrested at residence: police",
+      "lat": 43.9596,
+      "lng": -78.1678,
+      "src": "GRANT HAVEN MEDIA",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNzFjNWZoQkpTaVFnaFN0MllITWJJQVk1bllnUW5QTXl2YVE3Y1lzTTRKWUZBOFYwamdpOVpabkR2Z1lLd1dBNmstOHA2WC03UmVWN2VLOFNINDZ0SXg2NFd1MGk4bXdwajRNanU0clpfY25ZN2NEdkkwQzF0RWhRRV84X2liYnQzeC0ya0QxSl9oUlg1VjhEVUR0eU5BMUxiR2ZDOWhVdlk3SDlRWks3N0FtbHlZV3BCZ2ZfdzBNTzRFZkhtNVE?oc=5",
+      "sources": 1,
+      "county": "Northumberland County"
+    },
+    {
+      "id": 1848,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Montgomery Blair High School",
+      "city": "Silver Spring",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Montgomery Blair HS swatting 2026-11-17",
+      "notes": "Police Respond to Swatting Call at Montgomery Blair High School",
+      "lat": 38.9998,
+      "lng": -77.024,
+      "src": "The MoCo Show -",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDFRblBRQ3dmazdLeWJIOHFmMFB2MkxyYWlwbW1GdzdZSzF4eTI3ZUkyc21GNVFwRzJlaDZFZENYa3FxMGNpOTltRHY5MG9RQXVZN01ldFc2bWk3WDBwbVVVaURMQ0dLYmxNMHNTaXFpNmVnal9wTjFqaHFEdHNMYkRyWi1RRTVkTjZHYzhhY3BNVkZWWTFMVG81TFQ?oc=5",
+      "sources": 1,
+      "county": "Montgomery County"
+    },
+    {
+      "id": 1847,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Great Mills High School",
+      "city": "Great Mills",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Great Mills High School armed report 2026-11-17",
+      "notes": "'Swatting' Suspected After No Threat Found",
+      "lat": 38.2482,
+      "lng": -76.4892,
+      "src": "The BayNet",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY3gzakJrTXVsa2hhemxiSFRNdE9MeWVldEo2c2NreTRQVGFIOTR5eGJ0aU5Ba1dpMktTUFhJcFB0alpEaTVEcmdzN3lpMkhtUk9OcHdSSXBmcktvcTI1NmNaMG84SDVWVVFtRDBUS0wycTFTeWs0T3R3eE0tNk91V1dWM1d2X3FiNjNwYzN3dXFBUXdtUGZGc1FmbHFoOTFtRUtmVkRGekxhQURwOXhtTUg5N2pFVHU0ZXlDVDdWUUc?oc=5",
+      "sources": 1,
+      "county": "Saint Mary's County"
+    },
+    {
+      "id": 1846,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Heritage High",
+      "city": "Brentwood",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Heritage High bomb threat Brentwood CA 2026-11-17",
+      "notes": "Heritage High Resumes Normal Operations After Bomb Threat",
+      "lat": 37.9318,
+      "lng": -121.696,
+      "src": "SFGATE",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNFVqVzRFSWlFUEtkYm9PNlg1SzdJc2h2dFEzRDFaeDFkdEs0bGVwcWZ1emh5U1RkdUozWFJGaUFweHNORDFiRWVxTE4yMWhBdUVwdUFuTzJZeTkyWldhNUNwM1VUb1ZNNzBjU0g3MFBIbnV4N1EyYW4yMHhtZDJla1lEM0FjdHd6R2hiaGxha19uLXBQSFlFQzdVdV9hRlRjR21Rcg?oc=5",
+      "sources": 1,
+      "county": "Contra Costa County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-16",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1845,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Jones College Prep",
+      "city": "Chicago",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Jones College Prep bomb threat 2026-11-17",
+      "notes": "bomb threat at Jones College Prep",
+      "lat": 41.8756,
+      "lng": -87.6244,
+      "src": "Audacy",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbmZIM2hwaFhGcGVWOW96RjhuZm53X3ZUcVhtZU5EMHZvc3JmaDhHZG1HRVprVGZxYVJsc0kwUnVnSjhjU0I4ZHhzNkdnZDBzRHRydkMyT0htMUhTTHo3eVVlanRvUGN6Sk8xZEJhVVl1V0F2a21VUjJuLW1xcU42UnhDZVhZNzdCNHFzU21vTGxIUDZLTkJKOXdR?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1844,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Ripley's of Myrtle Beach",
+      "city": "Myrtle Beach",
+      "state": "South Carolina",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Ripley's Myrtle Beach bomb threat Nov 2026",
+      "notes": "reported bomb threat at Ripley's of Myrtle Beach",
+      "lat": 33.6956,
+      "lng": -78.89,
+      "src": "WPDE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQjJod2VRcjl6OXZrRFpsMVdUSWpiWmp6TmhJMldrM0NEbVVXS1hjeW1adHdiNnRiSnVaNlNKeVk3ZEJCcERfNHlOb3c4VmlrYml0Vk5RMnpfUW5SdWMtWm9NbHBGNXZ4c3BFRTR2ZXJKMFl1MENaNHhHWjNUUGJ1WndFbEhKM1lGS1ltcGlZQmdkenMwRTFjYjVUcEVuNFF4V2c?oc=5",
+      "sources": 1,
+      "county": "Horry County"
+    },
+    {
+      "id": 1843,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Wichita East High School",
+      "city": "Wichita",
+      "state": "Kansas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Wichita_EastHS_BombThreat_20261117",
+      "notes": "Bomb threat prompts evacuation at Wichta East High School",
+      "lat": 37.6922,
+      "lng": -97.3375,
+      "src": "KWCH",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdkI2X1VlYjdNRjBCaXdZWHJpZ3pyVTZjd1J5UHN1cEhMdGM2d25TcEZOR2pkWUZ5d1pCd21YNk1ZT1duWDAxUFpaRHk4QmhOeDFOTzRxeXdVQzhheFItN01XVEhHODV0b2M1ckhHMjNqdmMxZEJOejRwb1EyQll5WUtqMXVTeDduQnNNNGh4QWI?oc=5",
+      "sources": 2,
+      "county": "Sedgwick County"
+    },
+    {
+      "id": 1842,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Glastonbury High School",
+      "city": "Glastonbury",
+      "state": "Connecticut",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Glastonbury High School threat 2026-11-17",
+      "notes": "Glastonbury High School lockdown lifted after threat determined to be fraudulent",
+      "lat": 41.7123,
+      "lng": -72.6081,
+      "src": "NBC Connecticut",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc25FSU01WERzZl9WMzBmSXh0enZjTnhzNXYyeEppdWJxNXVUc284QXhVdGZyUnAtdGlkdkJVT0RUNXZNUDdld2NwaVJ4ME9zdFdzTXIzNVppUlVjNVRWTE01NXdlN19iaHZTTjFKMjJ5Z19pMjlIVnRtT1d4aGpmZ0U4bDhaZW1GUEc3ektKZjlrZDQ0YTFzRERwRm80UmxTUzNtSy1lekZWTDY5VG9IZkUtMFZTSE1YcllmdmRaNjdiZGdHanlhbjBLQ3l1d1VoR1lJUGR4dld0ODdadE1hWtIB6AFBVV95cUxPUkF4ajRKR05CMkZQN2UtU1duNmUwSWQwV3d1Nk0tRFVqQXZ2LTZpdzBpYm9STUE5Zi1QeDdfWjVQOWxjZVhncGQ3OTl4VmZ5dWJWT2otdUJQbmdRSXBPTXY4c19xN1Y5Z21tSVNjUTIxT2JObTZOS29yNWp5Zml4VTZvY1NEZlRlQm92QlRmaUJZQmFlc0hPOWN0eDBnRW5SMXIwdmRfbU8xU0JXeVVOLVlNYjVvWnZxRE9oblRDVDZxVU1YRm5HQ2VhX3BYdkxkcWJmOGVaZXZCQndfN2dwblJ1Q0JxRTU1?oc=5",
+      "sources": 10,
+      "county": "Capitol Planning Region"
+    },
+    {
+      "id": 1840,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Schools in Loyalton",
+      "city": "Loyalton",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Loyalton schools bomb threat Nov 2026",
+      "notes": "bomb threat that forced lockdown of Loyalton schools",
+      "lat": 39.6751,
+      "lng": -120.2444,
+      "src": "KOLO | 8 News Now",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOW9wR0UxMVBQQVgyZy02VGVBdV9DU044X0Eya28zZmJ6ZzRHMXlOcDI3NlZZTU5wblp4NkFhZ1BabkRoQWE1YTZ1Wl92dktMb19ISkQ1NWNPaVh5MXdUNHhZUEpGLTNKbEdqc2ZKWlQ3RllZcUR2SVhXcEZoTGdEQWd1VFdjZnZRVzZMcGtRaHk3T0dvemVOVTJocWFscXp4MG9xcEx1UHc?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1839,
+      "country": "United States",
+      "date": "2026-11-17",
+      "school": "Schools in El Dorado County",
+      "city": null,
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "El Dorado County swatting lockdown 2026-11-17",
+      "notes": "Schools in El Dorado County put on lockdown after 'swatting' call, sheriff says",
+      "lat": 38.7574,
+      "lng": -120.5276,
+      "src": "KCRA",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc0dpNlVjNVVOT040ekZOamdienFVTVYzenBPeE56M0lPU1ktQ2FKQTJsRzFFel8xa0NzcVcxUHpwVkctWjZ3N3ZyMTdVNXhYMkhQRktuamJmRXJpSzRJcHdzMWZPUWd0cHF2WlV1S2p4Y1lXVExIeFpBWjhndW1ZMUlKQkJPRFE5V0JzNlB3?oc=5",
+      "sources": 1,
+      "county": "El Dorado County"
+    },
     {
       "id": 1835,
       "country": "United States",
@@ -21,6 +228,26 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNXlRVXh3aHNvTGl6VHBZT29QQWI4X3lsZV9STDltZ2FCYmJQYTVyMVpXbEpnRkJGZXNCbWU4Qi1rSEM2Z01IbklsMzdjR3NmcXJqbFBXY3BPR2JxZUhLeTNkLXJwcXVia2lmSVBpUDU1R2tKVnA3S0VfTXpJM3BBdVBCMmVzbU51a0xGbDJRdFdxd0Y5eHl1bi1Rc00zaEpwMy1V?oc=5",
       "sources": 1,
       "county": null
+    },
+    {
+      "id": 1841,
+      "country": "United States",
+      "date": "2026-11-16",
+      "school": "Schools in Laramie County",
+      "city": null,
+      "state": "Wyoming",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "LCSD1_swatting_2026-11-16",
+      "notes": "LCSD1 schools receive false swatting call Monday",
+      "lat": 41.3116,
+      "lng": -105.5918,
+      "src": "WyomingNews.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUkVIM0pvRU1FMzVHS1ZKdTNkOUswZ1JJT3VHUFItU3RwUHVndkN4eHJfSElxQ0t0LU9qZWtSV2FaOTdtMHRDd1lmSlNRNmlIdkRrbmczY0EtMnBseGdLc1o2T3FiczdUNTRid2tySm5ZOGV0LUY5allmQ2FzQ0tDNEtHeGEzTlNER0F5eE9SbGI2T0QyOWVnbU82V0dYc2lrT2Z2RGpCdTVUUHUwU1hXOW82c01sZHVQaGU0MDgtSWFDWUtfM09iQXhXWlEtdDZfR2JXa3kxS28zQQ?oc=5",
+      "sources": 1,
+      "county": "Albany County"
     },
     {
       "id": 1838,
@@ -199,7 +426,7 @@
       "lng": -74.0594,
       "src": "DailyVoice.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNFF0Rkg1cmh1RHoyX2UzX3Nrb3JQZUN4U1RlbVVQU1VqY3VvdHl2elJxb0Q2ZjFJUDFBbF9QeFlPN1NLMzcwTFowYkxVX2x1TnhxY0VZS0hsU05tUkJMQkQ5aDRuSmtHbWk4Ti02dm52WkNORFhuSTZrWXVnNVRnWDFnQU1SZG90dm9F?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -279,7 +506,7 @@
       "lng": -87.9028,
       "src": "Tuscaloosa Thread",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yUklZcUNQb1VBUEhQenRuNXEzVkowdTBJN3p2NFN5RTZjaHZiZkJ3OFdNX3VxbUE4Z29nN05pUlFIWWM4S2xGd09DcGZGZWwwLUtoTE9Cck1WSnRkRUtseW9YemphMnVMOUtlSDFmUXRBSlZuYWpn?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Pickens County"
     },
     {
@@ -21291,6 +21518,26 @@
           "2026-11-14",
           "2026-11-16"
         ]
+      },
+      {
+        "county": "Horry County",
+        "region": "South Carolina",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-04",
+          "2026-11-17"
+        ]
+      },
+      {
+        "county": "Contra Costa County",
+        "region": "California",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-16",
+          "2026-11-17"
+        ]
       }
     ],
     "stacked_recent": [],
@@ -21300,12 +21547,12 @@
       "to": "2026-11-16",
       "days": 14,
       "hoax": {
-        "total": 74,
+        "total": 75,
         "bomb": 61,
-        "swatting": 13,
-        "schools": 42,
+        "swatting": 14,
+        "schools": 43,
         "by_sector": {
-          "K-12": 38,
+          "K-12": 39,
           "Government": 7,
           "Transit": 7,
           "Healthcare": 6,
@@ -21315,8 +21562,8 @@
           "Venue": 3,
           "Other": 1
         },
-        "states": 24,
-        "confirmed_hoax": 17,
+        "states": 25,
+        "confirmed_hoax": 18,
         "arrests": 5,
         "under_investigation": 47,
         "per_day": {
@@ -21333,7 +21580,7 @@
           "2026-11-13": 4,
           "2026-11-14": 3,
           "2026-11-15": 1,
-          "2026-11-16": 11
+          "2026-11-16": 12
         },
         "per_day_schools": {
           "2026-11-03": 5,
@@ -21349,7 +21596,7 @@
           "2026-11-13": 1,
           "2026-11-14": 1,
           "2026-11-15": 0,
-          "2026-11-16": 7
+          "2026-11-16": 8
         }
       },
       "suspicious_mail": {
@@ -21359,14 +21606,14 @@
     }
   },
   "last_run": {
-    "ingested": 133,
-    "skipped_seen": 108,
-    "recognized": 5,
-    "new": 0,
-    "updated": 0,
-    "rejected": 20,
+    "ingested": 142,
+    "skipped_seen": 56,
+    "recognized": 25,
+    "new": 11,
+    "updated": 1,
+    "rejected": 56,
     "errors": 0,
-    "attempted": 25,
+    "attempted": 86,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -21382,7 +21629,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 56
       },
       {
         "edition": "GB:en",
@@ -21396,7 +21643,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 58
       },
       {
         "edition": "CA:en",
@@ -21410,10 +21657,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 45
+        "items": 57
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-17T13:23:16.995353Z"
+    "ran_at": "2026-11-17T22:23:32.256545Z"
   }
 }
