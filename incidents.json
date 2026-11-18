@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-18T04:19:02.792276Z",
-  "count": 1050,
+  "generated": "2026-11-18T13:57:15.817255Z",
+  "count": 1051,
   "incidents": [
+    {
+      "id": 1852,
+      "country": "United Kingdom",
+      "date": "2026-11-18",
+      "school": "Feltham school",
+      "city": "Feltham",
+      "state": "England",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Feltham_2026-11-18_weapon_hoax",
+      "notes": "Lockdown on Feltham school after 'hoax' report of person with weapon",
+      "lat": 51.4442,
+      "lng": -0.4107,
+      "src": "Hounslow Herald",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbFJPWU45R01TYjdEZTFfd2NXZXB5MWNYdmYtaDJzM2g4dkVkTlJ4WVVxU2tkWWZJOV80cE5Vci02WE55UzAxTEg4SHNkYUUxRHlBcVB2TGxDQ3hlVjJLTGpXZ1UwaXRDY1RjYmg1bFlKVEVuVnVDSkMxSWVIb3NsQnhBS0hnekRycnFFblBOakl4WkpDRXpCemdfdUhhSkRkTUg3ZGJNbmZhUWc?oc=5",
+      "sources": 1,
+      "county": "London Borough of Hounslow"
+    },
     {
       "id": 1851,
       "country": "United States",
@@ -39,7 +59,7 @@
       "lng": -81.9748,
       "src": "WRDW",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGpkZ1Q3ZmQzV0ozR25weTMtR01ndXJZV2RNZktpN3RkMWV2V2huSTlwaHVQMG9EWlZEN0VJUXJsZ2FXVlBmUm9TSU5DbHBET0U4c09aLWJnQUNZME9JdEZHUDZrUTBSR29aQUVVejZiMDZDaVZxV3VIdkt6RGhuU21WRlVLM0lnV2xuSzBWSFFrekZjb05redIBrAFBVV95cUxPNFhGZ3ZLWHh3RUo3Mk14UmNxTmRZYTI0QWdadGxFZ0lUdTZnTi1FcVNWcmFlU3FhejhHT2FvOXNFODI2RmdSZUlWZTdFdWNBYVB4NTlhdnFTV0x4cFdHNUZKWUFvRXhVbHd6ZHpJejRCdFpTWDJWNHN1MXhmSFN6MUJja2N5a0IxNUpzMERZZDhsVUFqa20yTklrQmFnQ3ZnZ09nbXVuTnp2c2ZG?oc=5",
-      "sources": 4,
+      "sources": 6,
       "county": "Richmond County"
     },
     {
@@ -206,7 +226,7 @@
       "lng": -72.6081,
       "src": "NBC Connecticut",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc25FSU01WERzZl9WMzBmSXh0enZjTnhzNXYyeEppdWJxNXVUc284QXhVdGZyUnAtdGlkdkJVT0RUNXZNUDdld2NwaVJ4ME9zdFdzTXIzNVppUlVjNVRWTE01NXdlN19iaHZTTjFKMjJ5Z19pMjlIVnRtT1d4aGpmZ0U4bDhaZW1GUEc3ektKZjlrZDQ0YTFzRERwRm80UmxTUzNtSy1lekZWTDY5VG9IZkUtMFZTSE1YcllmdmRaNjdiZGdHanlhbjBLQ3l1d1VoR1lJUGR4dld0ODdadE1hWtIB6AFBVV95cUxPUkF4ajRKR05CMkZQN2UtU1duNmUwSWQwV3d1Nk0tRFVqQXZ2LTZpdzBpYm9STUE5Zi1QeDdfWjVQOWxjZVhncGQ3OTl4VmZ5dWJWT2otdUJQbmdRSXBPTXY4c19xN1Y5Z21tSVNjUTIxT2JObTZOS29yNWp5Zml4VTZvY1NEZlRlQm92QlRmaUJZQmFlc0hPOWN0eDBnRW5SMXIwdmRfbU8xU0JXeVVOLVlNYjVvWnZxRE9oblRDVDZxVU1YRm5HQ2VhX3BYdkxkcWJmOGVaZXZCQndfN2dwblJ1Q0JxRTU1?oc=5",
-      "sources": 14,
+      "sources": 17,
       "county": "Capitol Planning Region"
     },
     {
@@ -578,7 +598,7 @@
       "state": "Illinois",
       "sector": "Workplace",
       "type": "Bomb Threat",
-      "response": null,
+      "response": "Evacuation",
       "outcome": "Arrest made",
       "cluster": "BioUrja_Peoria_20261116",
       "notes": "Person of interest in custody in bomb threat at BioUrja Renewables plant, formerly ADM plant, in Peoria, police say",
@@ -586,7 +606,7 @@
       "lng": -89.5891,
       "src": "ABC7 Chicago",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbEFjVlRmS2E1cTdBLVVFMjMyNUk0bVpDWGRkdkFJUl95VUxTaHZKQlpSa0E1QVBCOFRYZzNkSHk1bnhOMWFfaGRZNGJhUGdKaDd6Y3hzb0ZuZ3FNOWZteVZyRFg2OVhGdFd4dFBXWlQ4enFVR0plaFhTVURpc2lWcjEtcGNGbGkwTk9CSnRpVmpid1lqRzMtRl9ZdjFzaEVkRHFmTFYzWmdvVEZKdnYxNGl6ZTJ6RTR3azRCSHFreTB4OFAtU21NeGJ30gHPAUFVX3lxTE82UGgtakxqSlp1MUxsTExBODBoQXUyZTk1OXFDQ1NLS29FRGFXWVBVY3hWeWRzZWdFWTAzRzdtLXUwS2p0MGtkbDJrVFFZN0ZKVnp2MFZRYkJ3dTlaMHVCbFBWZVcwSHRaWW9wOTJjbkZwWVN3NHllc0I3cVY5UXJiMWFzNmlYazlDa0sydW1YLUFJSk5icDgzZmpONmVzRjExa2lNaHEtTWh2MU9OcjdqM1VSazNjb0NCWjgxRFVRZFlFNkFVV01MU2VfUTgyTQ?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Peoria County",
       "signals": {
         "repeat": {
@@ -21610,14 +21630,14 @@
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 102,
-    "recognized": 13,
-    "new": 2,
+    "ingested": 145,
+    "skipped_seen": 112,
+    "recognized": 7,
+    "new": 1,
     "updated": 0,
-    "rejected": 26,
+    "rejected": 25,
     "errors": 0,
-    "attempted": 42,
+    "attempted": 33,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -21633,7 +21653,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 58
+        "items": 55
       },
       {
         "edition": "GB:en",
@@ -21647,7 +21667,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 59
+        "items": 55
       },
       {
         "edition": "CA:en",
@@ -21661,10 +21681,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 57
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-18T04:19:02.776317Z"
+    "ran_at": "2026-11-18T13:57:15.806452Z"
   }
 }
