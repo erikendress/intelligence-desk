@@ -1,7 +1,246 @@
 {
-  "generated": "2026-11-18T13:57:15.817255Z",
-  "count": 1051,
+  "generated": "2026-11-18T21:57:00.883887Z",
+  "count": 1063,
   "incidents": [
+    {
+      "id": 1863,
+      "country": "United Kingdom",
+      "date": "2026-11-18",
+      "school": "United States Embassy",
+      "city": "London",
+      "state": "England",
+      "sector": "Government",
+      "type": "Suspicious Package / Mail",
+      "response": "Lockout/Secure",
+      "outcome": "Under investigation",
+      "cluster": "US Embassy London suspicious package 2026-11-18",
+      "notes": "HUGE police presence outside US Embassy after suspicious package reports",
+      "lat": null,
+      "lng": null,
+      "src": "London Now",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUTNBX2xzeU5kYklHa1QzWXQtUGR0aXF5ZjBHMS10M20teTVfQXNFaVVJVjNmdVF4dGYzMFE5UmRwUUJrcUZ2T1l1RTBiUFdtYzhWYW5rSGE1Q2hJbXkzWi02cmxWdjFmc0NMTXZYRTVDSUppajBCMEJBWjZqckNFbTNFdjcwZXJoU2p0a3FIaXRZUmhBUE01QkFTQnE5cnZjVG5Wck5iWEsxYWc2R3c?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1862,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Millbrook High School",
+      "city": "Raleigh",
+      "state": "North Carolina",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Millbrook High School lockdown Raleigh NC 2026-11-18",
+      "notes": "Lockdown lifted at Millbrook High School in Raleigh",
+      "lat": 35.7804,
+      "lng": -78.6391,
+      "src": "Raleigh News & Observer",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBqazNZT05MR3JTYzVtVUstelRQaGhCeDNSeEpMZUJRU2FZeVZwNkhveE45LURTQ0xOM0tHcFJNVGF6OVFsRl94dkFOSnlIaTZlbkNJd2lvWXdMWjM5X3JXMGhwTnd4Y1VHWlE5MVZ3OHJEdFVwa1FVZHJVa9IBe0FVX3lxTE1fZy14VEZ0SUg2OVVDaWJPb2ozZXBmS2UwRElWaXAybTM3UHNINWZySjVKS21FcFZPck1sWFZ3clpYbXA3aktMZklNS2VfbzQ3WFIwREQwMGFIbC1fX1NjTXFkUkJ0cEVvSUtMMUxCNXJJaUtDX1VuYk5GUQ?oc=5",
+      "sources": 1,
+      "county": "Wake County"
+    },
+    {
+      "id": 1861,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Hoover High School",
+      "city": "Hoover",
+      "state": "Alabama",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Hoover High School lockdown 2026-11-18",
+      "notes": "lockdown lifted after anonymous hoax thre",
+      "lat": 33.3437,
+      "lng": -86.8378,
+      "src": "Shelby County Reporter",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWFdjWHB5dVFZZ1E1aXlkOWF4TTZKS1BhcnRQVlh2bENwUXFpVE1tVlZsSFlXdzdCZE5uR0tMNm9ybEFObndiNjl1amlCaDJrQVZkT3VPd2ZYVDBXaTBqMVNic2NPbHdBemY0SUV4eVNCZktEQi1vSjJSaTQzMzRqMFB2TlFaUGYyb1hjc0dYMkNldDRlTTk4UEtlVU9pSzFKRXBNQ3N4aUZRd3hPbkJxYVloZTFncTUzZkhxUEd2Mk1mZ3g5Zy1aRmNPcTBXSUU?oc=5",
+      "sources": 1,
+      "county": "Jefferson County"
+    },
+    {
+      "id": 1860,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "BioUrja",
+      "city": "Peoria",
+      "state": "Illinois",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "BioUrja_Peoria_IL_20261118",
+      "notes": "Peoria Police presser after BioUrja bomb threat",
+      "lat": 40.6939,
+      "lng": -89.5891,
+      "src": "WEEK | 25 News Now",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPclRwc01yOEtSMzZxSHBqMTMtMGxpNUs5T01kVl9SUHNCZWhfVlZuUm1FeXFFTkRVSjNsLUNvRGZNVFROU3FuZTVEb1R6bnUydk50LVFXSGhXSWN6TW43cXBydHdrdHljckhUTXZ2clVpRklKZnV2NnZjY3RrMlo0X0dXZEd6clBnVHdKUVJmLVpaX1JuMVE?oc=5",
+      "sources": 1,
+      "county": "Peoria County",
+      "signals": {
+        "repeat": {
+          "prior": 2,
+          "first": "2026-11-14",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1859,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Sioux Falls Convention Center",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Sioux Falls Convention Center bomb threat 2026-11-18",
+      "notes": "bomb threat prompts evacuation at Convention Center",
+      "lat": 43.5476,
+      "lng": -96.7294,
+      "src": "Dakota News Now",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQanJzVmNRaUxjQm1TckhuZEN1UXBpaWtWQldZR19uamdJTkN1UUViVUdRV3lkYlFvV3VXbzd5QmxJNUd6bU82WU91enRPWWxBNm13MmFPcG5IZTk3YVJWd09nOWZyeHg3WG9uLUthRXZRNHRQYU9ZZ041c0EzTVVPRFc0cWtzSGIwSmRRQ1ZLaXRqNGJQb01PbXZTbjk0bDVyVDRnLUpVcHBwMy10WUpWcUMxdmdfb1EzWkRQR1N3Q1k4N2JfQmJ0RlBn?oc=5",
+      "sources": 4,
+      "county": "Minnehaha County"
+    },
+    {
+      "id": 1858,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Homewood Middle School",
+      "city": "Homewood",
+      "state": "Alabama",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Homewood Middle School bomb threat 2026-11-18",
+      "notes": "Homewood Middle School locked down after anonymous bomb threat",
+      "lat": 33.4737,
+      "lng": -86.8085,
+      "src": "WBMA",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbDU0T0M0NS1LUXhoUVlxYkEyZlg5ck5wN1FBY3RaUVQxYUx0aEt1VTNyOWw5cEhHZk5iOTIycVBMZEpnb2tIR3BkVlRsejhrZWt3LXBjNnJVVE5KS0w1b0RuQmdFY1pYWTRROWZMVkZMN3lTWkE2V2EyUUxITlFQR0lRa2hYVTlXRDZKTDZNUVc2VzVFRE85Ng?oc=5",
+      "sources": 1,
+      "county": "Jefferson County"
+    },
+    {
+      "id": 1857,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Bentonville High School",
+      "city": "Bentonville",
+      "state": "Arkansas",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Bentonville High School swatting 2026-11-18",
+      "notes": "Bentonville High School placed in brief lock-in after swatting call",
+      "lat": 36.3729,
+      "lng": -94.2088,
+      "src": "khbs",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMmp1a3BsRFU4WUFRYmtMbGUwS3B1aXRrRTZxZkdrbkQ0UHVWWVpJRXRYaVkza3B0YS1rNTZIMU94M3dWVmdnUHJWUXhSN205N0NOcFBiM2QzTHpZXzdkcG9RaTFHRlZ4TV9BN2xiR0ZyWE12ZnR4NWNLSkJJdVJrbHQxZw?oc=5",
+      "sources": 1,
+      "county": "Benton County",
+      "signals": {
+        "stacked": true
+      }
+    },
+    {
+      "id": 1856,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Bentonville High School",
+      "city": "Bentonville",
+      "state": "Arkansas",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Bentonville High School bomb threat 2026-11-18",
+      "notes": "Police respond to Bentonville High School bomb threat",
+      "lat": 36.3729,
+      "lng": -94.2088,
+      "src": "Northwest Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQWJoTG44Vk9NR2RubVFMMHFJOFd6Z0EtajZHNmRrUzgydnF2aXBpWHZOdjgxOE5pZmJfdGpNOUZORDkyV3hXYy1TcXZXLXBmWTVQUFVNU0M5U0ZfM3JMbzd1cFpsS3ZzbkFmNnFablpNWDU0b0ZSdk5oUVdHYjFjYVE3UHVXWExfeTRicmhrZl80WURD?oc=5",
+      "sources": 1,
+      "county": "Benton County",
+      "signals": {
+        "stacked": true
+      }
+    },
+    {
+      "id": 1855,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Auburn High School",
+      "city": "Auburn",
+      "state": "Alabama",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Auburn High bomb threat 2026-11-18",
+      "notes": "Auburn High given 'all-clear' after bomb threat, authorities say",
+      "lat": null,
+      "lng": null,
+      "src": "WRBL",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaUZ6S1dwOHhYalFlZ3JBQ3dPNThTa3NibTlXOVAzcEdQVEpYZzJXZ0lfMnVUbENUMXljQ3IxSjhPeGpDY2k3RHZVWmpJUUdzSnl0RFZlR0pZM2lQeDZvTDdvUURldUx5RGFRbGplQWx4ZlN4aFdtSTdFeFF2a3FKWXFWMFBxZndmdFFhcjNMbWl2c0RZNFVGLVpRRWFPd1pX0gGmAUFVX3lxTE9yZks1U2ZDZElOSVgwbDB4Y3JGcUE5N01EUk1HWXJhdmRmU0xxbkNJMXFtTVpKVks5YlhDQ0FvSTlRaGk2amRFTTJKZkg1a3FvRFNhbmhDWFlvcDd6cWxVODA1SkFob0l0VDV4dlQyTDZlT0trR0hyejNjdk1PaWRfbUFOSXBrZlk0b21fTzZpb21OR2I4VDJMbnF5ZXYtQlRkUGtJcGc?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1854,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Washington Middle School",
+      "city": "Aurora",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Aurora IL bomb threat 2026-11-18",
+      "notes": "Aurora police investigate bomb threat at Washington Middle School",
+      "lat": 41.7572,
+      "lng": -88.3148,
+      "src": "FOX 32 Chicago",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdDlkWE8xeUY0V2dqdEdMYzY5dk5TbW5EWUlJcjZmeExQd1E0TU1HMkV2TzlVQ2M1ZVJWRHlVTUppbVNfSzhBNnNDcGR0LU5GWndsOFhmbi1NY1FJa1M3dERkQzFqN012UTdHY1dTSVBLYWVmUnpTc2lwS3ZZZ2RHTnVaTQ?oc=5",
+      "sources": 1,
+      "county": "Kane County",
+      "signals": {
+        "stacked": true
+      }
+    },
+    {
+      "id": 1853,
+      "country": "United States",
+      "date": "2026-11-18",
+      "school": "Washington Middle School",
+      "city": "Aurora",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Washington Middle School Aurora IL bomb threat 2026-11-18",
+      "notes": "bomb threat believed to be swatting, Aurora police, bomb squad clear school for classes to resume",
+      "lat": 41.7572,
+      "lng": -88.3148,
+      "src": "ABC7 Chicago",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUWtRRVFZZE1pWGtJSV9BOGExUVFJUW9NbG1rU2E1andyWHJKWF85Q3FhWE5NMnFLekFNWTN2X0ZBWklTWGNNSHJYVTFUTEZIUlBtVmw2MjFaQzA0TWNfWklGWjhkT3RCaThORlliT3dBaHQ5aGdLTVlmdWgzeG5qWmRKTEJHX0dIOGk3UkNsWElTY2FKd0JiNTlwRXkxcng2S2J5YVBsUE8wUmNlcTJwSlRZbTZHVkpMLTRvR3dfNVFQMlFMT1Bv0gHMAUFVX3lxTE1NcG1UTnRQTzdrc2Izc25lUzdiNzZnTE5uQ3NOdG43YlFDcXh0N0V0VTFRUnhqbFBrT293c3VrZE9DLU9hZ1d4OXhENGM4c3JUMHBTVkJoWFY5ZlFOVHk5YnU3c29vQlMyMl9raFV5dG5zS0Z1WFlYV0V0UmxxclN6MzFKZGU3N3JmZEt4b0tLMUptREt2bnRSRmZnSHE1MHQ2WnkyT0NQRi1iWEUwa2EwRlBqQTRGWEo0ZEpzVmxNU19FZTNNeFg5TUVFOA?oc=5",
+      "sources": 2,
+      "county": "Kane County",
+      "signals": {
+        "stacked": true
+      }
+    },
     {
       "id": 1852,
       "country": "United Kingdom",
@@ -59,8 +298,28 @@
       "lng": -81.9748,
       "src": "WRDW",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGpkZ1Q3ZmQzV0ozR25weTMtR01ndXJZV2RNZktpN3RkMWV2V2huSTlwaHVQMG9EWlZEN0VJUXJsZ2FXVlBmUm9TSU5DbHBET0U4c09aLWJnQUNZME9JdEZHUDZrUTBSR29aQUVVejZiMDZDaVZxV3VIdkt6RGhuU21WRlVLM0lnV2xuSzBWSFFrekZjb05redIBrAFBVV95cUxPNFhGZ3ZLWHh3RUo3Mk14UmNxTmRZYTI0QWdadGxFZ0lUdTZnTi1FcVNWcmFlU3FhejhHT2FvOXNFODI2RmdSZUlWZTdFdWNBYVB4NTlhdnFTV0x4cFdHNUZKWUFvRXhVbHd6ZHpJejRCdFpTWDJWNHN1MXhmSFN6MUJja2N5a0IxNUpzMERZZDhsVUFqa20yTklrQmFnQ3ZnZ09nbXVuTnp2c2ZG?oc=5",
-      "sources": 6,
+      "sources": 8,
       "county": "Richmond County"
+    },
+    {
+      "id": 1864,
+      "country": "Canada",
+      "date": "2026-11-17",
+      "school": "Cloverdale school",
+      "city": "Surrey",
+      "state": "British Columbia",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Cloverdale school swatting 2026-11-17",
+      "notes": "Threats against Cloverdale school deemed unfounded; Surrey police investigating suspected 'swatting' call",
+      "lat": 49.1913,
+      "lng": -122.8491,
+      "src": "RED FM Canada",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNem5NTTE2NUZTdlJOeFFQVXBRV1U3amUzdjdmSC1JcWFOekNPSi1Ub0FSZlUzZlIzLVIydGI3ak94clFBbUVIZUtpYjNRa2hpUjVDZW9LM2xSWFVCOE9fV2NFbkg3U0EzWHBqZ2VmZmV4bzhDdjBPcVpuSE40QUJzb3dkQndEVk9ySkM2QWtkR29MUEZfbzJvRm5UcVJydVBkMTVGVU5zT3d4NnlCbWtYVQ?oc=5",
+      "sources": 1,
+      "county": "Metro Vancouver Regional District"
     },
     {
       "id": 1849,
@@ -21504,6 +21763,17 @@
         ]
       },
       {
+        "county": "Peoria County",
+        "region": "Illinois",
+        "country": "United States",
+        "events": 3,
+        "dates": [
+          "2026-11-14",
+          "2026-11-16",
+          "2026-11-18"
+        ]
+      },
+      {
         "county": "Wayne County",
         "region": "Michigan",
         "country": "United States",
@@ -21534,16 +21804,6 @@
         ]
       },
       {
-        "county": "Peoria County",
-        "region": "Illinois",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-14",
-          "2026-11-16"
-        ]
-      },
-      {
         "county": "Horry County",
         "region": "South Carolina",
         "country": "United States",
@@ -21564,7 +21824,22 @@
         ]
       }
     ],
-    "stacked_recent": [],
+    "stacked_recent": [
+      {
+        "id": 1853,
+        "date": "2026-11-18",
+        "facility": "Washington Middle School",
+        "region": "Illinois",
+        "country": "United States"
+      },
+      {
+        "id": 1856,
+        "date": "2026-11-18",
+        "facility": "Bentonville High School",
+        "region": "Arkansas",
+        "country": "United States"
+      }
+    ],
     "headline": {
       "country": "United States",
       "from": "2026-11-04",
@@ -21630,14 +21905,14 @@
     }
   },
   "last_run": {
-    "ingested": 145,
-    "skipped_seen": 112,
-    "recognized": 7,
-    "new": 1,
-    "updated": 0,
-    "rejected": 25,
+    "ingested": 164,
+    "skipped_seen": 110,
+    "recognized": 18,
+    "new": 12,
+    "updated": 1,
+    "rejected": 33,
     "errors": 0,
-    "attempted": 33,
+    "attempted": 54,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -21653,7 +21928,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 55
+        "items": 60
       },
       {
         "edition": "GB:en",
@@ -21667,7 +21942,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 55
+        "items": 60
       },
       {
         "edition": "CA:en",
@@ -21681,10 +21956,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 57
+        "items": 60
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-18T13:57:15.806452Z"
+    "ran_at": "2026-11-18T21:57:00.872175Z"
   }
 }
