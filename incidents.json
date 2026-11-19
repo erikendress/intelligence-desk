@@ -1,12 +1,32 @@
 {
-  "generated": "2026-11-19T03:25:49.288325Z",
-  "count": 1067,
+  "generated": "2026-11-19T13:02:22.391145Z",
+  "count": 1068,
   "incidents": [
+    {
+      "id": 1869,
+      "country": "United States",
+      "date": "2026-11-19",
+      "school": "Wausau East High School",
+      "city": "Wausau",
+      "state": "Wisconsin",
+      "sector": "K-12",
+      "type": "Suspicious Package / Mail",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Wausau East explosive device 2026-11-19",
+      "notes": "potential explosive device found",
+      "lat": 44.9598,
+      "lng": -89.6273,
+      "src": "WSAW",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQWhvV0NNSzNHdFNkY0E3dVQ4UWVOZDNiWVFUWWkwRTlfNTZ5M2k2MXNYZWFJNUxJU2NYZ1pJRjVRb09fd0RacW9GNUlRMUVOWFlrRzg1NE1GSTRHSW1FOTQ2TmpJZDlDaXlBVS1vSWVhQ1F5SFVaaWtoWWhWd3ZPaF9LLWM5YXFkaUNNd0ZHSEVMaTU1N0HSAaoBQVVfeXFMT2w3WEFzbVI2aWxWWlNIYTd5SzNwTXY1Y2N6SDJTb0hPNHdxR3VXbU1BRXpGNWR0b3JVQXlDSjVIWkUxYWJFa3ZfbjUtLTBISGFVVVEyV3pETFZnbGxEQUNFdXdFQjFTVXc4V1JEaEFNSFo0T1NPWE0taU1jeTU0TmtxRjN2Qk54NDlZalM0QU12c19jbG1fM1ZQQ2JOb0hqOW5FajNzS1J3cFE?oc=5",
+      "sources": 1,
+      "county": "Marathon County"
+    },
     {
       "id": 1868,
       "country": "United States",
       "date": "2026-11-19",
-      "school": "Pasadena hospital",
+      "school": "St. Luke's Hospital",
       "city": "Pasadena",
       "state": "Texas",
       "sector": "Healthcare",
@@ -19,7 +39,7 @@
       "lng": -95.2092,
       "src": "ABC13 Houston",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQWZVMU44NVdiTE13S3FMM3VZeVMxb1JoeEoyVUtrRDRYMDdlRVJNOHppaHFmSUdIamRxWUpsRmRyRU15WnZpQzJXVi1xUzdLN0FGUW9UeFNUTWlLMWV5a1k2OUtSX3FKVVM4NThyR1FhWlpBTnNVOGI2Z0UwN0cyY1BWWWZzTndIR01hX3ppQjZOeUtfbDFSZ3dDSm8wZ1hDMnU2OHpTVkNYT1dtanRtaE42QlhUTFN4Qlo1ZEhWdzdzUVlpQ1J1VW84NEt6b01adTJR?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Harris County"
     },
     {
@@ -544,14 +564,14 @@
       "sector": "K-12",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Resolved \u2013 no cause found",
       "cluster": "Wichita_EastHS_BombThreat_20261117",
       "notes": "Bomb threat prompts evacuation at Wichta East High School",
       "lat": 37.6922,
       "lng": -97.3375,
       "src": "KWCH",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdkI2X1VlYjdNRjBCaXdZWHJpZ3pyVTZjd1J5UHN1cEhMdGM2d25TcEZOR2pkWUZ5d1pCd21YNk1ZT1duWDAxUFpaRHk4QmhOeDFOTzRxeXdVQzhheFItN01XVEhHODV0b2M1ckhHMjNqdmMxZEJOejRwb1EyQll5WUtqMXVTeDduQnNNNGh4QWI?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Sedgwick County"
     },
     {
@@ -571,7 +591,7 @@
       "lng": -72.6081,
       "src": "NBC Connecticut",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc25FSU01WERzZl9WMzBmSXh0enZjTnhzNXYyeEppdWJxNXVUc284QXhVdGZyUnAtdGlkdkJVT0RUNXZNUDdld2NwaVJ4ME9zdFdzTXIzNVppUlVjNVRWTE01NXdlN19iaHZTTjFKMjJ5Z19pMjlIVnRtT1d4aGpmZ0U4bDhaZW1GUEc3ektKZjlrZDQ0YTFzRERwRm80UmxTUzNtSy1lekZWTDY5VG9IZkUtMFZTSE1YcllmdmRaNjdiZGdHanlhbjBLQ3l1d1VoR1lJUGR4dld0ODdadE1hWtIB6AFBVV95cUxPUkF4ajRKR05CMkZQN2UtU1duNmUwSWQwV3d1Nk0tRFVqQXZ2LTZpdzBpYm9STUE5Zi1QeDdfWjVQOWxjZVhncGQ3OTl4VmZ5dWJWT2otdUJQbmdRSXBPTXY4c19xN1Y5Z21tSVNjUTIxT2JObTZOS29yNWp5Zml4VTZvY1NEZlRlQm92QlRmaUJZQmFlc0hPOWN0eDBnRW5SMXIwdmRfbU8xU0JXeVVOLVlNYjVvWnZxRE9oblRDVDZxVU1YRm5HQ2VhX3BYdkxkcWJmOGVaZXZCQndfN2dwblJ1Q0JxRTU1?oc=5",
-      "sources": 18,
+      "sources": 19,
       "county": "Capitol Planning Region"
     },
     {
@@ -21926,7 +21946,7 @@
         "states": 28,
         "confirmed_hoax": 23,
         "arrests": 3,
-        "under_investigation": 46,
+        "under_investigation": 45,
         "per_day": {
           "2026-11-05": 5,
           "2026-11-06": 6,
@@ -21967,14 +21987,14 @@
     }
   },
   "last_run": {
-    "ingested": 151,
-    "skipped_seen": 119,
-    "recognized": 11,
-    "new": 4,
-    "updated": 0,
-    "rejected": 16,
+    "ingested": 155,
+    "skipped_seen": 144,
+    "recognized": 4,
+    "new": 1,
+    "updated": 1,
+    "rejected": 6,
     "errors": 0,
-    "attempted": 32,
+    "attempted": 11,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22022,6 +22042,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-19T03:25:49.264586Z"
+    "ran_at": "2026-11-19T13:02:22.372956Z"
   }
 }
