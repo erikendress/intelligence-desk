@@ -1,24 +1,24 @@
 {
-  "generated": "2026-11-20T03:13:17.439626Z",
-  "count": 1089,
+  "generated": "2026-11-20T11:36:53.641369Z",
+  "count": 1090,
   "incidents": [
     {
-      "id": 1888,
+      "id": 1891,
       "country": "United States",
       "date": "2026-11-20",
       "school": "Quinnipiac University",
       "city": "Hamden",
       "state": "Connecticut",
       "sector": "Higher Ed",
-      "type": "Weapon / Intruder",
-      "response": "Shelter-in-place",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
       "outcome": "Under investigation",
-      "cluster": "Quinnipiac University gunman report 2026-11-20",
-      "notes": "Possible gunman reported at Quinnipiac University; students urged to shelter in place",
+      "cluster": "Quinnipiac University gunman report Nov 2026",
+      "notes": "Quinnipiac University's lockdown lifted after reports of possible gunman",
       "lat": 41.3836,
       "lng": -72.902,
-      "src": "News12 | Connecticut",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
+      "src": "Fox News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTB5S19uX3l2RzRjZVQzVXh2b1p4LXBIcWpXelNwQ2ozLXlTc1U0S1F6UmRNQjUzYmNxNkpFcGY5Y1lmYWY5OVpaMmVpaWw3STdZaFIzSlF6MXdsNlE3QmhsM0czXzhOUzFXekxOM19tRjlseFZvdE5KWXhxOU5lQ2dMUHE4TEJGalAwR25mOUVGSHNfd1pCYkVqbw?oc=5",
       "sources": 1,
       "county": "South Central Connecticut Planning Region"
     },
@@ -61,6 +61,26 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZmlaeXZRd2ZCbFlObXBrXzhaRy1veFBfbmthbnIzbzkxblJBYUFTY0FuME1uRG9jLUplZXRveXd3Uk9FdHk4OHlGSmdNVGphbmVOVFB4VHc0Q2htRGJhR0p2MDAxM2U4OHJ3ZDBMMVJxWlRFM2dzRUFGdzUxNHlOMXNRWFFPYTRpZ19BTDNPSFFiQ0U3dFU3bFNSQnFxaGhMX2NWRklTMkRuSFZ4cThGd25oVE9aeVM2S045ZENNaXI?oc=5",
       "sources": 2,
       "county": "Williamson County"
+    },
+    {
+      "id": 1888,
+      "country": "United States",
+      "date": "2026-11-19",
+      "school": "Quinnipiac University Mount Carmel Campus",
+      "city": "Hamden",
+      "state": "Connecticut",
+      "sector": "Higher Ed",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Quinnipiac University gunman report 2026-11-20",
+      "notes": "Possible gunman reported at Quinnipiac University; students urged to shelter in place",
+      "lat": 41.3836,
+      "lng": -72.902,
+      "src": "News12 | Connecticut",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
+      "sources": 19,
+      "county": "South Central Connecticut Planning Region"
     },
     {
       "id": 1886,
@@ -1018,7 +1038,7 @@
       "lng": -72.6081,
       "src": "NBC Connecticut",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPc25FSU01WERzZl9WMzBmSXh0enZjTnhzNXYyeEppdWJxNXVUc284QXhVdGZyUnAtdGlkdkJVT0RUNXZNUDdld2NwaVJ4ME9zdFdzTXIzNVppUlVjNVRWTE01NXdlN19iaHZTTjFKMjJ5Z19pMjlIVnRtT1d4aGpmZ0U4bDhaZW1GUEc3ektKZjlrZDQ0YTFzRERwRm80UmxTUzNtSy1lekZWTDY5VG9IZkUtMFZTSE1YcllmdmRaNjdiZGdHanlhbjBLQ3l1d1VoR1lJUGR4dld0ODdadE1hWtIB6AFBVV95cUxPUkF4ajRKR05CMkZQN2UtU1duNmUwSWQwV3d1Nk0tRFVqQXZ2LTZpdzBpYm9STUE5Zi1QeDdfWjVQOWxjZVhncGQ3OTl4VmZ5dWJWT2otdUJQbmdRSXBPTXY4c19xN1Y5Z21tSVNjUTIxT2JObTZOS29yNWp5Zml4VTZvY1NEZlRlQm92QlRmaUJZQmFlc0hPOWN0eDBnRW5SMXIwdmRfbU8xU0JXeVVOLVlNYjVvWnZxRE9oblRDVDZxVU1YRm5HQ2VhX3BYdkxkcWJmOGVaZXZCQndfN2dwblJ1Q0JxRTU1?oc=5",
-      "sources": 19,
+      "sources": 20,
       "county": "Capitol Planning Region"
     },
     {
@@ -22402,14 +22422,14 @@
     }
   },
   "last_run": {
-    "ingested": 147,
-    "skipped_seen": 117,
-    "recognized": 15,
-    "new": 4,
-    "updated": 0,
-    "rejected": 12,
+    "ingested": 162,
+    "skipped_seen": 124,
+    "recognized": 20,
+    "new": 1,
+    "updated": 1,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 30,
+    "attempted": 38,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22425,7 +22445,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 59
+        "items": 60
       },
       {
         "edition": "GB:en",
@@ -22457,6 +22477,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-20T03:13:17.417172Z"
+    "ran_at": "2026-11-20T11:36:53.621659Z"
   }
 }
