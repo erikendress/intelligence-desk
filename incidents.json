@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T09:48:27.586237Z",
+  "generated": "2026-11-21T17:30:22.192763Z",
   "count": 1111,
   "incidents": [
     {
@@ -93,7 +93,7 @@
       "lng": -68.6728,
       "src": "fox23maine.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNXpIT2lCM1RQMUlPVk02YU9WOVZpOHRfQWlXdlBPcWhGeDhsZ3JuM3JTU3ZqZmhNZjJRSU5yaU4waFk5NWxnQ1d1c2Nzbmk2SnRTdWFZdlRIUmlKVHRwMll6c1Bkczl5M3p4NVZocENIV2NMbHdmUjk2a2xCM2cwcnU0OUFmc2RsUXdFbzlqdW5ydXlpQkVDbTZ6MzVpYmhyTVlRN0lraVNSdl9nWUE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Penobscot County"
     },
     {
@@ -241,7 +241,7 @@
       "lng": null,
       "src": "5 EYEWITNESS NEWS",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTlQ5em15ckZnRy13eGR0dHpOX1JYMmNBZkRGSjd5bFlUUEFVWmJneloxMmhwNXo4bXJCUDJKNTFxTUtRSGNjc0hWV05LVHFFcjVSeTEwdG1YNTI5bFFJR2NOazdlQW9Mdm1CaW9LcHVBaTZ2eWtPSjlsbmp6dUVqZmtwV1RiS19GNWhnaVZWSFgzY1ZMWWlOQ2RNMmpQclpEN0ZKZkphSmRKZk9rRmdYeWY1cThuN1k?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": null
     },
     {
@@ -489,7 +489,7 @@
       "lng": -72.902,
       "src": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTB5S19uX3l2RzRjZVQzVXh2b1p4LXBIcWpXelNwQ2ozLXlTc1U0S1F6UmRNQjUzYmNxNkpFcGY5Y1lmYWY5OVpaMmVpaWw3STdZaFIzSlF6MXdsNlE3QmhsM0czXzhOUzFXekxOM19tRjlseFZvdE5KWXhxOU5lQ2dMUHE4TEJGalAwR25mOUVGSHNfd1pCYkVqbw?oc=5",
-      "sources": 13,
+      "sources": 14,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -529,7 +529,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 51,
+      "sources": 52,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -22866,14 +22866,14 @@
     }
   },
   "last_run": {
-    "ingested": 161,
-    "skipped_seen": 135,
-    "recognized": 12,
-    "new": 5,
+    "ingested": 150,
+    "skipped_seen": 139,
+    "recognized": 4,
+    "new": 0,
     "updated": 0,
-    "rejected": 13,
+    "rejected": 7,
     "errors": 0,
-    "attempted": 26,
+    "attempted": 11,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22921,6 +22921,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-21T09:48:27.566994Z"
+    "ran_at": "2026-11-21T17:30:22.171146Z"
   }
 }
