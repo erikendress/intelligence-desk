@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T17:30:22.192763Z",
+  "generated": "2026-11-21T23:14:28.755969Z",
   "count": 1111,
   "incidents": [
     {
@@ -321,7 +321,7 @@
       "lng": -96.7078,
       "src": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFN2RnRpaDdPR2luVG1GMFp6Y01yVHRrMWdTVHRnNUUtaEoydWFtUzVHMWJQb1NWenMweV9FWk1tNTlJcGtDbDJmaTVWNjJRWkZhSUVBdXBKSVJFMkNkSDhhVUI4dDhsVzVUWmhWSEdTUG1LRk1vaVQtbjRiYVZlWXlCc25OcDBBVWZnUFNHaDlybm9EbzZINlptdWFBckpxWEl5QUhuem56Vkk?oc=5",
-      "sources": 9,
+      "sources": 10,
       "county": "Lancaster County"
     },
     {
@@ -22866,14 +22866,14 @@
     }
   },
   "last_run": {
-    "ingested": 150,
-    "skipped_seen": 139,
-    "recognized": 4,
+    "ingested": 143,
+    "skipped_seen": 138,
+    "recognized": 1,
     "new": 0,
     "updated": 0,
-    "rejected": 7,
+    "rejected": 4,
     "errors": 0,
-    "attempted": 11,
+    "attempted": 5,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22921,6 +22921,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-21T17:30:22.171146Z"
+    "ran_at": "2026-11-21T23:14:28.736654Z"
   }
 }
