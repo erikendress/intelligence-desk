@@ -1,7 +1,121 @@
 {
-  "generated": "2026-11-21T01:33:10.645390Z",
-  "count": 1106,
+  "generated": "2026-11-21T09:48:27.586237Z",
+  "count": 1111,
   "incidents": [
+    {
+      "id": 1911,
+      "country": "United States",
+      "date": "2026-11-21",
+      "school": "Quinnipiac University",
+      "city": "Hamden",
+      "state": "Connecticut",
+      "sector": "Higher Ed",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Quinnipiac University hoax call 2026-11-21",
+      "notes": "COPS SEEK CALLER IN QUINNIPIAC HOAX CALL",
+      "lat": 41.3836,
+      "lng": -72.902,
+      "src": "Local 3 News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcGEwTGF3LU9vN0hOQVNxc0pfdkw4eXE3Z1ByY1ZwY0h4ckZIZTBrYTVNX2lqblNBRElRcXo1dW14VTlGQzRGOHZtUmEtWHJqanJSUVBJaWphcFVyQ0ZyVk9IakxMMFdUdXcwdi03Q242WFBVNjc0N3BRWjF3ZFJuS1ZoRFJaazlVeEpjem80OEVNUmtScnV6eUl6MHIwRU1ETjY2blRTYjZXLU5wRklUZTBVY1Fjck1kX010LWJnUjZUVXdlaVVIQUF2YVptcXpNeEE?oc=5",
+      "sources": 1,
+      "county": "South Central Connecticut Planning Region",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-19",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1908,
+      "country": "United States",
+      "date": "2026-11-21",
+      "school": "Go COMO Bus Service",
+      "city": "Columbia",
+      "state": "Missouri",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Go COMO bomb threat Columbia MO 2026-11-21",
+      "notes": "Bomb Threat Temporarily Suspends Go COMO Bus Service in Columbia",
+      "lat": 38.9519,
+      "lng": -92.3337,
+      "src": "KRCG",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlBuSjNfeG9hMkZFakh1UlRKd1pzREFmZFFUWjgzX0VWdFBLQjZkTDFJZlRWS0RGVmdjVUhvaWlyRVhJYl9WUnoxN2UyVEJpdWZINWxYdFVreEFWN2hoQTJlVGtfTjFPekg2VzZDZC0tRFpzeDRBV3k1ODZTS3JyeVJSNTJzZnBJQjVTdVgxUFBZZGVyZGt1MEtR?oc=5",
+      "sources": 1,
+      "county": "Boone County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-16",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1912,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Amherst High School",
+      "city": "Amherst",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Amherst MA high school hoax lockdown Nov2026",
+      "notes": "hoax threat that locked down high school",
+      "lat": 42.3732,
+      "lng": -72.5199,
+      "src": "Daily Hampshire Gazette",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMjBCWnVqTFVzb1lDT0laLUNQY0xFYXlJWEF5eDJqdVpQc2VHSm1vMTZscTBPS083S1pGbTYyNE5rRnM4d0RuSkt4bThvdTcyVGw2VWNYdlBlb1dfcWVkVnYzNE54ZVBLRDY2N1FSd3VOYjdRa1ZvbmVfVHMyQy1qY2F0WU4yZ0M1SE5aeHBYYjBLN09OTm82cWV6MHE0M0VXcTlLUTIyX282MzNBRUtCb3diTng3X1I2cW5hdkpyVXJKWG15QXM1MlpOb1JzdExvX3c?oc=5",
+      "sources": 1,
+      "county": "Hampshire County"
+    },
+    {
+      "id": 1910,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "University of Maine",
+      "city": "Orono",
+      "state": "Maine",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "UMaine_lockdown_20261120",
+      "notes": "campus lockdown",
+      "lat": 44.8836,
+      "lng": -68.6728,
+      "src": "fox23maine.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNXpIT2lCM1RQMUlPVk02YU9WOVZpOHRfQWlXdlBPcWhGeDhsZ3JuM3JTU3ZqZmhNZjJRSU5yaU4waFk5NWxnQ1d1c2Nzbmk2SnRTdWFZdlRIUmlKVHRwMll6c1Bkczl5M3p4NVZocENIV2NMbHdmUjk2a2xCM2cwcnU0OUFmc2RsUXdFbzlqdW5ydXlpQkVDbTZ6MzVpYmhyTVlRN0lraVNSdl9nWUE?oc=5",
+      "sources": 1,
+      "county": "Penobscot County"
+    },
+    {
+      "id": 1909,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Wellborn Middle School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Wellborn Middle School bus bomb threat 2026-11-20",
+      "notes": "Student detained after false bomb threat on Wellborn Middle School bus; students are safe",
+      "lat": null,
+      "lng": null,
+      "src": "KXXV",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbENzNGxoLTFNZ29kR2p1RmJCLTFVaWVkd0dxRm9LaW5BXzZBcXFXOTdNSU9uVG5GUWNrS3R5c1Q0blhSeU14cTFmQjk3dDJwUnN5ZnF3MHEzOWdneWtibGRXQzgwM05yTnV2SkVRTXZLeTJORUpEbjNBaDJEaWZWekU0NEhDYUVOSm8yeEJLNElSRG5HblFSWXdQSkxfRzJLblNQX25mVWM?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1907,
       "country": "United Kingdom",
@@ -207,7 +321,7 @@
       "lng": -96.7078,
       "src": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFN2RnRpaDdPR2luVG1GMFp6Y01yVHRrMWdTVHRnNUUtaEoydWFtUzVHMWJQb1NWenMweV9FWk1tNTlJcGtDbDJmaTVWNjJRWkZhSUVBdXBKSVJFMkNkSDhhVUI4dDhsVzVUWmhWSEdTUG1LRk1vaVQtbjRiYVZlWXlCc25OcDBBVWZnUFNHaDlybm9EbzZINlptdWFBckpxWEl5QUhuem56Vkk?oc=5",
-      "sources": 8,
+      "sources": 9,
       "county": "Lancaster County"
     },
     {
@@ -375,7 +489,7 @@
       "lng": -72.902,
       "src": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTB5S19uX3l2RzRjZVQzVXh2b1p4LXBIcWpXelNwQ2ozLXlTc1U0S1F6UmRNQjUzYmNxNkpFcGY5Y1lmYWY5OVpaMmVpaWw3STdZaFIzSlF6MXdsNlE3QmhsM0czXzhOUzFXekxOM19tRjlseFZvdE5KWXhxOU5lQ2dMUHE4TEJGalAwR25mOUVGSHNfd1pCYkVqbw?oc=5",
-      "sources": 11,
+      "sources": 13,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -415,7 +529,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 47,
+      "sources": 51,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -22635,6 +22749,26 @@
           "2026-11-16",
           "2026-11-20"
         ]
+      },
+      {
+        "county": "Boone County",
+        "region": "Missouri",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-16",
+          "2026-11-21"
+        ]
+      },
+      {
+        "county": "South Central Connecticut Planning Region",
+        "region": "Connecticut",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-19",
+          "2026-11-21"
+        ]
       }
     ],
     "stacked_recent": [
@@ -22673,12 +22807,12 @@
       "to": "2026-11-20",
       "days": 14,
       "hoax": {
-        "total": 83,
-        "bomb": 62,
-        "swatting": 21,
-        "schools": 51,
+        "total": 85,
+        "bomb": 63,
+        "swatting": 22,
+        "schools": 53,
         "by_sector": {
-          "K-12": 47,
+          "K-12": 49,
           "Transit": 7,
           "Healthcare": 6,
           "Workplace": 6,
@@ -22689,9 +22823,9 @@
           "Other": 2
         },
         "states": 31,
-        "confirmed_hoax": 25,
+        "confirmed_hoax": 26,
         "arrests": 4,
-        "under_investigation": 51,
+        "under_investigation": 52,
         "per_day": {
           "2026-11-07": 1,
           "2026-11-08": 2,
@@ -22706,7 +22840,7 @@
           "2026-11-17": 7,
           "2026-11-18": 9,
           "2026-11-19": 11,
-          "2026-11-20": 8
+          "2026-11-20": 10
         },
         "per_day_schools": {
           "2026-11-07": 1,
@@ -22722,7 +22856,7 @@
           "2026-11-17": 6,
           "2026-11-18": 6,
           "2026-11-19": 9,
-          "2026-11-20": 6
+          "2026-11-20": 8
         }
       },
       "suspicious_mail": {
@@ -22732,14 +22866,14 @@
     }
   },
   "last_run": {
-    "ingested": 156,
-    "skipped_seen": 112,
-    "recognized": 26,
-    "new": 6,
-    "updated": 1,
-    "rejected": 16,
+    "ingested": 161,
+    "skipped_seen": 135,
+    "recognized": 12,
+    "new": 5,
+    "updated": 0,
+    "rejected": 13,
     "errors": 0,
-    "attempted": 44,
+    "attempted": 26,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22787,6 +22921,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-21T01:33:10.626598Z"
+    "ran_at": "2026-11-21T09:48:27.566994Z"
   }
 }
