@@ -1,7 +1,135 @@
 {
-  "generated": "2026-11-20T20:17:06.876651Z",
-  "count": 1100,
+  "generated": "2026-11-21T01:33:10.645390Z",
+  "count": 1106,
   "incidents": [
+    {
+      "id": 1907,
+      "country": "United Kingdom",
+      "date": "2026-11-20",
+      "school": "Cambridge Station",
+      "city": "Cambridge",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Arrest made",
+      "cluster": "Cambridge_Station_suspicious_item_20261120",
+      "notes": "Man arrested after station evacuated over 'suspicious item'",
+      "lat": 52.1976,
+      "lng": 0.1392,
+      "src": "Cambridge Independent",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWF3aXNuMFg0dWJvZ3N3UVhaazBWQlg3OU0tV1FsblItX1RIMEw1QlpQcnpPWlRxZXV6bVcwWTJPbmdRWU4yU0diSFo0R050YXJCSzJqRXFBa2lJQ0FMd183TVEyZjJnOHowSlY3dWg5YTREX2VBdXdka2MxcXI1RFA0N0ZFanlQd1hDMkxGMmRkYkxOYVBtSGJlNzdKdTYwd0hFeHNhQUlVWnN5QWhzU0FiMA?oc=5",
+      "sources": 1,
+      "county": "Cambridgeshire"
+    },
+    {
+      "id": 1906,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Crescenta Valley High School",
+      "city": "La Ca\u00f1ada Flintridge",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Crescenta Valley HS swatting 2026-11-20",
+      "notes": "Swatting call prompts precautionary lockdown at Crescenta Valley HS",
+      "lat": 34.1998,
+      "lng": -118.2005,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOejhfS3RxRERmLU9oRTJ0YlM5YS1Na0h4YTVyZTg5djgtTnJuVm1MWE5GMF9Xa1pCWHp6TC15V09OWUUwZlF4UTQ3SkNEbXE1UmV6QkJ5ay1HU0NqVUVBdTcycnFxaUxCbWZ2d3B4YTdXUHdTdmIyb0JvZzFjU0lDamVnNkprS2p5QmlYRXZyNFAyaUNWNzhCNg?oc=5",
+      "sources": 1,
+      "county": "Los Angeles County",
+      "signals": {
+        "stacked": true,
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-16",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1905,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Schools in La Crescenta",
+      "city": "La Crescenta",
+      "state": "California",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "La Crescenta shelter-in-place 2026-11-20",
+      "notes": "3 La Crescenta schools in shelter-in-place",
+      "lat": 34.2304,
+      "lng": -118.2351,
+      "src": "FOX 11 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tREN6MmhxaTN1OWl4ajVwZWhoTzhGXzdXb3R4NXVaX3NuTmdXLWs5dllvd3MyVk1OdkJTdWU5N0szejdHeE1sQ00wWmdmSjRsd1A1cFc3VmhHLU9P0gFiQVVfeXFMT1hLZDNUbGY5Tms3c1dyN1pnc3RrY2lxY3pBdW9SVTh0ZlptTm1tZkhIZG1saXZ6UXNuVERETEVkVmJIeEVlSE9PcFUzd3drYWtjTXBvRFY1T0hYS0JTMGNYTUE?oc=5",
+      "sources": 1,
+      "county": "Los Angeles County"
+    },
+    {
+      "id": 1904,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Port Charlotte High School",
+      "city": "Port Charlotte",
+      "state": "Florida",
+      "sector": "K-12",
+      "type": "Under investigation",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Port Charlotte High School lockdown 2026-11-20",
+      "notes": "Students dismissed after brief lockdown lifted at Port Charlotte High School Friday afternoon",
+      "lat": 26.9824,
+      "lng": -82.1069,
+      "src": "Gulf Coast News and Weather",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3ptZzN5aThUZVlXSzdNVjlxYWZlQTZlOVVyajYzNXRoY0RpcUFNMVluc1dSb1VDSHFtX0RLYjdNZHVaaXh1RkFjSGg2ejNjRnowaXNXLWRrYmZtRDdaWjdLNm5qVGdrYmF0WGZBajhUMHhabllsSXhaZ2hqa0dJTnJQNEJ3UUtSVU1YUlJZSUhjOEttSE5r?oc=5",
+      "sources": 1,
+      "county": "Charlotte County"
+    },
+    {
+      "id": 1903,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Miami-Dade Public Library",
+      "city": "Miami",
+      "state": "Florida",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Miami-Dade Public Library bomb threat 2026-11-20",
+      "notes": "Miami-Dade Public Library in Miami cleared after bomb threat scare",
+      "lat": 25.7742,
+      "lng": -80.1936,
+      "src": "WSVN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdzFwdDNZcDFvQjFVcXoyTTJicjYzWlRveTk3WUpidktvVTVBNGNNcnBSTmdrVmNnN1M3WmlIdDhmQTJQTEl6M0picmViQlpsbzZzZTl4MklfeS1QU09TZE5lUHdDLW5Ka0RabDFualJBOG1uVmVrTkFtZ0JNOUZTTF9kOFhFSjFOYnF4RThQbmpqVlFtOWpZbGh3eVpzWnVWUVpWZGJaNEdiQQ?oc=5",
+      "sources": 1,
+      "county": "Miami-Dade County"
+    },
+    {
+      "id": 1902,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "St. Francis Middle School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "St. Francis Middle School swatting 2026-11-20",
+      "notes": "St. Francis Middle School lockdowns likely tied to swatting incidents, police say",
+      "lat": null,
+      "lng": null,
+      "src": "5 EYEWITNESS NEWS",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTlQ5em15ckZnRy13eGR0dHpOX1JYMmNBZkRGSjd5bFlUUEFVWmJneloxMmhwNXo4bXJCUDJKNTFxTUtRSGNjc0hWV05LVHFFcjVSeTEwdG1YNTI5bFFJR2NOazdlQW9Mdm1CaW9LcHVBaTZ2eWtPSjlsbmp6dUVqZmtwV1RiS19GNWhnaVZWSFgzY1ZMWWlOQ2RNMmpQclpEN0ZKZkphSmRKZk9rRmdYeWY1cThuN1k?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1901,
       "country": "United Kingdom",
@@ -79,7 +207,7 @@
       "lng": -96.7078,
       "src": "KOLN | Nebraska Local News, Weather, Sports | Lincoln, NE",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVFN2RnRpaDdPR2luVG1GMFp6Y01yVHRrMWdTVHRnNUUtaEoydWFtUzVHMWJQb1NWenMweV9FWk1tNTlJcGtDbDJmaTVWNjJRWkZhSUVBdXBKSVJFMkNkSDhhVUI4dDhsVzVUWmhWSEdTUG1LRk1vaVQtbjRiYVZlWXlCc25OcDBBVWZnUFNHaDlybm9EbzZINlptdWFBckpxWEl5QUhuem56Vkk?oc=5",
-      "sources": 5,
+      "sources": 8,
       "county": "Lancaster County"
     },
     {
@@ -179,9 +307,10 @@
       "lng": -118.2005,
       "src": "NBC Los Angeles",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOenpEbmwxQmh1eDhPU2taV3oxbHU0a3pWQkZrSGZiQ1pPTVl5T0huQlVwTEJYbGxGcE4weVFDajd3ZXRDcjNYeHVrSUpZa0NlcXNYOTFZbGFwRUZIMV9wcDZDdXA2RFFnN0RsY3JhLXF4T0t5TVd2VjREdHpEZHQzbXJKTlYzeE5ubDV4NUFnU3VsNnVxOHVkQVdUMlMxSmxDWUdpSHdn0gGuAUFVX3lxTE51cWtEbG5mbGtRNlpQOUFDNnhURXVCbXgwbFprWFdsbGtJS0VXSldFbHZEXzFvbjhlM2NLVFRFcXVBRm4ta2tXWURnNWFjaFktVjlOd28wOUdmczlReUpNc0wxaW9zRjVBVGRoZXRlNjFHWXJTaVhxWmg1RkRqTlZwVWFpSzVpcXd1bkltTlVqXzc2eV9MbUtTQVdkWUw0YngyOVREZXltM1dqLWNYdw?oc=5",
-      "sources": 5,
+      "sources": 8,
       "county": "Los Angeles County",
       "signals": {
+        "stacked": true,
         "repeat": {
           "prior": 1,
           "first": "2026-11-16",
@@ -206,7 +335,7 @@
       "lng": -92.0165,
       "src": "KARK",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZmN0ZTVaejZYV2N2czlnOWNLV0ozUDNXbk1MUU5wQXJHVzBMLUZSdjBNUFlkdllWakJ6MldybG4wajkyTTdCTTE5MHBJQWV1ZjNFSGNwT0lzSmdYU2IzVGVCa1J6bnJIMlNtREVWOEx3MnlGYldpSDVvbnlDX2VMYjBZQjhmVF9Wc3NKdFMwZFRZWjJYMzlj?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Lonoke County"
     },
     {
@@ -246,7 +375,7 @@
       "lng": -72.902,
       "src": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTB5S19uX3l2RzRjZVQzVXh2b1p4LXBIcWpXelNwQ2ozLXlTc1U0S1F6UmRNQjUzYmNxNkpFcGY5Y1lmYWY5OVpaMmVpaWw3STdZaFIzSlF6MXdsNlE3QmhsM0czXzhOUzFXekxOM19tRjlseFZvdE5KWXhxOU5lQ2dMUHE4TEJGalAwR25mOUVGSHNfd1pCYkVqbw?oc=5",
-      "sources": 5,
+      "sources": 11,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -279,14 +408,14 @@
       "sector": "Higher Ed",
       "type": "Weapon / Intruder",
       "response": "Shelter-in-place",
-      "outcome": "Resolved \u2013 no cause found",
+      "outcome": "Confirmed hoax",
       "cluster": "Quinnipiac University gunman report 2026-11-20",
       "notes": "Possible gunman reported at Quinnipiac University; students urged to shelter in place",
       "lat": 41.3836,
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 42,
+      "sources": 47,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -593,7 +722,7 @@
       "lng": -80.9765,
       "src": "WVNS",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObVJlVmxISE5OYmJrN3hOMU5hSndoVGVjSzVXR21qT1lqanFaRG53Yk9fUHJ2ZEVPdXk1ajRTeFk0WGxhM2FZVzEydEhEU3ZzMTZqWlNCOGZ5OFFjQkZ5YndHWUhUS2ViOHhQbzRGMjBRYkd6dDAzMmc0MHRHcnhESXVjWEJndGVjYlhZemdOLWdDVnJhX1pmTHgxSkt4dnfSAaQBQVVfeXFMT2dzaDlBU1Q1dnV6QW9UcWhON21GSGRfelRwcFZhUE1DOUVwVHJkOHFtN0RyX2JhclVESmRpb1ZtajctRlRabmFhY0ZYNUI4ZG9tQUU3bENrd3dsaXEtN3RVLU5fTUpMUDNtV2lGemkxdkQwc1ZqR216ZGszY2lqcDNIU0JodWRTeWpwcndvQlVPQlR2ak1sZFdCS2pxNHFnOGV1WWM?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Summers County"
     },
     {
@@ -9933,14 +10062,7 @@
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUJMQlZmS0RxeFA2aVFrVjV3V1VBTWVacmQ4cmt3aGdSR2hja2IyQWxRT1BQTEJoZ0NwSkltMmtoTXBvSUM4ckpNcDVQbHpPRmEzY3VHa1FFT01QY21PZFJUdWR6RGE4d3lhbi15ZEJhOWVESEU0cGVGWlc4YllmN2o4X2ZGY2tkYVZRNDBaZGwtbktVa1pv?oc=5",
       "sources": 2,
-      "county": "New York County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-06",
-          "window_days": 7
-        }
-      }
+      "county": "New York County"
     },
     {
       "id": 1418,
@@ -11520,14 +11642,7 @@
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZjhJOFgxMUd3VDVlNmcwLUwyTHRqTTZsNTB4OEhQMUx0VjFBRHA3a3FmS3Vad0hURTg4LVk5U0Y1SE81S1JUWkRYZGQ5b25FNDUxcWY0MGUyMU1kU2p6LWtnOHE1MDBhQkRkbTNqSTRGMC1TNzNrcFgzT2t4cWg3NHV2a3VUUQ?oc=5",
       "sources": 1,
-      "county": "Erie County",
-      "signals": {
-        "wave": {
-          "key": "2026-10-06|United States|Pennsylvania",
-          "counties": 3,
-          "events": 4
-        }
-      }
+      "county": "Erie County"
     },
     {
       "id": 1362,
@@ -11547,14 +11662,7 @@
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZjhJOFgxMUd3VDVlNmcwLUwyTHRqTTZsNTB4OEhQMUx0VjFBRHA3a3FmS3Vad0hURTg4LVk5U0Y1SE81S1JUWkRYZGQ5b25FNDUxcWY0MGUyMU1kU2p6LWtnOHE1MDBhQkRkbTNqSTRGMC1TNzNrcFgzT2t4cWg3NHV2a3VUUQ?oc=5",
       "sources": 1,
-      "county": "Erie County",
-      "signals": {
-        "wave": {
-          "key": "2026-10-06|United States|Pennsylvania",
-          "counties": 3,
-          "events": 4
-        }
-      }
+      "county": "Erie County"
     },
     {
       "id": 1361,
@@ -11634,14 +11742,7 @@
       "src": "NBC10 Philadelphia",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdk5YMmdrRFpGTllRdVV1RjR1OFNkYTFaRXBwUWVXRXlXRGp2em8yYndtVUpTYmlCOFNHd3ZWVHlWa0NDT21rS2JmcjFWX29BRm15d3lsMnBScXZ0cXZYblB5ZC1FaEdxU3B6ZTBIT2VCWU0yOWV2M3ZtRGNrWG1ldUtFUDlrVFFsX0NIbUl1VkVjUUFGMkhHT0ZPTV9yNVFwa1NIZDlfNXFTUVRhZG10UEg4WDduMFRYd2FBRmlicGxwRDJ40gHMAUFVX3lxTE9IOGNqNUJjSTBFelpoMHRBXzBSQ2czNk91bzFmeUJscTJPVk9IR3BqRGtOOFMwTEVKZE9FTkJ1RktpTXZUTHRNZVZTZjdKb3ZyR0J3RlQxNzdOS0FmQk9Va3pPSk5kdlZlM0JoZ2cwMkRQTWtkc25ya1FYYzdneThpaDFyUUFDN3VPMnpmQ2t6OHN1NGFDcUxDTFJQZTdpTUxLWnVNT0lQeXVZZXVXNDl6ZGw4S3AxLXJrYTZ2aldCeEJpejBRSjJYOVh1OA?oc=5",
       "sources": 2,
-      "county": "Philadelphia County",
-      "signals": {
-        "wave": {
-          "key": "2026-10-06|United States|Pennsylvania",
-          "counties": 3,
-          "events": 4
-        }
-      }
+      "county": "Philadelphia County"
     },
     {
       "id": 1357,
@@ -11761,14 +11862,7 @@
       "src": "NBC10 Philadelphia",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQLU1XZm1nQUNkNlQtTTRmNWNnOTQ0c2ZjankwQTFYVXRBb2NUd3VmcktzQVM4ZjJ2UHpzT3ZKR1BsMFAzOHg1SGgwbnFOTHNKczJSSkZCWWswSXJqLWJid2Q4eVZwU19DUEdmcUwtM2ZVUW5vUGc1MkZsU2hjOEZHY1NZRENtemdxc3Z1ZVZVZFl0TE1kRUUxTFBjRnZ3WVdsR3BSSlktZG02V3VsSDN3WnpzbWxLNzJPU3RwT09kZVVWOWfSAcsBQVVfeXFMT1RpM2Vic1gzRDZoMWVtdkFHbm4wbFVzM2s3UFR0YnZJLW5ZeGM1Z25GOXJTVHRUYWRNN0d3SlJ6TmdfNUttZFlGWGptT0ZwVjVUa2JYdjZSb2lSM1RrdllIRW5MNXRLSGJXNlVvMXpQX0JGZExuaHJ4MlhPeG5Dd3I1NW85YkVrRHNUdGNad0ExYndQdXozdC1VdHZ4eGlhWGJqTDFReXdxXzFzZW9nUVBlMzVwRGtjUVV1UjFNdmxtQkhVb0NvTm1keUE?oc=5",
       "sources": 3,
-      "county": "Berks County",
-      "signals": {
-        "wave": {
-          "key": "2026-10-06|United States|Pennsylvania",
-          "counties": 3,
-          "events": 4
-        }
-      }
+      "county": "Berks County"
     },
     {
       "id": 1351,
@@ -22453,7 +22547,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-20",
+    "computed": "2026-11-21",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -22467,14 +22561,6 @@
         "counties": 3,
         "events": 3,
         "key": "2026-11-09|United States|Florida"
-      },
-      {
-        "date": "2026-11-06",
-        "country": "United States",
-        "region": "Pennsylvania",
-        "counties": 3,
-        "events": 4,
-        "key": "2026-11-06|United States|Pennsylvania"
       }
     ],
     "repeat_counties": [
@@ -22498,16 +22584,6 @@
           "2026-11-14",
           "2026-11-16",
           "2026-11-18"
-        ]
-      },
-      {
-        "county": "San Bernardino County",
-        "region": "California",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-06",
-          "2026-11-07"
         ]
       },
       {
@@ -22541,6 +22617,16 @@
         ]
       },
       {
+        "county": "Miami-Dade County",
+        "region": "Florida",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-09",
+          "2026-11-20"
+        ]
+      },
+      {
         "county": "Los Angeles County",
         "region": "California",
         "country": "United States",
@@ -22552,6 +22638,13 @@
       }
     ],
     "stacked_recent": [
+      {
+        "id": 1893,
+        "date": "2026-11-20",
+        "facility": "Crescenta Valley High School",
+        "region": "California",
+        "country": "United States"
+      },
       {
         "id": 1853,
         "date": "2026-11-18",
@@ -22576,31 +22669,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-06",
-      "to": "2026-11-19",
+      "from": "2026-11-07",
+      "to": "2026-11-20",
       "days": 14,
       "hoax": {
-        "total": 81,
-        "bomb": 61,
-        "swatting": 20,
-        "schools": 50,
+        "total": 83,
+        "bomb": 62,
+        "swatting": 21,
+        "schools": 51,
         "by_sector": {
-          "K-12": 46,
+          "K-12": 47,
           "Transit": 7,
           "Healthcare": 6,
+          "Workplace": 6,
           "Retail": 5,
-          "Workplace": 5,
-          "Government": 4,
           "Higher Ed": 4,
           "Venue": 3,
-          "Other": 1
+          "Government": 3,
+          "Other": 2
         },
-        "states": 32,
+        "states": 31,
         "confirmed_hoax": 25,
         "arrests": 4,
-        "under_investigation": 48,
+        "under_investigation": 51,
         "per_day": {
-          "2026-11-06": 6,
           "2026-11-07": 1,
           "2026-11-08": 2,
           "2026-11-09": 7,
@@ -22613,10 +22705,10 @@
           "2026-11-16": 12,
           "2026-11-17": 7,
           "2026-11-18": 9,
-          "2026-11-19": 11
+          "2026-11-19": 11,
+          "2026-11-20": 8
         },
         "per_day_schools": {
-          "2026-11-06": 5,
           "2026-11-07": 1,
           "2026-11-08": 0,
           "2026-11-09": 5,
@@ -22629,24 +22721,25 @@
           "2026-11-16": 8,
           "2026-11-17": 6,
           "2026-11-18": 6,
-          "2026-11-19": 9
+          "2026-11-19": 9,
+          "2026-11-20": 6
         }
       },
       "suspicious_mail": {
-        "total": 9,
+        "total": 10,
         "government": 4
       }
     }
   },
   "last_run": {
-    "ingested": 154,
-    "skipped_seen": 70,
-    "recognized": 53,
-    "new": 10,
-    "updated": 2,
-    "rejected": 28,
+    "ingested": 156,
+    "skipped_seen": 112,
+    "recognized": 26,
+    "new": 6,
+    "updated": 1,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 84,
+    "attempted": 44,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22694,6 +22787,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-20T20:17:06.852596Z"
+    "ran_at": "2026-11-21T01:33:10.626598Z"
   }
 }
