@@ -1,26 +1,93 @@
 {
-  "generated": "2026-11-22T11:20:48.509209Z",
-  "count": 1113,
+  "generated": "2026-11-22T19:37:43.272761Z",
+  "count": 1117,
   "incidents": [
+    {
+      "id": 1917,
+      "country": "United States",
+      "date": "2026-11-22",
+      "school": "Woods Hole Ferry Terminal",
+      "city": "Woods Hole",
+      "state": "Massachusetts",
+      "sector": "Transit",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Woods Hole Terminal swatting 2026-11-22",
+      "notes": "Swatting incident at Woods Hole terminal impacts ferry service",
+      "lat": 41.5239,
+      "lng": -70.6694,
+      "src": "NBC Boston",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ01SNEE5Q2JjMURYWnFzMFpkZWVzU3FJSk1HWTJrLTNEUEZVSFE4aXRXc0o2NWE0QWtmNEJDU0sxYmZXd1o2aUhFTk54ajB3clJZM0JfSFpQZVhlTF9nd1EzMU1HdVJJZXBEa0g0VmUtZnl5WVh2VkpfcjZJOXZMck8tcUJDS1B3aTNTUi1kcVl0WS1icmxEd3JrenlUV0w2OF9uWHdnbXjSAbABQVVfeXFMT1lsLWJIb0w5UDhtWnhfdU9ua2VZRnhOaHFKLWk0WVFYNVhVSXBqQkJFd2JUVmlodFFQd2hGS1hZMUoxQUdZRHVmUU1tVUtjVDh1NVRWbkJmNktfeUcwdEtSeDhKV3gwRF9KU2lBdmFmbFVLVlhZYUhnLXhidnhfaXpRVHNJdVo4UjZKS3U5cjBSM28tY3lJZ0M1cHdVRkRkaTVDbTJxallMemswZV9oelI?oc=5",
+      "sources": 3,
+      "county": "Barnstable County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-21",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1915,
+      "country": "United States",
+      "date": "2026-11-22",
+      "school": "Lakeside Casino",
+      "city": null,
+      "state": null,
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Lakeside Casino bomb threat 2026-11-22",
+      "notes": "Bomb threat at Lakeside Casino leads to evacuation, later deemed uncredible",
+      "lat": null,
+      "lng": null,
+      "src": "WHO13.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZTJ4UGZkYnIyQTBpcTlaeXZLeTBkVmZBbUlha1A3anRzZDJ2UjhVOG8zMkZaZ1l1OFJEVmRZQlZaZGRscUZTWXFjbVF4eEZwcnZKTkhNcGRKVDVqRmNVMTR1dEVoREtwd0pqVHVvcV9BM2E4OHg1T0wxTnFVdjNNSFBPZTRFdi1JX2l5bUZwS3c0U25kSFFycWFKU1cyMzJOM2JTeUFvU09CUWFa?oc=5",
+      "sources": 1,
+      "county": null
+    },
     {
       "id": 1913,
       "country": "United States",
       "date": "2026-11-22",
-      "school": "Uptown Mall",
+      "school": "Rapid City Mall",
       "city": "Rapid City",
       "state": "South Dakota",
       "sector": "Retail",
       "type": "Bomb Threat",
-      "response": null,
-      "outcome": "Under investigation",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
       "cluster": "Uptown Mall bomb threat Rapid City 2026-11-22",
       "notes": "Law Enforcement Responds to Bomb Threat at Uptown Mall",
       "lat": 44.0806,
       "lng": -103.228,
       "src": "The Rapid City Post",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWNXeGVicE15OFg1dURWSjNWNGtNbmc1VWVfcFFjNWd2ZGtobThnV0Fadm5pTG42bzZEak5hT094WjA3SGhxbVhWaWJOMFpjT1Y2TFhIVmJVZkRqSlgzdHFmUGdTM2dwMVRLTkNielBvTkZqR2dLWkVFLUZqWUdYdEFfTW1ZMmM?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Pennington County"
+    },
+    {
+      "id": 1916,
+      "country": "United States",
+      "date": "2026-11-21",
+      "school": "Woods Hole Ferry Service",
+      "city": "Woods Hole",
+      "state": "Massachusetts",
+      "sector": "Transit",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Woods Hole ferry swatting 2026-11-21",
+      "notes": "swatting incident Saturday evening",
+      "lat": 41.5239,
+      "lng": -70.6694,
+      "src": "MassLive",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkJZYTlnanpjcDFoZ2J0LTdmQ1VEZ0ZJSG83YVNnUkxWcFJmcjFzRFhUOS1qa1FrdkhlSms3RVZkNmFqNDFFS1lnaWE2dkhiZG16bDlsNnBuUV9XWGwzSU8wblBGeU5uRm9fQVR0YUh4ZnpoU3VyVWI1NGI1RTRCVkFTNWV0b0xkNFdKVmQxaFFaMUpRVlRuWVFqNEFaMDgyR1I2MzlCbENCemJtNVhINGwzYTFxdDVERjFXSi1NQmk4Z2xqS3pYNQ?oc=5",
+      "sources": 1,
+      "county": "Barnstable County"
     },
     {
       "id": 1911,
@@ -75,6 +142,26 @@
           "window_days": 7
         }
       }
+    },
+    {
+      "id": 1918,
+      "country": "United States",
+      "date": "2026-11-20",
+      "school": "Bradford High School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Bradford High School medical emergency shelter-in-place November 2026",
+      "notes": "Bradford High School teacher dies after medical emergency prompts shelter-in-place",
+      "lat": null,
+      "lng": null,
+      "src": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN0c2TkhWdDhOa0Y4UGRWS1pnUW1FUlF1TndyZ0ZIRFQ5M2M3TURxU1BsUXp6eXE2MF9GeHQxSFc4bTdLd1NGSVVBNHJqZGkzSGdXUjlKajJub2lIcTdTWHpWTDRzeks0ZmxmTXdoUHNMOWFVbG9xUXBFeTF0RnY0aW85elIyLXR4ZUNuRw?oc=5",
+      "sources": 1,
+      "county": null
     },
     {
       "id": 1914,
@@ -529,7 +616,7 @@
       "lng": -72.902,
       "src": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTB5S19uX3l2RzRjZVQzVXh2b1p4LXBIcWpXelNwQ2ozLXlTc1U0S1F6UmRNQjUzYmNxNkpFcGY5Y1lmYWY5OVpaMmVpaWw3STdZaFIzSlF6MXdsNlE3QmhsM0czXzhOUzFXekxOM19tRjlseFZvdE5KWXhxOU5lQ2dMUHE4TEJGalAwR25mOUVGSHNfd1pCYkVqbw?oc=5",
-      "sources": 14,
+      "sources": 15,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -569,7 +656,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 56,
+      "sources": 61,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -22802,6 +22889,16 @@
           "2026-11-19",
           "2026-11-21"
         ]
+      },
+      {
+        "county": "Barnstable County",
+        "region": "Massachusetts",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-21",
+          "2026-11-22"
+        ]
       }
     ],
     "stacked_recent": [
@@ -22840,13 +22937,13 @@
       "to": "2026-11-21",
       "days": 14,
       "hoax": {
-        "total": 86,
+        "total": 87,
         "bomb": 63,
-        "swatting": 23,
+        "swatting": 24,
         "schools": 53,
         "by_sector": {
           "K-12": 48,
-          "Transit": 8,
+          "Transit": 9,
           "Healthcare": 6,
           "Workplace": 6,
           "Higher Ed": 5,
@@ -22858,7 +22955,7 @@
         "states": 31,
         "confirmed_hoax": 27,
         "arrests": 4,
-        "under_investigation": 52,
+        "under_investigation": 53,
         "per_day": {
           "2026-11-08": 2,
           "2026-11-09": 7,
@@ -22873,7 +22970,7 @@
           "2026-11-18": 9,
           "2026-11-19": 11,
           "2026-11-20": 10,
-          "2026-11-21": 2
+          "2026-11-21": 3
         },
         "per_day_schools": {
           "2026-11-08": 0,
@@ -22899,14 +22996,14 @@
     }
   },
   "last_run": {
-    "ingested": 145,
-    "skipped_seen": 136,
-    "recognized": 4,
-    "new": 2,
-    "updated": 0,
-    "rejected": 4,
+    "ingested": 175,
+    "skipped_seen": 139,
+    "recognized": 13,
+    "new": 4,
+    "updated": 2,
+    "rejected": 22,
     "errors": 0,
-    "attempted": 9,
+    "attempted": 36,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22954,6 +23051,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-22T11:20:48.491508Z"
+    "ran_at": "2026-11-22T19:37:43.258260Z"
   }
 }
