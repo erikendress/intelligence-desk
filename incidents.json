@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-22T03:11:54.944584Z",
-  "count": 1111,
+  "generated": "2026-11-22T11:20:48.509209Z",
+  "count": 1113,
   "incidents": [
+    {
+      "id": 1913,
+      "country": "United States",
+      "date": "2026-11-22",
+      "school": "Uptown Mall",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Uptown Mall bomb threat Rapid City 2026-11-22",
+      "notes": "Law Enforcement Responds to Bomb Threat at Uptown Mall",
+      "lat": 44.0806,
+      "lng": -103.228,
+      "src": "The Rapid City Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWNXeGVicE15OFg1dURWSjNWNGtNbmc1VWVfcFFjNWd2ZGtobThnV0Fadm5pTG42bzZEak5hT094WjA3SGhxbVhWaWJOMFpjT1Y2TFhIVmJVZkRqSlgzdHFmUGdTM2dwMVRLTkNielBvTkZqR2dLWkVFLUZqWUdYdEFfTW1ZMmM?oc=5",
+      "sources": 1,
+      "county": "Pennington County"
+    },
     {
       "id": 1911,
       "country": "United States",
@@ -55,6 +75,26 @@
           "window_days": 7
         }
       }
+    },
+    {
+      "id": 1914,
+      "country": "United Kingdom",
+      "date": "2026-11-20",
+      "school": "London Station",
+      "city": "London",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "London_Station_SuspiciousRucksack_20Nov2026",
+      "notes": "Suspicious rucksack sparks station evacuation as bomb squad carries out explosion",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "src": "London Now",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3dJSENSZjRKSlZPTDZLQ0RsUVRYS0F5bnB5VWIyRFR2ckFOYjlSMGg4bEV5cWd1M20tRTQxdGlwMWgtN3NLLWtQSlNOenVQQWxWbnFseHdzMDJwOFNDUF91SS1SWlpmaW5NeVBkd0tNa2lFUTlRRnlYUVVORFoyQ1pDTHlDaFBLM3dGOENYZW1QdHV2NHA3YXVB?oc=5",
+      "sources": 1,
+      "county": null
     },
     {
       "id": 1912,
@@ -253,7 +293,7 @@
       "state": "Scotland",
       "sector": "Transit",
       "type": "Weapon / Intruder",
-      "response": null,
+      "response": "Lockdown",
       "outcome": "Arrest made",
       "cluster": "Edinburgh Waverley weapons arrest 2026-11-20",
       "notes": "man with bag of weapons and suspicious item arrested at station",
@@ -261,7 +301,7 @@
       "lng": -3.1884,
       "src": "Trending Now Infrastructure",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWG42a0x1MWhUUkRYc3BmNUg2NzhQRHI1a2Iybll3WmFWTThoc285azM4TDA4cUtsWjhveWV2TjNzeW1nckdPOGFCdzhwZEJoOFhFeU5UR0JrbFFLMHpDX0s0dFNsTG5jWUkzMV9RS280cVpRM3FBR2tjeW1uRjhGUUZuTzExUTZ5TXFSN0tqM2FTYWxGLUJLNW1TRTk3TGFFd3pZZUo5Wk55VVU3cmdscUZqUjZtLU8yMFNKUzU2ZkNNSjgyTk11c3Z1akhRRmtJend0cE5ON18yYkF1?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": null
     },
     {
@@ -529,7 +569,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 55,
+      "sources": 56,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -22859,10 +22899,10 @@
     }
   },
   "last_run": {
-    "ingested": 143,
-    "skipped_seen": 134,
+    "ingested": 145,
+    "skipped_seen": 136,
     "recognized": 4,
-    "new": 0,
+    "new": 2,
     "updated": 0,
     "rejected": 4,
     "errors": 0,
@@ -22914,6 +22954,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-22T03:11:54.924482Z"
+    "ran_at": "2026-11-22T11:20:48.491508Z"
   }
 }
