@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T23:14:28.755969Z",
+  "generated": "2026-11-22T03:11:54.944584Z",
   "count": 1111,
   "incidents": [
     {
@@ -261,7 +261,7 @@
       "lng": -3.1884,
       "src": "Trending Now Infrastructure",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWG42a0x1MWhUUkRYc3BmNUg2NzhQRHI1a2Iybll3WmFWTThoc285azM4TDA4cUtsWjhveWV2TjNzeW1nckdPOGFCdzhwZEJoOFhFeU5UR0JrbFFLMHpDX0s0dFNsTG5jWUkzMV9RS280cVpRM3FBR2tjeW1uRjhGUUZuTzExUTZ5TXFSN0tqM2FTYWxGLUJLNW1TRTk3TGFFd3pZZUo5Wk55VVU3cmdscUZqUjZtLU8yMFNKUzU2ZkNNSjgyTk11c3Z1akhRRmtJend0cE5ON18yYkF1?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -529,7 +529,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 52,
+      "sources": 55,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -11209,14 +11209,7 @@
       "src": "ABC10",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaWllU3dSZmRIYzJ4NUxXdk5OY2g3TklJWk9tTi1tdHhtMnZXXzhrUGRmWFU1X1dGWVkxMXgtcHJxb3BrOUhzbE5FQkZ5YWJwdk5XbTdyUmw0MDN6T1VPSnlXX0tBUXRqdEJ1QVhxazBUbGlOYlZ1YV9MS3BDZnZaaHRVN2tZNHdRNXhDX2tkNUVQZzVGSS1xSmZXUEViaFEyaGl5N1h0TUR3LVNsMEVDd1FIMTVkYTN0SE5OYjBXLUg0QUVvOEY3T1dNUjRueVdSSS14eDE1cXh4Zlc5elE?oc=5",
       "sources": 2,
-      "county": "Stanislaus County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-07",
-          "window_days": 7
-        }
-      }
+      "county": "Stanislaus County"
     },
     {
       "id": 1334,
@@ -22661,7 +22654,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-21",
+    "computed": "2026-11-22",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -22803,31 +22796,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-07",
-      "to": "2026-11-20",
+      "from": "2026-11-08",
+      "to": "2026-11-21",
       "days": 14,
       "hoax": {
-        "total": 85,
+        "total": 86,
         "bomb": 63,
-        "swatting": 22,
+        "swatting": 23,
         "schools": 53,
         "by_sector": {
-          "K-12": 49,
-          "Transit": 7,
+          "K-12": 48,
+          "Transit": 8,
           "Healthcare": 6,
           "Workplace": 6,
+          "Higher Ed": 5,
           "Retail": 5,
-          "Higher Ed": 4,
           "Venue": 3,
           "Government": 3,
           "Other": 2
         },
         "states": 31,
-        "confirmed_hoax": 26,
+        "confirmed_hoax": 27,
         "arrests": 4,
         "under_investigation": 52,
         "per_day": {
-          "2026-11-07": 1,
           "2026-11-08": 2,
           "2026-11-09": 7,
           "2026-11-10": 7,
@@ -22840,10 +22832,10 @@
           "2026-11-17": 7,
           "2026-11-18": 9,
           "2026-11-19": 11,
-          "2026-11-20": 10
+          "2026-11-20": 10,
+          "2026-11-21": 2
         },
         "per_day_schools": {
-          "2026-11-07": 1,
           "2026-11-08": 0,
           "2026-11-09": 5,
           "2026-11-10": 3,
@@ -22856,7 +22848,8 @@
           "2026-11-17": 6,
           "2026-11-18": 6,
           "2026-11-19": 9,
-          "2026-11-20": 8
+          "2026-11-20": 8,
+          "2026-11-21": 1
         }
       },
       "suspicious_mail": {
@@ -22867,13 +22860,13 @@
   },
   "last_run": {
     "ingested": 143,
-    "skipped_seen": 138,
-    "recognized": 1,
+    "skipped_seen": 134,
+    "recognized": 4,
     "new": 0,
     "updated": 0,
     "rejected": 4,
     "errors": 0,
-    "attempted": 5,
+    "attempted": 9,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -22921,6 +22914,6 @@
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-21T23:14:28.736654Z"
+    "ran_at": "2026-11-22T03:11:54.924482Z"
   }
 }
