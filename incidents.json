@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T00:51:19.172099Z",
+  "generated": "2026-11-23T09:01:43.326460Z",
   "count": 1118,
   "incidents": [
     {
@@ -12,14 +12,14 @@
       "sector": "Higher Ed",
       "type": "Swatting / Active-Shooter Hoax",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Confirmed real",
       "cluster": "NCCU-20261122",
       "notes": "NCCU sends out active shooter alert, police say incident was 'unfounded' amid search for suspect",
       "lat": 35.9967,
       "lng": -78.9018,
       "src": "WRAL",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1dCdUxVeW4yd1dKZkpkRzhIZThCdHRzaC1iVHZyUEF1V2FPdXpvc0x1eVdSV2c4YXBTN3Bsb1JvM1dfdEFpS0F2MWxDU3JaSWU5S05YWDl5N095eFJESTNBUnBhanZBYWtHVjZKczVBbzQwbURHRS1FZ1d1cVdYLXhqeVduRV92RmN6ZmQyVQ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Durham County"
     },
     {
@@ -66,7 +66,7 @@
       "lng": -103.228,
       "src": "The Rapid City Post",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWNXeGVicE15OFg1dURWSjNWNGtNbmc1VWVfcFFjNWd2ZGtobThnV0Fadm5pTG42bzZEak5hT094WjA3SGhxbVhWaWJOMFpjT1Y2TFhIVmJVZkRqSlgzdHFmUGdTM2dwMVRLTkNielBvTkZqR2dLWkVFLUZqWUdYdEFfTW1ZMmM?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Pennington County"
     },
     {
@@ -676,7 +676,7 @@
       "lng": -72.902,
       "src": "News12 | Connecticut",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZDFnZFVoUHZJU3NjVlAtNzBtTnpPMkRyZG1SbjNYc21oczVsTzd4emJxR3Jkblo2RHBvd3FJYXZiUGJxUWV3c1NsbmgtVVVlVmhuRXFVOFpQUHVQR0dVVWQwVW0zOWttT2c5UkJVb21JUVJ5YWc4bmUwVVdBLW1fXzR2OUUxUFg5SURDWEUydzNYcW05R05xWFctNUxsQWtkeUtmYVB1WmtRcnZaelA4Y0JFd2c4UQ?oc=5",
-      "sources": 61,
+      "sources": 62,
       "county": "South Central Connecticut Planning Region"
     },
     {
@@ -22975,7 +22975,7 @@
         "states": 30,
         "confirmed_hoax": 30,
         "arrests": 4,
-        "under_investigation": 52,
+        "under_investigation": 51,
         "per_day": {
           "2026-11-09": 7,
           "2026-11-10": 7,
@@ -23016,14 +23016,14 @@
     }
   },
   "last_run": {
-    "ingested": 162,
-    "skipped_seen": 149,
-    "recognized": 7,
-    "new": 1,
+    "ingested": 129,
+    "skipped_seen": 117,
+    "recognized": 3,
+    "new": 0,
     "updated": 1,
-    "rejected": 6,
+    "rejected": 9,
     "errors": 0,
-    "attempted": 13,
+    "attempted": 12,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23039,21 +23039,21 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 60
+        "items": 57
       },
       {
         "edition": "GB:en",
         "q": 0,
         "route": "direct",
-        "attempt": 1,
+        "attempt": 2,
         "items": 60
       },
       {
         "edition": "GB:en",
         "q": 1,
         "route": "direct",
-        "attempt": 1,
-        "items": 60
+        "attempt": 2,
+        "items": 58
       },
       {
         "edition": "CA:en",
@@ -23066,11 +23066,11 @@
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
-        "attempt": 1,
-        "items": 60
+        "attempt": 2,
+        "items": 56
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-23T00:51:19.155538Z"
+    "ran_at": "2026-11-23T09:01:43.307438Z"
   }
 }
