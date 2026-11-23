@@ -1,7 +1,201 @@
 {
-  "generated": "2026-11-23T09:01:43.326460Z",
-  "count": 1118,
+  "generated": "2026-11-23T21:21:39.794085Z",
+  "count": 1128,
   "incidents": [
+    {
+      "id": 1929,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Volunteer High",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Suspicious Package / Mail",
+      "response": "Lockdown",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Volunteer High lockdown 2026-11-23",
+      "notes": "Lockdown lifted at Volunteer High after suspicious device found",
+      "lat": null,
+      "lng": null,
+      "src": "WCYB",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVJFZ2tHUkoyaWlJazRqaVV3YXNmbUNpcXI1WGVDa3BxSmtaVU50S2MtYXJrY21ud1NrSHFMM3d4Q2UyeG5LZjZxbHlWN3J2LXRuZVU2TmhXNndhUlU4dzcyT0VZMmY4MVZpTXQ2YkI1eTJqNkw3RWZkMEdEY2twV1drcDBVQkZVNHFxTTZMX3lGTWxlckE?oc=5",
+      "sources": 2,
+      "county": null
+    },
+    {
+      "id": 1928,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Great Mills High School",
+      "city": "Great Mills",
+      "state": "Maryland",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Great Mills High School swatting call 2026-11-23",
+      "notes": "Deputies Find No Threat At Great Mills High School After Suspected 'Swatting' Call",
+      "lat": 38.2482,
+      "lng": -76.4892,
+      "src": "The BayNet",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbW5pTWxudC1IUWJVTUphMUIxSVJ4bUE1NkJXaENsRUJ6ckZSdGlSb0NzZ0w4SXE1LVItMU1JWGg3ZVpWNmQ1LVhjdmExNExSRkdlUXlLWGRzeDVrTTVxb1l5MlpvTXpkZTZvMTF3STRsazFzODdfSFRDNDd4NnJabWNlOGk3UDB5MDYtaFZ0V0pmeVFGM2tXUE0xYU12Zng5QUN6Tkd3?oc=5",
+      "sources": 1,
+      "county": "Saint Mary's County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-17",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1927,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Schools in Carter County",
+      "city": null,
+      "state": "Tennessee",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Carter County swatting incident Nov 2026",
+      "notes": "Sheriff: 'Swatting' call sends Carter County schools into lockdown",
+      "lat": 36.2841,
+      "lng": -82.1195,
+      "src": "WJHL",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdmcyTDVaai1lUXEwZFRSaGt1cFpSLXoxZDhJRGxxNDlhd21XVU9TWWFjNk8wUzdHdVFLRjg1ZzdXbEJYNzdpUUxFYS00eDJSbGdHc25ydjduTkt1T0MwU04wWmVXMHpGTWU2cF9zUC1jQzZoUTBmVjh4R2QxaFZhR25fNHhBam9zZXlIUkY1MUVRN0c0RHJmWUJyeWdVQVg2cVHSAaIBQVVfeXFMUHZnMkw1WmotZVFxMGRUUmhrdXBaUi16MWQ4SURscTQ5YXdtV1VPU1lhYzZPMFM3R3VRS0Y4NWc3V2xCWDc3aVFMRWEtNHgyUmxnR3NucnY3bk5LdU9DMFNOMFplVzB6Rk1lNnBfc1AtY0M2aFEwZlY4eEdkMWhWYUduXzR4QWpvc2V5SFJGNTFFUTdHNERyZllCcnlnVUFYNnFR?oc=5",
+      "sources": 2,
+      "county": "Carter County"
+    },
+    {
+      "id": 1926,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "East Aurora High School",
+      "city": "East Aurora",
+      "state": "New York",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "East Aurora High bomb threat 2026-11-23",
+      "notes": "Bomb Threat At East Aurora High Unsubstantiated: PD",
+      "lat": 42.7689,
+      "lng": -78.6178,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSjNrQWFnVTVOVmxkUVBmdkItR3F2bUNHaWl6Uld0a0tyYnQ3OVJxLTNobG9XZXI0QlAzcTNPU3JUYXAyOWJ2WWZjT2xGMzZUU0Z0QThxZmNJRjRKU0YzYzNHbHpwVW15ZXJaYnpQbzY2Vm9UNWdiRGs4WENzZkRETU1SVXZCazN00gGeAUFVX3lxTE1jWDZSUHBialVVLUJza3RxU3FDcWNTeXpfdy1HZS1UUjNzbjNyRV85S3BtMkpVOTQzUHhrMmxYOElwYzU3eWFPdmRCY01nWmpUakY4ZEsxU3hiZWRtckpLUTFxQkpROEN6ZzhBRlhaNXZmcDdtdkpONS1kMzNkZlVfZ1hkZ1VHbDBWRUcwVFQ4Zi1Pc0hKcGJsVjRxQmJR?oc=5",
+      "sources": 1,
+      "county": "Erie County"
+    },
+    {
+      "id": 1925,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Radnor High School",
+      "city": "Radnor",
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Radnor_HS_threat_20261123",
+      "notes": "placed under precautionary lockdown amid 'unfounded' threat",
+      "lat": 40.0463,
+      "lng": -75.3595,
+      "src": "6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU0FXRk9YUXFBZGhPUVRZS3BCQ2d0VEdEYk8xSkxMY3k2bVpNS0Zvbm9rdm8zMVg1bTg4QmY2N2hWNFVYd25jNi1LNnF0U3BOSDdQa3BMN2d6QzJ4dkluQzVHWm14T2t3bzRqYU9oOUhhbVBXRjFHczRhUjh1MDV2TURuUmpobFFhaHRNMzR0RlBhblhVeXR0dVliU3h3SXNvT2ROZWd6dEtJVW85WWfSAbMBQVVfeXFMTnk0UjRmcC1ldk5JY2VaWlYxZVNQUGlOeFRNLWJOWVl6d1lNQTFIM2l2R3JjczRteXFXNlRhZEw4VnRTZExKZy1kYURzSUw2UTctdkMtRFRIX0J2amg3aDlUODBrMXo3QlBGajd6eWVyZFJEVkkzUExjdG83NnlhWjRnSXpEVHU4QXE0eDRGN0JheU14dFpBcXB6dGJhdHRKTG9tT2tLVW92UTI3RldoaWZKNjA?oc=5",
+      "sources": 3,
+      "county": "Delaware County"
+    },
+    {
+      "id": 1924,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Westfield Schools",
+      "city": "Westfield",
+      "state": "Massachusetts",
+      "sector": "K-12",
+      "type": "Weapon / Intruder",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Westfield MA shelter-in-place Nov 23 2026",
+      "notes": "Westfield schools shelter in place during search for two men",
+      "lat": 42.1205,
+      "lng": -72.7489,
+      "src": "Western Mass News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd1BYNzBlNHpWdURhZzd0a3dFOVgxdDlOVTNqWm1pUkw1QlVKTldUYnBjbnZ1R2xtQmpXeUlpUFNnWGV6Y3ZScm5EUjVUWHE3b3ZMYmtBQWtKZUdURHJraFAwbmJ2RmtjdzliaDBQa05BQ0xpNWlJOWswWHJObmdyOVdQRXRmQXRKTWxWYXNJUXhLVURseE1ST205YmE?oc=5",
+      "sources": 1,
+      "county": "Hampden County"
+    },
+    {
+      "id": 1923,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Reedy Fork Elementary School",
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "sector": "K-12",
+      "type": "Credible Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Reedy Fork Elementary School lockdown 2026-11-23",
+      "notes": "Reedy Fork Elementary School lockdown lifted after Greensboro police investigation",
+      "lat": 36.0726,
+      "lng": -79.792,
+      "src": "WXII",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM3R6NUlkd2lSMUZFWG9uZld6cEZ4TndzdG1BVXdZN1AtdEdLRi1rNzkyWkl6SV9yanpTQ2RGUU1YVHlXaVduXy1XRG8xTjVkN2t6MFNQWVk4M1Vpd3FxbEx1WllaMUlLaWJhWE9GdlFUaDY3ejFaN3pKWUpZb21sTU9LUV91dGVqNUt1ZEQzUHNnbFU0MV8wN3VLSTBCS25hbGc?oc=5",
+      "sources": 1,
+      "county": "Guilford County"
+    },
+    {
+      "id": 1922,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Michigan State University",
+      "city": "East Lansing",
+      "state": "Michigan",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "MSU fire evacuation Nov 23 2026",
+      "notes": "MSU building evacuated after fire at nearby construction site",
+      "lat": 42.732,
+      "lng": -84.4722,
+      "src": "WKAR",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOUNhRXhJaGpLOEwxdHZNc1FCeGRDQ2RBeTRKWi14Y2ZMblpZR3JkSTJIOG50TmlHNkhCejFWWTFlTEkxWjA3cUh4U0ZQZkE0UVFWdGhRUkdrTndWLUJOTGRNa0tMSTFYdExOTzBZUUpLcUhDUHBTU0pBTWlaaG50TmlwN3g3X1lVTVRVSEFSUVRMR3pDckdQR2VNMHFaYldCS19JQ3ZR?oc=5",
+      "sources": 1,
+      "county": "Ingham County"
+    },
+    {
+      "id": 1921,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Grand Island Casino",
+      "city": "Grand Island",
+      "state": "Nebraska",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Grand Island NE bomb threat 2026-11-23",
+      "notes": "Grand Island police responded to reported bomb threat at casino",
+      "lat": 40.9243,
+      "lng": -98.3387,
+      "src": "KSNB",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQWJzVlNpdGREQWowRXRvYmM4Umk2V3l6TEdFWG03MzY1RzJZd004RE1Pa2dRRUdBOV95SFlQallxekdIUnNiY3lKLUROTTNrTjRTN25uaVNiUjRpeWc0akxBWDJqWXliY2dodjhjRVE1dGR5UV90T1hMOG5ucEc0REx4ZnMxcXJUYktPUkZyVkltSU1BUTNDd2lhTmfSAbABQVVfeXFMUFV2TzE2UG9LTy10LV8zR1gxZDNtNHZGNEdGWVBrMTVWU29ybmNXQUFLdzgzYjNkN3J0b2hjVmRDMGl3aFF6YkVFT2phYWZuVkJtbks5WnVuc3ZjZVFzQXRMR2UyblY3aEFmcnVtZDRfZm1rS05oVzlTVmVEamNYVWZIN3dmNEZHUlZ2WURLenZ6U3pYN2pNM2lFOWsxNl9mVEZ2YlpFbEdoSFVwN05KeUQ?oc=5",
+      "sources": 2,
+      "county": "Hall County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-21",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1919,
       "country": "United States",
@@ -39,7 +233,7 @@
       "lng": -70.6694,
       "src": "NBC Boston",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ01SNEE5Q2JjMURYWnFzMFpkZWVzU3FJSk1HWTJrLTNEUEZVSFE4aXRXc0o2NWE0QWtmNEJDU0sxYmZXd1o2aUhFTk54ajB3clJZM0JfSFpQZVhlTF9nd1EzMU1HdVJJZXBEa0g0VmUtZnl5WVh2VkpfcjZJOXZMck8tcUJDS1B3aTNTUi1kcVl0WS1icmxEd3JrenlUV0w2OF9uWHdnbXjSAbABQVVfeXFMT1lsLWJIb0w5UDhtWnhfdU9ua2VZRnhOaHFKLWk0WVFYNVhVSXBqQkJFd2JUVmlodFFQd2hGS1hZMUoxQUdZRHVmUU1tVUtjVDh1NVRWbkJmNktfeUcwdEtSeDhKV3gwRF9KU2lBdmFmbFVLVlhZYUhnLXhidnhfaXpRVHNJdVo4UjZKS3U5cjBSM28tY3lJZ0M1cHdVRkRkaTVDbTJxallMemswZV9oelI?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Barnstable County",
       "signals": {
         "repeat": {
@@ -53,7 +247,7 @@
       "id": 1913,
       "country": "United States",
       "date": "2026-11-22",
-      "school": "Rapid City Mall",
+      "school": "Uptown Rapid City Mall",
       "city": "Rapid City",
       "state": "South Dakota",
       "sector": "Retail",
@@ -66,8 +260,28 @@
       "lng": -103.228,
       "src": "The Rapid City Post",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWNXeGVicE15OFg1dURWSjNWNGtNbmc1VWVfcFFjNWd2ZGtobThnV0Fadm5pTG42bzZEak5hT094WjA3SGhxbVhWaWJOMFpjT1Y2TFhIVmJVZkRqSlgzdHFmUGdTM2dwMVRLTkNielBvTkZqR2dLWkVFLUZqWUdYdEFfTW1ZMmM?oc=5",
-      "sources": 4,
+      "sources": 5,
       "county": "Pennington County"
+    },
+    {
+      "id": 1920,
+      "country": "United States",
+      "date": "2026-11-21",
+      "school": "Grand Island Casino Resort",
+      "city": "Grand Island",
+      "state": "Nebraska",
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Grand Island Casino Resort bomb threat Nov 21 2026",
+      "notes": "Bomb threat reported at Grand Island Casino Resort Nov. 21",
+      "lat": 40.9243,
+      "lng": -98.3387,
+      "src": "Central Nebraska Today",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUndHdl82WGJKYmlSeVVXbEh2WnV4NTVJR0t5NnB1M1cteXZDREhTbVlrS0R2aFBnUXV2aWlQSHpQYm1zSl8wbHV1eUx2MmVITmNnUUlibDE2SzlNUDhBbk5fVDdBTnJzcElXdWI1OUQyanNodGQ5ODg0Rm9tQmxSWVVfNzNZQjdsd0w4TzJ0YUZ4ckFsQUhOMXAxTWpQSXpsX1k5N2p6cmd3Zw?oc=5",
+      "sources": 1,
+      "county": "Hall County"
     },
     {
       "id": 1916,
@@ -118,7 +332,7 @@
       "state": "Connecticut",
       "sector": "Higher Ed",
       "type": "Swatting / Active-Shooter Hoax",
-      "response": null,
+      "response": "Lockdown",
       "outcome": "Confirmed hoax",
       "cluster": "Quinnipiac University hoax call 2026-11-21",
       "notes": "COPS SEEK CALLER IN QUINNIPIAC HOAX CALL",
@@ -126,7 +340,7 @@
       "lng": -72.902,
       "src": "Local 3 News",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcGEwTGF3LU9vN0hOQVNxc0pfdkw4eXE3Z1ByY1ZwY0h4ckZIZTBrYTVNX2lqblNBRElRcXo1dW14VTlGQzRGOHZtUmEtWHJqanJSUVBJaWphcFVyQ0ZyVk9IakxMMFdUdXcwdi03Q242WFBVNjc0N3BRWjF3ZFJuS1ZoRFJaazlVeEpjem80OEVNUmtScnV6eUl6MHIwRU1ETjY2blRTYjZXLU5wRklUZTBVY1Fjck1kX010LWJnUjZUVXdlaVVIQUF2YVptcXpNeEE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "South Central Connecticut Planning Region",
       "signals": {
         "repeat": {
@@ -22919,6 +23133,26 @@
           "2026-11-21",
           "2026-11-22"
         ]
+      },
+      {
+        "county": "Saint Mary's County",
+        "region": "Maryland",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-17",
+          "2026-11-23"
+        ]
+      },
+      {
+        "county": "Hall County",
+        "region": "Nebraska",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-21",
+          "2026-11-23"
+        ]
       }
     ],
     "stacked_recent": [
@@ -22957,8 +23191,8 @@
       "to": "2026-11-22",
       "days": 14,
       "hoax": {
-        "total": 89,
-        "bomb": 63,
+        "total": 90,
+        "bomb": 64,
         "swatting": 26,
         "schools": 54,
         "by_sector": {
@@ -22968,14 +23202,14 @@
           "Retail": 6,
           "Workplace": 6,
           "Healthcare": 5,
+          "Venue": 4,
           "Government": 3,
-          "Venue": 3,
           "Other": 2
         },
-        "states": 30,
+        "states": 31,
         "confirmed_hoax": 30,
         "arrests": 4,
-        "under_investigation": 51,
+        "under_investigation": 52,
         "per_day": {
           "2026-11-09": 7,
           "2026-11-10": 7,
@@ -22989,7 +23223,7 @@
           "2026-11-18": 9,
           "2026-11-19": 11,
           "2026-11-20": 10,
-          "2026-11-21": 4,
+          "2026-11-21": 5,
           "2026-11-22": 3
         },
         "per_day_schools": {
@@ -23016,14 +23250,14 @@
     }
   },
   "last_run": {
-    "ingested": 129,
-    "skipped_seen": 117,
-    "recognized": 3,
-    "new": 0,
+    "ingested": 99,
+    "skipped_seen": 43,
+    "recognized": 18,
+    "new": 10,
     "updated": 1,
-    "rejected": 9,
+    "rejected": 38,
     "errors": 0,
-    "attempted": 12,
+    "attempted": 56,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23039,21 +23273,21 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 57
+        "items": 26
       },
       {
         "edition": "GB:en",
         "q": 0,
         "route": "direct",
-        "attempt": 2,
+        "attempt": 1,
         "items": 60
       },
       {
         "edition": "GB:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 58
+        "attempt": 1,
+        "items": 26
       },
       {
         "edition": "CA:en",
@@ -23066,11 +23300,11 @@
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 56
+        "attempt": 1,
+        "items": 26
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-23T09:01:43.307438Z"
+    "ran_at": "2026-11-23T21:21:39.768423Z"
   }
 }
