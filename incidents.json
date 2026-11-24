@@ -1,7 +1,67 @@
 {
-  "generated": "2026-11-24T06:02:08.168624Z",
-  "count": 1133,
+  "generated": "2026-11-24T17:42:35.303826Z",
+  "count": 1138,
   "incidents": [
+    {
+      "id": 1939,
+      "country": "United Kingdom",
+      "date": "2026-11-24",
+      "school": "Leicester Royal Infirmary",
+      "city": "Leicester",
+      "state": "England",
+      "sector": "Healthcare",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Leicester Royal Infirmary suspicious device 2026-11-24",
+      "notes": "Leicester Royal Infirmary evacuated after reports of suspicious device",
+      "lat": 52.6078,
+      "lng": -1.0318,
+      "src": "Leicester Mercury",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamZQWEMxb09SUUptRU1Kd0Z4cWd5UEtQU1dHWGhzMUNxTEM5OHlvTjJOSVZHNWhZR3c5VEZrbVlEemdQekJ3RThqbFZudU1WbENDSlVkR09qc1JNa3lnYTBvMEtkZy0wTHNYNGMtcDlHcWZDYzNkZFRfOWdFQXMxa0xpV0NROTZ5UGRvNkNDb2dVSEdTZUphZlR5Ynp6VmJCTl8ybzFrNVJudk1DTFHSAa4BQVVfeXFMTmpmUFhDMW9PUlFKbUVNSndGeHFneVBLUFNXR1hoczFDcUxDOTh5b04yTklWRzVoWUd3OVRGa21ZRHpnUHpCd0U4amxWbnVNVmxDQ0pVZEdPanNSTWt5Z2EwbzBLZGctMExzWDRjLXA5R3FmQ2MzZGRUXzlnRUFzMWtMaVdDUTk2eVBkbzZDQ29nVUhHU2VKYWZUeWJ6elZiQk5fMm8xazVSbnZNQ0xR?oc=5",
+      "sources": 1,
+      "county": "Leicestershire"
+    },
+    {
+      "id": 1937,
+      "country": "United Kingdom",
+      "date": "2026-11-24",
+      "school": "Croydon Station",
+      "city": "Croydon",
+      "state": "England",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Croydon Station bomb scare 2026-11-24",
+      "notes": "army swarms major station after bomb scare",
+      "lat": 51.3737,
+      "lng": -0.1003,
+      "src": "My London",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU05yM1FrbUVDOTJjdW5KZUZfTW1SZXIxY0h2aHc2NEotN0kwRXcwRVVLRVFWcEFFQjN0ZWc2NnRLTzNMeEtJQ25wLXk1NE5GOHdqY2h4UjYyZl9ZSWR1aGd1MTNOU0twaUp6TkZyNzZIWmZzbFVwNzl6bmR1UC1GMkJpeXhLOFNFdUhUcWxfcjhvaS1U0gGUAUFVX3lxTE9TTnIzUWttRUM5MmN1bkplRl9NbVJlcjFjSHZodzY0Si03STBFdzBFVUtFUVZwQUVCM3RlZzY2dEtPM0x4S0lDbnAteTU0TkY4d2pjaHhSNjJmX1lJZHVoZ3UxM05TS3BpSnpORnI3NkhaZnNsVXA3OXpuZHVQLUYyQml5eEs4U0V1SFRxbF9yOG9pLVQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1936,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Delaware State University",
+      "city": "Dover",
+      "state": "Delaware",
+      "sector": "Higher Ed",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Under investigation",
+      "cluster": "Delaware State University security threat Nov 2026",
+      "notes": "Delaware State University Lifts Shelter-in-Place Order Following Security Threat",
+      "lat": 39.1582,
+      "lng": -75.5244,
+      "src": "First State Update",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNC0yMTVtNy1DM0pOd3Z4OUJveE9OU21FZEZMdkIzMjVyWURvRzZhZ0o4N2dRVWF5WEFGX3c4UnRLanhwMWNWTVdTV0tIY0NPaGdiUWZNdGkyZldvRkI4WDRpdVdWQXM5cVNJcFdFTkx0bXEyVUJNTklZSEJEeWdFX2V1QTZvbUUxYlU1aERDRHFNeHpDSFE5WnhPQzNMSVkwMEhfQ2g1UzFpX01PUnRRWmdQRWh6Z1lwVkE?oc=5",
+      "sources": 1,
+      "county": "Kent County"
+    },
     {
       "id": 1934,
       "country": "United States",
@@ -23,10 +83,30 @@
       "county": "Rensselaer County"
     },
     {
+      "id": 1935,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Schools in Happy Valley",
+      "city": "Happy Valley",
+      "state": "Oregon",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Happy Valley swatting incident 2026-11-23",
+      "notes": "\"Swatting\" hoax forces Monday lockdown for Happy Valley schools",
+      "lat": null,
+      "lng": null,
+      "src": "96.9 WXBQ",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1jNHJWTUw2MUh4VDRDMTRDbURWOEp2Z3pzcVc1R1RwR2JQTDEtZmtoUVViZlVKZzRudXFTdzhkYnlLVDVrNHNXUU1KRWs2R2xsemtyS3pid3hJSVkwWGFjWV9DeV91QkYxUTY5RkV0UGVfOUowZ1pMS2ktaWhWc3VEVkpOQ1F4ZWV4RW9mTQ?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
       "id": 1933,
       "country": "United States",
       "date": "2026-11-23",
-      "school": "Walmart",
+      "school": "Walmart on E. Sunshine",
       "city": "Springfield",
       "state": "Illinois",
       "sector": "Retail",
@@ -39,7 +119,7 @@
       "lng": -93.2923,
       "src": "Springfield Daily Citizen",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd25maHd1b05mMllmS2gxaGxBX2ZENnBNejRna3lCX1VqR3RJSEU5RndjcnN2MVRISHBqVFpEcGEycXhUZ3JhOGNjalplQkdHcEVVVGtka2dONmk2bW5WZ0Z1NTJYLTJRblFBM0JxbWlpT1lHSktoejRnNW8tTGYwZzBpdVYxU2hnbzhabQ?oc=5",
-      "sources": 4,
+      "sources": 6,
       "county": null
     },
     {
@@ -79,7 +159,7 @@
       "lng": -82.5594,
       "src": "WJHL",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUzlmd01YemVUOWpXOXVnbXVhVEdyVGlHdWJkUW51TjdKTGpTZm1aUWpnM29YeGdmSkYxeVA5Q09LY1NnOWVxNE5SLVFESG9hdDBRbUV0LUlrN1NXZlRQQWczMFdnOWc0b0paVTdSdmZIb1FSWnBVSmlEbTJ3cFQ3YV93UlFXX2Vzb1RGMHEzOEZQV3c?oc=5",
-      "sources": 8,
+      "sources": 10,
       "county": null
     },
     {
@@ -226,7 +306,7 @@
       "lng": -79.792,
       "src": "WXII",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM3R6NUlkd2lSMUZFWG9uZld6cEZ4TndzdG1BVXdZN1AtdEdLRi1rNzkyWkl6SV9yanpTQ2RGUU1YVHlXaVduXy1XRG8xTjVkN2t6MFNQWVk4M1Vpd3FxbEx1WllaMUlLaWJhWE9GdlFUaDY3ejFaN3pKWUpZb21sTU9LUV91dGVqNUt1ZEQzUHNnbFU0MV8wN3VLSTBCS25hbGc?oc=5",
-      "sources": 3,
+      "sources": 6,
       "county": "Guilford County"
     },
     {
@@ -275,6 +355,26 @@
           "window_days": 7
         }
       }
+    },
+    {
+      "id": 1938,
+      "country": "United Kingdom",
+      "date": "2026-11-22",
+      "school": "Co-op Live",
+      "city": "Manchester",
+      "state": "England",
+      "sector": "Venue",
+      "type": "Credible Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Co-op Live Manchester evacuation Nov 2026",
+      "notes": "A cordon remains in place outside Co-op Live this morning after last night's evacuation. One fan is in hospital.",
+      "lat": 53.4425,
+      "lng": -2.2325,
+      "src": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3dEbGVwZFZ0LUw0M1RvMUZ5dWZGUDN2S0xKcUJ6a2NlV05QQWZLbGhTWnVHOEFXX0dYaUpieVhEdHlCMjZmUGlicXFjYjZWX0N6NjM1YlQwMHlTU1RBZzVseDBvazFPSmhqRVp1Y21Ob3ZreGtWSGpnbk1wS09xaDA1d3JyYXBSRzlJMk1SV0VKUFVCVS0yaFhFNk9tUHRQUkpBd3hkbWF3aU9GUjhNS0l4Yk9jT05iT0Q1d05SYnhnRWNlakRF?oc=5",
+      "sources": 1,
+      "county": "Greater Manchester"
     },
     {
       "id": 1919,
@@ -23296,14 +23396,14 @@
     }
   },
   "last_run": {
-    "ingested": 113,
-    "skipped_seen": 59,
-    "recognized": 26,
+    "ingested": 128,
+    "skipped_seen": 81,
+    "recognized": 12,
     "new": 5,
     "updated": 0,
-    "rejected": 28,
+    "rejected": 34,
     "errors": 0,
-    "attempted": 54,
+    "attempted": 47,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23318,22 +23418,22 @@
         "edition": "US:en",
         "q": 1,
         "route": "direct",
-        "attempt": 1,
-        "items": 31
-      },
-      {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
         "attempt": 2,
-        "items": 31
+        "items": 44
+      },
+      {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
+        "items": 44
       },
       {
         "edition": "CA:en",
@@ -23347,10 +23447,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 31
+        "items": 44
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-24T06:02:08.152854Z"
+    "ran_at": "2026-11-24T17:42:35.286246Z"
   }
 }
