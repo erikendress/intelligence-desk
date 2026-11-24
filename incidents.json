@@ -1,7 +1,87 @@
 {
-  "generated": "2026-11-23T21:21:39.794085Z",
-  "count": 1128,
+  "generated": "2026-11-24T06:02:08.168624Z",
+  "count": 1133,
   "incidents": [
+    {
+      "id": 1934,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Samaritan Hospital",
+      "city": "Troy",
+      "state": "New York",
+      "sector": "Healthcare",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Troy NY shooting 2026-11-24",
+      "notes": "Lockdown lifted at Samaritan Hospital after Troy shooting",
+      "lat": 42.7284,
+      "lng": -73.6918,
+      "src": "WRGB",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQTGQ2aE5HYUZxd0tXNWVTT29mQVBwakNKUnNvZERpT2JGNEZmQkVDTzFod1gwNnJLUnVPNUlNQXZtRTZSSmIwM1Zmb2FjR2o1QzBpSzd1SV9fOXpnNWJ2WXZheUFVWXRsb2lEbzBYVFllUHBLbF9FZGJ2emlCcUtiNGE3bnRLbnRuRGxWLXdhb09Ncm1Za1NQRkZCTm1LaDNRaUZMakhtVFFBM1NXOFU0MC00cElOUXJWVERjaG5oUFpPT0p1bzJCQVZud0tiSFEzSG9BSms4c3lIeFZKa0g5TnZvQzI5VTNVbnhKV2MzTFhqV24wZkVQZ0FPSGNIWjZiMGFmYVpzUUxqYjhLZy1ULTNyeGpFblBselpOOUxBMlR4elBHSnc?oc=5",
+      "sources": 1,
+      "county": "Rensselaer County"
+    },
+    {
+      "id": 1933,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Walmart",
+      "city": "Springfield",
+      "state": "Illinois",
+      "sector": "Retail",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Springfield Walmart suspicious package 2026-11-23",
+      "notes": "Bomb Squad signals all clear after inspecting suspicious package outside of Springfield Walmart",
+      "lat": 37.2082,
+      "lng": -93.2923,
+      "src": "Springfield Daily Citizen",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd25maHd1b05mMllmS2gxaGxBX2ZENnBNejRna3lCX1VqR3RJSEU5RndjcnN2MVRISHBqVFpEcGEycXhUZ3JhOGNjalplQkdHcEVVVGtka2dONmk2bW5WZ0Z1NTJYLTJRblFBM0JxbWlpT1lHSktoejRnNW8tTGYwZzBpdVYxU2hnbzhabQ?oc=5",
+      "sources": 4,
+      "county": null
+    },
+    {
+      "id": 1931,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Wisconsin Dells High School",
+      "city": "Wisconsin Dells",
+      "state": "Wisconsin",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Wisconsin Dells HS bomb threat 2026-11-23",
+      "notes": "Wisconsin Dells High School evacuated after bomb threat",
+      "lat": 43.6256,
+      "lng": -89.7716,
+      "src": "WKOW",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa0FEUVhuanFWMGhaR0p5N0RHZmpyQkp0WGRoemFuYWhKUGUzUk5yRjRaRVEtOTYzNkhwbWJ4dWQzcjNtTlp4S21sdXRyLXhhQmdFMlhTTHBPbDA0TnljWUthZm1JNURDakpiY21EVXZLdjRxc3dpb19KdXMtaGFFcTA3dDRUaERPM0tIdmk4aVBMaTJ0ZncyeHN2ODZBaFZyVnJJNjBrVFNpZFU4S0RWU2tPNnp6Z0w5blM2eVowY1BhV2FwZlo0N0I2ZlI2NExHRkIzcVlkOG5fQTg?oc=5",
+      "sources": 3,
+      "county": "Columbia County"
+    },
+    {
+      "id": 1930,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Tri-Cities Airport",
+      "city": "Kingsport",
+      "state": "Tennessee",
+      "sector": "Transit",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Tri-Cities Airport bomb threat 2026-11-24",
+      "notes": "Bomb threat prompts evacuation at Tri-Cities Airport",
+      "lat": 36.5502,
+      "lng": -82.5594,
+      "src": "WJHL",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUzlmd01YemVUOWpXOXVnbXVhVEdyVGlHdWJkUW51TjdKTGpTZm1aUWpnM29YeGdmSkYxeVA5Q09LY1NnOWVxNE5SLVFESG9hdDBRbUV0LUlrN1NXZlRQQWczMFdnOWc0b0paVTdSdmZIb1FSWnBVSmlEbTJ3cFQ3YV93UlFXX2Vzb1RGMHEzOEZQV3c?oc=5",
+      "sources": 8,
+      "county": null
+    },
     {
       "id": 1929,
       "country": "United States",
@@ -19,7 +99,7 @@
       "lng": null,
       "src": "WCYB",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVJFZ2tHUkoyaWlJazRqaVV3YXNmbUNpcXI1WGVDa3BxSmtaVU50S2MtYXJrY21ud1NrSHFMM3d4Q2UyeG5LZjZxbHlWN3J2LXRuZVU2TmhXNndhUlU4dzcyT0VZMmY4MVZpTXQ2YkI1eTJqNkw3RWZkMEdEY2twV1drcDBVQkZVNHFxTTZMX3lGTWxlckE?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": null
     },
     {
@@ -66,7 +146,7 @@
       "lng": -82.1195,
       "src": "WJHL",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdmcyTDVaai1lUXEwZFRSaGt1cFpSLXoxZDhJRGxxNDlhd21XVU9TWWFjNk8wUzdHdVFLRjg1ZzdXbEJYNzdpUUxFYS00eDJSbGdHc25ydjduTkt1T0MwU04wWmVXMHpGTWU2cF9zUC1jQzZoUTBmVjh4R2QxaFZhR25fNHhBam9zZXlIUkY1MUVRN0c0RHJmWUJyeWdVQVg2cVHSAaIBQVVfeXFMUHZnMkw1WmotZVFxMGRUUmhrdXBaUi16MWQ4SURscTQ5YXdtV1VPU1lhYzZPMFM3R3VRS0Y4NWc3V2xCWDc3aVFMRWEtNHgyUmxnR3NucnY3bk5LdU9DMFNOMFplVzB6Rk1lNnBfc1AtY0M2aFEwZlY4eEdkMWhWYUduXzR4QWpvc2V5SFJGNTFFUTdHNERyZllCcnlnVUFYNnFR?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Carter County"
     },
     {
@@ -106,7 +186,7 @@
       "lng": -75.3595,
       "src": "6abc Philadelphia",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU0FXRk9YUXFBZGhPUVRZS3BCQ2d0VEdEYk8xSkxMY3k2bVpNS0Zvbm9rdm8zMVg1bTg4QmY2N2hWNFVYd25jNi1LNnF0U3BOSDdQa3BMN2d6QzJ4dkluQzVHWm14T2t3bzRqYU9oOUhhbVBXRjFHczRhUjh1MDV2TURuUmpobFFhaHRNMzR0RlBhblhVeXR0dVliU3h3SXNvT2ROZWd6dEtJVW85WWfSAbMBQVVfeXFMTnk0UjRmcC1ldk5JY2VaWlYxZVNQUGlOeFRNLWJOWVl6d1lNQTFIM2l2R3JjczRteXFXNlRhZEw4VnRTZExKZy1kYURzSUw2UTctdkMtRFRIX0J2amg3aDlUODBrMXo3QlBGajd6eWVyZFJEVkkzUExjdG83NnlhWjRnSXpEVHU4QXE0eDRGN0JheU14dFpBcXB6dGJhdHRKTG9tT2tLVW92UTI3RldoaWZKNjA?oc=5",
-      "sources": 3,
+      "sources": 6,
       "county": "Delaware County"
     },
     {
@@ -126,7 +206,7 @@
       "lng": -72.7489,
       "src": "Western Mass News",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd1BYNzBlNHpWdURhZzd0a3dFOVgxdDlOVTNqWm1pUkw1QlVKTldUYnBjbnZ1R2xtQmpXeUlpUFNnWGV6Y3ZScm5EUjVUWHE3b3ZMYmtBQWtKZUdURHJraFAwbmJ2RmtjdzliaDBQa05BQ0xpNWlJOWswWHJObmdyOVdQRXRmQXRKTWxWYXNJUXhLVURseE1ST205YmE?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Hampden County"
     },
     {
@@ -146,7 +226,7 @@
       "lng": -79.792,
       "src": "WXII",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOM3R6NUlkd2lSMUZFWG9uZld6cEZ4TndzdG1BVXdZN1AtdEdLRi1rNzkyWkl6SV9yanpTQ2RGUU1YVHlXaVduXy1XRG8xTjVkN2t6MFNQWVk4M1Vpd3FxbEx1WllaMUlLaWJhWE9GdlFUaDY3ejFaN3pKWUpZb21sTU9LUV91dGVqNUt1ZEQzUHNnbFU0MV8wN3VLSTBCS25hbGc?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Guilford County"
     },
     {
@@ -262,6 +342,26 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWNXeGVicE15OFg1dURWSjNWNGtNbmc1VWVfcFFjNWd2ZGtobThnV0Fadm5pTG42bzZEak5hT094WjA3SGhxbVhWaWJOMFpjT1Y2TFhIVmJVZkRqSlgzdHFmUGdTM2dwMVRLTkNielBvTkZqR2dLWkVFLUZqWUdYdEFfTW1ZMmM?oc=5",
       "sources": 5,
       "county": "Pennington County"
+    },
+    {
+      "id": 1932,
+      "country": "United States",
+      "date": "2026-11-21",
+      "school": "Wind River Hotel & Casino",
+      "city": null,
+      "state": null,
+      "sector": "Venue",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Wind River Hotel & Casino bomb threat Nov 21 2026",
+      "notes": "FBI shares details on Nov. 21 bomb threat directed at Wind River Hotel & Casino",
+      "lat": null,
+      "lng": null,
+      "src": "County 10",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUHhESjhvRjRYSnExNmgtQ0hMblplRURjUFZITVhaUDNlN0JvWG03RExPWHNodnZtSXctUzJVeHBlcHMxNzdDdVlQT25nRzlCSDc1M0VDZklzREFCWXcxcHN2UEFyLVRjLXRJcW9HLTkwT0lYYkFqdHBLbGVMRlROTWtDcmxwekxqZS11LXFzYm5DVlpUWDlNWU96UEdhbUE?oc=5",
+      "sources": 1,
+      "county": null
     },
     {
       "id": 1920,
@@ -9268,8 +9368,8 @@
       "county": "Merced County",
       "signals": {
         "repeat": {
-          "prior": 2,
-          "first": "2026-10-09",
+          "prior": 1,
+          "first": "2026-10-12",
           "window_days": 7
         }
       }
@@ -10367,14 +10467,7 @@
       "src": "WBBJ-TV",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaXRhelh3SW5OZmlTQzlOYTgza1B1eHl5NDlDQmNHdHB0Wm1ybnpZTnFUcUFhaHJ5MkNMTml0MmpwTzlDZk1xVGpjdklFTEY3VFZCc05aOS1fWHJpRGdsVlNvelhxWXhLd0ZqTjBGbkd0azFTUUZIc3B0RUZ6SmRlVnRxYWVLMHNBOWl0NWxFaDZMS1hPXzRKMnBDaXF0VndNYWhiWGEwSmYwX1c3QlRRcE9OY9IBxwFBVV95cUxPUkw0aFhCWXBIbUVFUzFJSjlCTGhWSXI2ZDFQMDNnTkplVXRFZU1Zallra09sQmZydEZSeDFXMUlnX3dUT3cyZWxUU0Z4WWFrMUluUkVBUmVNektkNXB3ck1kMEZrUWVKTFhLOEhJZ2o0RC1VVTRQZUhPN0xZbWl0c0V1Y0hVR1ZwR0NDY1dITnRUOFJpZXVQQlZaVjNkTmUtRmtUdGRCbWQxQVRsQ3REdHFYMmFfOVhscl9xc1ZCY3lzRm1ZN3dz?oc=5",
       "sources": 2,
-      "county": "Lauderdale County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-09",
-          "window_days": 7
-        }
-      }
+      "county": "Lauderdale County"
     },
     {
       "id": 1426,
@@ -10617,14 +10710,7 @@
       "src": "Los Banos Enterprise",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ1k4TVJRQlJKeHpKNGZpWHN4Q3A3Z0JMZUlnTTJVcXByaTB6c3dXazc5dFQ3Q19mcnB0YjA2eWJqRGhfdzBBZklXWTdsUEtxaUJZRmh0R1ZXMEM5VnJiNldoSnNzcEpoVTFEMmkzRnhSZVQ5WWdEMEEydUFsdm5TTGU3Q21SVkkyWENMWjVkc2RDQUQzemhONDZoZGg3emFhNV93NmRLdFk4Z2FPdkQwTGpyT1Z4cWdfeU9fYkhoTUowZ21YZVZaQmdR?oc=5",
       "sources": 1,
-      "county": "Merced County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-09",
-          "window_days": 7
-        }
-      }
+      "county": "Merced County"
     },
     {
       "id": 1414,
@@ -10784,14 +10870,7 @@
       "src": "94.5 PST",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdUFBaHV6WFpDa1psZFNUUnAyOGtER1NFSHlJYkxfTjlzV1ZyeVd1Wlg1UDZDSUt6VTk1M1NKUjZYT2U2aWlOclc1VHU2WjNnaEVoTzg3YURTdFRZbjVRMTNNYlFCMHlEeHhsTkpYNVg4ejZWeXNzWTV6eVBaeXI1T1VTZHVveUMteDkxMmZCZWQ3bUZxUEwtNFZWZU5BcHlGUnFLSEJvSXNUdkpYcnRjeg?oc=5",
       "sources": 1,
-      "county": "Tulsa",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-09",
-          "window_days": 7
-        }
-      }
+      "county": "Tulsa"
     },
     {
       "id": 1406,
@@ -10811,14 +10890,7 @@
       "src": "NBC 6 South Florida",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMHJmR1liRUFzb3JrOWRELXJqMUk1QlB3alRJRV9QenV2clQxX01YVkRLdjhPS3FuR0xyVFc2ckJjVUNuN0ZWLVhsUXFKYjhjTDBGZWxMNFo4S0d1Q1psc2ZpRzRaaXV1Q0kwYjVGZVhmdTZ5UnhfMnR0YWw3dTFXTWRJTHNzSVNad0JyajM3Tmlfd2M0VHJmRkJnaXJvZUdVVzJSdm1yREwyazlRRi1PRUJfWlVZTmZwU08ta3dENTY3MF8tMXZyLUZoZWVBdlpXdVNiMEotYUdTcVHSAeMBQVVfeXFMTTZIb0VaQzVwOUVwWGNDcWswRkszVEEyanB0SHJ1bmlqUWJsZ1NaUDZ4dXRVajVJWk1Qc25qVEZrYUNjT0JybDdMVXJSNGU4TUU5S3RqMy1qQjNXLWRpTnZna2laSmVFTEhvakJHUS1GVkhDcl9sM3BqNldoYm1BOG1sUUtwVXFBQldsMDR3dk9DemNXeUdYUmRSeEgtcEhwb096RWFKTXF3amJObng4dWdTaDNid2Q5ZlR1dnhmX0o4QmNvMVN0S1ZOY09IMlBTaWNQY2ZHMWVmWVlrRzVOR2RUUTQ?oc=5",
       "sources": 1,
-      "county": "Miami-Dade County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-09",
-          "window_days": 7
-        }
-      }
+      "county": "Miami-Dade County"
     },
     {
       "id": 1335,
@@ -11104,10 +11176,7 @@
       "src": "Cincinnati Enquirer",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWJuVExNdHZFNDdDMnB4QW4xX2dUWFc1QXR1aGM3RUR3MFJmQm1rbC0wNFJwMFFiakwwWVFmeVE2Z1lGejczOWI5X01NbGduSHB6dEVMQngxWUtkY1dkVXl5RkUzZzIyNExndzZpcHNROG1oQUNSZ09Gc0R6V0hGSlRGekYtRm1hV1F6SVdqazFtT3VCbmxvUEU3cmdLc0dTbU9MU0RWNDluNi1BdU1rZ29qS0NtQVYtM0dkR3RB?oc=5",
       "sources": 1,
-      "county": "Clermont County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Clermont County"
     },
     {
       "id": 1324,
@@ -11227,10 +11296,7 @@
       "src": "WLWT",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTHhFME9SMC1iOXBXSHlYb003SW44YXBQSUtCRkk5V21NQnducXlFOHphNzdOdWFnVzNaN01QdTdpYWlvMldrallncjJBQnpFc3MwVnVINFRaNHMwLTJ1NHZ1VE1yNnpxcWl2SEFRRVZZekhZdy1CWFctOUlmUHdqYzB3MnR6cnFPNWZpbWZhRVlRclE?oc=5",
       "sources": 3,
-      "county": "Clermont County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Clermont County"
     },
     {
       "id": 1405,
@@ -23015,34 +23081,14 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-23",
+    "computed": "2026-11-24",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
       "stacked": "one call claiming both a bomb and an active shooter"
     },
-    "waves": [
-      {
-        "date": "2026-11-09",
-        "country": "United States",
-        "region": "Florida",
-        "counties": 3,
-        "events": 3,
-        "key": "2026-11-09|United States|Florida"
-      }
-    ],
+    "waves": [],
     "repeat_counties": [
-      {
-        "county": "Rutherford County",
-        "region": "Tennessee",
-        "country": "United States",
-        "events": 3,
-        "dates": [
-          "2026-11-09",
-          "2026-11-10",
-          "2026-11-11"
-        ]
-      },
       {
         "county": "Peoria County",
         "region": "Illinois",
@@ -23052,6 +23098,16 @@
           "2026-11-14",
           "2026-11-16",
           "2026-11-18"
+        ]
+      },
+      {
+        "county": "Rutherford County",
+        "region": "Tennessee",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-10",
+          "2026-11-11"
         ]
       },
       {
@@ -23072,16 +23128,6 @@
         "dates": [
           "2026-11-18",
           "2026-11-19"
-        ]
-      },
-      {
-        "county": "Miami-Dade County",
-        "region": "Florida",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-09",
-          "2026-11-20"
         ]
       },
       {
@@ -23187,31 +23233,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-09",
-      "to": "2026-11-22",
+      "from": "2026-11-10",
+      "to": "2026-11-23",
       "days": 14,
       "hoax": {
         "total": 90,
-        "bomb": 64,
-        "swatting": 26,
-        "schools": 54,
+        "bomb": 63,
+        "swatting": 27,
+        "schools": 53,
         "by_sector": {
           "K-12": 48,
-          "Transit": 10,
-          "Higher Ed": 6,
+          "Transit": 11,
           "Retail": 6,
           "Workplace": 6,
-          "Healthcare": 5,
-          "Venue": 4,
+          "Venue": 6,
+          "Higher Ed": 5,
+          "Healthcare": 4,
           "Government": 3,
-          "Other": 2
+          "Other": 1
         },
-        "states": 31,
-        "confirmed_hoax": 30,
+        "states": 30,
+        "confirmed_hoax": 28,
         "arrests": 4,
-        "under_investigation": 52,
+        "under_investigation": 53,
         "per_day": {
-          "2026-11-09": 7,
           "2026-11-10": 7,
           "2026-11-11": 6,
           "2026-11-12": 5,
@@ -23223,11 +23268,11 @@
           "2026-11-18": 9,
           "2026-11-19": 11,
           "2026-11-20": 10,
-          "2026-11-21": 5,
-          "2026-11-22": 3
+          "2026-11-21": 6,
+          "2026-11-22": 3,
+          "2026-11-23": 6
         },
         "per_day_schools": {
-          "2026-11-09": 5,
           "2026-11-10": 3,
           "2026-11-11": 1,
           "2026-11-12": 4,
@@ -23240,24 +23285,25 @@
           "2026-11-19": 9,
           "2026-11-20": 8,
           "2026-11-21": 1,
-          "2026-11-22": 1
+          "2026-11-22": 1,
+          "2026-11-23": 4
         }
       },
       "suspicious_mail": {
-        "total": 10,
-        "government": 4
+        "total": 9,
+        "government": 3
       }
     }
   },
   "last_run": {
-    "ingested": 99,
-    "skipped_seen": 43,
-    "recognized": 18,
-    "new": 10,
-    "updated": 1,
-    "rejected": 38,
+    "ingested": 113,
+    "skipped_seen": 59,
+    "recognized": 26,
+    "new": 5,
+    "updated": 0,
+    "rejected": 28,
     "errors": 0,
-    "attempted": 56,
+    "attempted": 54,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23273,7 +23319,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 31
       },
       {
         "edition": "GB:en",
@@ -23286,8 +23332,8 @@
         "edition": "GB:en",
         "q": 1,
         "route": "direct",
-        "attempt": 1,
-        "items": 26
+        "attempt": 2,
+        "items": 31
       },
       {
         "edition": "CA:en",
@@ -23301,10 +23347,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 31
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-23T21:21:39.768423Z"
+    "ran_at": "2026-11-24T06:02:08.152854Z"
   }
 }
