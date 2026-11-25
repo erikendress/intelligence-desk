@@ -1,7 +1,174 @@
 {
-  "generated": "2026-11-24T17:42:35.303826Z",
-  "count": 1138,
+  "generated": "2026-11-25T02:26:52.162846Z",
+  "count": 1146,
   "incidents": [
+    {
+      "id": 1941,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Davis High",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Davis High bomb threat 2026-11-25",
+      "notes": "Hoax bomb threat prompts lockdown at Davis High",
+      "lat": null,
+      "lng": null,
+      "src": "KUTV",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeXRqdm40RFJlcGJZS1huLUJwZF9zaFM3dWE1NnZaRE9XTDYxSi1KV01MSFdvWDNzdGJDbXg1TGE0d2xpd19ad1hvVDBPUEJjenVLSHU1WWZGT1ludzhuQk53ZjctM0hrYy13aUlZQ01FZG9vRldMbDJEQURFa29WNA?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1947,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Miami-Dade TGK Jail",
+      "city": "Miami",
+      "state": "Florida",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Miami-Dade TGK Jail bomb threat Nov 2026",
+      "notes": "Miami-Dade TGK Jail Placed on Lockdown After Reported Bomb Threat",
+      "lat": 25.7742,
+      "lng": -80.1936,
+      "src": "NewsRadio WFLA",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdUpGUTYwZUpRQVVOaGJsdTlyTzFMb1kwRlkxay1zbmRLRnlhVXByLWl3bjNqUENMUl9ucTg2ZThnZlVpczlIOVRHOUxyT2hUMjJ3YzEzQlNkS1QyTlZmNXF0eW9aclhRelp5WGhETlc2U21jMTBxWWJXVFA0Tl9Ea3pNV2U3cnN1YlE0bFg2SEJqUFJwVDB3eFVCeG5jU250N0w1ay1SaVV3cVN6WnBQZXI0bWtsdXd6TUNPaTV4ZUt0TFFnRVhxMmtvZjhTMFZl?oc=5",
+      "sources": 1,
+      "county": "Miami-Dade County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-20",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1946,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Richland Northeast High School",
+      "city": "Columbia",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Richland County swatting calls Nov 2026",
+      "notes": "Deputies investigate swatting calls at Blythewood, Richland Northeast high schools",
+      "lat": 34.0008,
+      "lng": -81.0352,
+      "src": "WACH.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVnlyRlBSb25yYUU0eVg1a3ZDSXV3aTM4TU1Nckd2M2Vya0hjb3RuajhGeWh2QVNMR250bjhPV01GdDZKNHFHY3BId25tVm55THZfXzdPa0RPeEcwdXo2ckZmZV9DZi0xVzNjS1dpYzlneU9GYjN4VkxWaU9QdVpqMHUtRGhMbF9USzdrc3FVQzFtSHJFd0JCdHJvZXZOU3J1QzNoS3NzVW9YQUhKOHc?oc=5",
+      "sources": 2,
+      "county": "Richland County"
+    },
+    {
+      "id": 1945,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Blythewood High School",
+      "city": "Blythewood",
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Richland County swatting calls Nov 2026",
+      "notes": "Deputies investigate swatting calls at Blythewood, Richland Northeast high schools",
+      "lat": 34.2143,
+      "lng": -80.974,
+      "src": "WACH.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVnlyRlBSb25yYUU0eVg1a3ZDSXV3aTM4TU1Nckd2M2Vya0hjb3RuajhGeWh2QVNMR250bjhPV01GdDZKNHFHY3BId25tVm55THZfXzdPa0RPeEcwdXo2ckZmZV9DZi0xVzNjS1dpYzlneU9GYjN4VkxWaU9QdVpqMHUtRGhMbF9USzdrc3FVQzFtSHJFd0JCdHJvZXZOU3J1QzNoS3NzVW9YQUhKOHc?oc=5",
+      "sources": 2,
+      "county": "Richland County"
+    },
+    {
+      "id": 1944,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Butler School",
+      "city": null,
+      "state": null,
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Butler School bomb threat 2026-11-24",
+      "notes": "Reports of a bomb threat at Butler school under investigation",
+      "lat": null,
+      "lng": null,
+      "src": "WANE 15",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcVpEalZhSkl4ajUtLWhHWGRtUzVWTEV4RWdKbVFDTWNSV3N3cm15V25neXFHUWMwUU5hbmY0OTQ1aVlkQjFjNEJmUlZOUGFXWl95Zk5OVHM3S2pQcDVwVS1TRUhubEF2ckFqS2kyZFE4elJRSmwzQWpUYnBBcEl4Qm94YWtzcUNiMjI2UXljblppdDd4clhnZGJIRG04djZIWTNDbVdrUUE3WW9BWXFxamJRRDlMNWVKeF8wVTd2YTZTSFdiVGZiZFpVUnZMNmd1X3h6dklEaXLSAaABQVVfeXFMUFBScXpyMjF5TGZPbGptN19XaGNDZWxqUE1IbllCbVdQN1RZQVMzbE5PcklvQ0NzR0NxMWRkUzk1SThMUVppSGFXOHZVVjBWTXNjWG5DV3dOd0xSOGZmeDh0b2ktTk52VkJOSTJ3M0l2ekxhQnB5dEJZZlBiSmJDMTdVQzNzVzRmcEhXOWpZQ0ZJOWlpLUJ0R2JxUms4RTh2dA?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1943,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Richland County High School 1",
+      "city": null,
+      "state": "South Carolina",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Richland County swatting calls Nov 2026",
+      "notes": "Swatting calls target two Richland County high schools, deputies say",
+      "lat": 34.019,
+      "lng": -80.9177,
+      "src": "WLTX",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRnRDMEJ4WW9KTjU0dnEtaWhyb3FSbjFLYWk0MjFIcmR3Q0VlcXNHa3h4TlBTUnRLdDEyX1ZYSmVBangtbS1IdHpmd1l2cVBua0w3RDNHUVAxdjlZTkp4aFRUMVV6eXh6elBoTy1BZUtrY2FpX2MzV2xnbnlBdWxrQ1FteWo5bVlhZUktbDdLeURpUktzX2twcWdGa2NOMi1HQno3V2l2ckpsaTF3M1FtLThaWVdNLUVDUDRfc1lDNlA0Z2RiR3k5Wm9yQmJsNHRQc3JXb3p3UG5LbmRBY0tJ?oc=5",
+      "sources": 3,
+      "county": "Richland County"
+    },
+    {
+      "id": 1942,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Downtown Winter Garden",
+      "city": "Winter Garden",
+      "state": "Florida",
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Winter Garden bomb threat 2026-11-24",
+      "notes": "'Nothing suspicious' found after bomb threat downtown",
+      "lat": 28.5657,
+      "lng": -81.5857,
+      "src": "West Orange Times Observer",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0c4WnYteXBHbVR0bnFxVDJKcE1XaV9YZDgySjZWZWpTY0JYdUotZ1dGd0IwSHB5VkVvNVhYZWttZ2ZNSEh5MjRPM1BGalN3Y3pEQ3VZVVROOWFXZjk1S2VvMmxNY25PdTR1ZnlKTTIzcW1uakM1ellOUHlhMlZkWEh5ZEJHc0lHYXBXWGZxeUFaOFRycEx3THlnekk4bTY1MG9rT0g5bDZUbkFzQUJINjRqYS1PVHJm?oc=5",
+      "sources": 1,
+      "county": "Orange County"
+    },
+    {
+      "id": 1940,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "Oregon City High School",
+      "city": "Oregon City",
+      "state": "Oregon",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Early dismissal",
+      "outcome": "Under investigation",
+      "cluster": "Oregon City HS bomb threat 2026-11-24",
+      "notes": "Oregon City High School students released early because of bomb threat",
+      "lat": 45.3573,
+      "lng": -122.6068,
+      "src": "KATU",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUnR0MXllUmJONVdOeHNDeS16LXprbmdTSEx3cHdSb3lmSk4zTkpscVA3TzNqNXdhaER3ZnpVVk1NZ3NGUEt5aWwwZkoyZ094MTg1NWJnTDVpVTVHbndVRDZicEtWdzZ0enFsX1hfUnZ5VXRXMWRrNVlzaWtUV2QtWVI5cS1QVWVKd2daQ2VBNExzZXU5LWk3SzZmZXh1eWc?oc=5",
+      "sources": 4,
+      "county": "Clackamas County"
+    },
     {
       "id": 1939,
       "country": "United Kingdom",
@@ -152,14 +319,14 @@
       "sector": "Transit",
       "type": "Bomb Threat",
       "response": "Evacuation",
-      "outcome": "Under investigation",
+      "outcome": "Arrest made",
       "cluster": "Tri-Cities Airport bomb threat 2026-11-24",
       "notes": "Bomb threat prompts evacuation at Tri-Cities Airport",
       "lat": 36.5502,
       "lng": -82.5594,
       "src": "WJHL",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUzlmd01YemVUOWpXOXVnbXVhVEdyVGlHdWJkUW51TjdKTGpTZm1aUWpnM29YeGdmSkYxeVA5Q09LY1NnOWVxNE5SLVFESG9hdDBRbUV0LUlrN1NXZlRQQWczMFdnOWc0b0paVTdSdmZIb1FSWnBVSmlEbTJ3cFQ3YV93UlFXX2Vzb1RGMHEzOEZQV3c?oc=5",
-      "sources": 10,
+      "sources": 11,
       "county": null
     },
     {
@@ -226,7 +393,7 @@
       "lng": -82.1195,
       "src": "WJHL",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdmcyTDVaai1lUXEwZFRSaGt1cFpSLXoxZDhJRGxxNDlhd21XVU9TWWFjNk8wUzdHdVFLRjg1ZzdXbEJYNzdpUUxFYS00eDJSbGdHc25ydjduTkt1T0MwU04wWmVXMHpGTWU2cF9zUC1jQzZoUTBmVjh4R2QxaFZhR25fNHhBam9zZXlIUkY1MUVRN0c0RHJmWUJyeWdVQVg2cVHSAaIBQVVfeXFMUHZnMkw1WmotZVFxMGRUUmhrdXBaUi16MWQ4SURscTQ5YXdtV1VPU1lhYzZPMFM3R3VRS0Y4NWc3V2xCWDc3aVFMRWEtNHgyUmxnR3NucnY3bk5LdU9DMFNOMFplVzB6Rk1lNnBfc1AtY0M2aFEwZlY4eEdkMWhWYUduXzR4QWpvc2V5SFJGNTFFUTdHNERyZllCcnlnVUFYNnFR?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": "Carter County"
     },
     {
@@ -10421,12 +10588,7 @@
       "sources": 1,
       "county": "Jackson County",
       "signals": {
-        "stacked": true,
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-10",
-          "window_days": 7
-        }
+        "stacked": true
       }
     },
     {
@@ -23181,7 +23343,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-24",
+    "computed": "2026-11-25",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -23198,16 +23360,6 @@
           "2026-11-14",
           "2026-11-16",
           "2026-11-18"
-        ]
-      },
-      {
-        "county": "Rutherford County",
-        "region": "Tennessee",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-10",
-          "2026-11-11"
         ]
       },
       {
@@ -23299,6 +23451,16 @@
           "2026-11-21",
           "2026-11-23"
         ]
+      },
+      {
+        "county": "Miami-Dade County",
+        "region": "Florida",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-20",
+          "2026-11-24"
+        ]
       }
     ],
     "stacked_recent": [
@@ -23333,31 +23495,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-10",
-      "to": "2026-11-23",
+      "from": "2026-11-11",
+      "to": "2026-11-24",
       "days": 14,
       "hoax": {
-        "total": 90,
-        "bomb": 63,
-        "swatting": 27,
-        "schools": 53,
+        "total": 89,
+        "bomb": 61,
+        "swatting": 28,
+        "schools": 54,
         "by_sector": {
-          "K-12": 48,
-          "Transit": 11,
-          "Retail": 6,
+          "K-12": 49,
+          "Transit": 9,
           "Workplace": 6,
           "Venue": 6,
           "Higher Ed": 5,
-          "Healthcare": 4,
-          "Government": 3,
-          "Other": 1
+          "Retail": 5,
+          "Government": 4,
+          "Healthcare": 3,
+          "Other": 2
         },
-        "states": 30,
+        "states": 31,
         "confirmed_hoax": 28,
         "arrests": 4,
-        "under_investigation": 53,
+        "under_investigation": 52,
         "per_day": {
-          "2026-11-10": 7,
           "2026-11-11": 6,
           "2026-11-12": 5,
           "2026-11-13": 4,
@@ -23370,10 +23531,10 @@
           "2026-11-20": 10,
           "2026-11-21": 6,
           "2026-11-22": 3,
-          "2026-11-23": 6
+          "2026-11-23": 6,
+          "2026-11-24": 6
         },
         "per_day_schools": {
-          "2026-11-10": 3,
           "2026-11-11": 1,
           "2026-11-12": 4,
           "2026-11-13": 1,
@@ -23386,7 +23547,8 @@
           "2026-11-20": 8,
           "2026-11-21": 1,
           "2026-11-22": 1,
-          "2026-11-23": 4
+          "2026-11-23": 4,
+          "2026-11-24": 4
         }
       },
       "suspicious_mail": {
@@ -23396,14 +23558,14 @@
     }
   },
   "last_run": {
-    "ingested": 128,
-    "skipped_seen": 81,
-    "recognized": 12,
-    "new": 5,
-    "updated": 0,
-    "rejected": 34,
+    "ingested": 141,
+    "skipped_seen": 93,
+    "recognized": 19,
+    "new": 8,
+    "updated": 1,
+    "rejected": 27,
     "errors": 0,
-    "attempted": 47,
+    "attempted": 48,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23418,8 +23580,8 @@
         "edition": "US:en",
         "q": 1,
         "route": "direct",
-        "attempt": 2,
-        "items": 44
+        "attempt": 1,
+        "items": 39
       },
       {
         "edition": "GB:en",
@@ -23433,7 +23595,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 49
       },
       {
         "edition": "CA:en",
@@ -23447,10 +23609,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 44
+        "items": 39
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-24T17:42:35.286246Z"
+    "ran_at": "2026-11-25T02:26:52.142660Z"
   }
 }
