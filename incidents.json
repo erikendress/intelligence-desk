@@ -1,7 +1,234 @@
 {
-  "generated": "2026-11-25T12:51:57.971142Z",
-  "count": 1149,
+  "generated": "2026-11-25T22:32:02.418323Z",
+  "count": 1159,
   "incidents": [
+    {
+      "id": 1960,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "O'Fallon Regions Bank",
+      "city": "O'Fallon",
+      "state": "Illinois",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed real",
+      "cluster": "O'Fallon Regions Bank bomb threat robbery 2026-11-25",
+      "notes": "FBI: Belleville man used bomb threat to rob O'Fallon Regions Bank branch",
+      "lat": 38.5923,
+      "lng": -89.9112,
+      "src": "NPR Illinois",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUhWNVd3ZkNZZ21EV1ZIbFZSVG4tT0Zqc2NxejdSRF9DdnR4Z29tOU1WTmxmWDFuQnlYSXNtX1RiQmVzX25BX3BxYVF1YWFsMVJ1T0NXUEdzcjdDVDI0SEcyeVRYTVMzU0plcnhrMkFuRTdGaVBPMkhpM010YXdodjBWOE1QbHo0aXNhc3Z0NTVJYnYxUVVnRExvODFVbGdiNTlGb240Y2wwRlIxZG9MdFRyU1hJRmR3b3c?oc=5",
+      "sources": 1,
+      "county": "Saint Clair County"
+    },
+    {
+      "id": 1959,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "CNN",
+      "city": "New York",
+      "state": "New York",
+      "sector": "Workplace",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "CNN_NY_bomb_threat_20261125",
+      "notes": "NY police give all clear after CNN bomb threat",
+      "lat": 40.7127,
+      "lng": -74.006,
+      "src": "Yeni Safak English",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV3pDaHFTTXdiWVpwRWRRUFZoZEs5LW1Lb2VPMGQtZzhneXRQRmlUczZxcjFjY2Jaekh1cHdvN2d0THlvM243MXc4aHRhYzZTSlVTUjd3eXlSS2xvbmRQQVFudjJZazZlbHhfbGxCY3doTkN5dDhKNlZGd210TTNJSkI1Qk5neHpwdE5hYklB?oc=5",
+      "sources": 1,
+      "county": null
+    },
+    {
+      "id": 1958,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Home Depot",
+      "city": "Wilkins Township",
+      "state": "Pennsylvania",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Wilkins Township PA Home Depot bomb threat 2026-11-25",
+      "notes": "Bomb threat prompts evacuations at Home Depot in Wilkins Township",
+      "lat": 40.4247,
+      "lng": -79.8219,
+      "src": "WPXI",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbVF6Q01mbml3VUYybUZ1b29kVURWY3h2dHd3bEpYOXNhWnk3X2lMY1JWTjFlaG80UUFDNm1BYlZVcWM3ZTAyU2lhb0NPcDE0LThWVWVMNjItTUlQSFVZRDRJWUFrMTRPdm9yRHZqRFZSLW9EV0Z0WE9fLXFkTVAzbFhnTVFmd0hZX0JmTTlBY3BnOUI2bU5FQUFCSm5wTlMxSFdYZmdCdFljU0hrMjJGdU1yTnJHMjRtWVhUQl9qZTEyOHBlTFZMTWUwXzE0OW_SAc8BQVVfeXFMTW1RekNNZm5pd1VGMm1GdW9vZFVEVmN4dnR3d2xKWDlzYVp5N19pTGNSVk4xZWhvNFFBQzZtQWJWVXFjN2UwMlNpYW9DT3AxNC04VlVlTDYyLU1JUEhVWUQ0SVlBazE0T3ZvckR2akRWUi1vRFdGdFhPXy1xZE1QM2xYZ01RZndIWV9CZk05QWNwZzlCNm1ORUFBQkpucE5TMUhXWGZnQnRZY1NIazIyRnVNck5yRzI0bVlYVEJfamUxMjhwZUxWTE1lMF8xNDlv?oc=5",
+      "sources": 2,
+      "county": "Allegheny County"
+    },
+    {
+      "id": 1957,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Wilson Area Intermediate School",
+      "city": "Wilson",
+      "state": "Pennsylvania",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Wilson Area Intermediate School false alarm 2026-11-25",
+      "notes": "false alarm of active shooter at Wilson Area Intermediate School, staff member accidentally triggered emergency alert system",
+      "lat": 40.684,
+      "lng": -75.2418,
+      "src": "WFMZ.com",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPN2M5YVNCUjBzZzYwbTRYdXJXMTVCQks5aFJPaHh6M0tWRGdEOTJpbDVCWFdTeE5DeGJkb1RUT2ZWcEhMSTRVVkdubGpGYzNMT1pvYWRCVWR6YTZfMXlpb0FUN0Z2b1ZwanNiZm9yN0sxR0l1TVRJRDJzQjRpYVJkZWlEX0xUUjNId2RvRlEtZzJJY3o0U0ltM3Zrd0V0Y2pmTEg2TjJhR0M5VHBVVHA2RUtCUk9rVVRrbTNvbTNCalFIS09ONkFLQVg5X0pEQWVvRC0ydGtIQmoxM2RWZzVBZ2hQR0dFWGF5V19oV3lUak9XdmVxbTFhQktSd3lPMC1sOXNpdWc3YndteTVUWWNmRXZMZy1xaENEMFljb3BVcGxEYzVYV0o5MjdfeDFuMk9Ba1M2VlFvYnRfdVU4V0lV?oc=5",
+      "sources": 1,
+      "county": "Northampton County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-20",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1956,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Fair Lawn High School",
+      "city": "Fair Lawn",
+      "state": "New Jersey",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Confirmed hoax",
+      "cluster": "Fair Lawn HS bomb threat 2026-11-25",
+      "notes": "Unfounded Bomb Threat Shelters Fair Lawn HS In Place",
+      "lat": 40.9358,
+      "lng": -74.1175,
+      "src": "TAPinto",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNXzNBQTNqLXE1RmRxVkx5Vk0zaFo0UV9VYnNfZjU5N1dQYXAxWFVYdDJHa1J3RmQtSWdrbnF6Vnc5VWtEaXVZQWU2N3Z3bWJxLWtrYzdBaU4yU0ozLTBvMEJxZjFqVVhtX1ZndnY3cGI4bThUNjdvaXYtZE0yLWdkVWhBZ0V3TU1NMDRtYXozTm5UMngzOUZNWHFxYU04Q0lQclowa1VJdXhnZmpuRGJTV1g2cHFBSjllNFU4Yzdha050RXlPNTZqd2J6OEV2YUVZYTRsc04xUFI0NEk?oc=5",
+      "sources": 1,
+      "county": "Bergen County"
+    },
+    {
+      "id": 1955,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Lodge Kohler",
+      "city": null,
+      "state": null,
+      "sector": "Other",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Lodge Kohler hostage bomb threat 2026-11-25",
+      "notes": "False hostage and bomb threat at Lodge Kohler",
+      "lat": null,
+      "lng": null,
+      "src": "WTAQ",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNVZBM3RHZmJPWmd1UTB3QVg2a1hDYXB0SmI2Y0V1UVJDbm5kWGdncjZRWm5iOFhNbXd4TzdBbEdNbUg4VmdlY2FXcWlXRVNmS3Fub1o0T2NBZ01GUFNmazltbXFZZUxVOW45VVhlLTN3aU9HQXJ3YVB2Z2czc0U?oc=5",
+      "sources": 1,
+      "county": null,
+      "signals": {
+        "stacked": true
+      }
+    },
+    {
+      "id": 1954,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Weatherford Aerospace",
+      "city": "Weatherford",
+      "state": "Texas",
+      "sector": "Workplace",
+      "type": "Credible Threat",
+      "response": "Shelter-in-place",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Weatherford Aerospace fire 2026-11-25",
+      "notes": "Fire at Weatherford Aerospace under control, shelter-in-place order lifted",
+      "lat": 32.759,
+      "lng": -97.7971,
+      "src": "FOX 4 News Dallas-Fort Worth",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQm43bmtfVlpBUzhIWUwyQnhVOXNxa2w1Uzh0TzhPNS1JMFlrT000MmxPR1EweFJkZDVXMmlTb1VvTU9hbHJIQlVPLTg4bWMxY1VlcGxJbWYwY2ctczBsejFpcC1vTWRBVHZnSlhRRHZyeE5hZ0VTOWw1R0dsOU1nMmpmcm9BTXBoT0JsUl9FVTdyUmtsRkE?oc=5",
+      "sources": 1,
+      "county": "Parker County"
+    },
+    {
+      "id": 1953,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Rapid City Mall",
+      "city": "Rapid City",
+      "state": "South Dakota",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Rapid City mall bomb threat Nov 2026",
+      "notes": "Rapid City mall bomb threat",
+      "lat": 44.0806,
+      "lng": -103.228,
+      "src": "KOTA Territory News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeVVKX01TR0E1cHNtdkV1RmtTLS1lUWlyMmpRaS1rYzRyTzREY2p1bUJNazJNWW1oQjNyVnlQaVJnWjJhUTFYQmFzWU5haURScE5FT1FJeHRmUml0V3JXdkg1cjBwelNwaUV6eDNGcnp3LW9yVXFCZHltWDZ1T0ZmTTE0TEZqdHJRVUhkdS1Ic1NmaHpVNld3dFBoY2dJWlNiT1hNYjhxZGZWaUh5NWExVkI4RGZoY2ZaNC02MdIB0AFBVV95cUxQSnB2anBPRXFXbWEta1pRYVRDVXVZV1RPeEhtYlZnUm93eGtWWWlyYl9RUW80djY2dS13UzI4MXhCd055eVZyQkM3VVdPYmtDYl9adHVrRlFvWENRUHh2MTZwdUhyUVE2TmxXYUNqUW41MU53VjBlX3N3NGpwODFmWmdoNFdYanlPMHcyX0QzbUg1RDItTGcweUI4ZXRvNW15ZE5kYTlpb0tCeEZlb0JGRkFoTUp5VGNwYmlfRjhTNUV6a25qcnhDVXM0YWYtOE5a?oc=5",
+      "sources": 1,
+      "county": "Pennington County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-22",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1952,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Henry Mayo Newhall Hospital",
+      "city": "Santa Clarita",
+      "state": "California",
+      "sector": "Healthcare",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Under investigation",
+      "cluster": "Henry Mayo Newhall Hospital bomb threat 2026-11-25",
+      "notes": "Bomb threat reported at Henry Mayo Newhall Hospital, no bomb found",
+      "lat": 34.4128,
+      "lng": -118.5538,
+      "src": "Santa Clarita Valley Signal",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yT1FPTnNOSHlOZEFoQjN3OS1YdW5nTTJhRHhFY2VoMGJ6RUdYUXlmTGlkaXRRWFowMGZOcWFOY1V0bERNM1Bzb2F4MURxTU55MmFmRW80WnhfQ0szUHJRczFCY2o4c3V5cnJoYU9qWDZoNVk?oc=5",
+      "sources": 1,
+      "county": "Los Angeles County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-20",
+          "window_days": 7
+        }
+      }
+    },
+    {
+      "id": 1951,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Lodge Kohler",
+      "city": "Ashwaubenon",
+      "state": "Wisconsin",
+      "sector": "Other",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Lodge Kohler swatting 2026-11-25",
+      "notes": "Ashwaubenon Public Safety says Lodge Kohler incident was a swatting call",
+      "lat": 44.4753,
+      "lng": -88.0607,
+      "src": "WBAY",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSUo1eGpOeEFmZ0Y1c0ZaYXNKLWRxaHlzdU44OU0wa3NYbTN3ajQyX24tVGdDc3FEWnAtaGdFeTZoQTFWeFg2MzV3QXE0ZWphWjBZd041UFNVc29hNjZxanZqMTU4b040ZVFGWkxwVVpva0ptYmQ1OE5ZMS1BSTBnVVBCamZqWjVfQW1UT1ZCYkNSVmZkQUViVnQ5blVLWGxqWllKcGx3?oc=5",
+      "sources": 2,
+      "county": "Brown County",
+      "signals": {
+        "stacked": true
+      }
+    },
     {
       "id": 1949,
       "country": "United States",
@@ -23433,6 +23660,17 @@
         ]
       },
       {
+        "county": "Los Angeles County",
+        "region": "California",
+        "country": "United States",
+        "events": 3,
+        "dates": [
+          "2026-11-16",
+          "2026-11-20",
+          "2026-11-25"
+        ]
+      },
+      {
         "county": "Contra Costa County",
         "region": "California",
         "country": "United States",
@@ -23450,16 +23688,6 @@
         "dates": [
           "2026-11-18",
           "2026-11-19"
-        ]
-      },
-      {
-        "county": "Los Angeles County",
-        "region": "California",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-16",
-          "2026-11-20"
         ]
       },
       {
@@ -23549,6 +23777,13 @@
         "date": "2026-11-25",
         "facility": "Napoleon School",
         "region": "Ohio",
+        "country": "United States"
+      },
+      {
+        "id": 1951,
+        "date": "2026-11-25",
+        "facility": "Lodge Kohler",
+        "region": "Wisconsin",
         "country": "United States"
       },
       {
@@ -23645,14 +23880,14 @@
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 120,
-    "recognized": 4,
-    "new": 3,
+    "ingested": 123,
+    "skipped_seen": 73,
+    "recognized": 12,
+    "new": 10,
     "updated": 0,
-    "rejected": 16,
+    "rejected": 31,
     "errors": 0,
-    "attempted": 24,
+    "attempted": 50,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23668,7 +23903,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 40
+        "items": 41
       },
       {
         "edition": "GB:en",
@@ -23682,7 +23917,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 52
+        "items": 41
       },
       {
         "edition": "CA:en",
@@ -23696,10 +23931,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 51
+        "items": 41
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-25T12:51:57.946904Z"
+    "ran_at": "2026-11-25T22:32:02.400790Z"
   }
 }
