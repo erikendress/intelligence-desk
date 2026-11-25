@@ -1,7 +1,50 @@
 {
-  "generated": "2026-11-25T02:26:52.162846Z",
-  "count": 1146,
+  "generated": "2026-11-25T12:51:57.971142Z",
+  "count": 1149,
   "incidents": [
+    {
+      "id": 1949,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Napoleon School",
+      "city": "Napoleon",
+      "state": "Ohio",
+      "sector": "K-12",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Under investigation",
+      "cluster": "Napoleon OH bomb and active-shooter threats 2026-11-25",
+      "notes": "Bomb and active-shooter threats prompt evacuation at Napoleon school",
+      "lat": 41.3923,
+      "lng": -84.1252,
+      "src": "wtol.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbnplc0ZLX3dWcWlZc1dXeHg5OUxSeS1TaU5DOEFSZTBRdXVLeVpMUkREWHFVSmE3dUpLeHhIMFlUcFlxOVNyRzNULWsxc1JhQkVjSkN4Yi1DUW96SGFPWEktTG1xREpIVTFsblVkNHZMTVJJb2VXN3Y2VXVDeHZoQVR4dVF5YXplMVRqUXNzcTJPdm5oR0toZkRTTHlBV3NMQ083WXJwd2FmNjdOeGJWTHBZRE1SR3FXWWRPRHdvUWZfRFN3Z2dZLWdGUmZGczNLeENyTklxNS1xVHU2WjJHRw?oc=5",
+      "sources": 1,
+      "county": "Henry County",
+      "signals": {
+        "stacked": true
+      }
+    },
+    {
+      "id": 1948,
+      "country": "United States",
+      "date": "2026-11-25",
+      "school": "Huntley High School",
+      "city": "Huntley",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Confirmed hoax",
+      "cluster": "Huntley HS active shooter false alarm 2026-11-25",
+      "notes": "Active shooter scare at Huntley High School was false alarm after lockdown alert prompts police response",
+      "lat": 42.1723,
+      "lng": -88.4269,
+      "src": "Lake and McHenry County Scanner",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRVNHYkM0b2hIekJ5X3ZwaEhmemlIMUlNYVgyMnVtejVINzE1YzFPcnBpc05XeVBJQzQxejYzeUh4dk1qeHlJd0ZUTHcyODEyM0pHRVNmcnZnZ2phRXdqUTRtTXN1NlB6V25lUFVYb0hwVEpoSEx4ZElPVWg3QmV6eHJ2UFhVZmJyZ0N4N2lIQTBlYV85bER4b1lGTHpjQ2lOSU1lRnJqakZicDJEUkVadkJTbFctSmJWd3JMTkp6T0dYZVFCdU1mZ2pDb1lmZnNzQTQ0M0JWNk1WcGlrUGh4ak1Yb1E1dw?oc=5",
+      "sources": 1,
+      "county": "McHenry County"
+    },
     {
       "id": 1941,
       "country": "United States",
@@ -21,6 +64,33 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeXRqdm40RFJlcGJZS1huLUJwZF9zaFM3dWE1NnZaRE9XTDYxSi1KV01MSFdvWDNzdGJDbXg1TGE0d2xpd19ad1hvVDBPUEJjenVLSHU1WWZGT1ludzhuQk53ZjctM0hrYy13aUlZQ01FZG9vRldMbDJEQURFa29WNA?oc=5",
       "sources": 1,
       "county": null
+    },
+    {
+      "id": 1950,
+      "country": "United States",
+      "date": "2026-11-24",
+      "school": "West Aurora High School",
+      "city": "Aurora",
+      "state": "Illinois",
+      "sector": "K-12",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "West Aurora High School bomb threat swatting 2026-11-24",
+      "notes": "Bomb Threat At West Aurora High School Was Another Swatting Incident: Police",
+      "lat": 41.7572,
+      "lng": -88.3148,
+      "src": "Patch",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV1ppVGRRT2JsUXdWdURNZmFpbWZGM3FnNzRKN1Nzak5yX0RrVDR6Yy1EdnloS3FFUVpINHRoZzU0T3NTdDNjOE9BcEpIYWcxYk56aHV5b0dwemZtRVpZODI4WlB6bENkYy1qcUhBS3JlLW5vWVd2TFhhQ0VMYWJjVmlIdmxBTXVnQmZBemFSbkJpNGdVRUpQM2hSMUJvLTFfeENOUDRkbko1UdIBvwFBVV95cUxPcnlzVVVRZGpmcU9fN3pDcTJvVXJPYVZiSkRpQVFSYWtReEt2N0xYTk9FdTJXWnFDdTNhYnlHb2NJM3BpWVVSWTExSC13RDB4TnFOQ2JYSHUxTDRMMlluc2VuYWhnLVhYNW9vX0hmVVFaZUhPUU5jTDJ2Y0lLQmpHN2tfQXBYX1VGVFpYV1MweEZZSzUxREFKeGJyendfc2pPcEJ1WGhkZUlybTBOeWotY21Cc1EwZi0wR0E5eDhmbw?oc=5",
+      "sources": 1,
+      "county": "Kane County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-18",
+          "window_days": 7
+        }
+      }
     },
     {
       "id": 1947,
@@ -230,26 +300,6 @@
       "county": "Kent County"
     },
     {
-      "id": 1934,
-      "country": "United States",
-      "date": "2026-11-24",
-      "school": "Samaritan Hospital",
-      "city": "Troy",
-      "state": "New York",
-      "sector": "Healthcare",
-      "type": "Weapon / Intruder",
-      "response": "Lockdown",
-      "outcome": "Under investigation",
-      "cluster": "Troy NY shooting 2026-11-24",
-      "notes": "Lockdown lifted at Samaritan Hospital after Troy shooting",
-      "lat": 42.7284,
-      "lng": -73.6918,
-      "src": "WRGB",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQTGQ2aE5HYUZxd0tXNWVTT29mQVBwakNKUnNvZERpT2JGNEZmQkVDTzFod1gwNnJLUnVPNUlNQXZtRTZSSmIwM1Zmb2FjR2o1QzBpSzd1SV9fOXpnNWJ2WXZheUFVWXRsb2lEbzBYVFllUHBLbF9FZGJ2emlCcUtiNGE3bnRLbnRuRGxWLXdhb09Ncm1Za1NQRkZCTm1LaDNRaUZMakhtVFFBM1NXOFU0MC00cElOUXJWVERjaG5oUFpPT0p1bzJCQVZud0tiSFEzSG9BSms4c3lIeFZKa0g5TnZvQzI5VTNVbnhKV2MzTFhqV24wZkVQZ0FPSGNIWjZiMGFmYVpzUUxqYjhLZy1ULTNyeGpFblBselpOOUxBMlR4elBHSnc?oc=5",
-      "sources": 1,
-      "county": "Rensselaer County"
-    },
-    {
       "id": 1935,
       "country": "United States",
       "date": "2026-11-23",
@@ -268,6 +318,26 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVS1jNHJWTUw2MUh4VDRDMTRDbURWOEp2Z3pzcVc1R1RwR2JQTDEtZmtoUVViZlVKZzRudXFTdzhkYnlLVDVrNHNXUU1KRWs2R2xsemtyS3pid3hJSVkwWGFjWV9DeV91QkYxUTY5RkV0UGVfOUowZ1pMS2ktaWhWc3VEVkpOQ1F4ZWV4RW9mTQ?oc=5",
       "sources": 1,
       "county": null
+    },
+    {
+      "id": 1934,
+      "country": "United States",
+      "date": "2026-11-23",
+      "school": "Samaritan Hospital",
+      "city": "Troy",
+      "state": "New York",
+      "sector": "Healthcare",
+      "type": "Weapon / Intruder",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "Troy NY shooting 2026-11-24",
+      "notes": "Lockdown lifted at Samaritan Hospital after Troy shooting",
+      "lat": 42.7284,
+      "lng": -73.6918,
+      "src": "WRGB",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQTGQ2aE5HYUZxd0tXNWVTT29mQVBwakNKUnNvZERpT2JGNEZmQkVDTzFod1gwNnJLUnVPNUlNQXZtRTZSSmIwM1Zmb2FjR2o1QzBpSzd1SV9fOXpnNWJ2WXZheUFVWXRsb2lEbzBYVFllUHBLbF9FZGJ2emlCcUtiNGE3bnRLbnRuRGxWLXdhb09Ncm1Za1NQRkZCTm1LaDNRaUZMakhtVFFBM1NXOFU0MC00cElOUXJWVERjaG5oUFpPT0p1bzJCQVZud0tiSFEzSG9BSms4c3lIeFZKa0g5TnZvQzI5VTNVbnhKV2MzTFhqV24wZkVQZ0FPSGNIWjZiMGFmYVpzUUxqYjhLZy1ULTNyeGpFblBselpOOUxBMlR4elBHSnc?oc=5",
+      "sources": 2,
+      "county": "Rensselaer County"
     },
     {
       "id": 1933,
@@ -23461,9 +23531,26 @@
           "2026-11-20",
           "2026-11-24"
         ]
+      },
+      {
+        "county": "Kane County",
+        "region": "Illinois",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-18",
+          "2026-11-24"
+        ]
       }
     ],
     "stacked_recent": [
+      {
+        "id": 1949,
+        "date": "2026-11-25",
+        "facility": "Napoleon School",
+        "region": "Ohio",
+        "country": "United States"
+      },
       {
         "id": 1893,
         "date": "2026-11-20",
@@ -23499,12 +23586,12 @@
       "to": "2026-11-24",
       "days": 14,
       "hoax": {
-        "total": 89,
+        "total": 90,
         "bomb": 61,
-        "swatting": 28,
-        "schools": 54,
+        "swatting": 29,
+        "schools": 55,
         "by_sector": {
-          "K-12": 49,
+          "K-12": 50,
           "Transit": 9,
           "Workplace": 6,
           "Venue": 6,
@@ -23515,7 +23602,7 @@
           "Other": 2
         },
         "states": 31,
-        "confirmed_hoax": 28,
+        "confirmed_hoax": 29,
         "arrests": 4,
         "under_investigation": 52,
         "per_day": {
@@ -23532,7 +23619,7 @@
           "2026-11-21": 6,
           "2026-11-22": 3,
           "2026-11-23": 6,
-          "2026-11-24": 6
+          "2026-11-24": 7
         },
         "per_day_schools": {
           "2026-11-11": 1,
@@ -23548,7 +23635,7 @@
           "2026-11-21": 1,
           "2026-11-22": 1,
           "2026-11-23": 4,
-          "2026-11-24": 4
+          "2026-11-24": 5
         }
       },
       "suspicious_mail": {
@@ -23558,14 +23645,14 @@
     }
   },
   "last_run": {
-    "ingested": 141,
-    "skipped_seen": 93,
-    "recognized": 19,
-    "new": 8,
-    "updated": 1,
-    "rejected": 27,
+    "ingested": 144,
+    "skipped_seen": 120,
+    "recognized": 4,
+    "new": 3,
+    "updated": 0,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 48,
+    "attempted": 24,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23581,7 +23668,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 40
       },
       {
         "edition": "GB:en",
@@ -23595,7 +23682,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 52
       },
       {
         "edition": "CA:en",
@@ -23609,10 +23696,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 51
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-25T02:26:52.142660Z"
+    "ran_at": "2026-11-25T12:51:57.946904Z"
   }
 }
