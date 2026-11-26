@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-26T05:03:35.730052Z",
-  "count": 1159,
+  "generated": "2026-11-26T15:13:04.105015Z",
+  "count": 1160,
   "incidents": [
+    {
+      "id": 1961,
+      "country": "United Kingdom",
+      "date": "2026-11-26",
+      "school": "Royal Navy headquarters",
+      "city": "Portsmouth",
+      "state": "England",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Portsmouth bomb threat 2026-11-26",
+      "notes": "UK police respond to bomb threat at Royal Navy headquarters in Portsmouth",
+      "lat": 50.8,
+      "lng": -1.0906,
+      "src": "The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ckxHWlhkcnBIWFZqY29RWHdMV1MyY3hVeUFTTE84MTJuVlZkN0h3R2p5bmxsaE8yREtzS0dzRUhlY0x5ZnZqYzFLRkFSMkJqM3JXYmhMZk9VQUE1Y0RF?oc=5",
+      "sources": 5,
+      "county": null
+    },
     {
       "id": 1960,
       "country": "United States",
@@ -730,7 +750,7 @@
       "lng": -75.3595,
       "src": "6abc Philadelphia",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU0FXRk9YUXFBZGhPUVRZS3BCQ2d0VEdEYk8xSkxMY3k2bVpNS0Zvbm9rdm8zMVg1bTg4QmY2N2hWNFVYd25jNi1LNnF0U3BOSDdQa3BMN2d6QzJ4dkluQzVHWm14T2t3bzRqYU9oOUhhbVBXRjFHczRhUjh1MDV2TURuUmpobFFhaHRNMzR0RlBhblhVeXR0dVliU3h3SXNvT2ROZWd6dEtJVW85WWfSAbMBQVVfeXFMTnk0UjRmcC1ldk5JY2VaWlYxZVNQUGlOeFRNLWJOWVl6d1lNQTFIM2l2R3JjczRteXFXNlRhZEw4VnRTZExKZy1kYURzSUw2UTctdkMtRFRIX0J2amg3aDlUODBrMXo3QlBGajd6eWVyZFJEVkkzUExjdG83NnlhWjRnSXpEVHU4QXE0eDRGN0JheU14dFpBcXB6dGJhdHRKTG9tT2tLVW92UTI3RldoaWZKNjA?oc=5",
-      "sources": 6,
+      "sources": 7,
       "county": "Delaware County"
     },
     {
@@ -23874,14 +23894,14 @@
     }
   },
   "last_run": {
-    "ingested": 124,
-    "skipped_seen": 102,
+    "ingested": 144,
+    "skipped_seen": 111,
     "recognized": 6,
-    "new": 0,
-    "updated": 0,
-    "rejected": 16,
+    "new": 1,
+    "updated": 1,
+    "rejected": 25,
     "errors": 0,
-    "attempted": 22,
+    "attempted": 33,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23897,7 +23917,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 48
+        "items": 49
       },
       {
         "edition": "GB:en",
@@ -23911,24 +23931,24 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 39
+        "items": 36
       },
       {
         "edition": "CA:en",
         "q": 0,
-        "route": "none",
-        "attempt": 14,
-        "items": 0
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
       },
       {
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 48
+        "items": 36
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-26T05:03:35.709244Z"
+    "ran_at": "2026-11-26T15:13:04.084607Z"
   }
 }
