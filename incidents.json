@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T22:32:02.418323Z",
+  "generated": "2026-11-26T05:03:35.730052Z",
   "count": 1159,
   "incidents": [
     {
@@ -19,7 +19,7 @@
       "lng": -89.9112,
       "src": "NPR Illinois",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMUhWNVd3ZkNZZ21EV1ZIbFZSVG4tT0Zqc2NxejdSRF9DdnR4Z29tOU1WTmxmWDFuQnlYSXNtX1RiQmVzX25BX3BxYVF1YWFsMVJ1T0NXUEdzcjdDVDI0SEcyeVRYTVMzU0plcnhrMkFuRTdGaVBPMkhpM010YXdodjBWOE1QbHo0aXNhc3Z0NTVJYnYxUVVnRExvODFVbGdiNTlGb240Y2wwRlIxZG9MdFRyU1hJRmR3b3c?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Saint Clair County"
     },
     {
@@ -59,7 +59,7 @@
       "lng": -79.8219,
       "src": "WPXI",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbVF6Q01mbml3VUYybUZ1b29kVURWY3h2dHd3bEpYOXNhWnk3X2lMY1JWTjFlaG80UUFDNm1BYlZVcWM3ZTAyU2lhb0NPcDE0LThWVWVMNjItTUlQSFVZRDRJWUFrMTRPdm9yRHZqRFZSLW9EV0Z0WE9fLXFkTVAzbFhnTVFmd0hZX0JmTTlBY3BnOUI2bU5FQUFCSm5wTlMxSFdYZmdCdFljU0hrMjJGdU1yTnJHMjRtWVhUQl9qZTEyOHBlTFZMTWUwXzE0OW_SAc8BQVVfeXFMTW1RekNNZm5pd1VGMm1GdW9vZFVEVmN4dnR3d2xKWDlzYVp5N19pTGNSVk4xZWhvNFFBQzZtQWJWVXFjN2UwMlNpYW9DT3AxNC04VlVlTDYyLU1JUEhVWUQ0SVlBazE0T3ZvckR2akRWUi1vRFdGdFhPXy1xZE1QM2xYZ01RZndIWV9CZk05QWNwZzlCNm1ORUFBQkpucE5TMUhXWGZnQnRZY1NIazIyRnVNck5yRzI0bVlYVEJfamUxMjhwZUxWTE1lMF8xNDlv?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Allegheny County"
     },
     {
@@ -126,7 +126,7 @@
       "lng": null,
       "src": "WTAQ",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNVZBM3RHZmJPWmd1UTB3QVg2a1hDYXB0SmI2Y0V1UVJDbm5kWGdncjZRWm5iOFhNbXd4TzdBbEdNbUg4VmdlY2FXcWlXRVNmS3Fub1o0T2NBZ01GUFNmazltbXFZZUxVOW45VVhlLTN3aU9HQXJ3YVB2Z2czc0U?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": null,
       "signals": {
         "stacked": true
@@ -149,7 +149,7 @@
       "lng": -97.7971,
       "src": "FOX 4 News Dallas-Fort Worth",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQm43bmtfVlpBUzhIWUwyQnhVOXNxa2w1Uzh0TzhPNS1JMFlrT000MmxPR1EweFJkZDVXMmlTb1VvTU9hbHJIQlVPLTg4bWMxY1VlcGxJbWYwY2ctczBsejFpcC1vTWRBVHZnSlhRRHZyeE5hZ0VTOWw1R0dsOU1nMmpmcm9BTXBoT0JsUl9FVTdyUmtsRkE?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Parker County"
     },
     {
@@ -223,7 +223,7 @@
       "lng": -88.0607,
       "src": "WBAY",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSUo1eGpOeEFmZ0Y1c0ZaYXNKLWRxaHlzdU44OU0wa3NYbTN3ajQyX24tVGdDc3FEWnAtaGdFeTZoQTFWeFg2MzV3QXE0ZWphWjBZd041UFNVc29hNjZxanZqMTU4b040ZVFGWkxwVVpva0ptYmQ1OE5ZMS1BSTBnVVBCamZqWjVfQW1UT1ZCYkNSVmZkQUViVnQ5blVLWGxqWllKcGx3?oc=5",
-      "sources": 2,
+      "sources": 3,
       "county": "Brown County",
       "signals": {
         "stacked": true
@@ -11469,10 +11469,7 @@
       "src": "WNMU-FM",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTkRlQVdnZ3ZRTFUwUi1kU0hZUmtkNWtlWVVDR001NkZhVk5xRFJrSlFQQUhRS0N3anczSDZ0cUlZSlh2NmJQbGducTFXSmY4MXk1dkFjVk1FbW04S25XbXdadV81YUhDWGNhcDVRc05TWDROaDkxX0txMDVwUWpraEIxX0NwbUpNd000b0lMbS04dWhaclRGNG1DWHR5MnV3R1loQm9WV2ZVelJuWkxPcU9BQzh2cUh3Wms2cmlpVGVCSHF6RWtKMU1fYUVoQTJ1VG1vcA?oc=5",
       "sources": 1,
-      "county": "Florence County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Florence County"
     },
     {
       "id": 1320,
@@ -11492,10 +11489,7 @@
       "src": "Upper Michigan's Source",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVW9lSFdQaUVmbFVSZ0t6bUFwMG81LVdLYlI0OUgtOUE5bFZOWllmV25RMlc4N1ItLVlVTXlxbnM4cGxmZUxmYjJSSzUyNUdLN2JOcC1rYWw2cVRkZ0dRa2s5Skx0eWFKemFEOFVORndDY0s3Uk9oUmE0LTlVN0R0Wlo2ZVR4eHRucmlvVmpPczEzRmp4eWpjbzBBbFZsUWxNNFlKcVYwajVKMnBfR09CdHhjRGpZWVotY3dUT01xcw?oc=5",
       "sources": 1,
-      "county": "Isabella County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Isabella County"
     },
     {
       "id": 1315,
@@ -23640,7 +23634,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-25",
+    "computed": "2026-11-26",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -23711,16 +23705,6 @@
         ]
       },
       {
-        "county": "Durham County",
-        "region": "North Carolina",
-        "country": "United States",
-        "events": 2,
-        "dates": [
-          "2026-11-11",
-          "2026-11-22"
-        ]
-      },
-      {
         "county": "Barnstable County",
         "region": "Massachusetts",
         "country": "United States",
@@ -23768,6 +23752,16 @@
         "dates": [
           "2026-11-18",
           "2026-11-24"
+        ]
+      },
+      {
+        "county": "Northampton County",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "events": 2,
+        "dates": [
+          "2026-11-20",
+          "2026-11-25"
         ]
       }
     ],
@@ -23817,31 +23811,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-11",
-      "to": "2026-11-24",
+      "from": "2026-11-12",
+      "to": "2026-11-25",
       "days": 14,
       "hoax": {
-        "total": 90,
-        "bomb": 61,
-        "swatting": 29,
-        "schools": 55,
+        "total": 95,
+        "bomb": 64,
+        "swatting": 31,
+        "schools": 59,
         "by_sector": {
-          "K-12": 50,
-          "Transit": 9,
-          "Workplace": 6,
+          "K-12": 54,
+          "Retail": 8,
+          "Workplace": 7,
+          "Transit": 6,
           "Venue": 6,
           "Higher Ed": 5,
-          "Retail": 5,
           "Government": 4,
-          "Healthcare": 3,
-          "Other": 2
+          "Other": 3,
+          "Healthcare": 2
         },
         "states": 31,
-        "confirmed_hoax": 29,
-        "arrests": 4,
-        "under_investigation": 52,
+        "confirmed_hoax": 32,
+        "arrests": 3,
+        "under_investigation": 55,
         "per_day": {
-          "2026-11-11": 6,
           "2026-11-12": 5,
           "2026-11-13": 4,
           "2026-11-14": 3,
@@ -23854,10 +23847,10 @@
           "2026-11-21": 6,
           "2026-11-22": 3,
           "2026-11-23": 6,
-          "2026-11-24": 7
+          "2026-11-24": 7,
+          "2026-11-25": 11
         },
         "per_day_schools": {
-          "2026-11-11": 1,
           "2026-11-12": 4,
           "2026-11-13": 1,
           "2026-11-14": 1,
@@ -23870,7 +23863,8 @@
           "2026-11-21": 1,
           "2026-11-22": 1,
           "2026-11-23": 4,
-          "2026-11-24": 5
+          "2026-11-24": 5,
+          "2026-11-25": 5
         }
       },
       "suspicious_mail": {
@@ -23880,14 +23874,14 @@
     }
   },
   "last_run": {
-    "ingested": 123,
-    "skipped_seen": 73,
-    "recognized": 12,
-    "new": 10,
+    "ingested": 124,
+    "skipped_seen": 102,
+    "recognized": 6,
+    "new": 0,
     "updated": 0,
-    "rejected": 31,
+    "rejected": 16,
     "errors": 0,
-    "attempted": 50,
+    "attempted": 22,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23903,7 +23897,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 48
       },
       {
         "edition": "GB:en",
@@ -23917,24 +23911,24 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 39
       },
       {
         "edition": "CA:en",
         "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
+        "route": "none",
+        "attempt": 14,
+        "items": 0
       },
       {
         "edition": "CA:en",
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 41
+        "items": 48
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-25T22:32:02.400790Z"
+    "ran_at": "2026-11-26T05:03:35.709244Z"
   }
 }
