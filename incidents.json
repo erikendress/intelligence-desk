@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-26T15:13:04.105015Z",
-  "count": 1160,
+  "generated": "2026-11-26T23:51:23.276032Z",
+  "count": 1161,
   "incidents": [
+    {
+      "id": 1962,
+      "country": "Canada",
+      "date": "2026-11-26",
+      "school": "MacBain Community Centre",
+      "city": "Niagara",
+      "state": "Ontario",
+      "sector": "Other",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Lockdown",
+      "outcome": "Under investigation",
+      "cluster": "MacBain Community Centre swatting 2026-11-26",
+      "notes": "Swatting incident temporarily locks down MacBain Community Centre",
+      "lat": 43.0632,
+      "lng": -79.3098,
+      "src": "Niagara This Week",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQallodWNKWkxyWTdDZHFuajRvemk0TS1RS0F6UkdkTHJMZW1ET29BRmZoUlZIVERuU1FJbHcxMVJYQjFFZGhtZjJJNDBkaXBaUnE3MkJFREpkR2pOemo4S185ellUdWhqT1dzR1pPZUpSNWc0Y1RPS1BIMTYxM1BmQnVVRVNMUU5UdHhtMlVsaUJDT3pvdW5KTDlLb0pmd3ZXWEMyc3VDc0wyUnotZWJ0d2lXMWxBWGZxMEZmMzVscDNxalNlNE11NENlb3c2dWdlUmN5R3ZqX2pGc1ZRZGR3cmdTdnlNSTl6QU9hdTBEYw?oc=5",
+      "sources": 1,
+      "county": "Niagara Region"
+    },
     {
       "id": 1961,
       "country": "United Kingdom",
@@ -23894,14 +23914,14 @@
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 111,
-    "recognized": 6,
+    "ingested": 132,
+    "skipped_seen": 102,
+    "recognized": 1,
     "new": 1,
-    "updated": 1,
-    "rejected": 25,
+    "updated": 0,
+    "rejected": 27,
     "errors": 0,
-    "attempted": 33,
+    "attempted": 30,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23917,7 +23937,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 42
       },
       {
         "edition": "GB:en",
@@ -23931,7 +23951,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 36
+        "items": 43
       },
       {
         "edition": "CA:en",
@@ -23945,10 +23965,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 36
+        "items": 42
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-26T15:13:04.084607Z"
+    "ran_at": "2026-11-26T23:51:23.258131Z"
   }
 }
