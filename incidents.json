@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-26T23:51:23.276032Z",
-  "count": 1161,
+  "generated": "2026-11-27T08:28:09.480240Z",
+  "count": 1162,
   "incidents": [
+    {
+      "id": 1963,
+      "country": "United States",
+      "date": "2026-11-27",
+      "school": "Walmart",
+      "city": "Auburn",
+      "state": "Alabama",
+      "sector": "Retail",
+      "type": "Bomb Threat",
+      "response": null,
+      "outcome": "Arrest made",
+      "cluster": "Auburn Walmart bomb threat Nov 2026",
+      "notes": "2 teens arrested, charged in Auburn Walmart bomb threat",
+      "lat": 32.6099,
+      "lng": -85.4808,
+      "src": "WSFA",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZm95aENXNzl0aEZER0d2cVN5aWkwOHNKdHo1Z3AwMmc1X0tneFlEUWYxTkd3Zml1STc5NnBrSUtmRTA0cEZScFpJc1N1ZW4waWxVX24wNVFibUtkd1U2R1F3aTRaeGlMWTdOSGRpRUJKWUFpaFdWZW1OV01kMmpPckI3ZnQ0dlZCSmVvbmxkbnVURXZZ?oc=5",
+      "sources": 1,
+      "county": "Lee County"
+    },
     {
       "id": 1962,
       "country": "Canada",
@@ -12,14 +32,14 @@
       "sector": "Other",
       "type": "Swatting / Active-Shooter Hoax",
       "response": "Lockdown",
-      "outcome": "Under investigation",
+      "outcome": "Arrest made",
       "cluster": "MacBain Community Centre swatting 2026-11-26",
       "notes": "Swatting incident temporarily locks down MacBain Community Centre",
       "lat": 43.0632,
       "lng": -79.3098,
       "src": "Niagara This Week",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQallodWNKWkxyWTdDZHFuajRvemk0TS1RS0F6UkdkTHJMZW1ET29BRmZoUlZIVERuU1FJbHcxMVJYQjFFZGhtZjJJNDBkaXBaUnE3MkJFREpkR2pOemo4S185ellUdWhqT1dzR1pPZUpSNWc0Y1RPS1BIMTYxM1BmQnVVRVNMUU5UdHhtMlVsaUJDT3pvdW5KTDlLb0pmd3ZXWEMyc3VDc0wyUnotZWJ0d2lXMWxBWGZxMEZmMzVscDNxalNlNE11NENlb3c2dWdlUmN5R3ZqX2pGc1ZRZGR3cmdTdnlNSTl6QU9hdTBEYw?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Niagara Region"
     },
     {
@@ -523,7 +543,7 @@
       "lng": -1.0318,
       "src": "Leicester Mercury",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamZQWEMxb09SUUptRU1Kd0Z4cWd5UEtQU1dHWGhzMUNxTEM5OHlvTjJOSVZHNWhZR3c5VEZrbVlEemdQekJ3RThqbFZudU1WbENDSlVkR09qc1JNa3lnYTBvMEtkZy0wTHNYNGMtcDlHcWZDYzNkZFRfOWdFQXMxa0xpV0NROTZ5UGRvNkNDb2dVSEdTZUphZlR5Ynp6VmJCTl8ybzFrNVJudk1DTFHSAa4BQVVfeXFMTmpmUFhDMW9PUlFKbUVNSndGeHFneVBLUFNXR1hoczFDcUxDOTh5b04yTklWRzVoWUd3OVRGa21ZRHpnUHpCd0U4amxWbnVNVmxDQ0pVZEdPanNSTWt5Z2EwbzBLZGctMExzWDRjLXA5R3FmQ2MzZGRUXzlnRUFzMWtMaVdDUTk2eVBkbzZDQ29nVUhHU2VKYWZUeWJ6elZiQk5fMm8xazVSbnZNQ0xR?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Leicestershire"
     },
     {
@@ -9708,14 +9728,7 @@
       "src": "KTUL",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGN3a0NFMm5zVFpYTjBhYWowRXBubW0wYjM0cDVfQ2FZeS1kbk56cWFIOFYtbENEWEdETkVBZElJaW9wVTJoYnZxZnJZNXc1SFFuYWVkTVZYZ2NjUkNROVV1aUk4MFR0RWp1NmxVSlhfTjQ1WVdTQzhxeGt4Y25PRGphLUNTTjlZR2RweG5COXh1VV9HT1lZUndNTllLQzZQVl9CWjVWMExUVlhfRll6T09TcWN0dGM4RjB3SGlyQWI?oc=5",
       "sources": 13,
-      "county": "Palm Beach County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-12",
-          "window_days": 7
-        }
-      }
+      "county": "Palm Beach County"
     },
     {
       "id": 1494,
@@ -9838,8 +9851,8 @@
       "county": "Merced County",
       "signals": {
         "repeat": {
-          "prior": 2,
-          "first": "2026-10-12",
+          "prior": 1,
+          "first": "2026-10-16",
           "window_days": 7
         }
       }
@@ -9865,8 +9878,8 @@
       "county": "Merced County",
       "signals": {
         "repeat": {
-          "prior": 2,
-          "first": "2026-10-12",
+          "prior": 1,
+          "first": "2026-10-16",
           "window_days": 7
         }
       }
@@ -9969,14 +9982,7 @@
       "src": "Los Banos Enterprise",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX2NmR0w1LVNUS2VTMUVfU3NzRVptYjZXR3lJdEZEVi1peTNieTM0M2FMbnNNTWhaNVdzY3RMcldzb2c1NkxlOHFpOUJ3Z0pOWXlabHdEazhFWFRXRjNpY3F1bUFhWWRHTEdZSUh5ZVpNVzdDRFR0NklqeTZvTUxCX3VSekRiWm9rTmFXOVJ2OW1MSFA3RC1ER2lBX0otandYQUhvdklEbm1VNDVIQV9Rby1keWVRenNFQVNtaC1iaFRBbjg?oc=5",
       "sources": 1,
-      "county": "Merced County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-12",
-          "window_days": 7
-        }
-      }
+      "county": "Merced County"
     },
     {
       "id": 1482,
@@ -23674,7 +23680,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-26",
+    "computed": "2026-11-27",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -23851,31 +23857,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-12",
-      "to": "2026-11-25",
+      "from": "2026-11-13",
+      "to": "2026-11-26",
       "days": 14,
       "hoax": {
-        "total": 95,
-        "bomb": 64,
-        "swatting": 31,
-        "schools": 59,
+        "total": 90,
+        "bomb": 61,
+        "swatting": 29,
+        "schools": 55,
         "by_sector": {
-          "K-12": 54,
-          "Retail": 8,
+          "K-12": 51,
+          "Retail": 7,
           "Workplace": 7,
           "Transit": 6,
           "Venue": 6,
-          "Higher Ed": 5,
           "Government": 4,
+          "Higher Ed": 4,
           "Other": 3,
           "Healthcare": 2
         },
-        "states": 31,
+        "states": 30,
         "confirmed_hoax": 32,
-        "arrests": 3,
-        "under_investigation": 55,
+        "arrests": 2,
+        "under_investigation": 51,
         "per_day": {
-          "2026-11-12": 5,
           "2026-11-13": 4,
           "2026-11-14": 3,
           "2026-11-15": 1,
@@ -23888,10 +23893,10 @@
           "2026-11-22": 3,
           "2026-11-23": 6,
           "2026-11-24": 7,
-          "2026-11-25": 11
+          "2026-11-25": 11,
+          "2026-11-26": 0
         },
         "per_day_schools": {
-          "2026-11-12": 4,
           "2026-11-13": 1,
           "2026-11-14": 1,
           "2026-11-15": 0,
@@ -23904,7 +23909,8 @@
           "2026-11-22": 1,
           "2026-11-23": 4,
           "2026-11-24": 5,
-          "2026-11-25": 5
+          "2026-11-25": 5,
+          "2026-11-26": 0
         }
       },
       "suspicious_mail": {
@@ -23914,14 +23920,14 @@
     }
   },
   "last_run": {
-    "ingested": 132,
-    "skipped_seen": 102,
-    "recognized": 1,
+    "ingested": 142,
+    "skipped_seen": 114,
+    "recognized": 3,
     "new": 1,
-    "updated": 0,
-    "rejected": 27,
+    "updated": 1,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 30,
+    "attempted": 28,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23937,7 +23943,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 42
+        "items": 45
       },
       {
         "edition": "GB:en",
@@ -23951,7 +23957,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 43
+        "items": 46
       },
       {
         "edition": "CA:en",
@@ -23965,10 +23971,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 42
+        "items": 45
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-26T23:51:23.258131Z"
+    "ran_at": "2026-11-27T08:28:09.459871Z"
   }
 }
