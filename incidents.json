@@ -1,7 +1,34 @@
 {
-  "generated": "2026-11-27T18:58:07.561366Z",
-  "count": 1164,
+  "generated": "2026-11-28T01:58:29.179223Z",
+  "count": 1165,
   "incidents": [
+    {
+      "id": 1966,
+      "country": "United States",
+      "date": "2026-11-28",
+      "school": "Clackamas Town Center",
+      "city": "Clackamas",
+      "state": "Oregon",
+      "sector": "Retail",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": null,
+      "outcome": "Confirmed hoax",
+      "cluster": "Clackamas Town Center active-shooter rumor debunked 2026-11-28",
+      "notes": "Sheriff's office debunks rumor of active shooter at Clackamas Town Center",
+      "lat": 45.1609,
+      "lng": -122.2305,
+      "src": "KGW",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2pTWV84SktuZnZMUlhmMEVpbXYwdVhVTDhwYzJicVh6OGQzbzhuT1YyamlrbEZGcG9nSVN1NGNhT3pQWExaT0tXbHJ4cFE5MnpDR1VCRFdIcUpWaHBlam5jbWFGTk1TRE1UMW5sOWIwNzdfNVRlQU9GZnlrZ3Ruc01jZWlDMDZJWTg1eVZjM25vakpqNHpTYmZXcllhZFJUS095U3NHU05iODFfUTl6ZW9kNkU5R3JKaWplOGtRZWZVSTFfbHNjbkMzVlZ1WVNxWTMtNFloYkZsbGgxRmJj?oc=5",
+      "sources": 1,
+      "county": "Clackamas County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-24",
+          "window_days": 7
+        }
+      }
+    },
     {
       "id": 1965,
       "country": "United States",
@@ -19,7 +46,7 @@
       "lng": -80.0026,
       "src": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeW5KUmZZd3dMeC1uZ2VuRzViS1VaMlZFRkhldHpULVF3QXVIbmxNTTd2SThfTmowN1RZYXNWOWcyWGFIUU1hR3VwV1VTdVhGN3NWU1dWWV9BUnFFM3ZwNkRUQ0RfTDJYM3Y0NXVfLXZDS2lrZHo2TE5tZG16WDhGVFBLU0hJT3lJd292M21qUnBiY2NwZWttdVZCUDhLcVE?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Allegheny County",
       "signals": {
         "repeat": {
@@ -9328,14 +9355,7 @@
       "src": "WVLT",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRDFTSlNpWGMydmZ5RlltdzhuU2ZHcFI2SDN2VUplS3E4dzk4dm03ZnVYa3cwUDdPZ1FfVzV6eG1Qd0dCa1Z5RjE5Yk12QS1GYTh4YWpNd1hrYmo2UllfckU1UTlJRlJKOGg4TzUtcGNaQWNQMmZDQ2x0WTJVWjA2Q0xkT3ZxaUhqTlRoSFNKbnB2cGpXVEREaldySEJUV0dxb0M2bGpoZ1Z5MDlGcFp3T2FFY3k0Njg?oc=5",
       "sources": 2,
-      "county": "Knox County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-13",
-          "window_days": 7
-        }
-      }
+      "county": "Knox County"
     },
     {
       "id": 1515,
@@ -9478,8 +9498,8 @@
       "county": "Butler County",
       "signals": {
         "repeat": {
-          "prior": 2,
-          "first": "2026-10-13",
+          "prior": 1,
+          "first": "2026-10-15",
           "window_days": 7
         }
       }
@@ -10456,14 +10476,7 @@
       "src": "WPXI",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdjBzdkZ6a003VXNvRDZZaUtPUzdxNU1NRDk3bHNabE0yZEZrRV9SU1hoVkx4eFY4YkhzbTRjdWF5bnRNU2hKUHdFZ2tVVUZGcTYwemhrUEZ2bzFlQU1kUWJENGdoZFR1OE9EUDFjbUhIczlzZ1VUZTRpSGFOVk0yOWY0a1N0VlJ2dVNsSW1pcHNBQk5MQXgyaWdtSW4tRjhBcWtrbkNGOTNJYUI0OUswdURTNlV4RF8xeWtoOXE1dG85cUhPS3pSNGp4RVBOb3lOUjNuSS1n0gHqAUFVX3lxTFBiYVNXaXNrQmZTaFdlNEhLS2NSTnVQZXZ6NHZSeGlZYk16N2w0dkJxb2hLVzBiMUNfdUEwWXpfalhFdGJDMTV0STRmVFpjVzcxQW5aemUxUkZlT0pnV2U3QTFQSkJTR1dUa2x2MWhHTnM1ZDMzdktwTm9PR29aak9JaXNkd0pNX0hVakNrdS1KMGx0Ylk0Q1R3aldXaXVrUjdybXBUcXJIQnJRV3pFRjlxUGlyanZGelJSdVRla2VoQWtpVnY5YjNOT2UtaHlFQXl5VEE1SXAtdFZXVU1YOXMzUF9PX2NGSkpoUQ?oc=5",
       "sources": 2,
-      "county": "Butler County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-10-13",
-          "window_days": 7
-        }
-      }
+      "county": "Butler County"
     },
     {
       "id": 1461,
@@ -10983,10 +10996,7 @@
       "src": "KSHB 41 Kansas City",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjl2cFRWR1VuWDhRNmJaMk9OSHNrQzM3dHdCZnVHOWQ5a3l0bUhwYzdneHd0d0Rwb3FDNXJwZkREZTdxMWt6d1ltclhSUHh1NVp3b09iRnBJOFVETGhXdWRTWUtHWkZxZ2lXZ0k4NDBpa0o4dmg1OXAyd2k1NHJMb3ZaR2pKTF9uSGRfQndfeXQydV80aFNnRW9QcFpjOFN3MW5qSTkzNUVET1lVVTFFblBnWXo?oc=5",
       "sources": 1,
-      "county": "Jackson County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Jackson County"
     },
     {
       "id": 1433,
@@ -11146,10 +11156,7 @@
       "src": "KMBC",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkNfNV9uZmgzTXRRcTQ2Z3RSQ3diMTNZZklBZjlDRWhCWFptRWJqU25abkZhM29vakl3SU9SRXY1RDdhd3pLYVBvQTNrd1BYS0hTOWhzUWxBUjM5UVlmWno4b2Vhbi13empxMFlUdlpXeFU0WkFvYVV5bEpNdmFndTR2VGxMM0MyTDZ5Y3pFeGpQdw?oc=5",
       "sources": 1,
-      "county": "Clay County",
-      "signals": {
-        "stacked": true
-      }
+      "county": "Clay County"
     },
     {
       "id": 1425,
@@ -23734,7 +23741,7 @@
   ],
   "signals": {
     "version": "1",
-    "computed": "2026-11-27",
+    "computed": "2026-11-28",
     "definitions": {
       "repeat": "another hoax threat in the same county within the prior 7 days (~2x base rate; usually a local serial offender)",
       "wave": "same-day hoax threats in 3+ counties of one state (remote-caller sweep)",
@@ -23911,31 +23918,30 @@
     ],
     "headline": {
       "country": "United States",
-      "from": "2026-11-13",
-      "to": "2026-11-26",
+      "from": "2026-11-14",
+      "to": "2026-11-27",
       "days": 14,
       "hoax": {
-        "total": 90,
+        "total": 89,
         "bomb": 61,
-        "swatting": 29,
+        "swatting": 28,
         "schools": 55,
         "by_sector": {
           "K-12": 51,
-          "Retail": 7,
           "Workplace": 7,
+          "Retail": 7,
           "Transit": 6,
           "Venue": 6,
-          "Government": 4,
           "Higher Ed": 4,
+          "Healthcare": 3,
           "Other": 3,
-          "Healthcare": 2
+          "Government": 2
         },
-        "states": 30,
-        "confirmed_hoax": 32,
-        "arrests": 2,
-        "under_investigation": 51,
+        "states": 29,
+        "confirmed_hoax": 29,
+        "arrests": 3,
+        "under_investigation": 52,
         "per_day": {
-          "2026-11-13": 4,
           "2026-11-14": 3,
           "2026-11-15": 1,
           "2026-11-16": 12,
@@ -23948,10 +23954,10 @@
           "2026-11-23": 6,
           "2026-11-24": 7,
           "2026-11-25": 11,
-          "2026-11-26": 0
+          "2026-11-26": 0,
+          "2026-11-27": 3
         },
         "per_day_schools": {
-          "2026-11-13": 1,
           "2026-11-14": 1,
           "2026-11-15": 0,
           "2026-11-16": 8,
@@ -23964,24 +23970,25 @@
           "2026-11-23": 4,
           "2026-11-24": 5,
           "2026-11-25": 5,
-          "2026-11-26": 0
+          "2026-11-26": 0,
+          "2026-11-27": 1
         }
       },
       "suspicious_mail": {
-        "total": 9,
+        "total": 8,
         "government": 3
       }
     }
   },
   "last_run": {
     "ingested": 144,
-    "skipped_seen": 108,
-    "recognized": 2,
-    "new": 2,
+    "skipped_seen": 123,
+    "recognized": 3,
+    "new": 1,
     "updated": 0,
-    "rejected": 30,
+    "rejected": 17,
     "errors": 0,
-    "attempted": 36,
+    "attempted": 21,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -23997,23 +24004,23 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
+        "items": 27
+      },
+      {
+        "edition": "GB:en",
+        "q": 0,
+        "route": "direct",
+        "attempt": 1,
+        "items": 60
+      },
+      {
+        "edition": "GB:en",
+        "q": 1,
+        "route": "direct",
+        "attempt": 1,
         "items": 47
       },
       {
-        "edition": "GB:en",
-        "q": 0,
-        "route": "direct",
-        "attempt": 1,
-        "items": 60
-      },
-      {
-        "edition": "GB:en",
-        "q": 1,
-        "route": "direct",
-        "attempt": 1,
-        "items": 26
-      },
-      {
         "edition": "CA:en",
         "q": 0,
         "route": "direct",
@@ -24025,10 +24032,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 47
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-27T18:58:07.550231Z"
+    "ran_at": "2026-11-28T01:58:29.165257Z"
   }
 }
