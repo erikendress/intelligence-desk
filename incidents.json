@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-28T10:24:36.849468Z",
-  "count": 1167,
+  "generated": "2026-11-28T18:56:53.819973Z",
+  "count": 1168,
   "incidents": [
     {
       "id": 1967,
@@ -23,31 +23,24 @@
       "county": "Snohomish County"
     },
     {
-      "id": 1966,
+      "id": 1969,
       "country": "United States",
-      "date": "2026-11-28",
-      "school": "Clackamas Town Center",
-      "city": "Clackamas",
-      "state": "Oregon",
-      "sector": "Retail",
-      "type": "Swatting / Active-Shooter Hoax",
-      "response": "Evacuation",
+      "date": "2026-11-27",
+      "school": "Hulburt Field",
+      "city": null,
+      "state": "Florida",
+      "sector": "Government",
+      "type": "Bomb Threat",
+      "response": null,
       "outcome": "Confirmed hoax",
-      "cluster": "Clackamas Town Center active-shooter rumor debunked 2026-11-28",
-      "notes": "Sheriff's office debunks rumor of active shooter at Clackamas Town Center",
-      "lat": 45.1609,
-      "lng": -122.2305,
-      "src": "KGW",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2pTWV84SktuZnZMUlhmMEVpbXYwdVhVTDhwYzJicVh6OGQzbzhuT1YyamlrbEZGcG9nSVN1NGNhT3pQWExaT0tXbHJ4cFE5MnpDR1VCRFdIcUpWaHBlam5jbWFGTk1TRE1UMW5sOWIwNzdfNVRlQU9GZnlrZ3Ruc01jZWlDMDZJWTg1eVZjM25vakpqNHpTYmZXcllhZFJUS095U3NHU05iODFfUTl6ZW9kNkU5R3JKaWplOGtRZWZVSTFfbHNjbkMzVlZ1WVNxWTMtNFloYkZsbGgxRmJj?oc=5",
-      "sources": 3,
-      "county": "Clackamas County",
-      "signals": {
-        "repeat": {
-          "prior": 1,
-          "first": "2026-11-24",
-          "window_days": 7
-        }
-      }
+      "cluster": "Hulburt Field bomb threat 2026-11-27",
+      "notes": "Woman arrested after false bomb threat with 10-year-old in car at Hulburt Field",
+      "lat": 27.7568,
+      "lng": -81.464,
+      "src": "WEAR-TV",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPem52YmNualpJd1lMbEkzZ3RGbnI5VUhDTm1uN3FmSEZ6RVBLUUZjZEg2ZmRCMUNIX1A3WWRPbVdYNkFRN09XTTkxcVpHdTFpQ0tfRnh3WGlOSHAxcm1HSHd2VjBZTFZuU3dIaHp6TDZCQk8xZU03cUpoZXMwU2FWbXRZZDBkMElPX25sSkR5cFVsZmNhSVlyRDJrT2Z2d0lPSTJqMmtJcC1RUFhUUWc?oc=5",
+      "sources": 1,
+      "county": null
     },
     {
       "id": 1968,
@@ -68,6 +61,33 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUTJNTUFsTTlxcGx0bER0TVNrZUxoeU9tZ1lfVHA2UVVmREd5a3JJalFiem5HTUF4aHRwd1d2REhWYmI3N19EMUhvMUUwZ1FwTEhfZ0xpVDJadzdtbi1FaTBqTkprdGhwTDlmNVhuNXpYRlJtbVdTai12dEEtU1J0YUlfSjdoUnhxQWN4NW4yY2lsY19OVkRXYTRlSnBDV0pLQ2FWOGFPSEZlTTdIQVpwSnRYSGFGUUZTTTVZ?oc=5",
       "sources": 5,
       "county": "King County"
+    },
+    {
+      "id": 1966,
+      "country": "United States",
+      "date": "2026-11-27",
+      "school": "Clackamas Town Center",
+      "city": "Clackamas",
+      "state": "Oregon",
+      "sector": "Retail",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Clackamas Town Center active-shooter rumor debunked 2026-11-28",
+      "notes": "Sheriff's office debunks rumor of active shooter at Clackamas Town Center",
+      "lat": 45.1609,
+      "lng": -122.2305,
+      "src": "KGW",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2pTWV84SktuZnZMUlhmMEVpbXYwdVhVTDhwYzJicVh6OGQzbzhuT1YyamlrbEZGcG9nSVN1NGNhT3pQWExaT0tXbHJ4cFE5MnpDR1VCRFdIcUpWaHBlam5jbWFGTk1TRE1UMW5sOWIwNzdfNVRlQU9GZnlrZ3Ruc01jZWlDMDZJWTg1eVZjM25vakpqNHpTYmZXcllhZFJUS095U3NHU05iODFfUTl6ZW9kNkU5R3JKaWplOGtRZWZVSTFfbHNjbkMzVlZ1WVNxWTMtNFloYkZsbGgxRmJj?oc=5",
+      "sources": 4,
+      "county": "Clackamas County",
+      "signals": {
+        "repeat": {
+          "prior": 1,
+          "first": "2026-11-24",
+          "window_days": 7
+        }
+      }
     },
     {
       "id": 1965,
@@ -140,7 +160,7 @@
       "lng": -85.4808,
       "src": "WSFA",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZm95aENXNzl0aEZER0d2cVN5aWkwOHNKdHo1Z3AwMmc1X0tneFlEUWYxTkd3Zml1STc5NnBrSUtmRTA0cEZScFpJc1N1ZW4waWxVX24wNVFibUtkd1U2R1F3aTRaeGlMWTdOSGRpRUJKWUFpaFdWZW1OV01kMmpPckI3ZnQ0dlZCSmVvbmxkbnVURXZZ?oc=5",
-      "sources": 1,
+      "sources": 2,
       "county": "Lee County"
     },
     {
@@ -167,7 +187,7 @@
       "id": 1961,
       "country": "United Kingdom",
       "date": "2026-11-26",
-      "school": "Royal Navy headquarters",
+      "school": "Royal Navy Command Headquarters",
       "city": "Portsmouth",
       "state": "England",
       "sector": "Government",
@@ -180,7 +200,7 @@
       "lng": -1.0906,
       "src": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ckxHWlhkcnBIWFZqY29RWHdMV1MyY3hVeUFTTE84MTJuVlZkN0h3R2p5bmxsaE8yREtzS0dzRUhlY0x5ZnZqYzFLRkFSMkJqM3JXYmhMZk9VQUE1Y0RF?oc=5",
-      "sources": 5,
+      "sources": 6,
       "county": null
     },
     {
@@ -307,7 +327,7 @@
       "lng": null,
       "src": "WTAQ",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNVZBM3RHZmJPWmd1UTB3QVg2a1hDYXB0SmI2Y0V1UVJDbm5kWGdncjZRWm5iOFhNbXd4TzdBbEdNbUg4VmdlY2FXcWlXRVNmS3Fub1o0T2NBZ01GUFNmazltbXFZZUxVOW45VVhlLTN3aU9HQXJ3YVB2Z2czc0U?oc=5",
-      "sources": 3,
+      "sources": 4,
       "county": null,
       "signals": {
         "stacked": true
@@ -23962,23 +23982,23 @@
       "to": "2026-11-27",
       "days": 14,
       "hoax": {
-        "total": 89,
-        "bomb": 61,
-        "swatting": 28,
+        "total": 91,
+        "bomb": 62,
+        "swatting": 29,
         "schools": 55,
         "by_sector": {
           "K-12": 51,
+          "Retail": 8,
           "Workplace": 7,
-          "Retail": 7,
           "Transit": 6,
           "Venue": 6,
           "Higher Ed": 4,
           "Healthcare": 3,
-          "Other": 3,
-          "Government": 2
+          "Government": 3,
+          "Other": 3
         },
         "states": 29,
-        "confirmed_hoax": 29,
+        "confirmed_hoax": 31,
         "arrests": 3,
         "under_investigation": 52,
         "per_day": {
@@ -23995,7 +24015,7 @@
           "2026-11-24": 7,
           "2026-11-25": 11,
           "2026-11-26": 0,
-          "2026-11-27": 3
+          "2026-11-27": 5
         },
         "per_day_schools": {
           "2026-11-14": 1,
@@ -24021,14 +24041,14 @@
     }
   },
   "last_run": {
-    "ingested": 133,
-    "skipped_seen": 111,
-    "recognized": 10,
-    "new": 2,
+    "ingested": 150,
+    "skipped_seen": 120,
+    "recognized": 5,
+    "new": 1,
     "updated": 0,
-    "rejected": 12,
+    "rejected": 24,
     "errors": 0,
-    "attempted": 22,
+    "attempted": 30,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -24044,7 +24064,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 52
       },
       {
         "edition": "GB:en",
@@ -24058,7 +24078,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 26
+        "items": 53
       },
       {
         "edition": "CA:en",
@@ -24072,10 +24092,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 49
+        "items": 25
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-28T10:24:36.827310Z"
+    "ran_at": "2026-11-28T18:56:53.804260Z"
   }
 }
