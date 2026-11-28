@@ -1,7 +1,27 @@
 {
-  "generated": "2026-11-28T01:58:29.179223Z",
-  "count": 1165,
+  "generated": "2026-11-28T10:24:36.849468Z",
+  "count": 1167,
   "incidents": [
+    {
+      "id": 1967,
+      "country": "United States",
+      "date": "2026-11-28",
+      "school": "Alderwood Mall",
+      "city": "Lynnwood",
+      "state": "Washington",
+      "sector": "Retail",
+      "type": "Swatting / Active-Shooter Hoax",
+      "response": "Evacuation",
+      "outcome": "Confirmed hoax",
+      "cluster": "Alderwood Mall Lynnwood WA 2026-11-28",
+      "notes": "Lynnwood police confirm no active shooter at Alderwood Mall, claim food court fight caused chaos",
+      "lat": 47.8279,
+      "lng": -122.3054,
+      "src": "KIRO 7 News Seattle",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLW5qcWxuZnFUOGpFVGtBQ1h6SkVISWJ0Mm1Ba1Fuc0Z2MGF1UlA1TDBKZHNfNHR3X2ticDdYUVc3UF8tU1lBamNoY3kyREN2dVYxNDVqTkFWMXZ2OFF0alhMcTVmaG9qc0pndXZLNUhrUG5MZkVINUtSUEQtSkF1SUNUT0drV3lhNEdJaldNbnI5OFNqcEFTMm1Felh2SzlrS2RObkJCOEkzQUEzM0VORGVqbEx3TFNpVXBubDZoZ0dURnBMVVdaQW9FTno0bm1rV3J2X1diRDFzZXFRUmFsSG5TdDh5OGpJS0Y3TElKUHFDUHE3X1E?oc=5",
+      "sources": 3,
+      "county": "Snohomish County"
+    },
     {
       "id": 1966,
       "country": "United States",
@@ -11,7 +31,7 @@
       "state": "Oregon",
       "sector": "Retail",
       "type": "Swatting / Active-Shooter Hoax",
-      "response": null,
+      "response": "Evacuation",
       "outcome": "Confirmed hoax",
       "cluster": "Clackamas Town Center active-shooter rumor debunked 2026-11-28",
       "notes": "Sheriff's office debunks rumor of active shooter at Clackamas Town Center",
@@ -19,7 +39,7 @@
       "lng": -122.2305,
       "src": "KGW",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd2pTWV84SktuZnZMUlhmMEVpbXYwdVhVTDhwYzJicVh6OGQzbzhuT1YyamlrbEZGcG9nSVN1NGNhT3pQWExaT0tXbHJ4cFE5MnpDR1VCRFdIcUpWaHBlam5jbWFGTk1TRE1UMW5sOWIwNzdfNVRlQU9GZnlrZ3Ruc01jZWlDMDZJWTg1eVZjM25vakpqNHpTYmZXcllhZFJUS095U3NHU05iODFfUTl6ZW9kNkU5R3JKaWplOGtRZWZVSTFfbHNjbkMzVlZ1WVNxWTMtNFloYkZsbGgxRmJj?oc=5",
-      "sources": 1,
+      "sources": 3,
       "county": "Clackamas County",
       "signals": {
         "repeat": {
@@ -28,6 +48,26 @@
           "window_days": 7
         }
       }
+    },
+    {
+      "id": 1968,
+      "country": "United States",
+      "date": "2026-11-27",
+      "school": "Shoreline South light rail station",
+      "city": "Shoreline",
+      "state": "Washington",
+      "sector": "Transit",
+      "type": "Suspicious Package / Mail",
+      "response": "Evacuation",
+      "outcome": "Resolved \u2013 no cause found",
+      "cluster": "Shoreline-South-Station-Nov2026",
+      "notes": "KCSO clears Shoreline South Station of suspicious item",
+      "lat": 47.7565,
+      "lng": -122.3437,
+      "src": "KOMO",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUTJNTUFsTTlxcGx0bER0TVNrZUxoeU9tZ1lfVHA2UVVmREd5a3JJalFiem5HTUF4aHRwd1d2REhWYmI3N19EMUhvMUUwZ1FwTEhfZ0xpVDJadzdtbi1FaTBqTkprdGhwTDlmNVhuNXpYRlJtbVdTai12dEEtU1J0YUlfSjdoUnhxQWN4NW4yY2lsY19OVkRXYTRlSnBDV0pLQ2FWOGFPSEZlTTdIQVpwSnRYSGFGUUZTTTVZ?oc=5",
+      "sources": 5,
+      "county": "King County"
     },
     {
       "id": 1965,
@@ -23975,20 +24015,20 @@
         }
       },
       "suspicious_mail": {
-        "total": 8,
+        "total": 9,
         "government": 3
       }
     }
   },
   "last_run": {
-    "ingested": 144,
-    "skipped_seen": 123,
-    "recognized": 3,
-    "new": 1,
+    "ingested": 133,
+    "skipped_seen": 111,
+    "recognized": 10,
+    "new": 2,
     "updated": 0,
-    "rejected": 17,
+    "rejected": 12,
     "errors": 0,
-    "attempted": 21,
+    "attempted": 22,
     "backfill": false,
     "gapfill": false,
     "routes": [
@@ -24004,7 +24044,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 27
+        "items": 26
       },
       {
         "edition": "GB:en",
@@ -24018,7 +24058,7 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 26
       },
       {
         "edition": "CA:en",
@@ -24032,10 +24072,10 @@
         "q": 1,
         "route": "direct",
         "attempt": 1,
-        "items": 47
+        "items": 49
       }
     ],
     "engine": "v9-signals",
-    "ran_at": "2026-11-28T01:58:29.165257Z"
+    "ran_at": "2026-11-28T10:24:36.827310Z"
   }
 }
